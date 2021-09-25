@@ -1,0 +1,88 @@
+.team {
+	width: 80%;
+	height: auto;
+	@include center;
+	flex-direction: column;
+	margin-bottom: 5%;
+	@media #{$mq-670} {
+		display: block;
+		margin: auto;
+		// height: 450px;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		justify-content: space-around;
+	}
+	&>h2 {
+		color: #fff;
+		font-size: 2.25em;
+		font-weight: 200;
+		@media #{$mq-670} {
+			// font-size: 2em;
+			text-align: center;
+			margin-top: 0.25em;
+		}
+		@media #{$mq-1400} {
+			font-size: 2em;
+		}
+	}
+	&>div {
+		width: 90%;
+		@include center;
+		flex-direction: column;
+		margin: auto;
+		@media #{$mq-670} {
+			display: block;
+		}
+		&>.team-member {
+			@include center;
+			font-weight: 400;
+			color: #fff;
+			width: 100%;
+			padding: 10px;
+			border-bottom: 1px solid rgba(#E2E6E6, 0.5);
+			justify-content: flex-start;
+			&:last-of-type {
+				border: none;
+			}
+			&>img {
+				height: 35px; 
+				width: 35px;
+				margin-right: 15px;
+			}
+			&>.user-info {
+				@include center;
+				flex-direction: column;
+				align-items: flex-start;
+				&>h3 {
+					margin: 0;
+					font-size: 1.1em;
+					text-align: left;
+					@media #{$mq-670} {
+						font-size: 1em;
+					}
+				}
+				&>.github {
+					@include center;
+					// margin-left: 25px;
+					cursor: pointer;
+					&>img {
+						height: 30px; width: 30px;
+						padding: 5px;
+						@media #{$mq-670} {
+							height: 25px; width: 25px;
+							padding: 5px;
+						}
+					}
+					&>h4 {
+						margin: 0;
+						font-size: 1em;
+						color: #74E0FF;
+						@media #{$mq-670} {
+							font-size: 0.85em;
+						}
+					}
+				}
+			}
+		}
+	}
+}

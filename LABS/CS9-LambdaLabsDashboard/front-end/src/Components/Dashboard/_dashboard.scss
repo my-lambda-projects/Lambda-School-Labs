@@ -1,0 +1,205 @@
+.Dashboard {
+	@include center;
+	min-height: 100vh; 
+	background: $darkergray;
+	position: relative;
+	width: 100%;
+	@media #{$mq-1070} {
+		width: calc(100% - 200px);
+		    margin-left: 200px;
+
+	}
+	&>div {
+		@include center;
+		min-height: 100vh;
+		width: 100%;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin-top: 50px;
+		@media #{$mq-670} {
+			margin-top: 90px;
+			width: 97.5%;
+		}
+		@media #{$mq-890} {
+			margin-top: 100px;
+		}
+		@media #{$mq-1070} {
+			margin-top: 3.5%;
+		}
+		&>.top-panel {
+			width: 100%;
+			@include center;
+			margin-bottom: 1vh;
+			margin-top: 4vh;
+			background: $darkgray;
+			padding: 5% 0;
+			@include headerShadow;
+			width: 90%;
+			border-radius: 10px;
+			text-overflow: ellipsis;
+			@media #{$mq-670} {
+				padding: 2.5% 0;
+				// width: 95%;
+				margin-bottom: 2vh;
+			}
+			@media #{$mq-890} {
+				width: 90%;
+				margin-bottom: 3vh;
+			}
+			&>h1 {
+				font-size: 2.15em;
+				font-weight: 200;
+				@include gradientText;
+			    margin: 0;
+			    @media #{$mq-iphoneX} {
+					font-size: 2.5em;
+			    }
+			    @media #{$mq-670} {
+					font-size: 3em;
+				}
+			}
+		}
+		.boxes {
+			@include center;
+			width: 100%;
+			flex-direction: column;
+			margin-bottom: 8vh;
+			@media #{$mq-670} {
+				flex-direction: row;
+				flex-wrap: wrap;
+				margin-bottom: 4vh;
+			}
+			&>.box {
+				height: 100%;
+				width: 90%;
+				border-radius: 10px;
+				@include center;
+				background: $darkgray;
+				margin: 3vh 0 4vh 0;
+				padding: 2.5% 0;
+				@include headerShadow;
+				flex-direction: column;
+				@media #{$mq-670} {
+					height: 450px;
+				}
+				@media #{$mq-890} {
+					width: 43%;
+					margin: 4vh 0 4vh 0;
+				}
+			}
+			&>.circle-box {
+				position: relative;
+				&>.bottom {
+					position: absolute;
+					top: 0; left: 0;
+					height: 15px; width: 100%;
+					border-top-left-radius: 10px;
+					border-top-right-radius: 10px;
+				}
+				@media #{$mq-670} {
+					justify-content: space-around;
+					width: 42.5%;
+					margin: 4vh 2.5% 4vh 0;
+				}
+				@media #{$mq-890} {
+					width: 34.5%;
+					margin: 4vh 0 4vh 2.5%;
+				}
+				@media #{$mq-1400} {
+					width: 26%;
+					margin: 4vh 1.5% 4vh 1.5%;
+				}
+			}
+			&>.bar-graph-box {
+				width: 90%;
+				padding: 2.5% 0 0 0;
+				@media #{$mq-670} {
+					padding: 0 0 0 0;
+					margin-bottom: 4vh;
+				}
+				@media #{$mq-890} {
+					width: 50.5%;
+					margin: 4vh 2.5% 4vh 0;
+				}
+				@media #{$mq-1400} {
+					width: 30.5%;
+					margin: 4vh 1.5% 4vh 0;
+				}
+			}
+			&>.team-box {
+				position: relative;
+				&>.bottom {
+					position: absolute;
+					top: 0; left: 0;
+					height: 15px; width: 100%;
+					border-top-left-radius: 10px;
+					border-top-right-radius: 10px;
+				}
+				@media #{$mq-670} {
+					width: 42.5%;
+					margin: 4vh 0 4vh 2.5%;
+				}
+				@media #{$mq-890} {
+					width: 42.5%;
+					margin: 4vh 2.5% 4vh 0;
+				}
+				@media #{$mq-1400} {
+					width: 27.5%;
+					margin: 4vh 0 4vh 1.5%;
+				}
+			}
+			&>.stat-box {
+				@include center;
+				position: relative;
+				&>.bottom {
+					position: absolute;
+					top: 0; left: 0;
+					height: 15px; width: 100%;
+					border-top-left-radius: 10px;
+					border-top-right-radius: 10px;
+				}
+				@media #{$mq-670} {
+					height: 450px;
+					justify-content: space-around;
+					width: 42.5%;
+					&:nth-of-type(odd) {
+						margin: 3vh 0 4vh 2.5%;
+					}
+					&:nth-of-type(even) {
+						margin: 3vh 2.5% 4vh 0;
+					}
+				}
+				@media #{$mq-890} {
+					width: 42.5%;
+					&:nth-of-type(odd) {
+						margin: 4vh 2.5% 4vh 0;
+					}
+					&:nth-of-type(even) {
+						margin: 4vh 0 4vh 2.5%;
+					}
+				}
+				@media #{$mq-1400} {
+					width: 20.25%;
+					&:nth-of-type(odd) {
+						margin: 4vh 0 4vh 1.5%;
+					}
+					&:nth-of-type(even) {
+						margin: 4vh 1.5% 4vh 0;
+					}
+					&:last-of-type {
+						margin: 4vh 0 4vh 1.5%;
+					}
+					&:nth-of-type(n + 1) {
+						margin: 4vh 1.5% 4vh 1.5%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@import 'CircleGraph/circle-graph.scss';
+@import 'Team/team.scss';
+@import 'CircleGraph/CircleDetails/circle-details.scss';
+@import 'BarGraph/bar-graph.scss';
+@import 'StatBox/statbox.scss';

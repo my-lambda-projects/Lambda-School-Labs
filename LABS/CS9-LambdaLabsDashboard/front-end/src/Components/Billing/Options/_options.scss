@@ -1,0 +1,157 @@
+.options {
+	width: 100%;
+	@include center;
+	height: 100%;
+	&>div {
+		@include center;
+		width: 100%;
+		flex-direction: column;
+		@media #{$mq-670} {
+			flex-direction: row;
+		}
+		&>.option {
+			width: 90%;
+			max-width: 400px;
+			background: lighten($darkgray, 7.5%);
+			@include center;
+			@include headerShadow;
+			border-radius: 10px;
+			margin: 1em 0 5em 0;
+			position: relative;
+			color: #fff;
+			@media #{$mq-670} {
+				width: 40%;
+				margin: 3%;
+			}
+			&>.price {
+				position: absolute;
+				top: 35px; left: 0;
+				width: 100%;
+				height: 40px;
+				@include center;
+				@include backgroundTrello;
+				@include buttonShadow;
+				&>.circle {
+					height: 175px; width: 175px;
+					border-radius: 50%;
+					@include center;
+					@include headerShadow;
+					@include backgroundTrello;
+					&>h3 {
+						color: #fff;
+						font-weight: 200;
+						font-size: 45px;
+					}
+				}
+			}
+			&:last-of-type {
+				&>.price {
+					@include backgroundGit;
+					&>.circle {
+						@include backgroundGit;
+						&>h3 {
+							font-size: 40px;
+						}
+					}
+				}
+				&>.center>button {
+					@include backgroundGit;
+				}
+				&>.center>h2 {
+					@include gitText;
+					&::after {
+						content: "";
+						position: absolute;
+						bottom: calc(50% - 1.25px);
+						left: -50px;
+						@include backgroundGit;
+						width: 40px;
+						height: 2.5px;
+					}
+					&::before {
+						content: "";
+						position: absolute;
+						bottom: calc(50% - 1.25px);
+						right: -50px;
+						@include backgroundGit;
+						width: 40px;
+						height: 2.5px;
+					}
+				}
+			}
+			&>.center {
+				@include center;
+				flex-direction: column;
+				margin-top: 160px;
+				padding-bottom: 20px;
+				&>h2 {
+					@include trelloText;
+					font-size: 2em;
+					font-weight: 900;
+					margin: 0;
+					position: relative;
+					&::after {
+						content: "";
+						position: absolute;
+						bottom: calc(50% - 1.25px);
+						left: -50px;
+						@include backgroundTrello;
+						width: 40px;
+						height: 2.5px;
+					}
+					&::before {
+						content: "";
+						position: absolute;
+						bottom: calc(50% - 1.25px);
+						right: -50px;
+						@include backgroundTrello;
+						width: 40px;
+						height: 2.5px;
+					}
+				}
+				&>.desc {
+					@include center;
+					width: 100%;
+					&>ul {
+						width: 100%;
+						margin-right: 20px;
+						&>li {
+							font-size: 1.15em;
+							font-weight: 600;
+							margin: 0.5em 0;
+							text-align: left;
+							@media #{$mq-670} {
+								font-size: 1em;
+							}
+							@media #{$mq-800} {
+								font-size: 1.1em;
+							} 
+						}
+					}
+				}
+				&>button {
+					outline: none; border: none;
+					border-radius: 2.5px;
+					width: 80%;
+					height: 50px;
+					@include backgroundTrello;
+					text-transform: uppercase;
+					font-weight: 900;
+					margin-bottom: 15px;
+					margin-top: 15px;
+					@include headerShadow;
+					transition-duration: 0.3s;
+					@media #{$mq-670} {
+						width: 80%;
+					}
+					@media #{$mq-1070} {
+						width: 100%;
+						&:hover {
+							transform: translateY(-2.5px);
+						}
+					}
+				}
+			}
+		}
+	}
+}
