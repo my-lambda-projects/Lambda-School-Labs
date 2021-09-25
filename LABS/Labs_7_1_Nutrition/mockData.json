@@ -1,0 +1,67 @@
+[
+    {
+      "RecipeID": "5be1d43fe361ad9fae532379",
+      "CookTime": 28,
+      "CookingMethod": "Steaming",
+      "Nutrition": "5be1d43fbad765252378b7c0",
+      "RecipeTitle": " Pizza",
+      "RecipeCategory": "eastern",
+      "RecipeCuisine": "Indian",
+      "RecipeIngredients": "blue",
+      "RecipeInstructions": "blue",
+      "RecipeYield": 27,
+      "SuitableForDiet": "blue"
+    },
+    {
+      "RecipeID": "5be1d43f842807b624713897",
+      "CookTime": 25,
+      "CookingMethod": "baking",
+      "Nutrition": "5be1d43f8f61501f78165947",
+      "RecipeTitle": " Pizza",
+      "RecipeCategory": "eastern",
+      "RecipeCuisine": "Italian",
+      "RecipeIngredients": "green",
+      "RecipeInstructions": "blue",
+      "RecipeYield": 24,
+      "SuitableForDiet": "brown"
+    },
+    {
+      "RecipeID": "5be1d43f1d20c843ce96b6ff",
+      "CookTime": 21,
+      "CookingMethod": "frying",
+      "Nutrition": "5be1d43f61883cffb48d2b76",
+      "RecipeTitle": "Nuggets",
+      "RecipeCategory": "continental",
+      "RecipeCuisine": "universal",
+      "RecipeIngredients": "brown",
+      "RecipeInstructions": "blue",
+      "RecipeYield": 24,
+      "SuitableForDiet": "brown"
+    },
+    {
+      "RecipeID": "5be1d43f79a65b82ad310cf6",
+      "CookTime": 30,
+      "CookingMethod": "baking",
+      "Nutrition": "5be1d43fee1c1296f6a5184c",
+      "RecipeTitle": "Steamed Vegetable",
+      "RecipeCategory": "eastern",
+      "RecipeCuisine": "universal",
+      "RecipeIngredients": "green",
+      "RecipeInstructions": "blue",
+      "RecipeYield": 39,
+      "SuitableForDiet": "brown"
+    },
+    {
+      "RecipeID": "5be1d43f6a774e1c83fb464b",
+      "CookTime": 36,
+      "CookingMethod": "frying",
+      "Nutrition": "5be1d43f6124a6ad12cfa40f",
+      "RecipeTitle": "Steamed Vegetable",
+      "RecipeCategory": "eastern",
+      "RecipeCuisine": "universal",
+      "RecipeIngredients": "blue",
+      "RecipeInstructions": "green",
+      "RecipeYield": 25,
+      "SuitableForDiet": "blue"
+    }
+  ]
