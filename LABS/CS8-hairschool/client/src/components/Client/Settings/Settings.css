@@ -1,0 +1,28 @@
+.Settings{
+    height: 100vh;
+    background: linear-gradient(to bottom right, #6d2e46, #9A94BC);
+}
+
+.Settings .Container{
+    margin: 2%;
+    
+}
+
+.SettingsFormContainer {
+    background: white;
+    padding: 2%;
+    border: 5px solid #6d2e46;
+}
+
+
+.Settings .Title {
+    margin-right: 15%;
+    font-size: 25pt;
+    color: white;
+    text-shadow: 2px #000000;
+    font-family: 'Poiret One', cursive;
+    font-stretch: expanded;
+    flex: flex;
+    text-align: center;
+    margin-bottom: 2%;
+}

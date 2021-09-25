@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+.LandingPage {
+    height: 100vh;
+	background: linear-gradient(to bottom right, white, #6d2e46);
+}
+
+.App-header {
+    display: flex;
+    justify-content: flex-end;
+    height: 8%;
+    margin-bottom: 1%;
+    margin-top: 0%;
+	padding: 1%;
+	font-size: 1.4rem;
+	margin-right: 2%;
+  }
+  
+.purple {
+    color: #5c2c3f;
+	padding: .5%;
+	
+    
+}  
+.purple:hover {
+	color: orange;
+}
+
+.white {
+    color: white;
+	padding: .5%;
+	
+    
+}  
+.white:hover {
+	color: orange;
+}
+
+.link {
+	color: white;
+	padding: .5%;
+}
+
+.link:hover {
+	color: orange;
+}
+
+.LandingTitle {
+	text-align: center;
+	color: rgb(255, 255, 255, .5);
+	margin-top: -2%;
+	margin-bottom: .5%;
+	margin-left: -4%;
+	font-size: 6rem;
+	font-weight: 200;
+	font-family: 'Poiret One', cursive;
+}
+
+.carousel {
+	margin-top: -.8%;
+}
+
+lContainer {
+	padding-top: 20%;
+}
+
+.text {
+    text-align: center;
+}
+
+.scheduleButton {
+	margin-top: 2%;
+    margin-left: 45%;
+	width: 10%;
+	height: 7%;
+	color: white;
+	background-color: #6d2e46;
+	margin-bottom: 3%;
+}

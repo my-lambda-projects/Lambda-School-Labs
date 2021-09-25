@@ -1,0 +1,15 @@
+
+.navItem {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 1px solid #6d2e46;
+    padding: 3%;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.3);
+    
+}
+
+.navItem:hover {
+    color: black;
+}

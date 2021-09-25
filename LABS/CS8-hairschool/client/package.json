@@ -1,0 +1,35 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.2",
+    "fullcalendar": "^3.9.0",
+    "fullcalendar-reactwrapper": "^1.0.7",
+    "i": "^0.3.6",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "react": "^16.4.1",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-bootstrap": "^0.32.1",
+    "react-calendar": "^2.16.1",
+    "react-coverflow": "^0.2.14",
+    "react-datetime-picker": "^1.4.1",
+    "react-dom": "^16.4.1",
+    "react-infinite-calendar": "^2.3.1",
+    "react-modal-bootstrap": "^1.1.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-select": "^2.0.0",
+    "react-star-rating-component": "^1.4.1",
+    "reactstrap": "^6.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && echo '/*    /index.html   200' > build/_redirects",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

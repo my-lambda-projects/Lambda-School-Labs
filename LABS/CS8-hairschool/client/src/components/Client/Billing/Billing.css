@@ -1,0 +1,22 @@
+.Billing{
+    height: 100vh;
+    background: linear-gradient(to bottom right, #6d2e46, #9A94BC);
+}
+
+.Billing .Container{
+    margin: 2%;
+
+    
+}
+
+.Billing .Title {
+    margin-right: 15%;
+    font-size: 25pt;
+    color: white;
+    text-shadow: 2px #000000;
+    font-family: 'Poiret One', cursive;
+    font-stretch: expanded;
+    flex: flex;
+    text-align: center;
+    margin-bottom: 2%;
+}

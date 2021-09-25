@@ -1,0 +1,34 @@
+.SignUp {  
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #6d2e46, #9A94BC);
+}
+
+.SignUpTitle {
+    margin-top: 5%;
+    margin-left: 42%;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 5rem;
+    font-family: 'Poiret One', cursive;
+}
+
+.SignUpForm { 
+    
+    margin-left:33%;
+    height: 40%;
+    width: 30%;
+    color: white;
+}
+
+.button {
+    color: white;
+    background-color: #6d2e46;
+}
+
+.account {
+    margin-left: 1%;
+}
+

@@ -1,0 +1,36 @@
+.SignIn {
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+
+.SignInTitle {
+    margin-top: 8%;
+    margin-left: 42%;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 5rem;
+    font-family: 'Poiret One', cursive;
+}
+
+.SignInForm { 
+    margin-bottom: 10.5%;
+    margin-left:33%;
+    height: 40%;
+    width: 30%;
+    color: white;
+}
+
+.button {
+    color: white;
+    background-color: #6d2e46;
+}
+
+.account {
+    margin-left: 1%;
+}
+
+.errorMessage {
+    color: red;
+}

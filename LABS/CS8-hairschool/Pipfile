@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+djangorestframework-jwt = "*"
+django-cors-headers = "*"
+"psycopg2-binary" = "*"
+request = "*"
+gunicorn = "*"
+python-decouple = "*"
+dj-database-url = "*"
+whitenoise = "*"
+tox = "*"
+restauth = "*"
+dj-stripe = "*"
+
+[dev-packages]
+"autopep8" = "*"
+
+[requires]
+python_version = "3.6"
