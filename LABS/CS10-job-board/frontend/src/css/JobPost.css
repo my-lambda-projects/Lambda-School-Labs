@@ -1,0 +1,17 @@
+.job-post {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.job-post .flex  {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.job-post textarea {
+    min-height: 140px;
+}
+
+.job-post button[type="primary"] {
+    width: 100px;
+}

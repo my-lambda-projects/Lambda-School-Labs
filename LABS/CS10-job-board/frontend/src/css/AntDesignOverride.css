@@ -1,0 +1,160 @@
+/* Ant Design overrides */
+@import '~antd/dist/antd.css';
+
+
+/* Login Icons */
+.anticon {
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.anticon:hover {
+    cursor: pointer;
+}
+
+.anticon svg {
+    display: flex;
+}
+
+.ant-input-affix-wrapper {
+    font-size: 16px;
+}
+
+.ant-input-affix-wrapper .ant-input-prefix {
+    left: 0.8rem;
+    top: 40%;
+}
+
+/* Alerts */
+
+.ant-alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    z-index: 1000;
+}
+
+.ant-alert-icon {
+    position: unset;
+    top: unset;
+    right: unset;
+    margin-right: 5px;
+}
+
+.ant-alert-close-icon {
+    position: relative;
+    margin-left: 2px;
+    top: 0;
+    right: 0;
+    line-height: inherit;
+    font-size: 16px;
+    overflow: visible;
+}
+
+/* Menu Items */
+
+.ant-dropdown-menu-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Form  */
+
+.ant-form {
+    padding: unset;
+    margin: unset;
+}
+
+.ant-input {
+    font-size: 1.55rem;
+}
+
+.ant-form-item {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.ant-form-item-children {
+    display: flex;
+    align-items: center;
+}
+
+.ant-form-item-label label {
+    color: unset;
+}
+
+.ant-form label {
+    font-size: 1.55rem;
+}
+
+.ant-btn-primary {
+    background-color: #604CB0;
+    border-color: #D8D5EA;
+}
+
+.ant-btn-primary:hover {
+    background-color: #c3b9ff;
+    border-color: #896cff;
+    color: black;
+}
+
+.ant-btn-secondary {
+    border-color: #604CB0;
+    background: none;
+    color: #604CB0;
+    align-self: flex-start;
+}
+
+.ant-btn-secondary:hover {
+    border-color: #604CB0;
+    box-shadow: 0 0.55px 0.1px 0.1px;
+    background: white;
+    color: #604CB0;
+}
+
+.ant-btn-secondary:active, .ant-btn-secondary:focus {
+    color: #604CB0;
+    border-color: #604CB0;
+}
+
+.ant-btn-primary:active, .ant-btn-primary:focus {
+    color: white;
+    border-color: #604CB0;
+    background: #896cff;
+}
+
+/* Job Post */
+.ant-input-number {
+    width: 100%;
+    max-width: 150px;
+}
+
+.ant-switch-checked {
+    background-color: #604CB0;
+}
+
+/* Progress */
+.ant-progress-circle-path {
+    stroke: #604CB0;
+    fill: white;
+    fill-opacity: 100;
+}
+
+.ant-progress-status-success {
+    color: #52c41a;
+    stroke: #52c41a;
+}
+
+/* Company */
+
+.ant-list-item-action-split-modified {
+    position: relative;
+    margin: 0 5px;
+    background-color: #e8e8e8;
+    height: 14px;
+    top: 50%;
+}
+
+.ant-radio-button ~ span {
+    user-select: none;
+}

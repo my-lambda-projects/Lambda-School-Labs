@@ -1,0 +1,30 @@
+.job-list-container {
+    margin: 10px auto 0;
+    padding: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.1);
+}
+.job-list {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 2;
+}
+
+.job-list .ant-btn-primary {
+    background-color: #604CB0;
+    border-color: #D8D5EA;
+    margin: 10px 10px;
+    width: 20px;
+}
+
+.job-list .ant-btn-primary:hover {
+    background-color: #D8D5EA;
+    border-color: #604CB0;
+    color: black;
+}
+.job-list .anticon {
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,286 @@
+/* 
+  COLOR VARS:
+  app background: #f9f9f9
+  headers: #4A4A4A
+  landing h1, landing-header: #604CB0
+  landing h3, landing-copy: #312C4B
+  form input border-bottom: 1px solid rgba(120, 146, 184, 0);
+  form input background:rgba(22, 122, 165, 0.06);
+  form input:placeholder color: rgba(0, 0, 0, 0.45);
+
+  //// AntDesignOverride.css ////
+  ant-button background: #604CB0
+  ant-button border: #D8D5EA
+  ant-button backgournd:hover: #c3b9ff
+  ant-button border-color: #896CFF
+*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y: scroll;
+}
+
+h1, .h1, h2, .h2 {
+  font-family: 'Lora', 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+
+h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
+  font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: #4A4A4A;
+}
+
+h1, .h1 {
+  font-size: 3.2rem;
+}
+
+h2, .h2 {
+  font-size: 2.4rem;
+}
+
+h3, .h3 {
+  font-size: 1.8rem;
+}
+
+
+a, p, input, ul, li, button, label {
+  font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #4A4A4A;
+  font-size: 1.6rem;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+p, input, button, label {
+  font-size: 1.4rem;
+}
+
+button {
+  padding: 1rem 0.5rem;
+  margin: .5rem 0;
+  min-width: 90px;
+  background: #7892EA;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  /* background: #B0C9FF; */
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  text-rendering: geometricPrecision;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.nav-wrapper {
+  width: 100%;
+}
+
+/* styling for pathname '/' */
+
+.home-navigation {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.home-navigation > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.home-navigation h1,
+.home-navigation h3 {
+  margin: 15px 20px;
+}
+
+.home-navigation h1 {
+  color: #604CB0;
+  letter-spacing: -0.3px;
+}
+
+.home-navigation h3 {
+  color: #312C4B;
+  letter-spacing: -0.2px;
+}
+
+.home-navigation a {
+  margin: 15px 20px;
+}
+
+.home-navigation a.h1 {
+  margin: 0;
+}
+
+
+/* Main div wrapper for bottom half of app */
+
+.main {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 90vh;
+  padding: 0 3%;
+  max-width: 1250px;
+}
+
+/* Global Form & input styling */
+/* Can override in component specific css files */
+
+.form {
+  text-align: center;
+  margin: 10px 0;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  max-width: 340px;
+  min-width: 280px;
+  border-radius: 4px;
+}
+
+.form input {
+  margin: 0 0 1rem;
+  padding: 20px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(120, 146, 184, 0);
+  background:rgba(22, 122, 165, 0.06);
+}
+
+.form input:focus {
+  outline: none;
+  background: white;
+}
+
+.form input[type=checkbox] {
+  margin: 1rem;
+}
+
+.form input::placeholder {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.form h3 {
+  margin: 1rem;
+}
+
+.form button {
+  align-self: flex-end;
+}
+
+/* Message positioning */
+
+.message {
+  position: absolute;
+}
+
+/* Utility classes */
+
+.whitespace {
+  flex-grow: 1;
+}
+
+
+/* Flex Utilities */
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-flow: column wrap;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-items: center;
+}
+
+.justify-baseline {
+  justify-items: baseline;
+}
+
+.flex-start {
+  align-self: flex-start;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.center {
+  align-items: center;
+}
+
+
+/* CSS Boneyard */
+
+/* 
+.App .logged-out-heading {
+  display: flex;
+  flex-direction: row;
+}
+.App .logged-out-heading h1 {
+  padding-right: 150px;
+  color: #665CBF;
+  font-size: 4.8rem;
+  text-shadow: 2px 2px 4px#FFFFFF;
+}
+.App .logged-out-heading h2 {
+  margin-top: 20px;
+  padding-right: 600px;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(96,76,176);
+} */
+
+/* .tooltip {
+  background: white;
+  border-radius: 4px;
+  padding: 0.25rem 0.4rem;
+  border: 1px solid #7892EA;
+}
+
+.tooltip::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top: -6px;
+  left: 23px;
+  background: #FFF;
+  border-top: 1px solid #7892EA;
+  border-left: 1px solid #7892EA;
+  transform: rotate(45deg);
+} */
