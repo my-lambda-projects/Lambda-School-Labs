@@ -1,0 +1,94 @@
+.clientRsvp {
+    display: flex;
+    margin-top: 150px;
+}
+
+.clientRsvp .clientRsvpContainer {
+    margin: 0 auto 50px;
+    width: 80%;
+    padding-right: 10%;
+}
+
+.clientRsvp .clientNavSidebar {
+    width: 20%;
+    height: 100vh;
+    padding-left: 20px;
+}
+
+.clientRsvp .buttonDiv {
+    margin: 60px auto 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clientRsvp .buttonDiv .rsvpButton {
+    width: 30%;
+    margin: 0 auto 30px;
+}
+
+.clientRsvp .buttonDiv .successMessage {
+    margin: 0 auto;
+}
+
+.successMessage {
+    color: green;
+    font-weight: 800;
+}
+
+.disabledBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: red;
+}
+
+.rsvpCard {
+    width: 50%;
+    margin: 0 auto 30px;
+    padding: 0 20px 20px;
+}
+
+@media (max-width: 800px) {
+    .clientRsvp {
+        margin: 100px auto 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .clientRsvp .clientRsvpContainer {
+        margin: 0 auto;
+        width: 60%;
+        padding: 0;
+    }
+    
+    .clientRsvp .clientNavSidebar {
+        display: none;
+    }
+
+    .clientRsvp .buttonDiv .rsvpButton {
+        width: 50%;
+    }
+
+    .rsvpCard {
+        width: 80%;
+    }
+
+    .addQuestionButtons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .clientRsvp .clientRsvpContainer {
+        width: 80%;
+    }
+
+    .clientRsvp .buttonDiv .rsvpButton {
+        width: 80%;
+    }
+
+}

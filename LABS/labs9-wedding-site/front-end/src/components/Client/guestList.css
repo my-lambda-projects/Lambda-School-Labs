@@ -1,0 +1,71 @@
+.guestList {
+    display: flex;
+    margin-top: 150px;
+}
+
+.guestList .guestListContainer {
+    margin: 0 auto 50px;
+    width: 100%;
+    padding: 0 2%;
+}
+
+.guestList .clientNavSidebar {
+    width: 15%;
+    height: 100vh;
+    padding-left: 10px;
+}
+
+.guestList .guestListContainer .guest-list-table {
+    min-width: 950px;
+}
+
+.guestList .guestListContainer .guest-list-table .blurry-text td{
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.guestList .add-guest-box .guest-input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.guestList .add-guest-box .guest-input-box .inner-guest-input {
+    margin: 20px 0;
+}
+
+.guestList .add-guest-box .guest-input-box .inner-guest-input .guest-input {
+    margin-right: 15px;
+}
+
+.guestList .add-guest-box .guest-button-div button {
+    margin-right: 15px;
+}
+
+@media (max-width: 1024px) {
+    .guestList {
+        margin: 100px auto 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .guestList .guestListContainer {
+        margin: 50px auto 0;
+        width: 100%;
+    }
+    
+    .guestList .clientNavSidebar {
+        display: none;
+    }
+
+    .guestList .add-guest-box .guest-input-box .inner-guest-input .material-form-group {
+        width: 100px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .guestList .guestListContainer {
+        margin: 0 auto;
+    }
+}

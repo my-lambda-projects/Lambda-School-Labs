@@ -1,0 +1,108 @@
+.overall {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    position:fixed;
+    z-index: 10;
+    top:0;
+}
+
+.overall .rightNav .hamburgerMenu {
+    color: rgb(108, 192, 223);
+    display: none;
+}
+
+.overall .rightNav .dropDownMenu {
+    background-color: lightgray;
+    position: absolute;
+    margin-top: 38px;
+    right: 0;
+    min-width: 200px;
+    width: 30%;
+    height: 100vh;
+}
+
+.overall ul {
+    padding: 0;
+    margin: 0;
+}
+
+.leftNav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    font-weight: 600;
+    padding-left: 25px;
+}
+
+.leftNav .landingButtons {
+    display: none;
+}
+
+.centerNav {
+    align-self: center;
+    align-content: center;
+    padding-left: 8%;
+}
+
+.centerNav .siteName {
+    display: block;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(108, 192, 223);
+}
+
+.rightNav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: center;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+@media (max-width: 800px) {
+    .overall {
+        height: 50px;
+    }
+
+    .overall .rightNav .hamburgerMenu {
+        display: block;
+    }
+
+    .overall .rightNav .logout {
+        display: none;
+    }  
+    
+    .overall .leftNav {
+        display: none;
+    }
+
+    .centerNav {
+        padding-left: 10px;
+    }
+
+    .overall .centerNav .siteName {
+        font-size: 1.4rem;
+    }
+
+}
+
+.vb-text{
+    font-family: 'Leckerli One', cursive;
+    color: rgb(108, 192, 223);
+    text-shadow: 1px 0.1px 1px rgba(0, 0, 0, 0.171);
+    font-size: 45px;
+}
+
+.v{
+    color: pink;
+}

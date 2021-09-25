@@ -1,0 +1,61 @@
+.modal-div{
+    width: 30%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+    background: rgba(255, 255, 255, 0.932);
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);  
+}
+
+@media (max-width: 500px){    
+    .modal-div{
+        width: 90%;
+    }
+}
+
+@media (min-width: 501px){
+    .modal-div{
+        width: 450px;
+    }
+}
+
+.logo-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border: 5px solid rgb(177, 225, 243);
+    border-radius: 50%;
+}
+
+/* .logo-wrap{
+
+} */
+
+.logo-wrap > img{
+    height: auto;
+    width: 95px;
+}
+
+.auth-btn{
+    padding: 10px;
+    border: 1.5px solid rgb(177, 225, 243);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.auth-btn:hover{
+
+    background: rgb(177, 225, 243, .3);
+    color: pink;
+    font-weight: bold;
+}
+
+
+

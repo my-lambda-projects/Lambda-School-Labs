@@ -1,0 +1,46 @@
+.design-choice-cont{
+   
+    
+    display: flex;
+    position: relative;
+
+}
+
+@media only screen and (max-width: 1000px){
+    .design-choice-cont{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+.choice{
+    width: 33%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 230px;
+
+}
+
+.choice-img{
+    display: flex;
+    height: 80%;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.choice-name{
+    display: flex;
+    justify-content: center;
+}
+.choice-img.settings{
+    background-position: top;
+}

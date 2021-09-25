@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "/back-end/index.js", "use": "@now/node-server" }
+    ],
+    "alias":  ["vbeloved.now.sh"],
+    "routes": [
+        { "src": "/.*", "dest": "/back-end/index.js" }
+    ],
+      "github": {
+        "enabled": true
+      },
+      "env": {
+          "STRIPE_TEST_KEY": "@stripe-test-key",
+          "TWILIO_PHONE": "@twilio-phone",
+          "TWILIO_ACCOUNT_SID": "@twilio-account-sid",
+          "TWILIO_AUTH_TOKEN": "@twilio-auth-token"
+      }
+} 
