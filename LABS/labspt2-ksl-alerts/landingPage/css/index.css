@@ -1,0 +1,321 @@
+
+.landing-page-header {
+  /* border: 1px solid black; */
+  overflow-x: hidden;
+  /* height: 500px; */
+  height: 340px;
+  display: flex;
+  font-family: 'Varela Round', sans-serif;
+  /* clip-path: ellipse(100% 70% at 50% 30%); */
+  clip-path: ellipse(100% 50% at 50% 43%);
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.landing-page-header-ctr-left {
+  /* border: 1px solid black; */
+  width: 60%;
+  background-color: #7A7978;
+  /* display: flex; */
+  display: none;
+  align-items: center;
+
+}
+
+.landing-page-header-cta-ctr {
+  /* border: 1px solid black; */
+  flex: 1;
+  height: 260px;
+  /* margin-left: 50px; */
+  /* margin-top: 30px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.landing-page-header-cta-ctr > h1 {
+  color: #61DAFB;
+  /* font-size: 3rem; */
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.landing-page-header-cta-ctr > p {
+  text-align: center;
+  /* font-size: 1rem; */
+  /* line-height: 1.3; */
+  font-size: 0.95rem;
+  line-height: 1.2;
+  width: 80%;
+  color: white;
+}
+
+.landing-page-header-ctr-right {
+  /* width: 40%; */
+  width: 100%;
+  background-image: url('../assets/alertifi-utah-header.jpg');
+  /* background-position: -100px center; */
+  background-position: 20% center;
+  background-size: cover;
+}
+
+.landing-page-header-ctr-right-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.2);
+  /* padding-top: 30px; */
+}
+
+.landing-page-input {
+  /* padding: 10px 10px; */
+  padding: 8px 8px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  /* font-size: 1rem; */
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.landing-page-btn {
+  /* padding: 8px 18px; */
+  padding: 6px 16px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  font-size: 0.95rem;
+  outline: none;
+  cursor: pointer;
+  background-color: #21BA3B;
+  color: white;
+}
+
+.landing-page-btn:hover {
+  background-color: #16AB39;
+}
+
+.landing-page-input:focus {
+  border-color: lightblue;
+}
+
+.landing-page-header-logo {
+  position: relative;
+  left: 22px;
+  color: #61DAFB;
+}
+
+main {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.landing-page-blurb-ctr {
+  /* width: 875px; */
+  width: 100%;
+  max-width: 860px;
+  height: 510px;
+  /* margin: 80px auto 80px auto; */
+  /* border: 1px solid black; */
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.landing-page-blurb {
+  /* border: 1px solid black; */
+  /* width: 200px; */
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-page-blurb > i {
+  margin: auto;
+  /* border: 1px solid black; */
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+
+.landing-page-blurb > p {
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.landing-page-divider {
+  display: block;
+  width: 100%;
+  padding-top: 1px;
+  background-color: lightgray;
+  margin-bottom: 65px;
+}
+
+.landing-page-get-started {
+  /* border: 1px solid black; */
+  margin-bottom: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.landing-page-get-started > h2 {
+  font-size: 1rem;
+  line-height: 1.2;
+  width: 90%;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.landing-page-get-started-btn {
+  background-color: #FF0000;
+}
+
+.landing-page-get-started-btn:hover {
+  background-color: #DD0000;
+}
+
+.landing-page-paraxify {
+  background-image: url('../assets/alertifi-utah-road.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+  /* border: 1px solid black; */
+  margin-bottom: 65px;
+  /* clip-path: ellipse(80% 50% at 50% 50%); */
+}
+
+.landing-page-paraxify-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page-paraxify-overlay > h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  width: 300px;
+  line-height: 1.2;
+  /* border: 1px solid black; */
+}
+
+.landing-page-create-account-ctr {
+  width: 100%;
+  /* height: 400px; */
+  /* border :1px solid black; */
+}
+
+.landing-page-create-account-ctr > h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.landing-page-footer {
+  /* border: 1px solid black; */
+  background-color: #7A7978;
+  overflow-x: hidden;
+  height: 340px;
+  display: flex;
+  font-family: 'Varela Round', sans-serif;
+  clip-path: ellipse(100% 50% at 50% 57%);
+  width: 100%;
+}
+
+.landing-page-create-account-form {
+  /* border: 1px solid black; */
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+.landing-page-create-account-form > button {
+  width: 100px;
+}
+
+@media only screen and (min-width: 635px) {
+
+  .landing-page-header {
+      height: 430px;
+      clip-path: ellipse(100% 70% at 50% 30%);
+  }
+
+  .landing-page-header-ctr-left {
+    display: flex;
+  }
+
+  .landing-page-header-cta-ctr > h1 {
+    font-size: 2.2rem;
+  }
+
+  .landing-page-header-cta-ctr > p {
+    font-size: 1.1rem;
+  }
+
+  .landing-page-input  {
+    padding: 10px 10px;
+  }
+
+  .landing-page-btn {
+    padding: 8px 18px;
+  }
+
+  .landing-page-header-ctr-right {
+    width: 40%;
+    background-position: -100px center;
+  }
+
+  .landing-page-header-ctr-right-overlay {
+    display: none;
+  }
+
+  .landing-page-blurb-ctr {
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto 65px auto;
+    /* border: 1px solid black; */
+    height: 160px;
+  }
+
+  .landing-page-get-started > h2 {
+    font-size: 1.2rem;
+  }
+
+  .landing-page-paraxify {
+    height: 220px;
+  }
+
+  .landing-page-paraxify-overlay > h3 {
+    width: 400px;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .landing-page-blurb-ctr {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+
+  .landing-page-header {
+    /* height: 480px; */
+
+  }
+}

@@ -1,0 +1,67 @@
+.buynowBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 300px; 
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background-color: lightgreen;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Button {
+    margin-right: 25px;
+    height: 50px;
+    width: 125px;
+} */
+
+.Container {
+    width: 100%;    
+    height: 950px;
+    background-color: black;
+    opacity: 0.92;
+}
+
+body {
+    background-image: url("https://qefly.com/wp-content/uploads/2018/03/Free-South-Africa-Classifieds-Online-4.jpg");
+    background-size: 100%;
+}
+
+/* h1 {
+    font-size: 75px;
+} */
+
+/* .Header {
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+} */
+
+
+/* .loginToggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.Motto {
+    margin-top: 150px;
+    color: white;
+} */
+
+/* .sideOverlay {
+    width: 300px;
+    background-color: grey;
+    float: right;
+    height: 950px;
+    opacity: 0.8;
+    text-align: center;
+} */
+
+

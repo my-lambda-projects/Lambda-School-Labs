@@ -1,0 +1,105 @@
+.premium-form-input {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 9px 9px;
+  background-color: white;
+  text-align: center;
+}
+
+.premium-form-card-element {
+  width: 160px;
+}
+
+.premium-form-expiry-element {
+  width: 80px;
+}
+
+.premium-form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+
+}
+
+.premium-form {
+  border: 1px solid black;
+
+}
+
+.premium-form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  width: 85%;
+  min-width: 140px;
+  /* border: 1px solid black; */
+  margin-top: 25px;
+  padding-top: 10px;
+}
+
+.premium-form > div {
+  margin-bottom: 20px;
+}
+
+.premium-form-name-input {
+  width: 100%;
+  min-width: 140px;
+}
+
+.premium-form-postal-code-element {
+  width: 160px;
+}
+
+.premium-form-cvc-element {
+  width: 80px;
+}
+
+.premium-form-submit-button {
+  width: 100%;
+}
+
+<<<<<<< HEAD
+.subscription-checkbox {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  min-width: 140px;
+}
+
+.subscription-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#checkbox {
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.amount {
+  color: green;
+  margin-left: 15px;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  
+
+}
+=======
+.premium-form-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baselilne;
+
+}
+
+.premium-form-total > span {
+  font-weight: bold;
+  font-size: 18px;
+}
+>>>>>>> eff0bb941d07345f9053963ad1c98470b5c2626b

@@ -1,0 +1,53 @@
+{
+  "name": "belzy-alertifi",
+  "version": "1.0.0",
+  "description": "This is for my own testing. Using this to test user account set up and authentication.",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "scrapoxy": "npx scrapoxy start server/conf.json -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.16.4",
+    "is-valid-username": "0.0.1",
+    "isemail": "^3.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.20",
+    "nightmare": "^3.0.1",
+    "nodemailer": "^5.1.1",
+    "password-validate": "0.0.2",
+    "prop-types": "^15.7.2",
+    "randomatic": "^3.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "scrapoxy": "^3.1.1",
+<<<<<<< HEAD
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0",
+    "shortid": "^2.2.14",
+    "styled-components": "^4.2.0"
+=======
+    "shortid": "^2.2.14",
+    "stripe": "^6.28.0"
+>>>>>>> da7d117bd136331c87846609fff11d7844e60364
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
