@@ -1,0 +1,157 @@
+.documents-style {
+  height: 300px;
+  width: 200px;
+  margin: 20px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.letterBox {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.documents-background {
+  background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.fa-plus-circle {
+  color: var(--tertiary);
+  font-size: 25px;
+}
+
+.cardstuff {
+  height: 100vh;
+  overflow: scroll;
+}
+
+.topbox {
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  width: 200px;
+  border: none;
+}
+
+.header-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-left: 9px;
+  height: 40px;
+}
+
+.textstuff {
+  width: 19%;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.documentsbox {
+  height: 100%;
+  overflow: hidden;
+}
+
+.databox {
+  height: 50%;
+  display: flex;
+  align-content: space-between;
+  box-shadow: 1px -1px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.listsofdocuments {
+  max-height: 85vh;
+  overflow-y: auto;
+  margin-left: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.tablerow {
+  color: white !important;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+}
+
+.table {
+  color: white;
+  width: 80%;
+}
+
+.table a {
+  color: white !important;
+}
+
+.create-template {
+  display: flex;
+  justify-content: space-between;
+}
+
+#search {
+  margin-right: 40px;
+  margin-top: 40px;
+  background-color: var(--tone1);
+  box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header-icons {
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
+  margin-top: 5px;
+  align-content: flex-end;
+}
+
+.header-text {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 98%;
+  margin-top: 8px;
+}
+
+.databox-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+  align-content: flex-end;
+  margin-top: 10px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-top: 10px;
+}
+
+.destination {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.letter-name {
+  min-width: 30%;
+  display: flex;
+  margin-left: 3%;
+}
+
+.time {
+  min-width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}

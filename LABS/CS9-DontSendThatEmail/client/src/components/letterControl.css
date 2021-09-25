@@ -1,0 +1,214 @@
+.controlCol-styles {
+  background: var(--primary);
+  height: 100%;
+  min-height: 100vh;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-md-6 {
+  margin-bottom: 0px;
+}
+
+.analyze-styles {
+  width: 57%;
+}
+
+.edit-styles {
+  width: 51%;
+}
+
+.movement-btn {
+  width: 100px;
+}
+.btn-styles{
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  outline: 0;
+  background: var(--secondary);
+  border: 0;
+  padding: 15px;
+  color: var(--main-bg);
+  font-size: 14px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.btn-styles:hover{
+  background-color: var(--main-bg);
+  color: #fff;
+}
+.controlTextarea-styles {
+  height: 100%;
+  background: white;
+  color: black;
+}
+
+.taInput-styles {
+  resize: none;
+  box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 1%;
+  outline: none;
+  border: none;
+  overflow: auto;
+  outline: none;
+  background-color: var(--secondary);
+}
+
+.taInput-styles:focus {
+  border: none;
+  box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  outline: none;
+  background-color: var(--secondary);
+}
+
+.controlBtn-styles {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+  color: red;
+}
+
+/*************************************************************** ICON STYLES */
+.fa-arrow-circle-left {
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+.fa-arrow-circle-left:hover {
+  cursor: grab;
+  color: var(--tertiary);
+}
+
+.fa-arrow-circle-right {
+  font-size: 40px;
+}
+
+.fa-arrow-circle-right:hover {
+  cursor: grab;
+  color: var(--tertiary);
+}
+
+/* ***************************************************************************************EMOTION RENDER STYLES */
+.sadness {
+  display:flex;
+  padding:3%;
+  justify-content: space-between;
+  font-size: 13px;
+  background: lightblue;
+  
+}
+
+.anger { 
+  display:flex;
+  padding:3%;
+  justify-content: space-between;
+  background: lightcoral;
+  font-size: 13px;
+
+}
+
+.analytical {
+  display:flex;
+  padding:3%;
+  justify-content: space-between;
+  background: lightgoldenrodyellow;
+  font-size: 13px;
+}
+
+.joy {
+  display:flex;
+  padding:3%;
+  justify-content: space-between;
+  background: lightgreen;
+  font-size: 13px;
+
+}
+
+.fa-smile-beam {
+  color: black;
+  font-size: 24px;
+}
+
+.fa-angry {
+  color: black;
+  font-size: 24px;
+}
+
+.fa-sad-tear {
+  color: black;
+  font-size: 24px;
+}
+
+.fa-surprise {
+  color: black;
+  font-size: 24px;
+}
+
+.success {
+  color: var(--tertiary);
+}
+/******************************************************* MODAL STYLES */
+.moreInfo-styles {
+  height: 300px;
+}
+
+.infoBody-styles {
+  height: 200px;
+}
+
+.emails-styles {
+  width: 48%;
+  margin-top: 15px;
+}
+
+.modal-title {
+  margin-left: 15%;
+}
+
+.modal-content {
+  background: var(--secondary);
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+}
+.form-control{
+  margin:0 auto;
+}
+.email-Label{
+  margin-left: 28%;
+}
+/* ********************************************************FORM STYLES */
+.Label{
+  color:white;
+}
+.form-styles {
+  background: var(--primary);
+  padding: 7%;
+  padding-left: 20%;
+  height: 100%;
+  min-height: 100vh;
+
+}
+.label-styles {
+  color: white;
+  font-size: 1.3rem;
+}
+.versionsCounter-styles {
+  width: 25%;
+  margin-bottom: 2%;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+.progress-styles{
+color:white;
+}

@@ -1,0 +1,134 @@
+/* FadeIn animation for landing page text on hero */
+
+@-webkit-keyframes blurFadeIn {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    -webkit-transform: scale(1.3);
+  }
+  50% {
+    opacity: 0.5;
+    text-shadow: 0px 0px 10px #fff;
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}
+
+/**/
+
+@-moz-keyframes blurFadeIn {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    -moz-transform: scale(1.3);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0px 0px 0px #fff;
+    -moz-transform: scale(1);
+  }
+}
+
+/**/
+
+@keyframes blurFadeIn {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    transform: scale(1.3);
+  }
+  50% {
+    opacity: 0.5;
+    text-shadow: 0px 0px 10px #fff;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0px 0px 0px #fff;
+    transform: scale(1);
+  }
+}
+
+/* Pule animation for landing page */
+
+.pulse {
+  animation: pulse 3s 3;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(206, 192, 217, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 20px rgba(206, 192, 217, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(206, 192, 217, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(206, 192, 217, 0.4);
+    box-shadow: 0 0 0 0 rgba(206, 192, 217, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 20px rgba(206, 192, 217, 0);
+    box-shadow: 0 0 0 20px rgba(206, 192, 217, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(206, 192, 217, 0);
+    box-shadow: 0 0 0 0 rgba(206, 192, 217, 0);
+  }
+}
+
+/* Bounce animations for login and register page */
+
+.animated {
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-10px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
