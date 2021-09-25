@@ -1,0 +1,27 @@
+.contactform-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  button {
+    width: 150px;
+    height: 45px;
+    margin: 8px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.contact-button {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 45px;
+  margin: 8px 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,85 @@
+.dashboard-table-title {
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+#approved-list-photo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.add-category {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 1rem;
+}
+
+.material-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 70px;
+  margin: 0 0 15px 0;
+}
+
+.card-link {
+  flex: 1 auto;
+}
+
+/* AddMaterial.js Component Styling */
+.add-materials {
+  /* margin-left: 250px; */
+  text-align: center;
+  width: 75%;
+  margin-top: 40px;
+}
+
+.md-form {
+  width: 80%;
+  margin: auto;
+}
+
+.dropdown {
+  text-align: center;
+}
+
+.progressBar {
+  margin: 50px 50px;
+  width: 75%;
+}
+
+.progressText {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 50px;
+}
+
+.btn-orange {
+  text-align: right;
+}
+
+.md-form .prefix {
+  font-size: 1rem;
+  top: 1.2rem;
+}
+/* 
+.progressBar {
+  margin: 50px 0px;
+} */
+
+.dropdown-menu {
+  min-width: 16.8rem;
+}
+
+.add-button {
+  margin-left: 250px;
+}
+
+.aButton {
+  font-size: 12px;
+}
