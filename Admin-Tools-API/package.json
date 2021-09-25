@@ -1,0 +1,31 @@
+{
+  "name": "ls-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "express": "^4.15.4",
+    "mocha": "^3.5.3",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "sinon": "^3.3.0"
+  },
+  "devDependencies": {
+    "prettier-eslint": "^8.1.1"
+  }
+}
