@@ -1,0 +1,50 @@
+.radioGroup {
+    padding: 1rem;
+    border: 1px solid black;
+}
+.checkout {
+    width: 25rem;
+}
+
+
+.legend {
+    margin-bottom: 10px;
+}
+.checkoutBoxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 2.5rem;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem;
+    background-color: rgb(220, 253, 198) !important;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(116, 167, 82) !important;
+}
+.submitButton {
+    font-size: 2rem;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin: 1rem 0 !important;
+    width: 10rem;
+}
+.checkoutCard {
+    /* height: 6rem; */
+    padding: 1rem;
+    border: 1px solid black;
+}
+.premTeam {
+    font-weight: bold;
+    text-align: center;
+}
+
+.fieldset {
+    margin: 1rem !important;
+    width: 25rem;
+}
+@media (max-width: 500px){
+    .checkout, .fieldset {
+        width: 100%;
+    }
+}

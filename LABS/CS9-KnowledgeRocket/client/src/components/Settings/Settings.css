@@ -1,0 +1,39 @@
+.Settings_info {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Settings_info--Oauth {
+    font-weight: 700;
+}
+
+.radioGroup {
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.Settings_form {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.Settings_passwords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Settings_input {
+    width: 200;
+}
+
+.Settings_submit {
+    width: 5rem;
+}

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CohortCard renders correctly 1`] = `
+<div
+  className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
+>
+  <div
+    className="MuiCardContent-root-29"
+  >
+    <div
+      className="MuiFormControl-root-30"
+    >
+      <div
+        className="MuiCardContent-root-29"
+      >
+        <a
+          className="sc-bdVaJa jGJpMx"
+          href="/"
+          onClick={[Function]}
+        >
+          Calculus 101
+        </a>
+      </div>
+      <div
+        className="MuiCardContent-root-29"
+      >
+        Students:
+         
+        3
+      </div>
+      <div
+        className="MuiCardContent-root-29"
+      >
+        Participation:
+      </div>
+      <div
+        className="MuiCardContent-root-29"
+      >
+        Rockets Sent:
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 62.5%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* END CSS RESET */
+
+/* BEGIN GENERIC CSS */
+.flex-column-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content_container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    height: inherit;
+}
+
+.routeContainer {
+    background-color: #eeeeee;
+    height: inherit;
+    width: 100vw;
+}
+
+.title10 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 1rem;
+    color: var(--grayRedBlue_header);
+    text-align: center;
+}
+
+/* Themes */
+/* grayRedBlue */
+:root {
+    /* Component Spacing Main */
+    --mainPadding: 7rem 1rem 1rem 11rem;
+    --mainPadding_sml: 7rem 1rem 1rem 0rem;
+    --cpPadding: 7rem 0 0 0;
+
+    --grayRedBlue_padding: 7rem 1rem 1rem 12.2rem;
+
+    /* Colors and Styles */
+    --grayRedBlue_header: #324151;
+    --grayRedBlue_background: #eeeeee;
+    --grayRedBlue_border: #d1d1d1;
+    --grayRedBlue_primary: #3f51b5;
+    --grayRedBlue_secondary: #f50057;
+    --grayRedBlue_nav: #324151;
+    --grayRedBlue_border_light: #74a752;
+    --grayRedBlue_highlight: #dcfdc6;
+    --grayRedBlue_shadow: 0px 1px 3px 0px rgba(15, 12, 12, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}

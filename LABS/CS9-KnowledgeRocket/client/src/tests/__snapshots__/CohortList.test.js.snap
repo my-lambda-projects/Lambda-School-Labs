@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CohortList renders correctly 1`] = `
+<div
+  className="sc-htoDjs kyccTz"
+>
+  <div
+    className="sc-iwsKbI cUACTR"
+  >
+    <div
+      className="MuiPaper-root-3 MuiPaper-elevation1-6 MuiPaper-rounded-4 MuiCard-root-2 sc-bwzfXH kDnGSd"
+    >
+      <div
+        className="MuiCardContent-root-30 sc-htpNat dHKBck"
+      >
+        <div
+          className="sc-bxivhb eSNphu"
+        >
+          <div>
+            <div
+              style={
+                Object {
+                  "height": "24px",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-ifAKCX bFYCQJ"
+        >
+          <div>
+            <div
+              className="sc-EHOje cugktn"
+            >
+              Add New Class
+            </div>
+            <hr
+              className="sc-bZQynM ihzXMZ"
+            />
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  className="sc-gzVnrw iRWGmU"
+                >
+                  <div
+                    className="nestedAdd"
+                  >
+                    <p
+                      style={
+                        Object {
+                          "marginBottom": "0.5rem",
+                        }
+                      }
+                    />
+                    <button
+                      className="MuiButtonBase-root-57 MuiButton-root-31 MuiButton-fab-48 MuiButton-contained-42 MuiButton-containedPrimary-43 MuiButton-raised-45 MuiButton-raisedPrimary-46"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label-32"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root-60"
+                          color={undefined}
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                          />
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        className="MuiTouchRipple-root-67"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

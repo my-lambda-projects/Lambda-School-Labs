@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RocketFormGroup <QuestionChoices /> renders correctly 1`] = `
+.c1 {
+  font-family: 'Roboto',serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c1 label {
+  padding: .25rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: .5rem;
+}
+
+.c1 .requiredFields {
+  color: red;
+  margin-bottom: .5rem;
+}
+
+.c1 input[name="title"] {
+  border: 1px solid #8BB8D488 !important;
+  width: 50%;
+  min-height: 2rem;
+  padding: 0.5rem;
+  background-color: #f2f7ff;
+  border-radius: 0.25rem;
+}
+
+.c1 .mainTitle {
+  width: 100%;
+}
+
+.c2 {
+  width: 100%;
+  min-height: 4rem;
+  padding: .5rem;
+  background-color: #f2f7ff;
+  border-radius: 0.25rem;
+  border: 1px solid #8BB8D488 !important;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c4 label {
+  width: 45%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0.25rem 0;
+}
+
+.c4 input[type="text"] {
+  -webkit-box-flex: 3;
+  -webkit-flex-grow: 3;
+  -ms-flex-positive: 3;
+  flex-grow: 3;
+  border: 1px solid #8BB8D488 !important;
+  min-height: 2rem;
+  padding: 0.5rem;
+  background-color: #f2f7ff;
+  border-radius: 0.25rem;
+}
+
+.c4 input[type="radio"] {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  padding: .25rem;
+  margin: 0 .5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: red;
+  font-size: .8rem;
+  margin: 0.35rem 0 0 0;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: red;
+  font-size: .8rem;
+  margin: 0.35rem 0 0 0;
+  width: 100%;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 1px 3px 0px rgba(15,12,12,0.2),0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+@media (max-width:600px) {
+  .c1 input[name="title"] {
+    width: 100%;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 label {
+    width: 100%;
+  }
+}
+
+<section
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      htmlFor="tm.explanation"
+    >
+      Two Months - Review Text
+    </label>
+    <textarea
+      aria-describedby="tm-explanation-ErrorDescription"
+      className="c2"
+      name="tm.explanation"
+      onChange={undefined}
+      placeholder="Two Day Review Text"
+      value=""
+    />
+    <div
+      className="c3"
+      id="tm-explanation-ErrorDescription"
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <label
+      htmlFor="tm.question"
+    >
+      Two Months - Review Question
+    </label>
+    <textarea
+      aria-describedby="tm-question-ErrorDescription"
+      className="c2"
+      name="tm.question"
+      onChange={undefined}
+      placeholder="Two Day Review Text"
+      value={undefined}
+    />
+    <div
+      className="c3"
+      id="tm-question-ErrorDescription"
+    />
+  </div>
+  <div
+    className="c4"
+  >
+    <label>
+      <input
+        aria-describedby="tm-correct-ErrorDescription"
+        checked={false}
+        name="tm.correct"
+        onBlur={undefined}
+        onChange={undefined}
+        type="radio"
+        value={0}
+      />
+      <input
+        name="tm.choices[0].text"
+        onChange={undefined}
+        placeholder="Answer 1"
+        type="text"
+        value=""
+      />
+      <div
+        className="c5"
+        id="tm-choices[0].text-ErrorDescription"
+      />
+    </label>
+    <label>
+      <input
+        aria-describedby="tm-correct-ErrorDescription"
+        checked={false}
+        name="tm.correct"
+        onBlur={undefined}
+        onChange={undefined}
+        type="radio"
+        value={1}
+      />
+      <input
+        name="tm.choices[1].text"
+        onChange={undefined}
+        placeholder="Answer 2"
+        type="text"
+        value=""
+      />
+      <div
+        className="c5"
+        id="tm-choices[1].text-ErrorDescription"
+      />
+    </label>
+    <label>
+      <input
+        aria-describedby="tm-correct-ErrorDescription"
+        checked={false}
+        name="tm.correct"
+        onBlur={undefined}
+        onChange={undefined}
+        type="radio"
+        value={2}
+      />
+      <input
+        name="tm.choices[2].text"
+        onChange={undefined}
+        placeholder="Answer 3"
+        type="text"
+        value=""
+      />
+      <div
+        className="c5"
+        id="tm-choices[2].text-ErrorDescription"
+      />
+    </label>
+    <label>
+      <input
+        aria-describedby="tm-correct-ErrorDescription"
+        checked={false}
+        name="tm.correct"
+        onBlur={undefined}
+        onChange={undefined}
+        type="radio"
+        value={3}
+      />
+      <input
+        name="tm.choices[3].text"
+        onChange={undefined}
+        placeholder="Answer 4"
+        type="text"
+        value=""
+      />
+      <div
+        className="c5"
+        id="tm-choices[3].text-ErrorDescription"
+      />
+    </label>
+  </div>
+  <div
+    className="c5"
+    id="tm-correct-ErrorDescription"
+  />
+</section>
+`;
+
+exports[`RocketFormGroup testing styled components render <Blurb /> renders correctly 1`] = `
+.c0 {
+  margin: 1rem 0;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`RocketFormGroup testing styled components render <ErrorText /> renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: red;
+  font-size: .8rem;
+  margin: 0.35rem 0 0 0;
+  width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`RocketFormGroup testing styled components render <FormGroup /> renders correctly 1`] = `
+.c0 {
+  font-family: 'Roboto',serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c0 label {
+  padding: .25rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: .5rem;
+}
+
+.c0 .requiredFields {
+  color: red;
+  margin-bottom: .5rem;
+}
+
+.c0 input[name="title"] {
+  border: 1px solid #8BB8D488 !important;
+  width: 50%;
+  min-height: 2rem;
+  padding: 0.5rem;
+  background-color: #f2f7ff;
+  border-radius: 0.25rem;
+}
+
+.c0 .mainTitle {
+  width: 100%;
+}
+
+@media (max-width:600px) {
+  .c0 input[name="title"] {
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`RocketFormGroup testing styled components render <QuestionWrapper /> renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c0 label {
+  width: 45%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0.25rem 0;
+}
+
+.c0 input[type="text"] {
+  -webkit-box-flex: 3;
+  -webkit-flex-grow: 3;
+  -ms-flex-positive: 3;
+  flex-grow: 3;
+  border: 1px solid #8BB8D488 !important;
+  min-height: 2rem;
+  padding: 0.5rem;
+  background-color: #f2f7ff;
+  border-radius: 0.25rem;
+}
+
+.c0 input[type="radio"] {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  padding: .25rem;
+  margin: 0 .5rem;
+}
+
+@media (max-width:600px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:600px) {
+  .c0 label {
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`RocketFormGroup testing styled components render <TextArea /> renders correctly 1`] = `
+.c0 {
+  width: 100%;
+  min-height: 4rem;
+  padding: .5rem;
+  background-color: #f2f7ff;
+  border-radius: 0.25rem;
+  border: 1px solid #8BB8D488 !important;
+}
+
+<textarea
+  className="c0"
+/>
+`;
