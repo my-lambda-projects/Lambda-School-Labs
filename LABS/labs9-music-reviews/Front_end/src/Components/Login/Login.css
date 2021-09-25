@@ -1,0 +1,50 @@
+/* h2{
+    text-align:center;
+}
+h1 {
+    text-align:center;
+}
+form {
+    max-width: 500px;
+    margin:0 auto;
+    border:1px solid orange;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+.btn-container{
+    display:flex;
+    
+}
+.forgotPassword {
+    color: #999999;
+    cursor:pointer;
+    padding-top:5px;
+}
+.regLogin {
+    display:flex;
+    justify-content:space-evenly;
+}
+ */
+
+
+.but {
+    border: none;
+    background: #eac67a;
+    color: #984b43 !important;
+    font-weight: 100;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.but:hover {
+    color: #233237 !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
