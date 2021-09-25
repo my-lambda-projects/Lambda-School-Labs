@@ -1,0 +1,111 @@
+.user-form-container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  margin-top: 5%;
+  width: 318px;
+  height: 530px;
+  border: #9c9c9c;
+  border-radius: 12px;
+}
+
+.login-title {
+  color: #242424;
+  font-weight: bold;
+  font-size: 3.8em;
+  padding-top: 10px;
+  font-family: "Allan", cursive;
+}
+
+.login-title:hover {
+  color: #2f9dfe;
+}
+
+.form-group-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form-group-login:hover {
+  border: #8c8c8c;
+}
+
+input {
+  width: 250px;
+  height: 50px;
+  font-size: 12px;
+  background: #ffffff;
+  border-width: 1px;
+  border-color: #9c9c9c;
+  z-index: 1;
+}
+
+label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.return-signup {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  color: #242424;
+}
+
+.return-signup:hover {
+  color: #2f9dfe;
+}
+
+.login-login {
+  color: #ffffff;
+  width: 200px;
+  font-size: 15px;
+  font-weight: 900;
+  height: 50px;
+  padding-top: 14px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+  background-color: #242424;
+  border-radius: 5px;
+}
+
+.login-login:hover {
+  background-color: #2f9dfe;
+}
+
+.signuptext {
+  padding-top: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+.applebadgelogin {
+  width: 150px;
+  height: auto;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+
+.existinguser {
+  padding-top: 25px;
+  font-weight: bold;
+}
+.loader {
+  display: block;
+}
+.loading {
+  margin: 20px;
+}
+.isLoading {
+  margin: 10% auto;
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5));
+}
+.alert-box {
+  margin-top: 11%;
+}
