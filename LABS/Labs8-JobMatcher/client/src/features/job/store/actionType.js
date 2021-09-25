@@ -1,0 +1,4 @@
+export const JOB_REQUEST = "JOB_REQEST";
+export const JOB_REQUEST_SUCCESS = "JOB_REQUEST_SUCCESS";
+export const JOB_REQUEST_ERROR = "JOB_REQUEST_ERROR";
+export const JOBS = "JOBS";

@@ -1,0 +1,22 @@
+.background {
+  background-image: url("../../assets/images/bg-lg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-size: cover;
+  animation: movieInLeft 0.4s ease-in-out;
+}
+@keyframes movieInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.typer_cursor {
+  color: white;
+}
