@@ -1,0 +1,70 @@
+Arguments: 
+  /usr/local/Cellar/node/11.9.0/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.9.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/marshall/Desktop/mock_up_backend/mock_back/package.json: Unexpected token } in JSON at position 1092
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "backend",
+    "main": "index.js",
+    "scripts": {
+      "start": "NODE_ENV=production node server.js",
+      "startd": "NODE_ENV=development node server.js",
+      "re": "knex migrate:rollback && knex migrate:latest && knex seed:run && yarn startd",
+      "he": "heroku run knex migrate:rollback && heroku run knex migrate:latest && heroku run knex seed:run && heroku logs -t"
+    },
+    "keywords": [],
+    "author": "Marshall Lanners",
+    "license": "MIT",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.4",
+      "custom-env": "^1.0.0",
+      "dotenv": "^6.2.0",
+      "express": "^4.16.3",
+      "helmet": "^3.14.0",
+      "jsonwebtoken": "^8.3.0",
+      "knex": "^0.15.2",
+      "morgan": "^1.9.1",
+      "pg": "^7.8.0",
+      "renderer": "^0.1.5",
+      "sqlite3": "^4.0.3",
+      "uuid": "^3.3.2",
+      "uuid-v4": "^0.1.0"
+    },
+    "devDependencies": {
+      "coveralls": "^3.0.2",
+      "enzyme": "^3.7.0",
+      "enzyme-adapter-react-16": "^1.6.0",
+      "jest": "^23.6.0",
+      "mocha": "^5.2.0",
+      "nodemon": "^1.18.5",
+      "supertest": "^3.3.0"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

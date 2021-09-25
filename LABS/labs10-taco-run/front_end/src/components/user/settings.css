@@ -1,0 +1,31 @@
+.select {
+	margin-bottom: 30px;
+	width: 200px;
+}
+
+.active {
+	background-color: grey;
+	color: white;
+}
+
+.phone-input img {
+	width: 60px;
+	margin-bottom: 15px;
+}
+
+.phone-input select {
+	margin-bottom: 15px;
+}
+
+.phone-input input {
+	font-size: 1.4rem;
+	border: solid black 1px;
+	margin-bottom: 15px;
+	padding: 1%;
+	border-radius: 4px;
+}
+
+.prefs {
+	text-align: center;
+	margin: 15px 0;
+}

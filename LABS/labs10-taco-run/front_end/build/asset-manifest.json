@@ -1,0 +1,18 @@
+{
+  "main.css": "/static/css/main.f0ccbc99.chunk.css",
+  "main.js": "/static/js/main.8278f92e.chunk.js",
+  "main.js.map": "/static/js/main.8278f92e.chunk.js.map",
+  "static/js/1.b0c3325e.chunk.js": "/static/js/1.b0c3325e.chunk.js",
+  "static/js/1.b0c3325e.chunk.js.map": "/static/js/1.b0c3325e.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/tacos.jpg": "/static/media/tacos.6d82a07a.jpg",
+  "static/media/tacos2.jpeg": "/static/media/tacos2.593c40e9.jpeg",
+  "static/media/google.png": "/static/media/google.5d285296.png",
+  "static/media/twitter.png": "/static/media/twitter.b0ffa4ee.png",
+  "static/media/custom.css": "/static/media/header-bg.11603f2e.jpg",
+  "static/css/main.f0ccbc99.chunk.css.map": "/static/css/main.f0ccbc99.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.189af4365ede575b886f944c3a103eff.js": "/precache-manifest.189af4365ede575b886f944c3a103eff.js",
+  "service-worker.js": "/service-worker.js"
+}

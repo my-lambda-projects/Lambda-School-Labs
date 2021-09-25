@@ -1,0 +1,15 @@
+.hoverclass {}
+
+.hoverclass:hover {
+	cursor: pointer;
+}
+
+.letsGetTacos {
+	margin-left: 10px; 
+	display: flex;
+	align-items: center
+}
+
+.letsGetTacos:hover {
+	cursor: pointer
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+
+.header-logo {
+	font: inherit;
+	color: black;
+	font-weight: 300;
+	line-height: 1em;
+	margin: 0 0 0.5em 0;
+}
+
+.banner-paragraph {
+	color: white;
+}
+
+.paragraph-element {
+	margin: 0 0 2em 0;
+	color: black;
+	font-size: 1rem;
+}
+
+.learn-more-header {
+	color: black;
+}
+
+.description-header {
+	color: black;
+}
+
+.description-paragraph {
+	color: black;
+	font-size: 1.4rem;
+}
+
+.popup-content {
+	position: relative;
+	background: rgb(255, 255, 255);
+	width: 50%;
+	margin: auto;
+	border: 0px solid rgb(187, 187, 187);
+	padding: 35px;
+	border-radius: 10px;
+}
+
+.backgroundImage {
+	background-image: url("./img/Benny3.jpg");
+	background-size: cover;
+	height: 271px;
+	width: 385px;
+	background-position: center;
+}
+
+.backgroundImage2 {
+	background-image: url("./img/Max385.jpg");
+	background-size: cover;
+	height: 271px;
+	width: 385px;
+	background-position: center;
+}
+
+.backgroundImage3 {
+	background-image: url("./img/Jonathan.jpg");
+	background-size: cover;
+	height: 271px;
+	width: 385px;
+	background-position: center;
+}
+
+.backgroundImage4 {
+	background-image: url("./img/Marshall.jpg");
+	background-size: cover;
+	height: 271px;
+	width: 385px;
+	background-position: center;
+}
+
+/* .twoColumn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+} */
+
+/* .provider-button {
+	height: 75px;
+}
+
+
+@media screen and (max-width: 300) {
+	.provider-button {
+		height: 45px;
+	}
+} */

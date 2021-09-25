@@ -1,0 +1,131 @@
+.singleFlex {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.commentFlex {
+	display:flex;
+	justify-content: space-evenly
+}
+
+.maxCard {
+	max-width: 650px;
+	width: 100%;
+}
+
+.btnAttending
+
+.halfWidth {
+	max-width: 200px;
+	width: 100%;
+	margin: 0 4%;
+}
+
+.singleMapDiv {
+	border: solid black 1px;
+  height: 355px;
+  max-width: 400px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 14px;
+  padding-bottom: 5px;
+}
+
+.noHref {
+	text-decoration: none;
+}
+
+.bottomSpace {
+	margin-bottom: 15px;
+}
+
+.hoverClick {
+	margin-right:1%;
+}
+
+.singleCenter {
+	display:flex;
+	justify-content: center;
+	flex-direction:column;
+	align-items: center;
+}
+
+.hoverClick:hover{
+	cursor: pointer;
+}
+
+.flexAttending {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.buttonPag {
+	margin-right: .5%;
+	font-size: 22px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+}
+
+.buttonPag:hover {
+	cursor:pointer;
+	background-color: #c5c5c5;
+}
+
+.buttonPag:focus {
+  outline: none;
+}
+
+.btnAttending {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.flexButtonsSingle {
+	display: flex;	
+}
+
+.spaceingM {
+	margin-left: 1%;
+}
+
+.cityLocations {
+	height: 400px;
+	overflow: scroll;
+}
+
+.stackBtns {
+	display:flex;
+	flex-direction: column;
+}
+
+.maxH {
+	max-height: 600px;
+}
+
+.singleModal {
+	width: 600px;
+}
+
+.singleLookupUpdate {
+	margin-top: 15px;
+}
+
+@media only screen and (max-width:600px) {
+	.singleFlex {
+		flex-direction:column-reverse;
+	}
+	.singleMapDiv {
+		max-width: 800px;
+	}
+	.flexAttending {
+		justify-content: center;
+	}
+	.commentFlex {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.halfWidth {
+		width: 98%;
+	}
+}

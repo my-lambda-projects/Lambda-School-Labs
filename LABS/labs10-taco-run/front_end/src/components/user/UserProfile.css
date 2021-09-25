@@ -1,0 +1,122 @@
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+}
+
+#Favorites {
+  display: block;
+}
+
+.profile-personal-container {
+  background-color: #fff;
+}
+
+.profile-preferences {
+  align-self: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 3em;
+  text-align: center;
+}
+
+.profile-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+
+  .profile-header {
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+
+  .profile-name {
+    font-size: 1.9rem;
+  }
+
+}
+
+.profile-search {
+  display: flex;
+}
+
+/* --------------CSS for results-------------- */
+#results {
+  max-width: 300px;
+  width: 100%;
+  display: none;
+  z-index: 1500;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.result-display {
+  display: flex;
+  background-color: #fff;
+  transition: 0.2s;
+}
+
+.result-display:hover {
+  background-color: rgba(192, 192, 192, 1);
+}
+
+.result-image {
+  height: 100px;
+  width: 100px;
+}
+
+.result-name {
+  color: black;
+  font-size: 0.8em;
+}
+
+.result-name a {
+  text-decoration: none;
+}
+
+/* CSS For Media queries */
+@media only screen and (max-width: 400px) {
+  .profile-preferences {
+    width: 100%;
+  }
+  .profile-name {
+    text-align: center;
+  }
+}
