@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignInModal /> renders Sign In Modal 1`] = `
+<DocumentFragment>
+  <div
+    class="backdrop"
+  >
+    <div
+      class="modal"
+    >
+      <span
+        class="close-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root-2"
+          focusable="false"
+          id="close"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <div
+        class="logins"
+      >
+        <div
+          class="MuiPaper-root-11 MuiPaper-elevation1-14 MuiPaper-rounded-12 SignInModal-paper-1"
+        >
+          <a
+            href="http://localhost:5000/auth/google"
+          >
+            <div
+              class="google-login"
+            >
+              <svg>
+                btn_google_light_normal_ios.svg
+              </svg>
+               
+              <span>
+                Continue with Google
+              </span>
+            </div>
+          </a>
+        </div>
+        <div
+          class="MuiPaper-root-11 MuiPaper-elevation1-14 MuiPaper-rounded-12 SignInModal-paper-1"
+        >
+          <a
+            href="http://localhost:5000/auth/facebook"
+          >
+            <div
+              class="facebook-login"
+            >
+              <svg>
+                f-ogo_RGB_HEX-58.svg
+              </svg>
+               
+              <span>
+                Continue with Facebook
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

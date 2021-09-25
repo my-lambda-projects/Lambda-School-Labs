@@ -1,0 +1,119 @@
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  margin: 5px 0 5px 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#drawer-container {
+  min-width: 180px;
+  margin: 10px 0 5px 10px;
+}
+/* Icon Cards in Side Nav */
+.navbar button:nth-child(1):hover {
+  background-color: none;
+}
+#hamburger {
+  padding: 5px;
+  font-size: 24px;
+}
+#left-icon {
+  padding: 5px;
+  font-size: 24px;
+}
+.all-icon-container {
+  width: 100%;
+}
+
+.icon-container {
+  text-decoration: none;
+  color: black;
+}
+.icon-container .icon-item:hover {
+  background-color: lightgray;
+}
+.icon-title {
+  font-size: 2.4rem;
+}
+
+.active .icon-item {
+  background-color: gray;
+  color: blue;
+}
+.active .icon-item:hover {
+  background-color: gray;
+  color: blue;
+}
+
+.auth-container {
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.authentication-btns {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 90px;
+}
+
+.authentication-btns:hover {
+  border: 1px solid darkgray;
+  background: gray;
+  color: white;
+  box-shadow: 3px 3px 3px lightgray;
+}
+
+#signOut {
+  font-size: 1.8rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: inherit;
+}
+#signOut:hover {
+  border: 1px solid darkgray;
+  background: gray;
+  color: white;
+  box-shadow: 3px 3px 3px lightgray;
+}
+
+.credits {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 500px) {
+  .navigation {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .all-icon-container {
+    max-width: 100%;
+  }
+  .all-icon-container .icon-container li {
+    display: flex;
+    justify-content: center;
+  }
+  .auth-container {
+    justify-content: flex-end;
+  }
+  .authentication-btns {
+    margin-left: 5px;
+    width: auto;
+  }
+  #signOut {
+    margin-left: 10px;
+  }
+  #drawer-container {
+    margin: 5px 0 0 10px;
+  }
+}

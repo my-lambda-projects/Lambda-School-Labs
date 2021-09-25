@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateInvoiceForm /> renders Create Invoice Form 1`] = `
+<DocumentFragment>
+  <div>
+    Create Invoice Form.
+    <div
+      class="main-container"
+    >
+      Main Container
+      <section
+        class="top-section"
+      >
+        <div
+          class="top-section-top"
+        >
+          <div>
+            *Thank you Message*
+          </div>
+          <div>
+            <div
+              class="logo"
+            >
+              Add Logo Here
+            </div>
+          </div>
+        </div>
+        <div
+          class="top-section-bottom"
+        >
+          <div>
+            <form>
+              <div>
+                Invoice No.
+              </div>
+              <div>
+                <label
+                  class="form-label"
+                />
+                <input
+                  class="form-input"
+                  name="name"
+                  placeholder="# Invoice Number"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </form>
+          </div>
+          <div>
+            <form>
+              <div>
+                Language
+              </div>
+              <div
+                class="form-group"
+              >
+                <select
+                  class="form-select"
+                  name="languageRange"
+                >
+                  <option
+                    value=""
+                  >
+                    Choose Your Language of Choice
+                  </option>
+                  <option
+                    value="English (US)"
+                  >
+                    English (US)
+                  </option>
+                  <option
+                    value="Español"
+                  >
+                    Español
+                  </option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div>
+            <form>
+              <div>
+                Currency
+              </div>
+              <div
+                class="form-group"
+              >
+                <select
+                  class="form-select"
+                  name="currencyRange"
+                >
+                  <option
+                    value=""
+                  >
+                    Choose Your Currency
+                  </option>
+                  <option
+                    value="US Dollar (USD)"
+                  >
+                    US Dollar (USD)
+                  </option>
+                  <option
+                    value="Euro (EUR)"
+                  >
+                    Euro (EUR)
+                  </option>
+                  <option
+                    value="Sterling Pound (GBP)"
+                  >
+                    Sterling Pound (GBP)
+                  </option>
+                  <option
+                    value="Chinese Renminbi (CNH)"
+                  >
+                    Chinese Renminbi (CNH)
+                  </option>
+                  <option
+                    value="Japanese Yen (JPY)"
+                  >
+                    Japanese Yen (JPY)
+                  </option>
+                  <option
+                    value="Thai Baht (THB)"
+                  >
+                    Thai Baht (THB)
+                  </option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section
+        class="mid-section"
+      >
+        <div
+          class="mid-section-left"
+        >
+          <div
+            class="address-from"
+          >
+            <form>
+              <div>
+                FROM
+              </div>
+              <div>
+                <label
+                  class="form-label"
+                />
+                <textarea
+                  class="form-input"
+                  name="name"
+                  placeholder="Your Business, Inc. 
+Your Address 
+City, State/Region, 
+Your Country"
+                  rows="5"
+                />
+              </div>
+            </form>
+          </div>
+          <div>
+            <form>
+              <div>
+                TO
+              </div>
+              <div>
+                <div>
+                  Street Address
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Client Street Address"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div>
+                <div>
+                  City
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Client City"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div>
+                <div>
+                  State / Region
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Client State / Region"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div>
+                <div>
+                  Zip Code
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Client Zip Codes"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div>
+                <div>
+                  Client Email
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Client Email"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="mid-section-right"
+        >
+          <div>
+            <form>
+              <div>
+                Date
+              </div>
+              <div>
+                <div
+                  class="DayPickerInput"
+                >
+                  <input
+                    placeholder="Today's Date"
+                    value=""
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div>
+            <form>
+              <div>
+                Invoice Due
+              </div>
+              <div>
+                <div
+                  class="DayPickerInput"
+                >
+                  <input
+                    placeholder="Invoice Due Date"
+                    value=""
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div>
+            <form>
+              <div>
+                Balance Due
+              </div>
+              <div>
+                <label
+                  class="form-label"
+                />
+                <input
+                  class="form-input"
+                  name="name"
+                  placeholder="Balance Due"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bottom-section"
+      >
+        <div
+          class="bottom-section-top"
+        >
+          <form>
+            <div
+              class="invoice-item-container"
+            >
+              <div>
+                <label
+                  for="item-0"
+                >
+                  Item #1
+                </label>
+                <input
+                  class="item"
+                  data-id="0"
+                  id="item-0"
+                  name="item-0"
+                  placeholder="Item"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div>
+                <label
+                  for="quantity-0"
+                >
+                  Quantity #1
+                </label>
+                <input
+                  class="quantity"
+                  data-id="0"
+                  id="item-0"
+                  name="item-0"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div>
+                <label
+                  for="rate-0"
+                >
+                  Rate #1
+                </label>
+                <input
+                  class="rate"
+                  data-id="0"
+                  id="item-0"
+                  name="item-0"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div>
+                <label
+                  for="amount-0"
+                >
+                  Amount #1
+                </label>
+                <input
+                  class="amount"
+                  data-id="0"
+                  id="item-0"
+                  name="item-0"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <button>
+              Add Line Item +
+            </button>
+          </form>
+        </div>
+        <div
+          class="bottom-section-mid"
+        >
+          <div
+            class="bottom-section-bottom-left"
+          >
+            <div>
+              <form>
+                <div>
+                  Notes
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <textarea
+                    class="form-input"
+                    name="name"
+                    placeholder="Invoice Notes"
+                    rows="5"
+                  />
+                </div>
+              </form>
+            </div>
+            <div>
+              <form>
+                <div>
+                  Terms
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <textarea
+                    class="form-input"
+                    name="name"
+                    placeholder="Invoice Terms"
+                    rows="5"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div
+            class="bottom-section-bottom-right"
+          >
+            <div>
+              <div>
+                Subtotal
+              </div>
+              <form>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Subtotal"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </form>
+            </div>
+            <div>
+              <form>
+                <div>
+                  Discount
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Discount"
+                    type="integer"
+                    value=""
+                  />
+                </div>
+              </form>
+            </div>
+            <div>
+              <form>
+                <div>
+                  Tax
+                </div>
+                <div>
+                  0.00 %
+                </div>
+              </form>
+            </div>
+            <div>
+              <form>
+                <div>
+                  Shipping
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Shipping"
+                    type="integer"
+                    value=""
+                  />
+                </div>
+              </form>
+            </div>
+            <div>
+              <form>
+                <div>
+                  Total
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Total"
+                    type="integer"
+                    value=""
+                  />
+                </div>
+              </form>
+            </div>
+            <div>
+              <form>
+                <div>
+                  Amount Paid
+                </div>
+                <div>
+                  <label
+                    class="form-label"
+                  />
+                  <input
+                    class="form-input"
+                    name="name"
+                    placeholder="Amount Paid"
+                    type="integer"
+                    value=""
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bottom-section-bottom"
+        >
+          <div>
+            Email: example@company.com 
+          </div>
+          <br />
+          <div>
+            Phone: +1-555-555-5555
+          </div>
+        </div>
+      </section>
+      <button
+        class="btn btn-link float-left"
+      >
+        Generate
+      </button>
+      <footer
+        class="footer"
+      >
+        Footer
+      </footer>
+    </div>
+  </div>
+</DocumentFragment>
+`;

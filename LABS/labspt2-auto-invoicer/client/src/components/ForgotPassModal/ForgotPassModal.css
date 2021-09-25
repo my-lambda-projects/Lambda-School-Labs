@@ -1,0 +1,16 @@
+.password-form {
+  width: 300px;
+  margin: 0 auto;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.password-btn {
+  margin: 0 10px;
+  font-size: 2rem;
+  padding: 5px 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

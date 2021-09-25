@@ -1,0 +1,14 @@
+.landing-cta-container {
+  background: #689f38;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing-cta {
+  color: #ffffff;
+  font-size: 1.6rem;
+  max-width: 960px;
+  padding: 8px;
+  width: 100%;
+}

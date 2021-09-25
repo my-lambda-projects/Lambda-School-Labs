@@ -1,0 +1,82 @@
+.shippingDiscount {
+  background: lightgray;
+}
+.subtotalTax {
+  background: #eff7f2;
+}
+.total-due {
+  background: rgb(224, 123, 105);
+}
+.amount-paid {
+  background: #8bc34a;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom {
+  border-bottom: 1px solid black;
+}
+.entryName {
+  font-size: 3rem;
+  color: #8bc34a;
+}
+p{
+  font-size: 2.5rem;
+}
+.box {
+  width: 45%;
+  min-height: 220px;
+  padding: 8px 0px 8px 8px;
+  overflow-wrap: break-word;
+}
+.top-box{
+  width: 100%;
+}
+.header {
+  font-size: 4rem;
+}
+@media (max-width: 500px) {
+  .box-container {
+    flex-direction: column;
+  }
+  .box {
+    width: 99%;
+    margin: 1%;
+  }
+  p{
+    font-size:2rem,
+  }
+  .top-box{
+  width: 100%;
+}
+  .mobileBorder {
+    border-bottom: 1px solid black;
+  }
+}
+.entryName1 {
+   font-size: 2.5rem;
+   padding-top: 10px;   
+   color: #8bc34a;
+   padding-bottom:5px;
+}
+.btmTable{
+   width:100%;
+   table-layout: fixed;
+}
+.btmTopRow{
+   margin-top:10px;
+   text-align:center;
+
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.items{
+   color:black;
+   font-size:2.3rem;
+   text-align:center;
+   padding-bottom: 10px;
+   word-wrap:break-word
+}

@@ -1,0 +1,7 @@
+.invoice-card .add-icon {
+  font-size: 60px;
+}
+
+.add-invoice:hover {
+  border-color: darkgray;
+}

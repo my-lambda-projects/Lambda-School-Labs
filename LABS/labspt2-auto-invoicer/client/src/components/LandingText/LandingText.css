@@ -1,0 +1,18 @@
+.landing-text-container {
+  background: #8bc34a;
+  display: flex;
+  justify-content: center;
+  min-height: 15vh;
+  width: 100%;
+}
+
+.landing-text {
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.6rem;
+  justify-content: center;
+  max-width: 960px;
+  padding: 8px;
+  width: 100%;
+}

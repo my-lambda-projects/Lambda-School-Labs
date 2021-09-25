@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component tests renders App 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+    style="margin-top: 64px;"
+  >
+    <header
+      class="MuiPaper-root-23 MuiPaper-elevation4-29 MuiAppBar-root-14 MuiAppBar-positionFixed-15 MuiAppBar-colorPrimary-21 mui-fixed Navigation-mainNavContainer-1"
+      style="height: 64px;"
+    >
+      <div
+        class="MuiToolbar-root-63 MuiToolbar-regular-65 MuiToolbar-gutters-64 AccountBar-accountBarContainer-52"
+      >
+        <a
+          href="/"
+        >
+          <div
+            class="AccountBar-icon-54"
+          >
+            <img
+              alt=""
+              height="32"
+              src="myai.png"
+              width="32"
+            />
+            <p
+              class="MuiTypography-root-67 MuiTypography-body1-76 AccountBar-iconText-55"
+            >
+              myAutoInvoicer
+            </p>
+          </div>
+        </a>
+        <div
+          class="AccountBar-rightContainer-58"
+        >
+          <div
+            class="AccountBar-navLinksRight-59"
+          >
+            <p
+              class="MuiTypography-root-67 MuiTypography-body1-76 AccountBar-link-60"
+            >
+              Features
+            </p>
+            <p
+              class="MuiTypography-root-67 MuiTypography-body1-76 AccountBar-link-60"
+            >
+              Get Started
+            </p>
+            <p
+              class="MuiTypography-root-67 MuiTypography-body1-76 AccountBar-link-60"
+            >
+              Sign In
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="routes-container"
+    >
+      <section
+        class="landing-page"
+      >
+        <div
+          class="HeadlineText-container-103"
+        >
+          <div
+            class="HeadlineText-root-104"
+          >
+            <h1
+              class="MuiTypography-root-67 MuiTypography-h1-79 HeadlineText-headlineText-105"
+            >
+              Invoicing Solved
+            </h1>
+            <br />
+            <h4
+              class="MuiTypography-root-67 MuiTypography-h4-82 HeadlineText-subtext-106"
+            >
+              Turn sales into cashflow.
+            </h4>
+          </div>
+        </div>
+        <div
+          class="LandingCTA-container-107"
+        >
+          <div
+            class="LandingCTA-root-108"
+          >
+            <h6
+              class="MuiTypography-root-67 MuiTypography-subtitle1-85"
+            >
+              Create a free invoice on the go or sign-up and get unlimited invoices today!
+            </h6>
+          </div>
+        </div>
+        <div
+          class="LandingFeaturesText-container-109"
+        >
+          <div
+            class="LandingFeaturesText-features-110"
+          >
+            <div
+              class="LandingFeaturesText-top-111"
+            >
+              <svg>
+                undraw_printing_invoices_5r4r.svg
+              </svg>
+              <div
+                class="LandingFeaturesText-topText-112"
+              >
+                <h5
+                  class="MuiTypography-root-67 MuiTypography-h5-83"
+                >
+                  Create, send and track invoices in minutes.
+                </h5>
+                <br />
+                <p
+                  class="MuiTypography-root-67 MuiTypography-body1-76"
+                >
+                  Create customer profiles, save recurring items and invoice your customers from anywhere, so you can get paid faster!
+                </p>
+              </div>
+            </div>
+            <div
+              class="LandingFeaturesText-bottom-113"
+            >
+              <div
+                class="LandingFeaturesText-bottomText-114"
+              >
+                <h5
+                  class="MuiTypography-root-67 MuiTypography-h5-83"
+                >
+                  Comprehensive dashboard provides all your data at a glance.
+                </h5>
+                <br />
+                <p
+                  class="MuiTypography-root-67 MuiTypography-body1-76"
+                >
+                  Gain insight into your best customers, including those who need a friendly nudge. Forecast your business cashflow so you can plan accordingly.
+                </p>
+              </div>
+              <svg>
+                undraw_finance_0bdk.svg
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="landing-get-started-container"
+        >
+          <div
+            class="landing-get-started"
+          >
+            <div
+              class="get-started-text"
+            >
+              STOP WAITING AND START INVOICING
+            </div>
+            <div
+              class="card"
+            >
+              <div
+                class="LandingGetStarted-root-115"
+              >
+                <div
+                  class="LandingGetStarted-section1-117"
+                >
+                  <div
+                    class="MuiGrid-container-124 MuiGrid-align-items-xs-center-132"
+                  >
+                    <div
+                      class="MuiGrid-item-125 MuiGrid-grid-xs-true-152"
+                    >
+                      <h4
+                        class="MuiTypography-root-67 MuiTypography-h4-82 MuiTypography-gutterBottom-94"
+                      >
+                        Free
+                      </h4>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root-67 MuiTypography-body1-76 LandingGetStarted-features-121"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-221 LandingGetStarted-icon-120"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+                      />
+                    </svg>
+                    Unlimited Invoices
+                  </p>
+                  <p
+                    class="MuiTypography-root-67 MuiTypography-body1-76 LandingGetStarted-lockedFeatures-122"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-221 LandingGetStarted-icon-120"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                    Unlimited Customers
+                  </p>
+                  <p
+                    class="MuiTypography-root-67 MuiTypography-body1-76 LandingGetStarted-lockedFeatures-122"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-221 LandingGetStarted-icon-120"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                    Unlimited Companies
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root-230 MuiDivider-middle-234"
+                />
+                <div
+                  class="LandingGetStarted-section2-118"
+                >
+                  <p
+                    class="MuiTypography-root-67 MuiTypography-body1-76 MuiTypography-gutterBottom-94 LandingGetStarted-description-123"
+                  >
+                    Simply create a free account and get started with your free invoice on the go!
+                  </p>
+                </div>
+                <div
+                  class="LandingGetStarted-section3-119"
+                >
+                  <button
+                    class="MuiButtonBase-root-261 MuiButton-root-235 MuiButton-contained-246 MuiButton-containedPrimary-247 MuiButton-raised-249 MuiButton-raisedPrimary-250 MuiButton-fullWidth-260 LandingGetStarted-greenButton-116"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label-236"
+                    >
+                      Try For free
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-264"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+            >
+              <div
+                class="LandingGetStarted-root-115"
+              >
+                <div
+                  class="LandingGetStarted-section1-117"
+                >
+                  <div
+                    class="MuiGrid-container-124 MuiGrid-align-items-xs-center-132"
+                  >
+                    <div
+                      class="MuiGrid-item-125 MuiGrid-grid-xs-true-152"
+                    >
+                      <h4
+                        class="MuiTypography-root-67 MuiTypography-h4-82 MuiTypography-gutterBottom-94"
+                      >
+                        Premium
+                      </h4>
+                    </div>
+                    <div
+                      class="MuiGrid-item-125"
+                    >
+                      <h6
+                        class="MuiTypography-root-67 MuiTypography-h6-84 MuiTypography-gutterBottom-94"
+                      >
+                        $6/month
+                      </h6>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root-67 MuiTypography-body1-76 LandingGetStarted-features-121"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-221 LandingGetStarted-icon-120"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+                      />
+                    </svg>
+                    Unlimited Invoices
+                  </p>
+                  <p
+                    class="MuiTypography-root-67 MuiTypography-body1-76 LandingGetStarted-features-121"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-221 LandingGetStarted-icon-120"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+                      />
+                    </svg>
+                    Unlimited Customers
+                  </p>
+                  <p
+                    class="MuiTypography-root-67 MuiTypography-body1-76 LandingGetStarted-features-121"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-221 LandingGetStarted-icon-120"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+                      />
+                    </svg>
+                    Unlimited Companies
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root-230 MuiDivider-middle-234"
+                />
+                <div
+                  class="LandingGetStarted-section2-118"
+                >
+                  <p
+                    class="MuiTypography-root-67 MuiTypography-body1-76 MuiTypography-gutterBottom-94 LandingGetStarted-description-123"
+                  >
+                    Unlimited invoices for unlimited customers. Create an account to save your invoices, customers and company settings for convenient access.
+                  </p>
+                </div>
+                <div
+                  class="LandingGetStarted-section3-119"
+                >
+                  <button
+                    class="MuiButtonBase-root-261 MuiButton-root-235 MuiButton-contained-246 MuiButton-containedPrimary-247 MuiButton-raised-249 MuiButton-raisedPrimary-250 MuiButton-fullWidth-260 LandingGetStarted-greenButton-116"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label-236"
+                    >
+                      Get Premium
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-264"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+</DocumentFragment>
+`;

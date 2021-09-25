@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> renders Select 1`] = `
+<DocumentFragment>
+  <div
+    class="form-group"
+  >
+    <select
+      class="form-select"
+    >
+      <option
+        value=""
+      />
+      <option
+        value="test"
+      >
+        test
+      </option>
+      <option
+        value="testing"
+      >
+        testing
+      </option>
+      <option
+        value="more testing"
+      >
+        more testing
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

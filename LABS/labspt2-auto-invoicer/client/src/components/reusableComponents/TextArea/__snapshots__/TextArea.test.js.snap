@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> renders TextArea 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="form-label"
+    />
+    <textarea
+      class="form-input"
+    />
+  </div>
+</DocumentFragment>
+`;

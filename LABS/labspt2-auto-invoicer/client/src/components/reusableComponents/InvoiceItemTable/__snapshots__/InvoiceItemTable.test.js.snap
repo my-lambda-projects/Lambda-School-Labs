@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InvoiceItemTable /> renders Invoice Item Table 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="MuiPaper-root-3 MuiPaper-elevation2-7 MuiPaper-rounded-4"
+    >
+      <table
+        class="MuiTable-root-30"
+      >
+        <thead
+          class="MuiTableHead-root-31"
+        >
+          <tr
+            class="MuiTableRow-root-32 MuiTableRow-head-35"
+          >
+            <th
+              class="MuiTableCell-root-37 MuiTableCell-head-38"
+              scope="col"
+            >
+              Item
+            </th>
+            <th
+              class="MuiTableCell-root-37 MuiTableCell-head-38 MuiTableCell-alignRight-47"
+              scope="col"
+            >
+              Quantity
+            </th>
+            <th
+              class="MuiTableCell-root-37 MuiTableCell-head-38 MuiTableCell-alignRight-47"
+              scope="col"
+            >
+              Rate
+            </th>
+            <th
+              class="MuiTableCell-root-37 MuiTableCell-head-38 MuiTableCell-alignRight-47"
+              scope="col"
+            >
+              Amount
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="MuiTableBody-root-49"
+        >
+          <tr
+            class="MuiTableRow-root-32"
+          >
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="itemDescription"
+                    name="itemDescription"
+                    placeholder="Item Description"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39 MuiTableCell-alignRight-47"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="itemQuantity"
+                    name="itemQuantity"
+                    placeholder="Item Quantity"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39 MuiTableCell-alignRight-47"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="itemRate"
+                    name="itemRate"
+                    placeholder="Rate"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39 MuiTableCell-alignRight-47"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="itemAmount"
+                    name="itemAmount"
+                    placeholder="Amount"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root-32"
+          >
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39"
+              rowspan="6"
+            />
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39"
+              colspan="2"
+            >
+              Subtotal
+            </td>
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39 MuiTableCell-alignRight-47"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="subtotal"
+                    name="subtotal"
+                    placeholder="Subtotal"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root-32"
+          >
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39"
+              colspan="2"
+            >
+              Discount
+            </td>
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39 MuiTableCell-alignRight-47"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="discount"
+                    name="discount"
+                    placeholder="Discount"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root-32"
+          >
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39"
+              colspan="2"
+            >
+              Tax
+            </td>
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39 MuiTableCell-alignRight-47"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="tax"
+                    name="tax"
+                    placeholder="Tax"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root-32"
+          >
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39"
+              colspan="2"
+            >
+              Shipping
+            </td>
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39 MuiTableCell-alignRight-47"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="shipping"
+                    name="shipping"
+                    placeholder="Shipping"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root-32"
+          >
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39"
+              colspan="2"
+            >
+              Total
+            </td>
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39 MuiTableCell-alignRight-47"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="total"
+                    name="total"
+                    placeholder="Total"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root-32"
+          >
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39"
+              colspan="2"
+            >
+              Amount Paid:
+            </td>
+            <td
+              class="MuiTableCell-root-37 MuiTableCell-body-39 MuiTableCell-alignRight-47"
+            >
+              <div
+                class="MuiFormControl-root-50"
+              >
+                <div
+                  class="MuiInputBase-root-67 MuiInput-root-54 MuiInput-underline-58 MuiInputBase-formControl-68 MuiInput-formControl-55"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input-77 MuiInput-input-62"
+                    id="amountPaid"
+                    name="amountPaid"
+                    placeholder="Amount Paid"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button>
+        Submit
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BillingPage /> renders Billing Page view 1`] = `
+<DocumentFragment>
+  <section
+    class="billing-container"
+  >
+    <h1
+      class="main-title"
+    >
+      Billing
+    </h1>
+    <form
+      class="billing_form"
+    >
+      <div
+        class="payment_area"
+      >
+        <fieldset
+          class="payment_info"
+        >
+          <legend>
+            Payment Info
+          </legend>
+          <input
+            maxlength="16"
+            name="cc"
+            pattern="[0-9]{16}"
+            placeholder="Credit Card #"
+            required=""
+            type="text"
+            value=""
+          />
+          <input
+            maxlength="4"
+            name="exp"
+            pattern="[0-9]{4}"
+            placeholder="Expiration Date"
+            required=""
+            type="text"
+            value=""
+          />
+          <input
+            maxlength="3"
+            name="cvv"
+            pattern="[0-9]{3}"
+            placeholder="Cvv"
+            required=""
+            type="text"
+            value=""
+          />
+        </fieldset>
+        <button
+          class="button"
+          type="submit"
+        >
+          Buy Now
+        </button>
+      </div>
+      <section>
+        <label
+          class="payment_checkboxes"
+          for="9.99"
+        >
+          <input
+            id="9.99"
+            name="payment"
+            type="radio"
+            value="9.99"
+          />
+          <p>
+            1 Month Subscription - $9.99
+          </p>
+        </label>
+        <label
+          class="payment_checkboxes"
+          for="0.99"
+        >
+          <input
+            id="0.99"
+            name="payment"
+            type="radio"
+            value="0.99"
+          />
+          <p>
+            1 Invoice - $0.99
+          </p>
+        </label>
+      </section>
+    </form>
+  </section>
+</DocumentFragment>
+`;

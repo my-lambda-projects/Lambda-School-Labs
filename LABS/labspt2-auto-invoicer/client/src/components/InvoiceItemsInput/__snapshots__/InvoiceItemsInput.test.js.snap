@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InvoiceItemsInput /> renders Invoice Items Input 1`] = `
+<DocumentFragment>
+  <div
+    class="invoice-item-container"
+  >
+    <div>
+      <label
+        for="item-0"
+      >
+        Item #1
+      </label>
+      <input
+        class="item"
+        data-id="0"
+        id="item-0"
+        name="item-0"
+        placeholder="Item"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        for="quantity-0"
+      >
+        Quantity #1
+      </label>
+      <input
+        class="quantity"
+        data-id="0"
+        id="item-0"
+        name="item-0"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        for="rate-0"
+      >
+        Rate #1
+      </label>
+      <input
+        class="rate"
+        data-id="0"
+        id="item-0"
+        name="item-0"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        for="amount-0"
+      >
+        Amount #1
+      </label>
+      <input
+        class="amount"
+        data-id="0"
+        id="item-0"
+        name="item-0"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SingleInput /> renders SingleInput 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="form-label"
+    />
+    <input
+      class="sc-bdVaJa bYvEDq"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

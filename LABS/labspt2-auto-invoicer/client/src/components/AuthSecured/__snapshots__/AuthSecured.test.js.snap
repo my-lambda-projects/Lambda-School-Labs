@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AuthSecured /> renders Auth Secured components 1`] = `
+<DocumentFragment>
+  <ul
+    class="auth-container"
+  >
+    <p
+      class="credits"
+    >
+      Credits: 
+    </p>
+    <a
+      href="/"
+      id="signOut"
+    >
+      Sign Out
+    </a>
+  </ul>
+</DocumentFragment>
+`;

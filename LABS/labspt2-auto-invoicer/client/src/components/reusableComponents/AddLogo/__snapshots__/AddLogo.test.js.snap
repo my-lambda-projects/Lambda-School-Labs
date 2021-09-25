@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddLogo /> renders Add Logo 1`] = `
+<DocumentFragment>
+  <div
+    class="logo"
+  >
+    Add Logo Here
+  </div>
+</DocumentFragment>
+`;

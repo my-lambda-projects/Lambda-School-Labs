@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideNavigation /> renders Side Navigation component 1`] = `
+<DocumentFragment>
+  <div
+    class="navigation"
+  >
+    <header
+      class="navbar"
+      position="fixed"
+    >
+      <button
+        aria-label="Open drawer"
+        class="MuiButtonBase-root-7 MuiIconButton-root-1 MuiIconButton-colorInherit-2"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label-6"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-10"
+            focusable="false"
+            id="hamburger"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M2 15.5v2h20v-2H2zm0-5v2h20v-2H2zm0-5v2h20v-2H2z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </span>
+        <span
+          class="MuiTouchRipple-root-33"
+        />
+      </button>
+      <ul
+        class="auth-container"
+      >
+        <button
+          class="authentication-btns"
+        >
+          Sign In
+        </button>
+      </ul>
+    </header>
+  </div>
+</DocumentFragment>
+`;

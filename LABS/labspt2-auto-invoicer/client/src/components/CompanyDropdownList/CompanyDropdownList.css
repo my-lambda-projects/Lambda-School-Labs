@@ -1,0 +1,12 @@
+.companies-list {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.companies-list select {
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 1.6rem;
+}

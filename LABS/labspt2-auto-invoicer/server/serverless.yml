@@ -1,0 +1,73 @@
+service: autoinvoicer
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  graphql:
+    handler: index.sls
+    events:
+      - http:
+          path: user
+          method: get
+          cors: true
+      - http:
+          path: logout
+          method: get
+          cors: true
+      - http:
+          path: auth/google
+          method: get
+          cors: true
+      - http:
+          path: auth/google/callback
+          method: get
+          cors: true
+      - http:
+          path: auth/facebook
+          method: get
+          cors: true
+      - http:
+          path: auth/facebook/callback
+          method: get
+          cors: true
+      - http:
+          path: auth/stripe
+          method: get
+          cors: true
+      - http:
+          path: auth/stripe/callback
+          method: get
+          cors: true
+      - http:
+          path: stripe/charge
+          method: post
+          cors: true
+      - http:
+          path: graphql
+          method: post
+          cors: true
+      - http:
+          path: graphql
+          method: get
+          cors: true
+      - http:
+          path: welcome
+          method: post
+          cors: true
+      - http:
+          path: password-reset
+          method: post
+          cors: true
+      - http:
+          path: taxes/{zip}
+          method: get
+          cors: true
+          request:
+            parameters:
+              paths:
+                zip: true
+
+plugins:
+  - serverless-offline

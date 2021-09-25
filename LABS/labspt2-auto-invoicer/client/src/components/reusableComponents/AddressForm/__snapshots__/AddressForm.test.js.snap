@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddressForm /> renders Address Form 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="MuiGrid-container-1 MuiGrid-spacing-xs-16-24"
+    >
+      <div
+        class="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49"
+      >
+        <div
+          class="MuiFormControl-root-98"
+        >
+          <label
+            class="MuiFormLabel-root-113 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink="false"
+            for="invoiceFrom"
+          >
+            Invoice FROM
+          </label>
+          <div
+            class="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-formControl-134 MuiInput-formControl-121"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-143 MuiInput-input-128"
+              id="invoiceFrom"
+              name="invoiceFrom"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49"
+      >
+        <div
+          class="MuiFormControl-root-98"
+        >
+          <label
+            class="MuiFormLabel-root-113 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink="false"
+            for="invoiceTo"
+          >
+            Invoice TO
+          </label>
+          <div
+            class="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-formControl-134 MuiInput-formControl-121"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-143 MuiInput-input-128"
+              id="invoiceTo"
+              name="invoiceTo"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-2 MuiGrid-grid-xs-12-41"
+      >
+        <div
+          class="MuiFormControl-root-98 MuiFormControl-fullWidth-101"
+        >
+          <label
+            class="MuiFormLabel-root-113 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink="false"
+            for="address1"
+          >
+            Address line 1
+          </label>
+          <div
+            class="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-fullWidth-142 MuiInput-fullWidth-127 MuiInputBase-formControl-134 MuiInput-formControl-121"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-143 MuiInput-input-128"
+              id="address1"
+              name="address1"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49"
+      >
+        <div
+          class="MuiFormControl-root-98"
+        >
+          <label
+            class="MuiFormLabel-root-113 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink="false"
+            for="city"
+          >
+            City
+          </label>
+          <div
+            class="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-formControl-134 MuiInput-formControl-121"
+          >
+            <input
+              aria-invalid="false"
+              autocomplete="billing address-level2"
+              class="MuiInputBase-input-143 MuiInput-input-128"
+              id="city"
+              name="city"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49"
+      >
+        <div
+          class="MuiFormControl-root-98"
+        >
+          <label
+            class="MuiFormLabel-root-113 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink="false"
+            for="state"
+          >
+            State/Province/Region
+          </label>
+          <div
+            class="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-formControl-134 MuiInput-formControl-121"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-143 MuiInput-input-128"
+              id="state"
+              name="state"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49"
+      >
+        <div
+          class="MuiFormControl-root-98"
+        >
+          <label
+            class="MuiFormLabel-root-113 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink="false"
+            for="zip"
+          >
+            Zip / Postal code
+          </label>
+          <div
+            class="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-formControl-134 MuiInput-formControl-121"
+          >
+            <input
+              aria-invalid="false"
+              autocomplete="billing postal-code"
+              class="MuiInputBase-input-143 MuiInput-input-128"
+              id="zip"
+              name="zip"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49"
+      >
+        <div
+          class="MuiFormControl-root-98"
+        >
+          <label
+            class="MuiFormLabel-root-113 MuiInputLabel-root-102 MuiInputLabel-formControl-107 MuiInputLabel-animated-110"
+            data-shrink="false"
+            for="country"
+          >
+            Country
+          </label>
+          <div
+            class="MuiInputBase-root-133 MuiInput-root-120 MuiInput-underline-124 MuiInputBase-formControl-134 MuiInput-formControl-121"
+          >
+            <input
+              aria-invalid="false"
+              autocomplete="billing country"
+              class="MuiInputBase-input-143 MuiInput-input-128"
+              id="country"
+              name="country"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <button>
+      Submit
+    </button>
+  </div>
+</DocumentFragment>
+`;

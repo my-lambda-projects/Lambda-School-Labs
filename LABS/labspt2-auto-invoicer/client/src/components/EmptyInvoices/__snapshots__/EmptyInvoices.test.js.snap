@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmptyInvoices /> renders Empty Invoices 1`] = `
+<DocumentFragment>
+  <section
+    class="invoices-container empty-invoices"
+  >
+    <article
+      class="invoice-card add-invoice"
+    >
+      <h3>
+        Add a New Invoice
+      </h3>
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root-1"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+        />
+      </svg>
+    </article>
+  </section>
+</DocumentFragment>
+`;

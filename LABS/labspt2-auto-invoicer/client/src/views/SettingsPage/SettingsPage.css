@@ -1,0 +1,52 @@
+/* .mainSettingsContainer {
+  width: 100%;
+}
+
+.mainSettingsContainer .card-header {
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-around;
+}
+.mainSettingsContainer .cardDetails {
+  width: 50%
+}
+
+.mainSettingsContainer .infoContainer {
+  align-self: flex-start;
+}
+
+.mainSettingsContainer .edit {
+  cursor: pointer;
+}
+
+.mainSettingsContainer h1 {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.mainSettingsContainer h2 {
+  font-size: 1.6rem;
+  display: inline;
+}
+
+.mainSettingsContainer p {
+  font-size: 2.2rem;
+  color: black;
+  padding-bottom: 10px;
+  display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainSettingsContainer h2 {
+    font-size: 1.2rem;
+  }
+
+  .mainSettingsContainer p {
+    font-size: 1.6rem
+  }
+
+  .mainSettingsContainer .cardDetails {
+    width: 75%
+  }
+} */

@@ -1,0 +1,46 @@
+.signup-form {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  width: 600px;
+  height: 100%;
+}
+.signup-form-group {
+  margin: 10px auto;
+  transition: ease-in-out color 0.2s;
+}
+.signup-form-group:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.signup-form-group input {
+  border: 2px solid black;
+  cursor: pointer;
+  transition: ease-in-out border 0.3s;
+  transition: ease-in-out box-shadow 0.2s;
+}
+
+.signup-form-group input:hover {
+  border: 2px solid gray;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.signup-form-group input:focus {
+  border: 2px solid blue;
+  box-shadow: 2px 2px 2px blue;
+}
+
+.register-btn {
+  min-width: 300px;
+  margin: 20px auto 0;
+  font-size: 2.4rem;
+  border: 2px solid black;
+}
+
+.register-btn:hover {
+  background: white;
+  color: gray;
+  border: 2px solid gray;
+}

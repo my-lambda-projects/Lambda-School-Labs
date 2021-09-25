@@ -1,0 +1,37 @@
+.auth-btn-container {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.auth-btn-container h1 {
+  font-size: 16px;
+}
+.auth-btns {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.auth-btn {
+  height: 30px;
+  width: 120px;
+  padding: 3px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid gray;
+  color: darkgray;
+}
+
+.auth-btn:hover {
+  border-color: black;
+  color: black;
+}

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignInForm /> renders Sign In Form Component 1`] = `
+<DocumentFragment>
+  <form
+    class="signin-form"
+  >
+    <label
+      class="signin-form-group"
+      for="email"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root-1"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <input
+        class="signin-input"
+        id="email"
+        name="email"
+        placeholder="email"
+        type="text"
+        value=""
+      />
+    </label>
+    <label
+      class="signin-form-group"
+      for="password"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root-1"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6h1.9c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm0 12H6V10h12v10z"
+        />
+      </svg>
+      <input
+        class="signin-input"
+        id="password"
+        name="password"
+        placeholder="password"
+        type="password"
+        value=""
+      />
+    </label>
+    <button
+      class="authentication-btns"
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</DocumentFragment>
+`;

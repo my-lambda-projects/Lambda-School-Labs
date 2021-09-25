@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsPage /> renders Settings Page view 1`] = `
+<DocumentFragment>
+  <div
+    class="mainSettingsContainer"
+  >
+    <div
+      class="MuiGrid-container-5 MuiGrid-justify-xs-space-around-25 SettingsView-settingsContainer-1"
+    >
+      <div
+        class="MuiGrid-item-6 SettingsView-cardContainer-2"
+        style="opacity: 1; transform: scale(1, 1); transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 666ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      >
+        <div
+          class="MuiPaper-root-106 MuiPaper-elevation5-113 MuiPaper-rounded-107 UserDetails-cards-104"
+        >
+          <div
+            class="cardDetails"
+          >
+            <div
+              class="card-header"
+            >
+              <h1>
+                User Details
+              </h1>
+              <div
+                class="edit"
+              >
+                <svg
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                  />
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="infoContainer"
+            >
+              <div
+                class="info"
+              >
+                <h2>
+                  Name: 
+                </h2>
+                <p />
+              </div>
+              <div
+                class="info"
+              >
+                <h2>
+                  Email: 
+                </h2>
+                <p />
+              </div>
+              <div
+                class="info"
+              >
+                <h2>
+                  Phone Number: 
+                </h2>
+                <p />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-item-6 SettingsView-cardContainer-2"
+        style="opacity: 1; transform: scale(1, 1); transition: opacity 2000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 1332ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      >
+        <div
+          class="MuiPaper-root-106 MuiPaper-elevation2-110 MuiPaper-rounded-107 CompanyDetails-cards-139"
+        >
+          <div
+            class="cardDetails"
+          >
+            <div
+              class="card-header"
+            >
+              <h1>
+                Company Details
+              </h1>
+              <div
+                class="edit"
+              >
+                <svg
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                  />
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="infoContainer"
+            >
+              <div
+                class="info"
+              >
+                <h2>
+                  Name: 
+                </h2>
+                <p />
+              </div>
+              <div
+                class="info"
+              >
+                <h2>
+                  Email: 
+                </h2>
+                <p />
+              </div>
+              <div
+                class="info"
+              >
+                <h2>
+                  Phone Number: 
+                </h2>
+                <p />
+              </div>
+              <div
+                class="info"
+              >
+                <h2>
+                  Address_1: 
+                </h2>
+                <p />
+              </div>
+              <div
+                class="info"
+              >
+                <h2>
+                  Address_2: 
+                </h2>
+                <p />
+              </div>
+              <div
+                class="info"
+              >
+                <h2>
+                  City: 
+                </h2>
+                <p />
+              </div>
+              <div
+                class="info"
+              >
+                <h2>
+                  State: 
+                </h2>
+                <p />
+              </div>
+              <div
+                class="info"
+              >
+                <h2>
+                  Postal Code: 
+                </h2>
+                <p />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

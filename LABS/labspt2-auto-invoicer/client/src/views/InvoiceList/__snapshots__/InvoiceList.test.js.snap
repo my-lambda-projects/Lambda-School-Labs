@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InvoiceList /> renders Invoice List view 1`] = `
+<DocumentFragment>
+  <section
+    class="invoice-list-container"
+  >
+    <section>
+      <div
+        class="MuiPaper-root-26 MuiPaper-elevation2-30 MuiPaper-rounded-27 EmptyInvoices-root-19"
+        style="opacity: 1; transform: scale(1, 1); height: 490px; margin-bottom: 20px; transition: opacity 1300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 866ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      >
+        <header
+          class="MuiPaper-root-26 MuiPaper-elevation4-32 MuiAppBar-root-53 MuiAppBar-positionStatic-57 MuiAppBar-colorPrimary-60"
+          style="background-color: rgb(239, 247, 242);"
+        >
+          <div
+            class="MuiToolbar-root-62 MuiToolbar-regular-64 MuiToolbar-gutters-63 EmptyInvoices-toolbar-20"
+          >
+            <p
+              class="MuiTypography-root-66 MuiTypography-body1-75 MuiTypography-colorInherit-95 MuiTypography-noWrap-92 EmptyInvoices-title-25"
+            >
+              Invoices
+            </p>
+            <a
+              href="/user//invoice/create"
+            >
+              <button
+                class="MuiButtonBase-root-128 MuiButton-root-102 MuiButton-contained-113 MuiButton-containedPrimary-114 MuiButton-raised-116 MuiButton-raisedPrimary-117 MuiButton-sizeLarge-126"
+                style="background-color: rgb(79, 200, 120); color: white;"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label-103"
+                >
+                  Create
+                </span>
+                <span
+                  class="MuiTouchRipple-root-131"
+                />
+              </button>
+            </a>
+          </div>
+        </header>
+        <div
+          class="align"
+        >
+          <a
+            href="/user//invoice/create"
+          >
+            <p
+              class="topText"
+            >
+              Your Path To Financial Success Starts Here.
+            </p>
+            <svg
+              class="emptyInvoices"
+            >
+              undraw_investing_7u74.svg
+            </svg>
+            <p
+              class="btmText"
+            >
+              Click Now To Create Your First Invoice.
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </section>
+</DocumentFragment>
+`;
