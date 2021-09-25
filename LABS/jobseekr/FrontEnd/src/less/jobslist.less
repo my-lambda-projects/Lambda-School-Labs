@@ -1,0 +1,90 @@
+@import './mixins.less';
+.jobs-well {
+  background: linear-gradient( 45deg, rgb(60, 130, 177) 20%, #594236);
+  margin-left: 0px;
+}
+.board__container {
+  margin-top: 52px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  .board__header {
+    color: @columbiaBlue;
+    margin: -10px 0 20px .5%;
+  }
+
+  .board__row {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: space-around;
+    .board {
+      min-width: 10.2%;
+      margin-right: -.25%;
+    }
+  }
+
+
+    .board__row {
+      margin-top: 5px;
+      display: flex;
+      flex-direction: row;
+      flex-grow: space-around;
+      .board {
+        min-width: 10.2%;
+        margin-right: -.25%;
+      }
+      }
+      
+      .list {
+        display: flex;
+        flex-direction: column;
+        min-height:700px;
+        width: 300px;
+        .list__heading {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .job {
+          width: 100%;
+        }
+        .job-title {
+          background:linear-gradient( 45deg, SteelBlue 20%, LightSteelBlue);
+          color: white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .job-content {
+          background: linear-gradient( 45deg, #e0e0e0 20%, white);
+        }
+      }
+
+    }
+    .job-content {
+      background: linear-gradient( 45deg, #e0e0e0 20%, white);
+    }
+
+.addlist__btn--container {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+
+    @media @smartphones {
+      width: 50%;
+      left: 70%;
+    }
+  }
+
+.delete-modal-button {
+  display: flex;
+  justify-content: center;
+  .actual-delete-button {
+    background-color: #C21807;
+    color: white;
+  }
+}

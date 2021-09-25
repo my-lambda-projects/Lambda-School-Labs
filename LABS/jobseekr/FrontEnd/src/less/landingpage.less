@@ -1,0 +1,276 @@
+@import "index.less";
+@import "mixins.less";
+
+@pictonBlue: #48ACF0;
+@horses: #594236;
+@licorice: #15100E;
+@cadetGrey: #93A3BC;
+@columbiaBlue: #CCDDE2;
+
+@smartphones: ~"only screen and (max-width: 479px)";
+
+body {
+  min-width: 350px;
+  max-width: 2000px;
+  @media @smartphones {
+    min-width: 350px;
+    width: 100%;
+  }
+}
+
+.parent {
+  min-width: 350px;
+  max-width: 2000px;
+  @media @smartphones {
+    min-width: 350px;
+  }
+}
+
+.gradient {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 52px;
+  width: 100%;
+  min-height: 608px;
+  height: 100%;
+  background: linear-gradient( 45deg, #48ACF0 20%, #594236);
+  z-index: 100;
+  @media @smartphones {
+
+  }
+    .LoginCTA1 {
+    position: absolute;
+    bottom: 70px;
+    &:hover {
+      text-decoration: none;
+      color: @columbiaBlue;
+      height:26px;
+      width: 101px;
+      cursor: pointer;
+    }
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    z-index: 1;
+    justify-content: center;
+    border: none;
+    align-content: center;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    background: @pictonBlue;
+    color: white;
+    // @media @smartphones {
+      //   position: relative;
+      //   justify-content: center;
+      //   margin-left: 25%; 
+      //   margin-right: 25%; 
+      // }
+    }
+}
+
+.titles {
+  position: relative;
+  z-index: 4;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@keyframes tick-tock {
+  to1 {
+
+  }
+  to {
+    transform: rotate(360deg);
+
+  }
+}
+
+
+.pngBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  height: 200px;
+  margin: -10px;
+  .png1 {
+    animation: tick-tock 5s;
+    animation-direction: alternate;
+    // margin-top: 5px;
+    align-self: flex-end;
+  }
+  
+  @media @smartphones {
+    width: 50%;
+    }
+
+	}
+
+
+
+.titles {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px #000;
+  padding-top: 5%;
+
+}
+
+
+.paragraphs {
+  position: relative;
+  z-index: 5;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.png2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  background: linear-gradient( 45deg, #48ACF0 20%, #594236);
+  z-index: 1;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.TeamWrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  display: flex;
+  flex-flow: column wrap;
+  .team-links {
+    .team-links__slug {
+      text-align: center;
+    }
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .profiles__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    max-height: 550px;
+    @media @smartphones {
+      min-height: 1100px;
+    }
+    .profiles__rt-container {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .profiles__lt-container {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .lp-profile-pic {
+      margin: 10px;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  .teamh3 {
+    margin-bottom: 5%;
+    color: #48ACF0;
+    text-shadow: 2.5px 2.5px #000;
+    font-weight: thin;
+    font-size: 35px;
+  }
+}
+
+.AppDescriptionWrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  .ad__header{
+    align-self: flex-start;
+    color: #48ACF0;
+    text-shadow: 2.5px 2.5px #000;
+    font-weight: thin;
+    font-size: 35px;
+    padding: 2.5%, 5%, 2%, 5%;
+    height: 100px;
+  }
+  .carousel__wrapper {
+    max-width: 900px;
+
+    .ad_carousel {
+      max-width: 900px;
+    }
+    .carousel-txt {
+      color: black;
+      background: white;
+      opacity: 0.75;
+      width: 100%;
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+    }
+    .carousel-txt--addjob {
+      color: black;
+
+    }
+  }
+}
+
+.AttentionDiv1 {
+  position: relative;
+  background: linear-gradient( 45deg, #594236 .1%, #15100E);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  min-height: 375px;
+  margin-top: 100px;
+  .LoginCTA2 {
+    position: absolute;
+    bottom: 5px;
+    &:hover {
+      text-decoration: none;
+      color: @columbiaBlue;
+      height:26px;
+      width: 101px;
+      cursor: pointer;
+    }
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    z-index: 1;
+    justify-content: center;
+    border: none;
+    align-content: center;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    background: @pictonBlue;
+    color: white;
+  }
+}

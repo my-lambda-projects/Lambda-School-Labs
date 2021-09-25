@@ -1,0 +1,449 @@
+.settingsWrapper {
+  height: 1600px;
+  margin-top: 52px;
+  padding-top: 15px;
+}
+.settingsWrapper .resume--btn {
+  margin-bottom: 15px;
+}
+.jobs-well {
+  background: linear-gradient(45deg, #3c82b1 20%, #594236);
+  margin-left: 0px;
+}
+.board__container {
+  margin-top: 52px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.board__container .board__header {
+  color: #CCDDE2;
+  margin: -10px 0 20px 0.5%;
+}
+.board__container .board__row {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: space-around;
+}
+.board__container .board__row .board {
+  min-width: 10.2%;
+  margin-right: -0.25%;
+}
+.board__container .board__row {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: space-around;
+}
+.board__container .board__row .board {
+  min-width: 10.2%;
+  margin-right: -0.25%;
+}
+.board__container .list {
+  display: flex;
+  flex-direction: column;
+  min-height: 700px;
+  width: 300px;
+}
+.board__container .list .job {
+  width: 100%;
+}
+.board__container .list .job-title {
+  background: linear-gradient(45deg, SteelBlue 20%, LightSteelBlue);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.board__container .list .job-content {
+  background: linear-gradient(45deg, #e0e0e0 20%, white);
+}
+.job-content {
+  background: linear-gradient(45deg, #e0e0e0 20%, white);
+}
+.addlist__btn--container {
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}
+@media only screen and (max-width: 479px) {
+  .addlist__btn--container {
+    width: 50%;
+    left: 70%;
+  }
+}
+/* The .Header class adds tyling to the Header div containing the navbar
+ * so that it doesn't slide to the left when scrolling right horizontally
+ * when I ma
+ */
+.Header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+  border-radius: 0px;
+  margin-bottom: -2%;
+  max-height: 50px;
+}
+.Header .js-navbar {
+  border-radius: 0;
+  background: #15100E;
+}
+.list__btn {
+  min-width: 100%;
+}
+.addJobModal .btn-lg {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.top-section-job-modal {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-section-job-modal {
+  display: flex;
+}
+.bottom-section-job-modal .bottom-left-section {
+  flex-grow: 1;
+}
+.bottom-section-job-modal .bottom-right-section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.MeetupsWrapper {
+  margin: 52px;
+  padding-top: 13px;
+}
+.MeetupsWrapper .col {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: .5%;
+  width: 20%;
+}
+.MeetupsWrapper .meetups--btn {
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 10px;
+}
+.MeetupsWrapper .meetups--btn .meetups--btn__plus {
+  margin: -3px;
+}
+.MeetupsWrapper .form-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.MeetupsWrapper .form-row .form-col {
+  display: flex;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.BillingWrapper {
+  margin: 52px;
+}
+.BillingWrapper .display-4 {
+  font-size: 6rem;
+  padding: 13px;
+  border-bottom-style: solid;
+  width: 100%;
+}
+.BillingWrapper .container {
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.BillingWrapper .container button {
+  font-size: 2rem;
+  margin-top: 15px;
+  padding: 20px;
+  width: 45%;
+}
+.ContributionsWrapper {
+  margin: 52px;
+  padding-top: 13px;
+}
+.ContributionsWrapper .col {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: .5%;
+  width: 20%;
+}
+.ContributionsWrapper .contributions--btn {
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 10px;
+}
+.ContributionsWrapper .contributions--btn .contributions--btn__plus {
+  margin: -3px;
+}
+.ContributionsWrapper .form-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ContributionsWrapper .form-row .form-col {
+  display: flex;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.SignInWrapper {
+  margin-top: 52px;
+  padding-top: 13px;
+}
+.SignUpWrapper {
+  margin-top: 52px;
+  padding-top: 13px;
+}
+.react-date-picker__button {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+body {
+  min-width: 350px;
+  max-width: 2000px;
+}
+@media only screen and (max-width: 479px) {
+  body {
+    min-width: 350px;
+    width: 100%;
+  }
+}
+.parent {
+  min-width: 350px;
+  max-width: 2000px;
+}
+@media only screen and (max-width: 479px) {
+  .parent {
+    min-width: 350px;
+  }
+}
+.gradient {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 52px;
+  width: 100%;
+  min-height: 608px;
+  height: 100%;
+  background: linear-gradient(45deg, #48ACF0 20%, #594236);
+  z-index: 100;
+}
+.gradient .LoginCTA1 {
+  position: absolute;
+  bottom: 70px;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  z-index: 1;
+  justify-content: center;
+  border: none;
+  align-content: center;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  background: #48ACF0;
+  color: white;
+}
+.gradient .LoginCTA1:hover {
+  text-decoration: none;
+  color: #CCDDE2;
+  height: 26px;
+  width: 101px;
+  cursor: pointer;
+}
+.titles {
+  position: relative;
+  z-index: 4;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@keyframes tick-tock {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.pngBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  height: 200px;
+  margin: -10px;
+}
+.pngBox .png1 {
+  animation: tick-tock 5s;
+  animation-direction: alternate;
+  align-self: flex-end;
+}
+@media only screen and (max-width: 479px) {
+  .pngBox {
+    width: 50%;
+  }
+}
+.titles {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px #000;
+  padding-top: 5%;
+}
+.paragraphs {
+  position: relative;
+  z-index: 5;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+.png2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(45deg, #48ACF0 20%, #594236);
+  z-index: 1;
+  margin-bottom: 10px;
+  height: 100%;
+}
+.TeamWrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.TeamWrapper .profiles__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  max-height: 550px;
+}
+@media only screen and (max-width: 479px) {
+  .TeamWrapper .profiles__container {
+    min-height: 1100px;
+  }
+}
+.TeamWrapper .profiles__container .profiles__rt-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.TeamWrapper .profiles__container .profiles__lt-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.TeamWrapper .profiles__container .lp-profile-pic {
+  margin: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.TeamWrapper .teamh3 {
+  margin-bottom: 5%;
+  color: #48ACF0;
+  text-shadow: 2.5px 2.5px #000;
+  font-weight: thin;
+  font-size: 35px;
+}
+.AppDescriptionWrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.AppDescriptionWrapper .ad__header {
+  align-self: flex-start;
+  color: #48ACF0;
+  text-shadow: 2.5px 2.5px #000;
+  font-weight: thin;
+  font-size: 35px;
+  padding: 2.5%, 5%, 2%, 5%;
+  height: 100px;
+}
+.AppDescriptionWrapper .carousel__wrapper {
+  max-width: 900px;
+}
+.AppDescriptionWrapper .carousel__wrapper .ad_carousel {
+  max-width: 900px;
+}
+.AppDescriptionWrapper .carousel__wrapper .carousel-txt {
+  color: black;
+  background: white;
+  opacity: 0.75;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.AppDescriptionWrapper .carousel__wrapper .carousel-txt--addjob {
+  color: black;
+}
+.AttentionDiv1 {
+  position: relative;
+  background: linear-gradient(45deg, #594236 0.1%, #15100E);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  min-height: 375px;
+}
+.AttentionDiv1 .LoginCTA2 {
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  z-index: 1;
+  justify-content: center;
+  border: none;
+  align-content: center;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  background: #48ACF0;
+  color: white;
+}
+.AttentionDiv1 .LoginCTA2:hover {
+  text-decoration: none;
+  color: #CCDDE2;
+  height: 26px;
+  width: 101px;
+  cursor: pointer;
+}

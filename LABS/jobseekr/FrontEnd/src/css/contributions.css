@@ -1,0 +1,30 @@
+.ContributionsWrapper {
+  margin: 52px;
+  padding-top: 13px;
+}
+.ContributionsWrapper .col {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: .5%;
+  width: 20%;
+}
+.ContributionsWrapper .contributions--btn {
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 10px;
+}
+.ContributionsWrapper .contributions--btn .contributions--btn__plus {
+  margin: -3px;
+}
+.ContributionsWrapper .form-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ContributionsWrapper .form-row .form-col {
+  display: flex;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
