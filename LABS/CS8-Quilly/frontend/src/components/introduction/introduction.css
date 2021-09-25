@@ -1,0 +1,52 @@
+.aboutQuilly {
+    margin-left: 190px;
+    background: #ffeedb;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.aboutQuilly p {
+    font-size: 20px;
+}
+
+.quillyHeader {
+    font-size: 75px;
+    margin: 0;
+}
+
+.groupMembers {
+    margin-left: 190px;
+    background: #ffeedb;
+    display: inline-flex;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.member {
+    width: 25%;
+    display: inline-block;
+}
+
+.name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.selfImage {
+    width: 75%;
+}
+
+ul.aboutUs {
+    padding-left: 0;
+}
+
+.aboutUs li {
+    text-align: center;
+    margin: auto;
+    list-style-type: none;
+}

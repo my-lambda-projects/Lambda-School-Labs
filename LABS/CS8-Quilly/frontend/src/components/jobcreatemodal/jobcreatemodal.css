@@ -1,0 +1,178 @@
+.openModal {
+  position: fixed;
+  bottom: -10px;
+  right: 10px;
+  background-color: #ffffff;
+  border: #0006 solid 1px;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 60px;
+  width: 150px;
+  transition: transform 0.2s ease;
+}
+
+.openModal:hover {
+  cursor: pointer;
+  background-color: #ffeedb;
+  transform: translate(0, -8px);
+}
+
+.ReactModal__Content {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Jobtimeline {
+  margin-top: -20px;
+  padding: 2% 5% 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(49, 98, 136, 1);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  text-shadow: 1px 1px 1px #0b3b4b;
+  max-width: 500px;
+  min-height: 260px;
+}
+
+.Jobtimeline label {
+  margin: 7px;
+  width: 200px;
+  color: white;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px #0b3b4b;
+}
+
+.Jobinformation {
+  padding: 2% 10% 5% 10%;
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(49, 98, 136, 1);
+  border:1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  text-shadow: 1px 1px 1px #0b3b4b;
+  max-width: 500px;
+}
+
+.Jobinformation input,
+select {
+  margin-top: 20px;
+  margin-right: 65px;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+  color: #ffeedb;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.firstGroupOfBoxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondGroupOfBoxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#jobCreateWarning {
+  color: red;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.addJob {
+  position: sticky;
+  background-color: white;
+  border: #0006 solid 1px;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 40px;
+  width: 140px;
+  box-shadow: 3px 3px 5px #063250;
+  margin-left: 60%;
+}
+
+.addJob:hover {
+  cursor: pointer;
+  background-color: #ffeedb;
+}
+
+.Notes {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .checkboxes: {
+    flex-wrap: initial;
+  }
+
+  .form {
+    display: block;
+  }
+
+  .firstGroupOfBoxes {
+    max-width: 180px;
+  }
+
+  .ReactModal__Content {
+    margin-top: 30px;
+    max-width: 320px;
+  }
+
+  .Jobtimeline {
+    padding: 2% 7% 0 3%;
+    width: 310px;
+  }
+
+  .Jobinformation {
+    padding: 2% 5% 5% 5%;
+    flex-direction: row;
+    max-width: 310px;
+
+  }
+
+  .inputContainer {
+    display: flex;
+  }
+
+  .Jobinformation input,
+  select {
+    margin-top: 5px;
+    margin-right: 0;
+    max-width: 150px;
+  }
+
+  .addJob {
+    width: 150px;
+    margin-left: 0;
+  }
+}

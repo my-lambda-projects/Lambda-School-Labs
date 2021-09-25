@@ -1,0 +1,57 @@
+.smooth-dnd-container.horizontal {
+  min-height: 100vh;
+  /* font-family: Ubuntu; */
+  white-space: nowrap;
+  margin-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bPacrc {
+  z-index: 0 !important;
+}
+
+.cBXKgf {
+  background: none !important;
+  overflow-y: visible !important;
+  height: 100% !important;
+}
+
+/* big boards */
+.dJewwL {
+  background-color: #efefefad !important;
+  border-radius: 1px;
+  margin: 1px;
+  max-height: 100% !important;
+}
+
+.sc-htpNat:hover {
+  -webkit-box-shadow: 0px 0px 38px -3px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 38px -3px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 38px -3px rgba(0, 0, 0, 1);
+}
+
+/* small boards */
+.sc-dnqmqq {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+.sc-dnqmqq:hover {
+  background-color: #ffeedb !important;
+}
+
+/* Job board Header */
+.sc-bZQynM {
+  padding-bottom: 10px;
+}
+
+.sc-bdVaJa {
+  background: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .smooth-dnd-container.horizontal {
+    margin-left: 25px;
+  }
+}

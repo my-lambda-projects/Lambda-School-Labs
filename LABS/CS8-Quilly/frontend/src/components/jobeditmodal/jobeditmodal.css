@@ -1,0 +1,9 @@
+#jobEditWarning {
+    color: red;
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+.modalBtn {
+    border: 2px solid red;
+}

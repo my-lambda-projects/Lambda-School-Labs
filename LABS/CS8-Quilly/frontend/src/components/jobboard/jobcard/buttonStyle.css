@@ -1,0 +1,13 @@
+.cardButton {
+  margin: 6px;
+}
+
+.deleteButton:hover {
+  color: red;
+  transform: scale(1.25);
+}
+
+.editButton:hover {
+  color: #3189cd;
+  transform: scale(1.25);
+}

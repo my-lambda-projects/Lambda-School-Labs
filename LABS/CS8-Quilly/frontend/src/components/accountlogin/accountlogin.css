@@ -1,0 +1,87 @@
+.Accountlogin a {
+  display: inline-flex;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+/*button on homepage for login*/
+.openLogin {
+
+  background-color: #ffeedb;
+  /* border: 2px solid #ffeedb; */
+  border: rgba(0, 0, 0, 0.2) solid 1px;
+
+  border-radius: 5px;
+  font-size: 18px;
+  height: 50px;
+  width: 180px;
+  margin: 10px;
+}
+.openLogin:hover {
+  cursor: pointer;
+  background-color: #e7d8c7;
+}
+
+.signinmodal {
+  padding: 5% 10% 10% 10%;
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  background-color: rgba(49, 98, 136, 1);
+  border: 1px solid rgb(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 1px #0b3b4b;
+  max-width: 500px;
+}
+.ReactModal__Content--after-open {
+  max-width: 500px;
+  border-radius: 15px;
+  margin: 5% auto;
+}
+
+.signinmodal h2 {
+  color: #ffeedb;
+}
+
+.inputform .inputlable {
+  width: 30%;
+  margin-right: 9%;
+}
+
+.inputform {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+}
+
+.signinheader {
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+}
+
+#btn {
+  border: #0006 solid 1px;
+  border-radius: 5px;
+  background-color: white;
+  height: 40px;
+  width: 140px;
+  box-shadow: 3px 3px 5px #063250;
+  margin: 40px auto 0;
+  font-size: 18px;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: #ffeedb;
+}
+
+#loginWarning {
+  color: red;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -5%;
+}

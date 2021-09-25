@@ -1,0 +1,102 @@
+/*button on homescreen for register*/
+.openSignup {
+  background-color: white;
+  /* border: 2px solid #ffeedb; */
+  border: rgba(0, 0, 0, 0.2) solid 1px;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 50px;
+  width: 180px;
+  margin: 10px;
+}
+
+.openSignup:hover {
+  cursor: pointer;
+  background-color: #ffeedb;
+}
+
+.signupmodal {
+  padding: 5% 10% 10% 10%;
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* background: #7a7d7d; */
+  border-radius: 5px;
+  background-color: rgba(49, 98, 136, 1);
+  border: 1px solid rgb(0, 0, 0, .25);
+  text-shadow: 1px 1px 1px #0b3b4b;
+  max-width: 500px;
+}
+
+.ReactModal__Content--after-open {
+  max-width: 500px;
+  border-radius: 15px;
+  margin: 5% auto;
+}
+
+.Modal {
+  margin: auto;
+}
+
+.inputform .inputlable {
+  width: 40%;
+  margin-right: 7%;
+}
+
+/*text boxes for signin and signup modals*/
+.inputform .inputField {
+  margin: 10px auto;
+  width: 60%;
+  border-radius: 2px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.inputform .btn:hover {
+  cursor: pointer;
+}
+
+.signupHeader {
+  width: 100%;
+  color: #ffeedb;
+  font-size: 35px;
+  text-align: center;
+}
+
+.inputform {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.signupmodal .btn {
+  /* border: 2px solid #ffeedb;
+  background: #40798c; */
+  border: #0006 solid 1px;
+  border-radius: 5px;
+  background-color: white;
+  height: 40px;
+  width: auto;
+  box-shadow: 3px 3px 5px #063250;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* width: auto;
+  height: 32px; */
+  margin: 40px auto 0;
+  font-size: 18px;
+  float: right;
+  /* color: #ffeedb; */
+}
+
+.signupmodal .btn:hover {
+  cursor: pointer;
+  background-color: #ffeedb;
+}
+
+#signupWarning {
+  color: red;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -5%;
+}

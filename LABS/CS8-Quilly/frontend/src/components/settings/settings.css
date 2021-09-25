@@ -1,0 +1,96 @@
+.settingsBody {
+  margin-top: 65px;
+  padding-left: 190px;
+  padding-right: 40px;
+  display: flex;
+  height: 100%;
+}
+
+.settingsContainer {
+  min-width: 458px;
+  max-width: 458px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 30px;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.settingsContainer label {
+  font-weight: bold;
+  width: 150px;
+  clear: left;
+  float: left;
+  padding-right: 10px;
+  padding-left: 3px;
+  padding-bottom: 41px;
+}
+
+.settingsForm {
+  padding-top: 25px;
+  padding-left: 54px;
+}
+
+input.settingsInput {
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.settingsBtn {
+  height: 37px;
+  width: 133px;
+  background: white;
+  border: #0006 solid 1px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 5px #063250;
+  box-shadow: 3px 3px 5px #063250;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: -36px;
+}
+
+.settingsBtn:hover {
+  cursor: pointer;
+  background: #ffeedb
+}
+
+@media only screen and (max-width: 860px) {
+  .settingsBody {
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .settingsBody {
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+
+  .settingsContainer {
+    min-width: 260px;
+  }
+
+  .settingsForm {
+    padding-top: 20px;
+    padding-left: 28px;
+  }
+
+  .inputContainer {
+    flex-direction: column;
+  }
+
+  input.settingsInput {
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 5px;
+    width: 206px;
+  }
+
+  .settingsBtn {
+    margin-left: 80px;
+    min-width: 133px;
+  }
+}
