@@ -1,0 +1,16 @@
+// sign in specific styles
+// main styles in auth-styles.scss
+
+.sign-in-view {
+  background: url("./images/design/jpg/auth-background-1.jpg") no-repeat;
+  justify-content: flex-end;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0px 0px;
+
+  .sign-in-footer {
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,28 @@
+// 90px is height of navbar
+// 100px is height of footer
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  color: $dark;
+  width: 100%;
+  height: auto;
+  min-height: calc(100vh - 190px);
+}
+
+body {
+  height: auto;
+  min-height: calc(100vh - 190px);
+  width: 100%;
+}
+
+#root {
+  height: auto;
+  min-height: calc(100vh - 190px);
+  width: 100%;
+}
+
+p {
+  font-size: 2.6rem;
+  line-height: 1.4;
+}

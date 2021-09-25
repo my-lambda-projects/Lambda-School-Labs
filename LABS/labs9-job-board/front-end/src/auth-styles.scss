@@ -1,0 +1,166 @@
+// default styles for sign in, sign up, and reset password views
+
+.auth-view {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  a {
+    color: $blue;
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: $orange;
+      transition: all 0.4s ease;
+    }
+  }
+
+  @include tablet {
+    justify-content: center;
+  }
+
+  .auth-container {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+    @include tablet {
+      width: 100%;
+    }
+
+    .auth-content {
+      padding: 40px;
+      width: 500px;
+      background: rgba(245, 245, 245, 0.8);
+      border-radius: 20px;
+
+      @include tablet {
+        padding: 20px;
+      }
+
+      h2.auth-heading {
+        font-size: 3.6rem;
+        margin-bottom: 15px;
+
+        @include tablet {
+          color: $dark;
+        }
+      }
+
+      .auth-tagline {
+        font-size: 2rem;
+      }
+
+      .auth-divider {
+        width: 100%;
+        height: 4px;
+        background: $auth-divider;
+        margin: 15px 0;
+      }
+
+      .auth-form {
+        .auth-form-input {
+          width: 100%;
+          padding: 10px;
+          margin: 10px 0;
+          border: none;
+          border-radius: 5px;
+          font-size: 1.8rem;
+          outline-color: $blue;
+          background-color: $white;
+          color: $dark;
+          position: relative;
+
+          &::placeholder {
+            color: $light-gray;
+          }
+        }
+
+        .match {
+          color: $teal;
+        }
+
+        .noMatch {
+          color: $orange;
+        }
+
+        .auth-error {
+          display: block;
+          font-size: 1.4rem;
+          margin: 5px 0;
+          text-align: center;
+        }
+
+        .auth-form-button {
+          width: 100%;
+          padding: 10px;
+          margin: 10px 0;
+          background: $disabled-orange;
+          border: none;
+          border-radius: 5px;
+          color: $auth-submit-text;
+          outline-color: $blue;
+          font-size: 1.8rem;
+          transition: all 0.4s ease;
+        }
+
+        .active {
+          background: $auth-submit-bg;
+          transition: all 0.4s ease;
+
+          &:hover {
+            cursor: pointer;
+            background: $auth-submit-bg-hover;
+            transition: all 0.4s ease;
+          }
+        }
+
+        .google-auth-button {
+          padding: 0;
+          height: 46px;
+          width: 100%;
+          background: url("./images/g-logo.png") no-repeat;
+          background-size: auto 36px;
+          background-position: 10px 5px;
+          background-color: $auth-google-btn-bg;
+          color: $auth-google-btn-text;
+          outline-color: $blue;
+          font-size: 1.8rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: none;
+          border-radius: 5px;
+          transition: all 0.4s ease-in-out;
+
+          &:hover {
+            cursor: pointer;
+            background-color: $auth-google-btn-bg-hover;
+            transition: all 0.4s ease-in-out;
+          }
+        }
+
+        .auth-or {
+          margin: 10px 0 15px;
+          font-size: 1.4rem;
+          text-align: center;
+        }
+      }
+
+      .auth-footer {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.8rem;
+
+        span.left-item {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

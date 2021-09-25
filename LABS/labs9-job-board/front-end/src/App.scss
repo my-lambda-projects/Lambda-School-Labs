@@ -1,0 +1,11 @@
+@import "./variables-mixins.scss";
+
+.App {
+  background-color: $app-background;
+  width: 100%;
+  height: auto;
+  min-height: calc(100vh - 190px);
+  padding-top: $navheight;
+  display: flex;
+  justify-content: center;
+}

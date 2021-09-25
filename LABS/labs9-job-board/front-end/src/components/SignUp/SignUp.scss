@@ -1,0 +1,16 @@
+// sign up specific styles
+// main styles in auth-styles.scss
+
+.sign-up-view {
+  background: url("./images/design/jpg/auth-background-2.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0px 0px;
+  justify-content: flex-start;
+
+  .sign-up-footer {
+    justify-content: center;
+  }
+}

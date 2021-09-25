@@ -1,0 +1,77 @@
+//Text Color
+$white: white;
+$white-hover: darken($white, 10%);
+$dark: #646464;
+$black: #000000;
+
+//Font
+$font: "Roboto", sans-serif;
+
+//NavBar Background:
+$Navbar: #444444;
+
+//Background:
+$background: #f5f5f5;
+$modal-bg: rgba(68, 68, 68, 0.3);
+
+//Accent Colors
+$orange: #e89980;
+$dark-orange: darken($orange, 10%);
+$teal: #7fcdb8;
+$dark-teal: #89b1bc;
+$blue: #90b0ba;
+$dark-blue: darken($blue, 10%);
+$yellow: #e5cb95;
+$light-gray: #cecece;
+$disabled-orange: $light-gray;
+
+// Old color scheme
+$color-theme: #4c67a1;
+$secondary-color: #283e4a;
+
+// lighter blue #0077B5
+$laptop: 1200px;
+$tablet: 800px;
+$phone: 500px;
+
+// App variables
+$app-background: $background;
+$navheight: 90px;
+
+// Auth variables
+$auth-divider: $blue;
+$auth-submit-bg: $orange;
+$auth-submit-bg-hover: $dark-orange;
+$auth-submit-text: $white;
+$auth-google-btn-bg: $white;
+$auth-google-btn-bg-hover: $white-hover;
+$auth-google-btn-text: $dark;
+$auth-change-view-bg: $teal;
+
+// @mixin laptop {
+//   $tablet: 800px;
+//   @media (max-width: #{$laptop}) {
+//     $phone: 500px;
+//     @content;
+//   }
+// }
+
+@mixin tablet {
+  @media (max-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: #{$phone}) {
+    @content;
+  }
+}
+
+@mixin background-size($height) {
+  @if (calc(#{$height} - 0px) - 1024px) > 0px {
+    background-size: auto 100%;
+  } @else {
+    background-size: 100% auto;
+  }
+}

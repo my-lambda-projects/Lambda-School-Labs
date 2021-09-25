@@ -1,0 +1,12 @@
+@import "../../variables-mixins.scss";
+
+.routes {
+  height: auto;
+  min-height: calc(100vh - 190px);
+  width: 100%;
+}
+
+.footer {
+  height: 100px;
+  background-color: $Navbar;
+}
