@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "heroku-postbuild":
+      "cd client/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": ["node_modules", "client/node_modules"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "enzyme": "^3.3.0",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "jsonwebtoken": "^8.2.0",
+    "method-override": "^2.3.10",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.11",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "sinon": "^4.4.8",
+    "stripe": "^5.8.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
