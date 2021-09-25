@@ -1,0 +1,17 @@
+.cardContainer {
+    margin-top: 20px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.cardInputs * {
+    margin-top: 30px;
+}
+
+.cardButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

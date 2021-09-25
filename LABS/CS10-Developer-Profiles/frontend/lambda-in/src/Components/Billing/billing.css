@@ -1,0 +1,40 @@
+.checkoutcontainer {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #4A4F6B;
+    background-image: linear-gradient(#ffffff, #4A4F6B);
+    margin-left: -40px;
+}
+
+.billingimage {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    justify-content: center;
+}
+
+.question {
+    margin-top: 5vh;
+    width: 75vw;
+    height: 20vh;
+    background-color: #3F51B5;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+.questionheader {
+    font-size: 32px;
+}

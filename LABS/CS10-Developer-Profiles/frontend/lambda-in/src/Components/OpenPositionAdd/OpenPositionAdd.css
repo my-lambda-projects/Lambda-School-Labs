@@ -1,0 +1,18 @@
+.addContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.paperEmployerContainer{
+    width: 50vw;
+    height: 65vh;
+    padding: 10px;
+    margin: 20px;
+}
+
+.addPosButtons * {
+    display: flex;
+    margin: 5px auto 0;
+    width: 15vw;
+}

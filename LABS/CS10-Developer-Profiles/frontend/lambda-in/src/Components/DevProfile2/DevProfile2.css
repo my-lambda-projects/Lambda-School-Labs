@@ -1,0 +1,68 @@
+.profileContainer{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePaper{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.profileTopCard{
+    width: 60vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.profileImage{
+    width:15vw;
+    height:20vh;
+}
+
+.profileLinks{
+    width:4vw;
+    height:20vh;
+    padding-top: 10px;
+}
+.profileLinksIcon{
+    width:40px;
+    height:4vh;
+}
+
+.profileBio{
+    width:40vw;
+    height:20vh;
+    padding-top: 10px;
+    padding: 5px;
+}
+.profileBottomCard{
+    width: 60vw;
+    height: 50vh;
+
+}
+
+.profileProjects{
+    width: 50vw;
+    height: 10vh;
+    padding: 15px;
+}
+
+.profileButtons{
+    width: 50vw;
+    height: 5vh;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:5px;
+    padding: 5px;
+}

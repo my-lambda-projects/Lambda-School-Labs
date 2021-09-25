@@ -1,0 +1,6 @@
+# Files Heroku should ignore
+
+/React-Thunk-BOILERPLATE
+/frontend/*.pdf
+/frontend/*.zip
+/backend/api/data

@@ -1,0 +1,28 @@
+.container {
+    width: 50vw;
+    margin: auto;
+    margin-top:20px;
+    display:flex;
+}
+
+.body {
+    display: flex;
+    width: 50vw;
+}
+
+.buttonContainer {
+    display:flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}

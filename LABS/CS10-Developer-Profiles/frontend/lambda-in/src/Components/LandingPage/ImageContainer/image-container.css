@@ -1,0 +1,47 @@
+.box {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+.image {
+    width: 50vw;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 85px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.header {
+    font-size: 100px;
+}
+
+.text1 {
+    font-size: 24px;
+}
+.text2 {
+    font-size: 24px;
+}
+
+.button1 {
+    position: absolute;
+    margin-top: 193px;
+    margin-left: -11px;
+}
+
+.button2 {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: -11px;
+}
