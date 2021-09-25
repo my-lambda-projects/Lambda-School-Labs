@@ -1,0 +1,6 @@
+{
+    "databaseConfig":{
+        "host": "postgres",
+        "database": "speakout"
+    }
+}

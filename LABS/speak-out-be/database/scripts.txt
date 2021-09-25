@@ -1,0 +1,82 @@
+
+/* 
+Documentation is coming
+*/
+
+insert into locations
+(id, name) values (1, 'Bani Jamra');
+
+insert into locations
+(id, name) values (2, 'Hamad Town');
+
+insert into school_grades
+(select * from schoolgrade);
+
+
+insert into students (id, cpr, registration_date, first_name, additional_names, gender, birthdate, school_grade_id, school_name, grade_updated, home_telephone, mobile_telephone, block, road, building, flat, email, notes, no_call, delinquent, expelled, location_id)
+(select student_id, cpr, registration_date, first_name, additional_names, gender, birthdate, school_grade, school_name, grade_updated, home_telephone, mobile_telephone, block, road, building, flat, email, notes, no_call, delinquent_account, expelled, 1 from student)
+
+
+/* ========================================
+Script to delete all of the tables except ones listed */
+
+DO $$ DECLARE
+   row_drop TEXT;
+   do_drop TEXT;
+   cur_drop  CURSOR FOR select 'drop table "' || table_name || '" cascade;'
+from information_schema.tables
+where table_schema='public'
+and table_type = 'BASE TABLE'
+and table_name <> 'students'
+and table_name <> 'locations'
+and table_name <> 'school_grades'
+and table_name <> 'contact_types'
+and table_name <> 'contacts'
+and table_name <> 'student_contacts'
+and table_name <> 'user'
+and table_name <> 'users'
+and table_name <> 'sessions';
+   BEGIN
+     OPEN cur_drop;
+LOOP
+      FETCH cur_drop INTO row_drop;
+      EXIT WHEN NOT FOUND;
+      EXECUTE row_drop;
+END LOOP;
+END $$;
+/* ==================================== */
+
+/* ========================
+Create a view table for students table that displays actual values for all foreign keys
+
+Create view students_view as
+select
+students.id,
+           cpr,
+           registration_date,
+           first_name,
+           additional_names,
+           gender,
+           birthdate,
+school_grades.name as school_grade,
+           school_name,
+           grade_updated,
+           home_telephone,
+           mobile_telephone,
+           block,
+           road,
+           building,
+           flat,
+           email,
+           notes,
+contact_types.method as preferred_contact_method,
+           no_call,
+           delinquent,
+           expelled,
+Locations.name as location
+from students
+left join school_grades on school_grades.id = students.school_grade_id
+Left join contact_types on contact_types.id = students.contact_type_id
+Left join locations on locations.id = students.location_id
+
+============================ */
