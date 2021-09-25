@@ -4,7 +4,7 @@
   "private": true,
   "proxy": "http://localhost:8080",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.4",
     "font-awesome": "^4.7.0",
     "history": "^4.7.2",
     "jscolor-picker": "^2.0.4",
