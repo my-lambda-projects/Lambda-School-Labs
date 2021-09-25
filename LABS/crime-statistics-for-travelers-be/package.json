@@ -1,0 +1,37 @@
+{
+  "name": "labs16-CrimeStats-BE-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env DB_ENV=testing jest --watch",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryce-Soghigian/labs16-CrimeStats-BE-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryce-Soghigian/labs16-CrimeStats-BE-template/issues"
+  },
+  "homepage": "https://github.com/Bryce-Soghigian/labs16-CrimeStats-BE-template#readme",
+  "dependencies": {
+    "@sentry/node": "^5.6.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.0",
+    "jest": "^24.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.4",
+    "nodemon": "^1.19.2",
+    "sentry": "^0.1.2",
+    "sqlite3": "^4.1.0",
+    "supertest": "^4.0.2"
+  }
+}
