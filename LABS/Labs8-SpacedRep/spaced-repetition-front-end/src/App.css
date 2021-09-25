@@ -1,0 +1,60 @@
+/*  don't need? */
+/* .form-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 40px 40px 30px 40px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 10px 10px 10px grey;
+} */
+
+input {
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  padding: 0 15px 0 15px;
+  background: lightgray;
+  border: none;
+}
+textarea {
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  padding: 0 15px 0 15px;
+  background: lightgray;
+  border: none;
+}
+
+button {
+  height: 50px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-top: 5px;
+  color: white;
+  background: lightseagreen;
+}
+
+/* .form-link-text {
+  color: darkgray;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form-link-text .form-link {
+  color: lightseagreen;
+  font-size: 12px;
+}
+
+.form-link a:visited {
+  color: lightseagreen;
+} */
