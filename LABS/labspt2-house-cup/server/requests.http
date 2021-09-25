@@ -1,0 +1,97 @@
+GET http://localhost:5000/users/ HTTP/1.1
+
+###
+
+POST http://localhost:5000/users/register HTTP/1.1
+Content-Type: application/json,
+# Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCIeyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1qa3hSakZHTTBJeFJEazNOa1pCTURsRk5qSkVOREpFTUVGQk5FWXhSakZGTURJNVF6a3hRdyJ9.eyJpc3MiOiJodHRwczovL3Zlbmt5LXlhZ2F0aWxlZS5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDYxMDIxNjU1MzA2NjU2ODgxOTQiLCJhdWQiOlsiaHR0cHM6Ly9sYWJzcHQyLWhvdXNlY3VwLmhlcm9rdWFwcC5jb20vIiwiaHR0cHM6Ly92ZW5reS15YWdhdGlsZWUuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTU1NjAzNjI2NCwiZXhwIjoxNTU2MDQzNDY0LCJhenAiOiI0Nk5ndzVSZWxQQ3ZkYUNvS3JxUHZJV3l2Z0ZRQnF2eCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwifQ.r2YhAXiZeIg--RyO7vmv0veVSBcDVhlEFdjsZTuL9iy3GQ1DwuVNjkS0K5OWU23eghtvCsKPocu9FdCs_WRdxMHuxxnoa8BYJoiaNT05QIP6TuHfdO-aupI769-OKug1FVQ-sxl-_WDTnkpnnczpNMmBBSl037MbUvqMCNi3uwBjpiAJcKTG-qoPfqCSyqX1pViYP4V9A--kJ6hBNbm2I8E4cZvcvvMWpXxouYGplNAAVSw5Ef3VhPCeJnQvEFUU0nhIhlRaODsAgYt8Lb1HrmNk1G4uwNm8wTla-BVxt8NsqoAG2cXmoCuyd0dE9IGPiEEPZn0g-CrEZa_PgPvjTQ"
+
+
+{
+  "name": "venkatesh",
+  "email": "venky@aol.com",
+  "user_id": "0001"
+  
+}
+
+###
+
+POST http://localhost:5000/users/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "venky@aol.com",
+  "password": "12345"
+}
+
+###
+
+GET http://localhost:5000/schools HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmt5QGFvbC5jb20iLCJpYXQiOjE1NTU3MTEyMDksImV4cCI6MTU1NTcxNDgwOSwianRpIjoiN2Y1Zjk1ZTAtNjJlZS0xMWU5LWFiOGMtZmJkZGU2OTU0MGI1In0.8n0dB_ku8dwxsvYJ1QsQx9ZUD9IL5z3KyAuunPcodTY
+
+###
+POST http://localhost:5000/schools HTTP/1.1
+Content-Type: application/json
+ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmt5QGFvbC5jb20iLCJpYXQiOjE1NTU3MTEyMDksImV4cCI6MTU1NTcxNDgwOSwianRpIjoiN2Y1Zjk1ZTAtNjJlZS0xMWU5LWFiOGMtZmJkZGU2OTU0MGI1In0.8n0dB_ku8dwxsvYJ1QsQx9ZUD9IL5z3KyAuunPcodTY
+
+{
+  "name": "CJ High School",
+  "city": "Barnwell"
+}
+###
+
+
+PUT http://localhost:5000/schools/12 HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmt5QGFvbC5jb20iLCJpYXQiOjE1NTU3MTEyMDksImV4cCI6MTU1NTcxNDgwOSwianRpIjoiN2Y1Zjk1ZTAtNjJlZS0xMWU5LWFiOGMtZmJkZGU2OTU0MGI1In0.8n0dB_ku8dwxsvYJ1QsQx9ZUD9IL5z3KyAuunPcodTY
+
+{
+  "name": "12- School"
+}
+
+###
+
+DELETE http://localhost:5000/schools/7 HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmt5QGFvbC5jb20iLCJpYXQiOjE1NTU3MTEyMDksImV4cCI6MTU1NTcxNDgwOSwianRpIjoiN2Y1Zjk1ZTAtNjJlZS0xMWU5LWFiOGMtZmJkZGU2OTU0MGI1In0.8n0dB_ku8dwxsvYJ1QsQx9ZUD9IL5z3KyAuunPcodTY
+
+###
+
+#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmthdEBhb2wuY29tIiwiaWF0IjoxNTUxOTI2OTUxLCJleHAiOjE1NTE5MzA1NTEsImp0aSI6Ijk2MzQzYzkwLTQwODMtMTFlOS04MzBhLTIxYjI1Y2JhNTM5MyJ9.gndkUhxSc_eupks143OxTsxoxk8vZvzwuf9QRFuZw6s
+
+
+GET http://localhost:5000/schools/11/houses HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmt5QGFvbC5jb20iLCJpYXQiOjE1NTU3MTEyMDksImV4cCI6MTU1NTcxNDgwOSwianRpIjoiN2Y1Zjk1ZTAtNjJlZS0xMWU5LWFiOGMtZmJkZGU2OTU0MGI1In0.8n0dB_ku8dwxsvYJ1QsQx9ZUD9IL5z3KyAuunPcodTY
+
+###
+
+GET http://localhost:5000/schools/11/houses/2 HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmt5QGFvbC5jb20iLCJpYXQiOjE1NTU3MTEyMDksImV4cCI6MTU1NTcxNDgwOSwianRpIjoiN2Y1Zjk1ZTAtNjJlZS0xMWU5LWFiOGMtZmJkZGU2OTU0MGI1In0.8n0dB_ku8dwxsvYJ1QsQx9ZUD9IL5z3KyAuunPcodTY
+
+###
+
+POST http://localhost:5000/schools/11/houses HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmt5QGFvbC5jb20iLCJpYXQiOjE1NTU3MTEyMDksImV4cCI6MTU1NTcxNDgwOSwianRpIjoiN2Y1Zjk1ZTAtNjJlZS0xMWU5LWFiOGMtZmJkZGU2OTU0MGI1In0.8n0dB_ku8dwxsvYJ1QsQx9ZUD9IL5z3KyAuunPcodTY
+Content-Type: application/json
+
+{
+  "name": "House-ABCD",
+  "color": "Maroon",
+  "points": 70
+}
+
+###
+
+PUT http://localhost:5000/schools/1/houses/1 HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmt5QGFvbC5jb20iLCJpYXQiOjE1NTU3MTEyMDksImV4cCI6MTU1NTcxNDgwOSwianRpIjoiN2Y1Zjk1ZTAtNjJlZS0xMWU5LWFiOGMtZmJkZGU2OTU0MGI1In0.8n0dB_ku8dwxsvYJ1QsQx9ZUD9IL5z3KyAuunPcodTY
+Content-Type: application/json
+
+{
+  "points": 5
+}
+
+###
+
+DELETE  http://localhost:5000/schools/1/houses/2 HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlbmt5QGFvbC5jb20iLCJpYXQiOjE1NTU3MTEyMDksImV4cCI6MTU1NTcxNDgwOSwianRpIjoiN2Y1Zjk1ZTAtNjJlZS0xMWU5LWFiOGMtZmJkZGU2OTU0MGI1In0.8n0dB_ku8dwxsvYJ1QsQx9ZUD9IL5z3KyAuunPcodTY
+
+###

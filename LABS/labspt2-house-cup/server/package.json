@@ -1,0 +1,37 @@
+{
+  "name": "labspt2-house-cup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/vy3191/labspt2-house-cup.git",
+  "author": "vy3191 <venkyafhs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "chance": "^1.0.18",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "helmet": "^3.15.1",
+    "jsonwebtoken": "^8.5.0",
+    "jwks-rsa": "^1.4.0",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "pg": "^7.8.1",
+    "pg-hstore": "^2.3.2",
+    "request": "^2.88.0",
+    "sequelize": "^4.42.1",
+    "stripe": "^6.34.0",
+    "superagent": "^5.0.5",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
