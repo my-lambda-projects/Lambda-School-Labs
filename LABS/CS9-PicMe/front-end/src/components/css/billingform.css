@@ -1,0 +1,35 @@
+.BillingForm .card-field {
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 11px 16px;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  line-height: 1.3333333;
+}
+
+.BillingForm .card-field.StripeElement--focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+  border-color: #66AFE9;
+}
+
+.BillingForm {
+  border: 1px solid rgb(72, 72, 72);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 6px 4px 10px #828282;
+  color: white;
+  background-color: rgb(11, 11, 11);
+}
+
+.BillingForm {
+  width: 100%;
+}
+
+.billing-description {
+  margin-left: 35%;
+  text-align: center;
+  margin-top: 20px;
+  width: 30%;
+}
+

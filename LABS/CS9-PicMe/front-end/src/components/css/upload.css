@@ -1,0 +1,154 @@
+.uploads {
+    margin-bottom: 4rem;
+    height: 100%;
+}
+
+
+.uploads img {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+    height: 60vh;
+    position: relative;
+    bottom: 2rem;
+}
+
+.uploads label {
+    background-color: gainsboro;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: .3rem;
+    display: inline-block;
+    margin-left: 2rem;
+    padding: 0 1rem 4.5rem .8rem;
+    height: 50%;
+    order: 2;
+}
+
+.Uploads__pic {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    right: 3rem;
+}
+
+.Uploads input {
+    font-size: 2rem;
+    padding: .65rem;
+    height: 6rem;
+    order: 1;
+    width: 100%;
+}
+
+#Uploads__form button {
+    position: relative;
+    left: 5%;
+    top: 2rem;
+    padding: .7rem;
+    width: 30rem;
+    background-color: rgb(48, 148, 224);
+    color: white;
+    cursor: pointer;
+}
+
+.dropzone {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dropzone__input {
+    border: 2px dotted black;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.dropzone p {
+    font-size: 3rem;
+    color: silver;
+}
+
+form {
+    width: 85%;
+}
+
+.tablet__label {
+    display: none;
+}
+
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    .uploads label {
+        font-size: 1.8rem;
+    }
+
+    .dropzone p {
+        font-size: 2.2rem;
+        color: silver;
+    }
+
+    form {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 367px) and (max-width: 800px) {
+    .uploads label {
+        position: relative;
+        padding: 1rem;
+        margin-left: 4.2rem;
+        right: .7rem;
+    }
+
+    .tablet__label {
+        display: block;
+    }
+
+    .dropzone {
+        display: none;
+    }
+
+    .uploads img {
+        right: 2rem;
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 600px)  {
+    .uploads img {
+        width: 100%;
+        left: .2rem;
+        height: 40vh;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 367px) {
+    .uploads label {
+        position: relative;
+        padding: .4rem;
+        margin-left: 4.2rem;
+        width: 80%;
+    }
+
+    .tablet__label {
+        display: block;
+    }
+
+    .uploads img {
+        right: 1rem;
+    }
+
+    .dropzone {
+        display: none;
+    }
+}
+

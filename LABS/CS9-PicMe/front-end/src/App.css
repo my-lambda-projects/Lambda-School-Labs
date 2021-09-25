@@ -1,0 +1,9 @@
+* {
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-weight: 900;
+}
+
+*:hover {
+  outline: none !important;
+  border: none;
+}

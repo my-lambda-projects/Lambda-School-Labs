@@ -1,0 +1,57 @@
+.settings__nav img {
+    position: relative;
+    bottom: 2.2rem;
+    width: 1.8rem;
+}
+
+.settings__nav img:hover {
+    cursor: pointer;
+}
+
+.settings__nav img:first-of-type {
+    left: 93.2%;
+}
+
+.settings__nav img:nth-of-type(2) {
+    left: 93.2%;
+}
+
+.settings__nav button {
+    width: 8rem;
+}
+
+.settings {
+    background-color: black;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.first-name-input {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.second-name-input {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.email-input {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.password-input {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.nickname-input {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.settings-container {
+    font-family: 'Fjalla One', sans-serif;
+}

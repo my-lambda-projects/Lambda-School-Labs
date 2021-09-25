@@ -1,0 +1,51 @@
+
+.heading-main {
+    font-family: 'Fjalla One', sans-serif;
+    display: block;
+}
+.heading-sub {
+    font-family: 'Fjalla One', sans-serif;
+    display: block;
+}
+
+.mail-chimp-form {
+    margin-top: 3rem;
+    margin-left: 35%;
+    position: relative;
+}
+
+.alternate-contact {
+    margin-top: 60px;
+    margin-left: 25%;;
+    position: relative;
+}
+
+.contact-us-wrapper {
+    height: 100%;
+    padding: 6rem;
+    border: 2px solid rgb(55, 55, 55);
+    box-shadow: 5px 12px 10px #888888;
+}
+
+.contact-heading span:last-child {
+    color: rgb(134, 134, 134);
+    margin-top: 5%;
+}
+
+
+@media(min-width: 464px) and (max-width: 990px) {
+    .mail-chimp-form {
+        right: 2.5rem;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 464px) {
+    .mail-chimp-form {
+        right: 4rem;
+    }
+
+    .alternate-contact {
+        right: 2.5rem;
+    }
+}
+

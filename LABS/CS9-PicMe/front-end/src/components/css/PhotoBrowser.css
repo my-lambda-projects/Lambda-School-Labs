@@ -1,0 +1,39 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(64, 204, 255);
+}
+
+.component-wrapper {
+    color: rgb(64, 204, 255);
+    background-color: rgb(31, 31, 31);
+}
+
+.gallery-component {
+    display: none;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+img {
+    transition: all .2s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    
+}
+
+.add-to-collection {
+    float: right;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: rgb(64, 204, 255);
+}
+
+.toggle-select {
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: rgb(64, 204, 255);
+}

@@ -1,0 +1,42 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "license": "No License",
+  "dependencies": {
+    "@material-ui/core": "^1.5.0",
+    "@material-ui/icons": "^2.0.2",
+    "axios": "^0.18.0",
+    "better-react-spinkit": "^2.0.4",
+    "bootstrap": "^4.1.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.3",
+    "react-dom": "^16.4.2",
+    "react-dropzone": "^5.0.1",
+    "react-id-swiper": "^1.6.6",
+    "react-mailchimp-form": "^1.0.1",
+    "react-particles-js": "^2.3.0",
+    "react-photo-gallery": "^6.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-stripe-checkout": "^2.6.3",
+    "react-stripe-elements": "^2.0.1",
+    "react-tag-input": "^5.1.2",
+    "react-tagsinput": "^3.19.0",
+    "react-tilt": "^0.1.4",
+    "reactstrap": "^6.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.82.2",
+    "tachyons": "^4.11.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {}
+}

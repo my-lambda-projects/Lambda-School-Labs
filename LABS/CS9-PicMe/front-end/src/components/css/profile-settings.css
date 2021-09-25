@@ -1,0 +1,40 @@
+.input {
+    display: block;
+    width: 100%;
+}
+
+
+.settings__nav {
+    margin-top: 0;
+    height: 110vh;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media (min-width: 450px) and (max-width: 950px) {
+    .settings__icon  {
+        position: relative;
+        right: 1rem;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+    .settings__icon  {
+        position: relative;
+        right: 1.5rem;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+
+
