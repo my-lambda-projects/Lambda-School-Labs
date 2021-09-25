@@ -1,0 +1,71 @@
+.legend-con {
+  position: absolute;
+  display: flex;
+  left: 5%;
+  top: 68%;
+  z-index: 3;
+  width: 20%;
+
+  @media (max-width: 950px) {
+    left: 1.5%;
+    top: 88%;
+  }
+
+  @media (max-width: 500px) {
+    left: 1.5%;
+    top: 88%;
+  }
+
+  .legend-inner {
+    width: 100%;
+
+    .row {
+      display: flex;
+      align-items: center;
+      padding-top: 0.2rem;
+      svg {
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      h4 {
+        margin-left: 0.6rem;
+      }
+
+      @media (max-width: 950px) {
+        display: none;
+      }
+    }
+  }
+
+  .MuiSvgIcon-root {
+    width: auto;
+    color: rgb(17, 17, 17);
+  }
+  .MuiSvgIcon-fontSizeLarge {
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 1s;
+  }
+  //switch
+  .switch-con {
+    display: flex;
+    flex-direction: column;
+
+    &:hover p {
+      display: block;
+    }
+    .MuiSwitch-root {
+      .MuiSwitch-track {
+        background-color: #ff6102;
+        opacity: 1;
+      }
+      .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+        opacity: 0.6;
+      }
+    }
+    .label {
+      font-weight: bold;
+      display: none;
+    }
+  }
+}

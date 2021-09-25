@@ -1,0 +1,173 @@
+.search-box {
+  position: fixed;
+  display: inline-block;
+  top: 80px;
+  left: 18px;
+  background-color: #212121;
+  border-radius: 25px;
+  opacity: 0.95 !important;
+  z-index: 1;
+  overflow: hidden;
+  color: white;
+  transition: 0.2s;
+  width: 350px;
+  height: 50px;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+
+  .search-bar {
+    display: flex;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    height: 100%;
+
+    form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      div {
+        display: flex;
+        align-items: center;
+        input {
+          background: #212121;
+          outline: none;
+          border: 0 !important;
+          padding-left: 5px;
+          height: 100%;
+          width: 90%;
+          font-size: 1em;
+          color: white;
+          height: 100%;
+          &::placeholder {
+            color: white !important;
+          }
+        }
+        .search-menu {
+          fieldset {
+            border: 0;
+          }
+        }
+        button {
+          padding: 0;
+          color: white;
+        }
+      }
+    }
+
+    .drop-search,
+    .drop-search:hover {
+      font-weight: 600;
+      font-style: normal;
+      font-size: 18px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      line-height: 1em;
+      color: rgba(255, 255, 255, 0.9);
+      font-family: poppins;
+    }
+  }
+}
+
+.closed {
+  background: none;
+  width: 60px;
+  color: black;
+  border-radius: 25px;
+  form {
+    > div {
+      display: none !important;
+    }
+  }
+  &:hover {
+    background-color: #212121;
+    cursor: pointer;
+    color: white;
+  }
+}
+
+// This transform moves the pins up and to the left slightly so the bottom is pointing to the area
+
+.city-pin,
+.reunion-pin {
+  margin-bottom: 1.5rem;
+}
+.city-pin {
+  z-index: 2;
+}
+.reunion-pin {
+  z-index: 1;
+}
+
+.markerCity {
+  z-index: 3;
+}
+
+.markerReunion {
+  height: 0;
+  .city-pin {
+    svg.injected-svg {
+      opacity: 1;
+      transition: 1s;
+      width: 29.5px;
+      margin-left: 1.5px;
+    }
+    transform: translate(-15px, -50px) !important;
+  }
+}
+
+.clusters {
+  width: 28px;
+  height: 28px;
+  color: #fff;
+  background: black;
+  border-radius: 50%;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.clustersNight {
+  width: 28px;
+  height: 28px;
+  color: #fff;
+  background: #a9a9a9;
+  border-radius: 50%;
+  padding: 0.2rem;
+  text-align: center;
+}
+.reunion-clusters {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  background: rgb(255, 98, 4);
+  border-radius: 50%;
+  padding: 0rem;
+  text-align: center;
+}
+
+.reunion-clustersNight {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  background: rgb(255, 98, 4);
+  border-radius: 50%;
+  padding: 0rem;
+  text-align: center;
+}
+
+.popup-reunion {
+  @media (max-width: 500px) {
+    width: 95vw;
+  }
+}
+
+.linGradNight {
+  background: linear-gradient(#091217 50%, #1a2537 50%);
+}
+
+.linGrad {
+  background: linear-gradient(#75cff1 50%, #f4f1ea 50%);
+}

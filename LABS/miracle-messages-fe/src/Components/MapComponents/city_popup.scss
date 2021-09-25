@@ -1,0 +1,125 @@
+.popup-main {
+  z-index: 3;
+  position: fixed;
+  left: -280px;
+  top: -200px;
+  i {
+    background-color: #212121 !important;
+    color: #212121 !important;
+  }
+  .mapboxgl-popup-content {
+    width: 300px;
+    background-color: #212121 !important;
+    opacity: 0.95;
+  }
+  .mapboxgl-popup-tip {
+    display: none;
+  }
+}
+.popup-reunion {
+  z-index: 3;
+  .mapboxgl-popup-content {
+    background-color: #212121 !important;
+    opacity: 1;
+    padding: 20px 20px;
+  }
+  .mapboxgl-popup-tip {
+    border-right-color: #212121;
+  }
+  .story-container {
+    margin-top: 0.8rem;
+    font-size: 0.85rem;
+    text-align: left;
+  }
+}
+
+.chapter-Info {
+  font-family: poppins;
+  margin-top: 10px;
+  color: white;
+  background-color: #212121 !important;
+
+  display: flex;
+  flex-direction: column;
+  .chapter-img {
+    img {
+      max-width: 100%;
+      padding: 0 5px;
+    }
+  }
+  .chapter-btn {
+    background-color: white;
+    margin-top: 1.2rem;
+    margin-bottom: 0.7rem;
+    width: 60%;
+    align-self: center;
+    border-radius: 3px;
+    color: black;
+    font-weight: 600;
+    &:hover {
+      background-color: rgb(173, 173, 173);
+    }
+  }
+}
+
+.chapter-Title {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  h1 {
+    padding: 0.5rem 0;
+    padding-bottom: 0.9rem;
+    font-size: 1.5rem;
+  }
+}
+
+.chapter-Stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: #d8d8d8 solid 0.25px;
+  padding: 10px 0px;
+  color: white;
+}
+
+.volunteers {
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+  padding-right: 24px;
+  border-right: #d8d8d8 solid 0.25px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  color: white;
+}
+
+.reunions {
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-bottom: -1rem;
+  color: white;
+}
+
+.number {
+  font-family: poppins;
+  align-self: center;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  margin-left: 1px;
+  color: white;
+}
+
+.chapter-Details {
+  padding: 20px 25px 0px 25px;
+  font-size: 13px;
+  letter-spacing: 0.73px;
+  line-height: 18px;
+  color: white;
+}

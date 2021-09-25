@@ -1,0 +1,112 @@
+.pending-chapter-div {
+  margin-top: 15vh;
+  padding: 0 10%;
+  h2 {
+    margin-bottom: 2%;
+  }
+  .table {
+    margin-bottom: 0;
+  }
+  #pending-table-header {
+    th {
+      width: 20%;
+      border: none !important;
+    }
+    .no-border {
+      border-top: none;
+      .blank-th {
+        @media (max-width: 800px) {
+          display: none;
+        }
+      }
+      .pending-city-th {
+        @media (max-width: 800px) {
+          display: none;
+        }
+      }
+      .admin-contact-th {
+        @media (max-width: 800px) {
+          display: none;
+        }
+      }
+    }
+  }
+  .action-btns {
+    text-align: center;
+    .approve-btn {
+      color: green;
+      cursor: pointer;
+      &:hover {
+        color: rgb(135, 216, 135);
+      }
+    }
+    .reject-btn {
+      margin-left: 0.5rem;
+      color: rgb(196, 71, 71);
+      cursor: pointer;
+      &:hover {
+        color: rgb(238, 103, 103);
+      }
+    }
+  }
+  .leader-pic-div {
+    text-align: center;
+    @media (max-width: 800px) {
+      display: none;
+    }
+    .leader-avatar {
+      width: 50px;
+      border-radius: 50%;
+      text-align: center;
+    }
+  }
+  .default-pic {
+    width: 2rem;
+    height: 2rem;
+  }
+  .no-chapter-msg {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .no-volunteers-msg {
+    margin-top: 4rem;
+    margin-left: 22%;
+    font-size: 1rem;
+  }
+}
+//modals
+.modal-backdrop.show {
+  opacity: 0.1;
+}
+.modal-footer {
+  .affirm-btn {
+    background-color: green;
+  }
+}
+
+#pending-chapter-tbl {
+  .pending-city-td {
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+  .volunteer-contact-td {
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+  th {
+    width: 20%;
+  }
+  td {
+    width: 20%;
+  }
+}
+
+.pending-admin-div {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+.pending-admin-div.second {
+  margin-top: 15vh;
+}

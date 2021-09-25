@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap");
+
+.header-img {
+  img {
+    background-size: cover;
+    background-position: right 50% bottom 80%;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+  }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+button {
+  margin: 0;
+}
+
+.chapter-page-container {
+  font-family: poppins;
+
+  .inner-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+
+    .first-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-content: center;
+    }
+    .header-wrapper {
+      display: flex;
+      border-bottom: 5px solid #c0c0c0;
+
+      @media (max-width: 700px) {
+        flex-direction: column;
+        border-bottom: 0px;
+      }
+
+      .chapter-name {
+        align-self: center;
+        width: 70%;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 2% 0;
+
+        font-weight: 900;
+      }
+    }
+
+    .count-container {
+      width: 40%;
+      padding: 2% 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2vh;
+      p {
+        font-family: poppins;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      .count {
+        font-family: poppins;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+
+    .hero-p {
+      padding: 5%;
+      width: 100%;
+      font-size: 1.3rem;
+    }
+
+    .members-header {
+      font-size: 2rem;
+      font-weight: 800;
+      padding: 2% 0;
+      margin-bottom: 2%;
+    }
+
+    .chapter-leader {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+
+      h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 800;
+        padding: 2% 0;
+      }
+
+      .bio {
+        width: 100%;
+
+        h3 {
+          font-size: 2rem;
+        }
+
+        p {
+          padding: 2%;
+          width: 100%;
+          font-size: 1.75rem;
+          text-align: center;
+        }
+      }
+    }
+
+    .chapter-volunteers {
+      width: 100%;
+      margin-bottom: 12vh;
+
+      h2 {
+        padding: 2%;
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 2%;
+      }
+    }
+  }
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  .reunion-btn {
+    margin-top: 5vh;
+    font-weight: 600;
+    width: 30%;
+    padding: 1% 0%;
+    color: white;
+    background: rgb(39, 54, 68);
+    font-size: 1.2rem;
+    &:hover {
+      // font-weight: 700;
+      background: rgb(66, 87, 105);
+      cursor: pointer;
+    }
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      outline: none;
+    }
+  }
+}
+
+.join-button {
+  align-self: center;
+  border: none;
+  // margin-top: 5vh;
+  font-weight: 600;
+  width: 30%;
+  font-size: 1.2rem;
+  background: rgb(39, 54, 68);
+  color: white;
+  padding: 0.7rem 0;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(66, 87, 105);
+  }
+
+  @media (max-width: 700px) {
+    width: 70%;
+  }
+
+  @media (max-width: 450px) {
+    width: 92%;
+  }
+
+  &:hover {
+    // font-weight: 800;
+    cursor: pointer;
+  }
+
+  &:disabled {
+    background: rgb(39, 54, 68);
+    cursor: default;
+    width: 40%;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.3);
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.justify-even {
+  align-self: center;
+
+  justify-content: space-evenly;
+  width: 85%;
+}
+
+.members-box {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .leader-title {
+    margin-bottom: 0.7rem;
+    font-size: 2rem;
+  }
+  #leader-name {
+    margin-top: 0.5rem;
+    font-size: 1.7rem;
+  }
+  #leader-bio {
+    font-size: 1.3rem;
+  }
+}
