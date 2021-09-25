@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`employer profile component should render without error 1`] = `
+<div
+  className="sc-bdVaJa sc-dnqmqq bWtbPz"
+>
+  <div
+    className="sc-bwzfXH sc-iwsKbI GjyAO"
+  >
+    <div
+      className="sc-gZMcBi kPhLgs"
+    >
+      <div
+        className="globe-filter"
+      />
+      <div
+        className="globe-spinning"
+      />
+    </div>
+  </div>
+</div>
+`;

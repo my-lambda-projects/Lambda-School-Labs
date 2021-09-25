@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`favorite component should render without error 1`] = `
+<div
+  className="sc-bwzfXH sc-jTzLTM BYepu"
+>
+  <div
+    className="sc-htpNat sc-fjdhpX dpOBgu"
+  >
+    <div
+      className="sc-jzJRlG fRCTff"
+    >
+      <div
+        className="globe-filter"
+      />
+      <div
+        className="globe-spinning"
+      />
+    </div>
+  </div>
+</div>
+`;

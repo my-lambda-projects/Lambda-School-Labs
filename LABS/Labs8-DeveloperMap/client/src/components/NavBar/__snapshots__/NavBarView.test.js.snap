@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Bar Component renders correctly 1`] = `
+<div
+  className="nav sc-bdVaJa gzaecn"
+>
+  <div>
+    <button
+      className="sign-in sc-htpNat cAlqeK"
+      onClick={[Function]}
+    >
+      Sign In
+    </button>
+  </div>
+</div>
+`;
