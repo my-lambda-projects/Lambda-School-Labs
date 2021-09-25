@@ -1,0 +1,9 @@
+@import '../../../styles/variables.scss';
+
+.columnEditCont {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  height: 300px;
+  overflow: auto;
+}

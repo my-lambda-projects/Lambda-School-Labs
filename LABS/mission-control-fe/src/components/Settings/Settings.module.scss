@@ -1,0 +1,41 @@
+@import '../../styles/variables.scss';
+
+.bottomLinks {
+  margin-left: 90% !important;
+  margin-top: 10px !important;
+}
+
+.modalStyle {
+  position: relative !important;
+  height: 350px !important;
+  width: 550px !important;
+}
+
+.headerDiv {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: lightgray;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding-right: 80px;
+  cursor: pointer;
+  pointer-events: auto;
+  outline: none;
+  &hover {
+    color: gray;
+  }
+}
+
+.columnHeader {
+  text-align: center;
+}
+
+.buttonBreakLine {
+  padding-right: 17rem;
+}

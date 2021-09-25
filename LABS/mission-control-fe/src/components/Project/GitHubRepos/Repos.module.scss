@@ -1,0 +1,21 @@
+.searchResult {
+  width: 70%;
+}
+
+.repoAlignment {
+  display: flex;
+    .button {
+      border: none;
+      background-color: rgba($color: #FFFFFF, $alpha: 0.0);
+    }
+}
+
+.buttonAlign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button{
+    border: none;
+    background-color: rgba($color: #FFFFFF, $alpha: 0.0)
+  }
+}
