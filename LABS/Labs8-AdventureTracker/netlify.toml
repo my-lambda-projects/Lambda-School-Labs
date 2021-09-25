@@ -1,0 +1,10 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors https://www.facebook.com"
+
+[build]
+NODE_ENV = "prod"
+base="frontend/"
+publish="frontend/out/"
+command="npm run export"
