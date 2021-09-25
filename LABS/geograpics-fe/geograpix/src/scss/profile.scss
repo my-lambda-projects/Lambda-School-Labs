@@ -1,0 +1,163 @@
+.profile-tab-box, .profile-tab-dark {
+  border-radius: 10px; 
+  height: 306.7px;
+  width: 461px;
+  background-color: white;
+  box-shadow:  4px 4px 60px rgba(0,0,0,0.25);
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  pointer-events: all;
+
+  .profile-tab-top-div{
+    display: flex;
+    align-items: end;
+
+    .top-div-details-bold{
+      margin: 3px 0%; 
+      font-weight: bold; 
+      font-size: .7rem;
+      color: #808080;
+    }
+
+    .profile-tab-img-div{
+      width: 40%;
+      margin-left: 15px;
+
+      .bold-cont {
+        margin-left: 20px;
+      }
+
+      .profile-tab-prof-pic{
+        cursor: pointer; 
+        width: 100px; 
+        height: 100px;
+        margin: 33px 33px 0px 0px; 
+        border-radius: 50%;
+      }
+    }
+
+    .top-div-details-div {
+      width: 100%; 
+      display: flex; 
+      flex-direction: column;
+      margin-top: 30px;
+
+      .top-div-details-name{
+        font-size: 1.2rem;
+        margin: 0px;
+      }
+
+      .top-div-details{
+        margin: 3px 0%; 
+        font-size: .9rem;
+        letter-spacing: -0.337647px;  
+        font-weight: 500;
+      }
+
+      h6 {
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: -0.337647px;
+      }
+
+      p {
+        line-height: 16px;
+        letter-spacing: -0.337647px;
+        font-size: .8rem;
+        padding-right: 20px;
+      }
+
+      .web {
+        color: #1563D7;
+      }
+    }
+  }
+
+  .profile-tab-middle-div{
+    padding: 10px 0%;
+    display: flex;
+
+    & > div > .middle-div-details{
+      font-size: .8rem;
+      font-weight: bold;
+      margin: 0px;
+      margin-right: 20px;
+    }
+
+    span {
+      letter-spacing: -0.337647px;
+      font-weight: 100;
+    }
+  }
+
+  .profile-tab-bottom-div{
+    display: flex;
+    padding-top: 10px;
+
+    .btn-signout {
+      width: 252.3px;
+      height: 50px;
+      padding: .5rem 1rem;
+      letter-spacing: 0.0125rem;
+      font: bold 1.063rem/1.125em $font-default-stack;
+      border: none;
+      border-radius: 1.625rem;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-appearance: none;
+      appearance: none;
+      transition: opacity 0.25s linear; 
+      background-color: transparent;
+      color: white;
+      background: linear-gradient(129.24deg, #962FBF 24.78%, #4F5BD5 90%);
+      transition: opacity 0.25s linear, background-color 0.25s linear, filter 0.25s linear;
+      filter:saturate(100%);
+
+    
+      &:hover {
+        filter: saturate(150%)
+      }
+    }
+    
+    .btn-instagramaccount {
+      font-size: .7rem;
+      padding: .5rem 1rem;
+      letter-spacing: 0.0125rem;
+      border: none;
+      border-radius: 1.625rem;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-appearance: none;
+      appearance: none;
+      transition: opacity 0.25s linear, background-color 0.25s linear, filter 0.25s linear;
+      background-image: linear-gradient(90deg, #4F5BD5 4.79%, #962FBF 26.9%, #D62976 76.54%, #FA7E1E 95.21%);
+      color: #fff;
+      filter: saturate(100%);
+    
+      &:hover {
+        filter: saturate(150%);
+      }
+    }
+  }
+}
+
+.profile-tab-dark {
+  background-color: #232323;
+
+  .web {
+    color: #9bc0f7 !important;
+  }
+
+  p {
+    color: #ccc;
+    letter-spacing: 0.5px !important;
+  }
+
+  .top-div-details-name {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 100;
+  }
+
+}

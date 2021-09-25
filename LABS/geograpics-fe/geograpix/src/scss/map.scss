@@ -1,0 +1,89 @@
+.refresh-pics {
+  width: 125px;
+  height: 30px;
+  background: transparent;
+  color: transparent;
+  font-weight: bold;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  z-index: 9999;
+  appearance: none;
+  border: none;
+
+  &:hover {
+    background: red;
+    color: white;
+  }
+}
+
+.App-header {
+
+  & > div {
+    // min-width: 100vw !important;
+    min-height: 100vh !important;
+    width: 100% !important;
+  }
+
+  @media only screen and (min-width: 400px) {
+    & > div {
+      height: 500px !important;
+    }
+  }
+}
+
+.mapboxgl-ctrl.mapboxgl-ctrl-group {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  z-index: 9999;
+}
+
+.top-toolbar{
+  z-index: 50; 
+  width: 100%; 
+  position: absolute;
+  pointer-events: none;
+
+  .top-toolbar-static{
+    position: relative; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+
+    .top-toolbar-logo{
+      width: auto;
+      height: 65px;
+      margin: 25px;
+      pointer-events: all;
+    }
+
+    .top-toolbar-profile-thumbnail{
+      position: relative;
+
+      .top-toolbar-searchbox {
+        margin-right: -10px; 
+        box-shadow:  1px 3px 2px 0px rgba(0,0,0,0.3);
+        padding-left: 10px; 
+        border: none;
+        height: 20px;
+        border-radius: 20px;
+      }
+
+      .top-toolbar-profile-button{
+        $size: 20px;
+        margin: $size $size 0 0;
+        padding: 0;
+        border: none; 
+        background-color: transparent;
+        pointer-events: all;
+
+        .top-toolbar-thumbnail-photo{
+            cursor: pointer; 
+            width: 47px;
+            border-radius: 50%;
+        }
+      }
+    }
+  }
+}

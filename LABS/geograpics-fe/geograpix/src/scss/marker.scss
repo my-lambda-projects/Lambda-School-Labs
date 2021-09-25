@@ -1,0 +1,26 @@
+.marker {
+  position: relative;
+
+  .thumbnail {
+    width: 8rem;
+    height: 10.063rem;
+    background: white;
+    @include border-radius(1.25rem);
+    position: absolute;
+    left: -126px;
+    bottom: 14px;
+  }
+}
+
+.btn-marker{
+  border: none;
+  background-color: transparent;
+  appearance: none
+}
+
+.img-marker{
+  height: 380px; 
+  width: 340px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

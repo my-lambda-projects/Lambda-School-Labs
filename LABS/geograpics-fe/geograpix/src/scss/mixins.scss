@@ -1,0 +1,7 @@
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin border-radius-corners($rtl, $rtr, $rbr, $rbl) {
+  border-radius: $rtl $rtr $rbr $rbl;
+}

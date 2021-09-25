@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Lobster&display=swap');
+@import 'vars';
+@import 'mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-default-stack;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+}
+
+code {
+  font-family: $font-code-stack;
+}
+
+@import './map';
+@import './registration';
+@import './marker';
+@import './picturePopup';
+@import './profile';
+@import './filter';
+@import './landingpage';
+
+.ir {
+  color: transparent;
+  font: 0/0 a;
+  overflow: hidden;
+  margin-left: -9999px;
+}
