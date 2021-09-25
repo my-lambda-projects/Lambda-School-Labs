@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+/* .button {border-radius: 50%;}
+.button {
+    background-color: rgb(131, 137, 138); 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} */
+.btn-circle, .btn-circle-3d{
+  border-radius: 50% !important;
+}
+
+.btn-primary.btn-circle{
+  -webkit-box-shadow: 0px 0px 3px 1px #4e545a;
+  -moz-box-shadow:    0px 0px 3px 1px #4e545a;
+  box-shadow:         0px 0px 3px 1px #4e545a;
+}
+
+.btn-default.btn-circle{
+  -webkit-box-shadow: 04px 04px 6px 1px rgb(143, 138, 138);
+  -moz-box-shadow:    04px 04px 6px 1px rgb(143, 138, 138);
+  box-shadow:         04px 04px 6px 1px rgb(143, 138, 138);
+}
+
+.search-bar {
+  margin: 100px;
+  text-align: center;
+}
+
+.search-bar input {
+    width: 70%;
+}

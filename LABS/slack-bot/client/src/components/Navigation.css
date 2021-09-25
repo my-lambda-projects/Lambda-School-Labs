@@ -1,0 +1,9 @@
+.navbar { 
+  margin-bottom: 0px; 
+  border-radius:0px;
+  background-color: black;
+}
+.navbar-brand { 
+  width: 100px;
+  height: 9%;
+ }

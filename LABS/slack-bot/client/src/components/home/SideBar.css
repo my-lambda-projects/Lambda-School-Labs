@@ -1,0 +1,24 @@
+.Page {
+  display: flex;
+}
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  width: 200px;
+  height: 95%;
+  padding: 25px  10px 550px 15px;
+  border: 2px solid;
+  margin-left: 10px;
+  align-items: baseline;
+  align-content: flex-start;
+}
+.Data {
+  padding-left: 20px;
+}
+
+.ho:hover
+{
+  background-color: rgb(140, 177, 245)
+}
+
