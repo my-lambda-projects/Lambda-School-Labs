@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- 11.10.1
+cache:
+  directories:
+  - node_modules
+script:
+- cd front-end && npm i && cd ../back-end && npm i
+deploy:
+  provider: heroku
+  api_key:
+    secure: lZDOJp0k4HZuBajiRpXbFshPyXXnMUMuz6xbGH6TClsM4qtjsnmD1xPcmROHlqVBLdNbHQ90/vS2bTibDOKveJtM0MoUaz6LMmlu+PioGZ2UCdJRIy2pkdKMae4KjWjl5Ps1oZhHQvrr3o1TftQbQW0fW/GClhNR+zAgsEtAA9IJux+KfiskEZANLj0+B2gwMoSnxSWAYwSsPoxwBHUaqG8FjNd0MItY79j+QUHZQ1lkUgZyz4EHYt6ecHaSe1ANk+wCEhEuMwzns3FHF/kC9VUOjYSzzemiQgi+fUgnqUce9OegeqIc9Jtp/PNFp5/7YaaWEeGllW3TmM1k7obbhp21QPary/ici70qXYCMpztkwJxw9M8vE19Sm966A/7Gdr39YNad7dynSXncaLcKORuwa9tGX0e5j1VDz5I4PLLYQolfOKdA7VJKG13q39n5GvLx95fgQqNy0f2yaiDTQSxmRSPJ2nJpnORFHc1KUuaCqusokPhZwkYatp2YiLNc2D4t59Kwq23aOa8+gc7XZbdZNmsHm9LpmtQnM5CGIBiS3A1JaKPe+CKWPwAjrD3vmwwqAPxyVKCNaeh8Lub1s9t3oBsBtXmH5IhMVSLYMwd+r0GgtdmMQqGBt9DwVOVxsKribN1z57KFYYuyrTro+lyCpmqhEm0RI4F38STcnBQ=

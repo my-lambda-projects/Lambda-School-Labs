@@ -1,0 +1,191 @@
+
+
+.test {
+    display: flex;
+    width: 90%;
+    height: 100px;
+    border: 1px black solid;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.form-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+}
+
+.StripeElement {
+    margin: 10px 0;
+}
+
+.checkoutinput{
+    width: 75%;
+    align-self: center;
+    font-family: roboto;
+}
+.checkoutform {
+    
+    width: 75%;
+    height: 150px;
+    justify-content: space-around;
+}
+
+
+.workorderform {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .workorderform {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        height: 1000px;
+        align-items: center;
+    }
+    .griditem {
+        align-items: center;
+        height: 1000px;
+        justify-content: space-around;
+        
+    }
+
+    .innerworkorderform {
+        display: flex;
+        align-items: center;
+        height: 1000px;
+    }
+  }
+
+.innerworkorderform {
+    display: flex;
+    align-items: center;
+}
+
+.griditem {
+    align-items: center;
+    
+}
+
+.form-card .checkoutform .button {
+    width: 100%;
+    margin-bottom:20px;
+    background-color: #fc766a;
+}
+
+.checkoutform .button:hover {
+    color: #fc766a;
+    background-color: white;
+    border: 1px solid #fc766a;
+}
+
+.checkoutform .button span {
+    font-size:14px;
+}
+
+.slider label .css-5qfbhd-Switch {
+    background-color: #fc766a;
+}
+.slider label {
+    width:35px;
+    height:25px;
+}
+
+.slider {
+    margin-bottom: 10px;
+}
+
+.checkoutinput {
+    margin-bottom: 10px;
+}
+.checkoutinput input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: slategray;
+}
+
+.carditems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.flexbuttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardfont {
+    font-size: 5rem;
+    align-items: center;
+}
+
+.workcards {
+    font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+
+}
+
+.payment-history {
+    padding:60px;
+    border:none;
+}
+
+.card-header div span {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.form-card {
+    padding: 20px;
+}
+
+.form-card  h1{
+    padding: 20px;
+}
+
+.checkout-line {
+    padding: 20px 0px 20px 0px;
+}
+
+.flex-component {
+    display: flex;
+    justify-content: space-between;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+}
+.slider p{
+    font-size:16px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.card-header div span {
+    font-size: 16px;
+}
+
+.flex-component div .payments {
+    font-size: 16px;
+}
+
+@media(max-width: 745px) {
+    .flex-cards {
+        display:flex;
+    }
+    
+}

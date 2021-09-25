@@ -1,0 +1,36 @@
+{
+    "cells": [
+        {
+            "title": "Add and edit properties",
+            "image": "https://i.ibb.co/cDDfWjM/house.png"
+        },
+		{
+			"title": "See all properties",
+			"image": "https://i.ibb.co/sWyQMkm/view.png"
+		},
+		{
+			"title": "Manage tenants",
+			"image": "https://i.ibb.co/tKR1wck/tenants.png"
+		},
+		{
+			"title": "Manage work orders",
+			"image": "https://i.ibb.co/qCW83rR/workorders.png"
+		},
+		{
+			"title": "Send out contracts",
+			"image": "https://i.ibb.co/GpSCW49/send.png"
+		},
+		{
+			"title": "Collect payments",
+			"image": "https://i.ibb.co/GxtVbrf/pay.png"
+		},
+		{
+			"title": "See payment history",
+			"image": "https://i.ibb.co/qCnhHDZ/history.png"
+        },
+        {
+			"title": "Access everything in pocket",
+			"image": "https://i.ibb.co/KbrwRHP/insync.png"
+        }
+    ]
+}

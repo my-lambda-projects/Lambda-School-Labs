@@ -1,0 +1,11 @@
+.Billing {
+    margin: 5px;
+    display: flex;
+}
+
+.Billing .MuiPaper-root-2{
+    margin: 10px;
+    padding: 20px;
+}
+
+
