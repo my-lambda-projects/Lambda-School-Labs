@@ -1,0 +1,25 @@
+{
+  "name": "ksl_alert_backend",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.14",
+    "request": "^2.88.0",
+    "stripe": "^6.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js",
+    "heroku-postbuild": "cd client && yarn install && yarn run build && cd .."
+  }
+}

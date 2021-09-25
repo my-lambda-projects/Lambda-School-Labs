@@ -1,0 +1,37 @@
+/* This is the style sheet for the entire app to give it uniformity across all of our pages */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+  color: rgb(35, 66, 214);
+}
+
+.app_container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  min-width: 900px;
+}
+
+.content_header {
+  margin: 1 0.5rem;
+}
+
+.content_header h3 {
+  margin: 0 0.5rem;
+}
+
+.button_link {
+  text-decoration: none;
+}
+
+.button-danger {
+  background: red;
+}
