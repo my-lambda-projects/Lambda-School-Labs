@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hXq-Sd-QM9">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Merriweather-Bold.ttf">
+            <string>Merriweather-Bold</string>
+        </array>
+        <array key="Merriweather-Regular.ttf">
+            <string>Merriweather-Regular</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Initial View Controller-->
+        <scene sceneID="s8g-2y-g6v">
+            <objects>
+                <viewController id="XI5-s7-70o" customClass="InitialViewController" customModule="MusicMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Saw-Ca-gp5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="myy-8J-8eI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="myy-8J-8eI" secondAttribute="height" multiplier="1756:2082" priority="999" id="9ET-7d-6zY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="musicmaker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="CgE-AS-gAZ">
+                                <rect key="frame" x="66" y="0.0" width="282" height="68"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Bold" family="Merriweather" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Bold" family="Merriweather" pointSize="60"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Bold" family="Merriweather" pointSize="45"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCU-Vo-PI8">
+                                <rect key="frame" x="94.333333333333329" y="168" width="225.33333333333337" height="34"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="17"/>
+                                <state key="normal" title="LOG IN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="showLoginOptions:" destination="XI5-s7-70o" eventType="touchUpInside" id="9sD-PE-fDV"/>
+                                    <segue destination="BF0-jJ-iAR" kind="presentation" identifier="ShowLoginOptions" id="que-9r-UXH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MsI-Ti-oTd">
+                                <rect key="frame" x="94.333333333333329" y="222" width="225.33333333333337" height="34"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.98039215690000003" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="17"/>
+                                <state key="normal" title="SIGN UP">
+                                    <color key="titleColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSignupOptions:" destination="XI5-s7-70o" eventType="touchUpInside" id="1kh-RO-usP"/>
+                                    <segue destination="BF0-jJ-iAR" kind="presentation" identifier="ShowSignupOptions" id="vzR-mT-veA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="myy-8J-8eI" firstAttribute="trailing" secondItem="Saw-Ca-gp5" secondAttribute="trailing" id="5dd-L2-au8"/>
+                            <constraint firstItem="RCU-Vo-PI8" firstAttribute="centerX" secondItem="Saw-Ca-gp5" secondAttribute="centerX" id="7h7-9O-wfw"/>
+                            <constraint firstItem="myy-8J-8eI" firstAttribute="top" relation="lessThanOrEqual" secondItem="Saw-Ca-gp5" secondAttribute="top" id="COT-Ae-xQb"/>
+                            <constraint firstItem="RCU-Vo-PI8" firstAttribute="width" secondItem="CgE-AS-gAZ" secondAttribute="width" multiplier="0.8" id="DT1-QM-v7E"/>
+                            <constraint firstItem="MsI-Ti-oTd" firstAttribute="centerX" secondItem="Saw-Ca-gp5" secondAttribute="centerX" id="Fs6-DS-J3L"/>
+                            <constraint firstItem="CgE-AS-gAZ" firstAttribute="centerX" secondItem="Saw-Ca-gp5" secondAttribute="centerX" id="SWS-PH-Ida"/>
+                            <constraint firstItem="myy-8J-8eI" firstAttribute="leading" secondItem="Saw-Ca-gp5" secondAttribute="leading" id="TRp-GI-v4v"/>
+                            <constraint firstItem="CgE-AS-gAZ" firstAttribute="top" secondItem="Vwe-AN-Kzz" secondAttribute="top" id="Ud7-l6-BWK"/>
+                            <constraint firstItem="RCU-Vo-PI8" firstAttribute="height" secondItem="CgE-AS-gAZ" secondAttribute="height" multiplier="0.5" id="Vhh-s2-wxa"/>
+                            <constraint firstItem="MsI-Ti-oTd" firstAttribute="top" secondItem="RCU-Vo-PI8" secondAttribute="bottom" constant="40" id="dOg-H3-b4d">
+                                <variation key="heightClass=compact-widthClass=compact" constant="20"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="MsI-Ti-oTd" firstAttribute="width" secondItem="RCU-Vo-PI8" secondAttribute="width" id="k33-T0-PMu"/>
+                            <constraint firstItem="MsI-Ti-oTd" firstAttribute="height" secondItem="RCU-Vo-PI8" secondAttribute="height" id="lFh-6E-q0Y"/>
+                            <constraint firstItem="myy-8J-8eI" firstAttribute="bottom" secondItem="Saw-Ca-gp5" secondAttribute="bottom" id="ooq-wg-DKx"/>
+                            <constraint firstItem="RCU-Vo-PI8" firstAttribute="top" secondItem="CgE-AS-gAZ" secondAttribute="bottom" constant="100" id="zOL-18-uyV">
+                                <variation key="heightClass=compact-widthClass=compact" constant="20"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="40"/>
+                            </constraint>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vwe-AN-Kzz"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Euy-h8-trc">
+                        <barButtonItem key="backBarButtonItem" title=" " id="XQY-rt-js2"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="loginButton" destination="RCU-Vo-PI8" id="kai-mK-sYk"/>
+                        <outlet property="signupButton" destination="MsI-Ti-oTd" id="oWA-gY-vOl"/>
+                        <segue destination="IEf-u0-XmX" kind="presentation" identifier="ShowTeachers" id="5mc-Cd-NMF"/>
+                        <segue destination="fJc-Zd-r9S" kind="show" identifier="ShowLoginScreen" id="Qah-C9-N4r"/>
+                        <segue destination="6aC-Rc-Di4" kind="show" identifier="SignUpWithGoogle" id="tmR-Ep-L9G"/>
+                        <segue destination="6aC-Rc-Di4" kind="show" identifier="ShowSignupScreen" id="txV-j1-YDS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QQV-4B-11T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544.53125" y="27.5390625"/>
+        </scene>
+        <!--Authentication Options View Controller-->
+        <scene sceneID="9cU-nl-K2S">
+            <objects>
+                <viewController id="BF0-jJ-iAR" customClass="AuthenticationOptionsViewController" customModule="MusicMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="imh-hN-6MH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlM-Wa-w8F">
+                                <rect key="frame" x="47.666666666666657" y="745.33333333333337" width="318.66666666666674" height="44.666666666666629"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.98039215690000003" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="17"/>
+                                <state key="normal" title="LOG IN WITH EMAIL">
+                                    <color key="titleColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="emailButtonTapped:" destination="BF0-jJ-iAR" eventType="touchUpInside" id="FDG-NK-nUq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89o-eT-lv0">
+                                <rect key="frame" x="8" y="798" width="398" height="56"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="44"/>
+                                <state key="normal" title="CANCEL">
+                                    <color key="titleColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="35"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cancelButtonTapped:" destination="BF0-jJ-iAR" eventType="touchUpInside" id="vCf-ju-JDV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxH-6f-QEn">
+                                <rect key="frame" x="47.666666666666657" y="692.33333333333337" width="318.66666666666674" height="45"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="17"/>
+                                <state key="normal" title="GOOGLE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="googleButtonTapped:" destination="BF0-jJ-iAR" eventType="touchUpInside" id="C4V-oW-uqM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="1PV-of-Xmd" firstAttribute="trailing" secondItem="89o-eT-lv0" secondAttribute="trailing" constant="8" id="7dk-ab-JJs"/>
+                            <constraint firstItem="89o-eT-lv0" firstAttribute="top" secondItem="ZlM-Wa-w8F" secondAttribute="bottom" constant="8" id="9cd-p8-eCb"/>
+                            <constraint firstItem="bxH-6f-QEn" firstAttribute="width" secondItem="ZlM-Wa-w8F" secondAttribute="width" id="GhK-fw-yKG"/>
+                            <constraint firstItem="1PV-of-Xmd" firstAttribute="bottom" secondItem="89o-eT-lv0" secondAttribute="bottom" constant="8" id="QFn-Eh-dp9"/>
+                            <constraint firstItem="ZlM-Wa-w8F" firstAttribute="top" secondItem="bxH-6f-QEn" secondAttribute="bottom" constant="8" id="RjR-QV-cfV"/>
+                            <constraint firstItem="bxH-6f-QEn" firstAttribute="centerX" secondItem="imh-hN-6MH" secondAttribute="centerX" id="e4F-Dg-WUG"/>
+                            <constraint firstItem="ZlM-Wa-w8F" firstAttribute="centerX" secondItem="imh-hN-6MH" secondAttribute="centerX" id="haj-59-ntR"/>
+                            <constraint firstItem="ZlM-Wa-w8F" firstAttribute="height" secondItem="89o-eT-lv0" secondAttribute="height" multiplier="0.8" id="mrk-G4-nFD"/>
+                            <constraint firstItem="bxH-6f-QEn" firstAttribute="height" secondItem="ZlM-Wa-w8F" secondAttribute="height" id="sMS-Me-gfh"/>
+                            <constraint firstItem="ZlM-Wa-w8F" firstAttribute="width" secondItem="89o-eT-lv0" secondAttribute="width" multiplier="0.8" id="uZh-nC-2cW"/>
+                            <constraint firstItem="89o-eT-lv0" firstAttribute="centerX" secondItem="imh-hN-6MH" secondAttribute="centerX" id="wuE-sv-eQh"/>
+                            <constraint firstItem="89o-eT-lv0" firstAttribute="leading" secondItem="1PV-of-Xmd" secondAttribute="leading" constant="8" id="xwq-w4-ENf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1PV-of-Xmd"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailButton" destination="ZlM-Wa-w8F" id="51I-s7-C3b"/>
+                        <outlet property="googleButton" destination="bxH-6f-QEn" id="cOu-AN-vRt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CgS-pp-Z4Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544.53125" y="810.9375"/>
+        </scene>
+        <!--Log In View Controller-->
+        <scene sceneID="0Fr-QA-sOy">
+            <objects>
+                <viewController id="fJc-Zd-r9S" customClass="LogInViewController" customModule="MusicMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t8O-8i-USS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEE-mO-V1Z">
+                                <rect key="frame" x="143.66666666666666" y="372.66666666666669" width="126.99999999999997" height="63"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="50"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="40"/>
+                                </variation>
+                                <connections>
+                                    <action selector="login:" destination="fJc-Zd-r9S" eventType="touchUpInside" id="fHZ-UF-dBe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUA-hs-yKU">
+                                <rect key="frame" x="142.66666666666666" y="321.66666666666669" width="128.99999999999997" height="31"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <state key="normal" title="Forgot Password?">
+                                    <color key="titleColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgotPassword:" destination="fJc-Zd-r9S" eventType="touchUpInside" id="m5F-vU-BAV"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="guI-CG-cYL">
+                                <rect key="frame" x="41.333333333333343" y="20" width="331.33333333333326" height="134"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WPl-y3-4mB" customClass="HoshiTextField" customModule="MusicMaker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="331.33333333333331" height="63"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="63" id="arF-FD-LkX"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="0.69999999999999996"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k2P-uZ-NY2" customClass="HoshiTextField" customModule="MusicMaker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="71" width="331.33333333333331" height="63"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="63" id="4J6-L9-N0H"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="0.69999999999999996"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YEE-mO-V1Z" firstAttribute="centerX" secondItem="t8O-8i-USS" secondAttribute="centerX" id="ZJH-R5-jDA"/>
+                            <constraint firstItem="guI-CG-cYL" firstAttribute="centerX" secondItem="t8O-8i-USS" secondAttribute="centerX" id="at2-Rm-XVM"/>
+                            <constraint firstItem="guI-CG-cYL" firstAttribute="width" secondItem="t8O-8i-USS" secondAttribute="width" multiplier="0.8" id="fVG-C7-qEp"/>
+                            <constraint firstItem="YEE-mO-V1Z" firstAttribute="top" secondItem="QUA-hs-yKU" secondAttribute="bottom" constant="20" id="gWL-vc-jU7"/>
+                            <constraint firstItem="guI-CG-cYL" firstAttribute="top" secondItem="Bvt-zl-7UO" secondAttribute="top" constant="20" id="lx1-M3-EZZ">
+                                <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                            </constraint>
+                            <constraint firstItem="YEE-mO-V1Z" firstAttribute="centerY" secondItem="t8O-8i-USS" secondAttribute="centerY" id="ucp-K6-eWj"/>
+                            <constraint firstItem="QUA-hs-yKU" firstAttribute="centerX" secondItem="t8O-8i-USS" secondAttribute="centerX" id="vk5-Gj-ohn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bvt-zl-7UO"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="WPl-y3-4mB" id="o9H-hO-5vr"/>
+                        <outlet property="passwordTextField" destination="k2P-uZ-NY2" id="B3m-5n-CeI"/>
+                        <segue destination="IEf-u0-XmX" kind="presentation" identifier="ShowStudentHome" id="3eq-7O-mTy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eYg-Ah-ls7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1323" y="811"/>
+        </scene>
+        <!--SplitView-->
+        <scene sceneID="IUA-EV-6Gb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SplitView" id="IEf-u0-XmX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gkh-FN-72Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2813" y="811"/>
+        </scene>
+        <!--Student Signup View Controller-->
+        <scene sceneID="vIQ-OY-8ff">
+            <objects>
+                <viewController id="2dT-6n-GHt" customClass="StudentSignupViewController" customModule="MusicMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5p4-Ty-zTx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ED3-W1-87N">
+                                <rect key="frame" x="0.0" y="87.999999999999972" width="414" height="403.33333333333326"/>
+                                <connections>
+                                    <segue destination="Lxw-1J-6LL" kind="embed" identifier="FirstAndLastName" id="Vii-vc-6gQ"/>
+                                </connections>
+                            </containerView>
+                            <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yy0-bU-P3Q">
+                                <rect key="frame" x="0.0" y="87.999999999999972" width="414" height="403.33333333333326"/>
+                                <connections>
+                                    <segue destination="2BU-8C-1PD" kind="embed" identifier="ShowEmailAndPassword" id="tsr-oP-1Eb"/>
+                                </connections>
+                            </containerView>
+                            <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1r-R8-RNj" userLabel="Level And Instrument View">
+                                <rect key="frame" x="0.0" y="87.999999999999972" width="414" height="403.33333333333326"/>
+                                <connections>
+                                    <segue destination="EPV-Tw-BNL" kind="embed" identifier="InstrumentAndLevel" id="43E-OV-Jcb"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yy0-bU-P3Q" firstAttribute="height" secondItem="ED3-W1-87N" secondAttribute="height" id="8cD-RM-RnM"/>
+                            <constraint firstItem="Yy0-bU-P3Q" firstAttribute="leading" secondItem="MCx-Gr-0jp" secondAttribute="leading" id="GOg-Zb-Pif"/>
+                            <constraint firstItem="ED3-W1-87N" firstAttribute="leading" secondItem="MCx-Gr-0jp" secondAttribute="leading" id="GfY-QT-XAt"/>
+                            <constraint firstItem="ED3-W1-87N" firstAttribute="height" secondItem="5p4-Ty-zTx" secondAttribute="height" multiplier="0.45" id="Lmo-EF-uzI"/>
+                            <constraint firstItem="Yy0-bU-P3Q" firstAttribute="trailing" secondItem="MCx-Gr-0jp" secondAttribute="trailing" id="MhD-Yf-noQ"/>
+                            <constraint firstItem="Yy0-bU-P3Q" firstAttribute="top" secondItem="MCx-Gr-0jp" secondAttribute="top" id="OZL-EZ-Gc4"/>
+                            <constraint firstItem="p1r-R8-RNj" firstAttribute="height" secondItem="ED3-W1-87N" secondAttribute="height" id="Vui-aE-jRV"/>
+                            <constraint firstItem="ED3-W1-87N" firstAttribute="top" secondItem="MCx-Gr-0jp" secondAttribute="top" id="ceZ-5Q-uKW"/>
+                            <constraint firstItem="p1r-R8-RNj" firstAttribute="trailing" secondItem="MCx-Gr-0jp" secondAttribute="trailing" id="prQ-v3-JCp"/>
+                            <constraint firstItem="p1r-R8-RNj" firstAttribute="leading" secondItem="MCx-Gr-0jp" secondAttribute="leading" id="tH5-vd-FUz"/>
+                            <constraint firstItem="p1r-R8-RNj" firstAttribute="top" secondItem="MCx-Gr-0jp" secondAttribute="top" id="uLG-gu-tzI"/>
+                            <constraint firstItem="ED3-W1-87N" firstAttribute="trailing" secondItem="MCx-Gr-0jp" secondAttribute="trailing" id="xCI-3N-lFK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MCx-Gr-0jp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zga-1V-DMV">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="9X1-xN-6DQ">
+                            <pageControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="uaJ-3U-Z1O">
+                                <rect key="frame" x="20" y="3.6666666666666679" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" red="0.66274509800000003" green="0.90980392160000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="IAk-lH-JN7">
+                            <color key="tintColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="dismiss:" destination="2dT-6n-GHt" id="v4t-wZ-1Vy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="emailAndPasswordView" destination="Yy0-bU-P3Q" id="JEa-Gb-ca1"/>
+                        <outlet property="firstAndLastNameView" destination="ED3-W1-87N" id="Yri-g8-vYl"/>
+                        <outlet property="levelAndInstrumentView" destination="p1r-R8-RNj" id="6Xb-9t-fTZ"/>
+                        <outlet property="pageControl" destination="uaJ-3U-Z1O" id="xGu-4T-ZnL"/>
+                        <segue destination="IEf-u0-XmX" kind="presentation" identifier="ShowStudentHome" id="igX-eq-H4s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uvb-cK-4yR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2812" y="27"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dqI-pE-sMh">
+            <objects>
+                <navigationController storyboardIdentifier="FirstNavController" automaticallyAdjustsScrollViewInsets="NO" id="hXq-Sd-QM9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="d0S-6S-4qZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.66274509800000003" green="0.90980392160000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Merriweather-Bold" family="Merriweather" pointSize="30"/>
+                            <color key="textColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XI5-s7-70o" kind="relationship" relationship="rootViewController" id="viu-uE-Mye"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ll6-KD-aWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-221.09375" y="27.5390625"/>
+        </scene>
+        <!--Email And Password View Controller-->
+        <scene sceneID="B7C-nF-oU2">
+            <objects>
+                <viewController id="2BU-8C-1PD" customClass="EmailAndPasswordViewController" customModule="MusicMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p2E-eU-r34">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="403.33333333333326"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zBO-Nb-ZU9">
+                                <rect key="frame" x="20" y="56.333333333333343" width="374" height="242.00000000000003"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mmE-Zr-0Jt">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="75.333333333333329"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WkW-7J-hI0" customClass="HoshiTextField" customModule="MusicMaker" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="305" height="75.333333333333329"/>
+                                                <color key="textColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                        <real key="value" value="0.69999999999999996"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LOj-oa-YyT" customClass="LOTAnimationView">
+                                                <rect key="frame" x="313" y="0.0" width="61" height="75.333333333333329"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="LOj-oa-YyT" firstAttribute="width" secondItem="WkW-7J-hI0" secondAttribute="width" multiplier="0.2" id="Y9q-cr-9aP"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JXr-kV-SaH">
+                                        <rect key="frame" x="0.0" y="83.333333333333314" width="374" height="75.333333333333314"/>
+                                        <subviews>
+                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J8g-vk-2O1" customClass="HoshiTextField" customModule="MusicMaker" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="305" height="75.333333333333329"/>
+                                                <color key="textColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                        <real key="value" value="0.69999999999999996"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1D-IP-cvr" customClass="LOTAnimationView">
+                                                <rect key="frame" x="313" y="0.0" width="61" height="75.333333333333329"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="i1D-IP-cvr" firstAttribute="width" secondItem="J8g-vk-2O1" secondAttribute="width" multiplier="0.2" id="Ifk-5e-Q6u"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="K2I-BB-UXN">
+                                        <rect key="frame" x="0.0" y="166.66666666666666" width="374" height="75.333333333333343"/>
+                                        <subviews>
+                                            <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gbO-rP-5Kv" customClass="HoshiTextField" customModule="MusicMaker" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="305" height="75.333333333333329"/>
+                                                <color key="textColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                        <real key="value" value="0.69999999999999996"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Tb-cz-rfI" customClass="LOTAnimationView">
+                                                <rect key="frame" x="313" y="0.0" width="61" height="75.333333333333329"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="2Tb-cz-rfI" firstAttribute="width" secondItem="gbO-rP-5Kv" secondAttribute="width" multiplier="0.2" id="uq5-jX-eFn"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFy-qW-a51">
+                                <rect key="frame" x="145.33333333333334" y="360.33333333333331" width="123.33333333333334" height="41"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="23"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="2BU-8C-1PD" eventType="touchUpInside" id="DK4-Gd-IRO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select an email address and a password of at least 6 characters" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="BgN-4d-qO4">
+                                <rect key="frame" x="20" y="8" width="374" height="40.333333333333336"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="30"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="26"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="26"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="16"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BgN-4d-qO4" firstAttribute="leading" secondItem="Ff5-q6-3a3" secondAttribute="leading" constant="20" id="8fd-fa-HhU"/>
+                            <constraint firstItem="Ff5-q6-3a3" firstAttribute="trailing" secondItem="BgN-4d-qO4" secondAttribute="trailing" constant="20" id="FH2-B3-uMz"/>
+                            <constraint firstItem="BgN-4d-qO4" firstAttribute="top" secondItem="p2E-eU-r34" secondAttribute="top" constant="8" id="Je0-E5-UK9"/>
+                            <constraint firstItem="zBO-Nb-ZU9" firstAttribute="leading" secondItem="Ff5-q6-3a3" secondAttribute="leading" constant="20" id="NUK-ys-Imt"/>
+                            <constraint firstItem="zBO-Nb-ZU9" firstAttribute="height" secondItem="p2E-eU-r34" secondAttribute="height" multiplier="0.6" id="Zod-uf-GYJ"/>
+                            <constraint firstAttribute="trailing" secondItem="zBO-Nb-ZU9" secondAttribute="trailing" constant="20" id="at9-il-iDN"/>
+                            <constraint firstItem="qFy-qW-a51" firstAttribute="centerX" secondItem="p2E-eU-r34" secondAttribute="centerX" id="lqC-Nw-12W"/>
+                            <constraint firstItem="qFy-qW-a51" firstAttribute="width" secondItem="BgN-4d-qO4" secondAttribute="width" multiplier="0.33" id="q1y-NP-uCz"/>
+                            <constraint firstItem="zBO-Nb-ZU9" firstAttribute="top" secondItem="BgN-4d-qO4" secondAttribute="bottom" constant="8" id="rVT-7S-xNg"/>
+                            <constraint firstAttribute="bottom" secondItem="qFy-qW-a51" secondAttribute="bottom" constant="2" id="vHa-3W-2As"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ff5-q6-3a3"/>
+                    </view>
+                    <connections>
+                        <outlet property="confirmPasswordAnimation" destination="2Tb-cz-rfI" id="wNJ-pO-gBT"/>
+                        <outlet property="confirmPasswordTextField" destination="gbO-rP-5Kv" id="q6T-5X-Gvx"/>
+                        <outlet property="emailCheckmark" destination="LOj-oa-YyT" id="HzA-qe-pCN"/>
+                        <outlet property="emailTextField" destination="WkW-7J-hI0" id="cYz-di-gWb"/>
+                        <outlet property="nextButton" destination="qFy-qW-a51" id="Jeo-Sq-wzF"/>
+                        <outlet property="passwordAnimation" destination="i1D-IP-cvr" id="yl1-iC-3Zo"/>
+                        <outlet property="passwordTextField" destination="J8g-vk-2O1" id="azM-P0-ZWp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w7z-qe-C8c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3566.40625" y="-203.02734375"/>
+        </scene>
+        <!--Level And Instrument View Controller-->
+        <scene sceneID="rXe-zo-228">
+            <objects>
+                <viewController id="EPV-Tw-BNL" customClass="LevelAndInstrumentViewController" customModule="MusicMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4DG-8k-1ak">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="403.33333333333326"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your level and instrument to complete your sign up" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2c-c5-pwQ">
+                                <rect key="frame" x="20" y="8" width="374" height="40.333333333333336"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="30"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="26"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="26"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="16"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvj-Oc-x7s">
+                                <rect key="frame" x="145.33333333333334" y="362.33333333333331" width="123.33333333333334" height="41"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="23"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUp:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="Lde-jR-b4e"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beginner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ck-4A-uG2">
+                                <rect key="frame" x="108.66666666666669" y="182.33333333333334" width="197" height="24.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="25"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="16"/>
+                                </variation>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OqO-h8-ZCn">
+                                <rect key="frame" x="20" y="56.333333333333343" width="374" height="54"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btt-av-Pam">
+                                        <rect key="frame" x="0.0" y="0.0" width="55.666666666666664" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <state key="normal" title="🎸"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="instrumentSelected:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="Tmq-Wg-7PN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoU-W2-cH2">
+                                        <rect key="frame" x="63.666666666666671" y="0.0" width="55.666666666666671" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <state key="normal" title="🎹"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="instrumentSelected:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="4AA-eP-wSZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s89-BC-cF5">
+                                        <rect key="frame" x="127.33333333333336" y="0.0" width="55.666666666666671" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <state key="normal" title="🥁"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="instrumentSelected:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="W9x-LB-ZSP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKe-jD-FvB">
+                                        <rect key="frame" x="191" y="0.0" width="55.666666666666657" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <state key="normal" title="🎷"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="instrumentSelected:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="e6X-DV-UoX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trX-Uf-Z03">
+                                        <rect key="frame" x="254.66666666666666" y="0.0" width="55.666666666666657" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <state key="normal" title="🎺"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="instrumentSelected:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="3MC-cC-oKn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Boe-VF-L0o">
+                                        <rect key="frame" x="318.33333333333331" y="0.0" width="55.666666666666686" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <state key="normal" title="🎻"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="instrumentSelected:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="K0d-WO-iwx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="52" translatesAutoresizingMaskIntoConstraints="NO" id="Nha-bx-iJN">
+                                <rect key="frame" x="108.66666666666669" y="118.33333333333331" width="197" height="54"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SuF-J5-Wpk">
+                                        <rect key="frame" x="0.0" y="0.0" width="31" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <state key="normal" title="★">
+                                            <color key="titleColor" red="0.0078431372550000003" green="0.51764705879999995" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="levelChanged:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="5gN-gs-hM3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyj-jI-nx6">
+                                        <rect key="frame" x="82.999999999999986" y="0.0" width="31" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <state key="normal" title="★">
+                                            <color key="titleColor" red="0.66274509800000003" green="0.90980392160000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="levelChanged:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="LyN-id-ljW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDi-PH-Ni7">
+                                        <rect key="frame" x="166" y="0.0" width="31" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <state key="normal" title="★">
+                                            <color key="titleColor" red="0.66274509800000003" green="0.90980392160000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="levelChanged:" destination="EPV-Tw-BNL" eventType="touchUpInside" id="3zW-9f-wUh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9ck-4A-uG2" firstAttribute="top" secondItem="Nha-bx-iJN" secondAttribute="bottom" constant="10" id="7VQ-xM-Hu8"/>
+                            <constraint firstItem="OqO-h8-ZCn" firstAttribute="leading" secondItem="gHu-cr-2ej" secondAttribute="leading" constant="20" id="7my-6T-5mp"/>
+                            <constraint firstAttribute="bottom" secondItem="bvj-Oc-x7s" secondAttribute="bottom" id="NcB-4F-CuQ"/>
+                            <constraint firstItem="bvj-Oc-x7s" firstAttribute="centerX" secondItem="4DG-8k-1ak" secondAttribute="centerX" id="NfR-9c-24O"/>
+                            <constraint firstItem="x2c-c5-pwQ" firstAttribute="top" secondItem="4DG-8k-1ak" secondAttribute="top" constant="8" id="Nvg-Nf-uEv"/>
+                            <constraint firstItem="9ck-4A-uG2" firstAttribute="centerX" secondItem="4DG-8k-1ak" secondAttribute="centerX" id="OZC-z7-qZm"/>
+                            <constraint firstItem="9ck-4A-uG2" firstAttribute="height" secondItem="Nha-bx-iJN" secondAttribute="height" multiplier="0.45" id="YJX-Hs-GGD"/>
+                            <constraint firstItem="bvj-Oc-x7s" firstAttribute="width" secondItem="x2c-c5-pwQ" secondAttribute="width" multiplier="0.33" id="ciL-zK-VjK"/>
+                            <constraint firstItem="x2c-c5-pwQ" firstAttribute="leading" secondItem="gHu-cr-2ej" secondAttribute="leading" constant="20" id="erX-Zp-7SH"/>
+                            <constraint firstItem="OqO-h8-ZCn" firstAttribute="top" secondItem="x2c-c5-pwQ" secondAttribute="bottom" constant="8" id="gOF-9f-v6N"/>
+                            <constraint firstItem="gHu-cr-2ej" firstAttribute="trailing" secondItem="x2c-c5-pwQ" secondAttribute="trailing" constant="20" id="lPv-N3-fjA"/>
+                            <constraint firstItem="9ck-4A-uG2" firstAttribute="width" secondItem="Nha-bx-iJN" secondAttribute="width" id="o2C-yt-XPu"/>
+                            <constraint firstItem="Nha-bx-iJN" firstAttribute="top" secondItem="OqO-h8-ZCn" secondAttribute="bottom" constant="8" id="pXI-dx-TPQ"/>
+                            <constraint firstItem="Nha-bx-iJN" firstAttribute="centerX" secondItem="4DG-8k-1ak" secondAttribute="centerX" id="vJY-W9-F3h"/>
+                            <constraint firstItem="gHu-cr-2ej" firstAttribute="trailing" secondItem="OqO-h8-ZCn" secondAttribute="trailing" constant="20" id="z5U-2A-kfw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gHu-cr-2ej"/>
+                    </view>
+                    <connections>
+                        <outlet property="beginnerStar" destination="SuF-J5-Wpk" id="Q6q-jO-hlL"/>
+                        <outlet property="expertStar" destination="gDi-PH-Ni7" id="sH2-BV-M59"/>
+                        <outlet property="intermediateStar" destination="Zyj-jI-nx6" id="NYm-ZO-JDE"/>
+                        <outlet property="levelLabel" destination="9ck-4A-uG2" id="iXm-u7-bvT"/>
+                        <outlet property="signupButton" destination="bvj-Oc-x7s" id="QQm-UY-kZC"/>
+                        <outletCollection property="instrumentButtons" destination="Btt-av-Pam" collectionClass="NSMutableArray" id="omP-M9-nGJ"/>
+                        <outletCollection property="instrumentButtons" destination="MoU-W2-cH2" collectionClass="NSMutableArray" id="503-AO-94V"/>
+                        <outletCollection property="instrumentButtons" destination="s89-BC-cF5" collectionClass="NSMutableArray" id="GFX-4f-21O"/>
+                        <outletCollection property="instrumentButtons" destination="fKe-jD-FvB" collectionClass="NSMutableArray" id="koa-Bb-Uah"/>
+                        <outletCollection property="instrumentButtons" destination="trX-Uf-Z03" collectionClass="NSMutableArray" id="hNm-MU-RGa"/>
+                        <outletCollection property="instrumentButtons" destination="Boe-VF-L0o" collectionClass="NSMutableArray" id="ZW1-9Q-CCK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bjD-hh-BU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3553.90625" y="577.44140625"/>
+        </scene>
+        <!--First And Last Name View Controller-->
+        <scene sceneID="w2q-A8-8YQ">
+            <objects>
+                <viewController id="Lxw-1J-6LL" customClass="FirstAndLastNameViewController" customModule="MusicMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ALL-d4-ReD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="403.33333333333326"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi there, lets get started with your name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="z3A-lw-C5s">
+                                <rect key="frame" x="20" y="7.9999999999999982" width="374" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="30"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="26"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="26"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="16"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" verticalHuggingPriority="251" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSq-Gd-v8H">
+                                <rect key="frame" x="145.33333333333334" y="360.33333333333331" width="123.33333333333334" height="41"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Regular" family="Merriweather" pointSize="23"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToNextStep:" destination="Lxw-1J-6LL" eventType="touchUpInside" id="AXc-Ye-ZjR"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ClR-p3-dYW">
+                                <rect key="frame" x="20" y="68.333333333333329" width="374" height="161.33333333333337"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="A2L-f4-mCx">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="76.666666666666671"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X5e-QU-wTQ" customClass="HoshiTextField" customModule="MusicMaker" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="305" height="76.666666666666671"/>
+                                                <color key="textColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="23"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                        <real key="value" value="0.69999999999999996"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQl-Oa-rOF" customClass="LOTAnimationView">
+                                                <rect key="frame" x="313" y="0.0" width="61" height="76.666666666666671"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="AQl-Oa-rOF" firstAttribute="width" secondItem="X5e-QU-wTQ" secondAttribute="width" multiplier="0.2" id="87H-gB-nKU"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="X2m-Sc-Wlw">
+                                        <rect key="frame" x="0.0" y="84.666666666666657" width="374" height="76.666666666666657"/>
+                                        <subviews>
+                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VJQ-Co-Ddc" customClass="HoshiTextField" customModule="MusicMaker" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="305" height="76.666666666666671"/>
+                                                <color key="textColor" red="0.0078431372550000003" green="0.3294117647" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="23"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.0078431372550000003" green="0.65098039220000004" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                        <real key="value" value="0.69999999999999996"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ngO-R0-moO" customClass="LOTAnimationView">
+                                                <rect key="frame" x="313" y="0.0" width="61" height="76.666666666666671"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ngO-R0-moO" firstAttribute="width" secondItem="VJQ-Co-Ddc" secondAttribute="width" multiplier="0.2" id="jKX-ez-M1O"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HSq-Gd-v8H" firstAttribute="width" secondItem="z3A-lw-C5s" secondAttribute="width" multiplier="0.33" id="4LH-jl-Ppe"/>
+                            <constraint firstItem="VbN-ii-SX3" firstAttribute="trailing" secondItem="ClR-p3-dYW" secondAttribute="trailing" constant="20" id="ADD-pZ-3dR"/>
+                            <constraint firstItem="ClR-p3-dYW" firstAttribute="leading" secondItem="VbN-ii-SX3" secondAttribute="leading" constant="20" id="AVE-wz-vYV"/>
+                            <constraint firstItem="VbN-ii-SX3" firstAttribute="trailing" secondItem="z3A-lw-C5s" secondAttribute="trailing" constant="20" id="Kxi-Jk-eKj"/>
+                            <constraint firstItem="HSq-Gd-v8H" firstAttribute="centerX" secondItem="ALL-d4-ReD" secondAttribute="centerX" id="SIH-aQ-b94"/>
+                            <constraint firstItem="z3A-lw-C5s" firstAttribute="top" secondItem="ALL-d4-ReD" secondAttribute="top" constant="8" id="e55-Op-5TM"/>
+                            <constraint firstItem="z3A-lw-C5s" firstAttribute="leading" secondItem="VbN-ii-SX3" secondAttribute="leading" constant="20" id="eVl-je-6em"/>
+                            <constraint firstItem="ClR-p3-dYW" firstAttribute="top" secondItem="z3A-lw-C5s" secondAttribute="bottom" constant="40" id="ioA-U3-JEd"/>
+                            <constraint firstAttribute="bottom" secondItem="HSq-Gd-v8H" secondAttribute="bottom" constant="2" id="lUu-2z-Gw5"/>
+                            <constraint firstItem="ClR-p3-dYW" firstAttribute="height" secondItem="ALL-d4-ReD" secondAttribute="height" multiplier="0.4" id="yUW-c8-K7s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VbN-ii-SX3"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstNameCheckmarkAnimation" destination="AQl-Oa-rOF" id="AD6-CK-hBY"/>
+                        <outlet property="firstNameTextField" destination="X5e-QU-wTQ" id="tCY-k7-0Fz"/>
+                        <outlet property="lastNameCheckmarkAnimation" destination="ngO-R0-moO" id="3bP-3p-7ks"/>
+                        <outlet property="lastNameTextField" destination="VJQ-Co-Ddc" id="6q9-wj-61o"/>
+                        <outlet property="nextButton" destination="HSq-Gd-v8H" id="H4p-zW-eUz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rTX-cK-pIN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3555" y="-938"/>
+        </scene>
+        <!--QRScanner-->
+        <scene sceneID="eK9-9I-Ol5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="QRScanner" id="6aC-Rc-Di4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tRn-lf-LwE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1323" y="28"/>
+        </scene>
+        <!--Sign Up Navigation Controller-->
+        <scene sceneID="YlF-wv-6SF">
+            <objects>
+                <navigationController storyboardIdentifier="UIViewController-2dT-6n-GHt" automaticallyAdjustsScrollViewInsets="NO" id="Ed7-kk-6fM" customClass="SignUpNavigationController" customModule="MusicMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bAf-x4-5dW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2dT-6n-GHt" kind="relationship" relationship="rootViewController" id="S7e-qK-xL3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z3I-Me-WOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2072.65625" y="27.5390625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background1" width="1756" height="2082"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="tmR-Ep-L9G"/>
+        <segue reference="3eq-7O-mTy"/>
+        <segue reference="que-9r-UXH"/>
+    </inferredMetricsTieBreakers>
+</document>
