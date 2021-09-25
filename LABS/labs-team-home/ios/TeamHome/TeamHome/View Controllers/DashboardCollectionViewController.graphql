@@ -1,0 +1,17 @@
+query findTeamsByUser {
+    findTeamsByUser {
+        name
+        _id
+        premium
+    }
+}
+
+mutation CreateTeam($name: String!, $premium: Boolean) {
+    addTeam(input: {
+            name: $name
+            premium: $premium
+            }) {
+        _id
+        
+    }
+}

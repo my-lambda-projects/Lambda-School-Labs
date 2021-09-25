@@ -1,0 +1,29 @@
+query FindTeamById($id: ID!) {
+    findTeam(input: {
+             id: $id
+             }) {
+        _id
+        name
+        users {
+            user {
+                _id
+                firstName
+                lastName
+                email
+                phoneNumber
+                avatar
+            }
+            admin
+        }
+    }
+}
+
+mutation kickUser($teamId: ID!, $userKickedId: ID!) {
+    kickUser(input: {
+             id: $teamId
+             user: $userKickedId
+             }) {
+        _id
+    }
+}
+

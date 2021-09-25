@@ -1,0 +1,44 @@
+query FindActivityByTeam($teamId: ID!) {
+    findMessagesByTeam(input: {
+                       team: $teamId
+                       }) {
+        _id
+        title
+        user {
+            firstName
+            lastName
+            avatar
+            _id
+        }
+        content
+        images
+        tag {
+            name
+        }
+        comments
+        createdAt
+        updatedAt
+    }
+}
+query FindDocumentActivityByTeam($teamId: ID!){
+    findDocumentsByTeam(input: {
+                        team: $teamId
+                        }) {
+        _id
+        doc_url
+        user{
+            firstName
+            lastName
+            avatar
+            _id
+        }
+        folder{
+            _id
+            title
+        }
+        title
+        textContent
+        comments
+        createdAt
+    }
+}

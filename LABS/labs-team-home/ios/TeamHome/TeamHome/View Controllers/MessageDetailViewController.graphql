@@ -1,0 +1,64 @@
+query FindMessageById($id: ID!) {
+    findMessage(input: {
+                id: $id
+                }) {
+        _id
+        title
+        user {
+            firstName
+            lastName
+            avatar
+        }
+        team {
+            name
+            _id
+        }
+        content
+        images
+        tag {
+            name
+            _id
+        }
+        comments
+        subscribedUsers {
+            firstName
+            lastName
+            avatar
+            _id
+        }
+        createdAt
+        updatedAt
+    }
+}
+
+mutation CreateImageComment($message: String!, $content: String!, $image: String) {
+    addMsgComment(input: {
+                  message: $message
+                  content: $content
+                  image: $image
+                  }) {
+        _id
+    }
+}
+
+mutation CreateComment($message: String!, $content: String!) {
+    addMsgComment(input: {
+                  message: $message
+                  content: $content
+                  }) {
+        _id
+    }
+}
+
+mutation Subscribe($id: ID!) {
+    subscribe(input: { id: $id }) {
+        _id
+    }
+}
+
+mutation Unsubscribe($id: ID!) {
+    unsubscribe(input: { id: $id }) {
+        _id
+    }
+}
+
