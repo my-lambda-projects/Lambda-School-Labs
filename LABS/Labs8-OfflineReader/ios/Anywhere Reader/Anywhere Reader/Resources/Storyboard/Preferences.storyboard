@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CAE-50-fah">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Preferences View Controller-->
+        <scene sceneID="kPW-2F-wrg">
+            <objects>
+                <viewController id="CAE-50-fah" customClass="PreferencesViewController" customModule="Anywhere_Reader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6ku-bx-BOt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CO9-Zr-eZZ">
+                                <rect key="frame" x="106" y="97" width="300" height="267.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kdf-oN-iVx">
+                                        <rect key="frame" x="0.0" y="65" width="300" height="1"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="yKU-yW-oAE"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Wap-ck-rtR">
+                                        <rect key="frame" x="20" y="16" width="260" height="235.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6Ds-xA-Llp">
+                                                <rect key="frame" x="0.0" y="0.0" width="260" height="37"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brightness" translatesAutoresizingMaskIntoConstraints="NO" id="4RR-3o-7xa">
+                                                        <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                                    </imageView>
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TfJ-GP-1Oc">
+                                                        <rect key="frame" x="43" y="0.0" width="181" height="38"/>
+                                                        <connections>
+                                                            <action selector="brightnessSliderChanged:" destination="CAE-50-fah" eventType="valueChanged" id="h38-mh-boB"/>
+                                                        </connections>
+                                                    </slider>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brightness smaller" translatesAutoresizingMaskIntoConstraints="NO" id="WnZ-5C-WZS">
+                                                        <rect key="frame" x="230" y="0.0" width="30" height="37"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="E0S-RN-gvc">
+                                                <rect key="frame" x="0.0" y="57" width="260" height="51"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfJ-Gr-fuu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="51"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                                        <state key="normal" title=" Aa↑ ">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="increaseFontSize:" destination="CAE-50-fah" eventType="touchUpInside" id="lxe-4k-X0K"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcd-zH-0b2">
+                                                        <rect key="frame" x="130" y="0.0" width="130" height="51"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                        <state key="normal" title=" Aa↓ ">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="decreaseFontSize:" destination="CAE-50-fah" eventType="touchUpInside" id="637-hu-WdD"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="mCT-Zh-hCF">
+                                                <rect key="frame" x="0.0" y="128" width="260" height="56.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trp-JI-hXt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="56.5" height="56.5"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="trp-JI-hXt" secondAttribute="height" multiplier="1:1" id="Pub-ZK-l6V"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="whiteThemeButtonTapped:" destination="CAE-50-fah" eventType="touchUpInside" id="4Mn-7s-5nt"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h63-oU-8dH">
+                                                        <rect key="frame" x="101.5" y="0.0" width="57" height="56.5"/>
+                                                        <color key="backgroundColor" red="0.792156862745098" green="0.72941176470588232" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="h63-oU-8dH" secondAttribute="height" multiplier="1:1" id="Yca-S4-O1S"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="tanThemeButtonTapped:" destination="CAE-50-fah" eventType="touchUpInside" id="mxo-s7-pcV"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGM-OE-kyR">
+                                                        <rect key="frame" x="203.5" y="0.0" width="56.5" height="56.5"/>
+                                                        <color key="backgroundColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="HGM-OE-kyR" secondAttribute="height" multiplier="1:1" id="ItC-Oo-Z1e"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="lightGrayThemeButtonTapped:" destination="CAE-50-fah" eventType="touchUpInside" id="K0c-w9-Qrz"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pGq-Vm-1OD">
+                                                <rect key="frame" x="0.0" y="204.5" width="260" height="31"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Night Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqL-Dm-F2i">
+                                                        <rect key="frame" x="0.0" y="0.0" width="201" height="31"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bnP-mb-vVa">
+                                                        <rect key="frame" x="211" y="0.0" width="51" height="31"/>
+                                                        <connections>
+                                                            <action selector="toggleNightModeSwitch:" destination="CAE-50-fah" eventType="valueChanged" id="q2k-lu-7RP"/>
+                                                        </connections>
+                                                    </switch>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Kdf-oN-iVx" secondAttribute="trailing" id="13t-cW-czh"/>
+                                    <constraint firstItem="Kdf-oN-iVx" firstAttribute="leading" secondItem="CO9-Zr-eZZ" secondAttribute="leading" id="Ean-85-YAN"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wap-ck-rtR" secondAttribute="bottom" constant="16" id="ZCs-UJ-gmf"/>
+                                    <constraint firstItem="Kdf-oN-iVx" firstAttribute="top" secondItem="CO9-Zr-eZZ" secondAttribute="top" constant="65" id="ceo-Lc-X35"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wap-ck-rtR" secondAttribute="trailing" constant="20" id="eEH-ob-ZTW"/>
+                                    <constraint firstAttribute="width" constant="300" id="idG-gm-gMP"/>
+                                    <constraint firstItem="Wap-ck-rtR" firstAttribute="top" secondItem="CO9-Zr-eZZ" secondAttribute="top" constant="16" id="vB0-Ek-49t"/>
+                                    <constraint firstItem="Wap-ck-rtR" firstAttribute="leading" secondItem="CO9-Zr-eZZ" secondAttribute="leading" constant="20" id="ydB-m0-utr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="CO9-Zr-eZZ" firstAttribute="top" secondItem="cgW-4j-qeI" secondAttribute="top" constant="53" id="DOE-9p-ZoG"/>
+                            <constraint firstItem="CO9-Zr-eZZ" firstAttribute="trailing" secondItem="cgW-4j-qeI" secondAttribute="trailing" constant="-8" id="rga-wA-Z17"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cgW-4j-qeI"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="zzO-SM-ceo" appends="YES" id="Tov-an-sXr"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="brightnessSlider" destination="TfJ-GP-1Oc" id="1zB-o8-U2c"/>
+                        <outlet property="lightGrayThemeButton" destination="HGM-OE-kyR" id="3H2-xt-kSY"/>
+                        <outlet property="nightModeSwitch" destination="bnP-mb-vVa" id="0Lw-ab-2bQ"/>
+                        <outlet property="preferencesView" destination="CO9-Zr-eZZ" id="qJN-aF-zVy"/>
+                        <outlet property="tanThemeButton" destination="h63-oU-8dH" id="MJh-qe-gEj"/>
+                        <outlet property="whiteThemeButton" destination="trp-JI-hXt" id="Ez3-eU-a12"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m7p-MN-y5Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer cancelsTouchesInView="NO" id="zzO-SM-ceo">
+                    <connections>
+                        <action selector="dismissFromTap:" destination="CAE-50-fah" id="Zc3-nh-YGG"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="169.56521739130437" y="26.785714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="brightness" width="37.5" height="37.5"/>
+        <image name="brightness smaller" width="30" height="30"/>
+    </resources>
+</document>

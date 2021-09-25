@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+python-decouple = "*"
+djangorestframework = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+dj-database-url = "*"
+"psycopg2-binary" = "*"
+stripe = "*"
+django-cors-headers = "*"
+whitenoise = "*"
+gunicorn = "*"
+requests = "*"
+"beautifulsoup4" = "*"
+"urllib3" = "*"
+"newspaper3k" = "*"
+"django-rest-framework-social-oauth2" = "*"
+django-oauth-toolkit = "*"
+python-social-auth = "*"
+docutils = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
