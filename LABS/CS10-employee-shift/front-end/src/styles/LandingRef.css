@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+.signin_btn {
+  margin-top: 2px;
+}
+
+/*
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  padding-top: 100px;
+}
+
+.title-text {
+  font-family: "PT Sans", sans-serif;
+  color: #4b9cd3;
+  padding: 0 15px;
+}
+
+.inner-text {
+  align-self: center;
+  margin-bottom: 25px;
+}
+
+.font-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 2.7em;
+  font-weight: 100;
+  color: #767676;
+}
+
+.font-title2 {
+  font-family: "Josefin Slab", serif;
+}
+
+ .mid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.textBox {
+  display: flex;
+  width: 300px;
+  height: 350px;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  padding-top: 70px;
+  margin: 5% 15px;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #767676;
+} */
+
+
+.frame1TextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5em;
+  padding: 50px;
+  text-align: center;
+}
+
+.frameHeading {
+  font-family: "PT Sans", sans-serif;
+  color: #767676;
+  font-size: 1.8em;
+  font-weight: 100;
+}
+
+.frameText {
+  margin-top: 10px;
+  color: #767676;
+  width: 900px;
+  align-self: center;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.frame2Heading {
+  font-family: "PT Sans", sans-serif;
+  font-size: 2.8em;
+  font-weight: 100;
+  color: #fff;
+}
+
+.frame2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 100;
+  margin-top: -500px;
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 340px; 
+} 
+
+.cta-button {
+  margin-top: 35px;
+  border: solid #fff;
+  border-width: 2px;
+  align-self: center;
+  width: 300px;
+  font-size: 2em;
+  padding: 5px 20px;
+  color: #fff;
+}
+
+
+
+.landingFooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.copyright {
+  margin-top: 17px;
+  margin-right: 20px;
+}
+
+.LandingLogo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.frame1 {
+  width: 100%;
+  height: 90%;
+}
+
+.ouricon {
+  width: 100px;
+  align-self: center;
+  margin-top: -120px;
+}
+
+@-webkit-keyframes scroll {
+  0%      { margin-top: 0; }
+  16.66%  { margin-top: -800px; }
+  33.32%  { margin-top: -1600px; }
+  49.99%  { margin-top: -2400px; }
+  66.66%  { margin-top: -3200px; }
+  83.33%  { margin-top: -4000px; }
+  100%    { margin-top: -4000px; }
+}
+
+@-moz-keyframes scroll {
+  0%      { margin-top: 0; }
+  16.66%  { margin-top: -800px; }
+  33.32%  { margin-top: -1600px; }
+  49.99%  { margin-top: -2400px; }
+  66.66%  { margin-top: -3200px; }
+  83.33%  { margin-top: -4000px; }
+  100%    { margin-top: -4000px; }
+}
+
+@-ms-keyframes scroll {
+  0%      { margin-top: 0; }
+  16.66%  { margin-top: -800px; }
+  33.32%  { margin-top: -1600px; }
+  49.99%  { margin-top: -2400px; }
+  66.66%  { margin-top: -3200px; }
+  83.33%  { margin-top: -4000px; }
+  100%    { margin-top: -4000px; }
+}
+
+
+/* .fade_1 {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  animation: float_1;
+  animation-duration: 50s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  border: orange solid;
+  border-radius: 1px;
+}
+
+@keyframes float_1 {
+  0% {
+    transform: translate(120px, 300px);
+    opacity: 0;
+  }
+  25% {
+    transform: translate(120px, -540px);
+    opacity: 1;
+  }
+  26% {
+    transform: translate(120px, -550px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(120px, -550px);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes float_1 {
+    0% {
+      transform: translate(450px, 300px);
+      opacity: 0;
+    }
+    25% {
+      transform: translate(450px, -540px);
+      opacity: ;
+    }
+    26% {
+      transform: translate(50px, -550px);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(250px, -550px);
+      opacity: 0;
+    }
+  }
+}
+
+.fade_2 {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  animation: float_2;
+  animation-delay: 8s;
+  animation-duration: 50s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.fade_2:hover {
+  opacity: 1;
+}
+
+@keyframes float_2 {
+  0% {
+    transform: translate(295px, 200px);
+    opacity: 0;
+  }
+  25% {
+    transform: translate(295px, -540px);
+    opacity: 0.7;
+  }
+  26% {
+    transform: translate(295px, -550px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(295px, -550px);
+    opacity: 0;
+  }
+}
+
+.fade_3 {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  animation: float_3;
+  animation-delay: 15s;
+  animation-duration: 50s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.fade_3:hover {
+  opacity: 1;
+}
+
+@keyframes float_3 {
+  0% {
+    transform: translate(300px, 200px);
+    opacity: 0;
+  }
+  25% {
+    transform: translate(300px, -540px);
+    opacity: 1;
+  }
+  26% {
+    transform: translate(300px, -550px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(300px, -550px);
+    opacity: 0;
+  }
+}
+
+.fade_4 {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  animation: float_3;
+  animation-delay: 24s;
+  animation-duration: 50s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.fade_4:hover {
+  opacity: 1;
+}
+
+@keyframes float_4 {
+  0% {
+    transform: translate(400px, 220px);
+    opacity: 0;
+  }
+  25% {
+    transform: translate(400px, -540px);
+    opacity: 0.7;
+  }
+  26% {
+    transform: translate(400px, -550px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(200px, -550px);
+    opacity: 0;
+  }
+}
+
+.fade_5 {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  animation: float_3;
+  animation-delay: 32s;
+  animation-duration: 50s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.fade_5:hover {
+  opacity: 1;
+}
+
+@keyframes float_5 {
+  0% {
+    transform: translate(120px, 200px);
+    opacity: 0;
+  }
+  25% {
+    transform: translate(-50, -540px);
+    opacity: 1;
+  }
+  26% {
+    transform: translate(-50px, -550px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100px, -550px);
+    opacity: 0;
+  }
+}
+
+.fade_6 {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  animation: float_3;
+  animation-delay: 40s;
+  animation-duration: 50s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.fade_6:hover {
+  opacity: 1;
+}
+
+@keyframes float_6 {
+  0% {
+    transform: translate(120px, 200px);
+    opacity: 0;
+  }
+  25% {
+    transform: translate(-50, -540px);
+    opacity: 1;
+  }
+  26% {
+    transform: translate(-50px, -550px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100px, -550px);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .fade_1 {
+    animation-name: none;
+    display: none;
+  }
+  .fade_2 {
+    animation-name: none;
+    display: none;
+  }
+
+  .fade_3 {
+    animation-name: none;
+    display: none;
+  }
+
+  .fade_4 {
+    animation-name: none;
+    display: none;
+  }
+
+  .fade_5 {
+    animation-name: none;
+    display: none;
+  }
+
+  .fade_6 {
+    animation-name: none;
+    display: none;
+  }
+} */

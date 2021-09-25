@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+gunicorn = "*"
+"psycopg2-binary" = "*"
+dj-database-url = "*"
+python-decouple = "*"
+whitenoise = "*"
+django-oauth-toolkit = "*"
+djangorestframework = "*"
+django-cors-middleware = "*"
+dj-stripe = "*"
+stripe = "*"
+django-dotenv = "*"
+twilio = "*"
+celery = "*"
+django-twilio = "*"
+flask = "*"
+sendgrid = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
