@@ -1,0 +1,53 @@
+.doc-preview {
+  // margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  margin: 0 auto;
+
+  background-color: black;
+  background: rgba(205, 202, 202, 0.756);
+  width: 100%;
+  min-height: 120rem;
+  overflow: scroll;
+}
+
+.doc-container {
+  margin: 0 auto;
+  height: 100%;
+  padding: 1rem;
+}
+
+
+.doc-content {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  &_back{
+    color: white;
+    cursor: pointer;
+  }
+
+  &_newtab {
+    color: $color-primary;
+  }
+
+  &_button {
+    border: none;
+    font-size: 1.2rem;
+    background-color: $color-secondary;
+    color: white;
+    height: 3.5rem;
+    width: 9rem;
+    margin-right: 1.5rem;
+    border-radius: .5rem;
+  }
+}
+.doc-image {
+  color: rgba(0, 0, 0, 0.756);
+}
+
+.fa-paperclip {
+  margin-left: .5rem;
+  color: rgba(34, 207, 178, 0.413);
+}

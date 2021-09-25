@@ -1,0 +1,291 @@
+.billing {
+  background-color: #ffffff;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  
+  &-window {
+    margin: 3rem;
+    @include respond(smallphone) {
+      margin: auto;
+    }
+  }
+  &-announcement {
+    width: 70%;
+    margin-left: 20rem;
+    // background-color: blue;
+  }
+
+  &-headline {
+    font-size: 4rem; 
+    font-weight: 700;
+  }
+
+  &-container {
+    width: 100%;
+    @include respond(smallphone) {
+      margin-top: 36px;
+    }
+  }
+
+  &-options {
+    width: 105rem;
+    display: flex;
+    margin-left: 18rem;
+    // justify-content: space-between;
+    // background-color: blue;
+  }
+
+  &-free {
+    margin: 2rem;
+    padding: 2rem;
+    width: 35rem;
+    height: 40rem;
+    // border: 1px solid black;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.276);
+
+    &_package {
+      padding-top: 12rem;
+      font-size: 3rem;
+      // background-color: blue;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &-standard {
+    overflow: hidden;
+    margin: 2rem;
+    padding: 2rem;
+    width: 35rem;
+    height: 40rem;
+    position: relative;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.276);
+    background-color: rgb(45, 45, 45);
+    color: white;
+    // &:hover {
+    //   width: 40rem;
+    //   height: 45rem;
+    // }
+
+    &_package {
+      margin-top: -0.5rem;
+      font-size: 2.5rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    &_price {
+      margin-top: 8rem;
+      font-weight: 700;
+      font-size: 5rem;
+      margin-right: 5rem;
+      // background-color: blue;
+      display: flex;
+      justify-content: center;
+        & span {
+          font-size: 1rem;
+          margin-left: -10rem;
+          margin-top: 3rem;
+        }
+    }
+    &_label {
+      margin-top: -4.5rem;
+      
+    }
+    &_button {
+      background-color: white;
+      margin-left: 2.5rem;
+      border: none;
+      color: black;
+      height: 4rem;
+      width: 20rem;
+      // border-radius: 1rem;
+
+    }
+  }
+
+  &-premium {
+    margin: 2rem;
+    padding: 2rem;
+    width: 35rem;
+    height: 40rem;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.276);
+    // -webkit-transition: height 0.5s; /* Safari */
+    // transition: height 0.5s;
+
+    // &:hover {
+    //   height: 43rem;
+    // }
+    &_package {
+      font-size: 2.5rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    &_button {
+      height: 6rem;
+      width: 20rem;
+    }
+
+    &_price {
+      margin-top: 8rem;
+      font-weight: 700;
+      font-size: 5rem;
+      display: flex;
+      justify-content: center;
+        & span {
+          font-size: 1rem;
+          margin-left: -10rem;
+          margin-top: 3rem;
+        }
+    }
+
+    &_label {
+      margin-top: -4.5rem;
+      margin-bottom: 3rem;
+    }
+
+    &_button {
+      margin-left: 3rem;
+      border: none;
+      color: white;
+      background-color: #e43;
+      height: 4rem;
+      width: 20rem;
+      // border-radius: 1rem;
+    }
+  }
+
+  &-terms {
+    width: 70%;
+    display: flex;
+    margin-left: 20rem;
+    // background-color: blue;
+    
+    & h4 {
+      font-size: 1.3rem;
+      margin-left: 1rem;
+      margin-top: 0;
+    }
+  }
+
+  &-navigation {
+    display: flex;
+    justify-content: space-around;
+    // border: 0.3px solid rgb(210, 210, 210);
+
+    min-height: 6rem;
+    background-color: rgb(60, 60, 60);
+    color: white;
+
+    @include respond(smallphone) {
+      height: auto;
+    }
+
+    &_container {
+      display: flex;
+      // background-color: blue;
+      width: 25%;
+      // margin: 0.5rem;
+      margin-top: 1.5rem;
+      border: '1rem solid black';
+
+      &_clickable {
+        height: 100%;
+        margin: auto;
+        cursor: pointer;
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+
+    &_data_title {
+      margin-top: 1rem;
+
+      // text-decoration: underline;
+    }
+
+    &_data {
+      color: $color-primary;
+    }
+  }
+
+  &-title {
+    font-size: 6rem;
+  }
+
+  // &-purchase {
+  //   font-size: 2rem;
+  // }
+
+  &-radio {
+    margin: 1rem 0;
+    // &_label {
+    // }
+
+    &_select {
+      margin-right: 1rem;
+    }
+  }
+  &-quantity_input {
+    width: 5rem;
+  }
+}
+
+.connect-stripe_button {
+  color: white;
+  height: 4rem;
+  width: 100%;
+  max-width: 18rem;
+  border: none;
+  background-color: $color-secondary;
+  border-radius: 0.5rem;
+}
+
+.payInvoice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  height: 50rem;
+  border: 0.3px solid rgb(153, 153, 153);
+}
+
+.checkout {
+  // background-color: blue;
+  // &_complete {
+  // }
+
+  &_button {
+    max-width: 18rem;
+    min-width: 10rem;
+  }
+}
+
+.admin-title {
+  font-size: 4rem;
+}
+
+.corner-ribbon{
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.top-left{
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}

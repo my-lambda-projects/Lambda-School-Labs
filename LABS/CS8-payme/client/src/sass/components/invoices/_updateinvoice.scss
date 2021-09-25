@@ -1,0 +1,81 @@
+.invoice-update{
+  display: flex;
+  margin: 0 auto;
+  @include respond(phone)  {
+    margin-left: -15rem;
+  }
+
+    &-form {
+      display: flex;
+      flex-direction: column;
+      width: 50rem;
+      height: 40rem;
+      margin: 5rem auto;
+      @include respond(phone)  {
+        width: 35rem;
+      }
+    }
+    &-title {
+      margin: 0 auto;
+      font-size: 3rem;
+      margin-bottom: 5rem;
+    }
+    &-flex {
+      display: flex;
+      padding: 0.5rem;
+      & p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        width: 30rem;
+      }
+    }
+
+    &_field {
+      border: 0.3px solid rgb(216, 216, 216);
+      height: 4rem;
+      width: 100%;
+
+      &_input {
+        text-align: center;
+        margin-top: 1rem;
+      }
+
+      &--newpdf {
+        @include respond(phone)  {
+          margin-left: 11rem;
+          // width: 15rem;
+          border:none;
+        }
+      }
+
+    }
+
+    &_field--pdf {
+      margin-left: 15.5rem;
+      height: 4rem;
+      border: none;
+      border: 0.3px solid rgb(216, 216, 216);
+      &_input {
+        @include respond(phone)  {
+          margin-right: 10rem;
+        }
+      }
+
+    }
+    &_submit {
+      color: white;
+      height: 4rem;
+      width: 100%;
+      border: none;
+      background-color: $color-secondary;
+      border-radius: .5rem;
+  
+    }
+
+}
+
+.fa-arrow-left.update {
+  @include respond(phone)  {
+    margin-top: 8rem;
+  }
+}

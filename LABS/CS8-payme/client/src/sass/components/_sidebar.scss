@@ -1,0 +1,219 @@
+.typed-logo {
+  // display: flex;
+  // flex-direction: column;
+  // margin-top: -1rem;
+
+}
+
+.slideout {
+  padding-top: 1.6rem;
+  background-color: $color-nav;
+  @include respond(tab-port) {
+    display: none;
+  }
+  & span {
+    display: block;
+    width: 3rem;
+    height: 4px;
+    background-color: rgba(124, 124, 124, 0.336);
+    margin: 5px 2rem;
+  }
+
+  &--title {
+    width: 12rem;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    // border-right:  0.3px solid rgba(255, 255, 255, 0.66);
+    font-size: 3rem;
+    height: 6rem;
+    background-color: $color-nav;
+    @include respond(tab-port) {
+      width: 19rem;
+      padding-left: 2rem;
+    }
+    @include respond(smallphone)  {
+      padding-left: 1rem;
+      width: 13rem;
+    }
+  }
+
+  &--slogan {
+    margin-top: -1rem;
+    margin-left: 4rem;
+    color: $color-secondary;
+    font-size: 1.3rem;
+    @include respond(tab-port) {
+      padding-left: 2rem;
+    }
+    @include respond(smallphone)  {
+      padding-left: 1rem;
+      width: 13rem;
+    }
+  }
+  &--dot {
+    color: $color-primary;
+    font-size: 6rem;
+  }
+
+}
+
+#sidebar.active {
+  margin-left: -18rem;
+  &:hover {
+    margin-left: 50rem;
+  }
+}
+
+
+.sidebar {
+  color:white;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  height: 110rem;
+  padding-bottom: 30rem;
+  background-color: $color-sidebar;
+  min-width: 19rem;
+  width: 19rem;
+  // margin-top: -4rem;
+  // @include respond(phone)  {
+  //   flex-direction: row;
+  //   max-width: 5rem;
+  //   height: 100%;
+  // }
+}
+
+.sidebar--users {
+  display: none;
+  @include respond(phone)  {
+  }
+}
+.sidebar--chat {
+  @include respond(phone)  {
+  display: flex;
+  }
+}
+
+
+// .sidebar-profile {
+//   margin-top: 3rem;
+//   display: flex;
+//   margin-left: 6rem;
+//   border: 5px solid rgb(255, 255, 255);
+//   box-shadow: 0px 0px 0px 5px rgba(211, 211, 211, 0.468);
+//   justify-content: center;
+//   width: 80px;
+//   height: 80px;
+//   overflow: hidden;
+//   border-radius: 50%;
+//   position: relative;
+//   margin-bottom: 2rem;
+
+//   @include respond(phone)  {
+//     width: 0;
+//     height:0;
+//     box-shadow: none;
+//     border: 0;
+//   }
+
+//   &_pic {
+//     display: inline;
+//     height: 100%;
+//     position: relative;
+
+//   }
+// }
+
+.sidebar-links {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  padding-bottom: 2rem;
+  height: 100%;
+  width: 100%;
+  
+  & p {
+    margin-top: 4rem;
+  }
+  @include respond(phone)  {
+    margin-left: 2rem;
+    width: 8rem;
+    height: 20rem;
+
+  }
+}
+
+.fa-fw {
+  padding-right: 0.5rem;
+}
+
+
+///////////////////////////////
+// Minimal
+//////////////////////////////
+.sidebar-min-links {
+  // width: 10rem;
+  height: 110rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  @include respond(smallphone)  {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin: 0;
+    height: 4rem;
+    background-color:rgb(45, 45, 45);
+    width: 101%;
+  }
+  
+  & p {
+    // background-color:rgb(229, 153, 147);
+    // border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    vertical-align:middle;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+
+  }
+}
+
+.sidbarNavlink {
+  color: rgb(199, 199, 199);
+  
+}
+.sidebar-min-icons {
+  color: white;
+  vertical-align:middle;
+
+}
+
+.sidebar--minimal {
+  margin-top: -5px;
+  margin-left: -2px;
+  width: 6rem;
+  height: 100%;
+  border: 0.3px solid rgb(192, 192, 192);
+  background: #252525;
+  @include respond(smallphone)  {
+    background-color: rgba(192, 192, 192, 0);
+    border: 0;
+  }
+}
+
+.fa-envelope-open {
+  margin-left: 4px;
+  margin-bottom: 2px;
+}
+
+.fa-bell {
+  margin-left: 4px;
+  margin-bottom: 2px;
+}

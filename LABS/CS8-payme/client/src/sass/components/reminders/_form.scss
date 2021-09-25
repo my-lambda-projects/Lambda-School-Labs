@@ -1,0 +1,17 @@
+.dropdown {
+  width: 100%;
+  margin: 1rem 0;
+  &-option {
+    cursor: pointer;
+
+    &:hover {
+      color: #22cfb1;
+    }
+  }
+  &-select:active,
+  &-select:focus {
+    outline: none;
+    background-color: #cfcfcf;
+    outline: none;
+  }
+}

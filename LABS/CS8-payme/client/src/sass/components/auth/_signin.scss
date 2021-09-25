@@ -1,0 +1,265 @@
+.signin {
+  // height: 10rem;
+  // margin: 0 auto;
+  box-shadow: none;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+
+  &-foreground {
+    display: flex;
+    width: 85%;
+    height: 70rem;
+    color: white;
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.294);
+    @include respond(tab-port) {
+      // width: 90rem;
+    }
+    @include respond(phone) {
+      // width: 50rem;
+      box-shadow: none;
+    }
+  }
+  &-imgbox {
+    display: flex;
+    justify-content: center;
+    // position: relative;
+    width: 50%;
+    // height: 90rem;
+    @include respond(phone) {
+      display: none;
+    }
+  }
+
+  &--img {
+    max-height: 100%;
+    width: 100%;
+    @include respond(phone) {
+      max-height: 0;
+    }
+  }
+  &-headline {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.365);
+    width: 40rem;
+    margin: 10rem 10rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    top: 15rem;
+    left: 0rem;
+    line-height: 50%;
+    @include respond(tab-port) {
+      width: 25rem;
+    }
+    @include respond(phone) {
+      width: 0;
+      color: transparent;
+    }
+  }
+
+  &-headline2 {
+    text-shadow: none;
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    color: #243030;
+    font-size: 2rem;
+  }
+
+  &-signup {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 4rem;
+
+    color: #243030;
+    background-color: rgb(255, 255, 255);
+    // border: 0.3px solid $color-secon;
+    border-radius: 0.5rem;
+  }
+
+  &--box {
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    @include respond(tab-port) {
+      // height: 90rem;
+      // width: 50%;
+    }
+    @include respond(phone) {
+      min-width: 100%;
+      // height: 75rem;
+    }
+
+    &--dot {
+      color: $color-primary;
+      font-size: 6rem;
+    }
+  }
+  &--header {
+    color: black;
+    margin-bottom: 2rem;
+  }
+
+  &--buttons {
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+
+    &__facebook {
+      border: none;
+      // padding: 10px;
+      font-size: 1.2rem;
+      background-color: #435c94;
+      color: white;
+      height: 3.5rem;
+      width: 9rem;
+      margin-right: 1.5rem;
+      border-radius: 0.5rem;
+    }
+    &__google {
+      // background-color: black;
+      font-size: 1.2rem;
+
+      color: rgb(139, 139, 139);
+      height: 3.8rem;
+      width: 10rem;
+      margin-right: 1.5rem;
+      border-radius: 0.5rem;
+      border: 0.7px solid rgba(105, 105, 105, 0.384);
+      padding: 1rem;
+
+      &--logo {
+        padding: none;
+        height: 1.3rem;
+        // align-content: center;
+        align-self: auto;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////
+// SIGNIN FORM
+//////////////////////////////////////////////
+
+.signin--form {
+  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
+  // background-color: yellow;
+  &_username {
+    padding: 0.5rem;
+    height: 5rem;
+    width: 28rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 0.1rem solid rgb(223, 223, 223);
+  }
+  &_password {
+    padding: 0.5rem;
+    height: 5rem;
+    width: 28rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 0.1rem solid rgb(223, 223, 223);
+  }
+  &_button {
+    padding: 0.5rem;
+    height: 4.5rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    border: 0.5px black;
+  }
+  &_options {
+    color: black;
+    margin-bottom: 2rem;
+  }
+
+  &_notmember {
+    justify-self: center;
+    align-self: center;
+    color: white;
+    font-size: 2rem;
+    // margin: 10rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    height: 10rem;
+    // top: 35rem;
+    // left: 0;
+    position: absolute;
+    color: black;
+    // margin-top: 5rem;
+
+    @include respond(tab-port) {
+      width: 25rem;
+    }
+  }
+}
+
+.signin--titles {
+  font-size: 5rem;
+  height: 6rem;
+  color: $color-nav;
+  @include respond(tab-port) {
+    width: 19rem;
+    padding-left: 2rem;
+  }
+  @include respond(smallphone) {
+    padding-left: 1rem;
+    width: 13rem;
+  }
+}
+
+.signin--slogans {
+  margin-top: -1rem;
+  margin-left: 8rem;
+  color: $color-secondary;
+  font-size: 1.3rem;
+  @include respond(tab-port) {
+    padding-left: 2rem;
+  }
+  @include respond(smallphone) {
+    padding-left: 1rem;
+    width: 13rem;
+  }
+}
+
+.alternate-login {
+  margin: 1rem 0 0 0;
+  &_text {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+    span {
+      color: $color-primary;
+      text-decoration: underline;
+      margin-left: 1rem;
+      cursor: pointer;
+    }
+  }
+}

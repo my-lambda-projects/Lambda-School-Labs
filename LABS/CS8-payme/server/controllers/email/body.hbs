@@ -1,0 +1,110 @@
+<!DOCTYPE html public>
+<html>
+
+<head>
+  <title>giveMeMyMoney | Invoice</title>
+  <style>
+    html,
+    body {
+      height: 3000rem;
+    }
+
+    .background {
+      display: flex;
+      background: url("https://i.imgur.com/faXA2Mj.jpg") no-repeat top;
+      height: 60rem;
+      flex-wrap: wrap;
+    }
+
+    .wrap {
+      text-align: center;
+      background: white;
+      color: black;
+      border-radius: 30px;
+      height: 40rem;
+      width: 25%;
+      min-width: 320px;
+      margin-left: 25%;
+      margin-top: 20%;
+      padding-left: 2%;
+      padding-right: 2%;
+      top: 50%;
+      left: 60%;
+    }
+    @media only screen and (max-width: 25rem) {
+    .wrap {
+        margin-left: 0;
+        margin-top: 65%;
+    }
+    .greet {
+      margin-top: 5%;
+    }
+}
+
+    #feat {
+      background: #E86C62;
+      font-size: x-large;
+      width: 65%;
+      padding: 4%;
+      color: white;
+      border-radius: 10px;
+    }
+
+    #feat:hover {
+      background: #22CFB1;
+    }
+
+    #money {
+      font-size: 50px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    b {
+      color:rgb(184, 66, 72);
+    }
+
+    h2 {
+      font-weight: 100;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    <div class="wrap">
+      <div class="greet">
+        <h1>Hello
+          <br> {{name}}!</h1>
+      </div>
+      <br>
+      <div class="message">
+        <h2>Our records are showing
+          <br> that you have an outstanding
+          <br> invoice with <b>{{company}}</b>
+          <br> in the amount of:</h2>
+      </div>
+      <br>
+      <div class="amount">
+        <h1 id="money">${{amount}}</h1>
+      </div>
+      <br>
+      <div class="below">
+        <h3>&nbsp;To pay your invoice,
+          <br> simply click below...</h3>
+      </div>
+      <div class="button">
+        <a href="{{URL}}/payinvoice/{{invoice}}">
+          <button id="feat">
+            Pay Invoice
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

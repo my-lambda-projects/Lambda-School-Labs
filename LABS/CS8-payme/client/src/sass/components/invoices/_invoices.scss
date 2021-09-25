@@ -1,0 +1,279 @@
+
+.try {
+  display: none;
+}
+.invoice {
+  display: flex;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+
+  @include respond(smallphone) {
+    height: 100%;
+  }
+
+  &-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+  &-navigation {
+    margin-bottom: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2E2E2E;
+    height: 6rem;
+  }
+
+  // &-buttons {
+  //   display: flex;
+  //   height: 100%;
+  //   // flex-direction: row;
+  //   &_each {
+  //     align-items: flex-start;
+  //   }
+  //   @include respond(phone) {
+  //     width: 100%;
+  //     margin: auto;
+
+  //     justify-content: space-between;
+  //   }
+  // }
+
+  &-search {
+    width: 30%;
+    margin-left: 15rem;
+    margin-right: 20rem;
+    z-index: 1;
+    position: relative;
+    @include respond(tab-port) {
+      width: 30rem;
+      margin-right: 5rem;
+      margin-left: 5rem;
+    }
+    @include respond(phone) {
+      width: 15rem;
+      margin-left: 2rem;
+    }
+    @include respond(smallphone) {
+      display: none;
+    }
+    &_input {
+      padding: 1rem;
+      margin: 0 auto;
+      background-color: rgb(235, 235, 235);
+      // padding: 0.4rem;
+      // background-color: blue;
+      width: 100%;
+      height: 4rem;
+      border-radius: 1rem;
+      border: $main-border;
+      @include respond(smallphone) {
+        display: none;
+      }
+      // &:focus {
+      //   width: 40%;
+      //   -webkit-transition: width 0.4s ease-in-out;
+      //   transition: width 0.4s ease-in-out;
+      //   @include respond(tab-port) {
+      //     transition: none;
+      //     width:100%;
+      //   }
+      //   @include respond(smallphone) {
+      //     width: 15rem;
+      //   }
+      // }
+    }
+  }
+
+
+  &-sort {
+    color: white;
+    margin-top: 1rem;
+    padding: 2rem 2rem;
+    cursor: pointer;
+    display: flex;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &-view {
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem;
+    cursor: pointer;
+    display: flex;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  &-new {
+    height: 100%;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    padding: 2rem 2rem;
+    justify-content: center;
+    width: 15rem;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &-id {
+    font-weight: 700;
+    font-size: 1.2;
+  }
+  &-form {
+    width: 35rem;
+    height: 35rem;
+    // border: 0.5px solid rgb(220, 220, 220);
+    margin: 15rem auto;
+  }
+
+  &-success {
+    color: $color-secondary;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.7rem;
+    @include respond(phone)  {
+      width: 15rem;
+      margin-top: 4rem;
+      margin-left: 2rem;
+    }
+
+    // height: 4rem;
+
+    animation: invoice-success 3s 1;
+    -webkit-animation: invoice-success 3s 1;
+    animation-fill-mode: forwards;
+
+    animation-delay: 2s;
+    -webkit-animation-delay: 1s; /* Safari and Chrome */
+    -webkit-animation-fill-mode: forwards;
+  }
+
+  &-letstart {
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+}
+@keyframes invoice-success {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes invoice-success {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fa-arrow-left {
+  // margin-left: 2rem;
+  // margin-top: 1rem;
+  font-size: 3rem;
+  color: $color-primary;
+  margin: auto;
+  height: 100%;
+}
+
+.invoice-search-icon {
+  position: absolute;
+  border-radius: 0 1rem 1rem 0;
+  height: 100%;
+  width: 9%;
+  background-color: rgba(34, 207, 178, 0.482);
+  top: 0rem;
+  left: 91%;
+
+  @include respond(phone) {
+    background-color: transparent;
+    left: 87%;
+    top: -0.2rem;
+
+  }
+
+  &:focus {
+    border-radius: 0 1rem 1rem 0;
+  }
+}
+
+.fa-search {
+  color: white;
+  display: flex;
+  margin: 1.5rem auto;
+}
+
+//////////////////////
+// Add Invoice
+//////////////////////
+
+.add-invoice {
+  
+  &_field {
+    border: 0.3px solid rgb(216, 216, 216);
+    height: 4rem;
+    width: 100%;
+    @include respond(phone)  {
+      margin-left: -7rem;
+    }
+  }
+
+  &_submit {
+    color: white;
+    height: 4rem;
+    width: 100%;
+    border: none;
+    background-color: $color-secondary;
+    border-radius: .5rem;
+    @include respond(phone)  {
+      margin-left: -7rem;
+    }
+  }
+}
+
+.navigation-line {
+  margin: 0;
+  height: 6rem;
+  border: 0.5px solid rgba(255, 255, 255, 0.139);
+}
+.fa-sort {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+.fa-trash {
+  color: white;
+  font-size: 5rem;
+}
+
+.fa-arrow-left.add{
+  @include respond(phone)  {
+    margin-top: 10rem;
+  }
+}
+
+.fa-plus {
+  margin-left: 1rem;
+}
+
+.fa-eye {
+  margin-left: 1rem;
+}
+.compact {
+  font-size: 3rem;
+}

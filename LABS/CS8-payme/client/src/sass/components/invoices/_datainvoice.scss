@@ -1,0 +1,157 @@
+.invoice-box {
+  margin: 5rem 5rem 5rem 10rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-flow: row wrap;
+  @include respond(tab-land) {
+    margin-left: 15%;
+  }
+  @include respond(tab-port) {
+    // width: 85rem;
+    margin-left: 0%;
+  }
+  @include respond(phone)  {
+    width: 50rem;
+    margin: 2rem 2rem 2rem -4rem;
+  }
+  @include respond(smallphone)  {
+    margin: 5rem 0rem 0rem -6rem;
+  }
+
+}
+
+.invoice-data {
+  padding: 2rem 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;  
+  justify-content: center;
+  width: 40rem;
+  border: 0.3px solid rgb(194, 194, 194); 
+  @include respond(tab-land) {
+    width: 40%;
+  }
+  @include respond(tab-port) {
+    width: 40%;
+  }
+  @include respond(phone)  {
+    margin: 2rem 2rem 2rem 0rem;
+    width: 40%;
+     // height: 20rem;
+  }
+  @include respond(smallphone)  {
+    width: 30rem;
+  }
+
+  &-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-id {
+    font-weight: 700;
+  }
+
+  &-name {
+    margin-left: 2rem;
+    font-size: 1.5rem;    
+
+  }
+
+  &-company {
+    margin-left: 2rem;
+    font-size: 1.5rem;    
+  }
+
+  &-hr {
+    border: 0.3px solid rgb(194, 194, 194);
+  }
+
+  &-pdf {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: $color-primary;
+  }
+}
+
+.fa-edit {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: rgb(52, 54, 84);
+}
+
+/////////////////////
+// Invoice List
+//////////////////////
+
+.invoice-list {
+  // background-color: blue;
+  justify-content: center;
+  padding: 2rem 2rem;
+  margin-left: 3rem;
+  width: 95%;
+  height: 4rem;
+  border-bottom: 0.3px solid rgb(194, 194, 194);
+  display: flex;
+  align-items: center;
+  @include respond(tab-land) {
+    width: 85%;
+  }
+  @include respond(tab-port) {
+    margin-left: 0;    
+  }
+
+
+  &-id {
+  font-weight: 700;
+  cursor: pointer;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &-box {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    overflow: hidden;
+    width: 15rem;
+    @include respond(tab-port) {
+      width: 15rem;
+
+    }
+  }
+
+  &-hr {
+    border: 0.3px solid rgb(194, 194, 194);
+  }
+
+  &-pdf {
+    cursor: pointer;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  &-reminder {
+    display: flex;
+
+  }
+}
+
+
+// .invoice-list-headerdiv {
+//   justify-content: center;
+//   padding: 2rem 2rem;
+//   margin-left: 2rem;
+//   width: 100rem;
+//   height: 4rem;
+//   border: 0.3px solid rgb(194, 194, 194);
+//   display: flex;
+//   // justify-content: space-evenly;
+//   align-items: center;
+
+// }
+.fa-edit {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: rgb(52, 54, 84);
+}
