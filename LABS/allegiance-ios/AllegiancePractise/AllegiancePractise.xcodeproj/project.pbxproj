@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB7481E9C91E9E8CB85EA48 /* Pods_AllegiancePractise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C8F70F2E6B055B2336A2E9 /* Pods_AllegiancePractise.framework */; };
+		FC0109C62319B57100DA93D2 /* Group+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0109C52319B57100DA93D2 /* Group+Convenience.swift */; };
+		FC0109C82319D6D900DA93D2 /* GroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0109C72319D6D900DA93D2 /* GroupController.swift */; };
+		FC05C8C923076F7700255D7B /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC05C8C823076F7700255D7B /* Authentication.storyboard */; };
+		FC05C8CC23077F9700255D7B /* SupportTeamsSignup1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05C8CB23077F9700255D7B /* SupportTeamsSignup1VC.swift */; };
+		FC05C8CE230783A400255D7B /* FindFansSignup2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05C8CD230783A400255D7B /* FindFansSignup2VC.swift */; };
+		FC05C8D1230783F600255D7B /* BuildCommunitiesSignup3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05C8D0230783F600255D7B /* BuildCommunitiesSignup3VC.swift */; };
+		FC05C8D32307842400255D7B /* FeelPassionSignup4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05C8D22307842400255D7B /* FeelPassionSignup4VC.swift */; };
+		FC3C2A4323147BA900FE65AF /* GroupSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C2A4223147BA900FE65AF /* GroupSearchViewController.swift */; };
+		FC3C2A4523147BDA00FE65AF /* GroupsExistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C2A4423147BDA00FE65AF /* GroupsExistViewController.swift */; };
+		FC3C2A472315B5CE00FE65AF /* GroupsExistCELL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C2A462315B5CE00FE65AF /* GroupsExistCELL.swift */; };
+		FC3C2A4923160F8900FE65AF /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C2A4823160F8900FE65AF /* CreateGroupViewController.swift */; };
+		FC3C2A4D2316FD6400FE65AF /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C2A4C2316FD6400FE65AF /* UserController.swift */; };
+		FC3C2A4F231714CC00FE65AF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C2A4E231714CC00FE65AF /* CoreDataStack.swift */; };
+		FC6A447522FCC53800410EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6A447422FCC53800410EC3 /* AppDelegate.swift */; };
+		FC6A447A22FCC53800410EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6A447822FCC53800410EC3 /* Main.storyboard */; };
+		FC6A447C22FCC53900410EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6A447B22FCC53900410EC3 /* Assets.xcassets */; };
+		FC6A447F22FCC53900410EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6A447D22FCC53900410EC3 /* LaunchScreen.storyboard */; };
+		FC6A448722FCD49100410EC3 /* GroupsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6A448622FCD49100410EC3 /* GroupsCollectionViewController.swift */; };
+		FC6A448B23049EAC00410EC3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6A448A23049EAC00410EC3 /* User.swift */; };
+		FC6A448D23049F6800410EC3 /* Allegiance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6A448C23049F6800410EC3 /* Allegiance.swift */; };
+		FC6A448F2304A0FB00410EC3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6A448E2304A0FB00410EC3 /* Post.swift */; };
+		FC6A44912304B2AB00410EC3 /* GroupsAllegiances.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6A44902304B2AB00410EC3 /* GroupsAllegiances.swift */; };
+		FC6A44932304B3B900410EC3 /* GroupsUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6A44922304B3B900410EC3 /* GroupsUsers.swift */; };
+		FC6A44962304DD4B00410EC3 /* AllegiancePractise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6A44942304DD4B00410EC3 /* AllegiancePractise.xcdatamodeld */; };
+		FC7F0496231066C0000722BB /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F0495231066C0000722BB /* AuthenticationViewController.swift */; };
+		FC7F04982310A4A8000722BB /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC7F04972310A4A8000722BB /* Auth0.plist */; };
+		FC9B21AB23196A7C0088E2FB /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B21AA23196A7C0088E2FB /* GroupsTableViewController.swift */; };
+		FC9B21AD231991D30088E2FB /* SplashNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B21AC231991D30088E2FB /* SplashNavigationController.swift */; };
+		FCB98DE8230CD6F1008046F4 /* SplashSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB98DE7230CD6F1008046F4 /* SplashSignupViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A61FB73C6D952836A494B5D /* Pods-AllegiancePractise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllegiancePractise.release.xcconfig"; path = "Target Support Files/Pods-AllegiancePractise/Pods-AllegiancePractise.release.xcconfig"; sourceTree = "<group>"; };
+		4246965173825A033C572575 /* Pods-AllegiancePractise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllegiancePractise.debug.xcconfig"; path = "Target Support Files/Pods-AllegiancePractise/Pods-AllegiancePractise.debug.xcconfig"; sourceTree = "<group>"; };
+		44C8F70F2E6B055B2336A2E9 /* Pods_AllegiancePractise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllegiancePractise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0109C52319B57100DA93D2 /* Group+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group+Convenience.swift"; sourceTree = "<group>"; };
+		FC0109C72319D6D900DA93D2 /* GroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupController.swift; sourceTree = "<group>"; };
+		FC05C8C823076F7700255D7B /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		FC05C8CB23077F9700255D7B /* SupportTeamsSignup1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportTeamsSignup1VC.swift; sourceTree = "<group>"; };
+		FC05C8CD230783A400255D7B /* FindFansSignup2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFansSignup2VC.swift; sourceTree = "<group>"; };
+		FC05C8D0230783F600255D7B /* BuildCommunitiesSignup3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildCommunitiesSignup3VC.swift; sourceTree = "<group>"; };
+		FC05C8D22307842400255D7B /* FeelPassionSignup4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelPassionSignup4VC.swift; sourceTree = "<group>"; };
+		FC3C2A4223147BA900FE65AF /* GroupSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSearchViewController.swift; sourceTree = "<group>"; };
+		FC3C2A4423147BDA00FE65AF /* GroupsExistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsExistViewController.swift; sourceTree = "<group>"; };
+		FC3C2A462315B5CE00FE65AF /* GroupsExistCELL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsExistCELL.swift; sourceTree = "<group>"; };
+		FC3C2A4823160F8900FE65AF /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		FC3C2A4C2316FD6400FE65AF /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		FC3C2A4E231714CC00FE65AF /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		FC6A447122FCC53700410EC3 /* AllegiancePractise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllegiancePractise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6A447422FCC53800410EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC6A447922FCC53800410EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6A447B22FCC53900410EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6A447E22FCC53900410EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC6A448022FCC53900410EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6A448622FCD49100410EC3 /* GroupsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCollectionViewController.swift; sourceTree = "<group>"; };
+		FC6A448A23049EAC00410EC3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FC6A448C23049F6800410EC3 /* Allegiance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allegiance.swift; sourceTree = "<group>"; };
+		FC6A448E2304A0FB00410EC3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FC6A44902304B2AB00410EC3 /* GroupsAllegiances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAllegiances.swift; sourceTree = "<group>"; };
+		FC6A44922304B3B900410EC3 /* GroupsUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsUsers.swift; sourceTree = "<group>"; };
+		FC6A44952304DD4B00410EC3 /* AllegiancePractise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AllegiancePractise.xcdatamodel; sourceTree = "<group>"; };
+		FC7F0495231066C0000722BB /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		FC7F04972310A4A8000722BB /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		FC9B21AA23196A7C0088E2FB /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
+		FC9B21AC231991D30088E2FB /* SplashNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashNavigationController.swift; sourceTree = "<group>"; };
+		FCB98DE7230CD6F1008046F4 /* SplashSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashSignupViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6A446E22FCC53700410EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB7481E9C91E9E8CB85EA48 /* Pods_AllegiancePractise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22BDDC21F2EBAF3980F2BFE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44C8F70F2E6B055B2336A2E9 /* Pods_AllegiancePractise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C5F4318A6280324CC009768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4246965173825A033C572575 /* Pods-AllegiancePractise.debug.xcconfig */,
+				1A61FB73C6D952836A494B5D /* Pods-AllegiancePractise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC05C8CA23076FDA00255D7B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FC6A447822FCC53800410EC3 /* Main.storyboard */,
+				FC05C8C823076F7700255D7B /* Authentication.storyboard */,
+				FC6A447D22FCC53900410EC3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FC05C8CF230783B300255D7B /* Authentication Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C2A4823160F8900FE65AF /* CreateGroupViewController.swift */,
+				FC3C2A462315B5CE00FE65AF /* GroupsExistCELL.swift */,
+				FC3C2A4423147BDA00FE65AF /* GroupsExistViewController.swift */,
+				FC3C2A4223147BA900FE65AF /* GroupSearchViewController.swift */,
+				FC05C8D22307842400255D7B /* FeelPassionSignup4VC.swift */,
+				FC05C8D0230783F600255D7B /* BuildCommunitiesSignup3VC.swift */,
+				FC05C8CD230783A400255D7B /* FindFansSignup2VC.swift */,
+				FC05C8CB23077F9700255D7B /* SupportTeamsSignup1VC.swift */,
+				FC7F0495231066C0000722BB /* AuthenticationViewController.swift */,
+				FCB98DE7230CD6F1008046F4 /* SplashSignupViewController.swift */,
+				FC9B21AC231991D30088E2FB /* SplashNavigationController.swift */,
+			);
+			name = "Authentication Views";
+			path = "MODELS/Authentication Views";
+			sourceTree = "<group>";
+		};
+		FC6A446822FCC53700410EC3 = {
+			isa = PBXGroup;
+			children = (
+				FC6A447322FCC53700410EC3 /* AllegiancePractise */,
+				FC6A447222FCC53700410EC3 /* Products */,
+				7C5F4318A6280324CC009768 /* Pods */,
+				22BDDC21F2EBAF3980F2BFE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6A447222FCC53700410EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6A447122FCC53700410EC3 /* AllegiancePractise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6A447322FCC53700410EC3 /* AllegiancePractise */ = {
+			isa = PBXGroup;
+			children = (
+				FC6A447422FCC53800410EC3 /* AppDelegate.swift */,
+				FC6A448622FCD49100410EC3 /* GroupsCollectionViewController.swift */,
+				FC9B21AA23196A7C0088E2FB /* GroupsTableViewController.swift */,
+				FC6A44972304E0E800410EC3 /* MODELS */,
+				FC6A447B22FCC53900410EC3 /* Assets.xcassets */,
+				FC05C8CF230783B300255D7B /* Authentication Views */,
+				FC05C8CA23076FDA00255D7B /* Storyboards */,
+				FC6A448022FCC53900410EC3 /* Info.plist */,
+				FC7F04972310A4A8000722BB /* Auth0.plist */,
+			);
+			path = AllegiancePractise;
+			sourceTree = "<group>";
+		};
+		FC6A44972304E0E800410EC3 /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C2A4C2316FD6400FE65AF /* UserController.swift */,
+				FC6A44942304DD4B00410EC3 /* AllegiancePractise.xcdatamodeld */,
+				FC3C2A4E231714CC00FE65AF /* CoreDataStack.swift */,
+				FC6A448C23049F6800410EC3 /* Allegiance.swift */,
+				FC6A448E2304A0FB00410EC3 /* Post.swift */,
+				FC6A44902304B2AB00410EC3 /* GroupsAllegiances.swift */,
+				FC6A448A23049EAC00410EC3 /* User.swift */,
+				FC6A44922304B3B900410EC3 /* GroupsUsers.swift */,
+				FC0109C72319D6D900DA93D2 /* GroupController.swift */,
+				FC0109C52319B57100DA93D2 /* Group+Convenience.swift */,
+			);
+			path = MODELS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6A447022FCC53700410EC3 /* AllegiancePractise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6A448322FCC53900410EC3 /* Build configuration list for PBXNativeTarget "AllegiancePractise" */;
+			buildPhases = (
+				721A1411E1A5CA749B03C1A8 /* [CP] Check Pods Manifest.lock */,
+				FC6A446D22FCC53700410EC3 /* Sources */,
+				FC6A446E22FCC53700410EC3 /* Frameworks */,
+				FC6A446F22FCC53700410EC3 /* Resources */,
+				D3B6EDC72B7A1DA54F6AB257 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllegiancePractise;
+			productName = AllegiancePractise;
+			productReference = FC6A447122FCC53700410EC3 /* AllegiancePractise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6A446922FCC53700410EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = johnpitts;
+				TargetAttributes = {
+					FC6A447022FCC53700410EC3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FC6A446C22FCC53700410EC3 /* Build configuration list for PBXProject "AllegiancePractise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6A446822FCC53700410EC3;
+			productRefGroup = FC6A447222FCC53700410EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6A447022FCC53700410EC3 /* AllegiancePractise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6A446F22FCC53700410EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7F04982310A4A8000722BB /* Auth0.plist in Resources */,
+				FC05C8C923076F7700255D7B /* Authentication.storyboard in Resources */,
+				FC6A447F22FCC53900410EC3 /* LaunchScreen.storyboard in Resources */,
+				FC6A447C22FCC53900410EC3 /* Assets.xcassets in Resources */,
+				FC6A447A22FCC53800410EC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		721A1411E1A5CA749B03C1A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllegiancePractise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B6EDC72B7A1DA54F6AB257 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllegiancePractise/Pods-AllegiancePractise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllegiancePractise/Pods-AllegiancePractise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllegiancePractise/Pods-AllegiancePractise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6A446D22FCC53700410EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6A448B23049EAC00410EC3 /* User.swift in Sources */,
+				FC05C8D1230783F600255D7B /* BuildCommunitiesSignup3VC.swift in Sources */,
+				FCB98DE8230CD6F1008046F4 /* SplashSignupViewController.swift in Sources */,
+				FC3C2A472315B5CE00FE65AF /* GroupsExistCELL.swift in Sources */,
+				FC05C8CE230783A400255D7B /* FindFansSignup2VC.swift in Sources */,
+				FC6A44962304DD4B00410EC3 /* AllegiancePractise.xcdatamodeld in Sources */,
+				FC9B21AB23196A7C0088E2FB /* GroupsTableViewController.swift in Sources */,
+				FC6A44912304B2AB00410EC3 /* GroupsAllegiances.swift in Sources */,
+				FC7F0496231066C0000722BB /* AuthenticationViewController.swift in Sources */,
+				FC9B21AD231991D30088E2FB /* SplashNavigationController.swift in Sources */,
+				FC6A448722FCD49100410EC3 /* GroupsCollectionViewController.swift in Sources */,
+				FC05C8CC23077F9700255D7B /* SupportTeamsSignup1VC.swift in Sources */,
+				FC6A448F2304A0FB00410EC3 /* Post.swift in Sources */,
+				FC6A448D23049F6800410EC3 /* Allegiance.swift in Sources */,
+				FC3C2A4323147BA900FE65AF /* GroupSearchViewController.swift in Sources */,
+				FC05C8D32307842400255D7B /* FeelPassionSignup4VC.swift in Sources */,
+				FC6A44932304B3B900410EC3 /* GroupsUsers.swift in Sources */,
+				FC0109C82319D6D900DA93D2 /* GroupController.swift in Sources */,
+				FC3C2A4F231714CC00FE65AF /* CoreDataStack.swift in Sources */,
+				FC6A447522FCC53800410EC3 /* AppDelegate.swift in Sources */,
+				FC3C2A4D2316FD6400FE65AF /* UserController.swift in Sources */,
+				FC3C2A4923160F8900FE65AF /* CreateGroupViewController.swift in Sources */,
+				FC3C2A4523147BDA00FE65AF /* GroupsExistViewController.swift in Sources */,
+				FC0109C62319B57100DA93D2 /* Group+Convenience.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC6A447822FCC53800410EC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6A447922FCC53800410EC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6A447D22FCC53900410EC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6A447E22FCC53900410EC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6A448122FCC53900410EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC6A448222FCC53900410EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6A448422FCC53900410EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4246965173825A033C572575 /* Pods-AllegiancePractise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = AllegiancePractise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaSchool.AllegiancePractise.jtaylor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6A448522FCC53900410EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A61FB73C6D952836A494B5D /* Pods-AllegiancePractise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = AllegiancePractise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaSchool.AllegiancePractise.jtaylor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6A446C22FCC53700410EC3 /* Build configuration list for PBXProject "AllegiancePractise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6A448122FCC53900410EC3 /* Debug */,
+				FC6A448222FCC53900410EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6A448322FCC53900410EC3 /* Build configuration list for PBXNativeTarget "AllegiancePractise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6A448422FCC53900410EC3 /* Debug */,
+				FC6A448522FCC53900410EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC6A44942304DD4B00410EC3 /* AllegiancePractise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC6A44952304DD4B00410EC3 /* AllegiancePractise.xcdatamodel */,
+			);
+			currentVersion = FC6A44952304DD4B00410EC3 /* AllegiancePractise.xcdatamodel */;
+			path = AllegiancePractise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC6A446922FCC53700410EC3 /* Project object */;
+}

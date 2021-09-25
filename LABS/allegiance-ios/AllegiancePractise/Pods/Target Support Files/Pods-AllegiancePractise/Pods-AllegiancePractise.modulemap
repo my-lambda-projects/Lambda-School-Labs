@@ -1,0 +1,6 @@
+framework module Pods_AllegiancePractise {
+  umbrella header "Pods-AllegiancePractise-umbrella.h"
+
+  export *
+  module * { export * }
+}
