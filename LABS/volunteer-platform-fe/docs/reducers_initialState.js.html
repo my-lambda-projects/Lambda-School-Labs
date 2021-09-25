@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: reducers/initialState.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: reducers/initialState.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>export const causeAreas = [
+  'Animal Care',
+  'Health &amp; Medicine',
+  'Computers &amp; Technology',
+  'Immigrants &amp; Refugees',
+  'Seniors',
+  'Faith-Based',
+  'Crisis Support',
+  'Hunger',
+  'Sports &amp; Recreation',
+  'Disaster Relief',
+  'Education &amp; Literacy',
+  'Justice &amp; Legal',
+  'Women',
+  'Media &amp; Broadcasting',
+  'Emergency &amp; Safety',
+  'Children &amp; Youth',
+  'Politics',
+  'Homeless &amp; Housing',
+  'People with Disabilities',
+  'Environment',
+  'Veterans &amp; Military Families',
+  'Advocacy &amp; Human Rights',
+].sort((a, b) => (a > b ? 1 : -1));
+
+export const requirements = [
+  'Background Check',
+  'Light Lifting Required',
+  'Orientation or Training',
+  'Access to Computer',
+  'Heavy Lifting Required',
+  'Children Require Parent/Guardian',
+  'Waiver for Youth',
+  'Application Required',
+  'Basic Computer Skills',
+].sort((a, b) => (a > b ? 1 : -1));
+
+export const interests = [
+  'Work with Animals',
+  'Virtual',
+  'Group Friendly',
+  'New' + ' Volunteer Friendly',
+  'Religion',
+  'Customer Service',
+  'Senior Friendly',
+  'Helping Homeless',
+  'Indoor Work',
+  'Family Friendly',
+  'Tutoring',
+  'Youth Friendly',
+  'Wheelchair Accessible',
+  'Outdoor Work',
+].sort((a, b) => (a > b ? 1 : -1));
+
+const checkLoggedIn = localStorage.getItem('loggedIn') === 'true';
+const checkRegistered = localStorage.getItem('userRegistered') === 'true';
+
+export const initialState = {
+  auth: {
+    loggedIn: checkLoggedIn || false,
+    signedUp: checkRegistered || false,
+    googleAuthUser: null,
+    registeredUser: null,
+    topVolunteers: [],
+    signInError: null,
+    signUpError: null,
+    topVolunteersError: null,
+    isLoading: false,
+    signUpEventError: null,
+    cancelSignedUpEventError: null,
+    userSearch: null,
+  },
+  org: {
+    createdOrg: false,
+    userOrganizations: [],
+    topOrganizations: [],
+    organizations: [],
+    getOrganizationFailedError: '',
+    organization: {},
+    deleteOrgFailedError: '',
+    error: '',
+    isLoading: false,
+  },
+  events: {
+    events: [],
+    event: {},
+    recurringEvents: [],
+    createEventFailedError: '',
+    createRecurringEventFailedError: '',
+    deleteEventFailedError: '',
+    editEventFailedError: '',
+    getEventsFailedError: '',
+    signUpVolunteerError: '',
+    cancelSignedUpVolunteerError: '',
+    isLoading: false,
+    isSaving: false,
+  },
+  tags: {
+    interests: interests,
+    requirements: requirements,
+    causeAreas: causeAreas,
+    isGetting: false,
+    errorMessage: '',
+  },
+  messages: {
+    messages: {},
+    orgMessages: {},
+    isLoading: false,
+    error: '',
+  },
+  comments: {
+    isLoading: false,
+    error: '',
+    isLoadingReplyToComment: false,
+    deletedComment: false,
+  },
+};
+
+/**
+ * State
+ * @module State
+ *
+ */
+
+/**
+ * @typedef comments
+ * @type {Object}
+ * @property {Boolean} isLoading If submitting message has started.
+ * @property {String} error Error message if failed.
+ * @property {String} isLoadingReplyToComment Error message if failed.
+ */
+
+/**
+ * @typedef tags
+ * @type {Object}
+ * @property {Tag[]} interests Array of Tags for the event interests.
+ * @property {Tag[]} requirements Array of Tags for the volunteer requirements.
+ * @property {Tag[]} causeAreas Array of Tags for organization cause areas.
+ * @property {boolean} isGetting Is getting tags from the DB.
+ * @property {String} errorMessage Error message for getting tags from DB.
+ */
+
+/**
+ * @typedef auth
+ * @type {Object}
+ * @property {boolean} loggedIn Indicates if the user is logged in or not.
+ * @property {boolean} signedUp Indicates if the user has completed registration
+ * @property {Object} googleAuthUser User object given to use from google auth.
+ * @property {User} registeredUser Registered user data
+ * @property {User[]} topVolunteers Array of top volunteers
+ */
+
+/**
+ * @typedef org
+ * @type {Object}
+ * @property {boolean} createdOrg Indicates if the user has created an org.
+ * @property {Organization[]} userOrganizations Organizations user created.
+ * @property {String} getOrganizationFailedError Error message
+ * @property {Organization} organization Organization from get org by id action.
+ * @property {String} deleteOrgFailedError Error message
+ * @property {Organization[]} organizations Organizations by state
+ */
+
+/**
+ * @typedef events
+ * @type {Object}
+ * @property {Event[]} events Array of events collected from db.
+ * @property {RecurringEvent[]}
+ * @property {Event} event Event for event page.
+ * @property {String} createEventFailedError Create Event Error Message
+ * @property {String} createEventFailedError Create Event Error Message
+ * @property {String} editEventFailedError Edit Event Error Message
+ * @property {String} getEventsFailedError Get Events Error Message
+ */
+
+/**
+ * @typedef messages
+ * @type {Object}
+ * @property {MessagesObject} messages Object of messages
+ * @property {MessagesObject} orgMessages Object of messages
+ * @property {Boolean} isLoading Boolean indicating if we are collecting the user messages.
+ * @property {String} error Error message if there is one.
+ */
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-actions_auth.html">actions/auth</a></li><li><a href="module-actions_comments.html">actions/comments</a></li><li><a href="module-actions_events.html">actions/events</a></li><li><a href="module-actions_file.html">actions/file</a></li><li><a href="module-actions_messaging.html">actions/messaging</a></li><li><a href="module-actions_organizations.html">actions/organizations</a></li><li><a href="module-State.html">State</a></li><li><a href="module-Types.html">Types</a></li></ul><h3>Global</h3><ul><li><a href="global.html#action">action</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Wed Oct 23 2019 20:13:14 GMT-0600 (Mountain Daylight Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
