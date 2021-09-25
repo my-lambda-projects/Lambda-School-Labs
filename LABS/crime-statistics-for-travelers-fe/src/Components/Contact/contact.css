@@ -1,0 +1,148 @@
+.mainContent {
+    display: flex;  
+}
+
+.mainHeader {
+    position: absolute;
+    width: 710px;
+    height: 68px;
+    left: 40px;
+    top: 155px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1F8EFA;
+}
+
+.mainText {
+    position: absolute;
+    width: 1395px;
+    height: 340px;
+    left: 52px;
+    top: 216px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.mainForms {
+    display: flex;
+    background: #206880;
+}
+
+.nameForm {
+    position: absolute;
+    left: 222px;
+    right: 469px;
+    top: 665px;
+    bottom: 46.96%;
+    background: #1F8EFA;
+    height: 24px;
+}
+
+.inputName {
+    position: relative;
+    background: #206880;
+    border-radius: 5px;
+    margin-top: 631px;
+    margin-left: 222px;
+}
+
+.phoneForm {
+    position: absolute;
+    left: 221px;
+    right: 470px;
+    top: 739px;
+    bottom: 46.96%;
+    background: #1F8EFA;
+    height: 24px;
+}
+
+#inputPhone {
+    position: relative;
+    background: #206880;
+    border-radius: 5px;
+    margin-top: 705px;
+    margin-left: -893px;
+    height: 0px;  
+}
+
+.titleForm {
+    position: absolute;
+    left: 223px;
+    right: 469px;
+    top: 813px;
+    bottom: 46.96%;
+    background: #1F8EFA;
+    height: 24px;
+}
+
+.inputTitle {
+    position: relative;
+    background: #206880;
+    border-radius: 5px;
+    margin-top: 779px;
+    margin-left: -891px;  
+}
+
+.emailForm {
+    position: absolute;
+    left: 223px;
+    right: 469px;
+    top: 887px;
+    bottom: 46.96%;
+    background: #1F8EFA;
+    height: 24px;
+}
+
+.inputEmail {
+    position: relative;
+    background: #206880;
+    border-radius: 5px;
+    margin-top: 853px;
+    margin-left: -892px;  
+}
+
+.blueForm {
+    position: absolute;
+    left: 223px;
+    right: 467px;
+    top: 977px;
+    bottom: 46.96%;
+    background: #1F8EFA;
+    height: 30px;
+}
+
+.inputContact {
+    position: relative;
+    background: #206880;
+    border-radius: 5px;
+    margin-top: 949px;
+    margin-left: -892px;  
+}
+
+.submitButton {
+    position: relative;
+    height: 27px;
+    background: #05C985;
+    color: white;
+    margin-top: 1275px;
+    width: 118px;
+    padding-left: 31px;
+    margin-left: -896px;
+}
+
+.spaceArea {
+    margin-top: 1357px
+} 

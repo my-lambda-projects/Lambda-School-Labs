@@ -1,0 +1,180 @@
+.App {
+    text-align: center;
+  }
+
+  .mapboxgl-canvas {
+    position:absolute; 
+     /* top:0; */
+      /* bottom:-60px; */
+      width:100%;
+    
+   /* top:-60px; */
+    position: fixed !important; 
+    height: 100% !important;
+  }
+  .map-overlay h2{
+    color:white;
+  }
+  /* <div className='map-overlay' id='total'> */
+
+  
+  .map-overlay h3{
+    color:white;
+  }
+.map-overlay #pd p{
+  color:white;
+}
+p {
+  color:white;
+  font-size: 0.85em;
+  margin: 10px;
+  text-align: left;
+}
+.map.mapboxgl-map{
+  margin-top:60px;
+ margin-bottom:-60px;
+}
+
+.geocoder {
+  position:absolute;
+  z-index:100;
+ left:1%;
+margin-top:-110px;
+
+  }
+  @media(max-width:500px){
+    .geocoder{
+      width:50%;
+      height:50%;
+    }
+  }
+
+  .mapboxgl-ctrl-geocoder { min-width:100%; }
+/* .mapboxgl-ctrl-geocoder{
+
+  display:flex;
+}
+.mapboxgl-ctrl-geocoder--input{
+    justify-content: center;
+  align-items:center;
+} */
+/**
+* Create a position for the map
+* on the page */
+@media(max-width:500px){
+  .map.mapboxgl-map{
+    width:75%;
+  }
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.css-1if6rq1{
+  z-index:10;
+}
+
+/**
+* Set rules for how the map overlays
+* (information box and legend) will be displayed
+* on the page. */
+.map-overlay {
+  margin-top:100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color:white;
+  background:#1E2F40;
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+#features {
+  position:absolute;
+  color:white;
+  top: 65%;
+  left:2%;
+  height: 100px;
+  margin-top: 85px;
+  margin-right:35px;
+  width: 250px;
+  box-shadow:5px 5px 5px black;
+  background:#0D73D9;
+}
+#legend-image{
+position:absolute;
+top:78%;
+right:2%;
+box-shadow:1px 2px rgba(0, 0, 0, 0.1);
+line-height: 18px;
+height: 150px;
+
+
+}
+#menu{
+  position: absolute;
+  background-image:linear-gradient(306deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 33.333%,rgba(85, 85, 85, 0.05) 33.333%, rgba(85, 85, 85, 0.05) 66.666%,rgba(255, 255, 255, 0.05) 66.666%, rgba(255, 255, 255, 0.05) 99.999%),linear-gradient(353deg, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 33.333%,rgba(238, 238, 238, 0.05) 33.333%, rgba(238, 238, 238, 0.05) 66.666%,rgba(32, 32, 32, 0.05) 66.666%, rgba(32, 32, 32, 0.05) 99.999%),linear-gradient(140deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(30, 30, 30, 0.05) 66.666%, rgba(30, 30, 30, 0.05) 99.999%),linear-gradient(189deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 33.333%,rgba(55, 55, 55, 0.05) 33.333%, rgba(55, 55, 55, 0.05) 66.666%,rgba(145, 145, 145, 0.05) 66.666%, rgba(145, 145, 145, 0.05) 99.999%),linear-gradient(90deg, rgb(9, 201, 186),rgb(18, 131, 221));
+  color:white;
+  padding:10px;
+  padding-left:5px;
+  padding-right:5px;
+ border-style:solid;
+ border-color:black;
+  bottom: 2%;
+  left:50%;
+  z-index: 6;
+}
+@media(max-width:500px){
+#menu{
+  left:25%;
+}
+  
+}
+#legend {
+
+  margin-right:10px;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 18px;
+  height: 150px;
+  margin-bottom: 40px;
+  width: 100px;
+}
+
+.legend-key {
+  display: inline-block;
+  border-radius: 20%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.p{
+  color: black
+}
+.left-drawer{
+  width: 10%;
+}
+
+.left-drawer div button{
+  z-index:1;
+
+}
+.bottom-drawer div button{
+  z-index:6;
+
+}
+.css-eci14t{
+  z-index:6;
+  left:0;
+}
+.right-drawer div button{
+  z-index:6;
+  position: absolute;
+  right: 0%;
+  top: 60px
+}

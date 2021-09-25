@@ -1,0 +1,84 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+p{
+    color:black;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    color: #091532
+  }
+  
+  td, th {
+    border: 1px solid #091532;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #091532;
+    color: white
+  }
+
+.meta-head{
+ font-size: 1.5rem;
+
+}
+
+.meta-container{
+    overflow-y: scroll;
+    height: 100%
+}
+
+.safety-stats{
+    border: 1px solid #091532;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    box-shadow: 11px 11px 12px -10px rgba(217,217,217,1);
+}
+
+
+.pop-stats {
+    border: 1px solid #091532;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    box-shadow: 11px 11px 12px -10px rgba(217,217,217,1);
+}
+
+.total-crime-stats {
+    border: 1px solid #091532;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    box-shadow: 11px 11px 12px -10px rgba(217,217,217,1);
+}
+
+.violent-crime-stats {
+    border: 1px solid #091532;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    box-shadow: 11px 11px 12px -10px rgba(217,217,217,1);
+}
+
+.murder-stats{
+    border: 1px solid #091532;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    box-shadow: 11px 11px 12px -10px rgba(217,217,217,1);
+}
+
+.rape-stats {
+    border: 1px solid #091532;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    box-shadow: 11px 11px 12px -10px rgba(217,217,217,1);
+}
