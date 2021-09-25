@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Buddy App",
+    "slug": "buddy-app",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "extra": {
+      "iOSKey":"K2ix8HMwHU7MRWIMTln5Jfntlxa4iT23",
+      "AndroidKey":"iUxaVmIHfvB7ZbC44J5wVOQW44qrMgBc"
+    }
+  }
+}
