@@ -1,0 +1,13 @@
+{
+  "name": "workout-tracker",
+  "version": "0.1.0",
+  "scripts": {
+    "postinstall": "npm install --prefix server && npm install -g knex",
+    "heroku-postbuild": "cd server && knex migrate:latest && knex seed:run"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "qs": "^6.6.0",
+    "react-chartjs-2": "^2.7.4"
+  }
+}

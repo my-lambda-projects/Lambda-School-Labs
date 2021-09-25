@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "test": "jest --watch --verbose",
+    "test-coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "firebase-admin": "^6.5.0",
+    "helmet": "^3.15.0",
+    "knex": "^0.16.3",
+    "knex-cleaner": "^1.1.4",
+    "morgan": "^1.9.1",
+    "pg": "^7.7.1",
+    "sqlite3": "^4.0.4",
+    "stripe": "^6.20.0"
+  },
+  "devDependencies": {
+    "firebase": "^5.7.3",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9",
+    "supertest": "^3.3.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
