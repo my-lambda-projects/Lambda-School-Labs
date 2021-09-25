@@ -1,0 +1,63 @@
+{
+  "name": "backwood-tracker-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/tests/setup.js",
+    "verbose": true,
+    "testMatch": [
+      "<rootDir>/tests/modules/**"
+    ],
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "webpack --config webpack.dev.js --colors --progress",
+    "lint": "eslint \"./**/*.js\"",
+    "test": "jest --runInBand --detectOpenHandles",
+    "clean": "rm -rf dist/",
+    "build": "yarn clean && webpack --config webpack.prod.js",
+    "heroku-postbuild": "yarn build"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "cloudinary": "^1.13.2",
+    "cors": "2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "lodash.merge": "4.6.1",
+    "moment": "^2.24.0",
+    "mongoose": "5.3.15",
+    "nodemailer": "^5.1.1",
+    "stripe": "^6.19.0",
+    "twilio": "^3.27.1",
+    "webpack-merge": "4.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/plugin-proposal-function-bind": "7.2.0",
+    "@babel/plugin-transform-regenerator": "7.0.0",
+    "@babel/plugin-transform-runtime": "7.2.0",
+    "@babel/preset-env": "7.2.0",
+    "@babel/runtime": "7.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "8.0.4",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-stage-0": "6.24.1",
+    "eslint": "^5.10.0",
+    "jest": "^23.6.0",
+    "raw-loader": "1.0.0",
+    "source-map-support": "0.5.9",
+    "start-server-webpack-plugin": "2.2.5",
+    "supertest": "^3.3.0",
+    "webpack": "4.27.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-node-externals": "1.7.2"
+  }
+}
