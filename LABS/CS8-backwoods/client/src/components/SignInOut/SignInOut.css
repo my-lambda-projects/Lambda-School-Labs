@@ -1,0 +1,25 @@
+.signInOutlanding {
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
+  /* width: 6%;
+  float: right; */
+  padding: 10px 10px 0px 10px;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  width: 100vw;
+  height: 5vh;
+  /* margin-top: 10px; */
+  z-index: 9999;
+}
+.signInOutMain {
+  opacity: 1;
+}
+.submitButton {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.LandingHomeLink {
+  text-decoration: none;
+}

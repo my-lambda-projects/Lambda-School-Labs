@@ -1,0 +1,47 @@
+.logo {
+  width: 24px;
+  height: 24px;
+  text-shadow: 0 0 2px #000;
+}
+.landingWrapper {
+  background-image: url('landing_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+.backwoodsHeader {
+  transform: scale(2.5);
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 0 0 4px #000;
+}
+ul {
+  list-style: none;
+}
+li {
+  vertical-align: middle;
+  text-align: left;
+  line-height: 30px;
+}
+.paper {
+  padding: 1%;
+  opacity: 0.85;
+}
+.subtitleText {
+  color: #fff;
+  text-shadow: 0 0 4px #000;
+}
+.header {
+  margin-bottom: 15%;
+}
+.bullets {
+  width: 16px;
+  height: 16px;
+}

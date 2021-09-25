@@ -1,0 +1,94 @@
+.tripCreateWrapper {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 60px; */
+}
+.thisISSPARTA{
+  background-color: white;
+  width: 71%;
+  height: 600px;
+}
+
+.MapWaypointWrapper {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tripCreateMap {
+  height: 100%;
+  width: 100%;
+}
+
+.tripCreateForm {
+  padding: 15px 0px 15px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1540px;
+}
+
+.WaypointListWrapper {
+  text-align: center;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2%;
+}
+
+
+.waypointButtonWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: flex-start;
+  margin-top: 15px;
+}
+
+.waypointContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  margin-top: 10px;
+}
+.waypointControlsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.waypointTextField {
+  display: flex;
+  flex-direction: column;
+}
+
+.waypointButtonContainer {
+  margin-top: 20px;
+}
+
+.tripCreateInputLabel {
+  font-size: 1.3rem !important;
+}
+
+.textVal {
+  height: 70px;
+}
+
+#saveTripButton{
+  width: 150px;
+  
+}
+
+.datePicker{
+  margin-top: 17px;
+  margin-bottom: 17px;
+  display: flex;
+  width: 100%;
+}
+.pickerCard {
+  width: 100%;
+}
+
+.waypointStartEnd{
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.markerName {
+  width: 100%;
+}

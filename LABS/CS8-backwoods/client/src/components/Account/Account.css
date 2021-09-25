@@ -1,0 +1,46 @@
+.accountWrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.formPaper {
+  align-self: center;
+  width: 70%;
+  padding: 10px;
+}
+
+@media (min-width: 900px) {
+  .formPaper {
+    width: 450px;
+  }
+}
+.accountForm {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+.MuiButton-containedPrimary-523 {
+  color: white !important;
+}
+.accountSubmitWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.accountSubmitButton {
+  padding: 200px;
+  margin: auto;
+}
+
+.accountTextFieldWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.accountSubmitIcon {
+  margin-left: 10px;
+}

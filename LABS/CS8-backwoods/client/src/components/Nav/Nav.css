@@ -1,0 +1,24 @@
+
+/*NEW CSS RULES */
+.breadAndHanburger {
+  display: flex;
+  align-items: center;
+}
+
+.navBarLinks {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+/*----------------*/
+
+.material-icons {
+  transform: scale(0.75);
+}
+
+.stayOrLeaveButtons {
+  margin-top: 15%;
+}
+.leaveButton {
+  text-decoration: none;
+}

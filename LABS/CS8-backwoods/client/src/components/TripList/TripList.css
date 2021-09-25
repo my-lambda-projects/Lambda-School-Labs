@@ -1,0 +1,51 @@
+.trip {
+  width: 280px;
+  height: 270px;
+  margin: 0px 15px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mainTripList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.mapsIcon {
+  max-width: 100%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.TripTitle {
+  font-weight: 300 !important;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.tripdates {
+  display: flex;
+  flex-direction: column;
+}
+
+.tripDatesWrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#addNewTripWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.SingleTripStartAndEndDate {
+  font-size: 0.9rem;
+  padding: 2px;
+}

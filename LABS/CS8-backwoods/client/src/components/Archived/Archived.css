@@ -1,0 +1,17 @@
+.noArchivedTripsPaper {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.trip2 {
+  width: 280px;
+  height: 270px;
+  margin: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
