@@ -1,0 +1,39 @@
+{
+  "name": "linkstasite2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+
+    "auth0-js": "^9.5.1",
+
+
+    "bootstrap": "^4.0.0",
+    "connected-react-router": "^4.3.0",
+    "firebase": "^5.0.3",
+    "jquery": "^3.3.1",
+
+    "material-ui": "^0.20.1",
+    "mdbreact": "^4.3.0",
+    "re-base": "^3.2.2",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "react-instafeed": "^0.4.0",
+    "react-redux": "^5.0.7",
+    "react-redux-firebase": "^2.1.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-sticky-box": "^0.6.2",
+    "reactstrap": "^6.0.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "redux-variants": "^1.0.174",
+    "simple-oauth2": "^1.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

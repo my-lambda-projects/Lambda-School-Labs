@@ -1,0 +1,5 @@
+Set your Bit.ly app's access token on your function by running:
+firebase functions:config:set bitly.access_token=XXXXXXXXXXXXX
+Deploy the function using firebase deploy
+
+d00a795d6ce23f36ca494486da00dcabe09e539f
