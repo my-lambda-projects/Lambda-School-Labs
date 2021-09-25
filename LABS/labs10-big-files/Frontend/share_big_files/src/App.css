@@ -1,0 +1,162 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: #206DB5;
+    color: white;
+ }
+
+li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.75rem;
+
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+/* input[type="file"] {
+    display: none;
+} */
+
+ 
+ 
+input:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;  
+  color: gray;
+  text-transform:uppercase;
+  display: none;
+}
+
+
+input:hover{
+    cursor: pointer;
+}
+
+textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;  
+  color: gray;
+  text-transform:uppercase;
+}
+
+
+textarea:hover{
+    cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fontAwesome:hover {
+  cursor: pointer;
+}
+
+.ReactModal__Content {
+    width: 35%; 
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: none;
+  }
+
+.ReactModal__Overlay{
+  background-color: rgb(125, 125,125, 0.8);
+    margin-top: 6rem;
+    outline: none;
+}
+.StripeCheckout{ 
+  
+   
+  width: 151px;
+  height: 49px;
+  border-radius: 5px;
+  margin: 3% auto;
+  /* background: none !important;
+  background-color: #206db5 !important;  */
+  cursor: pointer;
+  border:1px solid red;
+  opacity: 0;
+}
+
+.StripeCheckout:hover{
+  cursor: pointer;
+ 
+}
+ 
+ 
+
+.StripeCheckout span {
+  /* background-image: none !important;
+background-color: #206db5 !important;
+box-shadow: none !important; */
+opacity: 0;
+}
+
+
+@media (max-width: 390px) {
+  .ReactModal__Content {
+    width: 95%;
+    border-radius: 7px; 
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px; 
+  }
+  .ReactModal__Overlay{
+      height: 100%;
+      margin-top: 17rem; 
+      background-color: rgb(125, 125,125, 0.8);
+ 
+  }
+}
+

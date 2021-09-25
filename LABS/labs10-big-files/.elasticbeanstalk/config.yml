@@ -1,0 +1,20 @@
+branch-defaults:
+  Stripe:
+    environment: BEproxy
+environment-defaults:
+  BEproxy:
+    branch: null
+    repository: null
+global:
+  application_name: SFTester
+  default_ec2_keyname: hack
+  default_platform: arn:aws:elasticbeanstalk:us-west-2::platform/Node.js running on
+    64bit Amazon Linux/4.8.0
+  default_region: us-west-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git
+  workspace_type: Application

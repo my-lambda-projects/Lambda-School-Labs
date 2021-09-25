@@ -1,0 +1,19 @@
+  input {
+    border: 1px solid #ddd;
+  }
+
+  input.error {
+    border-color: red;
+  }
+  
+  button {
+    background-color: #206db5;
+    color: white;
+    border: none;
+  }
+  
+button:disabled {
+    background-color: #ddd;
+    color: black;
+  }
+  

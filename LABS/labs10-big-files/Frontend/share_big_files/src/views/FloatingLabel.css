@@ -1,0 +1,202 @@
+   
+  .field {
+    display: flex;
+    flex-flow: column-reverse;
+    margin-bottom: 1em;
+  }
+  /**
+  * Add a transition to the label and input.
+  * I'm not even sure that touch-action: manipulation works on
+  * inputs, but hey, it's new and cool and could remove the 
+  * pesky delay.
+  */
+  label, input {
+    transition: all 0.2s;
+    touch-action: manipulation;
+  }
+  
+  input {
+    font-size: 1.5em;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+ 
+    -webkit-appearance: none;
+    border-radius: 0;
+    cursor: text;
+    font-family: "Roboto";
+    width: 200px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 0;
+    border-bottom: 1px solid black;
+  
+    display: block;
+    border: none;
+    background: #e6e6e6;
+ 
+    line-height: 1.5;
+  
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 0 0 3%;
+    max-width : calc(100% - 3%);
+  
+    transition: all 0.2s;
+    touch-action: manipulation;
+
+    
+  }
+  
+  input:focus {
+    outline: 0;
+    font-family: "Roboto"; 
+    font-weight: 400; 
+  }
+  
+  label {
+    font-family: "Roboto";
+    width: 200px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+  }
+  /**
+  * Translate down and scale the label up to cover the placeholder,
+  * when following an input (with placeholder-shown support).
+  * Also make sure the label is only on one row, at max 2/3rds of the
+  * field—to make sure it scales properly and doesn't wrap.
+  */
+  input:placeholder-shown + label {
+    
+    cursor: text;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 4.7rem) scale(1.5);
+    padding: 0 0 0 2%;
+    max-width : calc(100% - 2%);
+  }
+  /**
+  * By default, the placeholder should be transparent. Also, it should 
+  * inherit the transition.
+  */
+  ::-webkit-input-placeholder {
+    opacity: 0 !important;
+    transition: inherit;
+  }
+  /**
+  * Show the placeholder when the input is focused.
+  */
+  input:focus::-webkit-input-placeholder {
+    opacity: 1 !important;
+  }
+  /**
+  * When the element is focused, remove the label transform.
+  * Also, do this when the placeholder is _not_ shown, i.e. when 
+  * there's something in the input at all.
+  */
+  input:not(:placeholder-shown) + label,
+  input:focus + label {
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+  }
+
+
+  
+  
+
+
+
+
+  textarea {
+    font-size: 1.5em;
+    font-family: "Roboto";
+    width: 200px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    border: 0;
+    /* border-bottom: 1px solid #ccc; */
+    /* font-family: inherit; */
+    /* -webkit-appearance: none; */
+    border-radius: 0;
+    cursor: text;
+
+    width: 100%;
+    /* height: 3rem; */
+    margin: 0 0;
+    border: none;
+    box-shadow: 0 0 0;
+    border-bottom: 1px solid black;
+  
+    display: block;
+    border: none;
+    background: #e6e6e6; 
+    line-height: 1.5;
+  
+    height: 50px;
+    border-radius: 5px;
+    padding: 2% 0 0 3%;
+    max-width : calc(100% - 3%);
+  
+    transition: all 0.2s;
+    touch-action: manipulation;
+
+  
+    height: 9rem;
+    margin: 0 0 3% 0;
+    border: none;
+
+  
+
+    
+  }
+  
+  textarea:focus {
+    outline: 0;
+  }
+  
+  textarea:placeholder-shown + label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 4.7rem) scale(1.5);
+    padding: 0 0 0 2%;
+    max-width : calc(100% - 2%);
+  }
+
+  ::-webkit-textarea-placeholder {
+    opacity: 0 !important; 
+    transition: inherit;
+  }
+
+  textarea:focus::-webkit-input-placeholder {
+    opacity: 1 !important;
+  }
+  textarea:not(:placeholder-shown) + label,
+  textarea:focus + label {
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+  }
+
+
+/* ::-webkit-input-placeholder { /\* Chrome *\/ */
+/*   color: red; */
+/* } */
+/* :-ms-input-placeholder { /\* IE 10+ *\/ */
+/*   color: red; */
+/* } */
+/* ::-moz-placeholder { /\* Firefox 19+ *\/ */
+/*   color: red; */
+/*   opacity: 1; */
+/* } */
+/* :-moz-placeholder { /\* Firefox 4 - 18 *\/ */
+/*   color: red; */
+/*   opacity: 1; */
+/* } */
