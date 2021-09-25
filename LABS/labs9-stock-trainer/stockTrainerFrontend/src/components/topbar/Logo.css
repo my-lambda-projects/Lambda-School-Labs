@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+.logoText {
+  margin-left: .75em;
+  font-family: 'Abril Fatface', cursive !important;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+}
+@media only screen and (max-width: 700px) {
+  .logoText {
+    margin-left: 4vw;
+  }
+
+}
+@media only screen and (max-width: 430px) {
+  .logoText {
+    font-size: 27px;
+    margin-left: 0;
+
+  }
+
+}

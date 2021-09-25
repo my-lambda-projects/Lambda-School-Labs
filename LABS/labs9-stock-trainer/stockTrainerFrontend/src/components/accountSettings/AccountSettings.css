@@ -1,0 +1,17 @@
+.settingsAccordion {
+  width: 85%;
+  overflow-y: auto;
+  max-height: 90%
+}
+.infoSettings {
+  padding: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .settingsAccordion {
+    width: 85% !important;
+    overflow-y: auto;
+    max-height: 100%
+  }
+}
