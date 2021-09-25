@@ -1,0 +1,957 @@
+,longitude,latitude,name,location
+0,-98.84565,27.77428,Homeland Security Check Station,Laredo Texas
+1,-99.39336,27.90539,Homeland Security Check Station,Laredo Texas
+2,-98.19172,28.54667,Weigh Station,Three Rivers Texas
+3,-98.19551,28.55786,Weigh Station,Three Rivers Texas
+4,-98.13804,27.02447,Homeland Security Check Station,South of Falfurrias Texas
+5,-97.80968,27.2895,Weigh Station,Riveria Texas
+6,-97.7038,28.32185,Weigh Station,US 181 Beeville Texas
+7,-97.68236,28.4637,Weigh Station,Beeville Texas
+8,-98.95321,29.09144,Weigh Station,Moore Texas
+9,-98.95288,29.09368,Weigh Station,Moore Texas
+10,-97.29542,28.28184,Weigh Station,US 77 Refugio Texas
+11,-97.25689,28.69134,Weigh Station,Fannin Texas
+12,-97.25681,28.69215,Weigh Station,Fannin Texas
+13,-96.78549,28.9076,Weigh Station,US 77 NB Inez Texas
+14,-96.74803,28.92757,Weigh Station,US 77 SB Inez Texas
+15,-97.89264,29.92396,Weigh Station,San Marcos Texas
+16,-97.87729,29.95533,Weigh Station,San Marcos Texas
+17,-96.06361,29.40781,Weigh Station,Hungerford Texas
+18,-96.0707,29.77299,Weigh Station,I-10 WB San Felipe Texas
+19,-96.01193,29.77644,Weigh Station,I-10 EB Brookshire Texas
+20,-95.49154,30.52337,Weigh Station,I-45 NB New Waverly Texas
+21,-95.99122,31.27992,Weigh Station,I-45 SB Centerville Texas
+22,-93.66452,30.14362,Weigh Station,Vinton Louisana
+23,-93.66411,30.14291,Weigh Station,Vinton Louisiana
+24,-102.5542,31.75475,Weigh Station,Odessa Texas
+25,-102.55306,31.75673,Weigh Station,Odessa Texas
+26,-93.68295,30.31319,Weigh Station,Starks Louisana
+27,-96.69463,32.62171,Weigh Station,Wilmer Texas
+28,-96.69359,32.62168,Weigh Station,Wilmer Texas
+29,-96.10774,32.6585,Weigh Station,Terrell Texas
+30,-96.10533,32.65858,Weigh Station,Terrell Texas
+31,-95.56016,32.49278,Weigh Station,Tyler Texas
+32,-95.55824,32.49279,Weigh Station,Tyler Texas
+33,-103.08975,32.72693,Weigh Station,Hobbs New Mexico
+34,-98.73915,33.97083,Weigh Station,Iowa Park Texas
+35,-98.74554,33.97135,Weigh Station,Iowa Park Texas
+36,-94.02321,32.45199,Weigh Station,Greenwood Louisiana
+37,-94.02109,32.45266,Weigh Station,Greenwood Louisiana
+38,-95.05022,33.15822,Weigh Station,Mount Pleasant Texas
+39,-95.0429,33.15879,Weigh Station,Mount Pleasant Texas
+40,-96.53561,33.8061,Weigh Station,US 75 Southbound
+41,-96.51207,33.86408,Weigh Station,Hwy 69 Southbound
+42,-96.51089,33.864,Weigh Station,Hwy 69 Northbound
+43,-104.27571,32.29864,Weigh Station,Carlsbad New Mexico
+44,-91.93872,30.28535,Weigh Station,Lafayette Louisiana
+45,-91.93847,30.28638,Weigh Station,Lafayette Louisiana
+46,-101.8522,33.87815,Weigh Station,Abernathy Texas
+47,-105.42984,31.19129,Weigh Station,Sierra Blanca Texas
+48,-94.15136,33.18573,Weigh Station,US 59 Northbound only Queen City Texas
+49,-100.24194,34.43919,Weigh Station,Hwy 287 North && South bound
+50,-95.51138,33.91581,Weigh Station,Hwy 271 Southbound
+51,-95.51049,33.91679,Weigh Station,Hwy 271 Northbound
+52,-97.15592,34.47607,Weigh Station,I-35 Northbound
+53,-97.15767,34.47666,Weigh Station,I-35 Southbound
+54,-94.03881,33.56032,Weigh Station,Ashdown Arkansas
+55,-93.6718,33.64939,Weigh Station,Fulton Arkansas
+56,-93.67156,33.65103,Weigh Station,Fulton Arkansas
+57,-99.76792,35.23573,Weigh Station,I-40 Eastbound
+58,-99.7677,35.23721,Weigh Station,I-40 Westbound
+59,-103.06056,34.38905,Weigh Station,Texico New Mexico
+60,-90.48235,30.10006,Weigh Station,LaPlace Louisiana
+61,-90.4807,30.10066,Weigh Station,LaPlace Louisiana
+62,-90.52154,30.47982,Weigh Station,Ponchatoula Louisana
+63,-90.52151,30.47986,Weigh Station,Ponchatoula Louisana
+64,-97.87664,35.50042,Weigh Station,I-40 Eastbound
+65,-97.87472,35.50162,Weigh Station,I-40 Westbound
+66,-90.52859,30.89391,Weigh Station,Tanipahoa Louisana
+67,-90.49952,31.0282,Weigh Station,Osyka Mississippi
+68,-106.60526,32.06516,Weigh Station,Las Crues New Mexico
+69,-95.78812,35.43667,Weigh Station,I-40 Eastbound
+70,-95.78991,35.43807,Weigh Station,I-40 Westbound
+71,-90.94787,32.31958,Weigh Station,Delta City Louisiana
+72,-90.94796,32.32049,Weigh Station,Delta City Louisana
+73,-103.30085,35.11167,Weigh Station,San Jon New Mexico
+74,-103.30102,35.11348,Weigh Station,San Jon New Mexico
+75,-90.79095,32.35205,Weigh Station,Vicksburg Mississippi
+76,-90.75395,32.35453,Weigh Station,Vicksburg Mississippi
+77,-94.73543,35.44147,Weigh Station,I-40 Westbound
+78,-107.12117,32.25022,Weigh Station,Las Cruses New Mexico
+79,-89.68125,30.47713,Weigh Station,Picayune Mississippi
+80,-89.68027,30.47641,Weigh Station,Picayune Mississippi
+81,-89.62451,30.30691,Weigh Station,Slidell Mississippi
+82,-89.62302,30.30889,Weigh Station,Slidell Mississippi
+83,-89.7842,30.78657,Weigh Station,Poplarville Mississippi
+84,-89.79651,31.0122,Weigh Station,Sandy Hook Mississippi
+85,-94.29594,35.46003,Weigh Station,Van Buren Arkansas
+86,-94.29386,35.4596,Weigh Station,Van Buren Arkansas
+87,-95.40248,35.86977,Roadside Check Station,HWY 69 NB Muskogee Oklahoma
+88,-95.40304,35.87285,Roadside Check Station,HWY 69 SB Muskogee Oklahoma
+89,-103.10619,35.60405,Weigh Station,Nara Vista New Mexico
+90,-91.12299,33.31233,Weigh Station,Greenville Mississippi
+91,-91.11607,33.32251,Weigh Station,Greenville Mississippi
+92,-105.1892,34.59308,Weigh Station,Vaughn New Mexico
+93,-97.34671,36.71855,Weigh Station,I-35 Southbound
+94,-97.345,36.71849,Weigh Station,I-35 Northbound
+95,-94.1876,36.1642,Weigh Station,Springdale Arkansas
+96,-94.17812,36.18304,Weigh Station,Springdale Arkansas
+97,-97.33672,37.02336,Weigh Station,I-35 Northbound
+98,-103.17424,36.43602,Weigh Station,Clayton New Mexico
+99,-100.82483,37.08892,Weigh Station,Hwy 54 East && west bond
+100,-102.49551,36.72937,Weigh Station,Hwy 287/412 All Directions
+101,-88.43647,30.46005,Weigh Station,Escatawpa Mississippi
+102,-106.89644,34.2859,Weigh Station,San Acacia New Mexico
+103,-106.89732,34.2861,Weigh Station,San Acacia New Mexico
+104,-88.40411,30.47346,Weigh Station,Escatawpa Mississippi
+105,-95.92747,37.00217,Weigh Station,Hwy 75 North && South bound
+106,-88.44724,30.88928,Weigh Station,Lucedale Mississippi
+107,-88.44568,30.88954,Weigh Station,Lucedale Mississippi
+108,-108.697,32.34173,Weigh Station,Lordsburg New Mexico
+109,-108.69784,32.34084,Weigh Station,Lordsburg New Mexico
+110,-94.56607,37.00628,Weigh Station,Joplin Missouri
+111,-94.56657,37.0068,Weigh Station,Joplin Missouri
+112,-109.51714,31.3841,Weigh Station,Douglas Arizona
+113,-109.17923,32.25672,Weigh Station,San Simon Arizona
+114,-109.17921,32.25782,Weigh Station,San Simon Arizona
+115,-94.70369,37.17841,Weigh Station,Hwy 69/400 All directions
+116,-109.06322,32.65639,Weigh Station,Duncan Arizona
+117,-88.43664,32.43822,Weigh Station,Meridian Missssippi
+118,-88.43562,32.43702,Weigh Station,Meridian Mississippi
+119,-109.94808,31.33421,Weigh Station,Naco Arizona
+120,-104.48342,36.98991,Weigh Station,Raton New Mexico
+121,-87.39701,30.56847,Weigh Station,Easley Florida
+122,-89.99053,34.8941,Weigh Station,Southaven Mississippi
+123,-89.99177,34.89625,Weigh Station,Southaven Mississippi
+124,-90.25001,35.15246,Weigh Station,West Memphis Arkansas
+125,-87.3627,30.5531,Weigh Station,Ensley Florida
+126,-87.36201,30.55397,Weigh Station,Ensley Florida
+127,-90.19993,35.19159,Weigh Station,West Memphis Arkansas
+128,-90.10376,35.14073,Weigh Station,West memphis Arkansas
+129,-90.08887,35.15342,Weigh Station,West Memphis Arkansas
+130,-89.84125,34.95151,Weigh Station,Olive Branch Mississippi
+131,-89.84072,34.95243,Weigh Station,Olive Branch Mississippi
+132,-104.52016,37.13648,Weigh Station,Trinidad Colorado
+133,-104.52141,37.13668,Weigh Station,Trinidad Colorado
+134,-102.6282,38.1141,Weigh Station,Lamar Colorado
+135,-102.6279,38.11518,Weigh Station,Lamar Colorado
+136,-92.01371,37.04892,Weigh Station,Sterling Missouri
+137,-92.01292,37.04909,Weigh Station,Sterling Missouri
+138,-109.29482,34.14751,Weigh Station,Springerville Arizona
+139,-88.38226,34.24409,Weigh Station,Tupelo Mississippi
+140,-88.38278,34.24587,Weigh Station,Tupelo Mississippi
+141,-110.94218,31.33293,Weigh Station,Nogales Arizona
+142,-89.30846,35.45585,Weigh Station,Hillville Tennessee
+143,-89.3022,35.46123,Weigh Station,Hillville Tennessee
+144,-89.87533,35.99641,Weigh Station,Blytheville Arkansas
+145,-89.7712,36.10968,Weigh Station,Steele Missouri
+146,-95.27003,38.78265,Weigh Station,Hwy 56 && 59 All directions
+147,-89.6432,36.1431,Weigh Station,Caruthersville Missouri
+148,-94.35053,38.62791,Weigh Station,Harrisonville Missouri
+149,-94.34987,38.62797,Weigh Station,Harrisonville Missouri
+150,-96.25167,39.06485,Weigh Station,I-70 Eastbound
+151,-96.25172,39.06578,Weigh Station,I-70 Westbound
+152,-108.90227,35.48508,Weigh Station,Gallup New Mexico
+153,-94.85007,38.83119,Weigh Station,I-35 North bound
+154,-94.85052,38.83168,Weigh Station,I-35 Southbound
+155,-109.32115,35.22298,Weigh Station,Chambers Arizona
+156,-109.32224,35.22363,Weigh Station,Chambers Arizona
+157,-111.5446,31.483,Weigh Station,Sasabe Arizona
+158,-94.14946,38.87021,Weigh Station,Lone Jack Missouri
+159,-94.15115,38.87146,Weigh Station,Lone Jack Missouri
+160,-94.74979,39.10659,Weigh Station,I-70 Westbound
+161,-102.0438,39.32925,Weigh Station,I-70 Eastbound
+162,-93.85354,39.00382,Weigh Station,Odessa Missouri
+163,-93.85157,39.00484,Weigh Station,Odessa Missouri
+164,-97.65272,39.79848,Weigh Station,Hwy 81 North && Southbound
+165,-88.89854,36.50632,Weigh Station,Fulton Kentucky
+166,-94.39888,39.31714,Weigh Station,Liberty Missouri
+167,-94.78922,39.4308,Weigh Station,Platte City Missouri
+168,-103.68549,39.27277,Weigh Station,Limon Colorado
+169,-103.68559,39.27367,Weigh Station,Limon Colorado
+170,-89.24918,36.98192,Weigh Station,Charlston Missouri
+171,-97.61445,40.0965,Weigh Station,Hwy 81 North && South bound
+172,-104.86368,39.10054,Weigh Station,Monument Colorado
+173,-104.8646,39.1005,Weigh Station,Monument Colorado
+174,-97.5824,40.1468,Weigh Station,Hwy 136 East && West bound
+175,-84.98305,30.63987,Weigh Station,Greensboro Florida
+176,-84.98275,30.63874,Weigh Station,Greensoro Florida
+177,-91.00907,38.33983,Weigh Station,Parkway Missouri
+178,-91.00718,38.33902,Weigh Station,Parkway Missouri
+179,-94.69537,39.74687,Weigh Station,St Joseph Missouri
+180,-94.69524,39.74801,Weigh Station,St Joseph Missouri
+181,-89.39583,37.44404,Weigh Station,Wolf Lake Illinois
+182,-109.0904,36.92284,Weigh Station,Teec Nos Pos Arizona
+183,-108.60795,37.31432,Weigh Station,Cortez Colorado
+184,-86.87972,35.34314,Weigh Station,Columbia Tennessee
+185,-90.39916,38.33696,Weigh Station,Barnhart Missouri
+186,-90.39841,38.33682,Weigh Station,Barnhart Missouri
+187,-112.81766,31.87981,Weigh Station,Lukeville Arizona
+188,-90.93879,38.81219,Weigh Station,Foristell Missouri
+189,-90.93605,38.81259,Weigh Station,Foristell Missouri
+190,-88.97832,37.63823,Weigh Station,Carbondale Illinois
+191,-88.97918,37.64191,Weigh Station,Carbondale Illinois
+192,-88.18417,37.06031,Weigh Station,Gilbersville Kentucky
+193,-88.18322,37.06189,Weigh Station,Gilbersville Kentucky
+194,-85.43922,33.64487,Weigh Station,Anniston Alabama
+195,-95.6281,40.54951,Weigh Station,Watson Missouri
+196,-95.62826,40.55141,Weigh Station,Watson Missouri
+197,-84.91645,33.08395,Weigh Station,LaGrange Georgia
+198,-95.94467,40.6746,Weigh Station,Hwy 2 East && West bound
+199,-84.91485,33.08766,Weigh Station,LaGrange Georgia
+200,-89.9,38.57484,Weigh Station,OFallon Illinois
+201,-103.89832,40.24432,Weigh Station,Fort Morgan Colorado
+202,-103.89899,40.24539,Weigh Station,Fort Morgan Colorado
+203,-95.79529,40.70726,Weigh Station,Percival Iowa
+204,-89.97985,38.70404,Weigh Station,Collinsville Illinois
+205,-85.08589,33.69635,Weigh Station,Temple Georgia
+206,-105.61086,39.76489,Weigh Station,Dumont Colorado
+207,-96.50841,40.92646,Weigh Station,Hwy 6 East &&&&&&&& West bound
+208,-96.46052,40.92226,Weigh Station,I-80 Eastbound
+209,-96.46029,40.92358,Weigh Station,I-80 Westbound
+210,-86.03136,35.43309,Weigh Station,Hillsboro Tennessee
+211,-104.82094,40.1937,Weigh Station,Fort Vasquez Colorado
+212,-93.96204,40.52163,Weigh Station,Blythedale Missouri
+213,-93.96038,40.52271,Weigh Station,Blythedale Missouri
+214,-109.30781,37.87306,Weigh Station,Monticello Utah
+215,-100.69035,41.09981,Weigh Station,I-80 Westbound
+216,-100.69617,41.09978,Weigh Station,I-80 Eastbound
+217,-100.70465,41.13359,Weigh Station,Hwy 30 East && West bound
+218,-95.92478,41.05161,Weigh Station,Hwy 75 North && South bound
+219,-96.60159,41.2339,Weigh Station,Hwy 77 && 92 all Directions
+220,-84.6303,33.77272,Weigh Station,Lithin Springs Georgia
+221,-86.58181,36.60915,Weigh Station,Hendersonville Tennessee
+222,-86.58006,36.60986,Weigh Station,Hendersonville Tennessee
+223,-86.5369,36.68639,Weigh Station,Franklin Kentucky
+224,-85.05279,34.8809,Weigh Station,Dalton Georgia
+225,-85.04834,34.87938,Weigh Station,Dalton Georgia
+226,-105.00041,40.55659,Weigh Station,Fort Collins Colorado
+227,-105.00124,40.55656,Weigh Station,Fort Collins Colorado
+228,-88.06276,38.16061,Weigh Station,Crossville Indiana
+229,-89.64373,39.22704,Weigh Station,Litchfield Illinois
+230,-83.36566,30.91807,Weigh Station,Valdosta Georgia
+231,-83.36441,30.918,Weigh Station,Valdosta Georgia
+232,-83.27259,30.37338,Weigh Station,Madison Florida
+233,-83.2725,30.37343,Weigh Station,Tallahassee Florida
+234,-83.27231,30.37462,Weigh Station,Madison Florida
+235,-83.97361,33.06914,Weigh Station,Forsyth Georgia
+236,-83.97336,33.07038,Weigh Station,Forsyth Georgia
+237,-84.75615,34.73443,Weigh Station,Chatsworth Georgia
+238,-88.93675,38.98783,Weigh Station,Brownstown Illinois
+239,-83.15401,30.34884,Weigh Station,Live Oak Florida
+240,-83.15352,30.34964,Weigh Station,Live Oak Florida
+241,-95.91848,41.51861,Weigh Station,Missouri Valley Iowa
+242,-103.70401,41.2091,Weigh Station,I-80 Eastbound
+243,-111.49875,36.95132,Weigh Station,Page Arizona
+244,-82.92893,29.59102,Weigh Station,Fanning Springs Florida
+245,-108.81967,39.17808,Weigh Station,Loma Colorado
+246,-108.82511,39.18099,Weigh Station,Loma Colorado
+247,-82.90287,30.42148,Weigh Station,Lake City Florida
+248,-82.8985,30.418,Weigh Station,Lake City Florida
+249,-82.87043,30.38209,Weigh Station,Lake City Florida
+250,-104.85369,41.08181,Weigh Station,Cheyenne Wyoming
+251,-82.86968,30.38272,Weigh Station,Lake City Florida
+252,-104.63321,41.15914,Weigh Station,Cheyenne Wyoming
+253,-114.36519,32.65968,Weigh Station,Yuma Arizona
+254,-93.91539,41.55468,Weigh Station,Des Moines Iowa
+255,-89.57267,39.92983,Weigh Station,Knollwood Illinois
+256,-114.61046,32.70976,Weigh Station,Yuma Arizona
+257,-114.61242,32.71345,Weigh Station,Yuma Arizona
+258,-114.78229,32.4849,Weigh Station,San Luis Arizona
+259,-98.45511,42.33473,Weigh Station,Hwy 20/275 All Directions
+260,-114.74154,32.74656,Weigh Station,Winterhaven California
+261,-114.7416,32.74738,Weigh Station,Winterhaven California
+262,-105.59127,41.28331,Weigh Station,Laramie Wyoming
+263,-93.33443,41.68242,Weigh Station,Mitchellville Iowa
+264,-114.47025,33.61324,Weigh Station,Ehrenburg Arizona
+265,-114.47086,33.61416,Weigh Station,Ehrenburg Arizona
+266,-96.28362,42.28891,Weigh Station,Salix Iowa
+267,-96.28794,42.29019,Weigh Station,Salix Iowa
+268,-114.53584,33.60621,Weigh Station,Blythe California
+269,-114.29453,34.15594,Weigh Station,Parker Arizona
+270,-85.85687,37.65359,Weigh Station,Elizabethtown Kentucky
+271,-85.85532,37.65298,Weigh Station,Elizabethtown Kentucky
+272,-82.14392,28.99295,Weigh Station,Ocala Florida
+273,-82.16516,28.02675,Weigh Station,Plant City Florida
+274,-82.16506,28.02743,Weigh Station,Plant City Florida
+275,-82.14283,28.99341,Weigh Station,Ocala Florida
+276,-112.52726,36.95997,Weigh Station,Fredonia Arizona
+277,-97.09296,42.46671,Weigh Station,Hwy 15 && 20 All directions
+278,-82.1139,27.93763,Weigh Station,Brandon Florida
+279,-93.57106,41.91978,Weigh Station,Ames Iowa
+280,-93.56934,41.92288,Weigh Station,Ames Iowa
+281,-112.53966,37.08532,Weigh Station,Kanab Utah
+282,-84.19906,35.89324,Weigh Station,Knoxville Tennessee
+283,-84.19567,35.89309,Weigh Station,Knoxville Tennessee
+284,-82.04868,28.02876,Weigh Station,Plant City Florida
+285,-114.74106,33.60965,Weigh Station,Blythe California
+286,-96.50055,42.54117,Weigh Station,I-29 North bound
+287,-87.61861,39.42587,Weigh Station,Livingston Illinois
+288,-83.17907,34.41516,Weigh Station,Lavonia Georgia
+289,-104.21553,42.07741,Weigh Station,Torrington Wyoming
+290,-83.15641,34.42686,Weigh Station,Lavonia Georgia
+291,-87.52823,39.43667,Weigh Station,Terre Haute Indiana
+292,-114.12321,35.2196,Weigh Station,Kingman Arizona
+293,-96.62975,42.64644,Weigh Station,I-29 North bound
+294,-81.98572,26.87908,Weigh Station,Fort Meyers Florida
+295,-81.98489,26.87983,Weigh Station,Fort Meyers Florida
+296,-114.42058,34.72338,Weigh Station,Topock Arizona
+297,-114.42072,34.72438,Weigh Station,Topock Arizona
+298,-95.15083,42.47838,Weigh Station,Early Iowa
+299,-81.95434,30.74338,Weigh Station,Hilliard Florida
+300,-89.10743,40.55746,Weigh Station,Carlock Illinois
+301,-89.10312,40.55582,Weigh Station,Carlock Illinois
+302,-115.38507,32.68079,Weigh Station,Calexco California
+303,-114.56543,34.75261,Weigh Station,Topcock California
+304,-114.56586,34.75199,Weigh Station,Topcock California
+305,-82.87361,34.51662,Weigh Station,Anderson South Carolina
+306,-81.58647,29.62379,Weigh Station,San Mateo Florida
+307,-81.66798,30.66851,Weigh Station,Kingsland Florida
+308,-81.66706,30.66961,Weigh Station,Kingsland Florida
+309,-81.66213,30.69942,Weigh Station,Kingsland Florida
+310,-81.6638,30.72728,Weigh Station,Kingsland Florida
+311,-81.66316,30.72603,Weigh Station,Kingsland Florida
+312,-90.46949,41.45365,Weigh Station,Rock Island ILLinois
+313,-90.43317,41.45444,Weigh Station,Rock Island ILLinois
+314,-97.39984,43.08218,Weigh Station,Hwy 46/81
+315,-82.23715,33.48713,Weigh Station,Martinez Georgia
+316,-82.23282,33.48778,Weigh Station,Martinez Georgia
+317,-90.34247,41.55611,Weigh Station,Moline Illinois
+318,-90.34253,41.55926,Weigh Station,Moline Illinois
+319,-85.15495,38.1707,Weigh Station,Frankfort Kentucky
+320,-113.61345,37.01304,Weigh Station,St George Utah
+321,-113.61675,37.01231,Weigh Station,St George Utah
+322,-84.09657,37.04234,Weigh Station,London Kentucky
+323,-84.09957,37.0472,Weigh Station,London Kentucky
+324,-81.26873,29.55981,Weigh Station,Bunnell Florida
+325,-110.86798,39.71795,Weigh Station,Helper Utah
+326,-81.44839,31.47816,Weigh Station,Darien Georgia
+327,-81.44671,31.47735,Weigh Station,Darien Georgia
+328,-81.19737,29.50993,Weigh Station,Bunnell Florida
+329,-81.19682,29.5117,Weigh Station,Bunnell Florida
+330,-100.0207,43.38596,Weigh Station,Hwy 18/183
+331,-104.45253,42.75545,Weigh Station,Lusk Wyoming
+332,-85.21224,38.54434,Weigh Station,Campbellsburg Kentucky
+333,-85.21102,38.54377,Weigh Station,Campbellsburg Kentucky
+334,-81.44404,32.16975,Weigh Station,Pooler Georgia
+335,-81.44315,32.16757,Weigh Station,Pooler Georgia
+336,-82.70123,35.55437,Weigh Station,Hominy North Carolina
+337,-82.6969,35.55428,Weigh Station,Hominy North Carolina
+338,-83.07095,36.21409,Weigh Station,Morristown Tennessee
+339,-82.48053,35.37819,Weigh Station,Mountain Home North Carolina
+340,-82.48014,35.37892,Weigh Station,Mountain Home North Carolina
+341,-84.55807,38.29388,Weigh Station,Lexington Kentucky
+342,-81.17229,32.21938,Weigh Station,Savannah Georgia
+343,-98.04574,43.69624,Weigh Station,Bus I-90
+344,-96.46151,43.60947,Weigh Station,I-90 West bound
+345,-81.48948,33.77926,Weigh Station,Columbia South Carolina
+346,-114.91864,36.33615,Weigh Station,Las Vegas Nevada
+347,-115.19481,35.92679,Weigh Station,Las Vegas Nevada
+348,-95.54589,43.63709,Weigh Station,Worthington Minnesota
+349,-89.08153,41.75988,Weigh Station,DeKalb Illinois
+350,-90.61943,42.52167,Weigh Station,East Dubuque Illinois
+351,-84.60192,38.81914,Weigh Station,Crittenden Kentucky
+352,-84.64792,38.86478,Weigh Station,Walton Kentucky
+353,-81.47641,34.24535,Weigh Station,Newberry South Carolina
+354,-93.35088,43.40316,Weigh Station,SilverLake Iowa
+355,-93.34835,43.40322,Weigh Station,Silverlake Iowa
+356,-81.26888,33.93919,Weigh Station,Columbia South Carolina
+357,-87.803,41.36134,Weigh Station,Peotone Illinois
+358,-87.79992,41.36575,Weigh Station,Peotone Illinois
+359,-81.28387,34.16393,Weigh Station,Chapin South Carolina
+360,-80.57812,26.14588,Weigh Station,Pembroke Pines Florida
+361,-80.57283,26.14677,Weigh Station,Pembroke Pines Florida
+362,-111.38101,40.46239,Weigh Station,Heber City Utah
+363,-84.83118,39.27969,Weigh Station,West Harrison Indiana
+364,-84.78439,39.24805,Weigh Station,Harrison Ohio
+365,-87.90158,41.55165,Weigh Station,Orland Park Illinois
+366,-88.09368,41.67231,Weigh Station,Bolingbrook Illinois
+367,-88.09029,41.67244,Weigh Station,Bolingbrook Illinois
+368,-87.82002,41.55118,Weigh Station,Tinley Park Illinois
+369,-87.30173,41.30463,Weigh Station,Crown Point Indiana
+370,-87.55461,41.50703,Weigh Station,Lynwood Illinois
+371,-116.83779,33.93026,Weigh Station,Banning California
+372,-103.19276,44.03757,Weigh Station,Hwy 79
+373,-83.3483,38.27662,Weigh Station,Upper Tygart Kentucky
+374,-84.94524,39.86495,Weigh Station,Richmond Indiana
+375,-98.49939,44.45917,Weigh Station,Hwy 281 && 14 All Directions
+376,-117.13543,33.44722,Weigh Station,Rainbow California
+377,-117.14823,33.42988,Weigh Station,Rainbow California
+378,-80.48766,33.26916,Weigh Station,Harleyville South Carolina
+379,-80.47606,33.26031,Weigh Station,Harleyville South Carolina
+380,-84.80212,39.82809,Weigh Station,New Paris Indiana
+381,-111.24621,41.08107,Weigh Station,Coalville Utah
+382,-111.40291,40.98972,Weigh Station,Coalville Utah
+383,-100.06779,44.50254,Weigh Station,Hwy 34/14/83
+384,-111.03938,41.24583,Weigh Station,Estavan Wyoming
+385,-80.96986,35.01576,Weigh Station,Rock Hill South Carolina
+386,-88.60293,42.45382,Weigh Station,Harvard Illinois
+387,-116.79268,34.9139,Weigh Station,Barstow California
+388,-80.94149,35.07966,Weigh Station,Forest Lake South Carolina
+389,-86.99713,41.64058,Weigh Station,Chesterton Indiana
+390,-86.99805,41.64141,Weigh Station,Chesterton Indiana
+391,-81.00702,35.25758,Weigh Station,Belmont North Carolina
+392,-81.00717,35.25866,Weigh Station,Belmont North Carolina
+393,-103.43744,44.31818,Weigh Station,Rapid City South Dakota
+394,-110.57679,41.79179,Weigh Station,Kemmerer Wyoming
+395,-117.52408,33.3522,Weigh Station,Asra California
+396,-117.5248,33.35146,Weigh Station,Asra California
+397,-89.47414,43.01167,Weigh Station,Fitchburg Wisconsin
+398,-88.3087,42.49174,Weigh Station,Richmond Illinois
+399,-85.40829,40.74589,Weigh Station,Markle Indiana
+400,-85.4086,40.74693,Weigh Station,Markle Indiana
+401,-83.8764,39.50782,Weigh Station,Mason Ohio
+402,-81.02094,35.76395,Weigh Station,Statesville North Carolina
+403,-81.01205,35.7679,Weigh Station,Statesville North Carolina
+404,-89.22461,43.00818,Weigh Station,McFarland Wisconsin
+405,-83.79551,39.53366,Weigh Station,Mason Ohio
+406,-86.71835,41.78466,Weigh Station,New Buffalo Michigan
+407,-86.71826,41.7868,Weigh Station,New Buffalo Michigan
+408,-117.46656,34.30585,Weigh Station,Cosy Dell California
+409,-117.46738,34.30526,Weigh Station,Cosy Dell California
+410,-104.34231,44.41329,Weigh Station,Sundance Wyoming
+411,-91.71471,44.06461,Weigh Station,Goodview Minnesota
+412,-105.47087,44.28933,Weigh Station,Gillette Wyoming
+413,-101.57103,45.05289,Weigh Station,Dupree South Dakota
+414,-112.05619,41.43964,Weigh Station,Willard Utah
+415,-112.05755,41.44016,Weigh Station,Perry Utah
+416,-84.69103,40.92843,Weigh Station,Convoy Ohio
+417,-90.39481,43.96966,Weigh Station,Oakdale Wisconsin
+418,-81.12723,37.0858,Weigh Station,Bland Virginia
+419,-81.12578,37.08583,Weigh Station,Bland Virginia
+420,-96.51116,45.26998,Weigh Station,Millbank South Dakota
+421,-80.7481,36.52533,Weigh Station,Toast North Carolina
+422,-80.74835,36.52957,Weigh Station,Toast North Carolina
+423,-81.95715,38.45832,Weigh Station,Mt Vernon West Virginia
+424,-81.95449,38.45712,Weigh Station,Mt Vernon West Virginia
+425,-92.78933,44.95809,Weigh Station,Lakeland Minnesota
+426,-92.61041,44.95997,Weigh Station,Roberts Wisconsin
+427,-89.53471,44.07766,Weigh Station,Coloma Wisconsin
+428,-113.99065,40.7447,Weigh Station,Wendover Utah
+429,-113.98976,40.74554,Weigh Station,Wendover Utah
+430,-93.50317,45.24698,Weigh Station,Ramsey Minnesota
+431,-96.96475,45.70128,Weigh Station,I-29 South bound
+432,-91.79912,44.90486,Weigh Station,Menominee Wisconsin
+433,-118.23614,35.11327,Weigh Station,Mojave California
+434,-93.02955,45.2316,Weigh Station,Centerville Minnesota
+435,-93.02724,45.23398,Weigh Station,Centerville Minnesota
+436,-84.98993,41.87742,Weigh Station,Coldwater Michigan
+437,-82.92798,40.25151,Weigh Station,Westerville Ohio
+438,-118.59292,34.43583,Weigh Station,Santa Clarita California
+439,-87.94041,43.66689,Weigh Station,Waldo Wisconsin
+440,-98.52835,45.93383,Weigh Station,South Dakota
+441,-103.54522,45.55869,Weigh Station,Hwy 85 and Hwy 20 all directions
+442,-83.66059,41.10228,Weigh Station,Findlay Ohio
+443,-98.52635,46.01407,Weigh Station,Ellendale North Dakota
+444,-111.02409,43.17938,Weigh Station,Alpine Wyoming
+445,-78.99872,34.7067,Weigh Station,Lumberton North Carolina
+446,-78.99723,34.70623,Weigh Station,Lumberton North Carolina
+447,-107.00655,44.88499,Weigh Station,Sheridan Wyoming
+448,-107.00489,44.88562,Weigh Station,Sheridan Wyoming
+449,-81.53708,39.17164,Weigh Station,Parkersburg West Virginia
+450,-81.53777,39.17316,Weigh Station,Parkersburg West Virginia
+451,-102.17601,45.93428,Weigh Station,Lemmon South Dakota
+452,-118.57641,35.23581,Weigh Station,Keene California
+453,-118.95638,34.20037,Weigh Station,Thousand Oaks California
+454,-118.95716,34.19859,Weigh Station,Thousand Oaks California
+455,-83.63455,41.29041,Weigh Station,Bowling Green Ohio
+456,-105.39632,45.4218,Weigh Station,Broadus Montana
+457,-87.73622,43.9712,Weigh Station,Clevland Wisconsin
+458,-79.92547,37.35923,Weigh Station,Cloverdale Virginia
+459,-112.29006,42.79972,Weigh Station,Pocatello Idaho
+460,-112.29019,42.80073,Weigh Station,Pocatello Idaho
+461,-118.938,34.96068,Weigh Station,Lebec California
+462,-79.9175,37.36972,Weigh Station,Cloverdale Virinia
+463,-79.91771,37.37132,Weigh Station,Cloverdale Virginia
+464,-79.20733,36.07677,Weigh Station,Mebane North Carolina
+465,-79.20781,36.07835,Weigh Station,Mebane North Carolina
+466,-79.88311,37.34784,Weigh Station,Cloverdale Virginia
+467,-79.88243,37.34807,Weigh Station,Cloverdale Virginia
+468,-96.83217,46.28747,Weigh Station,I-29 North and South bound
+469,-84.2206,42.05891,Weigh Station,Cambridge Junction Michigan
+470,-88.20011,44.34096,Weigh Station,Wrightstown Wisconsin
+471,-81.66954,39.99531,Weigh Station,Zanesville Ohio
+472,-103.4089,46.17804,Weigh Station,Bowman North Dakota
+473,-84.17808,42.29282,Weigh Station,Sylvan Center Michigan
+474,-84.17832,42.29398,Weigh Station,Sylvan Center Michigan
+475,-85.03497,42.87831,Weigh Station,Portland Michigan
+476,-85.03607,42.87968,Weigh Station,Portland Michigan
+477,-83.43151,41.82664,Weigh Station,Luna Pier Michigan
+478,-83.43213,41.8276,Weigh Station,Luna Pier Michigan
+479,-108.62101,44.97041,Weigh Station,Frannie Wyoming
+480,-113.40799,42.50455,Weigh Station,Cotterel Idaho
+481,-113.40874,42.50419,Weigh Station,Cotterel Idaho
+482,-88.0516,44.74244,Weigh Station,Sobieski Wisconsin
+483,-115.6451,40.94255,Weigh Station,Coin Nevada
+484,-115.64625,40.943,Weigh Station,Coin Nevada
+485,-84.12918,42.65028,Weigh Station,Webberville Michigan
+486,-84.12922,42.65156,Weigh Station,Webberville Michigan
+487,-107.4595,45.59061,Weigh Station,Crow Agency Montana
+488,-96.67721,46.84604,Weigh Station,Dillworth/Moorhead Minnesota
+489,-96.98942,46.87815,Weigh Station,West Fargo North Dakota
+490,-96.73992,46.87611,Weigh Station,Dillworth/Moorhead Minnesota
+491,-79.07584,37.44146,Weigh Station,Wrights Shop Virginia
+492,-81.46676,40.62379,Weigh Station,Canton Ohio
+493,-81.46502,40.6268,Weigh Station,Canton Ohio
+494,-81.80416,41.03136,Weigh Station,Seville Ohio
+495,-81.80178,41.03248,Weigh Station,Seville Ohio
+496,-112.18597,43.81513,Weigh Station,Sage Junction Idaho
+497,-112.18895,43.8177,Weigh Station,Sage Junction Idaho
+498,-114.5744,42.34089,Weigh Station,Hollister Idaho
+499,-80.68012,40.05615,Weigh Station,Wheeling West Virginia
+500,-80.67789,40.0554,Weigh Station,Wheeling West Virginia
+501,-82.84636,42.23916,Weigh Station,Essex Ontario
+502,-106.59564,46.26606,Weigh Station,Forsyth Montana
+503,-106.59561,46.26676,Weigh Station,Forsyth Montana
+504,-80.06613,39.51252,Weigh Station,Hopewell West Virginia
+505,-80.06559,39.51189,Weigh Station,Hopewell West Virginia
+506,-83.32996,42.70741,Weigh Station,Clarkston Michigan
+507,-83.32922,42.70833,Weigh Station,Clarkston Michigan
+508,-108.68502,45.69174,Weigh Station,Laurel Montana
+509,-108.68649,45.69181,Weigh Station,Laurel Montana
+510,-92.47082,46.67209,Weigh Station,Carlton Minnesota
+511,-92.47206,46.67265,Weigh Station,Carlton Minnesota
+512,-80.44164,40.11573,Weigh Station,Claysville Pennsylvania
+513,-104.02749,46.93095,Weigh Station,Beach North Dakota
+514,-91.93326,46.61451,Weigh Station,South Range Wisconsin
+515,-77.78587,36.14884,Weigh Station,Whitakers North Carolina
+516,-77.78499,36.14745,Weigh Station,Whitakers North Carolina
+517,-104.21952,47.00103,Weigh Station,Wibaux Montana
+518,-104.21919,47.00139,Weigh Station,Wibaux Montana
+519,-80.20676,40.12184,Weigh Station,Washington Pennsylvania
+520,-92.46134,46.84378,Weigh Station,Grand Lake Minnesota
+521,-105.01811,46.89816,Weigh Station,Fallon Montana
+522,-79.77608,39.65761,Weigh Station,Cheat lake West Virginia
+523,-77.98566,36.80334,Weigh Station,Brodnax Virginia
+524,-77.98465,36.80228,Weigh Station,Brodnax Virginia
+525,-82.79091,42.69496,Weigh Station,New Baltimore Michigan
+526,-82.79009,42.69433,Weigh Station,New Baltimore Michigan
+527,-95.98192,47.66302,Weigh Station,Erskine Minnesota
+528,-87.52007,45.69285,Weigh Station,Powers Michigan
+529,-80.61214,41.16328,Weigh Station,Hubbard Ohio
+530,-112.60227,44.6474,Weigh Station,Lima Montana
+531,-82.43786,42.99869,Weigh Station,Port Huron Michigan
+532,-78.96039,39.66348,Weigh Station,Cumberland Maryland
+533,-77.37278,37.06464,Weigh Station,Templeton Virginia
+534,-77.37144,37.06438,Weigh Station,Templeton Virginia
+535,-120.29768,37.15952,Weigh Station,Chowchilla California
+536,-82.17297,42.99153,Weigh Station,Sarnia Ontario
+537,-111.18543,45.67095,Weigh Station,Bozeman Montana
+538,-78.25283,39.0524,Weigh Station,Middletown Virginia
+539,-78.24715,39.04883,Weigh Station,Middletown Virginia
+540,-78.24624,39.04775,Weigh Station,Middletown Virginia
+541,-80.54719,41.92436,Weigh Station,Conneaut Ohio
+542,-77.23285,37.51433,Weigh Station,Highland Springs Virginia
+543,-77.23315,37.51505,Weigh Station,Highland Springs Virginia
+544,-103.72469,48.14075,Weigh Station,Williston North Dakota
+545,-79.50179,41.19726,Weigh Station,Mechanicsville Pennsylvania
+546,-79.49753,41.19714,Weigh Station,Mechanicsville Pennsylvania
+547,-76.34819,36.23075,Weigh Station,Parkville North Carolina
+548,-119.5738,39.55001,Weigh Station,Sparks/Reno Nevada
+549,-121.03073,37.12667,Weigh Station,Los Banos California
+550,-121.03081,37.12839,Weigh Station,Los Banos California
+551,-76.48502,36.76454,Weigh Station,Suffolk Virginia
+552,-76.48454,36.76373,Weigh Station,Suffolk Virginia
+553,-77.62654,38.97049,Weigh Station,Middleburg Virginia
+554,-116.05656,43.43218,Weigh Station,Boise Idaho
+555,-116.05786,43.43125,Weigh Station,Boise Idaho
+556,-77.31581,38.59648,Weigh Station,Dumfries Virginia
+557,-77.31451,38.59611,Weigh Station,Dumfries Virginia
+558,-80.96813,42.97281,Weigh Station,London Ontario
+559,-80.96825,42.9734,Weigh Station,London Ontario
+560,-77.03161,38.35701,Weigh Station,King George Virginia
+561,-77.03169,38.35745,Weigh Station,King George Virginia
+562,-97.23562,48.8042,Weigh Station,I-29 && Hwy 5 All directions
+563,-120.13687,39.36093,Weigh Station,Truckee California
+564,-120.63338,38.74332,Weigh Station,Camino California
+565,-77.70105,39.8198,Weigh Station,Greencastle Pennsylvania
+566,-77.31074,39.26174,Weigh Station,Clarksburg Maryland
+567,-112.60912,46.00714,Weigh Station,Butte Montana
+568,-112.61268,46.0063,Weigh Station,Butte Montana
+569,-77.30985,39.26366,Weigh Station,Clarksburg Maryland
+570,-121.57703,37.03979,Weigh Station,Gilroy California
+571,-84.72428,45.84823,Weigh Station,St. Ignace Michigan
+572,-84.72314,45.84832,Weigh Station,St Ignace Michigan
+573,-77.68336,39.86718,Weigh Station,Greencastle Pennsylvania
+574,-121.59039,37.0743,Weigh Station,Gilroy California
+575,-97.24074,49.01403,Weigh Station,Emerson Manitoba
+576,-97.24842,49.0152,Weigh Station,Emerson Manitoba
+577,-116.19082,43.92721,Weigh Station,Horseshoe Bend Idaho
+578,-77.23801,39.37634,Weigh Station,Bartholow Marland
+579,-116.85151,43.54477,Weigh Station,Marsing Idaho
+580,-76.98012,39.31822,Weigh Station,Villa Monticello Maryland
+581,-117.85176,42.7758,Weigh Station,Burn Junction Oregon
+582,-121.71286,37.71427,Weigh Station,Livermore California
+583,-121.71351,37.71296,Weigh Station,Livermore California
+584,-121.31698,38.70002,Weigh Station,Citrus Heights California
+585,-121.8973,37.56606,Weigh Station,Freemont California
+586,-121.32091,38.69828,Weigh Station,Citrus Heights California
+587,-103.0674,49.18687,Weigh Station,Estevan Saskatchewan
+588,-121.95721,37.49993,Weigh Station,Snoboy California
+589,-121.95874,37.49977,Weigh Station,Snoboy California
+590,-110.8962,47.34976,Weigh Station,Armington Junction Montana
+591,-89.45132,48.38039,Weigh Station,Thunder Bay Ontario
+592,-79.65242,43.22053,Weigh Station,Stoney Crek Ontario
+593,-76.64317,39.69322,Weigh Station,Freeland Maryland
+594,-117.1912,43.98111,Weigh Station,Vale Oregon
+595,-122.06026,37.92564,Weigh Station,Waldon California
+596,-122.06086,37.92942,Weigh Station,Waldon California
+597,-97.13408,49.69603,Weigh Station,St Adolphe Manitoba
+598,-120.96404,40.01311,Weigh Station,Keddie California
+599,-79.7149,43.43387,Weigh Station,Oakville Ontario
+600,-79.71288,43.43456,Weigh Station,Oakville Ontario
+601,-76.80668,40.14005,Weigh Station,Newberrytown Pennsylvania
+602,-79.84516,43.55636,Weigh Station,Hornby Ontario
+603,-79.84578,43.55728,Weigh Station,Hornby Ontario
+604,-89.37207,48.49104,Weigh Station,Thunder Bay Ontario
+605,-79.41977,43.18784,Weigh Station,Lincoln Ontario
+606,-113.2022,46.69128,Weigh Station,Drummond Montana
+607,-113.20164,46.69182,Weigh Station,Drummond Montana
+608,-122.11665,38.22908,Weigh Station,Fairfield California
+609,-122.1172,38.22947,Weigh Station,Fairfield California
+610,-84.3225,46.65681,Weigh Station,Sault Ste Marie Ontario
+611,-78.95544,42.91402,Weigh Station,Fort Erie Ontario
+612,-79.89567,43.78587,Weigh Station,Caledon Ontario
+613,-100.16999,49.8429,Weigh Station,Hwy 1 Westbound
+614,-100.1699,49.84296,Weigh Station,Brandon Manitoba
+615,-117.20716,44.27543,Weigh Station,Huntington Oregon
+616,-117.22241,44.2918,Weigh Station,Huntington Oregon
+617,-97.41654,49.87742,Weigh Station,Headinley Manitoba
+618,-95.16883,49.73802,Weigh Station,West Hawk Lake Manitoba
+619,-94.94891,49.72433,Weigh Station,Keewatin Ontario
+620,-76.67657,40.37321,Weigh Station,Grantville Pennsylvania
+621,-76.67719,40.3755,Weigh Station,Grantvile Pennsylvania
+622,-77.15891,41.05167,Weigh Station,Loganville Pennsylvania
+623,-100.99984,49.88742,Weigh Station,Virden Manitoba
+624,-100.99966,49.88744,Weigh Station,Saskatchewan
+625,-77.15238,41.04958,Weigh Station,Loganville Pennsylvania
+626,-76.07718,39.58712,Weigh Station,Belvedere Maryland
+627,-76.07298,39.58676,Weigh Station,Belvedere Maryland
+628,-122.54137,38.01368,Weigh Station,Fairfield California
+629,-122.53805,38.02827,Weigh Station,Fairfield California
+630,-113.36943,47.00277,Weigh Station,Greenough Montana
+631,-79.57057,43.94124,Weigh Station,Aurora Ontario
+632,-79.58439,43.99504,Weigh Station,Pottageville Ontario
+633,-109.74764,48.55461,Weigh Station,Havre Montana
+634,-101.56855,50.10321,Weigh Station,Hwy 1 East &&&&&&&& West bound
+635,-75.65177,39.36551,Weigh Station,Symrna Delaware
+636,-82.57537,46.21233,Weigh Station,Spragge Ontario
+637,-93.36611,49.85401,Weigh Station,Vermillion Ontario
+638,-92.79488,49.78552,Weigh Station,Dryden Ontario
+639,-99.95692,50.28047,Weigh Station,Minnedosa Manitoba
+640,-99.96078,50.28225,Weigh Station,New Dale/Minnedsa Saskatchewan
+641,-114.18691,46.99045,Weigh Station,Frenchtown Montana
+642,-114.18624,46.99086,Weigh Station,Frenchtown Montana
+643,-119.03226,43.60899,Weigh Station,Burn Oregon
+644,-88.3352,48.96469,Weigh Station,Red Rock Ontario
+645,-78.89552,43.87086,Weigh Station,Whitby Ontario
+646,-78.89497,43.87092,Weigh Station,Oshawa Ontario
+647,-75.45865,39.70103,Weigh Station,Carneys Point New Jersey
+648,-117.83521,44.74227,Weigh Station,Baker City Oregon
+649,-76.25134,41.00775,Weigh Station,Lime Ridge Pennsylvania
+650,-76.24844,41.00936,Weigh Station,Lime Ridge Pennsylvania
+651,-76.08891,40.81819,Weigh Station,New Boston Pennsylvania
+652,-76.08711,40.8213,Weigh Station,New Boston Pennsylvania
+653,-78.65898,43.9008,Weigh Station,Clarington Ontario
+654,-75.96018,41.10204,Weigh Station,Dorrance Pennsylvania
+655,-122.28126,40.35212,Weigh Station,Cottonwood California
+656,-122.28429,40.35663,Weigh Station,Cottonwood California
+657,-104.72614,50.39626,Weigh Station,Hwy 1 Eastbound
+658,-79.35133,44.88864,Weigh Station,Gravenhurst Ontario
+659,-118.97577,44.42039,Weigh Station,John Day Oregon
+660,-118.97622,44.42017,Weigh Station,John Day Oregon
+661,-104.66393,50.52735,Weigh Station,Hwy 11
+662,-118.13228,45.34462,Weigh Station,LaGrande Oregon
+663,-80.80584,46.2697,Weigh Station,Estaire Ontario
+664,-80.80618,46.27019,Weigh Station,Estaire Ontario
+665,-122.57567,40.64654,Weigh Station,Redding California
+666,-75.08752,40.66456,Weigh Station,Bloomsbury New Jersey
+667,-75.08417,40.66251,Weigh Station,Bloomsbury New Jersey
+668,-123.35773,39.43667,Weigh Station,Willits California
+669,-122.28028,41.27047,Weigh Station,Dunsmuir California
+670,-120.85439,43.1092,Weigh Station,Silver Lake Oregon
+671,-75.11561,40.95347,Weigh Station,Slateford Pennsylvania
+672,-115.42313,47.39366,Weigh Station,Haugan Montana
+673,-111.97599,49.00557,Weigh Station,Coutts Alberta
+674,-107.96591,50.28062,Weigh Station,Hwy 1 East &&&&&&&& West bound
+675,-75.22146,41.35639,Weigh Station,Blooming Grove Pennsylvania
+676,-75.22011,41.35889,Weigh Station,Blooming Grove Pennsylvania
+677,-121.80928,42.26348,Weigh Station,Klameth Falls Oregon
+678,-121.81098,42.26715,Weigh Station,Klameth Falls Oregon
+679,-118.54565,45.59129,Weigh Station,Pendelton Oregon
+680,-114.41806,48.1787,Weigh Station,Kalispell Montana
+681,-74.49612,40.54767,Weigh Station,Piscataway New Jersey
+682,-118.83887,45.47767,Weigh Station,Pilot Rock Oregon
+683,-74.12789,40.12269,Weigh Station,Kakewood New Jersey
+684,-118.25203,46.10033,Weigh Station,Walla Walla Washington
+685,-110.51982,49.97535,Weigh Station,Dunmore Alberta
+686,-110.52813,49.97397,Weigh Station,Dunmore Alberta
+687,-122.58011,41.92623,Weigh Station,Hornbrook California
+688,-79.3585,46.16261,Weigh Station,North Bay Ontario
+689,-79.35948,46.1732,Weigh Station,North Bay Ontario
+690,-121.00831,43.91814,Weigh Station,Millican Oregon
+691,-116.47781,47.58861,Weigh Station,Cataldo Idaho
+692,-120.79854,44.30503,Weigh Station,Prineville Oregon
+693,-121.1162,43.99923,Weigh Station,Bend Oregon
+694,-122.72253,42.22203,Weigh Station,Ashland Oregon
+695,-122.72606,42.22211,Weigh Station,Ashland Oregon
+696,-74.39615,41.42464,Weigh Station,New Hampton New York
+697,-118.91001,46.05674,Weigh Station,Wallula Washington
+698,-122.74201,42.22185,Weigh Station,Ashland Oregon
+699,-119.1383,45.91441,Weigh Station,Cold Springs Junction Oregon
+700,-122.61809,42.43217,Weigh Station,Lake Creek Oregon
+701,-121.34799,43.95705,Weigh Station,Bend Oregon
+702,-119.32571,45.91893,Weigh Station,Umatilla Oregon
+703,-119.34097,45.95937,Weigh Station,Kennewick Washington
+704,-122.81166,42.50052,Weigh Station,Eagle Point Oregon
+705,-122.81205,42.5001,Weigh Station,Eagle Point Oregon
+706,-116.86726,47.70837,Weigh Station,Coeur d'alene Idaho
+707,-121.19365,44.47597,Weigh Station,Terrebonne Oregon
+708,-121.19409,44.47602,Weigh Station,Terrebonne Oregon
+709,-117.05596,47.69385,Weigh Station,Spokane Washington
+710,-119.06238,46.3923,Weigh Station,Pasco Washington
+711,-119.06293,46.39329,Weigh Station,Pasco Washington
+712,-73.63826,41.01458,Weigh Station,Port Chester Connecticut
+713,-121.54012,44.28762,Weigh Station,Sisters Oregon
+714,-76.08397,44.36,Weigh Station,Gananoque Ontario
+715,-76.08052,44.36059,Weigh Station,Gananoque Ontario
+716,-118.22439,47.21048,Weigh Station,Ritzville Washington
+717,-118.22918,47.2116,Weigh Station,Ritzville Washington
+718,-117.35688,47.86245,Weigh Station,Colbert Washington
+719,-73.98296,42.05463,Weigh Station,Glasco Ney York
+720,-123.47738,42.3832,Weigh Station,Wilderville Oregon
+721,-73.51772,41.38961,Weigh Station,Danbury Connecticut
+722,-120.69649,45.50429,Weigh Station,Moro Oregon
+723,-114.26558,49.56739,Weigh Station,Bellevue Alberta
+724,-83.69226,49.6922,Weigh Station,Hearst Ontario
+725,-79.67441,47.56944,Weigh Station,Dymond Ontario
+726,-117.91975,47.66505,Weigh Station,Reardon Washington
+727,-106.34299,51.99854,Weigh Station,Hwy 16 East && West bound
+728,-116.29945,48.73093,Weigh Station,Bonners Ferry Idaho
+729,-113.58456,50.03225,Weigh Station,Claresholm Alberta
+730,-123.12101,43.30326,Weigh Station,Glide Oregon
+731,-123.331,43.04785,Weigh Station,Myrtle Creek Oregon
+732,-119.72886,46.63674,Weigh Station,Mattawa Oregon
+733,-122.71637,43.88581,Weigh Station,Dexter Oregon
+734,-114.71332,49.65049,Weigh Station,Sparwood British Columbia
+735,-120.80206,45.83279,Weigh Station,Goldendale Washington
+736,-124.20834,42.00006,Weigh Station,Harbor Oregon
+737,-123.45106,43.10896,Weigh Station,Winston Oregon
+738,-123.35128,43.29739,Weigh Station,Sutherlin Oregon
+739,-116.13742,49.07597,Weigh Station,Kootenay British Columbia
+740,-122.8051,44.06825,Weigh Station,Springfield Oregon
+741,-106.85002,52.2973,Weigh Station,Hwy 16 North && South bound
+742,-75.62267,45.055,Weigh Station,Kemptville Ontario
+743,-81.03017,49.05075,Weigh Station,Cochrane Ontario
+744,-122.43726,44.75734,Weigh Station,Mill City Oregon
+745,-72.74243,41.55389,Weigh Station,Middletown Connecticut
+746,-122.03496,45.37616,Weigh Station,Sandy Oregon
+747,-121.71066,45.68736,Weigh Station,Hood River Oregon
+748,-122.03877,45.37774,Weigh Station,Sandy Oregon
+749,-124.13395,43.05787,Weigh Station,Myrtle Point Oregon
+750,-121.77424,45.71042,Weigh Station,Carson Washington
+751,-121.87829,45.67103,Weigh Station,Cascade Locks Oregon
+752,-123.3087,44.18137,Weigh Station,Junction City Oregon
+753,-123.42945,44.05405,Weigh Station,Noti Oregon
+754,-122.39631,45.19411,Weigh Station,Colton Oregon
+755,-113.8807,50.69629,Weigh Station,Okotoks Alberta
+756,-113.88677,50.69616,Weigh Station,Okotoks Alberta
+757,-124.22415,43.25895,Weigh Station,Bunker Hill Oregon
+758,-72.15891,41.36833,Weigh Station,New London Connecticut
+759,-120.12684,47.368,Weigh Station,Rock Island Oregon
+760,-72.154,41.36749,Weigh Station,New London Connecticut
+761,-124.41474,43.09026,Weigh Station,Bandon Oregon
+762,-122.5121,45.41016,Weigh Station,Clackama Oregon
+763,-124.22427,43.47665,Weigh Station,North Bend Oregon
+764,-123.34719,44.54159,Weigh Station,Philomath Oregon
+765,-124.0698,43.69429,Weigh Station,Reedsport Oregon
+766,-123.22107,44.71851,Weigh Station,Corvallis Oregon
+767,-122.78624,45.19711,Weigh Station,Hubbard Oregon
+768,-122.79155,45.19391,Weigh Station,Hubbard Oregon
+769,-113.57859,51.03851,Weigh Station,Calgary Alberta
+770,-75.00752,45.3224,Weigh Station,Casselman Ontario
+771,-122.9621,45.04939,Weigh Station,North Howell Oregon
+772,-122.85515,45.17542,Weigh Station,Loganville Oregon
+773,-122.85079,45.18132,Weigh Station,Loganville Oregon
+774,-122.83518,45.23078,Weigh Station,Donald Oregon
+775,-122.83698,45.23056,Weigh Station,Donald Oregon
+776,-123.12246,44.93149,Weigh Station,Salem Oregon
+777,-73.28999,43.58709,Weigh Station,Fair Haven Vermont
+778,-72.17559,41.98804,Weigh Station,Stafford Connecticut
+779,-123.05185,45.2433,Weigh Station,Dayton Oregon
+780,-119.6855,48.10355,Weigh Station,Brewster Oregon
+781,-72.56577,42.71569,Weigh Station,Leydon Massachusetts
+782,-72.56785,42.71883,Weigh Station,Leydon Massachusetts
+783,-74.9073,45.55127,Weigh Station,Alfred Ontario
+784,-74.48546,45.14555,Weigh Station,Lancaster Ontario
+785,-121.02793,47.18323,Weigh Station,South Cle Elum Washington
+786,-121.03112,47.18203,Weigh Station,South Cle Elum Washington
+787,-120.58351,47.55443,Weigh Station,Peshastin Oregon
+788,-122.69321,45.83349,Weigh Station,Vanvouver Washington
+789,-114.00033,51.23234,Weigh Station,Balzac Alberta
+790,-74.36216,45.20245,Weigh Station,Bainsville Ontario
+791,-122.8709,45.69494,Weigh Station,Scappoose Oregon
+792,-114.47434,51.087,Weigh Station,Jumping Pond Alberta
+793,-124.084,44.40988,Weigh Station,Waldport Oregon
+794,-123.55349,45.05935,Weigh Station,Grand Ronde Oregon
+795,-123.05237,45.61099,Weigh Station,Norrth Plains Oregon
+796,-114.63112,51.10677,Weigh Station,Morley Alberta
+797,-77.36006,47.98785,Weigh Station,Val-d-OR New Brunswick
+798,-122.27454,46.55182,Weigh Station,Morton Washington
+799,-74.10226,45.33417,Weigh Station,Les Cedres Quebec
+800,-74.08037,45.41724,Weigh Station,Vaudreuil Quebec
+801,-122.89292,46.20427,Weigh Station,Kelso Washington
+802,-71.33449,41.91702,Weigh Station,South Attleboro Massachusetts
+803,-71.33101,41.91773,Weigh Station,South Attleboro Massachusetts
+804,-123.79535,45.46154,Weigh Station,Tillamook Oregon
+805,-123.7954,45.46191,Weigh Station,Tillamook Oregon
+806,-122.08367,47.16269,Weigh Station,Buckley Washington
+807,-72.26095,43.64924,Weigh Station,Lebanon Vermont
+808,-72.25993,43.65089,Weigh Station,Lebanon Vermont
+809,-122.39421,47.04994,Weigh Station,Spanaway Washington
+810,-121.88612,47.50927,Weigh Station,North Bend Washington
+811,-109.81014,53.21661,Weigh Station,Hwy 16 North && South bound
+812,-73.6785,45.63612,Weigh Station,Laval Quebec
+813,-122.31575,47.27065,Weigh Station,Federal Way Washington
+814,-122.31515,47.27338,Weigh Station,Federal Way Washington
+815,-122.65385,47.08537,Weigh Station,Dupont Washington
+816,-71.2902,42.82289,Weigh Station,Derry New Hampshire
+817,-71.28934,42.82452,Weigh Station,Derry New Hampshire
+818,-121.83312,47.85755,Weigh Station,Sultan Washington
+819,-73.39292,45.57147,Weigh Station,Saint Julie Quebec
+820,-122.56572,47.2937,Weigh Station,Harbor Heights Washington
+821,-123.91625,46.08861,Weigh Station,Gearhart Oregon
+822,-70.97028,42.69657,Weigh Station,Boxford Massachusetts
+823,-70.96844,42.69628,Weigh Station,Boxford Massachusetts
+824,-110.74925,53.34491,Weigh Station,Vermilion Alberta
+825,-73.28321,45.78782,Weigh Station,Contrecouer Quebec
+826,-73.28394,45.78912,Weigh Station,Contrecoeur Quebec
+827,-122.21477,47.90146,Weigh Station,Everett Washington
+828,-71.05925,43.02307,Weigh Station,Epping Massachusetts
+829,-71.05416,43.02247,Weigh Station,Epping Massachusetts
+830,-122.10977,48.02336,Weigh Station,Lake Stevens Washington
+831,-123.6827,46.65514,Weigh Station,Raymond Washington
+832,-123.54431,46.98714,Weigh Station,Montesano Washington
+833,-123.54805,46.98478,Weigh Station,Montesano Washington
+834,-122.25646,48.25704,Weigh Station,Stanwood Oregon
+835,-70.71073,43.13597,Weigh Station,York Cornor Maine
+836,-70.68333,43.14764,Weigh Station,York Cornor Maine
+837,-117.147,51.4774,Weigh Station,Donald Station British Columbia
+838,-122.17465,48.52768,Weigh Station,Sedro Woolley Oregon
+839,-122.35429,48.53866,Weigh Station,Mount Vernon Washington
+840,-113.57237,53.23222,Weigh Station,Leduc Alberta
+841,-72.65599,46.32331,Weigh Station,Pointe-DU-Lac Quebec
+842,-121.59083,49.34693,Weigh Station,Hope British Columbia
+843,-120.42219,50.66568,Weigh Station,Kamloops British Columbia
+844,-120.42556,50.6663,Weigh Station,Kamloops British Columbia
+845,-71.52035,46.74668,Weigh Station,Neuville Quebec
+846,-71.5206,46.74778,Weigh Station,Neuville Quebec
+847,-71.39943,46.6589,Weigh Station,Levis Quebec
+848,-70.38258,47.05511,Weigh Station,Montmagny Quebec
+849,-68.47224,44.53954,Weigh Station,Ellsworth Maine
+850,-68.47214,44.53975,Weigh Station,Ellsworth Maine
+851,-68.70569,44.97608,Weigh Station,Old Town Maine
+852,-68.70233,44.98477,Weigh Station,Old Town Maine
+853,-68.70197,44.98476,Weigh Station,Old Town Maine
+854,-67.7827,46.13473,Weigh Station,Houlter Maine
+855,-68.86865,47.67061,Weigh Station,Cabano Quebec
+856,-68.44914,47.4685,Weigh Station,Saint-Jacques New Brunswick
+857,-67.97014,47.24178,Weigh Station,St Leonard New Brunswick
+858,-66.92947,45.85264,Weigh Station,Kingselear New Brunswick
+859,-66.77589,45.91572,Weigh Station,Kingselear New Brunswick
+860,-66.18798,45.25196,Weigh Station,Saint John New Brunswick
+861,-66.79377,47.95821,Weigh Station,Glencoe New Brunswick
+862,-65.02301,46.05554,Weigh Station,Salisbury New Brunswick
+863,-65.02404,46.05763,Weigh Station,Salisbury New Brunswick
+864,-64.46125,45.97943,Weigh Station,Sackville New Brunswick
+865,-64.41645,45.96076,Weigh Station,Sackville New Brunswick
+866,-64.25199,45.85182,Weigh Station,Amherst Nova Scotia
+867,-64.25084,45.85006,Weigh Station,Amherst Nova Scotia
+868,-64.25187,45.85188,Weigh Station,Amherst Nova Scotia
+869,-64.25057,45.85023,Weigh Station,Amherst Nova Scotia
+870,-63.53894,44.92495,Weigh Station,Halifax Nova Scotia
+871,-63.53896,44.92504,Weigh Station,Halifax Nova Scotia
+872,-98.1496,27.16668,Weigh Station,Falfurrias Texas
+873,-98.14912,27.16573,Weigh Station,Falfurrias Texas
+874,-88.9809,42.59883,Weigh Station,I-39 NB Near Janesville Wisconsin
+875,-87.95032,42.49997,Weigh Station,I-94 WB@ Stateline
+876,-87.95383,42.79493,Weigh Station,I-94 EB Near Caledonia Wisconsin
+877,-100.24287,35.23134,Weigh Station,I-40  Shamrock Texas
+878,-95.70347,29.55921,Weigh Station,US 59 SB Richmond Texas
+879,-97.76844,29.62612,Weigh Station,I-10 WB Kingsbury Texas
+880,-97.76659,29.62566,Weigh Station,I-10 EB Kingsbury Texas
+881,-97.79405,27.01616,Homeland Security Check Station,US 77 Turcotte Texas
+882,-94.28154,29.92158,Agriculture Inspection Station,I-10 EB Fannett Texas
+883,-94.88188,30.79262,Roadside Inspection Station,US 59 NB Leggett Texas
+884,-97.0737,32.87889,Random Roadside Inspection Area,360 && Glade Road NB Grapevine Texas
+885,-97.02676,32.46683,Random Roadside Inspection Area,Highway 67 NB Midlothian Texas
+886,-87.94735,42.46856,Weigh Station,Highway 41 @173 Zion Illinois
+887,-97.34651,36.98383,Inspection Station,I-35 SB @ KS State line Braman Oklahoma
+888,-95.26099,41.49802,Weigh Station,I-80 WB MM 44 Walnut Iowa
+889,-99.52489,27.60038,Inspection Site,Bob Bullock @ River Bank Laredo Texas
+890,-97.68764,30.23844,Inspection Site,183 South @ Vargas Road Austin Texas
+891,-94.80564,31.1446,Weigh Station,US 59 SB Diboll Texas
+892,-76.82297,40.15605,Weigh Station,I 83 SB/Susquehanna Expy S PA
+893,-80.62007,33.15933,Weigh Station,I-95 NB SC
+894,-77.12405,41.90351,Weigh Station,US 15 SB PA
+895,-75.80119,39.38411,Weigh Station,Us 301 SB MD
+896,-76.40698,39.01203,Weigh Station,Chesapeake Bay Brg W US 301 SB/US 50 WB MD
+897,-82.26339,28.01943,Weigh Station,I 4 WB FL
+898,-81.08614,37.48964,Weigh Station,I 77 SB WV
+899,-80.48038,41.94311,Weigh Station,I 90 EB PA
+900,-75.52155,41.27474,Weigh Station,I 380 SB PA
+901,-75.51546,41.25353,Weigh Station,I 380 NB PA
+902,-76.48498,36.76444,Weigh Station,US 13 VA
+903,-86.88083,35.05587,Weigh Station,I 65 NB PA
+904,-71.00818,41.93278,Weigh Station,I 495 SB MA
+905,-79.51472,36.56252,Weigh Station,US 58 WB VA
+906,-72.12123,42.05115,Weigh Station,I-84 WB MA
+907,-75.96342,41.1307,Weigh Station,I-81 SB PA
+908,-78.07118,39.32092,Weigh Station,I-81 NB WV
+909,-76.07188,39.56898,Weigh Station,US 40 WB HWY 7 MD
+910,-74.86697,40.25226,Weigh Station,
+911,-76.03745,40.24526,Weigh Station,
+912,-76.95277,39.01646,Weigh Station,
+913,-80.40083,27.18872,Weigh Station,
+914,-80.20541,27.00486,Weigh Station,
+915,-75.5649,38.42622,N Salisbury Blvd US 13 SB Salisbury MD weigh station   ,
+916,-75.53128,37.97605,Lankford Hwy US 13 SB Weigh Station New Church VA      ,
+917,-75.56422,38.42617,N Salisbury Blvd US 13 NB Delmar MD weigh station      ,
+918,-75.5649,38.42623,Weigh Station,
+919,-97.89296,28.86115,Weigh Station,US 181 & 123 Kenedy TX
+920,-98.0982,26.18772,Weigh Station,2/83 & 1423 E Alamo Tx
+921,-98.09737,26.18803,Weigh Station,2/83 & 1423 W Alamo Tx
+922,-77.84723,39.58656,Weigh Station, I 81 Sb Falling Waters WV 
+923,-83.17331,30.38187,Fuel Inspection,US Highway 90 Dowling Park FL
+924,-83.17372,30.3817,Fuel Inspection,US Highway 90 Dowling Park FL
+925,-75.76384,39.41971,Weigh Station, Middletown Warwick Rd US 301 Warwick MD NB 
+926,-76.40751,39.01454,Weigh Station, US 301 Sb Annapolis MD 
+927,-93.90398,30.13112,Inspection Site, I-10 WB MM868 Vidor Texas
+928,-100.36838,28.79735,Inspection Station, Highway 57
+929,-100.05923,28.62594,Inspection Station, US 83
+930,-99.53524,28.00724,Inspection Station, US 83
+931,-80.12436,41.0704,Weigh Station,I-79 
+932,-80.14431,41.10143,Weigh Station,I-79 
+933,-80.162,41.45529,Weigh Station,I-79 
+934,-80.16781,41.46783,Weigh Station,I-79 
+935,-80.10264,40.71852,Weigh Station,I-79 
+936,-80.10116,40.71046,Weigh Station,I-79 
+937,-79.07237,37.49129,Weigh Station,US 29
+938,-99.94248,29.21607,Homeland Security Check Station,US 90
+939,-81.06761,37.47305,Weigh Station,
+940,-75.74918,41.98617,Weigh Station,
+941,-72.11073,42.05877,Weigh Station,
+942,-71.65046,42.06067,Weigh Station,
+943,-72.61899,42.50235,Weigh Station,
+944,-72.62151,42.50804,Weigh Station,
+945,-82.1439,28.99287,Weigh Station,I 75  MM339 
+946,-82.12508,30.32417,Weigh Station,RT 121 
+947,-82.27265,28.01846,Weigh Station,I-4 FL 
+948,-82.90293,30.42148,Weigh Station,75 S FL 
+949,-82.89852,30.41808,Weigh Station,75 N  FL 
+950,-83.27232,30.37464,Weigh Station,WB I-10 FL. 
+951,-83.27261,30.37344,Weigh Station,EB I-10 
+952,-81.66797,30.66851,Weigh Station,95 S FL. 
+953,-81.66698,30.6696,Weigh Station,95 N FL 
+954,-84.98288,30.63986,Weigh Station,W I-10 155 MM FL. 
+955,-84.98348,30.63881,Weigh Station,EB I-10 154 MM FL. 

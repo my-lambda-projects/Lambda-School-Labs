@@ -1,0 +1,331 @@
+longitude,latitude,campsite_name,phone_number,street_address,city,state_province,postal_code,country
+-112.7716793,51.4715966,Dinosaur Trail RV Resort (GNP),(403) 823-9333,Hwy 838 N,Drumheller,AB,T0J 0Y0,CAN
+-118.814088,55.1050346,Camp Tamarack RV Park (GNP),(780) 532-9998,704063 Range Rd 62,Grand Praire,AB,T8W 5B3,CAN
+-112.87118,49.71111,Bridgeview RV Resort (Holiday Trails Resort),(403) 381-2357,1501 2nd Ave W,Lethbridge,AB,T1J 4S5,CAN
+-115.032757,52.442406,Wilderness Village at Crimson Lake,(403) 845-2145,Hwy 756,Rocky Mountain House,AB,T4T 1A9,CAN
+-117.2987,55.053653,Sherk's RV Park (GNP),(780) 524-4949,22362 Township Rd,Valleyview,AB,T0H 3N0,CAN
+-151.081227,60.474651,Edgewater RV Resort (Sunrise Resorts),(907) 262-7733,48798 Funny River Rd,Soldotna,AK,48798,USA
+-86.183691,34.463649,Mountain Lakes Resort [Ocean Canyon Properties],(256) 582-5556,1345 Murphy Hill Rd,Langston,AL,35755,USA
+-87.593743,30.622917,Styx River Resort (Ocean Canyon Properties),(251) 960-1170,25301 Water World Rd,Robertsdale,AL,36567,USA
+-87.61134,30.618445,Wilderness RV Park (Sugar Beach Resort),(251) 960-1195,24280 Patterson Rd,Robertsdale,AL,36567,USA
+-86.039311,33.52577,Talladega Creekside Resort (GNP),(256) 362-9053,760 Lake Whitland Rd,Talladega,AL,35160,USA
+-86.234912,34.613487,Parnell Creek RV Park (GNP),(256) 776-2348,115 Parnell Circle,Woodville,AL,35776,USA
+-94.013786,33.713158,Millwood Landing Golf and RV Resort (Ocean Canyon Properties),(214) 306-6868,596 Hwy 317,Ashdown,AR,71822,USA
+-92.1212,35.9351,Angler's Holiday Mountain Resort,(870) 585-2231,473 Swinging Bridge Rd,Mountain View,AR,72560,USA
+-92.309284,35.623418,Golden Pond RV Park,(501) 723-8212,241 Hwy 330 S,Shirley,AR,72153,USA
+-111.569819,33.429893,Carefree Manor RV Resort (GNP),(480) 982-4008,1615 n Deleware Dr,Apache Junction,AZ,85220,USA
+-112.15338,34.07178,Black Canyon Ranch RV Resort (GNP),(623) 374-9800,33900 S Old Black Canyon Hwy,Black Canyon,AZ,85324,USA
+-114.571756,35.113345,Silver View RV Resort,(928) 763-5500,1501 Gold Rush Rd,Bullhead City,AZ,86442,USA
+-114.5554,35.1719,Sunrise Adventures - Ridgeview,(928) 754-2596,775 Bullhead Pkwy,Bullhead City,AZ,86429,USA
+-111.885635,34.584387,Verde Ranch RV Resort (GNP),(928) 567-7126,1105 N Dreamcatcher Dr,Camp Verde,AZ,86322,USA
+-111.6497,37.7612,High Chaparral RV Park (GNP),(520) 466-5076,7575 W Bataglia Rd,Casa Grande,AZ,85222,USA
+-111.892191,34.767336,Page Springs (Sunrise Resorts),(928) 634-4309,1951 N Page Springs Rd,Cornville,AZ,86325,USA
+-114.5238,33.606,Arizona Oasis RV Resort (GNP),(928) 923-8230,50238 Ehrenberg-Parker Hwy.,Ehrenberg,AZ,85334,USA
+-114.596632,35.018944,Riverside Adventure Trails,(928) 763-8800,4750 S Hwy 95,Fort Mohave,AZ,86426,USA
+-111.3117,34.5543,Clint's Well (Sunrise Resorts),(928) 477-2299,Jct Hwy 87 and FH 3,HappyJack,AZ,86024,USA
+-110.22398,31.721367,Tombstone Territories RV Resort (GNP),(520) 457-2584,2111 E Hwy 82,Huachuca,AZ,85616,USA
+-114.387626,34.573755,Desert Hills Estates (GNP),(760) 663-4941,1100 Riverside Dr,Lake Havasu City,AZ,86404,USA
+-114.366786,34.544362,Lake Havasu RV Park (Colorado River Adventures),(760) 663-4941,3829 London Bridge Rd,Lake Havasu City,AZ,86403,USA
+-109.776696,31.4585,Desert Oasis Campground (GNP),(520) 979-6650,5631 W Double Adobe Rd,McNeal,AZ,85617,USA
+-114.60345,34.96852,Moon River Resorts (GNP),(928) 788-6660,1325 Boundary Cone Rd,Mohave Valley,AZ,86440,USA
+-110.407193,34.369073,White Mountain [Sunrise Resorts],(928) 535-5978,2162 Camperland Rd,Overgaard,AZ,85933,USA
+-110.227079,31.905823,Apache Mobile Home and RV (GNP),(520) 720-4634,79 N Apache Trl,St David,AZ,85630,USA
+-110.875355,32.129958,Crazy Horse RV Campground (GNP),(800) 279-6279,6660 S Craycroft Rd,Tucson,AZ,85756,USA
+-109.839273,32.244234,Sagebrush RV Park (GNP),(520) 384-2872,200 W Lewis St,Willcox,AZ,85643,USA
+-114.53854,32.670556,Blue Sky Ranch RV Resort (GNP),(928) 726-0160,5510 E 32nd St,Yuma,AZ,85365,USA
+-114.456755,32.670047,Blue Sky RV Resort (GNP),(928) 342-1444,10247 S Frontage Rd,Yuma,AZ,85365,USA
+-114.4492671,32.6712828,Caravan Oasis Resort (GNP),(928) 342-1480,10500 N Frontage Rd,Yuma,AZ,85365,USA
+-114.403,32.6691,Sundance RV Resort (CAL-AM),(928) 342-9333,13502 N Frontage Rd,Yuma,AZ,85367,USA
+-114.4848,32.7407,Yuma Lakes (Colorado River Resorts),(760) 663-4941,6275 S 8 1/2 E,Yuma,AZ,85365,USA
+-116.906265,49.775234,Woodbury Resort and Marina,(877) 353-7717,4112 Hwy 31,Ainsworth,BC,V0G 1A0,CAN
+-123.714906,48.895986,Country Maples RV Resort (GNP),(250) 246-2078,9010 Trans-Canada Hwy,Chemainus,BC,V0R 1K4,CAN
+-121.231375,49.273399,Sunshine Valley RV Resort (Holiday Trails Resort/GNP),(604) 869-0040,14850 Alpine Blvd,Hope,BC,V0X 1L5,CAN
+-119.3959,50.0078,Holiday Park Resort,(250) 766-4255,1-415 Commonwealth Rd,Kelowna,BC,V4V 1P4,CAN
+-121.742433,49.188068,Camperland RV Resort (Holoiday Trails Resort/GNP),(604) 794-3756,53730 Bridal Falls Rd,Rosedale,BC,V0X 1X1,CAN
+-116.913175,33.484731,Sundance Meadows,(951) 767-0716,43425 Sage Rd,Aguanga,CA,92536,USA
+-119.554726,37.323562,Bass Lake Recreational Resort,(559) 642-3145,39744 Rd 274,Bass Lake,CA,93604,USA
+-117.0198,33.961233,Cherry Valley Lakes Resort (Colorado River Adventures),(760) 663-4941,36805 Brookside Ave,Beaumont,CA,92223,USA
+-122.196967,39.926955,Heritage RV (GNP),(530) 824-6130,975 Hwy 99 W,Corning,CA,97021,USA
+-116.4368,33.9258,Caliente Springs (GNP),(760) 329-8400,70200 Dillon Rd,Desert Hot Springs,CA,92241,USA
+-116.440012,33.913205,Catalina Spa and RV Resort,(760) 329-4431,18-800 Corkill Rd,Desert Hot Springs,CA,92241,USA
+-116.361368,33.902233,Sky Valley Resort (GNP),(760) 329-2900,74711 Dillon Rd,Desert Hot Springs,CA,92241,USA
+-114.223701,34.208051,Emerald Cove (Colorado River Adventures),(760) 663-4941,2715 Parker Dam Rd,Earp,CA,92242,USA
+-120.832535,39.18759,Dutch Flat RV Resort (GNP),(503) 389-8924,55 Canyon Creek Rd,Gold Run,CA,95717,USA
+-121.587531,38.113713,Delta Shores Resort and Marina,(916) 777-5577,601 Brannan Island Rd,Isleton,CA,95641,USA
+-121.571217,38.104855,Lighthouse Resort and Marina,(916) 777-5511,151 Brannan Island Rd,Isleton,CA,95641,USA
+-116.559589,33.033436,KQ Ranch Resort (Colorado River Adventures),(760) 663-4941,449 KQ Ranch Rd,Julian,CA,92036,USA
+-124.051609,41.529755,Kamp Klamath RV Park (GNP),(707) 482-0227,1661 W Klamath Beach Rd,Klamath,CA,95548,USA
+-118.413745,35.642659,Lake Isabella RV Resort (GNP),(760) 379-1873,11936 Hwy 178,Lake Isabella,CA,93240,USA
+-119.032788,36.369616,Lemon Cove Village RV Park (GNP),(559) 370-4152,32075 Sierra Dr,Lemon Cove,CA,93244,USA
+-123.87744,40.26247,Giant Redwood RV (GNP),(707) 943-9999,400 Myers Ave,Myers Flat,CA,95554,USA
+-122.8565053,39.1209086,The Aurora RV Park/Marina (GNP),(707) 274-5531,2985 Lakeshore Blvd,Nice,CA,95464,USA
+-116.544801,33.945391,Two Springs RV Resort (GNP),(760) 251-6162,14200 N Indian Canyon Dr,North Palm Springs,CA,92258,USA
+-114.16836,34.26107,Big Bend Resort (GNP),(760) 663-4941,501 Parker Dam Rd,Parker Dam,CA,92267,USA
+-114.16702,34.25107,Echo Lodge Resort (GNP),(760) 663-4941,451 Parker Dam Rd,Parker Dam,CA,92267,USA
+-114.21326,34.21546,Rio Del Colorado (GNP),(760)663-3006,2054 Parker Dam Rd,Parker Dam,CA,92267,USA
+-114.19534,34.22864,Windmill Resort (GNP),(760) 663-4941,1451 Parker Dam Rd,Parker Dam,CA,92267,USA
+-120.615798,38.766776,Ghost Mountain Ranch (Colorado River Adventures),(530) 644-5476,5560 Badger Hill Rd,Pollock Pines,CA,95726,USA
+-117.099107,33.975016,Fisherman's Retreat (Halo Resorts),(909) 795-0171,32300 San Timoteo Canyon Rd,Redlands,CA,92373,USA
+-114.763628,32.74747,Pilot Knob RV Resort,(928) 257-4892,3707 Hwy 80,Winterhaven,CA,92283,USA
+-122.094414,38.514247,Canyon Creek Resort,(530) 795-4133,22074 Hwy 128,Winters,CA,95694,USA
+-122.6381,41.70952,Waiiaka RV Park (GNP),(530) 842-4500,240 Sharps Rd,Yreka,CA,96097,USA
+-116.954415,34.052548,Oak Glen Retreat (Halo Resorts),(909) 790-1801,38955 Oak Glen Rd,Yucaipa,CA,92399,USA
+-107.120582,38.480979,Blue Mesa Recreational Ranch,(970) 642-4150,27601 W Hwy 50,Gunnison,CO,81230,USA
+-104.865271,39.116189,Colorado Heights Camping Resort,(719) 481-2336,19575 Monument Hill Rd,Monument,CO,80132,USA
+-71.795465,41.848795,State Line Camping Resort,(860) 774-3016,1639 Hartford Pike,East Killingly,CT,6243,USA
+-75.163521,38.632066,Leisure Point Resort,(302) 945-0308,25491 Dogwood Ln,Millsboro,DE,19966,USA
+-81.805318,26.384743,Gulf Coast Camping Resort (GNP),(239) 992-3808,24020 Production Cir,Bonita Springs,FL,34135,USA
+-81.796487,28.641008,Bee's RV Resort,(352) 429-2116,20260 Hwy 27,Clermont,FL,34715,USA
+-80.38,27.4854,Road Runner Travel Resort (GNP),(800) 833-7108,5500 St Lucie Blvd,Fort Pierce,FL,34946,USA
+-85.394803,30.533239,Pine Lake RV Resort (GNP),(850) 722-1401,21036 Hwy 231,Fountain,FL,32438,USA
+-81.901325,26.705692,Tamiama RV Park (GNP),(239) 997-2697,16555 N Cleveland Ave,North Fort Myers,FL,33903,USA
+-81.7852,26.7116,Upriver RV Resort (GNP),(239) 543-3330,17021 Upriver Dr,North Fort Myers,FL,33917,USA
+-80.753769,27.190466,Gracious RV Park (GNP),(863) 763-6200,6500 Hwy 441 SE,Okeechobee,FL,34974,USA
+-80.6947,27.1458,Water's Edge Motor Coach & RV Resort (GNP),(863) 357-5757,12766 Hwy 441 SE,Okeechobee,FL,34974,USA
+-82.985834,29.569757,Old Town Campground 'N' Retreat (GNP),(352) 542-9500,2241 SE Hwy 349,Old Town,FL,32680,USA
+-81.28802,28.96829,Luna Sands Resort (GNP),(855) 432-8457,1440 E Minnesota Ave,Orange City,FL,32763,USA
+-82.005631,26.879362,Alligator Park MH and RV Park (GNP),(941) 639-7000,6400 Taylor Rd,Punta Gorda,FL,33950,USA
+-82.24748,28.218537,Ralph's Travel Park (GNP),(813) 782-8223,34408 SR 54 W,Zephyrhills,FL,33543,USA
+-81.579716,31.144537,Golden Isles Vacation Park (GNP),(912) 261-1025,7445 Blythe Island Hwy,Brunswick,GA,31525,USA
+-83.449,34.3851,Yonah Mountain Camping Resort,(706) 865-6546,3678 Helen Hwy,Cleveland,GA,30528,USA
+-83.955367,34.627511,R Ranch in the Mountains,(706) 864-6444,65 R Ranch Rd,Dahlonega,GA,30533,USA
+-83.267065,33.545508,North Shore Landing,(706) 453-4505,2541 Carey Station Rd,Greensboro,GA,30642,USA
+-83.712201,34.721284,Unicoi Springs Camp Resort,(706) 878-2104,2444 Hwy 356,Helen,GA,30545,USA
+-83.739116,32.240212,Southern Trails RV Resort,(478) 627-3255,2690 Arena Rd,Unadilla,GA,31091,USA
+-81.676644,30.840366,Walkabout RV Resort (GNP),(912) 729-4110,742 Old Still Rd,Woodbine,GA,31569,USA
+-93.764199,41.65804,Cutty's Des Moines Camping Club,(515) 986-3929,2500 SE 37th St,Grimes,IA,50111,USA
+-91.923273,42.647881,Lake Shore Resort,(319) 283-5234,1418 Q Ave,Oelwein,IA,50662,USA
+-95.182441,43.425214,Cutty's Okoboji Resort Club,(712) 336-2226,1528 Hwy 86,Spirit Lake,IA,51360,USA
+-115.3076434,42.9566253,Trail Break RV Park & Campground (GNP),(208) 366-7745,432 N Bannock St,Glenns Ferry,ID,83623,USA
+-116.145403,45.921383,Bear Den RV Park (GNP),(208) 983-0140,16967 Hwy 95 S,Grangeville,ID,83530,USA
+-114.71495,42.77079,Intermountain Motor Homes and RV Camp (GNP),(208) 536-2301,1894 N Frontage Rd,Wendell,ID,83355,USA
+-90.461824,40.570542,TimberLakes Campground (GNP),(309) 772-3609,23200 N 2000 Rd,Bushnell,IL,61422,USA
+-89.491163,40.624684,Mill Point Park (GNP),(309) 231-6497,310 Ash Ln,East Peoria,IL,61611,USA
+-90.216346,41.549421,Sunset Lakes RV Resort,(309) 658-2131,2700 290th St N,Hillsdale,IL,61257,USA
+-89.28074,41.658455,Woodhaven Lakes,(815) 849-5915,509 Lamoille Rd,Sublette,IL,61367,USA
+-85.37969,40.493896,Wildwood Outdoor Escape (GNP),(765) 348-2100,520 W 300 N,Hartford City,IN,47348,USA
+-85.408052,41.708613,Grand View Bend (GNP),(574) 575-5927,4630 N 100 E,Howe,IN,46746,USA
+-85.61791,38.988778,Muscatatuck Park (GNP),(812) 346-2953,325 N SR 3/7,North Vernon,IN,47265,USA
+-84.85122,39.86586,Deer Ridge Camping Resort (GNP),(765) 939-0888,3696 Smyrna Rd,Richmond,IN,47374,USA
+-96.240768,38.411733,Emporia RV Park (GNP),(620) 343-3422,4601 W Hwy 50,Emporia,KS,66801,USA
+-97.554629,38.027146,Spring Lake RV Resort,(316) 835-3443,1308 S Spring Lake Rd,Halstead,KS,67056,USA
+-94.697334,38.373587,Linn Valley Lakes,(913) 757-4591,5174 Linn Valley Ave,Linn Valley,KS,66040,USA
+-88.5867,37.0214,Duck Creek RV Park (GNP),(270) 415-0404,2540 Jihn L Puryear Dr,Paducah,KY,42003,USA
+-90.004432,30.496086,Abita Springs RV Resort (Ocean Canyon Properties),(985) 590-3926,24150 Hwy 435,Abita Springs,LA,70420,USA
+-90.991503,29.683561,Hideaway Ponds Recreational Resort,(985) 575-9928,6367 Bayou Black Dr,Gibson,LA,70356,USA
+-90.345703,30.521654,Passport to Leisure,(985) 542-1507,46049 Hwy 445 N,Robert,LA,70455,USA
+-96.036943,50.279022,Champagne's RV Park (GNP),(204) 345-2414,20 Champagne Rd,Lac Du Bonnet,MB,R0E 1A0,CAN
+-83.556942,45.114893,Campers Cove (GNP),(989) 356-3708,5005 Long Rapids Rd,Alpena,MI,49707,USA
+-83.555946,43.073287,Lake Shore Resort (Outdoor Adventures),(810) 653-1040,4392 N Irish Rd,Davison,MI,48423,USA
+-86.178006,42.968349,Grand Haven Resort (Outdoor Adventures),(616) 844-7490,10990 Hwy 31,Grand Haven,MI,49417,USA
+-84.824999,42.08698,Lighthouse Village,(517) 568-4343,1001 24 Mile Rd,Homer,MI,49245,USA
+-85.718173,42.390266,Kalamazoo Resort (Outdoor Adventure),(269) 337-0959,8368 W C Ave,Kalamazoo,MI,49009,USA
+-84.6679,43.646,Mt Pleasant Resort (Outdoor Adventures),(989) 772-5878,840 N Loomis Rd,Mt Pleasant,MI,48858,USA
+-83.947934,44.052354,Wilderness Resort (Outdoor Adventures),(989) 653-2224,1050 Husak Rd,Omer,MI,48749,USA
+-84.72785,45.88198,Tiki RV Park (GNP),(906) 643-7808,200 S Airport Rd,St Ignace,MI,49781,USA
+-83.927608,43.947645,Saginaw Bay Resort (Outdoor Adventures),(989) 846-0128,4738 Foco Rd,Standish,MI,48658,USA
+-84.0193,44.073602,Rifle River Resort (Outdor Adventures),(989) 654-3195,334 N Melita Rd,Sterling,MI,48659,USA
+-84.279008,42.435529,Heartland Woods RV Resort,(517) 565-3500,5120 Freiermuth Rd,Stockbridge,MI,49285,USA
+-84.249888,44.204244,Lake of the North Resort (Outdoor Adventures),(989) 345-2700,3070 Elm Dr,West Branch,MI,48661,USA
+-95.923561,46.838602,Forest Hills Golf & RV Resort,(800) 482-3441,22931 185th St,Detroit Lakes,MN,56501,USA
+-92.641436,46.011522,Pathfinder Village (St. Croix),(320) 384-7985,49200 Hwy 48,Hinckley,MN,55037,USA
+-92.466982,46.056021,St Croix River Resort (Midwest Outdoor Resorts),(605) 399-7899,40756 Grace Lake Rd,Hinckley,MN,55037,USA
+-95.489237,46.580056,Golden Eagle Vacationland,(218) 346-4386,42488 480th Ave,Perham,MN,56573,USA
+-91.707997,43.603515,Hidden Bluffs Resort (Midwest Outdoor Resorts),(507) 498-5880,22885 CR 19,Spring Grove,MN,55974,USA
+-91.164123,39.372786,Cozy C RV Campground (GNP),(573) 324-3055,16733 Hwy 54,Bowling Green,MO,63334,USA
+-93.340735,36.680391,Blue Mountain Campground (GNP),(417) 338-2114,8766 Hwy 76,Branson West,MO,65737,USA
+-93.330036,36.666836,Bransom Ridge Resort (Ocean Canyon Properties),(417) 213-5801,5040 Hwy 265,Branson,MO,65616,USA
+-93.2879,36.65552,Treasure Lake RV Resort,(417) 334-1040,1 Treasure Lake Dr,Branson,MO,65616,USA
+-92.133899,36.624831,Cloud 9 Ranch,(417) 284-7321,2810 Cloud 9 Dr,Caulfield,MO,65626,USA
+-90.98605,39.329878,Tievoli Hills Resort (FamilResorts and Travel),(573) 242-3577,25793 Hwy N,Clarksville,MO,63336,USA
+-91.560221,38.896262,Lazy Day Campground (GNP),(573) 564-2949,214 Hwy J,Danville,MO,63361,USA
+-91.397774,38.475775,Lost Valley Lake Resort,(573) 764-2129,2334 Hwy ZZ,Owensville,MO,65066,USA
+-91.776156,38.789162,Wildwood,(573) 676-5317,7233 Wildwood Estates Dr,Steedman,MO,65077,USA
+-89.223414,30.376523,TLC Wolf River Resort,(228) 452-9100,23098 Freddie Frank Rd,Pass Christian,MS,39571,USA
+-112.724953,46.408741,Indian Creek Campground (GNP),(406) 846-3848,745 Maverick Ln,Deer Lodge,MT,59722,USA
+-110.911826,46.54267,Conestoga Campground,(406) 547-3890,815 8th Ave SW,White Sulphur Springs,MT,59645,USA
+-65.048048,47.763972,Camping Colibri (GNP),(506) 727-2222,913 Boul de Acadiens,Caraquet,NB,E1W 1H5,CAN
+-65.593961,46.960865,Enclosure Campground Resort (GNP),(844) 609-9660,8 Enclosure Rd,Derb Junction,NB,E1V 5B2,CAN
+-64.595325,45.818611,Ponderosa Pines Campground (GNP),(800) 822-8800,4325 Rte 114,Hopewell Cape,NB,E4H 3P1,CAN
+-64.503752,46.23354,Ocean Surf RV Park (GNP),(506) 532-5480,73 Belliveau Beach Rd,Pointe du Chene,NB,E4P 3W2,CAN
+-65.543093,45.349339,Century Family Farm Campground (GNP),(506) 833-2357,67 Ocean View Dr,St Martins,NB,E5R 2E8,CAN
+-67.605009,46.126412,Yogi Bear's Jellystone Park New Brunswick (GNP),(506) 328-6287,174 Hemlock St,Woodstock,NB,E7M 4E5,CAN
+-79.850227,35.603139,Zooland Family Campground (GNP),(336) 381-3422,3671 Pisgah Covered Bridge Rd,Asheboro,NC,27205,USA
+-79.622491,35.140647,Sycamore Lodge (Travel Resorts of America),(910) 652-5559,1059 Sycamore Ln,Jackson Springs,NC,27281,USA
+-79.463305,34.899968,Oasis of North Carolina (GNP),(910) 266-8372,15340 Palmer Rd,Marston,NC,28363,USA
+-78.711399,34.058597,Carroll Woods Campground at Grapefull Sisters Vineyard (GNP),(910) 653-5538,95 Dots Dr,Tabor City,NC,28463,USA
+-79.420093,34.978826,Pine Lake RV Resort (GNP),(910) 281-3319,32482 Hillcreek Rd,Wagram,NC,28396,USA
+-75.466635,35.578061,Camp Hatteras,(252) 987-2777,24798 Hwy 12,Waves,NC,27968,USA
+-83.011423,35.583717,Pride Resort,(828) 926-1645,4394 Jonathan Creek Rd,Waynesville,NC,28785,USA
+-101.37104,48.24172,Roughrider RV Resort (GNP),(701) 852-8442,500 54th St NW,Minot,ND,58703,USA
+-103.118591,41.70815,Meadow Park Motel & RV (GNP),(308) 279-1176,9868 Hwy 385,Bridgeport,NE,69336,USA
+-99.379184,40.698295,Sunny Meadows Campground (GNP),(308) 233-4297,2005 Hwy 183,Elm Creek,NE,68836,USA
+-101.714241,41.105374,Area's Finest County View (GNP),(308) 284-2415,120 Rd East 80,Ogallala,NE,69153,USA
+-101.706092,41.112756,Sleepy Sunflower RV Park (GNP),(308) 284-1300,221 Rd E 85,Ogallala,NE,69153,USA
+-100.542171,42.868534,Wacky West Travel Park (GNP),(402) 376-1771,702 E C St,Valentine,NE,69201,USA
+-71.622728,43.687911,Ames Brook Campground (GNP),(603) 968-7998,104 Winona Rd,Ashland,NH,3217,USA
+-71.593603,44.49613,Riverside Camping & RV Resort (GNP),(603) 631-7433,94 Bridge St,Lancaster,NH,3584,USA
+-71.722303,42.973871,Friendly Beaver Campground (GNP),(603) 487-5570,88 Cochran Hill Rd,New Boston,NH,3070,USA
+-58.802135,48.250291,Pirate's Haven RV Park (GNP),(709) 649-0601,229 Main Rd,Robinsons,NL,A0N 1V0,CAN
+-107.761481,32.429951,Hidden Valley Ranch RV Resort (GNP),(575) 546-3071,12100 Hidden Valley Rd NW,Deming,NM,88030,USA
+-106.33945,35.104105,Hidden Valley Resort,(505) 281-3363,8448 Hwy 333,Tijeras,NM,87059,USA
+-65.508755,44.759169,Dunromin Campground (GNP),(902) 532-2808,4618 Hwy 1,Annapolis Royal,NS,B0S 1K0,CAN
+-60.858907,46.088675,Adventures East Campground,(902) 295-2417,9585 Hwy 105,Baddeck,NS,B0E 1B0,CAN
+-61.048258,46.608365,Plage St Pierre Beach Campground (GNP),(902) 224-2112,635 Cheti Camp Island Rd,Cheticamp,NS,B0E 1Ho,CAN
+-64.340981,44.488979,Rayport Campground (GNP),(902) 627-2678,165 Shingle Mill Rd,Martin's River,NS,B0J 2E0,CAN
+-66.048763,43.77905,Castle Lake Campground (GNP),(902) 749-1739,83 Comeaus Hill Rd,Melbourne,NS,B0W 1B0,CAN
+-63.288481,45.286523,Scotia Pines Campground (GNP),(877) 893-3666,1911 Hwy 2,Truro,NS,B0N 1C0,CAN
+-115.981566,36.210989,Preferred RV Resort,(775) 727-6429,1801 Crawford Way,Pahrump,NV,89048,USA
+-119.275532,38.837564,Walker River Resort,(775) 465-2573,700 Hudson Way,Smith,NV,89430,USA
+-75.9682304,44.2987306,Swan Bay Resort (GNP),(315) 482-7926,43615 SR 12,Alexandria Bay,NY,13607,USA
+-78.283969,42.646858,Faun Lake,(585) 457-3301,5124 Pleasant Valley Rd,Bliss,NY,14024,USA
+-73.738213,43.550429,Schroon River Escape Kodges & RV,(518) 623-3954,969 E Schroon River Rd,Diamond Point,NY,12824,USA
+-78.696031,42.349367,Allegany Mountain Resort,(716) 376-4144,6994 Plato Road,East Otto,NY,14729,USA
+-73.818104,43.146293,Saratoga Escape Lodge & RV,(518) 893-0537,265 Brigham Rd,Greenfield,NY,12833,USA
+-78.509117,42.613684,Three Valley Resort,(716) 537-2372,9766 Olean Rd,Holland,NY,14080,USA
+-78.385082,42.662509,Beaver Meadow Family Campground (GNP),(585) 457-3101,1455 Beaver Meadow Rd,Java Center,NY,14082,USA
+-78.853284,43.205788,Niagara's Lazy Lakes Resort,(800) 874-2957,4312 Church Rd,Lockport,NY,14094,USA
+-76.045503,43.404508,Bass Lake Resort (Travel Resorts of America),(315) 728-9437,132 Crim Rd,Parish,NY,13131,USA
+-73.4012,43.5608,Champs RV Resort,(518) 499-5055,1 Main St,Whitehall,NY,12887,USA
+-80.542987,41.635691,Holiday Camplands,(440) 293-7116,4273 Pymatuning Lake Rd,Andover,OH,44003,USA
+-81.0982,41.0993,Leisure Lake,(330) 953-9314,5393 SR 225,Diamond,OH,44412,USA
+-80.780419,41.640725,Millbrook Outdoor Resort,(440) 294-3991,4051 SR 45 S,Jefferson,OH,44047,USA
+-81.485862,40.189536,Rocky Fork Ranch [Travel Resorts of America],(800) 370-1645,74978 Broadhead Rd,Kimbolton,OH,43749,USA
+-82.190179,40.591996,Wally World Resort (Travel Resorts of Ohio),(419) 994-4828,16121 CR 23,Loudonville,OH,44842,USA
+-81.961564,39.045401,Kountry Resort Campground,(740) 992-6488,44705 Resort Rd,Racine,OH,45771,USA
+-83.376374,38.666416,Sandy Springs Campground (GNP),(701) 640-7858,27719 Hwy 52,Stout,OH,45684,USA
+-84.162593,40.559414,Arrowhead Lakes,(419) 738-5000,14296 Cemetery Rd,Wapakoneta,OH,45895,USA
+-94.987783,36.552357,Pelican Landing,(918) 782-3295,32100 Hwy 85,Afton,OK,74331,USA
+-95.527979,35.353084,Terra Starr Park,(918) 689-7094,420589 E 1147 Rd,Checotah,OK,74426,USA
+-94.814284,36.620042,Eagle's Landing,(918) 786-6196,25301 Hwy 59 N,Grove,OK,74344,USA
+-94.8617,36.5447,Pine Island RV Resort,(918) 786-9071,32501 South 571 Rd,Jay,OK,74346,USA
+-96.58461,34.056291,Texoma Shores Resort [Ocean Canyon Properties],(580) 795-3828,16022 Cumberland Cove Rd,Madill,OK,73446,USA
+-97.142953,33.785091,Red River Ranch RV,(580) 276-4411,19691 Hwy 77,Thackerville,OK,73459,USA
+-79.807696,44.167426,Nicolston Dam RV Park (GNP),(705) 435-7946,5140 5th Line Essa,Alliston,ON,L9R 1V2,CAN
+-74.399011,45.21685,Maplewood Acres RV Park (GNP),(613) 347-2130,21848 Concession Rd 3,Bainsville,ON,K0C 1E0,CAN
+-79.361213,45.025275,Santa's Whispering Pines Campground (GNP),(705) 645-5682,1623 Golden Beach Rd,Bracebridge,ON,P1L 1W8,CAN
+-77.624197,44.03451,North Shore RV Park (GNP),(613) 475-2036,1675 CR 64,Carrying Place,ON,K0K 1L0,CAN
+-77.625124,45.382297,Pine Cliff Resort (GNP),(888) 756-3014,21 Allingham Ln,Combermere,ON,K0J 1L0,CAN
+-92.81959,49.78711,Northwestern Tent and RV Park (GNP),(807) 223-4945,559 Government St,Dryden,ON,P8N 2Y8,CAN
+-80.0767648,43.3860442,Flamboro Valley Camping Resort (GNP),(905) 659-5053,1158 Hwy 97,Flamborough,ON,N0B 2J0,CAN
+-87.184434,49.711129,Wild Goose Lake Campground (GNP),(866) 465-4404,8 Kueng's Rd,Geraldton,ON,P0T 1M0,CAN
+-80.9159905,44.2069363,Saugeen Springs RV Park (GNP),(519) 369-5136,173844 Mulock Rd,Hanover,ON,N4N 3B9,CAN
+-91.6524925,49.4100223,Davy Lake Campground (GNP),(877) 374-3113,400 Davy Lake Rd,Ignace,ON,P0T 1T0,CAN
+-78.273361,44.428897,Lakefield Campground (GNP),(705) 652-8610,59 Hague Blvd,Lakefield,ON,K0L 2H0,CAN
+-75.793753,44.524962,Happy Green Acres Campground (GNP),(343) 264-2468,2 Green Acres Rd,Mallorytown,ON,K0E 1R0,CAN
+-81.871788,45.756846,Manitoulin Resort (GNP),(705) 859-3550,152 Holiday Haven Rd,Manitowaning,ON,P0P 1N0,CAN
+-78.7161072,46.3116978,Sid Turcotte Park (GNP),(705) 744-5375,750 Mattawan St,Mattawa,ON,P0H 1V0,CAN
+-81.403652,45.09785,Summer House Park (GNP),(519) 795-7712,197 Miller Lake Shore Rd,Miller Lake,ON,H0H 1Z0,CAN
+-80.137636,44.087757,Primrose Park (GNP),(519) 925-2848,635687 Hwy 10,Mono,ON,L9V 0Z8,CAN
+-75.1042375,44.9476378,Upper Canada Campground (GNP),(613) 543-2201,13390 Upper Canada Rd,Morrisburg,ON,K0C 1X0,CAN
+-79.1461669,43.0895177,Scott's Family RV Park (GNP),(800) 649-9497,8845 Lundy's Ln,Niagara Falls,ON,L2H 1H5,CAN
+-79.1202772,43.0498023,Yogi Bear's Jellystone Park (GNP),(800) 263-2570,8676 Oakwood Dr,Niagara Falls,ON,L2G 0J2,CAN
+-88.31901,49.011736,Stillwater Park Campground (GNP),(807) 887-3701,358 Trans-Canada Hwy,Nipigon,ON,P0T 2J0,CAN
+-75.574864,45.291145,Camp Hither Hills (GNP),(613) 822-0509,5227 Bank St,Ottawa,ON,K1X 1H2,CAN
+-84.294943,46.601496,Glenview Campground (GNP),(705) 759-3436,2611 Great Northern Rd,Sault Ste Marie,ON,P6A 5K7,CAN
+-82.601435,46.211253,Serperent River Campground (GNP),(705) 849-2210,4696 Hwy 17 W,Spragge,ON,P0R 1K0,CAN
+-79.969502,46.348943,Sturgeon Falls KOA (GNP),(705) 753-5759,818 lalande Rd,Sturgeon Falls,ON,P2B 2V4,CAN
+-82.113306,42.978668,Country View Motel and RV (GNP),(519) 845-3394,4569 London Line,Wyoming,ON,N0N 1T0,CAN
+-121.458894,43.750182,Cascade Meadows RV Resort,(541) 536-2244,53750 Hwy 97,LaPine,OR,97739,USA
+-123.96315,44.880949,Chinook Bend RV Resort,(541) 996-2032,2920 Siletz Hwy,Lincoln City,OR,97367,USA
+-123.97519,45.093138,Neskowin Creek RV Resort,(503) 392-3355,50500 Hwy 101,Neskowin,OR,97149,USA
+-123.9227,45.6884,Paradise Cove Resort (Advance Resorts of America),(503) 368-6581,32455 Hwy 101 N,Rockaway Beach,OR,97136,USA
+-123.384088,42.629997,Sunny Valley RV Park & Campground (GNP),(541) 479-0209,140 Old Stage Rd,Sunny Valley,OR,97497,USA
+-78.021293,41.56846,Austin Campground (GNP),(800) 878-0889,364 Nelson Run Rd,Austin,PA,16720,USA
+-79.34413,40.067747,Roaring Run Resort,(724) 593-7837,194 Tannery Rd,Champion,PA,15622,USA
+-77.259916,39.780017,Gettysburg Battlefield Resort (Travel Resorts of America),(717) 337-3363,1960 Emmitsburg Rd,Gettysburg,PA,17325,USA
+-63.673078,46.25427,Jellystone Park PEI (GNP),(844) 734-9644,23714 Trans Canada Hwy,Borden-Carleton,PEI,C0B 1X0,CAN
+-63.372319,46.484092,Marco Polo Land (GNP),(902) 963-2352,7406 Rte 13,Cavendish,PEI,C0A 1N0,CAN
+-63.66124,46.560556,Twin Shores Camping Area (GNP),(902) 836-4142,702 Lower Darnley Rd,Darrnley,PEI,C0B 1M0,CAN
+-71.832035,45.242813,Camping de Compton,(819) 835-5277,24 Chemin de la Station,Compton,QC,J0B 1L0,CAN
+-71.051286,46.811971,Camping Transit (GNP),(418) 838-0948,600 Chemin St Roch,Levis,QC,G6Y 0W3,CAN
+-78.750772,33.795393,Briarcliffe RV Resort,(843) 272-2730,10495 N Kings Hwy,Myrtle Beach,SC,29572,USA
+-78.999306,33.686756,Cypress Camping Resort,(843) 293-0300,101 Cypress RV Way,Myrtle Beach,SC,29588,USA
+-103.201888,43.818817,Heartland RV Park (GNP),(605) 255-5460,24743 Hwy 79,Hemosa,SD,57744,USA
+-103.2024191,43.8458556,Southern Hills RV Park & Campground (GNP),(605) 939-7609,24549 Hwy 79,Hermosa,SD,57744,USA
+-103.3272,43.9731,Rushmore Shadows Resort (Midwest Outdoor Resorts),(605) 399-7899,23680 Busted Five Ct,Rapid City,SD,57702,USA
+-103.46579,44.363405,No Name Luxury Cabins & RV (GNP),(605) 347-8891,20899 Pleasant Valley Dr,Sturgis,SD,57785,USA
+-82.249665,36.527631,Shadrack Campground (GNP),(423) 217-1181,2537 Volunteer Pkwy,Bristol,TN,37620,USA
+-85.062363,35.809637,Breckenridge Lake Resort,(931) 788-1873,395 Oak Park Circle,Crossville,TN,38572,USA
+-88.794816,35.223499,Big Buck Camping Resort,(731) 658-2246,205 Sparks Rd,Hornsby,TN,38044,USA
+-83.5889528,35.8016191,Creekside RV Park (GNP),(865) 428-4801,2475 Henderson Springs Rd,Pigeon Forge,TN,37863,USA
+-98.092586,26.178192,Acacia RV Park (GNP),(956) 464-4080,89 E Business Hwy 83,Alamo,TX,78516,USA
+-98.991515,29.617372,Holiday Villages of Medina (Texas Resort Company),(830) 796-8141,234 Private Rd,Bandera,TX,78003,USA
+-97.459781,25.958997,Brownsville Winter Haven Resort,(956) 831-7755,3501 Old Port Isabel Rd,Brownsville,TX,78526,USA
+-97.571485,25.957687,River Bend Country Club,(956) 548-0194,4541 US Military Hwy 281<,Brownsville,TX,78520,USA
+-99.051633,31.798161,The Hideout Resort,(325) 784-4653,6284 M 2632,Brownwood,TX,76801,USA
+-95.854545,32.573694,Mill Creek Ranch RV and Cottage Resort (GNP),(903) 567-7275,2102 N Trade Days Blvd,Canton,TX,75103,USA
+-98.155822,26.547587,Lazy Palms Ranch (GNP),(956) 383-1020,35100 Lazy Palms Dr,Edinburg,TX,78541,USA
+-95.142287,29.055225,Blue Water Resort (GNP),(979) 239-4301,11511 Blue Water Way,Freeport,TX,77541,USA
+-97.74487,32.238842,Oakdale Park (GNP),(254) 897-2321,1019 NE Barnard St,Glen Rose,TX,76043,USA
+-97.721388,32.251553,Tres Rios RV River Resort and Campground (Ocean Canyon Properties),(254) 897-4253,2322 CR 312,Glen Rose,TX,76043,USA
+-99.110085,29.99703,Triple T RV Resort (GNP),(830) 634-3000,3900 Bandera Hwy,Kerrville,TX,78028,USA
+-98.37025,32.512532,Cactus Rose RV Park (GNP),(254) 693-5967,115 W I-20,Mnigus,TX,76463,USA
+-101.719077,34.222492,The Hitchin' Post RV Park (GNP),(806) 789-3066,4018 N I-27,Plainview,TX,79072,USA
+-95.2804,30.5486,Hillcrest RV Park,(936) 767-4101,5260 Hwy 150 W,Pumpkin,TX,77358,USA
+-100.8604,33.860175,Roaring Springs Ranch Club,(806) 348-7292,1001 FM 3203,Roaring Springs,TX,79256,USA
+-97.030987,28.103582,Bay View,(361) 288-4723,5451 Hwy 35 N,Rockport,TX,78382,USA
+-102.068385,36.327338,Star of Texas RV Park (GNP),(806) 366-7827,5680 Hwy 15,Stratford,TX,79084,USA
+-94.6008525,32.3396959,Amazing Texas Resort (GNP),(936) 204-0397,17506 FM 782 N,Tatum,TX,75691,USA
+-95.3106,30.9398,Marina Village Resort,(936) 594-0149,176 E Westwood Dr,Trinity,TX,75862,USA
+-97.341928,31.993613,Whitney Resorts,(254) 694-4023,255 Suncountry Dr,Whitney,TX,76692,USA
+-95.551492,30.45101,Waters Edge,(936) 856-2949,12922 Longstreet Rd,Willis,TX,77318,USA
+-101.998028,33.514284,Mesa Verde RV Park (GNP),(806) 773-3135,503 E Hwy 62,Wolfforth,TX,79382,USA
+-112.593625,39.351474,Antelope Valley RV Park,(702) 413-9321,776 W Main St,Delta,UT,84624,USA
+-111.889771,40.51042,Mountain Shadows RV Park (GNP),(801) 571-4024,13275 S Minuteman Dr,Draper,UT,84020,USA
+-110.491773,40.172311,Campground by Osiris-Lakeside Park,(435) 738-2044,8850 S 26500 W,Duchesne,UT,84021,USA
+-111.418582,39.598064,Skyline Mountain Resort,(435) 427-9590,22130 N 11750 E,Fairview,UT,84629,USA
+-111.42176,39.50537,Camperworld by Osiris- - Pleasant Creek,(800) 959-0722,2903 S 1700 E,Mount Pleasant,UT,84647,USA
+-111.728176,40.236199,Lakeside RV Campground (GNP),(801) 373-5267,4000 W center St,Provo,UT,84601,USA
+-111.855,38.9434,Butch Cassidy RV Campground,(435) 529-7400,1050 s State,Salina,UT,84654,USA
+-113.582323,37.091493,McArthur's Temple View RV Resort (GNP),(435) 673-6400,975 Main St,St George,UT,84770,USA
+-78.289203,38.90575,Skyline Ranch Resort,(540) 636-6061,751 Mountain Rd,Front Royal,VA,22630,USA
+-77.864307,36.558259,Lakeside Resort,(434) 577-2194,300 Lake Resort Dr,Gasburg,VA,23057,USA
+-78.13772,38.0842,Shenandoah Crossing Resort,(540) 832-9506,174 Horseshoe Circle,Gordonsville,VA,22942,USA
+-79.123636,37.988466,Stoney Creek Resort,(540) 337-1510,277 Lake Dr,Greenville,VA,24440,USA
+-77.654884,38.309829,Wilderness Presidential Resorts,(540) 972-7471,9220 Plank Rd,Spotsylvania,VA,22553,USA
+-75.973164,36.729623,Indian Cove Resort,(757) 426-2601,1053 Sandbridge Rd,Virginia Beach,VA,23456,USA
+-117.564488,47.653357,Northern Quest RV Resort (GNP),(583) 702-2028,303 S Kalispel Way,Airway Heights,WA,99001,USA
+-122.753812,48.906861,Beachwood Resort,(360) 371-5006,5001 Bay Rd,Birch Bay,WA,98230,USA
+-117.541523,47.583627,Ponderosa Falls Resort (K/M Resorts of America),(800) 494-7275,7520 S Thomas Mallen Rd,Cheney,WA,99004,USA
+-123.9407,46.269083,Columbia Shores RV Park (K/M Resorts of America),(360) 777-8581,706 Hwy 101,Chinook,WA,98614,USA
+-117.196758,46.414549,Chief Timothy Park (GNP),(509) 758-9580,13766 Hwy 12,Clarkston,WA,99403,USA
+-120.932909,47.181459,Whispering Pines RV Park (GNP),(509) 674-7278,100 Whispering Pines Dr,Cle Elum,WA,98922,USA
+-124.175814,47.111242,Copalis Beach Resort (Sunrise Resorts),(360) 289-4278,14 Heath Rd,Copalis Beach,WA,98535,USA
+-117.442867,47.965383,Spokane RV Resort (GNP),(877) 276-1555,1205 N Country Club Dr,Deer Park,WA,99006,USA
+-121.186725,47.246208,Lake Easton Resort (Sunrise Resorts),(509) 656-2255,581 Lake Easton Rd,Easton,WA,98925,USA
+-123.388064,47.00189,Elma RV Park (GNP),(360) 482-4053,4730 Hwy 12,Elma,WA,98541,USA
+-123.386955,47.008914,Travel Inn Resort (K/M Resorts of America),(360) 482-3877,801 E Main,Elma,WA,98541,USA
+-119.729728,47.481246,Rimrock Meadows,(509) 632-9800,4177 Tumbleweed Way,Ephrata,WA,98823,USA
+-122.585269,48.870963,The Cedars RV Resort (Holiday Trails Resorts) (GNP),(360) 384-2622,6335 Portal Way,Ferndale,WA,98248,USA
+-123.187598,47.410785,Dow Creek Resort (Sunrise Resorts),(360) 877-5022,2670 N Lake Cushman Rd,Hoodsport,WA,98548,USA
+-123.13165,47.419533,Glen Ayr Resort (GNP),(360) 877-9522,25381 N Hwy 101,Hoodsport,WA,98548,USA
+-124.049323,46.310863,Eagle's Nest RV Resort (Sunrise Resorts),(360) 642-8351,700 W North Head Rd,Ilwaco,WA,98624,USA
+-122.030637,47.535694,Issaquah Village RV Park (GNP),(425) 392-9233,650 1st Ave NE,Issaquah,WA,98027,USA
+-118.076978,48.606422,Grandview Inn & RV Park (GNP),(509) 738-6733,978 Hwy 395 N,Kettle Falls,WA,99141,USA
+-124.053988,46.390094,Pacific Holiday RV Resort (Sunrise Resorts),(360) 642-2770,12109 Pacific Way,Long Beach,WA,98631,USA
+-119.327697,47.101914,Pier 4 RV Resort (Sunrise Resorts),(509) 765-6319,3400 Sage Rd,Moses Lake,WA,98837,USA
+-119.343661,47.108162,Suncrest RV Park (GNP),(509) 765-0355,303 Hansen Rd,Moses Lake,WA,99837,USA
+-122.351656,48.422812,Mount Vernon RV Park (GNP),(800) 385-9895,1229 Memorial Hwy,Mount Vernon,WA,98273,USA
+-117.040838,48.186384,Old American Kampground (K/M Resorts of America),(509) 447-3663,701 N Newport Ave,Newport,WA,99156,USA
+-117.533202,47.795227,Willow Bay Resort (Advanced Resorts of America),(509) 276-2350,6607 Hwy 291,Nine Mile Falls,WA,99026,USA
+-124.1631,47.0551,Ocean Breeze RV Resort [K/M Resorts of America],(360) 289-0628,2428 SR 109,Ocean City,WA,98569,USA
+-119.320181,46.965904,MarDon Resort on Potholes Reservoir (GNP),(509) 346-2651,8198 Hwy 262 SE,Othello,WA,99344,USA
+-119.345855,46.970009,O'Sullivan Sportsman Resort,(509) 346-2447,6897 Hwy 262 SE,Othello,WA,99344,USA
+-123.553537,48.097565,Elwha Dam RV Park (GNP),(360) 452-7054,47 Lower Dam Rd,Port Angeles,WA,98363,USA
+-122.593738,47.706342,Cedar Glen RV Park (GNP),(360) 779-4305,16300 NE Hwy 305,Poulsbo,WA,98370,USA
+-121.777764,46.534424,Cascade Peaks,(360) 494-7931,11519 Hwy 12,Randle,WA,98377,USA
+-121.955774,46.530068,Maple Grove Resort (K/M Resorts of America),(360) 497-2742,175 SR 131,Randle,WA,98377,USA
+-118.666498,48.679198,Winchester RV Park (GNP),(509) 775-1039,8 W Curlew Lake Rd,Republic,WA,99166,USA
+-121.468509,48.511591,Glacier Peak Resort (GNP),(360) 873-2250,58468 Clark Cabin Rd,Rockport,WA,98283,USA
+-122.929853,48.088137,Diamond Point Resort (K/M Resorts of America),(360) 681-0590,294 Industrial Pkwy,Sequim,WA,98382,USA
+-120.135427,48.390548,Riverbend RV Park (GNP),(509) 997-3500,19961 Hwy 20,Twisp,WA,98856,USA
+-118.712857,47.760906,Country Lane Campground (GNP),(509) 647-0100,14 Portland St NW,Wilbur,WA,99185,USA
+-118.698266,47.756149,Goose Creek RV Park (GNP),(509) 647-5888,712 SE Railroad Ave,Wilbur,WA,99185,USA
+-89.14243,45.914388,Chain-O-Lakes Resort Park,(715) 479-6708,3165 Campground Rd,Eagle River,WI,54521,USA
+-88.766845,44.921526,Captain's Cove Resort and Country Club,(715) 787-3909,N 9099 Big Lake Rd,Gresham,WI,54128,USA
+-89.349001,45.63056,West Bay Camping Resort,(715) 362-3481,4330 S Shore Dr,Rhinelander,WI,54501,USA
+-87.336195,44.95393,Harbour Village Resort,(920) 743-0274,5840 Hwy 42 N,Sturgeon Bay,WI,54235,USA
+-89.848236,43.612624,Christmas Mountain Village Campground,(608) 254-3940,944 Christmas Mountain Rd,Wisconsin Dells,WI,53965,USA
+-109.733509,42.758952,Wind River View Campground,(307) 537-5453,8889 Hwy 191,Boulder,WY,82923,USA
+-110.947713,41.270813,Phillips RV Park (GNP),(307) 789-3805,225 Bear River Dr,Evanston,WY,82930,USA
