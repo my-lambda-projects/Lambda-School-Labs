@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Price My AirBnb Sign In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body,
+    html {
+      height: 100%;
+      background-color: #f9f9f9;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    nav {
+      width: 100vw;
+      height: 10vh;
+      position: fixed;
+      background-color: white;
+      top: 0px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 3;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .navLeft {
+      border-radius: 50px;
+      background-color: white;
+      height: 50px;
+      width: 50px;
+      position: relative;
+      left: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navLogo {
+      height: 45px;
+    }
+
+    .navRight {
+      width: 40vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: "Varela Round", sans-serif;
+      font-size: 16px;
+      line-height: 1;
+      color: #484848;
+      margin: 0 2% 0 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      text-decoration: none;
+      opacity: 1;
+      color: black;
+    }
+
+    .signUpButton {
+      background: #ffffff;
+      border: 2px solid #00a699;
+      border-radius: 4px;
+      height: 35px;
+      width: 90px;
+      font-size: 16px;
+      color: #00a699;
+    }
+
+    .demoButton {
+      background: #00a699;
+      border-radius: 4px;
+      border: 2px solid #00a699;
+      height: 35px;
+      width: 140px;
+      color: white;
+    }
+
+    .mainDiv {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+    }
+
+    .mainLeft {
+      width: 50%;
+      height: 90vh;
+      padding: 8% 0 0 0;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+    }
+
+    .leftTop {
+      display: flex;
+      width: 60%;
+      height: 35%;
+      margin: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .topTop {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    h1 {
+      margin: 6% 0;
+    }
+
+    .leftP {
+      color: black;
+      font-size: 16px;
+    }
+
+    h3 {
+      font-size: 16px;
+      color: #484848;
+    }
+
+    .leftBottom {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      height: 60%;
+    }
+
+    .leftForm {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+    }
+
+    .formInput {
+      width: 100%;
+      height: 45px;
+      border-radius: 4px;
+      border: 1px solid #ededed;
+    }
+
+    .loginButton {
+      width: 100%;
+      background-color: #ff5a5f;
+      border-radius: 4px;
+      color: white;
+      font-size: 16px;
+      height: 40px;
+      border: none;
+      margin: 8% 0 3% 0;
+    }
+
+    .googleButton {
+      background-color: white;
+      border: none;
+      outline: none;
+    }
+
+    h4 {
+      font-size: 12px;
+      color: #484848;
+      margin: 0;
+    }
+
+    .signUpButton2 {
+      background: white;
+      border: none;
+      outline: none;
+      text-decoration: underline;
+      font-size: 12px;
+      color: #484848;
+      margin: 0;
+      padding: 0;
+      width: 50px;
+    }
+
+    .mainRight {
+      width: 50%;
+      height: 100vh;
+      background-color: #00a699;
+      display: flex;
+    }
+
+    .rightContainer {
+      width: 80%;
+      height: 85vh;
+      margin: auto;
+      padding: 10% 0 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .rightBottom {
+      height: 40%;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .bottomTop {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      margin: auto;
+    }
+
+    .bottomLeft {
+      margin: -10% 0 0 0;
+    }
+
+    .bottomMiddle {
+      width: 75%;
+      margin: 5% 1%;
+      text-align: justify;
+    }
+
+    .bottomRight {
+      margin: 15% 0 0 0;
+    }
+
+    p {
+      font-size: 20px;
+      color: white;
+    }
+
+    .bottomBottom {
+      text-align: right;
+      width: 85%;
+      padding: 0 0 10% 0;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-style: italic;
+      color: white;
+      margin: 1% 0;
+    }
+
+    .loginImg {
+      width: 100%;
+    }
+
+    .quoteFlipped {
+      transform: rotate(180deg);
+      width: 35px;
+      opacity: 0.2;
+    }
+
+    .quote {
+      width: 35px;
+      opacity: 0.2;
+    }
+
+    @media (max-width: 500px) {
+      .mobileNavA {
+        display: none;
+      }
+
+      .mainRight {
+        display: none;
+      }
+
+      .mainLeft {
+        width: 100%;
+        margin: 10% 0 0 0;
+      }
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="navLeft">
+        <img
+          class="navLogo"
+          src="https://i1.wp.com/ebenezersuites.com/wp-content/uploads/2016/06/airbnb-logo-266x300@2x.png"
+        />
+      </div>
+      <div class="navRight">
+        <a href="" class="mobileNavA">Mission</a>
+        <a href="" class="mobileNavA">How It Works</a>
+        <a href="" class="mobileNavA">Sign In</a>
+        <button class="signUpButton">Sign Up</button>
+        <button class="demoButton mobileNavA">Try Our Demo</button>
+      </div>
+    </nav>
+    <div class="mainDiv">
+      <div class="mainLeft">
+        <div class="leftTop">
+          <div class="topTop">
+            <h1>Login</h1>
+            <button type="button" id="btn-google" class="googleButton">
+              <img
+                class="googleImg"
+                src="https://i.ibb.co/G50zCsY/google.png"
+              />
+            </button>
+          </div>
+          <div class="topBottom">
+            <p class="leftP">or</p>
+          </div>
+        </div>
+        <div class="leftBottom">
+          <form class="leftForm" onsubmit="return false;" method="post">
+            <label for="name"><h3>Email</h3></label>
+            <input
+              type="email"
+              class="formInput"
+              id="email"
+              placeholder="Enter your email"
+            />
+            <label for="name"><h3>Password</h3></label>
+            <input
+              type="password"
+              class="formInput"
+              id="password"
+              placeholder="Enter your password"
+            />
+
+            <button type="submit" id="btn-login" class="loginButton">
+              Log In
+            </button>
+            <h4>
+              Don't have an account?
+              <button type="button" id="btn-signup" class="signUpButton2">
+                Sign up
+              </button>
+              here
+            </h4>
+          </form>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="mainRight">
+        <div class="rightContainer">
+          <div class="rightTop">
+            <img
+              class="loginImg"
+              src="https://i.ibb.co/qRHfTzF/undraw-buy-house-560d.png"
+            />
+          </div>
+          <div class="rightBottom">
+            <div class="bottomTop">
+              <div class="bottomLeft">
+                <img
+                  class="quote"
+                  src="https://static.thenounproject.com/png/433486-200.png"
+                />
+              </div>
+              <div class="bottomMiddle">
+                <p>
+                  This is the best decision I have made! I didn’t know how much
+                  to charge and Price my airbnb gives me my daily price.
+                </p>
+              </div>
+              <div class="bottomRight">
+                <img
+                  class="quoteFlipped"
+                  src="https://static.thenounproject.com/png/433486-200.png"
+                />
+              </div>
+            </div>
+            <div class="bottomBottom">
+              <h2>- Daniel Garcia</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="login-container">
+      <div class="col-xs-12 col-sm-4 col-sm-offset-4 login-box">
+        <div class="login-header">
+          <img
+            src="https://i1.wp.com/ebenezersuites.com/wp-content/uploads/2016/06/airbnb-logo-266x300@2x.png"
+          />
+          <h3>Welcome</h3>
+          <h5>PLEASE LOG IN</h5>
+        </div>
+        <div id="error-message" class="alert alert-danger"></div>
+        <form onsubmit="return false;" method="post">
+          <div class="form-group">
+            <label for="name">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <button
+            type="submit"
+            id="btn-login"
+            class="btn btn-primary btn-block"
+          >
+            Log In
+          </button>
+          <button
+            type="button"
+            id="btn-signup"
+            class="btn btn-default btn-block"
+          >
+            Sign Up
+          </button>
+          <hr />
+          <button
+            type="button"
+            id="btn-google"
+            class="btn btn-default btn-danger btn-block"
+          >
+            Log In with Google
+          </button>
+        </form>
+      </div>
+    </div> -->
+
+    <!--[if IE 8]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.5/ie8.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 9]>
+      <script src="https://cdn.auth0.com/js/polyfills/1.0/base64.min.js"></script>
+      <script src="https://cdn.auth0.com/js/polyfills/1.0/es5-shim.min.js"></script>
+    <![endif]-->
+
+    <script src="https://cdn.auth0.com/js/auth0/9.11.2/auth0.min.js"></script>
+    <script src="https://cdn.auth0.com/js/polyfills/1.0/object-assign.min.js"></script>
+    <script>
+      window.addEventListener("load", function() {
+        var config = JSON.parse(
+          decodeURIComponent(escape(window.atob("@@config@@")))
+        );
+
+        var params = Object.assign(
+          {
+            /* additional configuration needed for use of custom domains
+        overrides: {
+          __tenant: config.auth0Tenant,
+          __token_issuer: 'YOUR_CUSTOM_DOMAIN'
+        }, */
+            domain: config.auth0Domain,
+            clientID: config.clientID,
+            redirectUri: config.callbackURL,
+            responseType: "code"
+          },
+          config.internalOptions
+        );
+
+        var webAuth = new auth0.WebAuth(params);
+
+        var databaseConnection = "Username-Password-Authentication";
+
+        function login(e) {
+          e.preventDefault();
+          var username = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
+          webAuth.login(
+            {
+              realm: databaseConnection,
+              username: username,
+              password: password
+            },
+            function(err) {
+              if (err) displayError(err);
+            }
+          );
+        }
+
+        function signup() {
+          var email = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
+
+          webAuth.redirect.signupAndLogin(
+            {
+              connection: databaseConnection,
+              email: email,
+              password: password
+            },
+            function(err) {
+              if (err) displayError(err);
+            }
+          );
+        }
+
+        function loginWithGoogle() {
+          webAuth.authorize(
+            {
+              connection: "google-oauth2"
+            },
+            function(err) {
+              if (err) displayError(err);
+            }
+          );
+        }
+
+        function displayError(err) {
+          var errorMessage = document.getElementById("error-message");
+          errorMessage.innerHTML = err.description;
+          errorMessage.style.display = "block";
+        }
+
+        document.getElementById("btn-login").addEventListener("click", login);
+        document
+          .getElementById("btn-google")
+          .addEventListener("click", loginWithGoogle);
+        document.getElementById("btn-signup").addEventListener("click", signup);
+      });
+    </script>
+  </body>
+</html>

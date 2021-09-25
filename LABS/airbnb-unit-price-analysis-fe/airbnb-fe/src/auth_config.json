@@ -1,0 +1,6 @@
+{
+    "domain": "dev-cz8-jv29.auth0.com",
+    "clientId": "fkABaEr28eZ7mra6DDNs3aFBbWdqrMRW",
+    "audience": "https://airbnbupa",
+    "redirect_uri": "http://localhost:3000/dashboard"
+}

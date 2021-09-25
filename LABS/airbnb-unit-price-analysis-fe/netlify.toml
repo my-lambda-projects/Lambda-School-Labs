@@ -1,0 +1,4 @@
+[build]
+base = "airbnb-fe/"
+publish = "airbnb-fe/build/"
+command = "npm run build"
