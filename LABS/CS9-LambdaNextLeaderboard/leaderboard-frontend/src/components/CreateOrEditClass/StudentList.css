@@ -1,0 +1,19 @@
+.main {
+    border: 2px solid orangered;
+
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*max-height: 300%;*/
+    /*min-height: 300%;*/
+    /*box-sizing: border-box;*/
+    padding: 1%;
+    height: 100%;
+    /*height: 38em;*/
+    /*height: 200%;*/
+}
+.Toggle {
+    display: inline-flex;
+    /*background: rebeccapurple;*/
+    width: 20%;
+    margin-bottom: 1em;
+}

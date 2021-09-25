@@ -1,0 +1,194 @@
+.SplitPane {
+    width: 100%;
+    height: 100%;
+
+}
+/* #root {
+  height: 100%;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+    /*display: 'inline-flex';*/
+    max-width: 1024;
+    height: 100%;
+    width: 100%;
+
+
+}
+html, body, #root {
+    width: 100%;
+    height: 100%;
+}
+
+
+.SplitPane-left {
+    float: left;
+    /*margin-top: 5%;*/
+    margin-bottom: 2%;
+    width: 12%;
+    margin-right: 2%;
+    height: 93%;
+}
+
+.SplitPane-right {
+    float: left;
+    /*margin-top: 5%;*/
+    margin-bottom: 2%;
+    width: 86%;
+    height: 93%;
+}
+
+.LeftContent {
+    margin-left: 5%;
+    width: 100%;
+    /* height: 90%;  */
+    background: lightgray;
+}
+
+.RightContent {
+    margin-right: 3%;
+    width: 95%;
+     /*height: 100%;*/
+    background: #f2f1f2;
+    /*box-sizing: border-box;*/
+    /* background: red; */
+}
+
+.SplitPane {
+    /*width: 100%;*/
+    /*height: 100%;*/
+
+}
+/* #root {
+  height: 100%;
+} */
+.ClassList {
+    background: beige;
+    /*margin-top: 5%;*/
+    /*height: 20%;*/
+    /*margin-bottom: 3%;*/
+}
+
+.Settings {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    /*padding-left: 0.5%;*/
+    height: 35%;
+    background: beige;
+    margin-bottom: 1%;
+    /*border: 1px solid red;*/
+}
+.CName {
+    /*padding-top: 1%;*/
+    /*padding-bottom: 1%;*/
+    /*margin-top: 1em;*/
+    /*margin-top: 3%;*/
+    /*background: rebeccapurple;*/
+    /*height: 3.5em;*/
+    /*padding: .5%;*/
+    vertical-align: center;
+    /*padding-top: 2%;*/
+    padding-left: 1%;
+    margin-right: 20%;
+    width: 51%;
+    height: 40%;
+    border: 2px solid yellow;
+}
+.BtnImport {
+    width: 20%;
+    /*margin-left: 100%;*/
+    /*padding: 40%;*/
+    height: 40%;
+    /*padding-top: 1%;*/
+    /*padding-bottom: 1%;*/
+    /*height: 3.5em;*/
+    /*padding: .5%;*/
+    /*padding-left: 7%;*/
+    /*padding-right: 7%;*/
+
+}
+.Add_Students {
+    height: 40%;
+    margin: 0 auto;
+    background: beige;
+    /*display: inline-block;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+
+    /*text-align: center;*/
+    /*height: 12em;*/
+    /*padding: 1%;*/
+    /*padding: 6% 1%;*/
+    /*padding-top: 10%;*/
+    /*padding-bottom: 10%;*/
+    /*margin-bottom: 2em;*/
+    /*margin-bottom: 1%;*/
+    border: 1px solid black;
+    padding: 2%;
+
+
+}
+.ClassCreateEdit {
+    height: 100%;
+    /*background: blue;*/
+}
+.LName {
+
+    /*height: 3.5em;*/
+    padding: 0.5%;
+    margin-right: 2%;
+    height: 40%;
+    /*margin-bottom: 1em;*/
+    margin-bottom: 2%;
+    /*margin-top: 2%;*/
+    width: 25%;
+
+}
+.FName {
+
+    /*height: 3.5em;*/
+    padding: 0.5%;
+    margin-right: 2%;
+    height: 40%;
+    width: 25%;
+}
+
+.Email {
+
+    margin-right: 8%;
+    /*height: 3.5em;*/
+    padding: 0.5%;
+    width: 25%;
+    height: 40%;
+}
+.Github {
+
+    margin-right: 2%;
+    /*height: 3.5em;*/
+    padding: 0.5%;
+    width: 25%;
+    height: 40%;
+}
+.Huntr {
+    /*height: 3.5em;*/
+    padding: 0.5%;
+    margin-right: 2%;
+    width: 25%;
+    height: 40%;
+}
+.BtnAdd {
+
+    /*height: 3.5em;*/
+    padding: 0.5%;
+    margin-right: 2%;
+    width: 10%;
+    height: 40%;
+}

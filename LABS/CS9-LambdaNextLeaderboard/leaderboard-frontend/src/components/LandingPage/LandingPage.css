@@ -1,0 +1,15 @@
+.Landing__head {
+  /* background-color: rgba(1, 1, 1, 0.7); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/RunningMan.jpeg");
+  background-size: cover;
+  padding: 50px 0;
+  font-size: 1.5em;
+}
+
+.Landing__footer {
+  background-color: rgba(1, 1, 1, 0.7);
+  padding: 50px 0;
+  border-top: 3px solid rgba(1, 1, 1);
+  font-size: 1.5em;
+}

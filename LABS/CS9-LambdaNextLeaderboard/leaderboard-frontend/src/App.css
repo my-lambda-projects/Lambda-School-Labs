@@ -1,0 +1,27 @@
+.APP {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.APP__HEADER {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.APP__MENU {
+  width: 100px;
+  background-color: lightgray;
+  border: 2px solid gray;
+}
+
+.APP__BODY {
+  margin-top: 68px;
+  height: 100%;
+}
+
+.APP__CONTENT {
+  width: 1100px;
+  margin: 0 auto;
+}

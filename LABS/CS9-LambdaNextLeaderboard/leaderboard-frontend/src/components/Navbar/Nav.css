@@ -1,0 +1,41 @@
+.Nav {
+  background-color: rgba(100, 1, 1, 0.9);
+  border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.Nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 67px;
+}
+
+.Nav__link {
+  color: white;
+  text-decoration: none;
+}
+
+.Nav__link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.ForgotPassword {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.expiredToken {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #10ba4b;
+  text-align: center;
+  padding: 25px 50px;
+  margin: 25px;
+  border-radius: 5px;
+  font-size: 1.3em;
+}
