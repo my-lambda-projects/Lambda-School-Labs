@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+.modal-dialog {
+    max-width: 640px;
+    margin: 1.75rem auto;
+    padding: 0px;
+    max-height: 480px;
+}
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.modal-content {
+    height: 390px;
+}
+

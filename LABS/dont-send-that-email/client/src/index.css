@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.topContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bodyContent {
+  display: flex;
+}
+
+.email-card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.emailCard {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd !important;
+}
+
+.documentCard {
+  margin-top: 9.5px;
+}
+.email-card h2 {
+  font-style: italic;
+}
+
+.h3 {
+  font-weight: 300;
+}
+
+.card-profile {
+  border: none !important;
+}
+
+.navbar {
+  margin-bottom: 15px;
+}
+
+.modal-open {
+  overflow:hidden;
+  overflow-y:scroll;
+  padding-right:0 !important;
+}

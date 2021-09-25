@@ -1,0 +1,8 @@
+STRIPE_API_KEY="paste_your_stripe_api_key_here"
+AUTH0_CLIENT_ID="paste_your_auth0_client_key_here"
+AUTH0_DOMAIN="dont-send-that-email.auth0.com"
+AUTH0_CLIENT_SECRET="paste_your_auth0_client_secret_key_here"
+AUTH0_CALLBACK_URL="http://localhost:5000/auth/callback"
+API_KEY="paste_your_watson_key_here"
+REACT_APP_BACKEND_URL="http://localhost:5000"
+FRONT_END_URL="http://localhost:3000"

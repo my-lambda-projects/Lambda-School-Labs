@@ -1,0 +1,222 @@
+html,
+body {
+  margin: 0;
+}
+#App {
+  font-family: sans-serif;
+
+  /* Give app full page to work with */
+  height: 100vh;
+}
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  /* overflow: auto; */
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #ff8282;
+  transition: color 0.2s;
+}
+
+/* Remove blue outline when clicked */
+.bm-item:focus,
+.bm-item:active {
+  outline: none;
+}
+
+.bm-item button {
+  width: 100%;
+  margin-left: -3px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bm-item button span {
+  width: 70%;
+  text-align: left;
+  margin-left: 6em;
+}
+
+.bm-item button .middle-button {
+  margin-left: 6.25em;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: #ff8282;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 24px;
+  height: 18px;
+  right: 50px;
+  top: 25px;
+}
+
+/* Iphone 5/SE hamburger position */
+@media (min-width: 320px) {
+  .bm-burger-button {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    right: 15px;
+    top: 25px;
+  }
+}
+
+/* Galaxy S5 hamburger position */
+@media (min-width: 360px) {
+  .bm-burger-button {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    right: 15px;
+    top: 25px;
+  }
+}
+
+
+/* Iphone 6/7/8 hamburger position */
+@media (min-width: 375px) {
+  .bm-burger-button {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    right: 15px;
+    top: 25px;
+  }
+}
+
+/* Pixel 2 hamburger position */
+@media (min-width: 411px) {
+  .bm-burger-button {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    right: 15px;
+    top: 25px;
+  }
+}
+
+/* Iphone 6/7/8 plus hamburger position */
+@media (min-width: 414px) {
+  .bm-burger-button {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    right: 15px;
+    top: 25px;
+  }
+}
+
+
+/* Ipad hamburger position */
+@media (min-width: 768px) {
+  .bm-burger-button {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    right: 50px;
+    top: 25px;
+  }
+}
+
+/* Ipad Pro hamburger position */
+@media (min-width: 1024px) {
+  .bm-burger-button {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    right: 55px;
+    top: 25px;
+  }
+}
+
+/* Hamburger location beyond 1024px */
+/* @media (min-width: 1025px) {
+  .bm-burger-button {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    right: 10%;
+    top: 25px;
+  }
+} */
+
+
+
+/* Remove blue outline when clicked */
+.bm-burger-button button:focus,
+.bm-burger-button button:active {
+  outline: none;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #f5593d;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #fff;
+  padding: 1em 1em 0;
+  font-size: 1.15em;
+  overflow: hidden !important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  margin-left: 0.35em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(69, 43, 214, 0.7);
+}
+
+/* 
+.homeBtn, .settingBtn, .billingBtn{
+
+    margin: 5px;
+}
+
+.sideBar {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+} */
+button {
+  outline: none !important;
+}

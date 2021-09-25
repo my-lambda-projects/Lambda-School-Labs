@@ -1,0 +1,7 @@
+REACT_APP_LOGIN_URL="http://localhost:5000/auth/login"
+REACT_APP_PROFILE_URL="http://localhost:5000/auth/profile"
+REACT_APP_EMAILS_URL="http://localhost:5000/emails/"
+REACT_APP_PAYMENT_SERVER_URL="http://localhost:5000/billing"
+REACT_APP_STRIPE_API_PUBLISH_KEY="paste_your_own_key_here"
+REACT_APP_BACKEND_URL="http://localhost:5000"
+FRONT_END_URL="http://localhost:3000"

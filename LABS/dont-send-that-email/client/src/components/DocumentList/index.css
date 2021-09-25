@@ -1,0 +1,78 @@
+.btn {
+  align-content: center;
+}
+
+.titleBadge,
+.textBadge,
+.updatedBadge,
+.addresseeBadge {
+  width: 23%;
+  margin-right: 2%;
+  text-align: center;
+}
+@media (min-width: 400px) {
+  .titleBadge,
+  .textBadge,
+  .updatedBadge,
+  .addresseeBadge {
+    width: 18%;
+  }
+}
+@media (min-width: 500px) {
+  .titleBadge,
+  .textBadge,
+  .updatedBadge,
+  .addresseeBadge {
+    width: 14%;
+  }
+}
+@media (min-width: 768px) {
+  .titleBadge,
+  .textBadge,
+  .updatedBadge,
+  .addresseeBadge {
+    width: 23%;
+  }
+}
+@media (min-width: 1000px) {
+  .titleBadge,
+  .textBadge,
+  .updatedBadge,
+  .addresseeBadge {
+    width: 18%;
+  }
+}
+.container-fluid .button-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+}
+
+.card .card-body .card-title h3 {
+  font-size: 1.25em;
+}
+
+.card-columns {
+  column-count: 1 !important;
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    column-count: 2 !important;
+  }
+}
+
+/* For smooth transition on the Create-button */
+@media (max-width: 472px) {
+  .container-fluid .button-center {
+    height: 79vh;
+  }
+  /* Remove user's name in mobile view */
+  .nav .nav-item {
+    display: none;
+  }
+}
+.searchText {
+  word-wrap: break-word;
+}

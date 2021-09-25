@@ -1,0 +1,433 @@
+/* Landing page background image */
+.computer {
+    background-image: url('../img/computer.jpg');
+};
+
+/* Nucleo Power Icon styles */
+.navbar.fixed-top .nav-link i {
+    top: 4px;
+}
+
+.navbar .nav-link i {
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+    right: 3px;
+}
+
+/* Let's talk about us section CSS */
+
+[class*=contactus-], [class*=features-], [class*=pricing-], [class*=projects-], [class*=team-], [class*=testimonials-] {
+    padding: 80px 0;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+
+    .col-md-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center!important;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.space-top {
+    margin-top: 30px;
+}
+
+.section .card-profile {
+    margin-top: 100px;
+}
+.card.card-plain {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
+.card-profile {
+    margin-top: 30px;
+    text-align: center;
+}
+.card-plain {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
+.card {
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    border: 0 none;
+    transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+}
+
+/* Sizing of image */
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card.card-plain img {
+    border-radius: 12px;
+}
+.card-plain img {
+    border-radius: 12px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.card.card-profile [class*=col-] .card-body {
+    padding-top: 0;
+}
+.card.card-plain .card-body {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.card-plain .card-body {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.card .card-body {
+    padding: 20px;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+/* Name of the card */
+.card.card-profile [class*=col-] .card-body .card-title {
+    margin-top: 10px!important;
+}
+.card-profile .card-body .card-title {
+    margin-top: 5px!important;
+}
+.card .card-body .card-title {
+    margin: 5px 0 0;
+}
+.card-title, .card-title a, .footer-big h4, .footer-big h4 a, .footer-big h5, .footer-big h5 a, .footer-brand, .footer-brand a, .info-title, .info-title a, .media .media-heading, .media .media-heading a, .title, .title a {
+    color: #333;
+    text-decoration: none;
+}
+.card-title, .footer-big h4, .footer-big h5, .footer-brand, .info-title, .media .media-heading, .title {
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+}
+
+/* Card Category */
+.card-profile .card-body .card-category {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.card .card-category {
+    color: #9a9a9a;
+}
+.card h6 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.h6, h6 {
+    font-size: .9em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.card .card-description {
+    color: #9a9a9a;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.h6, h6, p {
+    line-height: 1.5em;
+}
+
+.card .card-body .card-description+.card-footer, .card .more {
+    padding-top: 10px;
+}
+.card .card-body .card-footer {
+    padding: 0;
+}
+.card .card-footer {
+    padding: 15px;
+    background: transparent;
+    border-top: 0 none;
+}
+
+/* Facebook, twitter, linkedin icons */
+.btn-just-icon svg {
+    font-size: 20px;
+    padding: 2px 0;
+}
+
+/* Let's talk prices section */
+
+/* centering the cards */
+.pricing-2 .container .row {
+    justify-content: center;
+}
+
+.card[data-background=image] {
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+}
+
+/* Card Body */
+.card[data-background=color] .card-body, .card[data-background=color] .card-category, .card[data-background=color] .card-footer, .card[data-background=color] .card-text, .card[data-background=color] .card-title, .card[data-background=color] .stats, .card[data-background=color] [class*=text-], .card[data-background=color] a:not(.btn), .card[data-background=color] small, .card[data-background=color] ul li b, .card[data-background=image] .card-body, .card[data-background=image] .card-category, .card[data-background=image] .card-footer, .card[data-background=image] .card-text, .card[data-background=image] .card-title, .card[data-background=image] .stats, .card[data-background=image] [class*=text-], .card[data-background=image] a:not(.btn), .card[data-background=image] small, .card[data-background=image] ul li b, .card[data-color] .card-body, .card[data-color] .card-category, .card[data-color] .card-footer, .card[data-color] .card-text, .card[data-color] .card-title, .card[data-color] .stats, .card[data-color] [class*=text-], .card[data-color] a:not(.btn), .card[data-color] small, .card[data-color] ul li b {
+    color: #fff!important;
+}
+
+.card[data-background=image] .card-body {
+    position: relative;
+    z-index: 2;
+    min-height: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.card-pricing .card-body {
+    padding: 15px!important;
+}
+
+.card-pricing .card-category {
+    margin: 10px 0;
+    color: #333;
+}
+
+.card-pricing .card-title {
+    margin-top: 30px!important;
+}
+
+.card-pricing ul {
+    list-style: none;
+    padding: 0;
+    max-width: 240px;
+    margin: 20px auto;
+}
+
+.card-pricing ul li {
+    padding: 5px 0;
+    list-style-type: none;
+}
+
+.card-pricing ul li b {
+    font-weight: 600;
+    color: #333;
+}
+
+.card h6 {
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Testimonial CSS */
+
+#testimonials .testimonials-1 .title {
+    margin-top: 40px;
+}
+
+.card-testimonial {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.section-testimonials .card {
+    margin: 0 auto;
+    max-width: 460px;
+    padding-bottom: 30px;
+}
+
+.card .card-icon {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 30px 0 10px;
+}
+
+.card-testimonial .card-icon {
+    padding: 0;
+}
+
+.card .card-icon svg {
+    font-size: 40px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    height: 105px;
+    line-height: 105px;
+}
+
+.card-testimonial .card-icon svg {
+    font-size: 30px;
+    border: 0;
+    display: block;
+    line-height: 100px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.card-testimonial .card-body {
+    padding: 15px 30px;
+}
+
+.section-testimonials .card.card-testimonial .card-body {
+    margin-top: 0;
+    padding: 15px 50px;
+}
+
+.section-testimonials .card.card-testimonial .card-body {
+    margin-top: 0;
+    padding: 15px 50px;
+    min-height: 300px;
+}
+
+.card-testimonial .card-body .card-description {
+    font-style: italic;
+    margin-bottom: 20%;
+    margin-top: 0px;
+}
+
+.card-testimonial .card-body .card-category {
+    margin-bottom: 20px;
+}
+
+.card a:not(.btn) {
+    color: #444;
+}
+
+
+.card-testimonial .card-footer .card-avatar .img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12), 0 5px 5px -3px rgba(0,0,0,.2);
+}
+
+/* Contact Us CSS */
+
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.input-group-addon, .input-group-btn {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.input-group-addon {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #495057;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+
+.input-group-addon:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Spacing between Brand Logo and Brand */
+.navbar-translate .navbar-brand .space {
+    padding-right: 3px;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+/* Fixing border around profile cards */
+.card-profile {
+    border: none !important;
+  }
+

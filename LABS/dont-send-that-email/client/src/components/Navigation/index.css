@@ -1,0 +1,39 @@
+
+.nav {
+    margin-left: auto;
+    margin-right: 0px;
+};
+
+/* Ipad greeting user name position */
+@media (min-width: 768px) {
+    .nav {
+        margin-left: auto;
+        margin-right: 50px;
+    }
+}
+
+/* Ipad Pro user name position */
+@media (max-width: 1024px) {
+    .nav {
+        margin-left: auto;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 1290px) {
+    .nav {
+        margin-right: 30px;
+    }
+}
+
+/* Spacing between Brand Logo and Brand */
+.navbar-brand .space {
+    padding-right: 3px;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+nav .greeting {
+    color: null;
+    margin-right: 20px;
+}

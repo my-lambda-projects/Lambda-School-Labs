@@ -1,0 +1,36 @@
+{
+  "name": "dste-server",
+  "version": "1.0.0",
+  "description": "Back End for Don't Send That Email!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "faker": "^4.1.0",
+    "knex": "^0.16.3",
+    "moment": "^2.23.0",
+    "moment-timezone": "^0.5.23",
+    "nodemailer": "^5.1.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "passport": "^0.4.0",
+    "passport-auth0": "^1.1.0",
+    "pg": "^7.7.1",
+    "stripe": "^6.20.0",
+    "watson-developer-cloud": "^3.15.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.45.0",
+    "geckodriver": "^1.14.1",
+    "jest": "^23.6.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "sqlite3": "^4.0.4"
+  }
+}
