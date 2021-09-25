@@ -1,0 +1,26 @@
+
+// Import variables from central location
+@import '../../sass/global_theme.scss';
+
+.travels_map-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  .travels_checkboxMobile {
+    display: none;
+
+    @media (max-width: 900px) {
+      border-radius: 5px;
+      display: block;
+      position: absolute;
+      background: $color-background-bright;
+      border: 1px solid $color-form-border;
+      bottom: 2%;
+      left: 5%;
+      padding: 1%;
+      z-index: 400;
+
+    }
+  }
+}

@@ -1,0 +1,34 @@
+
+// Import variables from central location
+@import '../../sass/global_theme.scss';
+
+#friendCard {
+  margin: 15rem auto 1rem;
+  min-width: 40rem;
+  text-align: center;
+  @media (max-width: 700px) {
+    margin: 25rem auto 0;
+    width: 80%;
+  }
+
+  .extra.content {
+    padding-top: 0;
+  }
+
+  img {
+    margin: 2rem auto;
+    width: 80%;
+  }
+
+  button {
+    background: $color-primary;
+    color: $color-background-bright;
+    font-size: 1.6rem;
+    margin: 2rem auto;
+    padding: 5%;
+  }
+
+  .delete {
+    background: $color-danger;
+  }
+}
