@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationPage snapshot 1`] = `
+<div
+  class="sc-bwzfXH fnoZsX"
+  width="full"
+>
+  <div
+    class="ui segment sm-container"
+  >
+    <div
+      class="ui large header"
+    >
+      Registration
+    </div>
+    <div
+      class="ui divider"
+    />
+    <form
+      class="ui form"
+    >
+      <div
+        class="field"
+      >
+        <label
+          for="username-input"
+        >
+          Username
+        </label>
+        <input
+          id="username-input"
+          name="username"
+          placeholder="Username"
+          value=""
+        />
+      </div>
+      <div
+        class="field"
+      >
+        <label>
+          Email
+        </label>
+        <input
+          id="email-input"
+          name="email"
+          placeholder="Email"
+          value=""
+        />
+      </div>
+      <div
+        class="field"
+      >
+        <label>
+          Password
+        </label>
+        <input
+          id="password-input"
+          name="password"
+          placeholder="Password"
+          type="password"
+          value=""
+        />
+      </div>
+      <br />
+      <div
+        class="sc-bdVaJa biWxYW"
+        width="full"
+      >
+        <button
+          class="ui button"
+        >
+          Login
+        </button>
+        <button
+          class="ui green button"
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
