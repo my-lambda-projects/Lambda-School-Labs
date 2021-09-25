@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginComponent /> matches snapshot 1`] = `
+<styled.div>
+  <styled.form
+    onSubmit={[Function]}
+  >
+    <styled.h1>
+      Login to your account
+    </styled.h1>
+    <h4
+      className="Login__text"
+    >
+      Don't have an account?
+       
+      <Link
+        className="Login__text--link"
+        replace={false}
+        to="/register"
+      >
+        Register here!
+      </Link>
+    </h4>
+    <label
+      htmlFor="email"
+    >
+       Email
+    </label>
+    <styled.input
+      name="email"
+      onChange={[Function]}
+      type="email"
+    />
+    <label
+      htmlFor="password"
+    >
+       Password
+    </label>
+    <styled.input
+      name="password"
+      onChange={[Function]}
+      type="password"
+    />
+    <input
+      type="submit"
+      value="Login"
+    />
+  </styled.form>
+</styled.div>
+`;

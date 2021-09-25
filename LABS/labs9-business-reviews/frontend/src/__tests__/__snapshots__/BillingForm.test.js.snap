@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BillingFormComponent /> matches snapshot 1`] = `
+<GatedSignIn>
+  <styled.div>
+    <div
+      className="billing-form"
+    >
+      <h1>
+        Bonafind Subscription
+      </h1>
+      <p>
+        Here you can choose between a monthly or yearly subscription. Without a subscription, you can create 3 reviews. But with a subscription you can write as many reviews as you like!
+      </p>
+      <form
+        className="radio-form"
+      >
+        <input
+          name="subscription"
+          onClick={[Function]}
+          type="radio"
+          value="yearly"
+        />
+        1 Year Subscription - $9.99 
+        <br />
+         
+        <br />
+        <input
+          name="subscription"
+          onClick={[Function]}
+          type="radio"
+          value="monthly"
+        />
+        1 Month Subscription - $0.99 
+        <br />
+      </form>
+      <ReactStripeCheckout
+        ComponentClass="span"
+        amount={null}
+        className="StripeCheckout"
+        currency="USD"
+        description="Purchase Subscription"
+        label="Pay With Card"
+        locale="auto"
+        name="Bonafind"
+        reconfigureOnUpdate={false}
+        stripeKey="pk_test_YRDXagNKMjZOXlX2ULVNUWbT"
+        token={[Function]}
+        triggerEvent="onClick"
+      />
+    </div>
+  </styled.div>
+</GatedSignIn>
+`;

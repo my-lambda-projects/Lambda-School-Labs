@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateUserComponent /> matches snapshot 1`] = `
+<div>
+  <NavBar />
+  <styled.div>
+    <GatedSignIn>
+      <withRouter(UserUpdateForm) />
+    </GatedSignIn>
+  </styled.div>
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterFormComponent /> matches snapshot 1`] = `
+<div>
+  <NavBar />
+  <styled.div>
+    <styled.form
+      onSubmit={[Function]}
+    >
+      <styled.h1>
+         Register for a account!
+      </styled.h1>
+      <label
+        htmlFor="email"
+      >
+         Email
+      </label>
+      <styled.input
+        name="email"
+        onChange={[Function]}
+        type="email"
+      />
+      <label
+        htmlFor="password"
+      >
+         Password
+      </label>
+      <styled.input
+        name="password"
+        onChange={[Function]}
+        type="password"
+      />
+      <label
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <styled.input
+        name="name"
+        onChange={[Function]}
+        type="text"
+      />
+      <input
+        className="btn"
+        type="submit"
+        value="Register"
+      />
+    </styled.form>
+  </styled.div>
+</div>
+`;

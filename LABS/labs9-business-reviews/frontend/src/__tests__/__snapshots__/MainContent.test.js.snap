@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContentComponent /> matches snapshot 1`] = `
+<styled.div>
+  <PopularBusinesses />
+  <styled.div>
+    <PopularReviewers />
+  </styled.div>
+</styled.div>
+`;

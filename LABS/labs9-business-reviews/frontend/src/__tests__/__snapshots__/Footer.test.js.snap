@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterComponent /> matches snapshot 1`] = `
+<styled.div>
+  <span>
+    © 2019 Bonafind
+  </span>
+  <div
+    className="meetTheTeam"
+  >
+    <img
+      alt=""
+      className="github"
+      src="github.svg"
+    />
+    <a
+      href="https://github.com/Lambda-School-Labs/labs9-business-reviews"
+    >
+      Meet the Team
+    </a>
+  </div>
+</styled.div>
+`;

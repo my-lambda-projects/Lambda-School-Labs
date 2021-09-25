@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditReviewComponent /> matches snapshot 1`] = `
+<div>
+  <NavBar />
+  <styled.div>
+    <div
+      className="container"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <h1
+          className="review__headline"
+        >
+          Edit your review
+        </h1>
+        <label
+          htmlFor="review__title"
+        >
+          Title
+        </label>
+        <input
+          className="review__input--title"
+          name="title"
+          onChange={[Function]}
+          value=""
+        />
+        <label
+          htmlFor="review__title"
+        >
+          Review
+        </label>
+        <textarea
+          className="review__input--body"
+          name="body"
+          onChange={[Function]}
+          value=""
+        />
+        <div
+          className="review__rating"
+        >
+          <label
+            htmlFor="review__input--rating"
+          >
+            Rating
+          </label>
+          <select
+            className="review__input--rating"
+            name="rating"
+            onChange={[Function]}
+            value={1}
+          >
+            <option
+              value="1"
+            >
+              1
+            </option>
+            <option
+              value="2"
+            >
+              2
+            </option>
+            <option
+              value="3"
+            >
+              3
+            </option>
+            <option
+              value="4"
+            >
+              4
+            </option>
+            <option
+              defaultValue="5"
+            >
+              5
+            </option>
+          </select>
+          <button
+            className="btn"
+            onClick={[Function]}
+          >
+            Submit Review
+          </button>
+          <button
+            className="btn"
+          >
+            Cancel
+          </button>
+        </div>
+      </form>
+    </div>
+  </styled.div>
+</div>
+`;

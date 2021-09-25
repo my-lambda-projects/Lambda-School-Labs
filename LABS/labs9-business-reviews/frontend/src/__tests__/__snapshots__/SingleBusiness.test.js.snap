@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleBusinessComponent /> matches snapshot 1`] = `
+<styled.div
+  className="single-business"
+>
+  <div
+    className="modal"
+  >
+    <h1>
+      Business Name
+    </h1>
+    <img
+      alt="business"
+      src=""
+    />
+    <div
+      className="reviews-container"
+    >
+      <h4>
+        review title
+      </h4>
+      <p>
+        review body
+      </p>
+      <h4>
+        review title
+      </h4>
+      <p>
+        review body
+      </p>
+      <h4>
+        review title
+      </h4>
+      <p>
+        review body
+      </p>
+      <h4>
+        review title
+      </h4>
+      <p>
+        review body
+      </p>
+      <h4>
+        review title
+      </h4>
+      <p>
+        review body
+      </p>
+    </div>
+    <button>
+      Close
+    </button>
+  </div>
+</styled.div>
+`;

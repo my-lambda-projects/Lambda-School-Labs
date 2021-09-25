@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LandingNavComponent /> matches snapshot 1`] = `
+<styled.div>
+  <div
+    className="blur-container"
+  >
+    <div
+      className="top-nav-items"
+    >
+      <div
+        className="menu__menuItems"
+      >
+        <a
+          href="#Businesses"
+        >
+          businesses
+        </a>
+        <a
+          href="#Reviewers"
+        >
+          reviewers
+        </a>
+        <a
+          href="/billing"
+        >
+          go pro ✔
+        </a>
+      </div>
+      <div
+        className="menu__user"
+      >
+        <Link
+          className="menu__user--text"
+          replace={false}
+          to="/login"
+        >
+          sign in
+        </Link>
+        <Link
+          className="menu__user--text"
+          replace={false}
+          to="/register"
+        >
+          sign up
+        </Link>
+      </div>
+    </div>
+  </div>
+  <div
+    className="inner-nav-container"
+  >
+    <img
+      alt="logo"
+      className="logo"
+      src="bonafind.png"
+    />
+    <p
+      className="logo__text"
+    >
+      Bonafind
+    </p>
+    <SearchBar />
+  </div>
+</styled.div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BillingPage /> matches snapshot 1`] = `
+<div>
+  <NavBar />
+  <styled.div>
+    <div
+      className="billing"
+    >
+      <BillingForm>
+        <button>
+          Buy Now
+        </button>
+      </BillingForm>
+    </div>
+  </styled.div>
+</div>
+`;
