@@ -1,0 +1,53 @@
+{
+  "name": "allegiance-backend",
+  "version": "1.0.0",
+  "description": "labs 15 Allegiance",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env DB_ENV=testing jest --watchAll --runInBand",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labs15-allegiance/backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labs15-allegiance/backend/issues"
+  },
+  "homepage": "https://github.com/labs15-allegiance/backend#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-jwt": "^5.3.1",
+    "faker": "^4.1.0",
+    "helmet": "^3.20.0",
+    "heroku": "^7.27.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.6.0",
+    "knex": "^0.19.5",
+    "knex-cleaner": "^1.3.0",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "npm-run-all": "^4.1.5",
+    "pg": "^7.12.1",
+    "socket.io": "^2.3.0",
+    "zipcodes": "^8.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
