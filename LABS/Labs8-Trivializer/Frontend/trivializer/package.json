@@ -1,0 +1,44 @@
+{
+  "name": "trivializer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dompurify": "^1.0.8",
+    "firebase": "^5.5.8",
+    "lodash.flow": "^3.5.0",
+    "react": "^16.6.0",
+    "react-addons-update": "^15.6.2",
+    "react-credit-cards": "^0.7.0",
+    "react-dnd": "^6.0.0",
+    "react-dnd-html5-backend": "^6.0.0",
+    "react-dom": "^16.6.0",
+    "react-images-upload": "^1.2.3",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-stripe-checkout": "^2.6.3",
+    "react-stripe-elements": "^2.0.1",
+    "react-to-print": "^2.0.0-alpha-4",
+    "redux": "^4.0.1",
+    "redux-form": "^7.4.2",
+    "redux-logger": "^3.0.6",
+    "redux-payment-form": "^0.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp build/index.html build/404.html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

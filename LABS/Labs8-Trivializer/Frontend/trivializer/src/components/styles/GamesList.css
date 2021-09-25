@@ -1,0 +1,122 @@
+/* Styles GamesList.css */
+
+.game-container {
+  width: 350px;
+  height: 350px;
+  margin: 20px 10px 10px 20px;
+}
+
+.game-container .game-link {
+  color: black;
+  text-decoration: none;
+}
+
+.game-container .newgame-link {
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.game-summary {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 320px;
+  width: 320px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.game-summary:hover {
+  width: 340px;
+  height: 340px;
+}
+
+.game-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2db168;
+  border: 1px solid #2db168;
+  color: white;
+  margin: 10px auto;
+  width: 120px;
+  height: 37px;
+  border-radius: 5px;
+}
+
+.game-delete:hover {
+  box-shadow: 2px 2px;
+  background: #b13c2d;
+  border: 1px solid #b13c2d;
+  color: white;
+  cursor: pointer;
+}
+
+.game-description {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 2%;
+  word-wrap: break-word;
+  margin: 10px 20px;
+  height: 100px;
+  text-align: left;
+}
+
+.addnewGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.gamelist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addnewGame h3 {
+  font-size: 60px;
+}
+
+.fas {
+  color: black;
+  font-size: 90px;
+}
+
+.fas:hover {
+  color: #b13c2d;
+  cursor: pointer;
+}
+
+.gamelist-overallcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gamelist-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardnewGame {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.small-fas {
+  font-size: 50px;
+}
+
+.whole {
+  padding-top: 0;
+}
+
+.gamelist h1 {
+  margin-top: 25px;
+}

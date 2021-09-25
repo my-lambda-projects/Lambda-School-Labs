@@ -1,0 +1,140 @@
+/* Styles EditGameView.js */
+
+.editGameView {
+  display: flex;
+  flex-flow: column;
+  padding: 2%;
+  width: 800px;
+  height: 375px;
+}
+
+.editGameView-top {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.editGameView-logo {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+.editGameView input {
+  margin: 4%;
+  text-align: center;
+  width: 80%;
+}
+.editGameView button {
+  max-width: 40%;
+  overflow: hidden;
+}
+.saveButton {
+  margin: 0 auto;
+  margin-left: 50%;
+  color: white;
+  background-color: #b13c2d;
+  border: 1px solid #b13c2d;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+}
+.saveButton:hover {
+  background: #2db168;
+  border: 1px solid #2db168;
+  color: white;
+  cursor: pointer;
+}
+
+.game-top {
+  margin: 0 auto;
+}
+
+.editAndRounds h1 {
+  margin-bottom: 0;
+}
+
+.title,
+.description,
+.date {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.title div,
+.description div,
+.date div {
+  display: flex;
+  align-items: center;
+}
+
+.title input,
+.description textarea,
+.date input {
+  width: 400px;
+  height: 45px;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 10px;
+  border: 1px solid grey;
+}
+
+.description textarea {
+  height: 90px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 950px) {
+  .game-top {
+    width: 80%;
+  }
+  .game-buttons {
+    display: none;
+  }
+
+  .title input,
+  .description textarea,
+  .date input {
+    width: 300px;
+  }
+
+  .description textarea {
+    margin-right: 20px;
+  }
+
+  .saveButton {
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .game-top {
+    width: 100%;
+  }
+  .title input,
+  .description textarea,
+  .date input {
+    width: 225px;
+  }
+
+  .description textarea {
+    margin-right: 13px;
+  }
+
+  .saveButton {
+    height: 35px;
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+}
+
+.info-round {
+  width: 400px;
+}
+
+.title-round {
+  font-weight: bold;
+}

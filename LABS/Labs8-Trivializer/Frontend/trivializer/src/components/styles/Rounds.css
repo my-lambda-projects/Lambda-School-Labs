@@ -1,0 +1,205 @@
+/* Styles RoundsList.js and Rounds.js */
+
+.topContent-round {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 2%;
+  align-items: center;
+}
+
+.roundslist-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rounds-container {
+  width: 350px;
+  height: 350px;
+  margin: 20px 10px 10px 20px;
+}
+
+.rounds-summary {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 320px;
+  width: 320px;
+  transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.rounds-summary:hover {
+  width: 340px;
+  height: 340px;
+}
+
+.cardnewRound {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.rounds .roundsTitle,
+.rounds .dropdown select {
+  border-radius: 5px;
+}
+
+.rounds .roundsTitle {
+  padding: 0 5px;
+}
+
+.rounds .amount {
+  width: 45px;
+}
+
+.rounds .category,
+.rounds .difficulty,
+.rounds .type {
+  width: 150px;
+}
+
+.roundsOption {
+  max-width: 20px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 4% 2% 4%;
+}
+
+.dropdown label {
+  font-size: 17px;
+}
+
+.dropdown select {
+  font-size: 17px;
+}
+
+/* .select:hover {
+  box-shadow: 2px 2px;
+} */
+
+.select {
+  max-width: 50%;
+  /* font-size: 10px; */
+}
+
+.roundsButtons {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 1% 4% 2% 4%;
+}
+
+.roundsButtons button {
+  width: 90px;
+  height: 30px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 0;
+}
+
+/* .see {
+  font-size: 12px !important;
+} */
+
+.goto-questions:hover {
+  /* box-shadow: 2px 2px; */
+  border: 1px solid #007bff;
+  background: #007bff;
+  color: white;
+}
+
+/* .roundsButton:active {
+  transform: translateY(2px);
+} */
+
+.save:hover {
+  border: 1px solid #2db168;
+  background: #2db168;
+  color: white;
+}
+
+.delete:hover {
+  border: 1px solid #b13c2d;
+  background: #b13c2d;
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.logo-rounds {
+  max-width: 200px;
+}
+
+/* #newRound {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  min-height: 240px;
+} */
+
+/* .newRound-inner {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 4%;
+  opacity: 0.5;
+} */
+
+/* .newRound-inner:hover {
+  opacity: 1;
+} */
+
+@media print {
+  .btn-primary {
+    display: none;
+  }
+
+  .col1-round {
+    text-align: left;
+    flex-flow: column nowrap;
+  }
+}
+
+/* Phone Design */
+@media screen and (max-width: 480px) {
+  .roundsList {
+    flex-flow: column nowrap;
+  }
+
+  .topContent-round {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .roundsList {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /* .see {
+    font-size: 11px !important;
+  } */
+}

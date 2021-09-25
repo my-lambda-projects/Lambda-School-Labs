@@ -1,0 +1,104 @@
+/* Page Layout goes: [page-name]-page, top-content (top-rightside, top-leftside), main-content (Navbar, main-middle)*/
+.gameslist-page,
+.billing-page,
+.invoices-page,
+.setting-page,
+.faqs-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9ecef;
+  height: 52px;
+}
+
+/* Components Log Out Button */
+.top-rightside {
+  margin-right: 20px;
+  text-decoration: underline;
+  color: blue;
+}
+.top-rightside:hover {
+  cursor: pointer;
+}
+
+/* Main Content of components */
+.main-content {
+  display: flex;
+  width: 90%;
+}
+
+.main-middle {
+  margin: 20px auto;
+}
+
+/* Stripe */
+.pay-main {
+  margin-left: 10px;
+}
+.pay-input {
+  margin: 0 auto;
+  background: gray;
+}
+.pay2 {
+  margin: 0 auto;
+  display: flex;
+}
+.buy {
+  width: 275px;
+  height: 75px;
+}
+
+/* FAQs Page */
+.content-container {
+  padding-top: 30px;
+  text-align: center;
+  padding-left: 5%;
+  font-size: 20px;
+  background-color: white;
+  width: 100%;
+}
+
+.faq-container {
+  text-align: left;
+}
+
+.content-container h1 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.question-container {
+  margin-bottom: 30px;
+}
+
+.content-container .questions {
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.editAndRound {
+  background-color: white;
+}
+
+.top-rightside {
+  color: black;
+  text-decoration: none;
+}
+
+.top-rightside p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.top-rightside p:hover {
+  color: #b13c2d;
+}
+
+.fa-sign-out-alt {
+  font-size: 25px !important;
+}

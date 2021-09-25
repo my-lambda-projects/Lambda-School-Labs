@@ -1,0 +1,119 @@
+/* Handles Styles for both Questions.js and Round.js */
+
+.question {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 2%;
+  text-align: left;
+  padding: 1%;
+}
+
+.questions {
+  list-style-type: none;
+  text-align: left;
+  padding: 1%;
+}
+
+.questions-col2 {
+  display: flex;
+  flex-flow: column;
+}
+
+.answer {
+  padding: 0.5%;
+}
+
+.main-content-round {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.title-round {
+  padding: 1%;
+}
+
+.info-round {
+  padding: 1%;
+}
+
+.top-content-round {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.col-1-round {
+  min-width: 75%;
+}
+
+.col-2-round {
+  display: flex;
+  flex-flow: column;
+  max-width: 25%;
+}
+
+.btn-primary.round {
+  margin: 2%;
+  width: 160px;
+}
+
+.btn-primary.save {
+  margin: 2%;
+  background: #74cc21;
+  border: 1px solid #74cc21;
+}
+
+.btn-primary.save:hover {
+  background-color: #5da31b;
+}
+
+.undo-replace {
+  background-color: #f04e39;
+  border: 1px solid #f04e39;
+}
+
+.undo-replace:hover {
+  background-color: #c5402f;
+  border: 1px solid #c5402f;
+}
+
+.modal-content.modal-background {
+  height: auto;
+  border: 2px solid black;
+  background: white;
+}
+
+.hiddenAnswers {
+  display: none;
+}
+
+.hiddenAnswers-info {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.instructions-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media print {
+  .hiddenAnswers {
+    display: block;
+  }
+
+  .questions-col2 {
+    display: none;
+  }
+
+  .question {
+    flex-flow: column;
+  }
+}

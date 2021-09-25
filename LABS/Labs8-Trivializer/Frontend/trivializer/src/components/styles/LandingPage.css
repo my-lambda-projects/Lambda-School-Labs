@@ -1,0 +1,186 @@
+/* Top Navbar */
+.bg-light {
+  background-color: white !important;
+  /*Note: important is put here because by default, our white is not white enough to match our logo white. */
+}
+
+.landingpage-navbar-right {
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right-list {
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+.navbar-right-list:hover {
+  cursor: pointer;
+}
+
+.navbar-link {
+  color: black;
+}
+
+.navbar-link:hover {
+  color: #b13c2d;
+}
+
+/* Signup & Signin Modal*/
+.modal-content {
+  height: 425px;
+}
+
+.login-modal {
+  height: 350px;
+}
+
+.signup-title,
+.login-title {
+  margin-left: 160px;
+}
+
+.modal-body {
+  padding: 18px 0 0 0;
+}
+
+.signup-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-body input,
+.login-body input {
+  height: 50px;
+  padding-left: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(179, 179, 179);
+  width: 80%;
+  margin: 0 auto;
+}
+
+input:hover {
+  border: 1px solid rgb(73, 73, 255);
+}
+
+.validation-label {
+  text-align: left;
+  color: red;
+  font-size: 13px;
+  height: 19px;
+  margin-left: 53px;
+}
+
+.create-button,
+.login-button {
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+}
+
+.login-button {
+  margin-top: 18px;
+}
+
+.google-button-signup {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-text {
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.google-button-signup:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 241);
+}
+
+#new-signup,
+#new-signin {
+  cursor: pointer;
+}
+
+#new-signup:hover,
+#new-signin:hover {
+  cursor: pointer;
+  color: #b13c2d;
+  text-decoration: underline;
+}
+
+/* Carousel */
+.carousel-design {
+  height: 450px;
+}
+
+/*Main Text */
+.main-text {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.main-text h1 {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+.descriptions {
+  display: flex;
+  justify-content: center;
+}
+
+.description-text {
+  margin-top: 10px;
+  width: 20%;
+  margin-right: 6%;
+}
+
+.main-button {
+  margin-right: 100px;
+  margin-top: 10px;
+  height: 45px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Tablet Design */
+@media screen and (max-width: 780px) {
+  .carousel-design {
+    height: 350px;
+  }
+
+  .descriptions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-text {
+    width: 70%;
+  }
+
+  .main-button {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+/* Phone Design */
+@media screen and (max-width: 480px) {
+  .carousel-design {
+    height: 300px;
+  }
+
+  .description-text {
+    width: 80%;
+  }
+
+  #navbar-color img {
+    margin-left: -20px;
+  }
+}

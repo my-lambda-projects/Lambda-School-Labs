@@ -1,0 +1,152 @@
+/* Page Styles */
+.setting-content {
+  text-align: left;
+  width: 75%;
+  margin-top: 0;
+}
+
+.setting-container {
+  padding-top: 0;
+}
+
+/* Top Profile Picture */
+.profile-picture,
+.uploaded-picture {
+  border-radius: 50%;
+  height: 250px;
+}
+
+/* Headers */
+.setting-content h2 {
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+/* Invidivual Info Areas */
+.signinUserName,
+.signinEmail,
+.signinPassword,
+.signinType,
+.signinFree,
+.signinPicture,
+.signinName,
+.signinUpgrade {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 15px 5px 15px 0;
+}
+
+.signinPassword,
+.signinPicture,
+.googleEmail,
+.googleUpgrade {
+  border: none;
+}
+
+.google-photo {
+  text-align: center;
+}
+
+.signinTier {
+  margin-top: 30px;
+}
+
+.addPicture {
+  width: 250px;
+}
+
+.save-button {
+  margin-top: 20px;
+}
+
+.upload {
+  display: flex;
+  justify-content: center;
+}
+
+.signinUserName input,
+.signinEmail input,
+.signinPassword input {
+  border-radius: 5px;
+  padding-left: 10px;
+  width: 220px;
+  border: 1px solid rgb(184, 181, 181);
+}
+
+.signinUserName input,
+.signinEmail input,
+.signinPassword input {
+  background-image: none;
+  outline: 0;
+}
+
+/* View for Laptops & Large Tablets */
+@media screen and (max-width: 1150px) {
+  .setting-content {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .signinSetting {
+    font-size: 18px;
+  }
+  .signinUserName input,
+  .signinEmail input,
+  .signinPassword input {
+    width: 200px;
+  }
+}
+
+/* View for Tablets */
+@media screen and (max-width: 750px) {
+  .setting-content {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .signinSetting {
+    font-size: 15px;
+  }
+  .signinUserName input,
+  .signinEmail input,
+  .signinPassword input,
+  .signinPicture input,
+  .signinUpgrade input {
+    width: 170px;
+  }
+}
+
+/* View for Phones */
+@media screen and (max-width: 550px) {
+  .setting-content {
+    width: 98%;
+  }
+  .signinSetting {
+    font-size: 15px;
+  }
+  .signinUserName input,
+  .signinEmail input,
+  .signinPassword input,
+  .signinPicture input,
+  .signinUpgrade input {
+    width: 150px;
+  }
+  .save-button {
+    width: 290px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* View for Smaller sized Phones */
+@media screen and (max-width: 450px) {
+  .setting-content {
+    width: 90%;
+  }
+}

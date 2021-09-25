@@ -1,0 +1,33 @@
+{
+  "name": "trivialize",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "8.11.1"
+  },
+  "repository": "https://github.com/Lambda-School-Labs/Labs8-Trivializer",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.15.2",
+    "mailgun-js": "^0.22.0",
+    "morgan": "^1.9.0",
+    "pg": "^7.7.1",
+    "simplecrypt": "^0.1.0",
+    "sqlite3": "^4.0.2",
+    "stripe": "^6.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
