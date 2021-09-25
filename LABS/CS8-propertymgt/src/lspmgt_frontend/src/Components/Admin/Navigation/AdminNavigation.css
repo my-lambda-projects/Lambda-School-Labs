@@ -1,0 +1,20 @@
+.admin_navigation {
+  margin: 10px;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.sidebar__row {
+  display: flex;
+}
