@@ -1,0 +1,79 @@
+.Settings {
+    grid-column: 1/ -1;
+    grid-row: 1/ -1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 4rem 1fr;
+    background-image: url('../../utils/Images/settings.svg');
+    background-repeat: no-repeat;
+    
+}
+.Settings-content {
+    grid-column: 3 / -1;
+    grid-row: 2 / -1;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.Settings-content .Settings-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E8E8E8;
+    width: 30rem;
+    border-radius: 7px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    height:25rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .Settings-content .Settings-card{
+        width: 23rem;
+    }
+}
+
+.Settings-content .SignUp-CardText {
+    font-size: 1.75rem;
+    color: var(--sky);
+    padding-bottom: 1.5rem;
+}
+
+.Settings-content .Settings-card form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Settings-content .Settings-card form input {
+    margin: .5rem 0;
+    padding: .4rem 0.2rem;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+.Settings-content .Settings-card form button {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    color: var(--sky);
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    font-size: 1.5rem;
+    border:.3px;
+}
+.Settings-content .Settings-card form button:hover {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--sky);
+}

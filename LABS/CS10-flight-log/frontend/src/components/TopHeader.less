@@ -1,0 +1,44 @@
+.Topheader {
+  grid-column: 1 e('/') -1;
+  grid-row: 1 e('/') 2;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  //border-bottom: var(--solidBorder) var(--darkGrey);
+  //margin-bottom: var(--oneRem);
+  .HeaderLeft {
+    display: flex;
+    // align-items: flex-end;
+    // padding-left: 2em;
+    // padding-bottom: 1rem;
+    .BreadCrumb-link {
+      align-self: center;
+      padding: 0.4rem;
+    }
+  }
+
+  .HeaderRight {
+    display: flex;
+    justify-content: space-around;
+    .SignOut {
+      border: 2px solid gray;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      height: 2rem;
+      padding: 0.2rem;
+      &:hover {
+        background: gray;
+        color: white;
+        cursor: pointer;
+      } // Signout:hover
+    } // Signout
+    .ToTal {
+      border: 2px solid gray;
+      border-radius: 3px;
+      justify-content: center;
+      align-self: center;
+      height: 2rem;
+      padding: 0.2rem;
+    }
+  } // Right
+} // TopHeader

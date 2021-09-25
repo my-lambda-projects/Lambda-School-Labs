@@ -1,0 +1,403 @@
+.Flights {
+  grid-column: 1/ -1;
+  grid-row: 1/ -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 4rem 1fr;
+}
+
+.Flights .FlightList {
+  grid-column: 3/ -1;
+  grid-row: 2/ -1;
+  display: grid;
+  padding: 2rem;
+  padding-right: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  grid-gap: .8rem;
+  text-align: center;
+}
+
+
+.Flights .FlightList-loading {
+  grid-column: 3/ -1;
+  grid-row: 2/ -1;
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  grid-gap: 1.5rem;
+  text-align: center;
+}
+
+.Flights .FlightList .Flights-NewCard {
+  max-width: 290px;
+  min-height: 385px;
+  max-height: 385px;
+  min-width: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.Flights .FlightList .Flights-NewCard:hover .tooltip {
+  visibility: visible;
+          
+          }
+
+
+
+/* style={{
+  boxShadow: this.state.openModal ? 'inset 1px 1px 1px gray' : '',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: '370px',
+}} */
+
+.NewFlightModal a {
+  text-decoration: none;
+  color: var(--sky);
+  font-size: 0.9rem;
+}
+
+.NewFlightModal a:hover {
+  text-decoration: none;
+}
+
+
+.Flights .Flights-NewCard-Loading {
+  max-width: 290px;
+  min-height: 385px;
+  max-height: 385px;
+  min-width: 290px;
+  /* margin-left: 20%; */
+  /* box-shadow: none; */
+}
+
+.Flights .FlightList .Flights-NewCard .Plus-sign {
+  color: var(--sky);
+}
+
+
+.NewFlightHeader {
+  border: 5px solid purple;
+}
+
+/* .NewFlightHTMLSnippet {
+  border: 1px solid blue;
+  height: 165px;
+  min-height: 165px;
+}
+
+.NewFlightFooter {
+  border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* justify-content: space-between;
+  height: 60px;
+}  */
+
+.Flights .NewFlight-Hours-Date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Flights .NewFlightFooter .FlightIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ViewFlightHeader {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 75px; */
+    width: 100%;
+}
+
+.ViewNewFlightModal h5 {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ViewFlightHeader .ViewFlightHeaderTop{
+    /* border: 1px solid green; */
+}
+
+.ViewFlightHeader .ViewFlightHeaderTop  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ViewFlightHeader .ViewFlightHeaderTop  .Header-title-flydate {
+  font-size: 1rem;
+}
+
+.ViewFlightHeader .ViewFlightHeaderBottom{
+    font-size: 1rem;
+}
+
+.ViewNewFlightModal .modal-content .FlightIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+.TopNewFlight .ViewNewFlightModal .modal-header {
+    width: 100%;
+}
+
+.ViewNewFlightModal .FlightViewCard-modalfooter{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ViewNewFlightModal .ul-1 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.ViewNewFlightModal .ul-2 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.ViewNewFlightModal .ViewFlightSnippetBody {
+  min-height: 165px;
+}
+
+.ViewNewFlightModal .ViewFlightManTail {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+.ViewNewFlightModal .ViewFlightRemarks .ViewFlightRemarks-ta {
+  justify-content: center;
+  padding-top: 0px;
+  /* border: 1px solid lightgrey; */
+  min-height: 70px;
+}
+
+.ViewNewFlightModal .ViewFlightManTail p {
+  font-size: 1.3rem;
+}
+
+.NewFlightModal .NewFlightModalHeader h5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.NewFlightModal .NewFlightModalHeader .NewFlight-header-inputs{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between */
+}
+
+
+.NewFlightModal .NewFlightModalHeader .new-flight-input-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NewFlightModal .new-flight-total-input {
+  border: .1rem solid red;
+}
+
+.NewFlightModal .NewFlightModalHeader .NewFlightDropdown button {
+  height: 32px;
+  padding: 0px;
+  width: 165px ;
+  /* color: black;
+  background-color: white; */
+  
+  text-align: center;
+  border-radius: 1px;
+}
+
+
+
+.NewFlightModal .NewFlightModalHeader .NewFlightDropdown .dropdown-menu:active {
+  background-color: white;
+}
+
+
+.NewFlightModal .NewFlightModalHeader .NewFlight-header-inputs h2 {
+  text-align: center;
+  margin-left: 35%;
+  padding-bottom: 15px;
+  
+}
+
+.NewFlightModal .NewFlightModalHeader .NewFlight-header-inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.NewFlightModal .NewFlightModalHeader .new-flight-input-name {
+  margin-right: 3%;
+  margin-left: 10px;
+  width: 58%;
+  height: 32px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+
+.NewFlightModal  .NewFlightHTMLSnippet .snippet-text-area {
+  height: 130px;
+  width: 100%;
+
+}
+
+.NewFlightModal  .NewFlightRemarks .remarks-area {
+  height: 130px;
+  width: 100%;
+
+}
+
+
+.NewFlightModal .NewFlightModalHeader .new-flight-input-av {
+  margin-right: 3%;
+  margin-left: 10px;
+  width: 58%;
+  padding: 0px;
+  margin-bottom: 10px
+}
+
+.NewFlightModal .NewFlightModalHeader .new-flight-input-fd {
+  height: 34px;
+  width: 36%;
+  -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none
+}
+
+
+.NewFlightModal {
+  /* box-shadow: 1px 1px 2px 1px  var(--sky);
+  border-radius: 6px; */
+ }
+ .NewFlightModal .modal-footer {
+  /* border: 1px solid purple; */
+  display: flex;
+ }
+ .NewFlightModal .NewModalFooterChildren {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-around
+ }
+ .NewFlightModal .YYY {
+  /* border: 1px solid teal; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+ }
+ .NewFlightModal .NewModalFooterChildren input {
+  /* border: 2px solid rgb(158, 192, 33); */
+  width: 100%;
+ }
+ .NewFlightModal .NewModalFooterChildren .XXX {
+  display: flex;
+  flex-direction: column;
+ }
+ .NewFlightModal .NewModalFooter .NewModalFooterChildren span {
+  /* border: 5px solid white; */
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+ }
+
+.flight-edit-save-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ .flight-edit-save-button {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    color: black;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    border-radius: 3px;
+    font-style: bold;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border:.3px;
+    width: 33%;
+    margin-bottom: .5rem;
+  
+ }
+
+ .flight-edit-save-button:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--sky);
+ }
+
+ .Flights .load-bar {
+  position: relative;
+  margin-left: 5%;
+  margin-top: 60%;
+  width: 90%;
+  height: 9px;
+  background-color: var(--sky);
+}
+.Flights .bar {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 50%;
+  text-align: center;
+}
+.Flights .bar:nth-child(1) {
+  background-color: #eff3f9;
+  animation: loading 3s linear infinite;
+}
+.Flights .bar:nth-child(2) {
+  background-color: var(--sky);
+  animation: loading 3s linear 1s infinite;
+}
+.Flights .bar:nth-child(3) {
+  background-color: var(--silver);
+  animation: loading 3s linear 2s infinite;
+}
+@keyframes loading {
+    from {left: 50%; width: 0;z-index:100;}
+    33.3333% {left: 0; width: 100%;z-index: 10;}
+    to {left: 0; width: 100%;}
+}
+
+.new-flight-total-input-error {
+border: 0.1rem solid red;
+}

@@ -1,0 +1,19 @@
+.Billing {
+  grid-column: 1/ -1;
+  grid-row: 1/ -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 4rem 1fr;
+  background-image: url('../../utils/Images/billing.svg');
+  background-repeat: no-repeat;
+}
+
+
+.Billing .Billing-details {
+  grid-column: 3 / -1;
+  grid-row: 2 / -1;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+

@@ -1,0 +1,268 @@
+.Instructors {
+  grid-column: 1/ -1;
+  grid-row: 1/ -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 4rem 1fr;
+  /* background-image: url('../../utils/Images/instructors.svg');
+  background-repeat: no-repeat; */
+  
+}
+
+.Instructors .InstructorCard {
+  grid-column: 3/ -1;
+  grid-row: 2/ -1;
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  grid-gap: 2rem;
+  text-align: center;
+  
+}
+
+.Instructors .InstructorCard .Instructor-card-card {
+  max-width: 300px;
+  min-height: 568px;
+  max-height: 568px;
+  min-width: 300px;
+}
+
+.Instructors .InstructorCard .Plus-sign {
+  color: var(--sky)
+}
+
+
+.Instructors .NewInstructor .FormContainer {
+  border: 2px solid gray;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 1px 1px 3px rgba(150, 250, 150, 0.1),
+    1px 1px 1px 4px rgba(100, 100, 250, 0.25);
+}
+
+.Instructors .Instructor-edit-card-modal {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+
+.Instructors .Instructor-edit-card .card-name {
+  font-size: 1.2rem;
+}
+
+.Instructors .Instructor-edit-card .card-number {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.Instructors .Instructor-edit-card .card-img {
+  display: flex;
+}
+
+.Instructors .Instructor-edit-card .card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.Instructors .Instructor-edit-card-modal .card-description,
+.Instructors .Instructor-edit-card-modal .card-rating,
+.Instructors .Instructor-edit-card-modal .card-contact {
+  margin-top: 1rem;
+}
+
+.Instructors .Instructor-edit-card .card-description .description-title,
+.Instructors .Instructor-edit-card .card-rating .description-title,
+.Instructors .Instructor-edit-card .card-contact .description-title,
+.Instructors .Instructor-edit-card .card-description .rating-title,
+.Instructors .Instructor-edit-card .card-rating .rating-title,
+.Instructors .Instructor-edit-card .card-contact .rating-title,
+.Instructors .Instructor-edit-card .card-description .contact-title,
+.Instructors .Instructor-edit-card .card-rating .contact-title,
+.Instructors .Instructor-edit-card .card-contact .contact-title {
+  font-size: 1.2rem;
+  padding-bottom: 0;
+}
+
+.Instructors .Instructor-edit-card .card-description .description-content,
+.Instructors .Instructor-edit-card .card-rating .description-content,
+.Instructors .Instructor-edit-card .card-contact .description-content,
+.Instructors .Instructor-edit-card .card-description .rating-details,
+.Instructors .Instructor-edit-card .card-rating .rating-details,
+.Instructors .Instructor-edit-card .card-contact .rating-details,
+.Instructors .Instructor-edit-card .card-description .contact-info,
+.Instructors .Instructor-edit-card .card-rating .contact-info,
+.Instructors .Instructor-edit-card .card-contact .contact-info {
+  border: 1px solid gray;
+  padding: 0.2rem;
+}
+
+.Instructors .Instructor-edit-card .Button {
+  background: #01baef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
+  height: 4rem;
+  width: 55%;
+  padding-bottom: 1rem;
+  border-radius: 50%;
+  color: white;
+}
+
+.Instructors .Instructor-card .Button:hover {
+  cursor: pointer;
+}
+/* .Instructor-edit-card-name {
+ display: flex;
+ flex-direction: column;
+ align-content:center;
+ justify-content: center;
+ width: 100px; 
+ margin-bottom: 1rem;
+} */
+
+.Instructor-edit-card-name-required {
+  border: 0.12rem solid red;
+}
+
+.Instructor-edit-card .modal-body {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.Instructor-edit-card .modal-body .instructors-nested-modal-button {
+  padding: .4rem 1rem;
+  border-radius: 2px;
+  border: 0;
+  box-shadow: 1px 1px 1px 1px var(--buttonGrey);
+  margin: 0 auto;
+}
+
+.Instructor-edit-card .modal-body .instructors-nested-modal-button:hover {
+  background-color: var(--buttonGrey);
+  color: white;
+  cursor: pointer;
+}
+
+.card-number {
+
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+ 
+}
+
+.description-title {
+ 
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  
+}
+.description-content{
+  
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.ratings-details{
+ display: flex;
+ flex-direction: column;
+ align-content:center;
+ margin-bottom: 1rem;
+}
+
+.ratings-title {
+ display: flex;
+ flex-direction: column;
+ align-content:center;
+ 
+
+}
+
+.nested-modal-instructor-edit-body {
+  display: flex;
+  align-self: flex-start;
+}
+
+.contact-number {
+
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  margin-bottom: 1rem;
+}
+
+.contact-title {
+
+ display: flex;
+ flex-direction: column;
+ align-content:center;
+}
+
+.contact-email{
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+}
+
+.card-contact {
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+.card-img{
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   margin-bottom: 1rem;
+}
+
+
+.Instructors .load-bar {
+  position: relative;
+  margin-left: 5%;
+  margin-top: 82%;
+  width: 90%;
+  height: 9px;
+  background-color: var(--sky);
+}
+.Instructors .bar {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 50%;
+  text-align: center;
+}
+.Instructors .bar:nth-child(1) {
+  background-color: #eff3f9;
+  animation: loading 3s linear infinite;
+}
+.Instructors .bar:nth-child(2) {
+  background-color: var(--sky);
+  animation: loading 3s linear 1s infinite;
+}
+.Instructors .bar:nth-child(3) {
+  background-color: var(--silver);
+  animation: loading 3s linear 2s infinite;
+}
+@keyframes loading {
+    from {left: 50%; width: 0;z-index:100;}
+    33.3333% {left: 0; width: 100%;z-index: 10;}
+    to {left: 0; width: 100%;}
+}

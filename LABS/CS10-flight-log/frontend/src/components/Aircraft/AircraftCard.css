@@ -1,0 +1,169 @@
+.AircraftCard {
+  min-height: 385px;
+  max-height: 385px;
+  min-width: 300px;
+  max-width: 300px;
+  /* 300 385 */
+  height: 385px;
+  /* border: 5px solid red; */
+}
+
+.AircraftCard .Content-aircraft {
+  min-height: 385px;
+  max-height: 385px;
+  min-width: 300px;
+  max-width: 300px;
+  /* 300 385 */
+  height: 385px;
+  /* border: 1px solid aqua; */
+}
+
+.CardMediaContainer {
+  height: 259px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AircraftCard .CardMedia {
+  width: auto;
+  height: auto;
+  max-height: 259px;
+  max-width: 300px;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.AircraftCard .Content-aircraft .card-typography {
+  display: flex;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.AircraftCard .Content-aircraft .card-typography-p {
+  padding: 0.75rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Detailed-aircraft .modal-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  height: 700px;
+}
+
+.Detailed-aircraft .modal-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.Detailed-aircraft .modal-title .modal-header-p1 {
+  font-size: 2rem;
+}
+
+.Detailed-aircraft .edit-button {
+  border: 0;
+  box-shadow: 1px 1px 1px 1px var(--buttonGrey);
+  border-radius: 2px;
+  padding: 0.4rem 1rem;
+}
+
+.Detailed-aircraft .modal-body {
+  /* border: 1px solid slategray; */
+  height: 385px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.Detailed-aircraft .modal-body img {
+  width: auto;
+  height: auto;
+  max-width: 465px;
+  max-height: 353px;
+  /* border: 4px solid green; */
+  margin: auto 0;
+}
+
+.Detailed-aircraft-edit .modal-body {
+  display: flex;
+  justify-content: center;
+  max-height: 385px;
+  /* border: 10px solid red; */
+  /* align-items: center; */
+}
+
+.Detailed-aircraft-edit .edit-input-tn {
+  margin: 0 1rem 1rem 0;
+}
+
+.Detailed-aircraft-edit .nested-modal-button {
+  padding: 0.4rem 1rem;
+  border-radius: 2px;
+  border: 0;
+  box-shadow: 1px 1px 1px 1px var(--buttonGrey);
+}
+
+.Detailed-aircraft-edit .nested-modal-button:hover {
+  background-color: var(--buttonGrey);
+  color: white;
+  cursor: pointer;
+}
+
+.save-button {
+  padding: 0.2rem 1rem;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px var(--buttonGrey);
+  background-color: white;
+}
+.save-button:hover {
+  background-color: var(--sky);
+  color: white;
+  cursor: pointer;
+}
+
+.Detailed-aircraft-edit .modal-content .modal-header {
+  border-bottom: none;
+}
+.Detailed-aircraft-edit .modal-content .modal-footer {
+  border-top: none;
+}
+
+/* .Detailed-aircraft .modal-body-img {
+  height: auto;
+  width: 100%;
+  min-height: 20rem;
+  max-height: 40rem;
+} */
+
+.Detailed-aircraft .ul-1 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.Detailed-aircraft .ul-2 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.Detailed-aircraft .modal-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Detailed-aircraft .Edit-delete {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}

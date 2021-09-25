@@ -1,0 +1,96 @@
+.LandingPage {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../utils/Images/landingPage.svg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.LandingPage .LandingPage-card {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  background: white;
+  width: 45rem;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  padding: 1rem;
+}
+@media only screen and (max-width: 900px) {
+  .LandingPage .LandingPage-card {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .LandingPage .LandingPage-card {
+    width: 400px;
+  }
+}
+
+.Falcano-Logo {
+  width: 27rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .Falcano-Logo {
+    width: 300px;
+  }
+}
+
+.LandingPage .LandingPage-card .card-logo {
+  font-size: 7em;
+  font-weight: 700;
+  letter-spacing: -1.25rem;
+}
+@media only screen and (max-width: 900px) {
+  .LandingPage .LandingPage-card .card-logo {
+    color: var(--sky);
+  }
+}
+.card-slogan {
+  color: var(--darkGrey);
+  margin-top: 1rem;
+}
+.LandingPage .LandingPage-card .card-mission-statement {
+  color: #515151;
+  padding: 2em;
+}
+.LandingPage .LandingPage-card .registration-signin,
+.LandingPage .LandingPage-card .registration-signup {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  color: var(--sky);
+  padding: .6rem 3rem;
+  border-radius: 3px;
+  font-size: 1.3rem;
+}
+.LandingPage .LandingPage-card .registration-signin:hover,
+.LandingPage .LandingPage-card .registration-signup:hover {
+  color: white;
+  text-decoration: none;
+  background-color: var(--sky);
+}
+.LandingPage .LandingPage-card .card-registration {
+  margin-bottom: 2rem;
+}
+.LandingPage .LandingPage-card .registration-signin {
+  margin-left: 3rem;
+}
+.LandingPage .LandingPage-card .registration-signin {
+  margin-right: 3rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .LandingPage .LandingPage-card .registration-signin {
+    margin-left: 1rem;
+  }
+  .LandingPage .LandingPage-card .registration-signin {
+    margin-right: 1rem;
+  }
+}

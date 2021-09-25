@@ -1,0 +1,26 @@
+.HomePage {
+    grid-column: 1  e("/") -1;
+    grid-row: 1  e("/") -1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 4rem 1fr;
+
+    .HomePage-info {
+        grid-column: 3 e("/") -1;
+        grid-row: 2 e("/") -1;
+        background-image: url('../utils/Images/homePageIllustration.svg');
+        background-repeat: no-repeat;
+
+        h2 {
+            margin: 15rem 0 .5em 3rem;
+            &::first-letter { 
+                font-size: 200%;
+                color: var(--sky);
+            }// first-letter
+        }// h2
+
+        p {
+            margin: 0 0 0 3rem;
+          }// p
+    }// HomePage-info 
+} // HomePage

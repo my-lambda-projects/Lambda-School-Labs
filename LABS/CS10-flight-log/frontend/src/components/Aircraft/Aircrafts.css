@@ -1,0 +1,157 @@
+.Aircrafts {
+  grid-column: 1/ -1;
+  grid-row: 1/ -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 4rem 1fr;
+}
+
+.Aircrafts .Aircraft-content {
+  grid-column: 3/ -1;
+  grid-row: 2/ -1;
+  display: grid;
+  padding: 2rem;
+  padding-right: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  grid-gap: .8rem;
+  text-align: center;
+  /* border: 1px solid orange; */
+}
+
+.Aircrafts .AircraftList-loading {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  width: 300px;
+  height: 300px;
+}
+
+.Aircrafts .AircraftCard-loading {
+  max-width: 290px;
+  min-height: 385px;
+  max-height: 385px;
+  min-width: 290px;
+  /* margin-left: 20%; */
+  /* box-shadow: none; */
+}
+
+.Aircrafts .Aircraft-content .Plus-sign {
+  color: var(--sky);
+}
+
+.Aircrafts .Aircraft-content .Plus-sign:hover {
+  cursor: pointer;
+  color: #0195da;
+}
+
+/* .Aircrafts .Aircraft-content .NewFlight-Card:hover {
+  cursor: pointer;
+  border: 5px solid red;
+} */
+
+.Aircrafts .AircraftList {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  /* border: 30px solid orange; */
+}
+
+.NewAircraft-content .new-aircraft-input-tn {
+  margin: 0 1rem 1rem 0;
+}
+
+.NewAircraft-content .new-aircraft-input-tn-required {
+  margin: 0 1rem 1rem 0;
+  border: 0.12rem solid red;
+}
+
+.NewAircraft-content .new-aircraft-input-mt-required {
+  /* margin: 0 1rem 1rem 0; */
+  border: 0.12rem solid red;
+}
+
+
+.Aircrafts  .NewAircraft-button {
+  border-radius: 4px;
+  background-color: white;
+  padding: .25rem 1rem;
+}
+
+.NewAircraft-content .nested-modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 50px solid blue; */
+}
+
+.NewAircraft-content .nested-modal-button {
+  padding: .4rem 1rem;
+  border-radius: 2px;
+  border: 0;
+  box-shadow: 1px 1px 1px 1px var(--buttonGrey);
+}
+
+.NewAircraft-content .nested-modal-button:hover {
+  background-color: var(--buttonGrey);
+  color: white;
+  cursor: pointer;
+}
+
+/* .NewAircraft-content .modal-footer .save-button {
+  padding: .2rem 1rem;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px var(--buttonGrey);
+}
+
+.NewAircraft-content .modal-footer .save-button:hover {
+  background-color: var(--buttonGrey);
+  color: white;
+  cursor: pointer;
+} */
+
+.NewAircraft-content .modal-content .modal-header {
+  border-bottom: none;
+  /* border: 10px solid purple; */
+}
+.NewAircraft-content .modal-content .modal-footer {
+  border-top: none;
+  /* border: 5px solid green; */
+}
+
+
+.Aircrafts .load-bar {
+  position: relative;
+  margin-left: 5%;
+  margin-top: 57%;
+  width: 90%;
+  height: 9px;
+  background-color: var(--sky);
+}
+.Aircrafts .bar {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 50%;
+  text-align: center;
+}
+.Aircrafts .bar:nth-child(1) {
+  background-color: #eff3f9;
+  animation: loading 3s linear infinite;
+}
+.Aircrafts .bar:nth-child(2) {
+  background-color: var(--sky);
+  animation: loading 3s linear 1s infinite;
+}
+.Aircrafts .bar:nth-child(3) {
+  background-color: var(--silver);
+  animation: loading 3s linear 2s infinite;
+}
+@keyframes loading {
+    from {left: 50%; width: 0;z-index:100;}
+    33.3333% {left: 0; width: 100%;z-index: 10;}
+    to {left: 0; width: 100%;}
+}

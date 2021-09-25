@@ -1,0 +1,325 @@
+.FlightCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #e9e8e8;
+  padding: 1rem;
+  margin: 0;
+  height: 370px;
+  /* border: 1px solid red; */
+  max-width: 290px;
+  min-height: 385px;
+  max-height: 385px;
+  min-width: 290px;
+}
+
+.FlightCard h3 {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.FlightCard p {
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+}
+
+.FlightCard .FlightCardHeader {
+  /* border: 1px solid purple; */
+  height: 78px;
+}
+
+.FlightCard .FlightCardHTMLSnippet {
+  /* border: 1px solid blue; */
+  height: 165px;
+  min-height: 165px;
+}
+
+.FlightCard .FlightCardFooter {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  height: 60px;
+}
+
+.FlightCard .FlightCardTitle {
+  padding-bottom: 7px;
+}
+
+.FlightCard .FlightCardSubTitle {
+  margin-bottom: 3px;
+}
+
+.FlightCard .FLightCard-Hours-Date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FlightCard .FlightCardFooter .FlightIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ViewFlightHeader {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 75px; */
+    width: 100%;
+}
+
+.ViewFlightCardModal h5 {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ViewFlightHeader .ViewFlightHeaderTop{
+    /* border: 1px solid green; */
+}
+
+.ViewFlightHeader .ViewFlightHeaderTop  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ViewFlightHeader .ViewFlightHeaderTop  .Header-title-flydate {
+  font-size: 1rem;
+}
+
+.ViewFlightHeader .ViewFlightHeaderBottom{
+    font-size: 1rem;
+}
+
+.ViewFlightCardModal .modal-content .FlightIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+.TopFlightCard .ViewFlightCardModal .modal-header {
+    width: 100%;
+}
+
+.ViewFlightCardModal .FlightViewCard-modalfooter{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ViewFlightCardModal .ul-1 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.ViewFlightCardModal .ul-2 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.ViewFlightCardModal .ViewFlightSnippetBody {
+  min-height: 165px;
+}
+
+.ViewFlightCardModal .ViewFlightManTail {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+.ViewFlightCardModal .ViewFlightRemarks .ViewFlightRemarks-ta {
+  justify-content: center;
+  padding-top: 0px;
+  /* border: 1px solid lightgrey; */
+  min-height: 70px;
+}
+
+.ViewFlightCardModal .ViewFlightManTail p {
+  font-size: 1.3rem;
+}
+
+.FlightEditModal .FlightEditModalHeader h5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.FlightEditModal .FlightEditModalHeader .Inputs{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between */
+}
+
+
+.FlightEditModal .FlightEditModalHeader .new-flight-input-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flight-card-edit:hover {
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+}
+
+.FlightEditModal .FlightEditModalHeader .FlightEditDropdown button {
+  height: 32px;
+  padding: 0px;
+  width: 144px ;
+  /* color: black;
+  background-color: white; */
+  
+  text-align: center;
+  border-radius: 1px;
+}
+
+
+
+.FlightEditModal .FlightEditModalHeader .FlightEditDropdown .dropdown-menu:active {
+  background-color: white;
+}
+
+
+.FlightEditModal .FlightEditModalHeader .Inputs h2 {
+  text-align: center;
+  margin-left: 35%;
+  padding-bottom: 15px;
+  
+}
+
+.FlightEditModal .FlightEditModalHeader .Inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.FlightEditModal .FlightEditModalHeader .new-flight-input-name {
+  margin-right: 3%;
+  margin-left: 10px;
+  width: 62%;
+  height: 32px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.FlightEditModal a {
+  text-decoration: none;
+  color: var(--sky);
+  font-size: 0.9rem;
+}
+
+.FlightEditModal a:hover {
+  text-decoration: none;
+}
+
+
+.FlightEditModal  .new-flight-snippet .snippet-text-area {
+  height: 130px;
+  width: 100%;
+
+}
+
+.FlightEditModal  .new-flight-remark-area .remarks-area {
+  height: 130px;
+  width: 100%;
+
+}
+
+
+.FlightEditModal .FlightEditModalHeader .new-flight-input-av {
+  margin-right: 3%;
+  margin-left: 10px;
+  width: 62%;
+  padding: 0px;
+  margin-bottom: 10px
+}
+
+.FlightEditModal .FlightEditModalHeader .new-flight-input-fd {
+  height: 34px;
+  width: 31%;
+  -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none
+}
+
+
+.FlightEditModal {
+  /* box-shadow: 1px 1px 2px 1px  var(--sky);
+  border-radius: 6px; */
+ }
+ .FlightEditModal .modal-footer {
+  /* border: 1px solid purple; */
+  display: flex;
+ }
+ .FlightEditModal .EditModalFooterChildren {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-around
+ }
+ .FlightEditModal .YYY {
+  /* border: 1px solid teal; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+ }
+ .FlightEditModal .EditModalFooterChildren input {
+  /* border: 2px solid rgb(158, 192, 33); */
+  width: 100%;
+ }
+ .FlightEditModal .EditModalFooterChildren .XXX {
+  display: flex;
+  flex-direction: column;
+ }
+ .FlightEditModal .EditModalFooter .EditModalFooterChildren span {
+  /* border: 5px solid white; */
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+ }
+
+.flight-edit-save-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ .flight-edit-save-button {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    color: black;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    border-radius: 3px;
+    font-style: bold;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border:.3px;
+    width: 33%;
+    margin-bottom: .5rem;
+  
+ }
+
+ .flight-edit-save-button:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--sky);
+ }
+
+
+@media (min-width: 600px) {
+  .HTMLSnippet .MuiCardContent-root-29 {
+    padding: 0px;
+  }
+}

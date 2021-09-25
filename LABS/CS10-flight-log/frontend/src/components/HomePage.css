@@ -1,0 +1,118 @@
+.HomePage {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 4rem 1fr;
+}
+.HomePage .HomePage-info {
+  grid-column: 3 / -1;
+  grid-row: 2 / -1;
+  background-image: url('../utils/Images/homePageIllustrationBlue.svg');
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: top right;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .HomePage .HomePage-info {
+    background-image: url('../utils/Images/homePageIllustrationSmall.svg');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: top right;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .HomePage .HomePage-info {
+    background-image: none;
+  }
+}
+
+.HomePage .HomePage-info-loading {
+  grid-column: 3 / -1;
+  grid-row: 2 / -1;
+  /* background-image: url('../utils/Images/homePageIllustrationBlue.svg'); */
+  background-repeat: no-repeat;
+}
+
+.HomePage .HomePage-info .Homepage-totalscard {
+  max-width: 700px;
+  height: 500px;
+  margin-left: 2%;
+  margin-top: 6%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: none;
+  
+}
+
+.barChartContainer {
+  height: 400px;
+  padding: 20px 0;
+  background-color: white;
+}
+
+.HomePage .HomePage-info .Homepage-totalscard .homepage-license {
+  display: flex;
+  justify-content: center;
+}
+.license-type1 {
+  border-right: 2px solid black;
+}
+
+.TotalsBodyChildren .totals-1 {
+    text-align: left !important;
+}
+
+.HomePage .HomePage-info .Homepage-totalscard .TotalsBodyChildren {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+
+}
+
+.HomePage .HomePage-info h2 {
+  margin: 15rem 0 .5em 3rem;
+}
+.HomePage .HomePage-info h2::first-letter {
+  font-size: 200%;
+  color: var(--sky);
+}
+
+.load-bar {
+  position: relative;
+  margin-left: 5%;
+  margin-top: 35%;
+  width: 90%;
+  height: 9px;
+  background-color: var(--sky);
+}
+.bar {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 50%;
+  text-align: center;
+}
+.bar:nth-child(1) {
+  background-color: #eff3f9;
+  animation: loading 3s linear infinite;
+}
+.bar:nth-child(2) {
+  background-color: var(--sky);
+  animation: loading 3s linear 1s infinite;
+}
+.bar:nth-child(3) {
+  background-color: var(--silver);
+  animation: loading 3s linear 2s infinite;
+}
+@keyframes loading {
+    from {left: 50%; width: 0;z-index:100;}
+    33.3333% {left: 0; width: 100%;z-index: 10;}
+    to {left: 0; width: 100%;}
+}

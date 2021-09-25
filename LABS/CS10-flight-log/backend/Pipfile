@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+python-decouple = "*"
+dj-database-url = "*"
+django-cors-headers = "*"
+gunicorn = "*"
+"psycopg2-binary" = "*"
+whitenoise = "*"
+djangorestframework-jwt = "*"
+pillow = "*"
+stripe = "*"
+certifi = "==2018.1.18"
+chardet = "==3.0.4"
+idna = "==2.6"
+pytz = "==2018.3"
+requests = "==2.18.4"
+sqlparse = "==0.2.4"
+"urllib3" = "==1.22"
+django-rest-multiple-models = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3"
