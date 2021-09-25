@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.side-navs {
+  display: flex;
+  flex-direction: column;
+}

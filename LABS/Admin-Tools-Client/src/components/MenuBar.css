@@ -1,0 +1,47 @@
+.menu-header {
+  background-color: black;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%238c44ff' fill-opacity='0.39' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  height: 60px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.lambda-icon {
+  height: 20px;
+}
+
+.lambda-icon:hover {
+  cursor: pointer;
+  height: 25px;
+}
+
+.menu-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-item {
+  height: 25px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  flex-direction: column;
+  list-style: none;
+  line-height: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-text {
+  color: white;
+  font-weight: 500;
+  text-decoration-line: none;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  font-size: 16px;
+}

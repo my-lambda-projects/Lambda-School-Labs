@@ -1,0 +1,42 @@
+.list-pr {
+  width: 60vw;
+  margin: 80px auto;
+  border: 2px outset whitesmoke;
+  box-shadow: -2px 2px grey;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.show-rem-status {
+  position: fixed;
+  background-color: white;
+  border-radius: 2px;
+  height: 20px;
+  width: 280px;
+  left: 39%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hide-rem-status {
+  display: none;
+}
+
+.pr-header {
+  background-color: rgba(255, 255, 255, .6);
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.rem-closed-icon {
+  margin-left: 30px;
+  height: 25px;
+}
+
+.rem-closed-icon:hover {
+  cursor: pointer;
+  height: 30px;
+}

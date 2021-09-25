@@ -1,0 +1,34 @@
+.show-slide {
+  display: block;
+  width: 100%;
+}
+
+.hide-slide {
+  display: none;
+}
+
+.slides {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  height: 600px;
+  border-bottom: 2px inset black;
+  
+}
+
+.enter-btn {
+  position: absolute;
+  z-index: 1;
+  height: 40px;
+  width: 100px;
+  border: 4px outset whitesmoke;
+  text-align: center;
+  right: 45%;
+  top: 55%;
+  color: black;
+}
+
+.enter-btn:hover {
+  cursor: pointer;
+  opacity: .4;
+}

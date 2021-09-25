@@ -1,0 +1,63 @@
+.side-bar {
+  width: 25vw;
+  max-height: 300px;
+  background-color: rgba(255, 255, 255, .4);
+  border: 1px solid black;
+  margin: 80px 2vw 0 2vw;
+  overflow: scroll;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.pr-name {
+  list-style: none;
+  text-align : left;
+  font-weight: 600;
+  color: rgb(50, 50, 50);
+}
+
+.cat-title {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  line-height: 10px;
+}
+
+.dropup-btn {
+  height: 18px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.dropup-btn:hover {
+  cursor: pointer;
+}
+
+.dropdown-btn {
+  height: 18px;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-btn:hover {
+  cursor: pointer;
+}
+
+.side-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.show-cats {
+  display: block;
+}
+
+.hide-cats {
+  display: none;
+}
