@@ -1,0 +1,570 @@
+/* *{
+    border:1px solid red;
+} */
+
+/* HEADER */
+
+.hamcolor-vehicle-update {
+    
+    
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    /* padding-right: 25px; */
+    
+    border-radius: 0px !important;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 53px;
+    color: rgba(53, 195, 226, 0.95);
+    border-bottom: 1.5px solid rgba(237, 238, 241, 0.2);
+    
+    margin-left: -25px;
+    margin-top: -25px;
+
+    background: #2A2E43;
+  display:flex;
+  flex-direction: row;
+  
+  ;
+  
+    
+  }
+
+  .hamend-vehicle-update {
+    font-family: Heebo;
+    font-size: 36px;
+    font-weight: bold;
+    color: #00B2D9;
+  }
+
+  .Exit-vehicles-update{
+    margin-right:30px;
+  }
+
+/*  */
+.form-wrapper-update{
+    
+    /* margin-bottom: 100px; */
+    padding:25px;
+    height: 100vh;
+    background:#2A2E43;
+    margin-left:-25px;
+}
+
+
+.form-wrapper-scrolling-update{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.vehicle-tabs-update{
+color: white;
+background-color: #6C757D;
+margin: 20px;
+padding: 8px;
+border-radius: 8px;
+display: flex;
+width: 90%;
+height:100%;
+flex-direction: column;
+}
+
+.vehicle-tabs-update > div > form{
+background-color: #0f0f0f;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.highlight-update{
+border: 3px solid #ffc107;
+position: relative;
+}
+.select-text-update{
+color: #ffc107;
+}
+
+.select-btn-update{
+width: 100px;
+align-self: start;
+padding: 0;
+margin-bottom: 10px;
+margin-left: 4px;
+margin-top: 6px;
+}
+.vehicle-btn-update{
+margin: 4px;
+width:  100px;
+}
+.vehicle-txt-update{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+.vehicle-name-update{
+margin: 0 0 0 20px;
+align-self: start;
+}
+.edit-delete-update{
+display: flex;
+flex-direction: row;
+margin: 20px 0;
+}
+.vehicle-information-update{
+font-size: 1.2rem;
+align-self: start;
+margin-left: 4px;
+}
+
+/* .inputsFieldsContainer{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    border-radius: 3px;
+} */
+
+#routing-update{
+    color:#00B2D9
+}
+
+.form-section-update{
+    display:flex;
+    align-items: center;
+    /* flex-direction: row; */
+    width:100%;
+    /* margin-bottom: 20px; */
+}
+.vehicle-spec-label-update{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width:105%;
+color: rgba(237, 238, 241, 0.95);
+height: 6.875rem;
+}
+
+.vehicle-spec-label2-update{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+/* width:100%; */
+color: rgba(237, 238, 241, 0.95);
+}
+
+p.vehicle-spec-update{
+display:flex;
+width:150px;
+/* margin:0 10px; */
+align-items:center;
+/* font-weight: 500; */
+font-size: 16px;
+margin: 10px 0 0 0;
+height: 1.625rem;
+color:white;
+
+}
+
+
+p.measurements-update{
+font-weight: 500;
+font-size: 16px;
+}
+
+.FormContainer-update{
+    width:376px;
+}
+.measurements-update{
+    /* width:100%;  */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-bottom: 30px;
+}
+
+.measurementsParent2-update{
+   display:flex;
+   flex-direction: row;
+   height:5.625rem;
+   align-items: space-between;
+}
+#input.measurements-update{
+height:3.4375rem;
+width:45px;
+border-radius: 3px;
+border: 1px solid rgba(42, 46, 67, 0.3);
+
+}
+.measurementsParent-update{
+    display:flex;
+    flex-wrap: wrap;
+    /* width:100%; */
+    /* justify-content: space-between; */
+    height: 4.375rem;
+}
+
+.dimensionsTitle-update{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 7.5rem;
+    /* width: 140px; */
+}
+
+p.measurementsInput-update{
+    font-size: 14px;
+    font-weight: 1;
+    font-style: normal;
+    margin-bottom:5px;
+    text-align: left;
+    /* margin-left:12px; */
+    /* display:flex; */
+    border-radius: 3px;
+    color: rgba(237, 238, 241, 0.8);
+}
+.tires-axels-update{
+    display:flex;
+    flex-direction: row;
+}
+
+.tires-check-update{
+/* width:100%; */
+display:flex;
+flex-wrap:wrap;
+font-size:16px;
+
+/* justify-content:left; */
+/* padding-top:30px;
+margin-right:30px; */
+}
+
+.form-radio-update{
+    /* display:flex;
+    flex-direction: column;
+    width:10px;
+    padding:0px;
+    margin-right:30px;
+    justify-content: space-around; 
+    color: white; */
+    /* width: 160px; */
+    color: white;
+    font-size: 16px;
+    /* margin: 20px 20px 0 0; */
+}
+
+.form-check-label-update{
+/* width:160px; */
+display: flex; 
+flex-direction: row;
+font-family: Heebo;
+font-size: 16px;
+color: rgba(237, 238, 241, 0.95);
+
+}
+
+.form-check.input-update{
+    /* margin:; */
+    background: #DADADA;
+    border-radius: 3px;
+    border: 1px solid rgba(42, 46, 67, 0.3);
+    
+}
+
+.form-check-inline-update{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin:30px; */
+   
+}
+
+
+
+.input-boxes-update{
+    height:2.8125rem;
+    width:55px;
+    border-radius: 3px;
+    border: 1px solid rgba(42, 46, 67, 0.3);
+}
+
+
+#vehicleAddTitle-update{
+font-family: Heebo;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+/* line-height: 26px; */
+display: flex;
+align-items: center;
+margin-bottom:20px;
+/* White text */
+
+color: rgba(237, 238, 241, 0.95);
+}
+
+.back-update{
+    display:flex;
+    flex-direction:row;
+    background: #F8F9FA;
+    align-items: center;
+    padding: 10px;
+    margin-left: -25px;
+}
+
+.vehicleFormBackContainer-update{
+    margin: 0;
+    color: #00B2D9;
+    border: 2px solid rgba(42, 46, 67, 0.8);
+    margin-right: 10px;
+    padding-right:10px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#requiredField-update{
+    height: 1.25rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px; 
+    text-align: left;
+    color: rgba(255, 78, 46, 0.9);
+}
+
+.back-label-update{
+font-family: Heebo;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+margin: 0;
+/* identical to box height */
+/* margin-top: 12px; */
+display: flex;
+flex-direction:row;
+align-items: center;
+/* padding-top:5px; */
+/* Grayscale 80% */
+
+color: rgba(42, 46, 67, 0.8);
+}
+
+#routing-update:hover{
+    cursor: pointer;
+}
+
+#rv-name-update{
+    width: 100%;
+    height:2.8125rem;
+    margin:0px;
+}
+
+.plus-update{
+    padding-top: 40px;
+}
+
+.required-update{
+    font-size: 12px;
+    margin: 0 0 0 5px;
+    
+
+}
+
+#input-boxes-pounds-update{
+    width:100%;
+    height:2.8125rem;
+    border-radius: 3px;
+    border: 1px solid rgba(42, 46, 67, 0.3);
+    /* margin-left:10px; */
+}
+
+#p.tires-check-update{
+    color:yellow;
+}
+
+.tires-check-p-update{
+/* display:flex; */
+/* width: 100%; */
+/* flex-direction: row; */
+/* justify-content: left; */
+font-family: Heebo;
+/* font-style: normal; */
+/* font-weight: normal; */
+font-size: 16px;
+/* line-height: 23px; */
+/* margin-right:40px; */
+color:white;
+}
+
+.tires-check-p2-update{
+    width:100%;
+   
+    /* height:19px; */
+    display:flex; 
+    flex-wrap:row; 
+    align-items: flex-end;
+
+}
+
+
+
+
+
+.axels-update{
+    width:55px;
+    height:2.8125rem;
+    margin-right:0px;
+}
+
+button.btn-submit-update{
+width: 152px;
+height: 2.8125rem;
+/* background: #2A2E43; */
+background: #00B2D9;
+border-radius: 3px;
+margin-top: 10px;
+border: none;
+/* width:40%; */
+/* margin-left:75px; */
+}
+
+/* .btn-submit:hover{
+ background: #00B2D9;
+border: 3px solid rgb(119, 157, 165) ;
+
+} */
+
+
+
+.class-radios-update{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap; 
+    /* justify-content:center; */
+   
+  
+}
+
+.rv-radio-update{
+    width:33%;
+    height:1.25rem;
+    display:flex;
+    flex-direction: row;
+  
+  
+}
+
+.row1-update{
+    display: flex;
+    flex-direction: row;
+}
+
+.row2-update{
+    display: flex;
+    flex-direction: row;
+}
+
+#inline-text-2-update{
+    background-color: blueviolet;
+}
+
+#class-update{
+    background: blueviolet;
+}
+
+.buttons-update{
+    height: 100%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    /* margin-top: 100px; */
+    padding: 50px 0px;
+}
+
+.tires-check-p-update{
+    width:70%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    margin-left:10px;
+}
+
+.tires-ptag-update{
+    width:100%;
+    margin:0;
+    text-align: left;
+    /* width:100%; */
+    color:white;
+}
+
+.tag-radio-update{
+    display:flex;   
+    width:100%;
+    padding-right:5px;
+    font-size:16px;
+    color:white;
+    height: 3.75rem;
+}
+
+.tag-radio-child-update{
+    /* width:100%; */
+    display:flex;
+    flex-direction: row;
+}
+
+.classAbc-update{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.FithWheelContainer-update{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.rv-radio-tagalong-update{
+    width: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#tagalongCamper-update{
+    /* width: 100%; */
+    font-size: 16px;
+    margin-bottom: 0;
+    color: white;
+}
+
+#cancelButton-update{
+    background: transparent;
+    border: 1px solid #00B2D9;
+    color: #00B2D9;
+}
+
+#validAddButton-update{
+    display: block;
+}
+
+#invalidAddButton-update{
+    background: none;
+    border: 1px solid#6C757D;
+    color: #6C757D;
+    opacity: .5;
+}
+
+#invalidAddButton-update:hover{
+    cursor: text;
+}
+
+#poundsContainer-update{
+    width: 135px;
+}

@@ -1,0 +1,412 @@
+.register-wrapper {
+    height: 100vh;
+    /* background: #E5ECEE; */
+    font-family: 'Heebo', sans-serif;
+    background-image: url(../../../assets/img/Sign-up-Background.svg);
+    /* background-attachment: fixed; */
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+@media (max-width: 415px) {
+    .register-wrapper{
+        background-image: url(../../../assets/img/Sign-up-Background.svg);
+        background-position: -120px;
+    }
+}
+
+.register-wrapper .firebaseui-idp-list {
+    display: flex;
+    margin:0;
+}
+
+@media (max-width: 415px) {
+    .firebaseui-idp-list{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.firebaseui-card-content, .firebaseui-card-footer {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.firebaseui-idp-google, 
+.mdl-button.firebaseui-idp-google {
+    padding: 0 5px 0px 20px;
+}
+
+.firebaseui-idp-facebook,  
+.mdl-button.firebaseui-idp-facebook {
+    padding: 0 5px 0px 10px;
+}
+
+.firebaseui-card-content, .firebaseui-card-footer {
+    padding: 0 0px;
+}
+
+.firebaseui-idp-button {
+    direction: ltr;
+    font-weight: 500;
+    height: auto;
+    line-height: normal;
+    max-width: 220px;
+    min-height: 40px;
+    padding: 8px 16px;
+    text-align: left;
+    width: 100%;
+}
+
+/* !/ FIREBASE STYLING */
+.firebaseui-list-item {
+    margin: 0;
+    width: 156px;
+}
+
+.firebaseui-idp-button .mdl-button .mdl-js-button .mdl-button--raised .firebaseui-idp-google .firebaseui-id-idp-button {
+    margin-left: 5px;
+    width: 152px;
+    padding: 0 0px 0px 10px;
+}
+
+.firebaseui-idp-text .firebaseui-idp-text-long {
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.firebaseui-list-item {
+    margin: 0;
+    width: 159px;
+}
+
+.firebaseui-idp-button .mdl-button .mdl-js-button .mdl-button--raised .firebaseui-idp-facebook .firebaseui-id-idp-button {
+    padding: 0 0px 0 5px;
+    width: 154px;
+}
+
+span.firebaseui-idp-text.firebaseui-idp-text-long {
+    font-size: 12px;
+    padding-left: 5px;
+    /* color: rgb(183, 30, 210); */
+}
+
+#password-eye {
+    font-size: 10px;
+}
+
+.register-wrapper .register-main {
+    display: flex;
+    justify-content: flex-end;
+    /* height: 100%; */
+}
+
+.register-wrapper .register-auth-loading {
+    font-size: 4rem;
+    /* margin: 40px; */
+    color: black;
+}
+
+.register-wrapper .register-main-form-one {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 16px;
+    border-top: 0;
+    width: 423px;
+    height: 630px;
+    margin-right: 250px;
+    margin-top: 100px;
+    /* text-align: center; */
+
+}
+
+@media (max-width: 415px) {
+    .register-main-form-one{
+        margin: 0;
+        padding: 0;
+        background: rgba(255, 255, 255, 0.5);
+        height: 100%;
+    }
+}
+
+@media (max-width: 415px) {
+    .sc-bxivhb {
+        padding: 5px 10px 10px 10px;
+        height: 40px;
+    }
+}
+
+
+.or {
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.register-main .register-main-form-one .register-header-one {
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-top: 0;
+    margin-bottom:0px;
+    color:#2A2E43;
+    
+}
+
+@media (max-width: 415px) {
+    .register-header-one {
+        margin: 20px;
+    }
+}
+
+.register-main-form-one .register-header-one .register-welcome-home-one {
+    margin-top: 15px;
+    font-weight: 700;
+    font-family: 'Heebo', sans-serif;
+    font-size:36px;
+    line-height: 53px;
+
+}
+
+.register-lets-get-you-settled {
+    margin-bottom: 22px;
+    font-size:28px;
+    line-height: 41px;
+    font-weight:normal;
+}
+
+.register-wrapper .register-social-media {
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 42px;
+    margin-top: 9px;
+    
+}
+
+@media (max-width: 415px) {
+    .register-social-media {
+        display: flex;
+        height: 60px;
+        margin: 20px;
+    }
+}
+.register-sign-up-with-social-media {
+    font-size: 16px;
+    font-weight:normal;
+    line-height: 23px;
+}
+
+.register-wrapper .register-input-and-button {
+    margin-left: 40px;
+    margin-right: 39px;
+}
+
+@media (max-width: 415px) {
+    .register-input-and-button {
+        /* width: 90%; */
+        margin: 20px;
+        padding: 0px;
+    }
+}
+
+.register-social-media #google {
+    height: 40px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 12px;
+    background: #FFFFFF;
+    border: 1px solid #D1D3D6;
+    box-sizing: border-box;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    /* background-image:  */
+    background: url(../../../assets/img/google.svg),no-repeat, center;
+    background-position: center;
+}
+
+.register-social-media #facebook {
+    height: 40px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    /* color: black; */
+    font-size: 12px;
+    /* background: #4267B2; */
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;    
+    box-sizing: border-box;
+    /* border-radius: 3px; */
+    border: 1px solid #D1D3D6;
+    border-left: 0;
+    background: url(../../../assets/img/facebook.svg), no-repeat, center;
+    background-position: center;
+}
+
+.register-wrapper .register-main-form-label {
+    color: black;
+    align-self: flex-start;
+    margin-left: 0;
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+
+ #password {
+    margin-top: 16px;
+    margin-left: -30px;
+
+}
+
+#confirm-password {
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+
+.password-mask {
+    position: relative;
+    right: -274px;
+    bottom: -43px;
+    background:transparent url("../../../assets/img/eye.svg") no-repeat 0 center;
+    display: inline-block;
+    text-indent: -1000em; 
+    overflow: hidden; 
+    width: 30px; 
+    height: 30px; 
+    z-index: 1000;
+}
+
+@media (max-width: 415px) {
+    .password-mask {
+        right: -340px;
+        bottom: -43px;
+    }
+}
+
+.password-mask-confirm {
+    position: relative;
+    right: -273px;
+    bottom: -42px;
+    background:transparent url("../../../assets/img/eye.svg") no-repeat 0 center;
+    display: inline-block;
+    text-indent: -1000em; 
+    overflow: hidden; 
+    width: 30px; 
+    height: 30px; 
+    z-index: 1000;
+}
+
+@media (max-width: 415px) {
+    .password-mask-confirm {
+        right: -340px;
+        bottom: -43px;
+    }
+}
+
+
+.password-eye {
+    background:transparent url("../../../assets/img/eye.svg") no-repeat 0 center;
+}
+
+.password-eye-off{
+    background:transparent url("../../../assets/img/eye-off.svg") no-repeat 0 center;
+}
+
+.register-main-form-input {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    padding: 0 5px 0 5px;
+    /* margin-bottom: 7px; */
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: #FFFFFF;
+    border: 1px solid rgba(42, 46, 67, 0.5);
+}
+
+@media (max-width: 415px) {
+    .register-main-form-input {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+p.register-main-form-error {
+    /* margin: 0; */
+    font-size: 0.8rem;
+    color: rgb(233, 90, 90);
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+
+.register-required-label {
+    color: #ffc107;
+}
+
+.register-lets-go-button {
+    margin: 0;
+    width: 100%;
+    margin-top: 18px;
+    height: 45px;
+    font-weight: 700;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E4;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid rgba(42, 46, 67, 0.5);
+    color: rgba(42, 46, 67, 0.6);
+
+}
+
+.register-lets-go-button:hover {
+    color: #fff;
+    background-color: rgba(53, 195, 226, 0.95);
+    border: none;
+}
+
+.register-wrapper .already-have-an-account-one  {
+    margin-top: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.register-wrapper .already-have-an-account-one a {
+    padding-top:0px;
+}
+
+@media (max-width: 415px) {
+    .already-have-an-account-one {
+        text-align: center;
+    }
+}
+
+.register-wrapper .already-have-an-account-one #sign-in {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(53, 195, 226, 0.95);
+    font-weight: bold;
+
+
+}
+
+.signup-contain{
+    margin-left:5px;
+}
+
+.btn-warning{
+    width:50%;
+    justify-content: left;
+    margin-left: 25%;   
+}
+

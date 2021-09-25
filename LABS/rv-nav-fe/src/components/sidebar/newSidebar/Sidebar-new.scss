@@ -1,0 +1,34 @@
+.mainSidebarContainer {
+    height: 335px; //<-- changed from 400px
+    position: fixed;
+    z-index: 1000;
+    background: #2a2e43;
+    margin: 25px;
+    width: 375px;
+
+    .off{
+        display: none;
+        width: 100%;
+        border: 20px solid red;
+    }
+
+    @media (max-width: 415px) {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    ::-webkit-scrollbar-thumb { box-shadow: inset 0 0 7px;border-radius: 10px;background-color: rgba(53,195,226,.95);}
+    ::-webkit-scrollbar-track { box-shadow: inset 0 0 5px grey;border-radius: 10px;}
+    ::-webkit-scrollbar { width: 15px;}
+    ::-webkit-scrollbar-thumb:hover { background: white;}
+}
+
+.login-to-add{
+    margin-top: 60px;
+    padding: 5px;
+}
+
+#dropdown-split-basic div{
+    position: relative;
+    left: 10px;
+}

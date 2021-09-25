@@ -1,0 +1,123 @@
+.fa-arrow-circle-right{
+  font-size: 2.1rem;
+  color: white;
+  margin: 2px 0;
+}
+
+.fa-arrow-circle-right:hover {
+  cursor: pointer;
+}
+
+.open-button-wrap{
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+  overflow-y: hidden;
+}
+
+.logout-btn{
+  height: 30px;
+  padding: 2px 12px;
+  margin: 6px 0;
+}
+#map{
+  height: calc(100vh - 50px);
+}
+.routing-with{
+  display: flex;
+  justify-content: flex-start;
+}
+.routing-with > p{
+  margin:  6px 0 6px 16px;
+}
+.routing-with > span{
+  margin:  6px 4px;
+  color: #ffc107;
+}
+.route-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #2A2E43;
+  font-size: 2rem;
+  /* height: 100px; */
+  width: 375px;
+  color: white;
+  margin-top: 60px;
+}
+
+@media (max-width: 415px) {
+  .route-loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 0;
+    padding-top: 50px;
+  }
+}
+
+.point-of-interest-options{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap; 
+  border-top: 1px solid #6C757D;
+  margin-top: 12px;
+}
+.point-interest-input{
+ margin: 0 3px 0 0;
+ font-size: .8rem;
+ width: 75px;
+ height: 25px;
+ padding: 0;
+}
+
+.point-interest-btn{
+  margin: 0 3px 0 0;
+  font-size: .8rem;
+  width: 75px;
+  height: 25px;
+  padding: 0;
+ }
+.POI-dropdown{
+  margin: -20px 0 3px 0;
+  align-content: center;
+  height: 25px;
+}
+@media (max-width: 700px){
+  .POI-dropdown{
+    margin: -5px 0 -9px 0;
+    font-size: .8rem;
+    padding: 0;
+  }
+  .POI-accordion{
+    padding: 0;
+  }
+}
+.POI-accordion{
+  border: 1px solid blue;
+  margin: -16px 0 0 0;
+  padding: 8px;
+  border: 2px solid #6C757D;
+  border-radius: 16px;
+}
+.POI-accordion:hover{
+  cursor: pointer;
+}
+.search-distance-label{
+  font-size: .8rem;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+.directions{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  padding-left: 20px;
+  overflow: overlay;
+}

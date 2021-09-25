@@ -1,0 +1,44 @@
+.loading-wrapper {
+    width: 100vw;
+    height: 100vh;
+    /* background: #E5ECEE; */
+    font-family: 'Heebo', sans-serif;
+    background-image: url(../../../assets/img/Onboarding-CreatingProfile-loading-SVG.svg);
+    background-attachment: fixed;
+     background-repeat:no-repeat ; 
+    background-size: 100% 100%; 
+    display: flex;
+    flex-direction: center;
+    /* justify-content: center; */
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;   
+    
+    
+}
+
+@media (max-width: 415px) {
+    .loading-wrapper{
+        background-image: url(../../../assets/img/Onboarding-CreatingProfile-loading-SVG.svg);
+        background-position: -120px;
+    };
+};
+
+.wrapper{
+    width: 100vw;
+    height:100vh;
+  }
+  
+  .loading-wrapper .wrapper #loading-header{
+     font-family: "Heebo"; 
+ font-style: normal; 
+ font-weight: bold;
+ font-size: 36px; 
+ line-height: 53px; 
+ 
+}
+
+ 
+
+
+ 

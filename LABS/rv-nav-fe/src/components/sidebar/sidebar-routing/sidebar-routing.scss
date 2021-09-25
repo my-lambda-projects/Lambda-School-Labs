@@ -1,0 +1,229 @@
+//<----------------- BEGINNING OF KEYFRAMES FOR ANIMATION
+@keyframes slideLeft {
+    from {left: -375px}
+    to {left: 0px}
+}
+
+@keyframes slideRight {
+    from {left: 0px}
+    to {left: -375px}
+}
+//<----------------- END OF KEYFRAMES FOR ANIMATION
+
+.containerWithArrow{
+    width: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    position: relative;
+    left: 0px;
+    // right: 40px;
+
+    @media (max-width: 415px) {
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        // left: 35px;
+    }
+
+    
+    
+    
+    .arrowContainer{
+        position: relative;
+        width: 25px;
+        left: 10px;
+        // margin-top: 70px;
+        background-image: url('../../../assets/img/hide-sidebar.svg');
+        background: no-repeat;
+        
+        @media (max-width: 415px) {
+            background: transparent;
+        }
+        
+        svg{
+            position: relative;
+            right: 10px;
+            box-shadow: 0px 1px 3px gray;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    
+    .sidebarContainer{  
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: #2A2E43;
+        position: relative;
+        // bottom: 70px;
+        width: 375px;
+        
+        .directions{
+            // padding-left: 30px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+        
+        .backbuttonContainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            border-bottom: 2px solid gray;
+
+            
+            h6 {
+                color: #00B2D9;
+                // font-weight: bold;
+                padding: 15px 0;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+            
+        }
+
+        
+        
+        .startEndContainer{
+            padding: 20px 0 30px 20px;
+            
+            p{
+                margin: 0;
+                font-size: 13px;
+                padding-left: 10px;
+            }
+            
+            .startAndEnd{
+                color: darkgray;
+                margin-top: 10px;
+            }
+
+            .startingPoint{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            
+            .endingPoint{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+        }
+        
+        .sidebarOptions{ //<------------class for future options in sidebar
+                margin: 20px 0px;
+                background-color: white;
+                height: 164px;
+                
+                p{
+                    color: black;
+                    text-align: left;
+                    padding: 15px;
+                    font-size: 12px;
+                }
+            }
+    
+        .routingBackButton{
+            padding: 14.5px 30px;
+            margin: 0;
+        }
+
+        .instructionsContainer{
+            display: flex;
+            align-items: center;
+            height: 50px;
+            width: 95%;
+            border-bottom: 1px solid rgba(237, 238, 241, 0.2);
+   
+
+            .directionsIcons{
+                width: inherit;
+                height: inherit;
+
+                .rightArrowIcon{
+                    width: inherit;
+                    height: inherit;
+                }
+            }
+            
+            .instruction{
+                padding-left: 10px;
+                display: flex;
+                align-items: center;
+                color: white;
+                font-size: 12px;
+                text-align: left;
+                margin: 0;
+                width: 100%;
+                height: inherit;
+                padding: 10px;
+            }
+        }
+
+        .sidebarFooterContainer{
+            
+            #sidebarFooter{
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px 20px;
+                padding-left: 30px;
+                text-align: left;
+                font-size: 8px;
+                font-weight: 0;
+                color: darkgray;
+            }
+        }
+        
+        #directionsTitle{
+            background: white;
+            font-size: 18px;
+            color: #2A2E43;
+            width: 100%;
+            text-align: left;
+            padding: 10px 0px 10px 30px;
+        }
+        
+        #startPointContainer{
+            text-align: left;
+            font-size: 12px;
+        }
+        
+        #destinationPointContainer{
+            text-align: left;
+            font-size: 12px;
+        }
+        
+        #estimatedTime{
+            background-color: #2A2E43;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+            margin: 0;
+        }
+    }
+}
+
+.loadingStatus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 25px;
+
+    @media (max-width: 415px) {
+         height: 100%;
+    }
+}
+// hides scrolling bar
+// .directions::-webkit-scrollbar{ 
+//     display: none;
+// }
+
+
+

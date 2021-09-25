@@ -1,0 +1,259 @@
+p {
+  color: rgba(42, 46, 67, 0.5);
+  // font-weight: bold;
+  align-items: flex-start;
+}
+
+a {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.register-wrapper .register-main-form {
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 16px;
+  border-top: 0;
+  width: 423px;
+  height: 725px;
+  margin-right: 250px;
+  margin-top: 100px;
+  /* text-align: center; */
+}
+
+.greeting {
+  margin: 0 5px;
+
+  h4 {
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(42, 46, 67, 0.8);
+  }
+}
+.Vehicle-Info-Wrapper {
+  margin: 0 15px;
+  max-width: 95%;
+}
+
+.Vehicle-Name {
+  margin: 20px 0;
+
+  p {
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+}
+
+.VDLabel {
+  color: #3d4053;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.VDMeasurements {
+  display: flex;
+  justify-content: space-evenly;
+  width: 99%;
+  align-content: flex-start;
+  p {
+    width: 50%;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+}
+
+.registerInputBoxes-Wrapper1 {
+  display: flex;
+  float: left;
+  padding: 0px 10px 10px 0px;
+
+  p.inputLabels {
+    font-style: normal;
+    margin-bottom: 1px;
+    text-align: left;
+    margin-left: 12px;
+    display: flex;
+    color: rgba(42, 46, 67, 0.8);
+  }
+}
+.registerInputBoxes-Wrapper2 {
+  display: flex;
+  // padding: 10px;
+  padding: 0px 10px 10px 15px;
+
+  p.inputLabels {
+    font-style: normal;
+    margin-bottom: 1px;
+    text-align: left;
+    margin-left: 12px;
+    display: flex;
+
+    color: rgba(42, 46, 67, 0.8);
+  }
+}
+
+.registerInputBoxes-Wrapper3 {
+  display: flex;
+  float: left;
+  padding: 0px 10px 10px 0px;
+
+  p.inputLabels {
+    font-style: normal;
+    margin-bottom: 1px;
+    text-align: left;
+    margin-left: 12px;
+    display: flex;
+
+    color: rgba(42, 46, 67, 0.8);
+  }
+}
+
+.registerInputBoxes-Wrapper4 {
+  display: flex;
+  padding: 0px 10px 10px 15px;
+
+  p.inputLabels {
+    font-style: normal;
+    margin-bottom: 1px;
+    text-align: left;
+    margin-left: 5px;
+    display: flex;
+
+    color: rgba(42, 46, 67, 0.8);
+  }
+}
+
+.vehicleRegisterInput {
+  border: none;
+  border-bottom: 1px solid rgba(42, 46, 67, 0.5);
+  text-align: left;
+  width: 90%;
+}
+.registerInputBoxes {
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.registerInputBoxes-Wrapper {
+  display: flex;
+}
+
+.go-back {
+  color: #00b2d9;
+  font-size: 16px;
+  font-weight: 500;
+}
+.go-back-div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0px !important;
+
+  span {
+    font-size: 16px;
+  }
+
+  a {
+    justify-content: flex-start;
+  }
+}
+
+.go-back.a,
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: rgba(42, 46, 67, 0.7);
+}
+
+.Vehicle-Info-Size-3rd {
+  display: flex;
+  flex-flow: wrap;
+  margin: 10px 0;
+
+  .axle {
+    margin-bottom: 10px;
+    input {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+
+  p {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .tires {
+    margin-left: 20px;
+
+    p {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.Vehicle-Info-Size-4th {
+  display: flex;
+  flex-flow: wrap;
+  width: 75%;
+  margin: 5px;
+
+  .label {
+    margin-left: 30px;
+  }
+
+  .label1 {
+    margin-left: 20px;
+  }
+}
+
+.classType {
+  margin: 0;
+  font-weight: bold;
+}
+
+.check {
+  margin: 0;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  color: rgba(42, 46, 67, 0.7);
+}
+
+.registerInputBoxes {
+  max-width: 50%;
+}
+
+.register-lets-go-button {
+  margin: 0;
+  width: 100%;
+  margin-top: 18px;
+  height: 45px;
+  font-weight: 700;
+  // background: #ffffff;
+  // border: 1px solid #e1e1e4;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: "Heebo", sans-serif;
+  border: 1px solid rgba(42, 46, 67, 0.5);
+  color: rgba(42, 46, 67, 0.6);
+
+  &:hover {
+    color: #fff;
+    background-color: rgba(53, 195, 226, 0.95);
+    border: none;
+  }
+}
+
+// adding in a comment to hopefully make github work
