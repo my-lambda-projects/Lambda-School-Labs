@@ -1,0 +1,26 @@
+
+
+.Join_Card {
+  margin-top: 10%;
+  margin: 5% 10%;
+  height: 100%;
+  border: 1.5px solid;
+}
+
+
+.Join_Form {
+    margin-left: 2%;
+    margin-right:2%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+h5{
+  margin-top: -10px !important;
+  margin-left: 5px;
+  background: white;
+}
+
+.btn {
+    float: center;
+}

@@ -1,0 +1,12 @@
+body {
+  margin: 20px;
+}
+.card-body {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-title {
+  text-align: center;
+}

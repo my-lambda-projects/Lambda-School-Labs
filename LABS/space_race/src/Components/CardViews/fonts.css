@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Xtrusion (BRK)';
+    src: url('XtrusionBRK.woff2') format('woff2'),
+        url('XtrusionBRK.woff') format('woff'),
+        url('XtrusionBRK.svg#XtrusionBRK') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bamf';
+    src: url('BamfBold.woff2') format('woff2'),
+        url('BamfBold.woff') format('woff'),
+        url('BamfBold.svg#BamfBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spaceboy';
+    src: url('Spaceboy.woff2') format('woff2'),
+        url('Spaceboy.woff') format('woff'),
+        url('Spaceboy.svg#Spaceboy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

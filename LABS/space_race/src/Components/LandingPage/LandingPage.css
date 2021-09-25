@@ -1,0 +1,240 @@
+.Header {
+  /* background-image: url("../images/maxresdefault.jpg"); */
+  background-repeat: no-repeat;
+  color: #5b7bc2;
+  background-color: rgba(86, 21, 170, 0.842);
+  min-height: 80px;
+    max-height: 80px;
+  }
+  
+  .Header .navbar {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #5b7bc2;
+  }
+  .Header .SpaceRace {
+    position:center;
+    margin-top: 2rem;
+    padding: right 22px;
+    color: #5b7bc2;
+
+  }
+  .Header .SpaceRace .name {
+    margin: 22px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5b7bc2;
+  }
+  .Header .SpaceRace .title {
+    color: #41b0f0;
+    margin: 10px;
+    font-size: 3.5rem;
+  }
+  
+body {
+  /* background-image: url("../images/maxresdefault.jpg"); */
+  background-size: cover;
+
+  background-image: url('./maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(1, 1, 7); 
+  padding: 10px;
+  font-size: 2.0rem;
+  position: relative;
+  margin: 2
+}
+@import './Font/font.css';
+.hero-image {
+  /* The image used */
+  background-image: url("./cockpit6.png");
+  /* Set a specific height */
+  height: 550px;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+/* Place text in the middle of the image */
+.hero-text {
+  /* font-family: 'zigzageoregular'; */
+  text-align: center;
+  text-shadow: -0.5px -0.5px 0 #eea928, -1px -1px 0 #f3d964, -3px -2px 0 #6b3ee7, -3px -3px 0 #eb1430, 1px 1px 0 #eea928;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  
+  /* text-size-adjust: 30px; */
+  transform: translate(-50%, -50%);
+  color: #3f52f8;
+}
+
+.title {
+  /* font-family: 'zigzageoregular'; */
+  text-align: center;
+  text-shadow: -0.5px -0.5px 0 #eea928, -1px -1px 0 #f3d964, -3px -2px 0 #6b3ee7, -3px -3px 0 #eb1430, 1px 1px 0 #eea928;
+  position: absolute;
+  margin:  top 3rem;
+  
+  top: 45%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  color: #3f52f8;
+}
+.Footer {
+    animation-delay: 2s;
+    padding-top: 0;
+    padding-left: 2%;
+    font-size: 2rem;
+    background-color: rgba(86, 21, 170, 0.842);
+  }
+  .Footer .footer-nav {
+    flex-direction: column;
+  }
+  @media (min-width: 375px) {
+    .Footer {
+      padding-top: 0.3rem;
+    }
+  }
+  @media (min-width: 412px) {
+    .Footer {
+      padding-top: 0.8rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .Footer {
+      padding-top: 1rem;
+      padding-left: 5%;
+    }
+  }
+  .Footer .footer-badge {
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+    margin-left: 0;
+    width: 3rem;
+  }
+  @media (min-width: 412px) {
+    .Footer .footer-badge {
+      padding-top: 0.5rem;
+      padding-bottom: 0;
+      margin-left: -0.2rem;
+    }
+  }
+  @media (min-width: 736px) {
+    .Footer .footer-badge {
+      margin-left: -0.5rem;
+      width: 3.5rem;
+    }
+  }
+  .Footer h6 {
+    margin-bottom: 1rem;
+    color: lightgray;
+  }
+  @media (min-width: 992px) {
+    .Footer h6 {
+      font-size: 1.6rem;
+    }
+  }
+  .Footer a {
+    margin-top: -1rem;
+    margin-bottom: 0.5rem;
+    color: lightgray;
+  }
+  @media (min-width: 412px) {
+    .Footer a {
+      margin-top: -2rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+  .Footer a.top-link {
+    text-align: right;
+    font-size: 0.8rem;
+  }
+  @media (min-width: 992px) {
+    .Footer a.top-link {
+      font-size: 1rem;
+    }
+  }
+  .Footer a:hover {
+    color: darkgray;
+  }
+  .Footer p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: darkgray;
+  }
+  @media (min-width: 992px) {
+    .Footer p {
+      font-size: 0.9rem;
+      line-height: 1.1rem;
+    }
+  }
+  .Footer p.race-responsibly {
+    margin-left: 1rem;
+    color: lightgray;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 992px) {
+    .Footer p.race-responsibly {
+      font-size: 1.3rem;
+    }
+  }
+  .Footer p.about-text {
+    margin-top: -0.5rem;
+  }
+  .Footer p.copyright {
+    margin-top: -0.75rem;
+  }
+  .Footer .wrapper {
+    margin-left: 1rem;
+  }
+  @media (min-width: 412px) {
+    .Footer .wrapper {
+      margin-top: -1rem;
+    }
+  }
+  @media (min-width: 736px) {
+    .Footer .wrapper {
+      margin-top: -0.44;
+    }
+  }
+  .Footer .wrapper .left {
+    float: left;
+  }
+  .Footer .wrapper .left .name {
+    font-size: 1.0rem;
+    line-height: 0.75rem;
+  }
+  @media (min-width: 992px) {
+    .Footer .wrapper .left .name {
+      font-size: 2.1rem;
+    }
+  }
+  .Footer .wrapper .right {
+    float: left;
+  }
+  .Footer .wrapper .right .domain {
+    font-size: 0.9rem;
+    line-height: 0.2rem;
+  }
+  @media (min-width: 992px) {
+    .Footer .wrapper .right .domain {
+      font-size: 1.1rem;
+    }
+  }
+  .stripe {
+    background-image: url('./stripe.png');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33px;
+  height: 33px;
+  position: relative;
+  }
+  

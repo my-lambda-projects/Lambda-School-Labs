@@ -1,0 +1,39 @@
+.main {
+  margin: 5% 10%;
+}
+
+.progress {
+  height: 40px !important;
+  margin-bottom: 10px;
+}
+
+.Question_Board {
+  margin-top: 10%;
+  height: 100%;
+  border: 1.5px solid;
+}
+
+
+h5{
+  margin-top: -10px !important;
+  display: table;
+  margin-left: 5px;
+  background: white;
+}
+ul {
+  width: 70%
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.btn {
+  float: right;
+}
+
+.question {
+  border: 1.5px solid;
+  padding: 5px;
+  margin: 10px;
+}

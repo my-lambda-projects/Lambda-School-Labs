@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'zigzageoregular';
+    src: url('zigzageo-reg-ffp-webfont.eot');
+    src: url('zigzageo-reg-ffp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('zigzageo-reg-ffp-webfont.woff2') format('woff2'),
+         url('zigzageo-reg-ffp-webfont.woff') format('woff'),
+         url('zigzageo-reg-ffp-webfont.ttf') format('truetype'),
+         url('zigzageo-reg-ffp-webfont.svg#zigzageoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,95 @@
+body {
+    font-family: verdana, sans-serif;
+    background-color: rgba(22, 0, 43, 0.747)!important;
+  }
+  
+  .container {
+    margin-top: 15px;
+  }
+
+  li {
+    list-style-type: upper-latin;
+  }
+  
+  .option-card {
+    height: 500px;
+    width: 80%;
+    background-color: rgb(110, 28, 148);
+    border: 1px solid;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 3px;
+    box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.5);
+    color: rgba(20, 20, 20, 1.0);
+  }
+  
+  .option-card:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    color: rgba(0, 0, 0, 1.0);
+  }
+  
+  .option-card:active {
+    text-decoration: none;
+    box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.5);
+    color: rgba(20, 20, 20, 1.0);
+  }
+  
+  .question-panel {
+    font-size: 1rem;
+    color: crimson;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .question-panel.message {
+    color: blue;
+  }
+  
+  .status-display {
+    margin-top: 52px;
+    font-weight: 900;
+  }
+  
+  .hyperlink-button {
+    text-align: center;
+  }
+  
+  .hyperlink-button a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid;
+    color: #000;
+    margin: 10px 0 15px;
+    border-radius: 15px;
+    display: inline-block;
+  }
+  
+  .hyperlink-button a:hover {
+    color: #fff;
+  }
+  
+  .hyperlink-button a:active {
+    opacity: 0.7;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .jumbotron {
+    background-color: rgb(110, 28, 148)!important;
+    box-shadow: 0 8px 16px -6px black;
+  }
+
+  .sidebar {
+    border: rgb(110, 28, 148)!important;
+    position: absolute;
+    left: 0px;
+    width: 10%;
+    padding: 18px;
+  }

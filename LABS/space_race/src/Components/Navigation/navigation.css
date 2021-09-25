@@ -1,0 +1,45 @@
+/* .Menu {
+    border : 3px solid #c61aff;
+    margin-left: 5%;
+    padding-bottom: 200%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left:2%;
+    height: 100%;
+    width: 99%;
+    box-shadow: 6px 6px 3px grey;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c61aff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #efccff;
+    border-radius: 15px
+    
+} */
+
+
+
+.SignOut {
+    float: auto;
+    padding-left:90%;
+}
