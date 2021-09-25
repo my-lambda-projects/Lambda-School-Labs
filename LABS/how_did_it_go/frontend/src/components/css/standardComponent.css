@@ -1,0 +1,68 @@
+.component {
+    padding: 1.5em;
+}
+.component--hidden {
+    display: none;
+}
+.title {
+    margin-block-start: 1em;
+    font-size: 1.25em;
+    text-align: center;
+    border-block-end: .1em dotted #757575;
+    margin-bottom: .5em;
+    color: #212121;
+}
+.header {
+    font-size: .8em;
+    text-align: center;
+    padding: .25em;
+}
+.content {
+    font-size: .75em;
+}
+.image--smallCircle {
+    display: block;
+    border-radius: 50%;
+    border: .075em solid #757575;
+    max-height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image--visible {
+    display: block;
+    max-height: 200px;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image--hidden {
+    display: none;
+}
+.hint {
+    text-align: center;
+    font-size: .5em;
+    opacity: 1;
+}
+.disappearingHint {
+    opacity: 0;
+    transition: opacity 2s linear;
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    -ms-transition: opacity 2s linear;
+    -o-transition: opacity 2s linear;
+}
+.sidebar {
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+}
+.sidebar--button {
+    width: 100%;
+    padding: 1em;
+    font-size: .75em;
+}
+.settings--mainScreen {
+    margin-left: 20%;
+    padding: 0 2em;
+}
