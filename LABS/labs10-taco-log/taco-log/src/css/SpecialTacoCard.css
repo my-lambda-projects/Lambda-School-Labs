@@ -1,0 +1,35 @@
+.taco-card-wrap{
+    border: 1px solid #00447b;
+    background-color: red;
+    margin:5px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.taco-card-wrap .taco-rating-column .taco-card-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.taco-card-wrap .taco-card-full-address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.taco-card-wrap .rating-icons{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:50%;
+}
+.taco-card-wrap .rating-icons .taco-icon{
+    max-width: 24px;
+    max-height: 24px;
+    width:100%;
+    height: 100%;
+}

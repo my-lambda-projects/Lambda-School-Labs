@@ -1,0 +1,107 @@
+.achievement-list-owrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.achievement-list-owrap .achievement-list-title-btn-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.achievement-list-owrap .achievement-list-title-btn-wrap .achievement-list-title{
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #00447b;  
+  margin-bottom: 10px; 
+}
+
+.achievement-list-owrap .all-toggle {
+  align-self: flex-end;
+  color: white;
+  background-color: #00447b;
+  height: 30px;
+  width: 150px;  
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.achievement-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;  
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.display {
+  display: block;
+}
+
+.achievement-modal .content {  
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;  
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.achievement-modal .content .exit-icon {
+  height: 24px;
+  width: 24px;
+  align-self: flex-end;
+}
+
+.achievement-modal .content .inner-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.achievement-list-owrap .personal-achievement-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.taco-log-link{    
+  background-color: #00447b;
+  color: white;
+  height: 30px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 700px){
+  .achievement-list-owrap {
+    align-items: center;
+    padding-top:20px;
+  }
+  .achievement-list-owrap .achievement-list-title-btn-wrap{
+    align-items: center;
+  }
+  .achievement-list-owrap .personal-achievement-wrap {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}

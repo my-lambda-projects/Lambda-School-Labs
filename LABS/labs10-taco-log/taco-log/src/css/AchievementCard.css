@@ -1,0 +1,30 @@
+.achievement-card{        
+    width: 200px;
+    margin:20px;
+    padding:20px 0;
+    display: flex;    
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.achievement-card .achievement-icon{
+    max-width: 50px;
+    width: 45%
+}
+
+.achievement-card .achievement-card-info{
+    width: 45%;
+}
+
+.achievement-card .achievement-card-info .achievement-title{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.achievement-card .achievement-card-info .achievement-description{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+

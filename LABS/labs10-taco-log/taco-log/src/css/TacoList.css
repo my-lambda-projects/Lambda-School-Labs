@@ -1,0 +1,103 @@
+.taco-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;    
+    padding: 0 30px;
+}
+
+.taco-list-container .taco-list-title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #00447b;  
+    margin-bottom: 10px;  
+}
+
+.taco-list-container .taco-list-inner-container{
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.taco-list-container .taco-list-inner-container .city-filter select{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.taco-list-container .taco-list-inner-container .taco-list-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #e6e6e6;
+}
+
+@media (max-width: 700px){
+    .taco-list-container{
+        align-items: center;
+        padding-top:20px;
+    }
+}
+
+/* for the special taco experiences on the front page */
+.special-taco-list-owrap{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    /* margin-top: 700px; */
+}
+
+/* The groupings of the special taco list, please try not to break. */
+.special-taco-list-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.taco-list-iwrap{
+    display: flex;
+}
+
+
+.btn-p-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taco-log-link{    
+    background-color: #00447b;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.global-card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding:0px;
+    padding:3px 0px 0px 10px;
+    border-bottom: 1px solid grey;
+    width:100%;
+    background-color: #FDFDF9
+}
+
+.special-taco-time {
+    margin: 3px 0px 0px 5px;
+}
+
+.description {
+    padding-left: 6px;
+    cursor: pointer;
+    padding-left: 8px;
+}

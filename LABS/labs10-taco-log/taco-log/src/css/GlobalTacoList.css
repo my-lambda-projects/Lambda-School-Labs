@@ -1,0 +1,8 @@
+/* -----------Mobile styles----------- */
+
+@media (max-width: 490px) {
+    .special-taco-list-group {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,201 @@
+
+.taco-form {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(124, 187, 241);
+
+}
+.taco-form .taco-form-upper-wrap {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* border:20px solid green; */
+}
+
+.taco-form .taco-form-upper-wrap input{
+    border: 0;
+    border-bottom: 1px solid #e6e6e6;  
+    text-align: center;  
+    width:200px;
+
+}
+
+.taco-form .taco-form-upper-wrap input:focus{
+    outline:0;
+}
+
+.taco-form .taco-form-upper-wrap .search-map-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.taco-form .taco-form-upper-wrap .search-bar {
+  margin-bottom: 10px;
+  
+}
+.taco-form .taco-form-upper-wrap .search-map-container .location-information {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 400px;
+  height: 125px;
+}
+.taco-form
+  .taco-form-upper-wrap
+  .search-map-container
+  .location-information
+  .location-address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.taco-form
+  .taco-form-upper-wrap
+  .search-map-container
+  .location-information
+  .location-photo {
+  width: 100%;
+  max-width: 100px;
+  height: 100%;
+}
+
+.taco-form .taco-form-upper-wrap .taco-name-rating-wrap .rating-icons{
+    padding: 20px 0;
+   
+}
+  
+
+.taco-form .taco-form-lower-wrap {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+
+.taco-form .taco-form-lower-wrap .ingredient-select-owrap {
+  display: flex;
+
+  width: 56%;
+  height: 372px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+.taco-form
+  .taco-form-lower-wrap
+  .ingredient-select-owrap
+  .ingredient-cat-container {
+  border-right: 1px solid #e6e6e6;
+  padding: 10px;
+}
+
+.taco-form
+  .taco-form-lower-wrap
+  .ingredient-select-owrap
+  .ingredient-selection {
+  margin: 0 auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.taco-form
+  .taco-form-lower-wrap
+  .ingredient-select-owrap
+  .ingredient-selection
+  .ingredient-tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top: 1px solid #e6e6e6;
+}
+
+.taco-form
+  .taco-form-lower-wrap
+  .ingredient-select-owrap
+  .ingredient-selection
+  .display {
+  display: block;
+
+}
+
+.taco-form
+  .taco-form-lower-wrap
+  .ingredient-select-owrap
+  .ingredient-selection
+  .no-display {
+  display: none;
+}
+
+.taco-form
+  .taco-form-lower-wrap
+  .ingredient-select-owrap
+  .ingredient-selection
+  .ingredient-tabs
+  .ingredient-tab {
+  border-bottom: 1px solid #e6e6e6;
+  width: 150px;
+  padding: 5px 0;
+  padding-left: 5px;
+}
+
+.taco-form
+  .taco-form-lower-wrap
+  .ingredient-select-owrap
+  .ingredient-selection
+  .ingredient-tabs
+  .ingredient-tab-selected {
+  border-left: 5px solid #00447b;
+  padding-left: 0px;
+}
+
+.taco-form .taco-form-lower-wrap .special-experience-container .special-experience-radio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.taco-form .taco-form-lower-wrap .special-experience-container .special-experience-radio-container .special-experience-radio-text{
+    margin-right: 5px;
+}
+
+.special-experience-container {
+  margin: 30px 0px;
+}
+
+.submit-button {
+  background-color: limegreen;
+  margin: 20px 0px;
+  align-self: center;
+  width: 50%;
+}
+
+
+
+@media(max-width:500px) {
+
+  .taco-form .taco-form-lower-wrap .ingredient-select-owrap {
+    width:80%;
+     
+  }
+
+}
