@@ -1,0 +1,259 @@
+.calendar-page {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: @white;
+  text-align: center;
+  min-height: 100vh;
+}
+.rbc-month-view {
+  position: relative;
+  border: none !important;
+  box-shadow: 0 5px 43px @grey !important;
+  background: black;
+  margin: 0 auto;
+  box-shadow: 0, 0, 20px, @black;
+  display: -ms-flexbox;
+  display: flex;
+  box-shadow: 0px 0px 40px @black;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex: 1 0 0px;
+  flex: 1 0;
+  max-width: 900px;
+  width: 80% !important;
+  .user-select(none);
+  height: 90%;
+}
+.rbc-addons-dnd.rbc-calendar {
+  height: 81vh !important;
+}
+
+.rbc-calendar {
+  margin-top: 20px;
+}
+
+.rbc-toolbar {
+  width: 850px;
+  margin: 0 auto;
+}
+.rbc-header {
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+  margin: 2px;
+}
+.rbc-row-bg {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2px;
+  margin: 20px 0;
+  border: none !important;
+  .flex-direction(row);
+  -ms-flex: 1 0 0px;
+  flex: 1 0;
+  overflow: hidden;
+}
+.rbc-day-bg {
+  -ms-flex: 1 0 0%;
+  flex: 1 0;
+  color: white;
+  margin: 1px;
+  .bg-linear(@black, @secondary);
+}
+
+.rbc-off-range-bg {
+  .bg-linear(@black, @purple) !important;
+}
+.rbc-row-bg {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2px;
+  margin: 20px 0;
+  border: none !important;
+  .flex-direction(row);
+  -ms-flex: 1 0 0px;
+  flex: 1 0;
+  overflow: hidden;
+}
+.rbc-row-bg {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2px;
+  margin: 20px 0;
+  border: none !important;
+  .flex-direction(row);
+  -ms-flex: 1 0 0px;
+  flex: 1 0;
+  overflow: hidden;
+}
+.rbc-month-row + .rbc-month-row {
+  border-top: none !important;
+}
+
+.rbc-event {
+  padding: 7px 5px 5px 5px !important;
+  box-shadow: 0px 0px 20px @black;
+  .bg-linear(@black, @primary);
+  color: @white;
+  margin: 0 5px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 0 !important;
+}
+.rbc-day-bg + .rbc-day-bg {
+  border: none !important;
+}
+
+.rbc-today {
+  background: none;
+}
+
+.rbc-day-slot .rbc-event {
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 100%;
+  min-height: 80px !important;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  overflow: hidden;
+  position: absolute;
+}
+
+.rbc-toolbar {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  .rbc-toolbar-label {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 28px;
+  }
+}
+.rbc-day-bg.rbc-off-range-bg {
+  background: none;
+}
+.main__container {
+  width: 85%;
+}
+
+.calendarAndForm-container {
+  display: flex;
+
+  .calendar-container {
+    min-height: 500px;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .formAndButton-container {
+    margin: 55px 6% 0 0;
+
+    .button-container {
+      .flex-and-justify(space-between);
+      width: 100%;
+      padding: 10px;
+
+      .newWorkout-btn {
+        height: 40px;
+        width: 49%;
+        font-size: 11px;
+        border: none;
+        border-radius: none !important;
+      }
+
+      .copyWorkouts-btn {
+        height: 40px;
+        width: 49%;
+        font-size: 11px;
+        border: none;
+        border-radius: none !important;
+      }
+    }
+
+    .form-container {
+      padding: 10px;
+      margin-top: 20px;
+      .bg-radial(@purple, @black);
+      height: 80%;
+      width: 100%;
+      box-shadow: 0 5px 30px @grey !important;
+
+      div {
+        margin-top: 10px;
+        input {
+          background-color: @grey;
+          width: 70%;
+        }
+      }
+      .submit-btn {
+        margin-top: 45px;
+        background-image: radial-gradient(@primary, @black);
+        border: none;
+        width: 40%;
+        color: @grey;
+      }
+      .submit-btn:hover {
+        cursor: pointer;
+        .bg-radial(@primary, @black);
+        color: @white;
+      }
+      .icon-explanation {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+.scheduling-modal-body {
+  height: 150px;
+  padding: 40px;
+  .flex-and-justify(center);
+  align-items: center;
+}
+
+.modal-content {
+  width: 80%;
+  margin: 90px auto;
+
+  .checkoff-modal-body {
+    min-height: 200px;
+    color: @white;
+    div {
+      .performance-block {
+        display: block;
+
+        div {
+          display: flex;
+          .checkoff-input {
+            margin-left: 15px;
+            margin-top: 5px;
+          }
+          .checkoff-exercise {
+            margin-left: 20px;
+          }
+        }
+
+        .checkoff-performance {
+          margin-left: 20px;
+          display: flex;
+          .flex-and-justify(space-evenly);
+
+          span {
+            margin: 3px;
+
+            input {
+              width: 40px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.modal-container {
+  margin: 10px 0;
+  .bg-linear(@darkGrey, @black);
+
+  .add-progress-btn {
+    .button-creator(linear-gradient(@darkGrey, @black), @grey);
+    margin-bottom: 5px;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.modal-content {
+  margin: 90px auto;
+  width: 80%;
+
+  .modal-header {
+    .bg-linear(@darkGrey, @black);
+    color: white;
+  }
+
+  .modal-body {
+    .bg-linear(@secondary, @black) !important;
+  }
+
+  .modal-footer {
+    .bg-linear(@darkGrey, @black);
+  }
+}
+
+.error {
+  .bg-linear(@secondary, @black);
+  font-size: 16px;
+  color: @red;
+  padding-left: 15px;
+}
+
+.progressForm {
+  .flexCol();
+  font-weight: bold;
+  color: @grey;
+
+  .label-input {
+    .flex-and-justify(space-between);
+    margin: 5px;
+    padding: 0 50px;
+
+    input {
+      background-color: @grey;
+      width: 30%;
+    }
+  }
+}

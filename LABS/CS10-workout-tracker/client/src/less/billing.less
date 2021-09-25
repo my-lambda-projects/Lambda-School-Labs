@@ -1,0 +1,44 @@
+.billing-outer {
+  min-height: 88vh;
+  .flex-and-justify(center);
+
+  .billing-container {
+    .center();
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+
+    .billing-inner {
+      margin: 40px;
+      .bg-radial(@darkGrey, @black);
+
+      .checkout {
+        .flexCol();
+        max-width: 420px;
+        margin: 40px;
+        padding: 20px;
+        .bg-linear(@black, @white);
+
+        .checkout-text {
+          color: @grey;
+          margin: 0 0 20px 0;
+          text-align: center;
+        }
+
+        .card-element {
+          margin: 0 0 20px 0;
+          background-color: @grey;
+          padding: 10px;
+          box-shadow: 1px 1px 7px @black;
+        }
+      }
+
+      .billing-status {
+        padding: 10px;
+        margin: 20px;
+        color: @grey;
+      }
+    }
+  }
+}

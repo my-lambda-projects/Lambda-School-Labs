@@ -1,0 +1,49 @@
+.button-creator(@bg-color, @font-color: @white) {
+  background: @bg-color;
+  color: @font-color;
+  border-radius: 0;
+  box-shadow: 1px 1px 7px @black;
+}
+
+.flexCol() {
+  display: flex;
+  flex-direction: column;
+}
+
+.center() {
+  .flexCol();
+  align-items: center;
+}
+
+//------------------------
+
+.flex-and-justify(@dir) {
+  display: flex;
+  justify-content: @dir;
+}
+
+.justify-align-center(@dir) {
+  .flex-and-justify(@dir);
+  align-items: center;
+}
+//---------------------------
+
+.bg-linear(@first, @second) {
+  background: linear-gradient(@first, @second);
+}
+
+.bg-radial(@first, @second) {
+  background: radial-gradient(@first, @second);
+}
+
+.user-select(@select) {
+  -webkit-user-select: @select;
+  -moz-user-select: @select;
+  -ms-user-select: @select;
+  user-select: @select;
+}
+
+.flex-direction(@dir) {
+  -ms-flex-direction: @dir;
+  flex-direction: @dir;
+}

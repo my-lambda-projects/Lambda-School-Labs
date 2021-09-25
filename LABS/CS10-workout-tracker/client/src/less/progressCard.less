@@ -1,0 +1,42 @@
+.card-container {
+  min-width: 200px;
+  width: 22.5%;
+  margin: 12px;
+
+  .card {
+    border: none;
+    border-radius: none;
+    box-shadow: 5px 5px 15px @black;
+
+    .card-header {
+      .flex-and-justify(space-between);
+      padding: 0;
+      color: @grey;
+      background: linear-gradient(to right, @black, @grey);
+
+      .card-date {
+        display: inline-block;
+        align-self: flex-start;
+        font-weight: bold;
+        margin: 5px 0 0 4px;
+      }
+
+      .btn-container {
+        .flex-and-justify(flex-end);
+
+        .icon-btn {
+          margin: 6px;
+
+          .icon {
+            color: @grey;
+          }
+        }
+      }
+    }
+
+    .card-body {
+      .bg-radial(@secondary, @black);
+      color: @grey;
+    }
+  }
+}

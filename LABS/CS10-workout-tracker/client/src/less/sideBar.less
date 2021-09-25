@@ -1,0 +1,42 @@
+.sideBar {
+  flex-basis: 15%;
+}
+
+.sideBar__Links {
+  .flexCol();
+  justify-content: flex-start;
+  background-color: @red;
+  font-size: 40px !important;
+  height: 50%;
+  width: 100%;
+  padding: 40px 20px 20px 20px;
+}
+
+#test {
+  .flexCol();
+  .bg-radial(@grey, @black);
+  font-size: 20px !important;
+  height: 100%;
+}
+
+.side__box {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px @black;
+  background-image: linear-gradient(to right, @black, @secondary);
+  text-decoration: none !important;
+  a {
+    color: @grey;
+    text-decoration: none !important;
+    &:hover {
+      color: @primary;
+    }
+  }
+}
+a {
+  color: @grey;
+  text-decoration: none !important;
+  &:hover {
+    color: @primary;
+  }
+}

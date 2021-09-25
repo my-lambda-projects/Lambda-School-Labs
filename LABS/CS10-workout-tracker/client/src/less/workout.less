@@ -1,0 +1,188 @@
+.main__workout {
+  display: flex;
+  width: 100%;
+  max-height: 100vh;
+  color: @black;
+  .bg-radial(@secondary, @black);
+  h2 {
+    text-shadow: 3px 3px @black;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .routine__list {
+    flex-basis: 33%;
+    height: 602px;
+    .justify-align-center(center);
+
+    .routine__list__container {
+      height: 540px;
+      overflow: hidden;
+      .bg-radial(@primary, @black);
+      padding: 15px;
+      color: @grey;
+      width: 90%;
+      box-shadow: 5px 5px 15px @black;
+
+      h2 {
+        font-size: 20px;
+        padding: 10px 15px;
+      }
+
+      .routine {
+        padding: 5px 10px;
+        text-align: start;
+        padding-left: 30px;
+        background: @grey;
+        font-size: 18px;
+        margin: 5px;
+        overflow: hidden;
+        margin: 11px;
+        box-shadow: 10px 8px 15px @black;
+        text-shadow: 3px 3px @black;
+        color: @white;
+        background: linear-gradient(to right, @black, @darkGrey);
+        cursor: pointer;
+        &:hover {
+          background: linear-gradient(to right, @black, @purple);
+          color: @grey;
+          text-shadow: 1px 1px @secondary;
+        }
+      }
+    }
+    .routine__list__container:hover {
+      overflow: auto;
+    }
+  }
+
+  .workout__form {
+    flex-basis: 33%;
+    height: 602px;
+    .justify-align-center(center);
+    color: @white;
+
+    .routine__input__form {
+      padding: 30px 15px;
+      .bg-radial(@purple, black);
+      margin: 0 5px;
+      height: 540px;
+      width: 90%;
+      margin: 0px 13px;
+      box-shadow: 5px 5px 15px black;
+
+      h2 {
+        font-size: 20px;
+      }
+
+      input {
+        margin: 15px 0;
+        width: 90%;
+        padding: 5px;
+        font-weight: bold;
+        box-shadow: 10px 8px 15px black;
+      }
+
+      button {
+        padding: 5px 15px;
+        color: white;
+        border: none;
+        box-shadow: 10px 8px 15px black;
+        text-shadow: 3px 3px black;
+        background: linear-gradient(to left, @primary, black);
+
+        &:hover {
+          background: linear-gradient(to left, @darkGrey, black);
+        }
+      }
+    }
+  }
+
+  .current__routine {
+    flex-basis: 33%;
+    height: 602px;
+    .justify-align-center(center);
+
+    .current__routine__container {
+      height: 540px;
+      width: 90%;
+      .bg-radial(@grey, @black);
+      padding: 30px 15px;
+      box-shadow: 5px 5px 15px @black;
+      color: @black;
+      overflow: hidden;
+
+      h3.current__title {
+        color: @white;
+        text-align: start;
+        text-shadow: 3px 3px @black;
+      }
+
+      .exercise__title {
+        .justify-align-center(space-between);
+        padding: 5px;
+        width: 90%;
+        margin: 0 auto;
+        text-shadow: 2px 2px @black;
+        h3 {
+          font-size: 22px;
+        }
+      }
+      h3 {
+        font-size: 18px;
+        color: @primary;
+        margin-bottom: 0;
+      }
+
+      h2 {
+        font-size: 20px;
+        color: @grey;
+      }
+
+      .exercise__list {
+        width: 90%;
+        margin: 0 auto;
+
+        .exercise__card {
+          color: @red;
+          margin-top: 5px;
+          margin-top: 20px;
+          box-shadow: 10px 8px 15px @black;
+          text-shadow: 2px 2px @black;
+
+          .exercise__card__header {
+            .justify-align-center(space-between);
+            padding: 10px;
+            color: @grey;
+            background-image: linear-gradient(to right, @black, @grey);
+            h3 {
+              margin: 0;
+              color: @white;
+            }
+          }
+
+          .exercise__card__body {
+            background-image: radial-gradient(@purple, black);
+            color: @grey;
+            padding: 40px;
+          }
+        }
+      }
+    }
+    .current__routine__container:hover {
+      overflow: auto;
+    }
+  }
+}
+
+.pencil__trash__icon__container {
+  .flex-and-justify(space-between);
+  width: 15%;
+
+  .icon-routine {
+    text-shadow: 1px 1px @black;
+    color: @grey;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,44 @@
+.push__nav {
+  height: 90px;
+}
+
+.main__side__content {
+  .flex-and-justify(space-between);
+  text-align: center;
+  max-width: 1500px;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  .bg-radial(@black, @white);
+}
+
+.main__container {
+  flex-basis: 85%;
+  min-height: 77vh;
+  .bg-radial(@secondary, @black);
+}
+
+.is_active {
+  background-color: @green !important;
+}
+
+.fas.fa-trash-alt {
+  color: @grey !important;
+  cursor: pointer;
+  box-shadow: 0;
+  text-shadow: 1px 1px @black;
+}
+
+.fas.fa-trash-alt:hover {
+  color: @red !important;
+}
+
+.fas.fa-pencil-alt {
+  text-shadow: 1px 1px @black;
+  color: @grey;
+}
+
+.fas.fa-pencil-alt.icon:hover {
+  color: @secondary !important;
+}

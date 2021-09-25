@@ -1,0 +1,46 @@
+.progress-tracker {
+  .flex-and-justify(space-between);
+  text-align: center;
+  padding: 15px;
+  height: 200px;
+  min-width: 300px;
+  width: 50%;
+  margin: 10px 0 15px 8px;
+  color: @grey;
+  .bg-linear(@primary, @black);
+
+  .progress-tracker-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+
+  .tracker-requirement {
+    font-size: 20px;
+    color: @primary;
+    margin-bottom: 10px;
+  }
+}
+
+.gray {
+  .bg-linear(@darkGrey, @black);
+}
+
+.progress-box {
+  width: 50%;
+  margin-top: 10px;
+
+  .number-lost {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+
+  .disclaimer {
+    font-size: 10px;
+  }
+}
+
+.tracker-border {
+  border-right: 1px solid @grey;
+}
