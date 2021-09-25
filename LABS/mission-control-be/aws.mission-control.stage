@@ -1,0 +1,8 @@
+EnvironmentName=stage
+
+ApolloDockerImage=lambdaschoollabs/missioncontrol-apollo:stage
+
+JwksUri=https://okta.missionctrl.dev/oauth2/default/v1/keys
+JwtIssuer=https://okta.missionctrl.dev/oauth2/default
+
+LogLevel=debug

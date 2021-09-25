@@ -1,0 +1,167 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: The Apollo task and service definitions for ECS
+
+Parameters:
+  ApplicationName:
+    Type: String
+    Description: The name of the application
+    AllowedPattern: ^[a-z0-9\-]*$
+
+  EnvironmentName:
+    Type: String
+    Description: The name of the application environment
+    AllowedPattern: ^[a-z0-9\-]*$
+
+  ApplicationDomainNamespace:
+    Type: String
+    Description: The DNS domain namespace for the application (e.g. mycoolapplication.com)
+    AllowedPattern: ^[a-z0-9\-\.]*$
+
+  ApolloDockerImage:
+    Type: String
+    Description: The name of the Docker image to use for Apollo
+
+  ApolloServicePort:
+    Type: Number
+    Description: The port that the Apollo service will be listening on
+    Default: 8000
+
+  PrismaServicePort:
+    Type: Number
+    Description: The port that the Prisma service will be listening on
+    Default: 8000
+
+  JwksUri:
+    Type: String
+
+  JwtIssuer:
+    Type: String
+
+  CodeClimateAPI:
+    Type: String
+
+  GitHubApi:
+    Type: String
+
+  LogLevel:
+    Type: String
+    Default: info
+
+Conditions:
+  IsProductionEnvironment: !Equals [ !Ref EnvironmentName, production ]
+
+Resources:
+  LogGroup:
+    Type: 'AWS::Logs::LogGroup'
+    Properties:
+      LogGroupName: !Sub ${ApplicationName}-${EnvironmentName}-apollo
+      RetentionInDays: 14
+
+  TaskDefinition:
+    Type: 'AWS::ECS::TaskDefinition'
+    Properties:
+      NetworkMode: awsvpc
+      RequiresCompatibilities:
+        - FARGATE
+      Family: !Sub ${ApplicationName}-${EnvironmentName}-apollo
+      Cpu: "256"
+      Memory: "512"
+      ExecutionRoleArn:
+        Fn::ImportValue: !Sub ${ApplicationName}-ECSTaskExecutionRole
+      TaskRoleArn:
+        Fn::ImportValue: !Sub ${ApplicationName}-ECSTaskExecutionRole
+      Tags:
+        - Key: Name
+          Value: !Sub ${ApplicationName}-${EnvironmentName}
+        - Key: Application
+          Value: !Sub ${ApplicationName}
+        - Key: Environment
+          Value: !Sub ${EnvironmentName}
+      ContainerDefinitions:
+        - Name: apollo
+          Image: !Ref ApolloDockerImage
+          Essential: true
+          PortMappings:
+            - ContainerPort: !Ref ApolloServicePort
+          LogConfiguration:
+            LogDriver: awslogs
+            Options:
+              awslogs-group: !Ref LogGroup
+              awslogs-region: !Ref AWS::Region
+              awslogs-stream-prefix: apollo
+          Secrets:
+            # TODO: This should _not_ be hardcoded!
+            - Name: SENDGRID_API_KEY
+              ValueFrom: 'arn:aws:secretsmanager:us-east-1:576275871595:secret:sendgrid-api-key-mission-control-production-JuvQDV'
+
+            # TODO: This should _not_ be hardcoded!
+            - Name: CODE_CLIMATE_TOKEN
+              ValueFrom: 'arn:aws:secretsmanager:us-east-1:576275871595:secret:code-climate-token-mission-control-production-l33xKi'
+
+            # TODO: This should _not_ be hardcoded!
+            - Name: GIT_HUB_TOKEN
+              ValueFrom: 'arn:aws:secretsmanager:us-east-1:576275871595:secret:github-token-mission-control-production-ceeAMJ'
+
+            # TODO: This should _not_ be hardcoded!
+            - Name: PRISMA_SECRET
+              ValueFrom: 'arn:aws:secretsmanager:us-east-1:576275871595:secret:prisma-service-api-secret-mission-control-production-3jzIWu'
+          Environment:
+            - Name: PORT
+              Value: !Ref ApolloServicePort
+
+            - Name: GRAPHQL_API_PATH
+              Value: /
+
+            - Name: PRISMA_ENDPOINT
+              Value:
+                Fn::If:
+                  - IsProductionEnvironment
+                  - !Sub "http://prisma.private.${ApplicationDomainNamespace}:${PrismaServicePort}"
+                  - !Sub "http://prisma.private.${EnvironmentName}.${ApplicationDomainNamespace}:${PrismaServicePort}"
+
+            - Name: JWKS_URI
+              Value: !Ref JwksUri
+
+            - Name: JWT_ISSUER
+              Value: !Ref JwtIssuer
+
+            - Name: CODE_CLIMATE_API
+              Value: !Ref CodeClimateAPI
+
+            - Name: GIT_HUB_API
+              Value: !Ref GitHubApi
+
+            - Name: LOG_LEVEL
+              Value: !Ref LogLevel
+
+  Service:
+    Type: AWS::ECS::Service
+    Properties:
+      LaunchType: FARGATE
+      TaskDefinition: !Ref TaskDefinition
+      Cluster:
+        Fn::ImportValue: !Sub ${ApplicationName}-${EnvironmentName}-ECSCluster
+      DesiredCount: 1
+      DeploymentConfiguration:
+        MaximumPercent: 100
+        MinimumHealthyPercent: 0
+      LoadBalancers:
+        - ContainerName: apollo
+          ContainerPort: !Ref ApolloServicePort
+          TargetGroupArn:
+            Fn::ImportValue: !Sub ${ApplicationName}-${EnvironmentName}-ApolloTargetGroup
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+          AssignPublicIp: DISABLED
+          Subnets:
+            - Fn::ImportValue: !Sub ${ApplicationName}-PrivateSubnet01
+            - Fn::ImportValue: !Sub ${ApplicationName}-PrivateSubnet02
+          SecurityGroups:
+            - Fn::ImportValue: !Sub ${ApplicationName}-ServiceSG
+
+Outputs:
+  ApolloServiceArn:
+    Description: The ARN of the Apollo service
+    Value: !Ref Service
+    Export:
+      Name: !Sub ${ApplicationName}-${EnvironmentName}-ApolloServiceArn

@@ -1,0 +1,8 @@
+EnvironmentName=production
+
+ApolloDockerImage=lambdaschoollabs/missioncontrol-apollo:latest
+
+JwksUri=https://okta.missionctrl.dev/oauth2/default/v1/keys
+JwtIssuer=https://okta.missionctrl.dev/oauth2/default
+
+LogLevel=debug
