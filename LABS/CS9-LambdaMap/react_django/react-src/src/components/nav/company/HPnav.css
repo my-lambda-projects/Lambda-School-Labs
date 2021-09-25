@@ -1,0 +1,73 @@
+.companyNav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  box-shadow: 5px 0px 10px #000000a1;
+  transform: translate(-90%, 0);
+  transition: transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
+  z-index: 10;
+  background-color: white;
+  background-color: #125172; }
+  .companyNav-container .lambdamap {
+    padding: 6%; }
+  .companyNav-container .logo {
+    width: 90%; }
+  .companyNav-container .quote {
+    margin: 5px 0px;
+    font: 15px "Roboto Condensed", sans-serif;
+    color: #919191; }
+  .companyNav-container li {
+    display: flex;
+    margin-left: 10%;
+    font: 1.4em "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    padding: 6% 0%; }
+    .companyNav-container li .icons {
+      margin-right: 5%;
+      color: white; }
+  .companyNav-container .secondary-container {
+    width: 90%; }
+    .companyNav-container .secondary-container .nav-links {
+      text-decoration: none;
+      color: black; }
+  .companyNav-container hr {
+    width: 80%;
+    margin-bottom: 5%; }
+  .companyNav-container .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    transition: all 1s;
+    font-size: 2em;
+    color: black; }
+  .companyNav-container .footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.2vh;
+    margin-top: 50px; }
+  .companyNav-container .footerIcon {
+    margin-right: 2px; }
+  .companyNav-container .skew {
+    display: flex;
+    position: absolute;
+    top: -15%;
+    width: 100%;
+    height: 30%;
+    z-index: -1;
+    background-color: white;
+    -webkit-transform: skew(0deg, -15deg);
+    -ms-transform: skew(0deg, -15deg);
+    transform: skew(0deg, -15deg); }
+
+.companyNav-container:hover {
+  transform: none; }
+
+.companyNav-container:hover .arrow {
+  transform: rotate(180deg); }
+
+/*# sourceMappingURL=HPnav.css.map */

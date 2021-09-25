@@ -1,0 +1,130 @@
+@import "imports";
+
+.main {
+  width: 100%;
+  background-color: #e1f5ff;
+  height: 100vh;
+
+  .signout {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      margin-right: 100px;
+      margin-top: 50px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      background: none;
+      font: 0.8em $lambdafont;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+
+    .sidebyside {
+      width: 800px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 75px;
+      border-top: 2px dashed #707070;
+      border-bottom: 2px dashed #707070;
+      padding: 75px;
+
+      .jsprofile-container {
+        margin-right: 100px;
+
+        .pic-bg {
+          width: 325px;
+          height: 325px;
+          border-radius: 10px;
+          background-color: $specialblue;
+
+          h1 {
+            color: white;
+            font-family: $landingfont;
+            margin-bottom: 0;
+          }
+
+          h3 {
+            margin-top: 0;
+            color: #919191;
+            font-family: $landingfont;
+          }
+
+          img {
+            width: 200px;
+            height: 200px;
+            border: 3px solid #db5e3c;
+            border-radius: 100%;
+            margin-top: 20px;
+          }
+        }
+      }
+
+      .info-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .jsprofile-contact {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-bottom: 10px;
+          
+          h2 {
+            margin: 10px 0px 0px 0px;
+          }
+
+          p {
+            display: flex;
+            align-items: center;
+            margin: 2.5px;
+            font: 1.25em $landingfont;
+
+
+            .contactIcons {
+              margin-right: 10px;
+            }
+          }
+        }
+        .jsprofile-about {
+          width: 400px;
+
+          p {
+            text-align: start;
+            margin: 2.5px;
+            font: 1.25em $landingfont;
+            text-indent: 20px;
+          }
+
+        }
+      }
+    }
+    .socialmedia {
+      width: 25%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 75px;
+
+      .smIcons {
+        font-size: 2.5em;
+        color: $specialblue;
+      }
+
+      .smIcons:hover {
+        color: black;
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.DragDropContainer {
+  font-family: "Helvetica", "Arial", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: #e5edf1dd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DragDropContainer__DropArea {
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  height: 40%;
+  width: 50%;
+  max-width: 600px;
+  max-height: 600px;
+  background: #c8dadf;
+  border-radius: 5px;
+}
+.DragDropContainer__InnerContainer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 4px dashed #98b8bf;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  pointer-events: none;
+}
+.DragDropContainer__ImgContainer {
+  margin-top: auto;
+  pointer-events: none;
+}
+.DragDropContainer__TextContainer {
+  margin-top: auto;
+  text-align: center;
+  width: 100%;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+.DragDropContainer__Text {
+  pointer-events: none;
+}
+.DragDropContainer__Button {
+  color: #638d99;
+  font-weight: bold;
+  font-size: 18px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.DragDropContainer__Button:hover {
+  color: #39bfd3;
+}
+.DragDropContainer__UploadButton {
+  display: none;
+}
+.DragDropContainer__WeightLimit {
+  position: relative;
+}
+.DragDropContainer__WeightLimit_Text {
+  pointer-events: none;
+}
+.DragDropContainer__WeightLimit:hover::after {
+  content: "Image Size Limit is eight megabytes.";
+  position: absolute;
+  top: -60px;
+  left: -50px;
+  width: 140px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 8px;
+  pointer-events: none;
+}

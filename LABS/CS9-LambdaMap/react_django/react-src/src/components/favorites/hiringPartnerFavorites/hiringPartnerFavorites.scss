@@ -1,0 +1,348 @@
+// Hiring Partner view for list of job seekers styling
+
+@import 'imports';
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+@mixin linear-gradient($top-color, $bottom-color, $opacity) {
+  background: -moz-linear-gradient(top, rgba($top-color, $opacity) 0%, rgba($bottom-color, $opacity) 100%);
+  background: -webkit-linear-gradient(top, rgba($top-color, $opacity) 0%, rgba($bottom-color, $opacity) 100%);
+  background: linear-gradient(to bottom, rgba($top-color, $opacity) 0%, rgba($bottom-color, $opacity) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{ie-hex-str(rgba($top-color, $opacity))}', endColorstr='#{ie-hex-str(rgba($bottom-color, $opacity))}',GradientType=0 );
+}
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+.main-JSlist {
+  width: 100%;
+  height: 100vh;
+  background-color: #1250728f;
+
+
+  .signout {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      margin-right: 100px;
+      margin-top: 50px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      background: none;
+      font: .8em $lambdafont;
+      font-weight: bolder;
+      color: $specialred;
+      letter-spacing: 2.5px;
+      z-index: 5;
+    }
+
+    button:active {
+      color: black;
+    }
+  }
+
+  .backgroundskew {  
+    display: flex;
+    position: absolute;
+    top: -54%;
+    width: 100%;
+    height: 54%;
+    z-index: 0;
+    @include transform(skew(0deg, 8deg));
+    @include linear-gradient(white, white, 1);
+  }
+  .backgroundskew2 {  
+    display: flex;
+    position: absolute;
+    top: -54%;
+    width: 100%;
+    height: 54%;
+    z-index: 0;
+    @include transform(skew(0deg, -8deg));
+    @include linear-gradient(white, white, 1);
+  }
+
+  .jslist-container {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto 0;
+    width: 75%;
+    justify-content: center;    
+
+    .filter-main {
+      width: 100%;
+      
+      input {
+        display: block;
+        width: 60px;
+        height: 25px;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 6; 
+      }
+
+      input:checked ~ .filter-icon {
+        transform: rotate(-90deg);
+        transition: all 1s;
+      }
+
+      input:checked ~ .filter-options {
+        transform: none;
+        opacity: 1;
+      }
+
+      .filter-options {
+        background: transparent;
+        transform: translate(-180%, 0);
+        transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 8px 0px;
+
+        h4 {
+          margin: 0;
+          font: .8em $HPtext;
+          font-weight: bold;
+          z-index: 5;
+        }
+      
+
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 32px;
+        height: 15px;
+        margin-right: 5px;
+        margin-left: 10px;
+        border: 1px solid #125072a4;
+        border-radius: 34px;
+      }
+        
+      .switch input {
+        display:none;
+      }
+  
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $specialgray;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+  
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 10px;
+        width: 10px;
+        left: 4px;
+        bottom: 2.6px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+  
+      input:checked + .slider {
+        background-color: $specialblue;
+        opacity: .8;
+      }
+  
+      input:focus + .slider {
+        box-shadow: 0 0 1px $specialblue;
+      }
+  
+      input:checked + .slider:before {
+        -webkit-transform: translateX(15px);
+        -ms-transform: translateX(15px);
+        transform: translateX(15px);
+      }
+  
+      .slider.round {
+        border-radius: 34px;
+      }
+  
+      .slider.round:before {
+        border-radius: 50%;
+      }
+    }
+
+      .filter-display {
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      header {
+        display: flex;
+        justify-content: center;
+        font: 2em $lambdafont;
+        z-index: 5;
+      }
+
+      button {
+        display: flex;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background: none;
+        font: 1.2em $lambdafont;
+        font-weight: bolder;
+        color: $specialred;
+      }
+
+      .filter-icon {
+        display: flex;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background: none;
+        font: 1.2em $lambdafont;
+        font-weight: bolder;
+        color: $specialred;
+        // margin-left: 3px;
+        // margin-top: 5px;
+      }
+      
+    }
+    
+    hr {
+      width: 80%;
+      z-index: 5;
+    }
+
+    .jobseekercards-container::-webkit-scrollbar {
+      width: .6em;
+      
+    }
+
+    .jobseekercards-container::-webkit-scrollbar-thumb {
+      background-color: $specialgray;
+      border-radius: 10px;
+      box-shadow: inset -15px -10px 15px -13px rgba(0, 0, 0, 0.616);
+    }
+
+    .jobseekercards-container {
+      background-color: rgb(230, 230, 230);
+      justify-content: flex-start;
+      align-content: flex-start;
+      height: 65vh;
+      overflow: auto;
+      border-radius: 10px;
+      margin-top: 5px;
+      box-shadow: inset 3px 3px 3px 1px rgb(128, 128, 128);
+      padding: 5px;
+      z-index: 4;
+
+      .profile-link {
+        text-decoration: none;
+        color: black;
+        padding: 0 3px;
+      }
+
+      .cards-main {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 10px;
+
+      .jobseeker-cards {
+        width: 28.5%;
+        font-family: $HPtext;
+        background-color: rgba(255, 255, 255, .9);
+        box-shadow: 3px 3px 3px 1px rgba(128, 128, 128, 0.616);
+        border-radius: 10px;
+        margin: 20px;
+
+        .card-socialmedia {
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 15px;
+        }
+
+        .card-smIcons {
+          font-size: 1.5em;
+          color: $specialblue;
+          margin: 5px;
+        }
+
+        .card-header {
+          width: 90%;
+          display: flex;
+          flex-direction: row;
+          margin: 0 auto;
+          margin-top: 5px;
+        }
+
+        .jscard-name {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 0 auto;
+
+          h3 {
+            margin: 0;
+          }
+
+          h5 {
+            margin: 0;
+            font: .8em $lambdafont;
+            color: $specialgray;
+          }
+        }
+        
+        .card-favIcon {
+          color: gold;
+        }
+
+        .JScardpic {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+
+        .card-info {
+
+          .card-bio {
+            font-size: .9em;
+          }
+
+          .contactIcons {
+            font-size: 1em;
+            color: $specialblue;
+            margin-right: 5px;
+          }
+          
+          .emailcontact {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 10px;
+          }
+
+          .phonecontact {
+            display: inline-flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+    }
+  }
+
+}

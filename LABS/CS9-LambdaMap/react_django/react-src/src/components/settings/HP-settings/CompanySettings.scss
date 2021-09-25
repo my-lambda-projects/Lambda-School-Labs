@@ -1,0 +1,207 @@
+@import "imports";
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+.settings {
+  background-color: #e1f5ff;
+
+  height: 100vh;
+  font-family: $landingfont;
+
+  .setting-forms {
+
+    .profile-update {
+
+      input::-webkit-input-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+      input::-moz-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+      input:-ms-input-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+      input:-moz-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+
+      textarea::-webkit-input-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+      textarea::-moz-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+      textarea:-ms-input-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+      textarea:-moz-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+
+      input:focus::-webkit-input-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+      input:focus::-moz-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+      input:focus:-ms-input-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+      input:focus:-moz-placeholder {
+        color: black;
+        font-weight: bolder;
+        font-family: $landingfont;
+      }
+
+      input {
+        width: 150px;
+        background-color: transparent;
+        border: 0;
+        padding: 4px 0;
+        margin: 20px 0;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        background-color: #70707063;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+
+      textarea {
+        resize: none;
+        width: 150px;
+        height: 50px;
+        background-color: #70707063;
+        border-top-right-radius: 5px;
+        border: 0;
+        padding: 4px 0;
+        margin: 20px 0;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        border-left: 1px solid rgb(0, 0, 0);
+      }
+
+      :focus {
+        outline: none;
+      }
+
+      .hpupdate-input {
+        width: 800px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 50px;
+        // margin-left: 200px;
+        // align-items: center;
+        background: url(./austin.png);
+        background-size: cover;
+        border-radius: 20px;
+        // background-repeat: no-repeat;
+
+        .about-input {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .link-inputs {
+          display: flex;
+          flex-direction: column;
+        }
+
+        // input {
+        //   width: 150px;
+        // }
+
+        .pic-div {
+          background: url("./default-user.png");
+          background-repeat: no-repeat;
+          background-size: 100px 100px;
+          width: 100px;
+          height: 100px;
+          border-radius: 100%;
+
+          .post-button-2 {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            border: none;
+            background-color: transparent;
+            overflow: hidden;
+            padding: 0;
+            cursor: pointer;
+
+            .upload {
+              height: 50px;
+              width: 100px;
+              margin-top: 50px;
+              background-color: rgba(0, 0, 0, 0.445);
+              color: white;
+              transform: translate(0, 50px);
+              transition: transform 1s cubic-bezier(0.2, 0.2, 0.05, 1);
+            }
+          }
+          .post-button-2:hover .upload {
+            transform: none;
+          }
+        }
+      }
+
+      button {
+        border: none;
+        background-color: $specialblue;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        font-family: $mapsfont;
+        padding: 5px;
+        border-radius: 5px;
+        width: 80px;
+        height: 80%;
+        outline: none;
+      }
+    }
+
+    .signout2 {
+      display: flex;
+      justify-content: flex-end;
+
+      button {
+        margin-right: 100px;
+        margin-top: 50px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background: none;
+        font: 0.8em $lambdafont;
+        font-weight: bold;
+        color: black;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

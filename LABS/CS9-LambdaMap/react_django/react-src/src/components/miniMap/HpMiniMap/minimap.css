@@ -1,0 +1,10 @@
+.mini-map {
+  position: fixed;
+  margin: 0px 100px 100px 0px;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  z-index: 5;
+}
+/*# sourceMappingURL=map.css.map */

@@ -1,0 +1,135 @@
+.main-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .main-signup button {
+    border: none;
+    background-color: #125172;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 80%;
+    outline: none;
+    margin-top: 20px; }
+  .main-signup .register {
+    display: flex;
+    flex-direction: column; }
+    .main-signup .register .register-form .emailInput {
+      border: 0;
+      padding: 4px 0;
+      border-bottom: 1px solid #ccc;
+      background-color: transparent; }
+    .main-signup .register .signuppwd-form {
+      position: relative; }
+      .main-signup .register .signuppwd-form :focus {
+        outline: none; }
+      .main-signup .register .signuppwd-form input[type="password"] {
+        font: 15px/24px "Roboto", sans-serif;
+        color: #333;
+        width: 100%;
+        box-sizing: border-box;
+        letter-spacing: 1px; }
+      .main-signup .register .signuppwd-form input {
+        border: 0;
+        padding: 4px 0;
+        border-bottom: 1px solid #ccc;
+        background-color: transparent;
+        z-index: 2;
+        margin-right: 35px; }
+      .main-signup .register .signuppwd-form input ~ .focus-border {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background-color: #125172;
+        transition: 0.4s; }
+      .main-signup .register .signuppwd-form input:focus ~ .focus-border,
+      .main-signup .register .signuppwd-form .has-contentinput ~ .focus-border {
+        width: 100%;
+        transition: 0.4s;
+        left: 0;
+        bottom: 15px; }
+      .main-signup .register .signuppwd-form input ~ label {
+        position: absolute;
+        left: 0;
+        top: 25px;
+        color: Black;
+        transition: 0.3s;
+        letter-spacing: 0.5px;
+        text-align: left;
+        font-size: 14px; }
+      .main-signup .register .signuppwd-form input:focus ~ label,
+      .main-signup .register .signuppwd-form .has-contentinput ~ label {
+        top: 5px;
+        font-size: 12px;
+        color: #A0011E;
+        transition: 0.3s; }
+  .main-signup .signup-form {
+    font: 2em "Roboto", sans-serif;
+    font-weight: bolder; }
+  .main-signup hr {
+    width: 40%;
+    margin-bottom: 20px; }
+  .main-signup input {
+    margin: 15px 0; }
+  .main-signup .client-reg {
+    display: flex;
+    flex-direction: column; }
+  .main-signup .company-reg {
+    display: flex;
+    flex-direction: column; }
+  .main-signup .employer-switch {
+    display: flex;
+    align-items: center; }
+    .main-signup .employer-switch h4 {
+      font-family: "Roboto", sans-serif; }
+    .main-signup .employer-switch .switch {
+      position: relative;
+      display: inline-block;
+      width: 32px;
+      height: 15px;
+      margin-right: 5px;
+      margin-left: 10px;
+      border: 1px solid #919191;
+      border-radius: 34px; }
+    .main-signup .employer-switch .switch input {
+      display: none; }
+    .main-signup .employer-switch .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.562);
+      -webkit-transition: 0.4s;
+      transition: 0.4s; }
+    .main-signup .employer-switch .slider:before {
+      position: absolute;
+      content: "";
+      height: 15px;
+      width: 15px;
+      left: 0px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s; }
+    .main-signup .employer-switch input:checked + .slider {
+      background-color: #125172;
+      opacity: 0.8; }
+    .main-signup .employer-switch input:focus + .slider {
+      box-shadow: 0 0 1px #125172; }
+    .main-signup .employer-switch input:checked + .slider:before {
+      -webkit-transform: translateX(17px);
+      -ms-transform: translateX(17px);
+      transform: translateX(17px); }
+    .main-signup .employer-switch .slider.round {
+      border-radius: 34px; }
+    .main-signup .employer-switch .slider.round:before {
+      border-radius: 50%; }
+
+/*# sourceMappingURL=SignUp.css.map */

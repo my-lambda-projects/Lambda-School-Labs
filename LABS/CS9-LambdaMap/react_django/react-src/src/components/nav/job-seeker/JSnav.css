@@ -1,0 +1,73 @@
+.jobseekerNav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  box-shadow: 5px 0px 10px #000000a1;
+  transform: translate(-90%, 0);
+  transition: transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
+  z-index: 10;
+  background-color: white;
+  background-color: #125172; }
+  .jobseekerNav-container .lambdamap {
+    padding: 6%; }
+  .jobseekerNav-container .logo {
+    width: 100%; }
+  .jobseekerNav-container .quote {
+    margin: 5px 0px;
+    font: 15px "Roboto Condensed", sans-serif;
+    color: #919191; }
+  .jobseekerNav-container li {
+    display: flex;
+    margin-left: 10%;
+    font: 1.4em "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    padding: 6% 0%; }
+    .jobseekerNav-container li .icons {
+      margin-right: 5%;
+      color: white; }
+  .jobseekerNav-container .secondary-container {
+    width: 90%; }
+    .jobseekerNav-container .secondary-container .nav-links {
+      text-decoration: none;
+      color: black; }
+  .jobseekerNav-container hr {
+    width: 80%;
+    margin-bottom: 5%; }
+  .jobseekerNav-container .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    transition: all 1s;
+    font-size: 2em;
+    color: white; }
+  .jobseekerNav-container .footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.2vh;
+    margin-top: 50px; }
+  .jobseekerNav-container .footerIcon {
+    margin-right: 2px; }
+  .jobseekerNav-container .skew {
+    display: flex;
+    position: absolute;
+    top: -150px;
+    width: 100%;
+    height: 30%;
+    z-index: -1;
+    background-color: white;
+    -webkit-transform: skew(0deg, -10deg);
+    -ms-transform: skew(0deg, -10deg);
+    transform: skew(0deg, -10deg); }
+
+.jobseekerNav-container:hover {
+  transform: none; }
+
+.jobseekerNav-container:hover .arrow {
+  transform: rotate(180deg); }
+
+/*# sourceMappingURL=jsnav.css.map */

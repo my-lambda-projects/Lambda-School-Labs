@@ -1,0 +1,200 @@
+@import "imports";
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+.main-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    border: none;
+    background-color: $specialblue;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: $mapsfont;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 80%;
+    outline: none;
+    margin-top: 20px;
+  }
+
+  .register {
+    display: flex;
+    flex-direction: column;
+
+    .register-form {
+
+      .emailInput {
+        border: 0;
+        padding: 4px 0;
+        border-bottom: 1px solid #ccc;
+        background-color: transparent;
+      }
+
+    }
+
+    .signuppwd-form {
+      position: relative;
+
+      :focus {
+        outline: none;
+      }
+
+      input[type="password"] {
+        font: 15px/24px $mapsfont;
+        color: #333;
+        width: 100%;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+      }
+
+      input {
+        border: 0;
+        padding: 4px 0;
+        border-bottom: 1px solid #ccc;
+        background-color: transparent;
+        z-index: 2;
+        margin-right: 35px;
+      }
+
+      input ~ .focus-border {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background-color: $specialblue;
+        transition: 0.4s;
+      }
+
+      input:focus ~ .focus-border,
+      .has-contentinput ~ .focus-border {
+        width: 100%;
+        transition: 0.4s;
+        left: 0;
+        bottom: 15px;
+      }
+
+      input ~ label {
+        position: absolute;
+        left: 0;
+        top: 25px;
+        color: Black;
+        transition: 0.3s;
+        letter-spacing: 0.5px;
+        text-align: left;
+        font-size: 14px;
+      }
+
+      input:focus ~ label,
+      .has-contentinput ~ label {
+        top: 5px;
+        font-size: 12px;
+        color: $specialred;
+        transition: 0.3s;
+      }
+    }
+  }
+
+  .signup-form {
+    font: 2em $mapsfont;
+    font-weight: bolder;
+  }
+
+  hr {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  input {
+    margin: 15px 0;
+  }
+
+  .client-reg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .company-reg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .employer-switch {
+    display: flex;
+    align-items: center;
+
+    h4 {
+      font-family: $mapsfont;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 32px;
+      height: 15px;
+      margin-right: 5px;
+      margin-left: 10px;
+      border: 1px solid $specialgray;
+      border-radius: 34px;
+    }
+
+    .switch input {
+      display: none;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.562);
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 15px;
+      width: 15px;
+      left: 0px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    input:checked + .slider {
+      background-color: $specialblue;
+      opacity: 0.8;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px $specialblue;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(17px);
+      -ms-transform: translateX(17px);
+      transform: translateX(17px);
+    }
+
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+  }
+}

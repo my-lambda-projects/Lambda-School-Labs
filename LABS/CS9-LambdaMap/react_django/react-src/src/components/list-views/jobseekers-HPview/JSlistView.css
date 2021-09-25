@@ -1,0 +1,211 @@
+.main-JSlist {
+  width: 100%;
+  height: 100vh;
+  background-color: #1250728f; }
+  .main-JSlist .signout {
+    display: flex;
+    justify-content: flex-end; }
+    .main-JSlist .signout button {
+      margin-right: 100px;
+      margin-top: 50px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      background: none;
+      font: 0.8em "Roboto Condensed", sans-serif;
+      font-weight: bolder;
+      color: #A0011E;
+      letter-spacing: 2.5px;
+      z-index: 5; }
+    .main-JSlist .signout button:active {
+      color: black; }
+  .main-JSlist .jslist-container {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto 0;
+    width: 75%;
+    justify-content: center; }
+    .main-JSlist .jslist-container .filter-main {
+      width: 100%; }
+      .main-JSlist .jslist-container .filter-main input {
+        display: block;
+        width: 60px;
+        height: 25px;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 6; }
+      .main-JSlist .jslist-container .filter-main input:checked ~ .filter-icon {
+        transform: rotate(-90deg);
+        transition: all 1s; }
+      .main-JSlist .jslist-container .filter-main input:checked ~ .filter-options {
+        transform: none;
+        opacity: 1; }
+      .main-JSlist .jslist-container .filter-main .filter-options {
+        background: transparent;
+        transform: translate(-180%, 0);
+        transition: transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 8px 0px; }
+        .main-JSlist .jslist-container .filter-main .filter-options h4 {
+          margin: 0;
+          font: 0.8em "Open Sans", sans-serif;
+          font-weight: bold;
+          z-index: 5; }
+        .main-JSlist .jslist-container .filter-main .filter-options .switch {
+          position: relative;
+          display: inline-block;
+          width: 32px;
+          height: 15px;
+          margin-right: 5px;
+          margin-left: 10px;
+          border: 1px solid #125072a4;
+          border-radius: 34px; }
+        .main-JSlist .jslist-container .filter-main .filter-options .switch input {
+          display: none; }
+        .main-JSlist .jslist-container .filter-main .filter-options .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #919191;
+          -webkit-transition: .4s;
+          transition: .4s; }
+        .main-JSlist .jslist-container .filter-main .filter-options .slider:before {
+          position: absolute;
+          content: "";
+          height: 10px;
+          width: 10px;
+          left: 4px;
+          bottom: 2.6px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s; }
+        .main-JSlist .jslist-container .filter-main .filter-options input:checked + .slider {
+          background-color: #125172;
+          opacity: .8; }
+        .main-JSlist .jslist-container .filter-main .filter-options input:focus + .slider {
+          box-shadow: 0 0 1px #125172; }
+        .main-JSlist .jslist-container .filter-main .filter-options input:checked + .slider:before {
+          -webkit-transform: translateX(15px);
+          -ms-transform: translateX(15px);
+          transform: translateX(15px); }
+        .main-JSlist .jslist-container .filter-main .filter-options .slider.round {
+          border-radius: 34px; }
+        .main-JSlist .jslist-container .filter-main .filter-options .slider.round:before {
+          border-radius: 50%; }
+      .main-JSlist .jslist-container .filter-main .filter-display {
+        width: 100%;
+        display: flex;
+        align-items: center; }
+      .main-JSlist .jslist-container .filter-main header {
+        display: flex;
+        justify-content: center;
+        font: 2em "Roboto Condensed", sans-serif;
+        z-index: 5; }
+      .main-JSlist .jslist-container .filter-main button {
+        display: flex;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background: none;
+        font: 1.2em "Roboto Condensed", sans-serif;
+        font-weight: bolder;
+        color: #A0011E; }
+      .main-JSlist .jslist-container .filter-main .filter-icon {
+        display: flex;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background: none;
+        font: 1.2em "Roboto Condensed", sans-serif;
+        font-weight: bolder;
+        color: #A0011E; }
+    .main-JSlist .jslist-container hr {
+      width: 80%;
+      z-index: 5; }
+    .main-JSlist .jslist-container .jobseekercards-container::-webkit-scrollbar {
+      width: .6em; }
+    .main-JSlist .jslist-container .jobseekercards-container::-webkit-scrollbar-thumb {
+      background-color: #919191;
+      border-radius: 10px;
+      box-shadow: inset -15px -10px 15px -13px rgba(0, 0, 0, 0.616); }
+    .main-JSlist .jslist-container .jobseekercards-container {
+      background-color: #e6e6e6;
+      justify-content: flex-start;
+      align-content: flex-start;
+      height: 65vh;
+      overflow: auto;
+      border-radius: 10px;
+      margin-top: 5px;
+      box-shadow: inset 3px 3px 3px 1px gray;
+      padding: 5px;
+      z-index: 4; }
+      .main-JSlist .jslist-container .jobseekercards-container .profile-link {
+        text-decoration: none;
+        color: black;
+        padding: 0 3px; }
+      .main-JSlist .jslist-container .jobseekercards-container .cards-main {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 10px; }
+        .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards {
+          width: 28.5%;
+          font-family: "Open Sans", sans-serif;
+          background-color: rgba(255, 255, 255, 0.9);
+          box-shadow: 3px 3px 3px 1px rgba(128, 128, 128, 0.616);
+          border-radius: 10px;
+          margin: 20px; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .card-socialmedia {
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .card-smIcons {
+            font-size: 1.5em;
+            color: #125172;
+            margin: 5px; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .card-header {
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            margin-top: 5px; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .jscard-name {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto; }
+            .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .jscard-name h3 {
+              margin: 0; }
+            .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .jscard-name h5 {
+              margin: 0;
+              font: 0.8em "Roboto Condensed", sans-serif;
+              color: #919191; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .card-favIcon {
+            color: gold; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .JScardpic {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .card-info .card-bio {
+            font-size: .9em; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .card-info .contactIcons {
+            font-size: 1em;
+            color: #125172;
+            margin-right: 5px; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .card-info .emailcontact {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 10px; }
+          .main-JSlist .jslist-container .jobseekercards-container .cards-main .jobseeker-cards .card-info .phonecontact {
+            display: inline-flex;
+            align-items: center; }
+
+/*# sourceMappingURL=JSListView.css.map */
