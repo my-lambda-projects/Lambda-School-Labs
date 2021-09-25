@@ -1,0 +1,48 @@
+// primary colors
+$main-blue: #082E3E;
+$main-red: #EA3F4C;
+$deep-red: #C73642;
+$medium-blue: #0C435A;
+$dark-grey: #2B2B2B;
+$light-grey: #E0EBF0;
+$fog: #E4E1E6;
+
+
+
+//secondary colors
+$main-shadow: #3A5360;
+$main-teal: #249FB0;
+
+//basic grey shades
+$main-gray: #D7D4D8;
+
+
+// Status colors
+
+// Font family
+$font-family: Mada, Lato, sans-serif, arial;
+
+
+//media queries
+$mobile: 'only screen and (max-width:500px)';
+$tablet: 'only screen and (max-width:1200px)';
+$tablet-small: 'only screen and (max-width:800px)';
+$tablet-short: 'only screen and (max-height:550px)';
+$desktop: 'only screen and (min-width:767px)';
+
+//error color - outline input fields for errors
+$error:  $deep-red;
+
+// The Garden of Knowledge logo colors
+$tree-peacock: #00A79D;
+$tree-light-green: #70BF44;
+$tree-green: #006838;
+$tree-brown: #523428;
+
+$heading-bg-one: #99CC66;
+$heading-bg-two: $tree-peacock;
+$button-green: #0B8661;
+
+// Footer background color
+
+$footer-bg-color: $tree-brown;

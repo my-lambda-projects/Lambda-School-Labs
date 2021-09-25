@@ -1,0 +1,142 @@
+.sections{
+   
+    @media #{$desktop} {
+       
+        display: flex;
+        justify-content: space-between;
+        
+        .class-levels {
+            width:30%;
+        }
+    }
+    }
+
+.img {
+    height:30vh;
+    width: auto;
+}
+
+address {
+    margin: 0;
+}
+
+.registration-container {
+
+    @media #{$desktop} {
+        display: flex;
+    }
+    
+    img {
+        border-radius: 10px;
+    }
+
+    section div {
+        @media #{$desktop} {
+            width: 70%;
+        }
+    }
+}
+
+
+.placement-test {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    @media #{$desktop} {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+   
+    img {
+        width: 100%;
+        @media #{$desktop} {
+            width: 70%;
+        }
+    }
+
+    div {
+        width: 100%;
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: left;
+        }
+        
+        @media #{$desktop} {
+            font-size: 1.5rem;
+        }
+        
+    }
+
+
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    @media #{$desktop} {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+ 
+    img {
+        width: 100%;
+
+        @media #{$desktop} {
+            width: 70%;
+        }
+    }
+
+    div {
+        width: 100%;
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: left;
+        }
+    }
+
+}
+
+.fees {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+    @media #{$desktop} {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    img {
+        width: 100%;
+        margin: 2%;
+
+        @media #{$desktop} {
+            width: 70%;
+            margin: 0%;
+        }
+    }
+
+    div {
+        width: 100%;
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: left;
+        }
+    }
+
+}

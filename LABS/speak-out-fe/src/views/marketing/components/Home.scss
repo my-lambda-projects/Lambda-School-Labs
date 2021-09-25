@@ -1,0 +1,148 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.knowledge{
+    height: 30vh;
+    background:linear-gradient(rgba(8, 46, 62, 0.75) 10%, rgba(11, 71, 97, 0.3) 30%), url('../../../assets/hero-image.jpg');
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media #{$desktop} {
+        min-height: calc(100vh - 100px);
+    }
+    
+    h1{
+        padding-top: 3%;
+        font-size: 2.5rem;
+        color:white;
+
+        @media #{$desktop} {
+            font-size: 5.5rem;
+            padding: 2% 5%;
+            text-align: left !important;
+        }
+    }
+}
+
+.knowledge-buttons{
+        margin: 7% 0;
+        
+
+        a {
+            font-family: $font-family;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 600;
+            border: none;
+            background-color: $button-green;
+            padding: 11px 3%;
+            border-radius: 7px;
+            margin: 1% 6%;
+        }
+
+        @media #{$desktop} {
+            text-align: center;
+            a {
+                padding: 20px 7%;
+            }
+        }
+    }
+
+.why-special, .afford {
+    margin-top: 3%;
+    
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 900;
+        color:black;
+        margin: 1% auto;
+    }
+    
+    p{
+        font-size: 1.5rem;
+        color: black;
+    }
+
+}
+
+.special-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    @media #{$desktop} {
+        flex-direction: row;
+    }
+
+    .learn-from-best, .fun {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+        @media #{$desktop} {
+            width: 45%;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        p {
+            text-align: center;
+            margin: 1rem;
+
+            width: 70%;
+        }
+
+        img {
+            border-radius: 5px;
+        }
+
+    }
+}
+
+.afford{
+
+    @media #{$desktop} {
+        
+    }
+
+    h2 {
+        @media #{$desktop} {
+            font-size: 4rem;
+        }
+    }
+
+    p{
+
+        text-align: center;
+
+        @media #{$desktop} {
+            font-size: 2.5rem;
+        }
+    }
+  
+    img {
+        width: 70vw;
+        
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+
+        @media #{$desktop} {
+            width: 50vw;    
+        }
+    }
+
+}

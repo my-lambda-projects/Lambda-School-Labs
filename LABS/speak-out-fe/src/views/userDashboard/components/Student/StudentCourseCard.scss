@@ -1,0 +1,48 @@
+@import '../../../../styles/variables';
+
+span {
+  display: inline-block;
+  margin-right: 0.4rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f8f8ff;
+
+  p:first-child {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  .student {
+    background: $tree-light-green;
+    padding: 1rem;
+
+    h2 {
+      color: #fff;
+    }
+  }
+
+  .course-content {
+    display: flex;
+    justify-content: space-between;
+
+    p:first-child {
+      font-size: 1rem;
+    }
+
+    @media #{$mobile} {
+      flex-direction: column;
+      padding-top: 1rem;
+    }
+  }
+}

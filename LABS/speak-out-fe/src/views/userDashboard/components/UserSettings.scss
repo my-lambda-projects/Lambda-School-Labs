@@ -1,0 +1,39 @@
+@import '../../../styles/variables';
+
+.settings-container {
+    padding-top: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1 0 auto;
+}
+
+.settings-container .input-group {
+	margin: 1.5rem 0;
+	font-size: 1.4rem;
+	line-height: 1.6;
+}
+
+.edit-container {
+	flex: 2 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.edit-container .input-group {
+	margin: 1.5rem 0;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.4rem;
+	line-height: 1.6;
+}
+
+.edit-container .input-group label {
+	margin-top: 1.5rem;
+}
+
+.edit-container .button-div {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+}

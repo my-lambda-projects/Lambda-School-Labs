@@ -1,0 +1,58 @@
+@import "../../../../styles/_variables";
+@import "../../../../styles/_mixins";
+
+.nav {
+  height: 100px;
+  display: flex;
+  // position: fixed;
+  width: 100%;
+  z-index: 123;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  top: 0;
+
+  .navbar-left {
+    .logo {
+      font-size: 24px;
+      color: white;
+      font-weight: 700;
+      margin-left: 23px;
+      cursor: pointer;
+      .logo-image {
+        width: 100px;
+        height: 75px;
+      }
+    }
+  }
+  .navbar-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+      margin-right: 40px;
+      font-size: 18px;
+      color: black;
+    }
+
+    a:hover {
+      cursor: pointer;
+    }
+
+    button {
+      border: none;
+      color: white;
+      background-color: #EC404E;
+      padding: 10px;
+      font-size: 18px;
+      margin-right: 20px;
+      border-radius: 3px;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}

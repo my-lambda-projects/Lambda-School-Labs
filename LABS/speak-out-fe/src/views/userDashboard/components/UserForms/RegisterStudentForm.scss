@@ -1,0 +1,13 @@
+$break-mobile: 480px;
+
+.ant-steps.ant-steps-horizontal.ant-steps-label-horizontal {
+  @media screen and (max-width: $break-mobile) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.ant-row {
+  justify-content: center;
+}

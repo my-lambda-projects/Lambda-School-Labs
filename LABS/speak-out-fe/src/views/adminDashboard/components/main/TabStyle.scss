@@ -1,0 +1,30 @@
+$blue: #269FB0;
+$pink: #EC404E;
+
+.sidebarLink {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px 20px 20px 30px;
+    color: white;
+    cursor: pointer;
+}
+.sidebarLink.active-tab, .sidebarLink.active-tab:hover {
+    background-color: #006838;
+    cursor: default;
+}
+
+.sidebarLink:hover {
+    background-color: lighten($blue, 10%);
+}
+
+.sidebarLink:active {
+    background-color: lighten($blue, 20%);
+}
+
+.tab-icon {
+    color: #FFFFFF;
+    margin-right: 10px;
+    width: 15px;
+}

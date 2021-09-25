@@ -1,0 +1,62 @@
+
+
+.rowHover tr {
+  cursor: pointer;
+}
+
+.row-above {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px 15px 15px;
+}
+
+.row-above-input {
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #d0d0d0;
+  background: #F6F8FB;
+  width: 400px;
+  padding: 12px;
+}
+
+.create-new-entry {
+  display: flex;
+  align-items: center;
+}
+
+.myControlClassName {
+  position: relative;
+  /* overflow: hidden; */
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  padding: 8px 52px 8px 10px;
+  transition: all 200ms ease;
+  border-radius: 3px;
+  background: white;
+  width: 100%;
+  height: 26px;
+}
+
+.dropdownRoot {
+  position: relative;
+}
+
+.myControlClassName.Dropdown-disabled {
+  background: #b8c6cc;
+}
+
+.react-calendar {
+  z-index: 5;
+  position: absolute;
+  border: 0px solid transparent;
+}
+
+.react-calendar__navigation {
+  justify-content: center;
+}
+.react-calendar__navigation button {
+  min-width: 0px;
+}
+

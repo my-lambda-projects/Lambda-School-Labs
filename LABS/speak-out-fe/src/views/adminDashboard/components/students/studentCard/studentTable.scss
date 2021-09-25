@@ -1,0 +1,30 @@
+.coursesTable .ant-table-thead > tr:first-child th{
+    // border-left: 15px solid white;
+    background: #fafafa;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+// .coursesTable .ant-table-thead > tr:first-child th:last-child{
+//     background: white;
+// }
+
+// .coursesTable .ant-table-column-sorters::before {
+//     background:#26ABBD !important;
+// }
+
+.coursesTable .ant-table-thead > tr:first-child > th:last-child{
+    border-radius: 0;
+}
+
+.ui.segment.active.tab .gridView :first-child.text{
+    color:black;
+}
+
+.coursesTable .myControlClassName{
+    width: 11rem;
+    height: auto;
+    border: rgb(204, 204, 204) 1px solid;
+}
+
+
+

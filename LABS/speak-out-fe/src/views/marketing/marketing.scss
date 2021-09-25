@@ -1,0 +1,67 @@
+//Imports
+@import '../../styles/variables';
+
+// Header
+@import './components/Header.scss';
+
+// Marketing pages
+@import './components/Home.scss';
+@import './components/CourseStructure.scss';
+@import './components/CoursesAndRegistration.scss';
+@import './components/AboutAndContact.scss';
+
+
+
+// Global Styles
+
+.middle {
+
+    // accounts for header (100 px) and footer (165 px, including tree)
+    min-height: calc(100vh - 265px);
+
+    h1 {
+        text-align: center;
+    }
+
+    // tree is smaller on desktop after jump in size
+    @media #{$desktop} {
+        min-height: calc(100vh);
+    }
+}
+
+section {
+    text-align: left;
+    padding: 1rem;
+}
+
+.section-even, .section-odd {
+    text-align: center;
+
+    // width: 100vw;
+    margin-left: -1rem;
+}
+
+.section-even{
+    background-color: $heading-bg-one;
+}
+
+.section-odd{
+    background-color: $heading-bg-two;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    margin-bottom: 1rem;
+    
+}
+
+.two-column-left, .two-column-right {
+    width: 45vw;
+}
+
+// Footer
+@import './components/Footer.scss';

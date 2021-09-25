@@ -1,0 +1,88 @@
+.ui.pointing.secondary.menu a.active.item {
+    color: #26ABBD;
+    border-color: #26ABBD;
+}
+div.ui.secondary.pointing.menu a.active.item:hover{
+    color: #26ABBD;
+    border-color: #26ABBD;
+}
+.ui.secondary.pointing.menu .item:hover{
+    color: #26ABBD !important;
+}
+
+div.ui.pointing.secondary.menu{
+    border: none;
+}
+.ui.segment.active.tab .gridView :first-child{
+    margin-bottom:0;
+    border:none;
+    box-shadow: none;
+    color: rgb(146, 118, 118);
+    padding-bottom: 5px;
+}
+.ui.segment.active.tab .gridView :last-child{
+    margin-top:0;
+    box-shadow: none;
+    color: #2F3333;
+    padding-top:0;
+    border:none;
+}
+.ui.segment.tab.active{
+    box-shadow: none;
+    margin-top: 15px;
+}
+.column{
+    text-align:left;
+}
+.row{
+    padding:0 ;
+}
+.img.ui.circular.image{
+    width: 100px;
+}
+.card-title{
+    display:flex;
+    margin: 15px 0 30px 15px;
+}
+h2.ui.header {
+    text-align: left;
+    margin:5px 0 0 15px;
+}
+.ui.header .headerDiv{
+    display:flex;
+    margin: 10px 0 0 0;
+}
+.headerSeparateDiv{
+    font-weight: normal;
+    margin: 0 15px 10px 0;
+    padding: 7px;
+    font-size: 16px;
+    background-color: #CDD5E9;
+    color: #000000;
+}
+.ui.input{
+    width: 90%;
+    margin-left: 10px;
+    padding-left: -10;
+    text-align: left;
+    padding-bottom: 25px;
+}
+.ui.label {
+    background: #E0EBF0;
+    padding-bottom: 10px;
+}
+
+div.ui.segment.active.tab {
+    border: none;
+    margin-top: 0;
+    padding: 0;
+}
+.ui.segment.active.tab.editForm{
+    background: #E0EBF0;
+    // margin-top: 15px;
+}
+
+.ui.segment.active.tab.editForm .ui.segment{
+    background: #E0EBF0;
+}
+

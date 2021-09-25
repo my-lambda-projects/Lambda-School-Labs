@@ -1,0 +1,659 @@
+@import '../../styles/variables';
+
+.userContent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.userDashboardHeader .logOut {
+  // copied from marketing/Header.scss for now; change to a mixin later
+  display: inline-block;
+
+  font-size: 1.5rem;
+  line-height: 3rem;
+
+  padding: 0 1rem;
+  color: $tree-green;
+  border-bottom: 3px solid transparent;
+
+  &:hover {
+    border-bottom: 3px solid $tree-peacock;
+  }
+}
+
+.userDashboard {
+  width: 90%;
+  flex: 1 0 auto;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    text-align: left;
+  }
+
+  .iconContainer {
+    text-align: right;
+
+    .add-icon {
+      font-size: 3rem;
+      color: $tree-peacock;
+
+      &:hover {
+        color: $tree-green;
+      }
+    }
+  }
+
+  // .messageBox {
+  // 	border: 3px solid black;
+  // 	padding: 1rem;
+
+  // 	background-color: #eeeeee;
+
+  // 	li {
+  // 		font-size: 1.25rem;
+  // 		margin-bottom: 1rem;
+  // 	}
+  // }
+
+  // button {
+  // 	display: block;
+
+  // 	margin: 2rem 0 2rem auto;
+
+  // 	font-size: 1.5rem;
+  // 	line-height: 3rem;
+  // 	padding: 0 1rem;
+
+  // 	color: black;
+  // 	background-color: #eeeeee;
+
+  // 	border: 3px solid black;
+  // 	border-radius: 5px;
+
+  // 	cursor: pointer;
+
+  // 	&:hover {
+  // 		background-color: #cccccc;
+  // 	}
+  // }
+}
+
+// .modal-displayed {
+// 	display: block;
+// }
+
+// .modal-hidden {
+// 	display: none;
+// }
+
+// .addStudentModal {
+// 	z-index: 2;
+
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+
+// 	width: 100vw;
+// 	height: 100vh;
+// 	background-color: rgba(0, 0, 0, 0.8);
+
+// 	overflow: auto;
+// }
+
+.addStudentModalContents {
+  width: 80vw;
+
+  margin: 5vh 10vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  border: 3px solid black;
+  background-color: #eeeeee;
+
+  h2 {
+    margin: 1rem auto 0 auto;
+  }
+
+  .modalButtons {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+
+    margin: 2rem 0;
+
+    button {
+      margin: 0 2rem;
+    }
+  }
+
+  // new styles for StudentRegistrationForm in adminDashboard
+  .userAddStudentForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+
+    div {
+      width: 100%;
+      margin: 0.25rem auto;
+    }
+
+    label {
+      font-weight: bold;
+    }
+  }
+
+  .form-button-div {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      font-size: 1.25rem;
+      line-height: 3rem;
+      height: 3rem;
+      margin: 1rem;
+    }
+
+    .cancel {
+      width: 40%;
+    }
+
+    .add {
+      width: 60%;
+    }
+  }
+}
+
+.studentCourseCard {
+  border: 1px solid darkgrey;
+  padding: 2rem;
+
+  margin-bottom: 2rem;
+
+  background-color: #eeeeee;
+
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 12.5%;
+    margin: 0 auto;
+    padding: 0 1% 0 0;
+  }
+
+  .firstName,
+  .additionalNames {
+    background-color: #70bf44;
+    width: 87vw;
+    padding-left: 13px;
+  }
+
+  .courseAmount {
+    padding-left: 13px;
+  }
+
+  .nameAndHamburgerMenu {
+    display: flex;
+    justify-content: space-between;
+
+    // margin-bottom: 2rem;
+
+    .icon-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+      color: #00a79d;
+
+      @media #{$desktop} {
+        font-size: 4rem;
+      }
+    }
+
+    img {
+      width: 32px;
+      height: 32px;
+
+      cursor: pointer;
+    }
+  }
+
+  .firstName {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .additionalNames {
+    margin: 0;
+  }
+
+  .courseData {
+    margin-bottom: 5rem;
+
+    .logoAndProgram {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 64px;
+        height: auto;
+
+        margin-right: 1rem;
+      }
+    }
+
+    h3 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    table {
+      margin: 2rem 0 2rem auto;
+
+      thead {
+        border-bottom: 2px solid black;
+      }
+
+      td,
+      th {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+
+        padding: 0 1rem;
+      }
+
+      .startEndDatesTimes {
+        line-height: 2rem;
+      }
+    }
+
+    button {
+      margin: 0;
+      padding: 0 0.5rem;
+
+      font-size: 1rem;
+      line-height: 1.5rem;
+
+      border: 2px solid;
+
+      background-color: #cccccc;
+    }
+  }
+
+  .noCourses {
+    font-size: 1.5rem;
+    font-style: oblique;
+
+    text-align: center;
+
+    margin: 5rem;
+  }
+
+  .coursesList {
+    font-size: 1 rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+
+.studentTitle {
+  margin: 2%;
+  font-size: 3rem;
+}
+
+.studentBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+  margin: auto 10rem 2rem;
+}
+
+.studentInfoBox {
+  border: 1px solid darkgrey;
+
+  padding: 1.5rem;
+  margin: auto 3%;
+  width: 100%;
+
+  h2 {
+    background-color: #70bf44;
+    padding: 6px 0;
+    text-align: center;
+  }
+
+  background-color: #eeeeee;
+
+  .studentSubBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+      padding: 1%;
+      width: 95%;
+    }
+
+    .studentCourseBox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 0 auto;
+
+      div {
+        margin: 0 15px;
+      }
+    }
+  }
+}
+
+.studentEditButton {
+  width: 25;
+  margin: 0 auto 1%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.noInfo {
+  text-align: center;
+}
+
+.editBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+  margin: auto 10rem 2rem;
+  width: 90%;
+}
+
+.editInfoBox {
+  border: 1px solid lightgrey;
+
+  padding: 1.5rem;
+  margin: auto 3%;
+  width: 100%;
+
+  background-color: #eeeeee;
+
+  h2 {
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  .editSubBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+    div {
+      padding: 4%;
+      width: 80%;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.editTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin: 5% 0;
+    font-size: 2.5rem;
+  }
+}
+
+// Media Queries
+
+@media (max-width: 500px) {
+  .studentCourseCard {
+    flex-direction: column;
+
+    .coursesList {
+      flex-direction: column;
+    }
+  }
+
+  .studentSubBox {
+    margin-bottom: 7vh;
+    text-align: left;
+    padding-bottom: 30px;
+    border-bottom: 1px solid darkgrey;
+
+    p {
+      width: 100%;
+    }
+
+    span {
+      font-size: 0.9rem;
+      padding-left: 20px;
+    }
+  }
+
+  .studentBox {
+    flex-direction: column;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  .studentInfoBox {
+    margin-top: 2vh;
+    margin: 0;
+    padding: 0.25rem;
+  }
+
+  .studentCourseBox {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courseBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 8px;
+
+    p {
+      width: 33%;
+    }
+
+    p:first-child {
+      margin-top: 3vh;
+    }
+  }
+
+  .editTitle {
+    flex-direction: column;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .editBox {
+    flex-direction: column;
+  }
+
+  .editInfoBox {
+    margin: auto;
+    margin-bottom: 2vh;
+
+    .editInfoBox:nth-child(2) {
+      margin-bottom: 0;
+    }
+
+    .editSubBox {
+      flex-direction: column;
+      align-items: center;
+
+      h4 {
+        font-size: 1rem;
+      }
+
+      div {
+        padding: 2.5%;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .studentCourseCard {
+    flex-direction: column;
+
+    .coursesList {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 0;
+    }
+  }
+
+  .studentSubBox {
+    margin: 2vh 2vw;
+
+    // :nth-child(odd) {
+    //     background-color: #fcfcf2;
+    // }
+  }
+
+  .studentCourseBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courseBoxes {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+  }
+
+  .studentBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .studentInfoBox {
+    margin-bottom: 2vh;
+  }
+
+  .noInfo p {
+    width: auto;
+  }
+}
+
+@media (min-width: 767px) {
+  .studentCourseCard {
+    flex-direction: column;
+
+    .coursesList {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 0;
+    }
+  }
+
+  .studentSubBox {
+    margin: 2vh 3vw;
+    text-align: left;
+    // padding: 12px 15px 30px 10px;
+    border: 1px solid darkgrey;
+    padding: 25px;
+  }
+
+  .studentBox {
+    flex-wrap: wrap;
+  }
+
+  .studentCourseBox {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .courseBoxes {
+    width: 23%;
+    padding-top: 3vh;
+  }
+
+  .studentInfoBox {
+    margin-top: 2vh;
+  }
+
+  .noInfo {
+    width: 100%;
+  }
+
+  .editInfoBox {
+    padding: 1.125rem;
+    margin: 1%;
+
+    .editSubBox {
+      div {
+        padding: 2.5%;
+      }
+    }
+  }
+}
+
+.studentWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.testWrapper {
+  // width: 90%;
+  flex: 2 0 auto;
+  // margin: 0 auto;
+}
+
+.endTest {
+  flex: 2 0 auto;
+  height: 100%;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.start-test-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
