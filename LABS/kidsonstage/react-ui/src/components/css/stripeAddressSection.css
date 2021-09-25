@@ -1,0 +1,110 @@
+.BI {
+  width: 21px;
+  height: 21px;
+}
+/* .name {
+  width: "60px";
+} */
+.lineThrough {
+  text-decoration: line-through;
+}
+/*
+
+#competedGroup {
+  display:inline;
+}
+
+
+#completedGroup:checked + label {
+  display: none;
+}  .mycheckbox input[type="checkbox"] {
+  display: none;
+}
+.mycheckbox input[type="checkbox"]+label {
+   background: url('../graphics/completed.png') no-repeat;
+  width:20px;
+  height: 20px;
+}
+.mycheckbox input[type="checkbox"]:checked + label {
+display: none;
+} */
+
+.addressSection--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.addressSection--form_container {
+  background-color: rgb(218, 219, 218);
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  width: 75%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.addressSection--box_content {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  justify-content: center;
+  text-align: center;
+}
+
+.addressSection--form_container ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding-left:0;
+}
+
+.addressSection--form_container_button {
+  width: 80%;
+  background-color: rgb(56, 193, 63);
+  color: white;
+  margin-top: 20px;
+}
+
+.addressSection--box_navbar {
+  background-color: #1faa00;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.addressSection--return_button_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.addressSection--return_button_container button {
+  background-color: orange;
+  color: white;
+  width: 80%;
+}
+
+.addressSection--activated {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+#Subscribe {
+  margin-left: 40px;
+}
+#subscribeGroup {
+  margin-right: 7px;
+}
+#time {
+  width: 50px;
+}
+
+.primary-data {
+  font-weight: bold;
+  font-size: 16pt;
+}

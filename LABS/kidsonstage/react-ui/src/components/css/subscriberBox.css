@@ -1,0 +1,41 @@
+#getEventId, #submit {
+  width: auto;
+}
+
+.subscriberBox--form_container {
+  background-color: rgb(218, 219, 218);
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(245, 124, 124, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  width: 80%;
+  min-width: 280px;
+  height: 215px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.subscriberBox--form_container form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subscriberBox--form_container form input {
+  width: 26%;
+}
+
+.subscriberBox--form_container form button {
+  margin-top: 10px;
+  width: 100px;
+  background-color: rgb(56, 193, 63);
+}
+
+.subscriberBox--box_navbar {
+  background-color: #1faa00;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  box-shadow: none;
+}

@@ -1,0 +1,11 @@
+.navbar-navbar {
+  height: 60px;
+}
+
+.navbar--selected {
+  color: orange;
+}
+
+strong {
+  margin-left: 10px;
+}

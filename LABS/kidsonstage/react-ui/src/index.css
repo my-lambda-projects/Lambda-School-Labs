@@ -1,0 +1,83 @@
+/* COLOR SCHEME:
+1. Text Colors: SMOKEY BLACK: #0C120C
+2. Highlight Color (such as button hover): SEA FOAM GREEN: #BBE1C3
+3. Border Colors:
+    A. NICKEL: #6D7275
+    B. LIGHT GREY: #C7D6D5
+4. Page Background Color: ANTI-FLASH-WHITE: #ECEBF3 */
+/* body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: 100vh;
+	background-color: green;
+} */
+/* 
+.new-user-label {
+	display: flex;
+	width: 50%;
+	justify-content: flex-start;
+	padding-left: 100px;
+}
+.new-user-inputText {
+	display: flex;
+	width: 50%;
+	font-size: 20pt;
+	justify-content: flex-end;
+	margin-right: auto;
+}
+.submit {
+	display: flex;
+	justify-content: center;
+}
+.flex-center-div {
+	display: flex;
+	justify-content: center;
+}
+
+#new-user-phone {
+	display: flex;
+	width: 30%;
+	margin-right: 17.1%;
+	justify-content: flex-end;
+}
+#new-user-password {
+	display: flex;
+	width: 26.66666667%;
+	justify-content: flex-end;
+}
+#new-user-emails {
+	display: flex;
+	margin-left: 10%;
+}
+#new-user-texts {
+	display: flex;
+	margin-right: 10%;
+}
+#new-user-checkboxes {
+	margin-top: 30px;
+	margin-bottom: 10%;
+}
+#new-user-username {
+	width: 40%;
+}
+#new-user-email {
+	width: 33%;
+}
+  width: 33%;
+}
+.checkbox {
+  display: inline;
+}
+.new-user-action-button {
+  display: flex;
+  font-size: 24pt;
+}
+#new-user-form {
+  margin-top: 40px;
+}
+#new-user-contacted {
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+} */

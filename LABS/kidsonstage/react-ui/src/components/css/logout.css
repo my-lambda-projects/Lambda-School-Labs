@@ -1,0 +1,26 @@
+.logout--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88vh;
+}
+
+.logout--form_container {
+  background-color: rgb(218, 219, 218);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logout--box_navbar {
+  background-color: #1faa00;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.logout--text_container {
+margin: 20px;
+}

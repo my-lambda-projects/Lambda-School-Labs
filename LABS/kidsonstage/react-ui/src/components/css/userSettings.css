@@ -1,0 +1,60 @@
+/* this is the CSS for the edit account form.  
+User requesting to change password, email, phone, or notification settings.  */
+
+
+@import "./register.css";
+
+.userSettings--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.userSettings--form_container {
+  background-color: rgb(218, 219, 218);
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  width: 75%;
+  justify-content: center;
+  text-align: center;
+}
+
+.userSettings--form_container form {
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.userSettings--box_navbar {
+  background-color: #1faa00;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.userSettings--form_buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.userSettings--form_buttons button:nth-child(1) {
+  border-radius: 5px;
+	height: 35px;
+	width: 25%;
+  background-color: rgb(56, 193, 63);
+	color: white;
+}
+
+.userSettings--form_buttons button:nth-child(2) {
+  border-radius: 5px;
+	height: 35px;
+	width: 25%;
+	background-color: #a30000;
+	color: white;
+}
+

@@ -1,0 +1,33 @@
+/* COLOR SCHEME: 
+1. Text Colors: SMOKEY BLACK: #0C120C
+2. Highlight Color (such as button hover): SEA FOAM GREEN: #BBE1C3
+3. Border Colors: 
+    A. NICKEL: #6D7275
+    B. LIGHT GREY: #C7D6D5
+4. Page Background Color: ANTI-FLASH-WHITE: #ECEBF3 */
+
+.App {
+	/* text-align: center; */
+
+	/* width: 100%; */
+
+	background-color: #607d8b;
+
+}
+
+.App--Body {
+	/* border: 1px solid black; */
+	/* display: flex; */
+	background-color: #607d8b;
+}
+
+/* .sideNavBar--Container {
+	border: 1px solid black;
+	width: 20%;
+	height: 400px;
+	margin: 30px;
+} */
+
+html {
+	background-color: #607d8b;
+}

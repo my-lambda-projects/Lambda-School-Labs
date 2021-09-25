@@ -1,0 +1,53 @@
+.wrapper {
+  margin: 20px;
+}
+
+.page-body {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eventCard--Container {
+  min-width: 280px;
+  height: 300px;
+  margin: 10px;
+  background-color: rgb(218, 219, 218);
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.eventCard--Body {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 30%;
+}
+
+.eventCard-PlusIcon {
+}
+
+.eventCard--box_navbar {
+  background-color: #1faa00;
+  width: 100%;
+  height: 30px;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.eventCard--Date {
+  text-align: center;
+  margin-top: 17%;
+}
+
+.eventCard--Invite {
+  text-align: center;
+  margin-top: 17%;
+}
+
+.newEvent--button_save {
+  background-color: rgb(56, 193, 63);
+  color: white;
+  height: 35px;
+  width: 25%;
+}
