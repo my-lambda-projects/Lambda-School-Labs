@@ -1,0 +1,47 @@
+@import 'mixins.less';
+
+.thumbnail {
+  .containers(@width: 20%, @justifyContent: space-between);
+  .backAndBorder();
+  .shadowHover();
+  .shadow();
+  margin: 1rem;
+  padding: 0.5rem;
+  min-height: 23rem;
+  min-width: 20%;
+  text-align: center;
+  .thumbnail__landscape {
+    .image();
+    width: 100%;
+    min-width: 100%;
+    min-height: 15rem;
+    max-height: 15rem;
+  }
+  .thumbnail__description {
+    .containers(@justifyContent: space-around);
+    .description__title {
+      .hidden();
+      .title();
+      padding: 0.5rem;
+    }
+    .description__rating {
+      .containers(@flexDirection: row);
+      .rating__count {
+        margin: 0 0.5rem;
+      }
+    }
+    .description__info {
+      .body();
+      .hidden();
+      padding: 0.5em 0;
+      width: 100%;
+      color: @textColor;
+    }
+    .description__map {
+      color: @textColor;
+    }
+  }
+}
+.thumbnail:hover {
+  opacity: 1;
+}

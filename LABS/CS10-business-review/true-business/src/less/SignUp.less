@@ -1,0 +1,83 @@
+@import "mixins.less";
+
+.signup {
+  .containers(@padding: 5vh 0 5vh 0);
+  .signup__logo {
+    min-width: 15vw;
+    max-width: 15vw;
+    min-height: 15vh;
+    max-height: 15vh;
+    margin: 2rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .signup-container {
+    .containers(@width: 50%);
+    .backAndBorder();
+    .shadow();
+    color: @textColor;
+    padding: 1rem;
+    min-height: 60vh;
+    .signup-container__header {
+      .title();
+    }
+    .signup-container__stripe {
+      .containers();
+    }
+    .signup-container__form {
+      .form__error{
+        min-height: 2rem;
+        max-height: 2rem;
+        color: red;
+      }
+      .containers();
+      .signup-container__input {
+        border: 0.1rem solid @textColor;
+        background: @elementBG;
+        margin-bottom: 1rem;
+        width: 50%;
+        padding: 0.5rem;
+      }
+      .signup-container__buttons {
+        .containers(@justifyContent: space-around);
+        .signup-container__google-auth {
+          min-width: 50%;
+          max-width: 50%;
+          min-height: 10vh;
+          max-height: 10vh;
+          border-radius: 1rem;
+        }
+        .signup-container__google-auth:hover {
+          cursor: pointer;
+        }
+        .signup-container__button {
+          .button();
+          width: auto;
+          padding: 0 0.5rem;
+        }
+        .signup-container__button:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .signup__returning {
+      .containers(@flexDirection: row);
+      margin-top: 1rem;
+      .returning__text {
+        .body();
+      }
+      .returning__button {
+        .button();
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+.userError {
+  color: red;
+  padding: .5rem;
+  min-height: 2.0rem;
+  font-size: 1rem;
+}

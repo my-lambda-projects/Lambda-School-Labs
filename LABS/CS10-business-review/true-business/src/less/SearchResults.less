@@ -1,0 +1,115 @@
+@import "mixins.less";
+
+.search {
+  .containers(@padding: 15vh 0 5vh 0, @justifyContent: flex-start);
+  min-height: 100vh;
+  .search__title {
+    .title();
+    .backAndBorder();
+    margin: 1rem;
+  }
+  .search__results {
+    .containers(@flexDirection: row, @width: 90%, @height: auto, @alignItems: flex-start);
+    min-height: inherit;
+    flex-wrap: wrap;
+    // background-image: url("../imgs/bar.gif");
+    // background-size: 100% 34vh;
+    // background-repeat: repeat;
+    .results__result {
+      .containers(@margin: 1rem 1rem 1rem 3rem, @flexDirection: row);
+      .backAndBorder();
+      .shadowHover();
+      .shadow();
+      min-width: 40vw;
+      max-width: 40vw;
+      min-height: 30vh;
+      max-height: 30vh;
+      .result__image {
+        .image(@top: 0);
+        left: -2rem;
+        min-height: 28vh;
+        max-height: 28vh;
+        min-width: 20vw;
+        max-width: 20vw;
+      }
+      .result__info {
+        .containers(@padding: 1rem);
+        .regularHover();
+        text-align: left;
+        min-height: inherit;
+        max-height: inherit;
+        .info__name {
+          .containers(@justifyContent: flex-start);
+          .name__title {
+            .title();
+            width: 100%;
+            padding: 1rem;
+          }
+          .name__rating {
+            width: 100%;
+            .body();
+            padding: 1rem;
+          }
+        }
+        .info__address {
+          .containers(@flexDirection: row, @justifyContent:flex-start);
+          text-decoration: none;
+          padding: 1rem;
+          .address__text {
+            .containers(@alignItems: flex-start);
+          }
+        }
+        .info__type {
+          text-align: center;
+          width: 100%;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+  .results__pagination {
+    .containers(@flexDirection: row, @justifyContent: space-between);
+    .backAndBorder();
+    .shadow();
+    width: 10vw;
+    max-width: 10vw;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    .pagination__pages {
+      .containers(@flexDirection: row, @justifyContent: flex-end);
+      max-width: 70%;
+      .pagination__page {
+        .button();
+        .shadowHover();
+        width: 20%;
+        margin: 0 0.2rem;
+      }
+      .pagination__page:hover {
+        cursor: pointer;
+      }
+      .pagination__page--no-hover {
+        width: 5%;
+        cursor: default;
+      }
+    }
+  }
+}
+.search--no-results {
+  .containers(@padding: 15vh 0 5vh 0, @justifyContent: flex-start);
+  min-height: 100vh;
+  .search__title {
+    .title();
+    .backAndBorder();
+    margin: 1rem;
+  }
+  .search__no-results {
+    .containers();
+    .title();
+    .backAndBorder();
+    width: 50vw;
+    margin: 2rem;
+    .no-results__text {
+      margin-top: 2rem;
+    }
+  }
+}

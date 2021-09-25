@@ -1,0 +1,270 @@
+@import 'mixins.less';
+
+.user {
+  .containers(@justifyContent: space-around);
+  padding: 20vh 0 5vh 0;
+  .user__body {
+    .containers(@flexDirection: row, @alignItems:flex-start, @justifyContent:space-between);
+    min-height: 75vh;
+    min-width: 80vw;
+    max-width: 80vw;
+    .body__left-bar {
+      .containers(@width: 15vw, @height: 20vh, @justifyContent: space-around);
+      min-width: 15vw;
+      max-width: 15vw;
+      min-height: 20vh;
+      max-height: 20vh;
+      .backAndBorder();
+      .shadow();
+      .left-bar__button {
+        .backAndBorder();
+        border: none;
+        padding: 0.25rem;
+        &:hover {
+          font-weight: bolder;
+          cursor: pointer;
+        }
+      }
+    }
+    .body__content {
+      .containers(@justifyContent: flex-start, @alignItems: flex-start);
+      .shadow();
+      .backAndBorder();
+      min-width: 60vw;
+      max-width: 60vw;
+      min-height: 50vh;
+      .content__reviews-container {
+        .containers(@padding: 1rem 1rem 0 1rem);
+        min-width: 60vw;
+        max-width: 60vw;
+        .backAndBorder();
+        .reviews-container__dropdowns {
+          .containers(@flexDirection: row, @justifyContent: space-between);
+          .dropdowns__dropdown {
+            .containers(@flexDirection: row);
+            width: auto;
+            min-height: 2.75rem;
+            padding: .5rem;
+            .dropdown__title {
+              .title();
+            }
+          }
+          .reviews__pagination {
+            .containers(@flexDirection: row, @justifyContent: flex-end);
+            .backAndBorder(@background: @elementBG);
+            min-width: 40%;
+            max-width: 50%;
+            padding: 0.5rem;
+            width: auto;
+            white-space: nowrap;
+            .pagination__pages {
+              .containers(@flexDirection: row);
+              width: 50%;
+              min-width: 50%;
+              max-width: 75%;
+              .pagination__page {
+                .button();
+                width: 10%;
+                margin: 0 0.2rem;
+              }
+              .pagination__page--no-hover {
+                width: 5%;
+                cursor: default;
+              }
+            }
+          }
+        }
+        .reviews-container__button {
+          .button();
+        }
+        .reviews-container__reviews {
+          .containers(@justifyContent: space-between);
+          min-height: 105vh;
+          max-height: 105vh;
+          flex: 1;
+          .reviews__review {
+            display: flex;
+            padding: 2rem;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            .review__info {
+              .containers();
+              .backAndBorder();
+              .shadow();
+              .shadowHover();
+              min-height: 28vh;
+              max-height: 28vh;
+              min-width: 29%;
+              max-width: 29%;
+              margin: 1rem;
+              padding: 1rem;
+              color: @textColor;
+              opacity: 0.8;
+              .review__landscape {
+                .image();
+                width: 100%;
+                min-width: 100%;
+                max-width: 100%;
+                height: 15vh;
+                min-height: 15vh;
+                max-height: 15vh;
+                &:hover {
+                  cursor: default;
+                }
+              }
+              .review__portrait {
+                .image();
+                width: 100%;
+                min-width: 100%;
+                max-width: 100%;
+                height: 15vh;
+                min-height: 15vh;
+                max-height: 15vh;
+                object-position: 50% 0%;
+              }
+              .info__detailed {
+                .containers(@justifyContent: space-around);
+                min-height: 50%;
+                max-height: 50%;
+                .detailed__stars {
+                  text-align: center;
+                }
+                .detailed__business {
+                  .hidden();
+                  max-width: 100%;
+                  text-align: center;
+                }
+              }
+            }
+            .review__info:hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+      .content__billing {
+        .containers(@flexDirection: row, @padding: 1rem 1rem 0 1rem);
+        .backAndBorder();
+        min-width: 55vw;
+        max-width: 55vw;
+        min-height: 55vh;
+        max-height: 55vh;
+        .billing__section {
+          .containers(@justifyContent: flex-start);
+          min-width: 15vw;
+          max-width: 15vw;
+          min-height: 50vh;
+          max-height: 50vh;
+          .section__single {
+            .containers();
+            padding: 1rem;
+            .single__info {
+              text-align: center;
+            }
+          }
+        }
+      }
+      .content__profile {
+        .containers(@flexDirection: row, @justifyContent: space-between);
+        .backAndBorder();
+        min-width: 55vw;
+        max-width: 55vw;
+        min-height: 55vh;
+        max-height: 55vh;
+        // Super Hacky way of doing the error message
+        .profile__error {
+          color: red;
+          text-align: center;
+          min-width: 5vw;
+          font-size: 0.8rem;
+          position: relative;
+          top: 10vh;
+          left: 2rem;
+        }
+        .profile__container {
+          .containers(@flexDirection: row);
+          min-width: 60vw;
+          max-width: 60vw;
+          min-height: 55vh;
+          max-height: 55vh;
+          .user-change__input {
+            padding: 0.5rem;
+          }
+          .profile__image {
+            .image(@top: 0);
+            min-width: 20vw;
+            max-width: 20vw;
+            min-height: 45vh;
+            max-height: 45vh;
+            object-position: 50% 0%;
+          }
+          .container__info {
+            .containers(@justifyContent: flex-start);
+            .backAndBorder(@background: @elementBG);
+            border-radius: 0.5rem;
+            padding: 0.5rem 0 0.5rem 1rem;
+
+            height: 2rem;
+            min-height: 55vh;
+            max-height: 55vh;
+            min-width: 39vw;
+            max-width: 39vw;
+            .info__info {
+              .containers(@flexDirection: row, @alignItems: flex-start);
+              min-height: 13vh;
+              max-height: 13vh;
+              .info__label {
+                .title();
+                min-width: 20%;
+                max-width: 20%;
+                padding: 0.5rem;
+              }
+              .info__data {
+                .containers(@justifyContent: flex-start);
+                min-width: 60%;
+                max-width: 60%;
+                max-height: 5vh;
+                min-height: 12vh;
+                padding: 0.5rem;
+                .data__change {
+                  .containers(@justifyContent: flex-start);
+                  .change__input {
+                    position: relative;
+                    top: -0.5rem;
+                    width: 100%;
+                    margin-bottom: 1rem;
+                    padding: 0.5rem;
+                    .shadow();
+                  }
+                  .change__button {
+                    .button();
+                    min-height: 2.5rem;
+                  }
+                }
+              }
+              .info__button {
+                .button();
+                position: relative;
+                width: 10rem;
+                &:hover {
+                  cursor: pointer;
+                }
+              }
+              .info__button--save {
+                .button();
+                margin: 0 1rem 0 0;
+                &:hover {
+                  cursor: pointer;
+                }
+              }
+            }
+            .info__info:last-of-type {
+              height: 22vh;
+            }
+          }
+        }
+      }
+    }
+  }
+}

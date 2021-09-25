@@ -1,0 +1,59 @@
+@import "./mixins.less";
+
+.stripe {
+  .containers();
+  min-height: 50vh;
+  max-height: 50vh;
+  min-width: 35vw;
+  max-width: 35vw;
+  padding: 2rem;
+  .stripe__info {
+    .containers();
+    margin-bottom: 1rem;
+    .info__input {
+      width: 75%;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      .shadow();
+    }
+  }
+  .stripe__radio {
+    .containers(@flexDirection: row, @alignItems: flex-start, @justifyContent: space-around);
+    .radio__section {
+      .containers(@flexDirection: row);
+      .title();
+      &:hover{
+        cursor: pointer;
+      }
+      .radio__label {
+        margin: 0 .5rem;
+      }
+    }
+  }
+  .stripe__button {
+    .button();
+    width: 30%;
+  }
+  .stripe__element {
+    width: 100%;
+    float: right;
+    position: relative;
+    top: 50%;
+    margin: 2rem;
+  }
+}
+
+.StripeElement {
+  padding: 0.5rem;
+  .shadow();
+}
+
+.StripeElement--invalid {
+  border: 1px solid red;
+}
+
+input[type="radio"] {
+  border: 0px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
