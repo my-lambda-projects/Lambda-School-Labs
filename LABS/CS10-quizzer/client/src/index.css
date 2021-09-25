@@ -1,0 +1,15 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  background-color: #EEEEEE;
+  font-family: sans-serif; 
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh; 
+}
