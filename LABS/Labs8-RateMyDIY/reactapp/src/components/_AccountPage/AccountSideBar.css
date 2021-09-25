@@ -1,0 +1,30 @@
+.accountSideBar {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  min-height: 20%;
+  background: #fff;
+  /* border: 3px solid black; */
+  border-radius: 4px;
+  height: 100%;
+}
+
+.accountSideBar h1 {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 24px;
+  padding: 0px 6px;
+  margin: 5% 0%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover { background: lightblue;
+  transition-duration: .1s;
+  cursor: pointer;
+}

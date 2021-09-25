@@ -1,0 +1,90 @@
+.addNew img {
+	height: 50px;
+}
+/* Please don't inject CSS to all img tags */
+/* img {
+	height: 80%;
+} */
+.addNew {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.addNew h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.projectPage {
+	width: 100%;
+}
+
+.projectContainer {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+/* .project-list-container {
+	display: flex;
+	margin-top: 20px;
+} */
+.myProjectsDisplay {
+	width: 100%;
+	background-color: #ffffff;
+	/* margin-top: 20px; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 3%;
+}
+
+.myProjectDisplay {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0px 10px 20px 10px;
+	align-content: flex-start;
+	margin-top: 10px;
+}
+
+.projectImg img{
+	height: 200px;
+   
+}
+
+@media (max-width: 500px) {
+	.projectPage {
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+	}
+
+	.projectContainer {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto; 
+	}
+
+	.myProjectsDisplay {
+		width: 80%;
+		align-self: center;
+	}
+
+	.addButton {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 100px;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	}
+}

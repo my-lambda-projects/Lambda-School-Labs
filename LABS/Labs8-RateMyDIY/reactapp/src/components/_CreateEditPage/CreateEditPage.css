@@ -1,0 +1,55 @@
+.editPage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top h1 {
+  background-color: gray;
+  padding-right: 300px;
+  padding-bottom: 20px;
+}
+.top button{
+    padding-bottom: 20px;
+}
+.top h2 {
+  font-size: 40px;
+}
+
+.commentPictures {
+  margin-top: 3%;
+}
+.commentPictures p {
+  background-color: green;
+  padding-bottom: 60px;
+  margin-top: 3%;
+}
+
+.commentPictures img {
+  margin-top: 3%;
+  width: 100%;
+  height: 300px;
+}
+
+.twoButtons{
+display: flex;
+justify-content: space-between;
+}
+
+.twoButtons button{
+width:49%;
+padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #080706;
+}

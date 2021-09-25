@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "fast-sort": "^1.5.4",
+    "husky": "^1.2.0"
+  }
+}
