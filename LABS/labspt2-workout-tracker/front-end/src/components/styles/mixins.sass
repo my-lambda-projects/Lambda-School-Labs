@@ -1,0 +1,99 @@
+
+@import variables.sass
+
+
+
+=main-dm($fd)
+  display: flex
+  flex-direction: $fd
+  padding: 2.5%
+  align-items: center
+  justify-content: center
+  width: 100%
+
+=paragraph-dm()
+  font-size: $paragraph-size
+  color: $main-background
+  font-family: Tahoma, Verdana, sans-serif
+  font-weight: bold
+  letter-spacing: 0.1rem
+  margin: 10px 5% 10px 5%
+  align-self: flex-start
+
+
+=heading-dm()
+  font-family: Verdana, Tahoma, sans-serif
+  align-self: flex-start
+  font-size: $heading-size
+  font-weight: bold
+  color: $secondary-color
+  letter-spacing: 0.1rem
+  margin: 10px 5% 10px 5%
+
+
+=form-container-dm()
+  display: flex;
+  flex-direction: column
+  align-items: center
+  box-sizing: border-box
+  max-width: 450px
+  background-color: $dark-gray
+  width: 100%
+  margin: 2.5%
+  padding: 2.5%
+  border: 2px solid $primary-color
+  
+=label-dm()
+  display: flex
+  font-size: $paragraph-size
+  color: $main-background
+  font-family: Tahoma, Verdana, sans-serif
+  font-weight: bold
+  letter-spacing: 0.1rem
+  margin: 10px 5% 10px 5%
+
+
+=form-input-dm()
+  background-color: $background-gray
+  font-size: $paragraph-size
+  color: $main-background
+  width: 80%
+  margin-bottom: 10px
+  border: 0.5px solid $text-color
+
+=form-input-focus-dm()
+  border: 1px solid $secondary-color;
+  outline: 0;
+  box-shadow: 0px 0px 2px 2px $primary-color
+  
+
+=button-dm()
+  width: 80%
+  background-color: $background-gray
+  font-size: $heading-size
+  color: $main-background
+  margin-top: 10px
+  margin-bottom: 10px
+  border: 1px solid $text-color
+  font-family: Verdana, Tahoma, sans-serif
+  -webkit-clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%, 5% 0)
+  clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%, 5% 0)
+  
+=hovered-button-dm()
+  background-color: $third-color
+
+=component-container-dm()
+  display: flex;
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  box-sizing: border-box
+  width: 35%
+
+=select-dm()
+  background-color: $third-color
+  color: white
+  font-size: $paragraph-size
+  margin: 20px 0 20px
+  width: 80%
+  

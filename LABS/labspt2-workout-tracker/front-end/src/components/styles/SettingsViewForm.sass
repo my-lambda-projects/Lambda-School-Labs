@@ -1,0 +1,42 @@
+
+@import variables.sass
+@import mixins.sass
+
+
+
+.form-container
+    @include form-container-dm()
+
+    
+label
+    @include label-dm()
+
+
+
+form
+    width: 100%
+
+
+    
+
+
+
+
+@media (max-width: 1024px)
+    input[type=text]
+        width: 100%
+        font-size: 2rem
+    
+    label
+        font-size: 2rem
+
+@media (max-width: 750px)
+    input[type=text]
+        width: 100%
+        font-size: 3rem
+    
+    label
+        font-size: 3rem
+
+    .form-container
+        align-self: center

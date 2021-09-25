@@ -1,0 +1,78 @@
+@import 'variables.sass'
+@import 'mixins.sass'
+
+.events-heading
+    align-self: flex-start
+    font-size: 1.5rem
+    color: $secondary-color
+
+.event-full
+    display: flex
+    flex-direction: row
+    width: 100%
+    justify-content: flex-start
+    align-items: center
+
+
+.closeButton
+    align-self: flex-end
+    background-color: transparent
+    color: $secondary-color
+    font-weight: bold
+    font-size: 1.75em
+    border: 0
+
+
+
+.closeButton:hover
+    text-decoration: underline
+    color: white
+
+.edit[type=text]
+  background-color: $dark-gray
+  font-size: $paragraph-size
+  color: $main-background
+  width: 80%
+  margin-bottom: 10px
+  border: 0.5px solid $text-color
+
+    
+
+.events-form
+    
+    width: 100%
+
+.allDay
+    display: flex
+    flex-direction: row
+    align-items: center
+
+.editForm
+    display: flex;
+    flex-direction: column
+    align-items: center
+    box-sizing: border-box
+    max-width: 450px
+    background-color: $background-gray
+    width: 80%
+    font-size: 1rem
+    margin: 2.5%
+    padding: 2.5%
+    border: 1px solid black
+
+.edit-button
+    width: 80%
+    background-color: $dark-gray
+    font-size: $paragraph-size
+    color: $main-background
+    margin-top: 10px
+    margin-bottom: 10px
+    border: 1px solid $text-color
+    font-family: Verdana, Tahoma, sans-serif
+    -webkit-clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%, 5% 0)
+    clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%, 5% 0)
+
+.edit-button:hover
+    background-color: $third-color
+
+

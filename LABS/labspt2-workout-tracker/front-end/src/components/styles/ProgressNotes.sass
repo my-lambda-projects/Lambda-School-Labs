@@ -1,0 +1,93 @@
+@import 'variables.sass'
+@import 'mixins.sass'
+
+.notes-container
+  display: flex
+  justify-content: flex-start
+  flex-wrap: wrap
+  margin-top: -155px
+  @media (max-width: 1024px)
+    margin-top: 0px
+  @media (max-width: 750px)
+    justify-content: center
+    margin-top: 18px
+
+.note
+  display: flex
+  flex-direction: column
+  align-items: center
+  box-sizing: border-box
+  max-width: 220px
+  background-color: $dark-gray
+  width: 100%
+  margin: 2.5%
+  padding: 2.5%
+  border: 2px solid $dark-gray
+
+.progress-note-button-container
+  display: flex
+  justify-content: space-evenly;
+
+.progress-note-info-container
+  display: flex
+  flex-flow: column nowrap;
+
+.progress-note-p-tag
+  align-self: flex-start
+  font-size: 1.25rem
+  color: white
+  font-weight: bold
+  font-family: Tahoma, Verdana, sans-serif
+  letter-spacing: 0.1rem
+  margin: 24px 5% 10px 8%
+
+.progress-edit-form
+  display: flex
+  flex-direction: column
+  align-items: center
+  box-sizing: border-box
+  max-width: 450px
+  background-color: $background-gray
+  width: 100%
+  font-size: 1rem
+  margin: 0%
+  padding: 2.5%
+  border: 1px solid black
+
+.closeButton progress-close-button
+  align-self: flex-end
+  background-color: transparent
+  color: $secondary-color
+  font-weight: bold
+  font-size: 1.75em
+  border: 0
+
+.closeButton progress-close-button:hover
+  text-decoration: underline
+  color: white
+
+.progress-edit-button
+  font-size: 1.5625rem
+  font-weight: bold
+  letter-spacing: 0.1rem
+  color: $secondary-color
+  background-color: transparent
+  border: none
+  margin: 0
+
+.progress-edit-button:hover
+  text-decoration: underline
+  color: white
+
+.delete-button
+  font-size: 1.5625rem
+  font-weight: bold
+  letter-spacing: 0.1rem
+  color: $secondary-color
+  background-color: transparent
+  border: none
+  margin: 0
+
+.delete-button:hover
+  text-decoration: underline
+  color: white

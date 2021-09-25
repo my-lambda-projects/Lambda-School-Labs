@@ -1,0 +1,163 @@
+@import 'variables'
+@import 'mixins'
+
+html
+  height: 100%
+  background-color: $background-gray
+
+body
+  height: 100%
+  background-color: $background-gray
+
+#root
+  height: 100%
+  background-color: $background-gray
+
+.App 
+  text-align: center
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  align-self: center
+  box-sizing: border-box
+  width: 100%
+  height: 100%
+  background-color: $background-gray
+  margin: 0 auto
+
+.form-container
+    @include form-container-dm()
+
+.main
+    @include main-dm(row)
+    position: absolute
+    top: 130px
+    padding: 0% 2.5% 0% 2.5%
+    
+h1
+    @include heading-dm()
+
+
+p
+    @include paragraph-dm()
+
+label
+    @include label-dm()
+
+
+
+form
+    width: 100%
+
+input[type=text]
+  background-color: $background-gray
+  font-size: $paragraph-size
+  color: $main-background
+  width: 80%
+  margin-bottom: 10px
+  border: 0.5px solid $text-color
+
+input[type=text]:disabled
+  background-color: salmon
+  font-size: $paragraph-size
+  width: 80%
+  margin-bottom: 10px
+  border: 2px solid red
+  
+
+
+input[type=text]:focus
+    @include form-input-focus-dm()
+
+
+
+.submit
+    @include button-dm()
+
+
+
+
+.submit:hover
+    @include hovered-button-dm()
+
+.component-container
+    @include component-container-dm()
+
+
+select
+  @include select-dm()
+
+
+.editButton
+  color: $secondary-color
+  background-color: transparent
+  border: none
+  margin: 0
+
+.editButton:hover
+    text-decoration: underline
+    color: white
+
+
+@media (max-width: 1024px)
+
+  .main
+    flex-direction: column
+    position: absolute
+    top: 720px
+
+  .component-container
+    width: 80%
+
+  input[type=text]
+    width: 100%
+    font-size: 2rem
+    
+  label
+    font-size: 2rem
+
+
+
+@media (max-width: 750px)
+
+  .main
+    flex-direction: column
+    position: absolute
+    top: 720px
+
+  .component-container
+    width: 100%
+
+  input[type=text]
+    width: 100%
+    font-size: 3rem
+    
+  label
+    font-size: 3rem
+
+    .form-container
+    align-self: center
+
+.Collapsible
+    background-color: transparent
+    
+.Collapsible__trigger
+  display: flex
+  width: 100%
+  padding-right: 1%
+  color: white
+  justify-content: flex-end
+  font-size: 2rem
+
+.Collapsible__contentInner
+  font-size: 1.5rem
+  color: $main-background
+
+  .Collapsible__trigger.is-open
+    display: flex
+    width: 100%
+    padding-right: 1%
+    color: green
+    justify-content: flex-end
+    font-size: 2rem

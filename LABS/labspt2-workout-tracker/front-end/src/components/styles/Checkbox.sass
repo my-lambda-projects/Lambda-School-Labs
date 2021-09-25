@@ -1,0 +1,51 @@
+@import 'variables.sass'
+@import 'mixins.sass'
+
+
+.checkbox
+    width: 30px
+    fill: $primary-color
+    
+#small-hexagon
+    fill: $background-gray
+
+#check
+    fill: transparent
+
+
+
+.checkbox-checked
+    width: 30px
+    fill: $secondary-color
+
+#small-hexagon-checked
+    fill: $secondary-color
+
+
+#check-checked
+    fill: black
+
+.check-text
+    width: 65%
+    font-size: 1.25rem
+    text-align: left
+
+.checkedGroup
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    width: 150%
+    align-self: center
+
+
+
+@media (max-width: 1024px)
+    .checkbox
+        width: 40px
+        margin: 0 5% 0 5%
+
+
+    .checkbox-checked
+        width: 40px
+        margin: 0 5% 0 5%
