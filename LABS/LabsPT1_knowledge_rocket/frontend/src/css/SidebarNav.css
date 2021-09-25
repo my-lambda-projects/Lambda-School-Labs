@@ -1,0 +1,59 @@
+.sidebar {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+a.nav-link {
+    border-radius: 35px;
+    font-size: 1rem;
+}
+
+a.nav-link:hover {
+    color: white !important;
+    background-color: #ff7400;
+    border-radius: 10px;
+}
+
+.nav-header {
+    color: #ff7400 !important;
+    font-family: "Righteous", cursive }
+    
+@media (min-width: 992px) {
+        .sidebar {
+            min-width: 105%;
+            border-radius: 25px;
+            display: flex;
+            border-radius: 15px;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+        .nav-header {
+            font-size: 1.35rem;
+            border-bottom: 2px solid darkgrey;
+        }
+        a.nav-link {
+            display: block;
+            position: relative;
+            width: 150%;
+            top: 3rem;
+            right: 13rem;
+            font-size: 1.5rem;
+            justify-content: flex-start;
+            margin: 20px 10px 10px 10px;
+        }
+        a.nav-link:hover {
+            color: white !important;
+            background-color: #ff7400;
+            border-radius: 15px;
+        }
+        .collapse {
+            display: flex;
+        }
+        .navbar-nav {
+            margin: 0;
+        }
+        .navbar-expand-md .navbar-nav {
+            flex-direction: column;
+        }
+    }

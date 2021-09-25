@@ -1,0 +1,41 @@
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Righteous", cursive;
+    color: #ff7400;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.form-group {
+    border-radius: 15px;
+    background-color: white;
+    padding: 5%;
+    margin: 10% auto;
+}
+
+input.form-control {
+    max-width: 80%;
+    margin: 10% auto;
+}
+
+p {
+    color: black;
+    text-align: center;
+    background-color: red;
+}
+div.func-btn button{
+    align-content: center;
+}
+a {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .form-group.loginReg {
+        max-width: 60%;
+    }
+    div.func-btn button.btn {
+        max-width: 75%;
+    }
+}
