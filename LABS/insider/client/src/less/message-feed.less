@@ -1,0 +1,55 @@
+.send-message,
+.message-feed {
+  background-color: #FEFEFF;
+  font-size: .85rem;
+  width: 100%;
+  border: solid 1px lightgray;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.message-feed.show {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s, opacity 1s;
+}
+.message-feed.hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s;
+}
+.message-feed {
+  color: white;
+}
+
+.message {
+  font-size: 0.875rem;
+  padding: 10px 20px;
+  text-align: left;
+  hyphens: none;
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+  background: #7790f9;
+  border-radius: 10px;
+  border: #768ff9 solid 4px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.message:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 2x solid #5576FF;
+  border-right: 20px solid transparent;
+  border-top: 16px solid #768ff9;
+  border-bottom: 10px solid transparent;
+  left: -1px;
+  bottom: -23px;
+}
