@@ -1,0 +1,5 @@
+.userBar {
+  border: 2px solid red;
+  display: flex;
+  width: 80%;
+}

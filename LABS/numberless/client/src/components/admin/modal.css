@@ -1,0 +1,43 @@
+.modalBox {
+  background-color: #FFFFFF;
+  min-height: 100px;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  max-width: 1000px;
+  border: .1px solid #E8E8E8;
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalButton {
+  align-self: center;
+  width: 80%;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.modalForm {
+  width: 400px;
+  background-color: #FFFFFF;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.pledgeContainer{
+	font-family: Open Sans, sans-serif;
+	font-size: 62.5%;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #234980;
+}
+
+.pledgeCard p {
+	font-size: 2.6rem;
+	font-weight: bold;
+	color:#F2F2F2;
+}
+
+.pledgeCard {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
+	max-width: 500px;
+}
+
+.pledgeBox {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	width: 100%;
+	height: 60%;
+}
+
+.pledgeButton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4px;
+	background-color: #F2F2F2;
+	height: 26%;
+	transition: 0.3s opacity ease;
+}
+
+.pledgeButton:hover{
+	opacity: 0.6;
+}
+
+.dollar{
+	margin-right: 10px;
+}
+
+.dollar:before {
+	content: '$';
+	font-size: 0.6em;
+	vertical-align: 40%;
+}

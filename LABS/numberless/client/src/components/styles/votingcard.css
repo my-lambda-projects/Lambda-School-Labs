@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400');
+
+.VotingCard_image {
+  max-width: 100%;
+  height: auto;
+}
+
+.VotingCard {
+  border: 0.1px solid lightgray;
+  height: 200;
+  width: 30rem;
+  font-size: 12.5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 8px lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.VotingCard_Header {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+.VotingCard_button {
+  font-family: 'Raleway', sans-serif;
+  height: 35px;
+  background-color: #f3f3f3;
+  border: 0.001rem solid #808080;
+  color: #808080;
+  width: 10rem;
+  transition: 0.3s opacity ease;
+  cursor: pointer;
+  font-size: 0.6rem;
+  margin: 3px;
+}
+
+.VotingCard_description {
+  border-top: 0.1px solid lightgray;
+  border-bottom: 0.1px solid lightgray;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f3f3f3;
+  height: 100%;
+  width: 100%;
+  color: #808080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.75rem;
+  margin: auto;
+}

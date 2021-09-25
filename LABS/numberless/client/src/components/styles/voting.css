@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400');
+
+.voting {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.votingHeading {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: #808080;
+}

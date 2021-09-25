@@ -1,0 +1,29 @@
+{
+  "name": "numberless",
+  "version": "1.0.0",
+  "description": "CS6 Capstone Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambda-School-Labs/numberless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lambda-School-Labs/numberless/issues"
+  },
+  "homepage": "https://github.com/Lambda-School-Labs/numberless#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.1",
+    "stripe": "^6.0.0"
+  }
+}
