@@ -1,0 +1,7 @@
+{
+  "prettier.eslintIntegration": false,
+  "eslint.packageManager": "yarn",
+  "eslint.enable": false,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": true,
+}
