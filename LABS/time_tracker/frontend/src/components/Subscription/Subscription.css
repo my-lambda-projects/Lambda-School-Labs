@@ -1,0 +1,9 @@
+.annually.active {
+  border: solid 4px;
+  border-color: #cde7b0;
+}
+
+.monthly.active {
+  border: solid 4px;
+  border-color: #5673b5;
+}

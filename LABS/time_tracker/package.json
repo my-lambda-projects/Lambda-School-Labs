@@ -1,0 +1,36 @@
+{
+  "name": "time_tracker",
+  "version": "1.0.0",
+  "description": "CS6 Capstone Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambda-School-Labs/time_tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lambda-School-Labs/time_tracker/issues"
+  },
+  "homepage": "https://github.com/Lambda-School-Labs/time_tracker#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.2.1",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.11.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "moment": "^2.22.1",
+    "mongoose": "^5.1.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react-stripe-checkout": "^2.6.3",
+    "stripe": "^6.1.0"
+  }
+}
