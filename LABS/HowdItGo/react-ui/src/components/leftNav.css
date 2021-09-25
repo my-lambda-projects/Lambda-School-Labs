@@ -1,0 +1,40 @@
+.lnavcontainer {
+  height: 6vh;
+  width: 100vw;
+  top: 0;
+  right: -0.8vw;
+  position: fixed;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
+  -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
+
+}
+
+.leftNav {
+  display: flex;
+  justify-content: center;
+
+}
+h2 {
+  color: black;
+}
+
+.lmenu {
+  background-color:#fe8c00;
+  color: white;
+  font-size: 2vh;
+  width: 12vw;
+  border: 1px solid white;
+  list-style-type: none;
+}
+
+.lmenu a{
+  color: white;
+
+}
+
+

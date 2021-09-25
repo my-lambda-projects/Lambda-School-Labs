@@ -1,0 +1,11 @@
+html, body {
+    height: 100vh;
+}
+.acc {
+    display: flex;
+
+}
+
+.label {
+    color: black;
+}

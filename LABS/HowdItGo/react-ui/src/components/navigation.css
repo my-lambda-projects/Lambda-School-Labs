@@ -1,0 +1,21 @@
+.navbar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #2A2F33;
+}
+.dashboardHead{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+}
+.nav-item a{
+    color: white;
+}
+.navbar-brand a{
+    color: white;
+}
+.card{
+    margin: 10px;
+}
