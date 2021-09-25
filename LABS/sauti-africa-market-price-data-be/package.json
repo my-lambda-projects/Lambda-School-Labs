@@ -1,0 +1,65 @@
+{
+  "name": "sauti-africa-market-price-data-be",
+  "version": "1.0.0",
+  "description": "🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your portfolio. This is intended to be a guideline. Feel free to add your own flare to it.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --coverage --detectOpenHandles --forceExit",
+    "testWatch": "jest --watchAll",
+    "start": "pm2-runtime index.js -i max",
+    "format": "prettier --write \"**/*.{js,scss,css,html,json,md,less,tsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambda-School-Labs/sauti-africa-market-price-data-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lambda-School-Labs/sauti-africa-market-price-data-be/issues"
+  },
+  "homepage": "https://github.com/Lambda-School-Labs/sauti-africa-market-price-data-be#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "bottleneck": "^2.19.5",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-jwt-authz": "^2.3.1",
+    "express-rate-limit": "^5.0.0",
+    "helmet": "^3.21.1",
+    "json2csv": "^4.5.4",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.6.0",
+    "jwt-decode": "^2.2.0",
+    "knex": "^0.19.5",
+    "moesif-express": "^2.9.11",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1",
+    "pg": "^7.12.1",
+    "pm2": "^4.1.2",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "uuid-apikey": "^1.4.4"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "jest": "^24.9.0",
+    "node-cron": "^2.0.3",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2",
+    "sqlite3": "^4.1.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
