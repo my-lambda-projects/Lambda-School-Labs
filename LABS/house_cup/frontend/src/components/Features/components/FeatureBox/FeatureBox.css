@@ -1,0 +1,49 @@
+.FeatureBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc((100% / 4) - 20px);
+  min-height: 250px;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.075);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4735c1+0,332c6b+100 */
+background: rgb(71,53,193); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(71,53,193,1) 0%, rgba(51,44,107,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(71,53,193,1) 0%,rgba(51,44,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(71,53,193,1) 0%,rgba(51,44,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4735c1', endColorstr='#332c6b',GradientType=1 ); /* IE6-9 */
+}
+.FeatureBox__title {
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+}
+.FeatureBox__image {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+  filter: invert(1);
+}
+.FeatureBox__image[data-feature-name="multiple-houses"] {
+  background-image: url('./images/multiple-houses.png');
+}
+.FeatureBox__image[data-feature-name="multiple-teachers"] {
+  background-image: url('./images/multiple-teachers.png');
+}
+.FeatureBox__image[data-feature-name="realtime-updates"] {
+  background-image: url('./images/realtime-updates.png');
+}
+.FeatureBox__image[data-feature-name="public-scoreboard"] {
+  background-image: url('./images/public-scoreboard.png');
+}
+.FeatureBox__image[data-feature-name="cross-device"] {
+  background-image: url('./images/cross-device.png');
+}

@@ -1,0 +1,36 @@
+{
+  "name": "house-cup-backend",
+  "version": "1.0.0",
+  "description": "Backend for House Cup app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.1.1",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.4.2",
+    "nodemon": "^1.17.3",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  },
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.8.0"
+  }
+}

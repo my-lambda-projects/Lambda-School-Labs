@@ -1,0 +1,22 @@
+.Auth__Body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+  padding: 50px;
+}
+.Auth__title {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+.Auth__Body__Container {
+  width: 100%;
+  max-width: 360px;
+}
+.Auth__Body__Container form button {
+  margin: 20px 0px 25px 0px;
+}
+.Auth__Body__Container p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}

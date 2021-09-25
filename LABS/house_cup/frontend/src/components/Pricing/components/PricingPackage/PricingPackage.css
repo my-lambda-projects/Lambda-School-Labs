@@ -1,0 +1,117 @@
+.PricingPackage {
+  flex-basis: calc((100% / 3) - 20px);
+  -webkit-font-smoothing: antialiased;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+  opacity: 1.0;
+  filter: grayscale(0);
+  transform: scale(1.0);
+  transition: opacity 0.25s ease-in-out 0s,
+              filter 0.25s ease-in-out 0s,
+              transform 0.25s ease-in-out 0s;
+}
+.PricingPackages__listings:hover .PricingPackage:not(:hover) {
+  opacity: 0.5;
+  filter: grayscale(1);
+  transform: scale(1.0);
+  transition: opacity 0.25s ease-in-out 0s,
+              filter 0.25s ease-in-out 0s,
+              transform 0.25s ease-in-out 0s;
+}
+.PricingPackage:hover {
+  transform: scale(1.1);
+  transition: opacity 0.25s ease-in-out 0s,
+              filter 0.25s ease-in-out 0s,
+              transform 0.25s ease-in-out 0s;
+}
+
+.Package__header {
+  color: #fff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4735c1+0,332c6b+100 */
+  background: rgb(71,53,193); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(71,53,193,1) 0%, rgba(51,44,107,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(71,53,193,1) 0%,rgba(51,44,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(71,53,193,1) 0%,rgba(51,44,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4735c1', endColorstr='#332c6b',GradientType=1 ); /* IE6-9 */
+}
+.Package__header > h4 {
+  font-size: 20px;
+  font-family: 'Raleway', serif;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 25px 0px 0px 25px;
+  margin: 0px;
+}
+.Package__billing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 150px;
+  padding-right: 25px;
+}
+.Package__billing__amount {
+  font-family: 'Raleway', sans-serif;
+}
+.Package__billing__amount > .amount {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.Package__billing__amount > .currency {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+}
+.Package__billing__frequency {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+
+.Package__features > ol {
+  list-style-type: none;
+  padding: 25px 0px;
+  margin: 0px;
+}
+.Package__feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  padding: 5px 25px;
+}
+.Package__feature__name {
+
+}
+.Package__feature__value {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.Package__actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.Package__actions > button {
+  flex-basis: 75%;
+  width: auto;
+  max-width: 360px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 24px;
+  padding: 10px 25px;
+}

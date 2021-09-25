@@ -1,0 +1,20 @@
+.IntroScoreCard {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.IntroScoreCard > .ScoreCard {
+  position: absolute;
+}
+.IntroScoreCard > .ScoreCard:nth-child(1) {
+  top: -10%;
+  left: 0%;
+  filter: contrast(0.75) brightness(0.95);
+}
+.IntroScoreCard > .ScoreCard:nth-child(2) {
+  top: 25%;
+  left: 35%;
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.075),
+  0px 0px 2px 1px rgba(0, 0, 0, 0.35);
+}

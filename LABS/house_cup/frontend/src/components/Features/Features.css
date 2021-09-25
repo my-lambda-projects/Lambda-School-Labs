@@ -1,0 +1,20 @@
+.Features {
+  padding: 50px 0px;
+}
+.Features > h2 {
+  color: #433e80;
+  text-align: center;
+}
+.Features__grid > .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  padding: 50px 0px;
+  margin: 0px auto;
+}
+.Features__sections {
+  width: 100%;
+}

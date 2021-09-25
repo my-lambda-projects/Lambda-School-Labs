@@ -1,0 +1,10 @@
+.ListHousesView {
+  max-width: 800px;
+  margin: 0px auto;
+}
+.ListHousesView > a {
+  display: block;
+  width: auto;
+  min-width: 150px;
+  margin: 20px 0px 0px auto;
+}

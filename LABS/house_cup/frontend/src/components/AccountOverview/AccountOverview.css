@@ -1,0 +1,68 @@
+.Overview {
+  max-width: 480px;
+  margin: 0px auto;
+}
+
+.User {
+  padding: 10px 15px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.25);
+}
+.User__name {
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.User__role {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.School {
+
+}
+.School__name {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+.School__info {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  padding: 15px 20px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.School__info:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.School__info__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.School__info__text > .number {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 50px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  padding: 3px 0px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.School__info__action {
+  margin-top: 15px;
+}
+.School__info__action > a {
+  font-size: 16px;
+}

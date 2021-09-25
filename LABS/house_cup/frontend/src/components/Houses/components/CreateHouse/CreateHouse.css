@@ -1,0 +1,25 @@
+.CreateHouse {
+
+}
+.CreateHouse > form {
+  
+}
+.CreateHouse > form > button {
+  margin-top: 20px;
+}
+.CreateHouse__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CreateHouse__input {
+  flex-basis: 100%;
+}
+.CreateHouse__input--color {
+  flex-basis: 75px;
+  min-width: 75px;
+}
+.CreateHouse__input--color label {
+  width: 100%;
+  text-align: center;
+}

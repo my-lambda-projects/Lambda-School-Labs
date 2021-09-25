@@ -1,0 +1,11 @@
+section {
+
+}
+section > .wrapper {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+section > .wrapper > h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}

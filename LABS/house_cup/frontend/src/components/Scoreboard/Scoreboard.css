@@ -1,0 +1,101 @@
+.Scoreboard {
+
+}
+.Scoreboard__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #eee;
+}
+.Scoreboard__title {
+  font-size: 36px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.Scoreboard__subtitle {
+  font-size: 24px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.Scoreboard__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.ScoreCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 300px;
+  min-height: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05),
+    0px 0px 5px 0px rgba(0, 0, 0, 0.1),
+    0px 10px 5px -3px rgba(0, 0, 0, 0.05);
+  margin: 10px;
+  background-color: #fff;
+  filter: contrast(0.65) brightness(1.25);
+  overflow: hidden;
+}
+.ScoreCard__house {
+  text-align: center;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+.ScoreCard__house-name {
+  font-size: 28px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
+.ScoreCard__house-mascot {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ScoreCard__score {
+  width: calc(100% - 120px);
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+}
+.ScoreCard__actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+.ScoreCard__button {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75),
+              0px 0px 0px 7px rgba(0, 0, 0, 0.15);
+  outline: none;
+  background-color: #fff;
+  background-image: url('../../static/arrow-left.png');
+  background-position: center center;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+  filter: contrast(1.25) saturate(1.25);
+  transition: all 0.25s ease-in-out 0s;
+}
+.ScoreCard__button--increment {
+  background-color: rgba(78, 166, 92, 1.0);
+  transform: rotate(90deg);
+}
+.ScoreCard__button--decrement {
+  background-color: rgba(248, 83, 95, 1.0);
+  transform: rotate(-90deg);
+}

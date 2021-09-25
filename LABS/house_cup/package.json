@@ -1,0 +1,9 @@
+{
+  "name": "house_cup",
+  "version": "1.0.0",
+  "description": "CS5 Capstone Project",
+  "engines" : {
+    "node" : "8.11.1",
+    "npm" : "5.8.0"
+  }
+}

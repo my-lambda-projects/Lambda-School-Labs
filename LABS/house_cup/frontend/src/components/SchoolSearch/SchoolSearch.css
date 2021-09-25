@@ -1,0 +1,77 @@
+.SchoolSearch {
+  min-height: calc(100vh - 200px);
+  padding: 50px 0px;
+}
+
+.SchoolSearch > .wrapper > h2 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.SchoolSearch__form {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+}
+.SchoolSearch__form > input[name="name"] {
+  flex-basis: 60%;
+}
+.SchoolSearch__form > input[name="location"] {
+  flex-basis: 40%;
+}
+.SchoolSearch__form > button {
+  flex-basis: 25%;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  padding: 10px 25px;
+  margin-left: 10px;
+}
+.SchoolSearch__form > input:not(:first-child) {
+  margin-left: 10px;
+}
+
+.SchoolSearch__results {
+  margin-top: 35px;
+}
+.SchoolSearch__results__message {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  margin-bottom: 25px;
+}
+.SchoolSearch__results__message > .text > span.highlight {
+  font-weight: 700;
+}
+.SchoolSearch__results__message > .text > span.highlight--red {
+  color: red;
+}
+.SchoolSearch__results__message > .text > span.highlight--green {
+  color: green;
+}
+.SearchResults {
+  list-style-type: none;
+  margin: 15px 0px 0px 0px;
+  padding: 0px;
+}
+.SearchResults__item {
+  color: #000;
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.SearchResults > a:not(:first-child) > .SearchResults__item {
+  margin-top: 7px;
+}
+.SearchResults__item:hover {
+  color: blue;
+  box-shadow: inset 0px 0px 0px 2px blue;
+  background-color: #fff;
+}
+.SearchResults__item__name {
+  font-size: 24px;
+  font-family: 'PT Serif', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  padding: 15px 25px;
+}

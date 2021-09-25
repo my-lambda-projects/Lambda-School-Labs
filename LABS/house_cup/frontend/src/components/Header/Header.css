@@ -1,0 +1,159 @@
+.Header__dupe {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+.Header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.25),
+              0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4735c1+0,444444+100 */
+  background: rgb(71,53,193);
+  background: -moz-linear-gradient(left, rgba(71,53,193,1) 0%, rgba(68,68,68,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(71,53,193,1) 0%,rgba(68,68,68,1) 100%);
+  background: linear-gradient(to right, rgba(71,53,193,1) 0%,rgba(68,68,68,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4735c1', endColorstr='#444444',GradientType=1 );
+  z-index: 99999;
+}
+.Header > .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 0px auto;
+}
+.Header[data-protected-route="false"] > .wrapper {
+  /* max-width: 1200px; */
+}
+.Header[data-public-auth-route="true"] > .wrapper {
+  justify-content: center;
+}
+
+
+.Header > .wrapper > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  max-width: 360px;
+}
+.Header__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Header[data-public-auth-route="true"] .Header__logo {
+  justify-content: center;
+}
+.Header__logo__image {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+}
+.Header[data-public-auth-route="true"] .Header__logo__image {
+  margin-left: -25px;
+}
+.Header__logo__image > .img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../static/trophy-icon-white-filled.png');
+  background-position: center center;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+  filter: invert(1.0);
+}
+.Header__logo__text {
+  color: #fff;
+  font-size: 28px;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+}
+
+nav.Header__nav {
+  width: calc(100% - 360px);
+}
+.Header[data-public-auth-route="true"] nav.Header__nav {
+  display: none;
+}
+nav.Header__nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  height: 75px;
+  padding: 0px 25px;
+  margin: 0px;
+}
+.Header__nav__links--non-dashboard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Header__nav__links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Header__nav__buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Header[data-user-authorized="false"] .Header__nav__buttons {
+  min-width: 250px;
+}
+
+.Header__nav__links > a {
+  text-decoration: none;
+}
+.Header__nav__links > a > li {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-right: 1px solid transparent;
+  background-color: transparent;
+  transition: all 0.25s ease-in-out 0s;
+}
+.Header__nav__links > a:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 255, 0.1);
+}
+.Header__nav__links > a:hover > li,
+.Header__nav__links > a > li[data-selected="true"] {
+  border-radius: 3px;
+  border-right: 1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.Header__nav__buttons > a:not(:last-child) {
+  margin-right: 10px;
+}
+.Header__nav__links > a > .Header__nav__links-dashboard,
+.Header__nav__buttons button {
+  color: #000;
+  border-radius: 3px;
+  padding: 10px 25px;
+  border: 0px;
+  background-color: #fff;
+  opacity: 1.0;
+  transition: all 0.25s linear 0s;
+}
+.Header__nav__links > a:hover > .Header__nav__links-dashboard,
+.Header__nav__buttons button:hover {
+  opacity: 0.8;
+}
+.Header__nav__buttons button.signout {
+  width: 135px;
+  color: #fff;
+  background-color: #e05353;
+}

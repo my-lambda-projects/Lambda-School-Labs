@@ -1,0 +1,59 @@
+.Sidebar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.Sidebar__sidebar {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  max-width: 360px;
+  height: calc(100% - 100px);
+  background-color: rgba(0, 0, 0, 0.065);
+  overflow: hidden;
+  z-index: 99999;
+}
+.Sidebar__content {
+  position: relative;
+  width: calc(100% - 360px);
+  margin-left: 360px;
+  padding: 50px;
+}
+
+.Sidebar__navigation {
+  
+}
+.Sidebar__navigation > ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.Sidebar__navigation > ul > a {
+  color: #000;
+  text-decoration: none;
+}
+.Sidebar__navigation > ul > a > li {
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+  padding: 15px 15px 15px 50px;
+  background-image: url('../../static/right-arrow-angle.png');
+  background-position: 90% center;
+  background-size: auto 25%;
+  background-repeat: no-repeat;
+  transition: all 0.25s ease-in-out 0s;
+  z-index: 1;
+}
+.Sidebar__navigation > ul > a > li[data-selected="true"] {
+  color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #555;
+  background-position: 150% center;
+  z-index: 3;
+}
+.Sidebar__navigation > ul > a:hover > li:not([data-selected="true"]) {
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  background-position: 92% center;
+  z-index: 2;
+}
