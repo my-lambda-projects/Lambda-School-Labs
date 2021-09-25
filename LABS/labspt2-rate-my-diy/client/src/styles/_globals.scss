@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p,
+div {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.standard-flex-container-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+
+    input {
+      width: 50%;
+      margin: auto;
+
+      @media (max-width: 500px) {
+        width: 90%;
+      }
+    }
+  }
+}
+
+.btn {
+  border: 2px solid #bdc3c7;
+  border-radius: 18px;
+  padding: 10px 0;
+  background-color: #2980b9;
+  color: white;
+  width: 200px;
+
+  a {
+    color: white;
+  }
+}
+
+.small {
+  font-size: 12px;
+  width: 70px;
+  height: 25px;
+}
+
+.medium {
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.large {
+  width: 40%;
+  height: 50px;
+  font-size: 16px;
+  margin: 5%;
+}
+
+//

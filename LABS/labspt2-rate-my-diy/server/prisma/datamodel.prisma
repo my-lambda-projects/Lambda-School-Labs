@@ -1,0 +1,52 @@
+# These type-definitions allow the prisma client to speak to the DB 
+# according to the types defined in schema.graphql.
+# They also allow prisma to generate crud operations for us.
+
+
+type User {
+  id: ID! @unique
+  thirdPartyUID: String @unique
+  firebaseUID: String @unique
+  username: String! @unique
+  email: String! @unique
+  userProfileImage: String!
+  bio: String! @default(value: "Hi, this is my page where I share projects and reviews")
+  privilege: String! @default(value: "Plebian")
+  stripeId: String
+  accountType: String! @default(value: "free-tier")
+  ReviewList: [Review!] @relation(name: "UserReviews" onDelete: CASCADE)
+  LikedReviews: [Review!] @relation(name: "UserLikedReviews" onDelete: CASCADE)
+  DislikedReviews: [Review!] @relation(name: "UserDislikedReviews" onDelete: CASCADE)
+  Projects: [Project!] @relation(name: "UserProjects" onDelete: CASCADE)
+  RatedProjects: [Project!] @relation(name: "UserRatedProjects" onDelete: CASCADE)
+}
+
+type Project {
+ id: ID! @unique
+ name: String!
+ key: String @unique
+ category: String!
+ timestamp: DateTime!
+ titleImg: String! @default(value: "https://res.cloudinary.com/dv1rhurfd/image/upload/c_scale,w_400/v1555355210/project%20images/doodle-3644073_640.png")
+ titleBlurb: String! @default(value: "I hope you like my project")
+ rating: [Int!] @default(value: [])
+ steps: String! @default(value: "[{\"type\":\"img\",\"body\":\"https://res.cloudinary.com/dv1rhurfd/image/upload/v1557536458/step1.jpg\"},{\"type\":\"text\",\"body\":\"Step 1\"}]")
+ User: User! @relation(name: "UserProjects")
+ Reviews:[Review!] @relation(name: "ProjectReviews" onDelete: CASCADE)
+ RatedBy: [User!] @relation(name: "UserRatedProjects")
+}
+  
+type Review {
+  id: ID! @unique 
+  name: String!
+  rKey: String @unique
+  text: String!
+  timestamp: DateTime!
+  projRating: Int
+  thumbsUp: Int! @default(value: 0)
+  LikedBy: [User!] @relation(name: "UserLikedReviews")
+  thumbsDown: Int! @default(value: 0)
+  DislikedBy: [User!] @relation(name: "UserDislikedReviews")
+  Author: User! @relation(name: "UserReviews")
+  ProjectReviewed: Project! @relation(name: "ProjectReviews")
+}

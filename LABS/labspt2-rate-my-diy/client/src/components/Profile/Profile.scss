@@ -1,0 +1,74 @@
+@import '../../styles/variables.scss';
+
+.profile-container {
+	display: flex;
+	flex-direction: column;
+
+  width: 100%;
+  align-items: center;
+	// border: 5px solid red;
+
+	.project-profile-container {
+		// border: 5px solid navy;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+
+  }
+  
+  .img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bioSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    textarea {
+      width: 80%;
+      height: 200px;
+      font-size: 1.8rem;
+    }
+  }
+
+
+	.profileReviewContainer {
+		// border: 5px solid navy;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.profile-projects {
+		// border: 5px solid yellow;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	h1 {
+		color: $alternate-color-three;
+		font-size: 4.8rem;
+	}
+	h2 {
+		text-align: center;
+    color: $main-color;
+    border-bottom: 5px dashed $color5;
+    margin-bottom: 10px;
+
+	}
+	.profile-user-content {
+		// border: 5px solid green;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		img {
+			width: 400px;
+			height: auto;
+		}
+		p {
+			font-size: 1.8rem;
+			margin-top: 10px;
+		}
+	}
+}

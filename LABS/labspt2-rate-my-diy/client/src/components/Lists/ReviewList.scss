@@ -1,0 +1,62 @@
+@import '../../styles/variables.scss';
+
+.review-list-all-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  p {
+    font-size: 1.8rem;
+    margin: 2px;
+  }
+}
+
+.review-list-title {
+  align-self: center;
+  color: $main-color;
+  font-size: 3.6rem;
+  margin-top: 20px;
+}
+.review-list-container {
+  border: 2px solid black;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.review-list-card {
+  p {
+    margin: 1%;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  background-color: $alternate-complementing-color;
+  min-width: 400px;
+  padding: 1%;
+  border: 4px solid $alternate-color-one;
+  box-shadow: 5px 5px 5px darkgray;
+  height: 550px;
+  box-sizing: border-box;
+  width: 22%;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
+
+.review-list-card-img {
+  height: 300px;
+  width: 450px;
+  border: 3px solid $color4;
+  margin-bottom: 10px;
+  object-fit: contain;
+  border-radius: 5%;
+  padding: 1%;
+}

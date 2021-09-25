@@ -1,0 +1,660 @@
+# import avatars
+mutation {
+  user1: createUser(
+    data: {
+      username: "asdfsd"
+      email: "asldkf@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353676/avatars/avatar-6.png"
+      Projects: {
+        create: [
+          {
+            name: "Sarah's 1st Project"
+            category: "random"
+            timestamp: "2019-05-01"
+            key: "1"
+            rating: { set: [1, 5, 4, 3, 2, 5, 4] }
+          }
+          {
+            name: "Sarah's 2nd Project"
+            category: "home improvement"
+            timestamp: "2019-04-15"
+            key: "2"
+            rating: { set: [1, 4, 3, 2, 1, 1, 1] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user2: createUser(
+    data: {
+      username: "sldfksd"
+      email: "lkjwe@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353676/avatars/avatar-7.png"
+      Projects: {
+        create: [
+          {
+            name: "Joe's 1st Project"
+            category: "random"
+            timestamp: "2019-05-01"
+            key: "3"
+            rating: { set: [1, 5, 4, 4, 3, 3] }
+          }
+          {
+            name: "Joe's 2nd Project"
+            category: "kitchen"
+            timestamp: "2019-05-15"
+            key: "4"
+            rating: { set: [1, 5, 4, 5, 5, 3] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user3: createUser(
+    data: {
+      username: "slekrj"
+      email: "riowjw@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-14.png"
+      Projects: {
+        create: [
+          {
+            name: "Mark's 1st Project"
+            category: "garage"
+            timestamp: "2019-04-22"
+            key: "5"
+            rating: { set: [1, 1, 2, 1, 3, 4] }
+          }
+          {
+            name: "Mark's 2nd Project"
+            category: "handicrafts"
+            timestamp: "2019-05-01"
+            key: "6"
+            rating: { set: [1, 5, 5, 4, 4, 3, 5, 3] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user4: createUser(
+    data: {
+      username: "lkrjawe"
+      email: "orije@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-15.png"
+      Projects: {
+        create: [
+          {
+            name: "Bo's 1st Project"
+            category: "web development"
+            timestamp: "2019-04-17"
+            key: "7"
+            rating: { set: [1, 3, 2, 3, 2, 3, 3] }
+          }
+          {
+            name: "Bo's 2nd Project"
+            category: "cocktails"
+            timestamp: "2019-04-18"
+            key: "8"
+            rating: { set: [1, 5, 5, 4, 4, 3] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user5: createUser(
+    data: {
+      username: "lkrwetir"
+      email: "toieja@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-5.png"
+      Projects: {
+        create: [
+          {
+            name: "Timmy's 1st Project"
+            category: "self improvement"
+            timestamp: "2019-04-21"
+            key: "9"
+            rating: { set: [1, 1, 1, 1, 3] }
+          }
+          {
+            name: "Timmy's 2nd Project"
+            category: "home improvement"
+            timestamp: "2019-05-12"
+            key: "10"
+            rating: { set: [1, 2, 4, 4, 3, 4, 2] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user6: createUser(
+    data: {
+      username: "toigjewe"
+      email: "rtoijge@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-3.png"
+      Projects: {
+        create: [
+          {
+            name: "Rhonda's 1st Project"
+            category: "kitchen"
+            timestamp: "2019-04-01"
+            key: "11"
+            rating: { set: [1, 5, 4, 4, 4, 3, 4] }
+          }
+          {
+            name: "Rhonda's 2nd Project"
+            category: "handicrafts"
+            timestamp: "2019-05-15"
+            key: "12"
+            rating: { set: [1, 3, 2, 3, 3, 2, 1] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user7: createUser(
+    data: {
+      username: "oiwjoeawd"
+      email: "rglklsajfeee@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-12.png"
+      Projects: {
+        create: [
+          {
+            name: "Yanelli's 1st Project"
+            category: "music"
+            timestamp: "2019-04-04"
+            key: "13"
+            rating: { set: [1, 5, 4, 5, 5, 3, 5, 4] }
+          }
+          {
+            name: "Yanelli's 2nd Project"
+            category: "cocktails"
+            timestamp: "2019-05-02"
+            key: "14"
+            rating: { set: [1, 2, 1, 2, 1, 3, 2] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user8: createUser(
+    data: {
+      username: "wlefjwe"
+      email: "lrkgjwaelw@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-13.png"
+      Projects: {
+        create: [
+          {
+            name: "Ashley's 1st Project"
+            category: "kid crafts"
+            timestamp: "2019-04-24"
+            key: "15"
+            rating: { set: [1, 5, 4, 4, 3, 4, 3] }
+          }
+          {
+            name: "Ashley's 2nd Project"
+            category: "home improvement"
+            timestamp: "2019-05-01"
+            key: "16"
+            rating: { set: [1, 5, 5, 4, 4, 3, 2] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user9: createUser(
+    data: {
+      username: "askldfjewavvv"
+      email: "glrijad@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-11.png"
+      Projects: {
+        create: [
+          {
+            name: "Elmer's 1st Project"
+            category: "random"
+            timestamp: "2019-04-09"
+            key: "17"
+            rating: { set: [1, 2, 2, 3, 4, 5, 3] }
+          }
+          {
+            name: "Elmer's 2nd Project"
+            category: "kid crafts"
+            timestamp: "2019-05-01"
+            key: "18"
+            rating: { set: [1, 3, 4, 5, 2, 4, 3] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user10: createUser(
+    data: {
+      username: "lgrjraweks"
+      email: "tlirjerss@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-4.png"
+      Projects: {
+        create: [
+          {
+            name: "Eric's 1st Project"
+            category: "music"
+            timestamp: "2019-04-15"
+            key: "19"
+            rating: { set: [1, 1, 1, 1, 4, 2] }
+          }
+          {
+            name: "Eric's 2nd Project"
+            category: "sewing"
+            timestamp: "2019-05-04"
+            key: "20"
+            rating: { set: [1, 3, 3, 2, 2, 1] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user11: createUser(
+    data: {
+      username: "lrijfwwa"
+      email: "dlgiawefs@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar.png"
+      Projects: {
+        create: [
+          {
+            name: "Derek's 1st Project"
+            category: "music"
+            timestamp: "2019-05-01"
+            key: "21"
+            rating: { set: [1, 5, 5, 4, 3, 3, 2] }
+          }
+          {
+            name: "Derek's 2nd Project"
+            category: "kitchen"
+            timestamp: "2019-05-13"
+            key: "22"
+            rating: { set: [1, 4, 3, 3, 2, 2, 1] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user12: createUser(
+    data: {
+      username: "itbdsldvf"
+      email: "tijaecvvdsd@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-2.png"
+      Projects: {
+        create: [
+          {
+            name: "Melinda's 1st Project"
+            category: "dance"
+            timestamp: "2019-05-01"
+            key: "23"
+            rating: { set: [1, 5, 4, 4, 4, 3, 2] }
+          }
+          {
+            name: "Melinda's 2nd Project"
+            category: "kitchen"
+            timestamp: "2019-05-12"
+            key: "24"
+            rating: { set: [1, 4, 4, 3, 3, 2, 1] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user13: createUser(
+    data: {
+      username: "dlgirassdweeww"
+      email: "adlkfsvvwket@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-8.png"
+      Projects: {
+        create: [
+          {
+            name: "Elsa's 1st Project"
+            category: "music"
+            timestamp: "2019-05-05"
+            key: "25"
+            rating: { set: [1, 5, 5, 5, 5, 4, 4] }
+          }
+          {
+            name: "Elsa's 2nd Project"
+            category: "home improvement"
+            timestamp: "2019-05-13"
+            key: "26"
+            rating: { set: [1, 5, 4, 4, 4, 3, 3, 2] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user14: createUser(
+    data: {
+      username: "dglawerwdfvvyeiwq"
+      email: "tgiasccvdew2@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-10.png"
+      Projects: {
+        create: [
+          {
+            name: "Robert's 1st Project"
+            category: "random"
+            timestamp: "2019-05-08"
+            key: "27"
+            rating: { set: [1, 1, 2, 2, 3, 3] }
+          }
+          {
+            name: "Robert's 2nd Project"
+            category: "self improvement"
+            timestamp: "2019-05-11"
+            key: "28"
+            rating: { set: [1, 3, 3, 4, 2, 2, 2] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+  user15: createUser(
+    data: {
+      username: "yoirewowd"
+      email: "lgrakesl@gmail.com"
+      userProfileImage: "https://res.cloudinary.com/dv1rhurfd/image/upload/v1555353675/avatars/avatar-1.png"
+      Projects: {
+        create: [
+          {
+            name: "Amy's 1st Project"
+            category: "music"
+            timestamp: "2019-05-04"
+            key: "29"
+            rating: { set: [1, 2, 2, 3, 4, 3, 2, 1] }
+          }
+          {
+            name: "Amy's 2nd Project"
+            category: "dance"
+            timestamp: "2019-05-07"
+            key: "30"
+            rating: { set: [1, 1, 2, 4, 4, 4] }
+          }
+        ]
+      }
+    }
+  ) {
+    id
+  }
+
+  review1: createReview(
+    data: {
+      name: "Nice Job!"
+      rKey: "1"
+      text: "I really like how you did this."
+      timestamp: "2019-04-05"
+      thumbsUp: 4
+      thumbsDown: 1
+      Author: { connect: { username: "asdfsd" } }
+      ProjectReviewed: { connect: { key: "29" } }
+    }
+  ) {
+    id
+  }
+  review2: createReview(
+    data: {
+      name: "Wicked"
+      rKey: "2"
+      text: "You're a rockstar!"
+      timestamp: "2019-05-01"
+      thumbsUp: 8
+      thumbsDown: 2
+      Author: { connect: { username: "asdfsd" } }
+      ProjectReviewed: { connect: { key: "16" } }
+    }
+  ) {
+    id
+  }
+  review3: createReview(
+    data: {
+      name: "Well Done"
+      rKey: "3"
+      text: "I'm amazed - truly."
+      timestamp: "2019-04-19"
+      thumbsUp: 2
+      thumbsDown: 0
+      Author: { connect: { username: "sldfksd" } }
+      ProjectReviewed: { connect: { key: "24" } }
+    }
+  ) {
+    id
+  }
+  review4: createReview(
+    data: {
+      name: "DiS iS TrASSh"
+      rKey: "4"
+      text: "Thank u, next!"
+      timestamp: "2019-05-12"
+      thumbsUp: 1
+      thumbsDown: 6
+      Author: { connect: { username: "sldfksd" } }
+      ProjectReviewed: { connect: { key: "17" } }
+    }
+  ) {
+    id
+  }
+  review5: createReview(
+    data: {
+      name: "Teach Me How to Do This!"
+      rKey: "5"
+      text: "Notice me senpai"
+      timestamp: "2019-04-19"
+      thumbsUp: 2
+      thumbsDown: 3
+      Author: { connect: { username: "slekrj" } }
+      ProjectReviewed: { connect: { key: "25" } }
+    }
+  ) {
+    id
+  }
+  review6: createReview(
+    data: {
+      name: "This is nice"
+      rKey: "6"
+      text: "...real nice"
+      timestamp: "2019-05-11"
+      thumbsUp: 3
+      thumbsDown: 2
+      Author: { connect: { username: "slekrj" } }
+      ProjectReviewed: { connect: { key: "21" } }
+    }
+  ) {
+    id
+  }
+  review7: createReview(
+    data: {
+      name: "Noob"
+      rKey: "7"
+      text: "Why are you even posting a tutorial about something you know nothing about?"
+      timestamp: "2018-05-14"
+      thumbsUp: 4
+      thumbsDown: 6
+      Author: { connect: { username: "lkrjawe" } }
+      ProjectReviewed: { connect: { key: "14" } }
+    }
+  ) {
+    id
+  }
+  review8: createReview(
+    data: {
+      name: "Wow"
+      rKey: "8"
+      text: "You gotta create more of these."
+      timestamp: "2019-05-01"
+      thumbsUp: 6
+      thumbsDown: 2
+      Author: { connect: { username: "lkrjawe" } }
+      ProjectReviewed: { connect: { key: "19" } }
+    }
+  ) {
+    id
+  }
+  #
+  updateUser1: updateUser(
+    data: {
+      LikedReviews: { connect: [{ rKey: "3" }, { rKey: "4" }] }
+      DislikedReviews: { connect: [{ rKey: "5" }, { rKey: "8" }] }
+      RatedProjects: { connect: [{ key: "29" }, { key: "16" }] }
+    }
+    where: { username: "asdfsd" }
+  ) {
+    id
+  }
+  updateUser2: updateUser(
+    data: {
+      LikedReviews: { connect: [{ rKey: "8" }, { rKey: "2" }] }
+      DislikedReviews: { connect: [{ rKey: "7" }, { rKey: "5" }] }
+      RatedProjects: { connect: [{ key: "24" }, { key: "17" }] }
+    }
+    where: { username: "sldfksd" }
+  ) {
+    id
+  }
+  updateUser3: updateUser(
+    data: {
+      LikedReviews: { connect: [{ rKey: "2" }, { rKey: "1" }] }
+      DislikedReviews: { connect: [{ rKey: "4" }, { rKey: "7" }] }
+      RatedProjects: { connect: [{ key: "25" }, { key: "21" }] }
+    }
+    where: { username: "slekrj" }
+  ) {
+    id
+  }
+  updateUser4: updateUser(
+    data: {
+      LikedReviews: { connect: [{ rKey: "2" }, { rKey: "3" }] }
+      DislikedReviews: { connect: [{ rKey: "4" }, { rKey: "1" }] }
+      RatedProjects: { connect: [{ key: "14" }, { key: "19" }] }
+    }
+    where: { username: "lkrjawe" }
+  ) {
+    id
+  }
+  updateUser5: updateUser(
+    where: { username: "lkrwetir" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "2" }, { rKey: "8" }] }
+      DislikedReviews: { connect: [{ rKey: "4" }] }
+    }
+  ) {
+    id
+  }
+  updateUser6: updateUser(
+    where: { username: "toigjewe" }
+    data: { LikedReviews: { connect: [{ rKey: "8" }, { rKey: "2" }] } }
+  ) {
+    id
+  }
+  updateUser7: updateUser(
+    where: { username: "oiwjoeawd" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "1" }, { rKey: "7" }] }
+      DislikedReviews: { connect: [{ rKey: "2" }] }
+    }
+  ) {
+    id
+  }
+  updateUser8: updateUser(
+    where: { username: "wlefjwe" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "8" }, { rKey: "1" }] }
+      DislikedReviews: {
+        connect: [{ rKey: "4" }, { rKey: "7" }, { rKey: "2" }]
+      }
+    }
+  ) {
+    id
+  }
+  updateUser9: updateUser(
+    where: { username: "askldfjewavvv" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "2" }, { rKey: "6" }] }
+      DislikedReviews: { connect: [{ rKey: "7" }] }
+    }
+  ) {
+    id
+  }
+  updateUser10: updateUser(
+    where: { username: "lgrjraweks" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "2" }] }
+      DislikedReviews: { connect: [{ rKey: "7" }, { rKey: "6" }] }
+    }
+  ) {
+    id
+  }
+  updateUser11: updateUser(
+    where: { username: "lrijfwwa" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "8" }, { rKey: "6" }] }
+      DislikedReviews: { connect: [{ rKey: "7" }, { rKey: "5" }] }
+    }
+  ) {
+    id
+  }
+  updateUser12: updateUser(
+    where: { username: "itbdsldvf" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "7" }, { rKey: "2" }, { rKey: "6" }] }
+      DislikedReviews: { connect: [{ rKey: "4" }] }
+    }
+  ) {
+    id
+  }
+  updateUser13: updateUser(
+    where: { username: "dlgirassdweeww" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "8" }, { rKey: "7" }] }
+      DislikedReviews: { connect: [{ rKey: "1" }] }
+    }
+  ) {
+    id
+  }
+  updateUser14: updateUser(
+    where: { username: "dglawerwdfvvyeiwq" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "8" }, { rKey: "7" }] }
+      DislikedReviews: { connect: [{ rKey: "4" }] }
+    }
+  ) {
+    id
+  }
+  updateUser15: updateUser(
+    where: { username: "yoirewowd" }
+    data: {
+      LikedReviews: { connect: [{ rKey: "8" }, { rKey: "5" }] }
+      DislikedReviews: { connect: [{ rKey: "6" }] }
+    }
+  ) {
+    id
+  }
+}

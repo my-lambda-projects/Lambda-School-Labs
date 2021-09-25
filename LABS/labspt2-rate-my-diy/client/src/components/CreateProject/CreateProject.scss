@@ -1,0 +1,281 @@
+@import '../../styles/variables.scss';
+
+.projectInfo {
+  h1 {
+    color: $main-color;
+    font-size: 5.4rem;
+  }
+  h2 {
+    color: $alternate-color-one;
+  }
+  button {
+    border: 2px solid $alternate-color-one;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkgray;
+    background: $color2;
+    color: white;
+    &:hover {
+      font-size: 1.8rem;
+    }
+  }
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  height: 100%;
+  border: 5px solid $color2;
+  padding: 10px;
+  margin-bottom: 100px;
+  form {
+    width: 70%;
+    word-wrap: normal;
+  }
+  input {
+    width: 100%;
+    height: 60px;
+    font-size: 2.4rem;
+    border: none;
+    border-color: transparent;
+  }
+  h1 {
+    text-align: center;
+  }
+  .projectTitle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 5px solid $color2;
+    width: 100%;
+    padding: 10px;
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 100;
+    }
+    border-radius: 4px;
+  }
+  .titleImage {
+    .conditionalImage {
+      display: flex;
+      align-self: flex-start;
+
+      .conditionalButton {
+        button {
+          border: 2px solid $alternate-color-one;
+          margin: 10px 0 10px 0;
+          padding: 5px;
+          width: 150px;
+          height: 50px;
+          font-size: 1.6rem;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px;
+          box-shadow: 5px 5px 5px darkgray;
+          background: $color2;
+          color: white;
+          &:hover {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    h3 {
+      color: black;
+    }
+    img {
+      margin: 10px;
+      border: transparent;
+      width: 300px;
+      height: 300px;
+    }
+    .setThumbnail {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: flex-start;
+
+      .category {
+        width: 300px;
+        margin-left: 20px;
+        input {
+          height: 40px;
+          word-wrap: normal;
+          font-size: 1.6rem;
+          border: 5px solid $color2;
+          border-radius: 10px;
+        }
+      }
+    }
+    .imageArea {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      .image-description {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+        img {
+          width: 300px;
+          height: 261px;
+          margin: 0;
+          margin-right: 10px;
+        }
+
+        .skeletonContainer {
+          width: 70%;
+          height: 261px;
+          flex-direction: column;
+        }
+      }
+      .emptyMainImage {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid $color2;
+        border-radius: 5px;
+        width: 300px;
+        height: 261px;
+        margin-right: 10px;
+        button {
+          border: 2px solid $alternate-color-one;
+          margin: 10px 0 10px 0;
+          padding: 5px;
+          width: 150px;
+          height: 50px;
+          font-size: 1.6rem;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px;
+          box-shadow: 5px 5px 5px darkgray;
+          background: $color2;
+          color: white;
+          &:hover {
+            font-size: 1.8rem;
+          }
+        }
+      }
+      .descriptionRow {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        textarea {
+          
+          width: 100%;
+          height: 261px;
+          text-overflow: scroll;
+          font-size: 1.6rem;
+          border: 5px solid $color2;
+          border-radius: 10px;
+          
+        }
+        .skeletonContainer {
+          width: 100%;
+          height: 261px;
+          text-overflow: scroll;
+          font-size: 1.6rem;
+          border: 5px solid $color2;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  .stepSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    textarea {
+      height: 150px;
+      text-align: initial;
+      width: 100%;
+      font-size: 1.6rem;
+      border: 5px solid $color2;
+      border-radius: 10px;
+      
+    }
+    .skeletonContainer {
+      height: 150px;
+      text-align: initial;
+      width: 100%;
+      font-size: 1.6rem;
+      border: 5px solid $color2;
+      border-radius: 10px;
+      
+    }
+    img {
+      width: 100%;
+      height: 400px;
+    }
+    :first-child .removeStep {
+      visibility: hidden;
+    }
+    .addStep,
+    .addPicture,
+    .removeStep {
+      button {
+        border: 2px solid $alternate-color-one;
+        margin: 10px 0 10px 0;
+        padding: 5px;
+        width: 150px;
+        height: 50px;
+        font-size: 1.6rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px darkgray;
+        background: $color2;
+        color: white;
+      }
+    }
+  }
+  .submitButton {
+    button {
+      border: 2px solid $alternate-color-one;
+      margin: 10px 0 10px 0;
+      padding: 5px;
+      width: 150px;
+      height: 50px;
+      font-size: 1.6rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px darkgray;
+      background: $color2;
+      color: white;
+      &:hover {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+.buttonRow {
+  display: flex;
+  button {
+    margin-right: 15px;
+  }
+}

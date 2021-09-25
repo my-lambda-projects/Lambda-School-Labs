@@ -1,0 +1,110 @@
+@import '../../styles/variables.scss';
+
+// .profile-review-container {
+//   border: 5px solid orange;
+//   box-shadow: 5px 5px 20px;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   // margin-right: -15px ;
+//   margin: 10px 10px 10px 20px;
+// }
+
+.reviewCardModal{
+  h3{
+    font-size: 2.4rem;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  #rating{
+   font-weight: bold;
+   font-size: 1.8rem;
+  }
+  input{
+    width: 80%;
+    height: 50px;
+    font-size: 1.4rem;
+  }
+  select{
+      height: 30px;
+      font-size: 1.8rem;
+    }
+  textarea{
+    width: 80%;
+    height: 200px;
+    font-size: 1.4rem;
+  }
+}
+
+button {
+  border: 2px solid $alternate-color-one;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 1.6rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px darkgray;
+  background: $color2;
+  color: white;
+  justify-self: center;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+
+.notDisabled:hover {
+  cursor: pointer;
+}
+
+.searchReviewCard {
+  p {
+    margin: 1%;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+
+  background-color: $alternate-complementing-color;
+  min-width: 400px;
+  padding: 1%;
+  border: 4px solid $alternate-color-one;
+  box-shadow: 5px 5px 5px darkgray;
+  height: 550px;
+  box-sizing: border-box;
+  width: 22%;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
+
+.review-section-container {
+  // border: 2px solid blueviolet;
+  display: flex;
+  flex-direction: row;
+  margin: 0 15px 0 -15px;
+  // border: 5px solid crimson;
+}
+
+.createdBy {
+  &:hover {
+    color: $alternate-color-three;
+  }
+}
+
+
