@@ -1,0 +1,58 @@
+{
+  "name": "school-calendar-be",
+  "version": "1.0.0",
+  "description": "D8Picker backend",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambda-School-Labs/school-calendar-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lambda-School-Labs/school-calendar-be/issues"
+  },
+  "homepage": "https://github.com/Lambda-School-Labs/school-calendar-be#readme",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "cross-env DB_ENV=testing jest --detectOpenHandles --forceExit --watch",
+    "coverage": "jest --coverage --detectOpenHandles --forceExit || true"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**",
+      "!**/__tests__/**"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^6.0.0",
+    "helmet": "^3.21.2",
+    "knex": "^0.21.1",
+    "pg": "^8.2.0",
+    "sqlite3": "^4.2.0",
+    "twilio": "^3.46.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "jest": "^25.1.0",
+    "knex-cleaner": "^1.3.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  }
+}
