@@ -1,0 +1,14 @@
+
+[Settings]
+ID = "familytabs"
+
+[build]
+
+  base    = "./familytabs"
+  publish = "./familytabs/build"
+  command = "yarn build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
