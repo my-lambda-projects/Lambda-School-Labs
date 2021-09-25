@@ -1,0 +1,45 @@
+{
+    "name": "sentimentbot",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "auth0-js": "^9.10.0",
+        "auth0-lock": "^11.14.0",
+        "axios": "^0.18.0",
+        "bootstrap": "^4.3.1",
+        "chart.js": "^2.7.3",
+        "emoji-mart": "^2.9.2",
+        "mdbreact": "^4.11.0",
+        "react": "^16.8.1",
+        "react-chartjs-2": "^2.7.4",
+        "react-dom": "^16.8.1",
+        "react-redux": "^6.0.0",
+        "react-router": "^4.3.1",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "2.1.5",
+        "react-select": "^2.4.1",
+        "react-stepzilla": "^6.0.0",
+        "react-stripe-checkout": "^2.6.3",
+        "react-stripe-elements": "^2.0.3",
+        "reactstrap": "^7.1.0",
+        "redux": "^4.0.1",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.3.0",
+        "survey-react": "^1.0.72"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}

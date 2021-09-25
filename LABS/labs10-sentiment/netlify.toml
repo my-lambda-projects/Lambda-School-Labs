@@ -1,0 +1,11 @@
+
+[build]
+base    = "front-end/sentimentbot"
+publish = "front-end/sentimentbot/build"
+command = "yarn build" 
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+

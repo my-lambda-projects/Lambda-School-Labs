@@ -1,0 +1,395 @@
+
+.profilepage-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F5F5;
+  height: 1315px;
+}
+.profilecontent-container {
+    width: 70%;
+    padding-bottom: 50px;
+    margin: 0 auto; 
+    background-color: var(--main-bg-color); 
+    height: 100%;
+}
+
+.loadinggif {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.fake-nav {
+    height: 4rem;
+    width: 100%;
+    background: var(--main-btn-color);
+    margin-bottom: 1rem;
+}
+
+#gotosurveymaker {
+    margin: 10px;
+    max-width: 100%;
+    width: 160px;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    background-color: var(--main-btn-color);
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    font-family: var(--p-font-style);
+    cursor: pointer;
+}
+
+#gotosurveymaker:hover {
+    background-color: var(--hover-color);
+    border: 1px solid var(--hover-border-color);
+}
+
+
+.main-container h1 {
+    font-family: var(--headers-font-style);
+    font-size: 4rem !important;
+}
+
+.sub-container-2 h2 {
+    font-family: var(--headers-font-style);
+    font-size: 1.3rem;
+}
+
+.sub-container-2 h3 {
+    font-family: var(--headers-font-style);
+    font-size: 1.3rem;
+}
+
+.main-container p {
+    font-family: var(--p-font-style);
+    margin: 0;
+}
+
+.name-container {
+    width: 90%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.sub-container-2 img {
+    width: 12rem;
+    height: 3.5rem;
+    
+}
+
+.sub-container-2 a {
+    width: 12rem;
+    height: 3.5rem;
+    
+}
+.team-wordbox {
+    margin-top: 55px;
+
+}
+.reactions {
+    width: 90%;
+    height: 250px;
+    color: #000;
+    border-radius: 8px;
+    overflow: auto;
+    padding: 10px;
+    border: 2px solid var(--hover-border-color);
+    margin-left: 3%;
+}
+
+.reactions p {
+    margin-top: 1rem;
+    font-family: var(--p-font-style);
+    padding-left: 1%;
+}
+
+.happy {
+    height: 12rem;
+    width: 10rem;
+}
+
+.btn-div {
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.btn-feel {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    background-color: var(--main-btn-color);
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    font-family: var(--p-font-style);
+    cursor: pointer;
+}
+
+.btn-feel:hover {
+    color: var(--hover-font-color);
+    background-color: var(--hover-color);
+    border: 1px solid var(--hover-border-color);
+}
+
+.sub-container-3 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 80%;
+}
+
+.sub-container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.sub-container-4 p {
+    margin-bottom: 1rem;
+    font-family: var(--p-font-style);
+}
+
+.sub-container-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.input-div input {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-feel-2 {
+    width: 20rem;
+    padding: 1rem;
+    color: white;
+    background-color: var(--main-btn-color);
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    font-family: var(--p-font-style);
+    cursor: pointer;
+}
+
+.btn-feel-2:hover {
+    color: var(--hover-font-color);
+    background-color: var(--hover-color);
+    border: 1px solid var(--hover-border-color);
+}
+
+.p-tag {
+    margin-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-pandb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.survey-container-div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.survey-container-div p{
+    margin: 0 0;
+    width: 50%;
+}
+
+.survey-container-button {
+    color: white;
+    text-transform: uppercase;
+    background: #02C8A7;
+    border-radius: 0.25rem;
+    display: inline-block;
+    border: none;
+    font-size: .8rem;
+    margin-left: 1rem;
+}
+
+.survey-container-button:hover {
+    color: white;
+    background: #f53240;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.span{
+    color: #02C8A7;
+    font-weight: bold;
+}
+
+.optional-text{
+    margin-top: 1.2rem;
+    width: 90%;
+    color: #02C8A7;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.optional-text-2 {
+    margin-top: 1.2rem;
+    width: 90%;
+}
+.secondcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .div-create-survey{
+        margin-top: 6rem;
+    }
+    .profilecontent-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding-bottom: 50px;
+        margin-top: 2rem;
+      }
+      
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    .sub-container-2 a {
+        text-align: center;
+    }
+   
+    .sub-container-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-container-2 {
+        width: 100%;
+    }
+    .happy {
+        display: none;
+    }
+    .btn-feel {
+        width: 100%;
+    }
+    .sub-container-3 {
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .secondcolumn {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 600px) {
+    .div-create-survey{
+        margin-top: 8rem;
+    }
+    .profilecontent-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+        padding-bottom: 50px;
+        margin-top: 2rem;
+      }
+    h1 {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    h2 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    .sub-container-2  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+   
+    .sub-container-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-container-3 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sub-container-4 {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .happy {
+        display: none;
+    }
+    .sub-container-5 {
+        flex-direction: column;
+    }
+    .input-div {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .main-container {
+        width: 100%;
+    }
+.secondcolumn {
+    display: flex;
+    flex-direction: row;
+}
+    /* .reactions {
+        width: 94%;
+        margin-top: -100px;
+    }
+    #gotosurveymaker {
+        margin-top: -150px;
+    } */
+}
