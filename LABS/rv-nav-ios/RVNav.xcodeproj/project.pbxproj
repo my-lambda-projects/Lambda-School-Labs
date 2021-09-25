@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321DE98723A83D5300521AAB /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 321DE98623A83D5300521AAB /* Heebo-Light.ttf */; };
+		321DE98923A83D5D00521AAB /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 321DE98823A83D5D00521AAB /* Heebo-Regular.ttf */; };
+		321DE98B23A83D6600521AAB /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 321DE98A23A83D6600521AAB /* Heebo-Medium.ttf */; };
+		321DE98D23A83D6F00521AAB /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 321DE98C23A83D6F00521AAB /* Heebo-Bold.ttf */; };
+		321DE98F23A83D7800521AAB /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 321DE98E23A83D7800521AAB /* Heebo-ExtraBold.ttf */; };
+		321DE99123A83D8100521AAB /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 321DE99023A83D8100521AAB /* Heebo-Black.ttf */; };
+		321DE99523A8464E00521AAB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321DE99423A8464E00521AAB /* SignInViewController.swift */; };
+		321DE99823A84AD800521AAB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321DE99723A84AD800521AAB /* UIColor+Extension.swift */; };
+		321DE9BF23A97BD700521AAB /* LandingPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321DE9BE23A97BD700521AAB /* LandingPage.storyboard */; };
+		321DE9C123A9927400521AAB /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321DE9C023A9927400521AAB /* LandingPageViewController.swift */; };
+		3231CA3F23CD28EC008CDBA5 /* AddVehicle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3231CA3E23CD28EC008CDBA5 /* AddVehicle.storyboard */; };
+		3231CA4123CD2BAD008CDBA5 /* AddVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231CA4023CD2BAD008CDBA5 /* AddVehicleViewController.swift */; };
+		3231CA4523CD5B1F008CDBA5 /* RVTypePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231CA4423CD5B1F008CDBA5 /* RVTypePickerViewController.swift */; };
+		3243787023CF84AC00539257 /* FirebaseNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243786F23CF84AC00539257 /* FirebaseNetworkController.swift */; };
+		3243787823D12A5F00539257 /* AddVehicleViewController+TextFieldFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243787723D12A5F00539257 /* AddVehicleViewController+TextFieldFlow.swift */; };
+		32F788B023AAA0B400C234FC /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F788AF23AAA0B400C234FC /* UserDefaults+Extension.swift */; };
+		446F3903230DA7FC00D57DE3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F3902230DA7FC00D57DE3 /* User.swift */; };
+		447831E623146AC5007D50E7 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447831E523146AC5007D50E7 /* Vehicle.swift */; };
+		447831EC23146D65007D50E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 447831EA23146D65007D50E7 /* GoogleService-Info.plist */; };
+		44EAD664231EF5FC00094531 /* RVSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EAD663231EF5FC00094531 /* RVSettings.swift */; };
+		8BBC317DD08B231FEC646732 /* Pods_RVNav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11321C96E6A7079557B2F0C7 /* Pods_RVNav.framework */; };
+		D11ABC2C2318DF6A0046F7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11ABC2B2318DF6A0046F7D3 /* Assets.xcassets */; };
+		D11ABC302318EA240046F7D3 /* MapBoxDirectionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11ABC2F2318EA240046F7D3 /* MapBoxDirectionsController.swift */; };
+		D122B3402326EF6F00A4C3DE /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D122B33F2326EF6F00A4C3DE /* AppConfiguration.swift */; };
+		D185F9562322FABE00E4C64A /* Avoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185F9552322FABE00E4C64A /* Avoid.swift */; };
+		D18DAE70230B3C3D00D7C151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18DAE6F230B3C3D00D7C151 /* AppDelegate.swift */; };
+		D18DAE75230B3C3D00D7C151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18DAE73230B3C3D00D7C151 /* Main.storyboard */; };
+		D18DAE7A230B3C3F00D7C151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18DAE78230B3C3F00D7C151 /* LaunchScreen.storyboard */; };
+		D1BCDD7F230DB69B00986A18 /* WebRESTAPINetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BCDD7E230DB69B00986A18 /* WebRESTAPINetworkController.swift */; };
+		FB202E1123AAAA1800A1083C /* ShiftableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB202E1023AAAA1800A1083C /* ShiftableViewController.swift */; };
+		FB202E1323AD6B2500A1083C /* String+IsValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB202E1223AD6B2400A1083C /* String+IsValidEmail.swift */; };
+		FB27EFF623CCC76A00C7EA9A /* onboardingBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27EFF523CCC76A00C7EA9A /* onboardingBackground.swift */; };
+		FB27EFFC23CD148600C7EA9A /* ux17MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27EFFB23CD148600C7EA9A /* ux17MapView.storyboard */; };
+		FB67982B23CEEE42009E0D87 /* MenuSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67982A23CEEE41009E0D87 /* MenuSectionTableViewCell.swift */; };
+		FB67982D23CF7F34009E0D87 /* MenuDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67982C23CF7F34009E0D87 /* MenuDelegateProtocol.swift */; };
+		FB67982F23CF93AA009E0D87 /* NetworkControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67982E23CF93A9009E0D87 /* NetworkControllerProtocol.swift */; };
+		FB67983123CFC35F009E0D87 /* CustomSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67983023CFC35E009E0D87 /* CustomSideMenuNavigationController.swift */; };
+		FB67983323CFD215009E0D87 /* VehicleList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB67983223CFD215009E0D87 /* VehicleList.storyboard */; };
+		FB67983523CFD32F009E0D87 /* VehicleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67983423CFD32F009E0D87 /* VehicleListTableViewController.swift */; };
+		FB67983723CFD5CA009E0D87 /* VehicleModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67983623CFD5CA009E0D87 /* VehicleModelController.swift */; };
+		FB67983A23D1055B009E0D87 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67983923D1055B009E0D87 /* UserController.swift */; };
+		FB67983C23D10F38009E0D87 /* UserControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67983B23D10F38009E0D87 /* UserControllerProtocol.swift */; };
+		FB67983E23D114D4009E0D87 /* VehicleModelControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67983D23D114D4009E0D87 /* VehicleModelControllerProtocol.swift */; };
+		FB67984423D121E1009E0D87 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67984323D121E1009E0D87 /* ModelController.swift */; };
+		FB67984723D12E52009E0D87 /* AvoidanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67984623D12E52009E0D87 /* AvoidanceController.swift */; };
+		FB67984923D13CD2009E0D87 /* AvoidanceControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67984823D13CD2009E0D87 /* AvoidanceControllerProtocol.swift */; };
+		FB954F5C23D60CA900E638BE /* ARSLineProgressCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5223D60CA500E638BE /* ARSLineProgressCustomization.swift */; };
+		FB954F5D23D60CA900E638BE /* ARSLineProgressTypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5323D60CA600E638BE /* ARSLineProgressTypeAliases.swift */; };
+		FB954F5E23D60CA900E638BE /* ARSProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5423D60CA600E638BE /* ARSProgressLoader.swift */; };
+		FB954F5F23D60CA900E638BE /* ARSLineProgressHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5523D60CA600E638BE /* ARSLineProgressHelpers.swift */; };
+		FB954F6023D60CA900E638BE /* ARSLineProgressExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5623D60CA700E638BE /* ARSLineProgressExtensions.swift */; };
+		FB954F6123D60CA900E638BE /* ARSInfiniteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5723D60CA700E638BE /* ARSInfiniteLoader.swift */; };
+		FB954F6223D60CA900E638BE /* ARSLineProgressProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5823D60CA700E638BE /* ARSLineProgressProtocols.swift */; };
+		FB954F6323D60CA900E638BE /* ARSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5923D60CA800E638BE /* ARSStatus.swift */; };
+		FB954F6423D60CA900E638BE /* ARSLineProgressConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5A23D60CA800E638BE /* ARSLineProgressConstants.swift */; };
+		FB954F6523D60CA900E638BE /* ARSLineProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954F5B23D60CA900E638BE /* ARSLineProgress.swift */; };
+		FBAA2B7923A8383F00D6E4B7 /* OnboardingLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAA2B7823A8383F00D6E4B7 /* OnboardingLogin.storyboard */; };
+		FBAA2B7D23A839D100D6E4B7 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAA2B7C23A839D100D6E4B7 /* SignIn.storyboard */; };
+		FBBABF8523A976DB0067B28F /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBABF8423A976DA0067B28F /* OnboardingViewController.swift */; };
+		FBBABF8723A991F40067B28F /* Onboarding2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBABF8623A991F40067B28F /* Onboarding2ViewController.swift */; };
+		FBD1AFE223C39C6000377F7C /* SKSignupBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1AFE123C39C5F00377F7C /* SKSignupBackground.swift */; };
+		FBD1AFE723C3E2F900377F7C /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1AFE623C3E2F900377F7C /* PasswordTextField.swift */; };
+		FBE19F9223CD41E40046837C /* ux17MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE19F9123CD41E40046837C /* ux17MapViewController.swift */; };
+		FBE19F9A23CD6FB10046837C /* HamburgerMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE19F9923CD6FB10046837C /* HamburgerMenu.storyboard */; };
+		FBE19F9C23CD72200046837C /* ux17SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE19F9B23CD72200046837C /* ux17SideMenuTableViewController.swift */; };
+		FBE19F9F23CD78140046837C /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE19F9E23CD78140046837C /* MenuItemTableViewCell.swift */; };
+		FBE19FA123CD78550046837C /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE19FA023CD78550046837C /* MenuItem.swift */; };
+		FBE19FA423CD7B1E0046837C /* MenuItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE19FA323CD7B1E0046837C /* MenuItemController.swift */; };
+		FBE19FA823CD831F0046837C /* Menu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE19FA723CD831F0046837C /* Menu.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11321C96E6A7079557B2F0C7 /* Pods_RVNav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVNav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		321DE98623A83D5300521AAB /* Heebo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Light.ttf"; sourceTree = "<group>"; };
+		321DE98823A83D5D00521AAB /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
+		321DE98A23A83D6600521AAB /* Heebo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.ttf"; sourceTree = "<group>"; };
+		321DE98C23A83D6F00521AAB /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
+		321DE98E23A83D7800521AAB /* Heebo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		321DE99023A83D8100521AAB /* Heebo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Black.ttf"; sourceTree = "<group>"; };
+		321DE99423A8464E00521AAB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		321DE99723A84AD800521AAB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		321DE9BE23A97BD700521AAB /* LandingPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandingPage.storyboard; sourceTree = "<group>"; };
+		321DE9C023A9927400521AAB /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		3231CA3E23CD28EC008CDBA5 /* AddVehicle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddVehicle.storyboard; sourceTree = "<group>"; };
+		3231CA4023CD2BAD008CDBA5 /* AddVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddVehicleViewController.swift; path = RVNav/AddVehicle/Storyboards/AddVehicleViewController.swift; sourceTree = SOURCE_ROOT; };
+		3231CA4423CD5B1F008CDBA5 /* RVTypePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RVTypePickerViewController.swift; path = RVNav/AddVehicle/Storyboards/RVTypePickerViewController.swift; sourceTree = SOURCE_ROOT; };
+		3243786F23CF84AC00539257 /* FirebaseNetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNetworkController.swift; sourceTree = "<group>"; };
+		3243787723D12A5F00539257 /* AddVehicleViewController+TextFieldFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AddVehicleViewController+TextFieldFlow.swift"; sourceTree = "<group>"; };
+		32F788AF23AAA0B400C234FC /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		3633CBCE01B89D25C153A07B /* Pods-RVNav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RVNav.debug.xcconfig"; path = "Target Support Files/Pods-RVNav/Pods-RVNav.debug.xcconfig"; sourceTree = "<group>"; };
+		446F3902230DA7FC00D57DE3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		447831E523146AC5007D50E7 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		447831E923146D65007D50E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447831EA23146D65007D50E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44EAD663231EF5FC00094531 /* RVSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVSettings.swift; sourceTree = "<group>"; };
+		80D357CCD59793445EA2F617 /* Pods-RVNav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RVNav.release.xcconfig"; path = "Target Support Files/Pods-RVNav/Pods-RVNav.release.xcconfig"; sourceTree = "<group>"; };
+		D11ABC2B2318DF6A0046F7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D11ABC2F2318EA240046F7D3 /* MapBoxDirectionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBoxDirectionsController.swift; sourceTree = "<group>"; };
+		D122B33F2326EF6F00A4C3DE /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		D185F9552322FABE00E4C64A /* Avoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avoid.swift; sourceTree = "<group>"; };
+		D18DAE6C230B3C3C00D7C151 /* RVNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RVNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18DAE6F230B3C3D00D7C151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D18DAE74230B3C3D00D7C151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D18DAE79230B3C3F00D7C151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1BCDD7E230DB69B00986A18 /* WebRESTAPINetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRESTAPINetworkController.swift; sourceTree = "<group>"; };
+		FB202E1023AAAA1800A1083C /* ShiftableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftableViewController.swift; sourceTree = "<group>"; };
+		FB202E1223AD6B2400A1083C /* String+IsValidEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+IsValidEmail.swift"; sourceTree = "<group>"; };
+		FB27EFF523CCC76A00C7EA9A /* onboardingBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingBackground.swift; sourceTree = "<group>"; };
+		FB27EFFB23CD148600C7EA9A /* ux17MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ux17MapView.storyboard; sourceTree = "<group>"; };
+		FB67982A23CEEE41009E0D87 /* MenuSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSectionTableViewCell.swift; sourceTree = "<group>"; };
+		FB67982C23CF7F34009E0D87 /* MenuDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDelegateProtocol.swift; sourceTree = "<group>"; };
+		FB67982E23CF93A9009E0D87 /* NetworkControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkControllerProtocol.swift; sourceTree = "<group>"; };
+		FB67983023CFC35E009E0D87 /* CustomSideMenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		FB67983223CFD215009E0D87 /* VehicleList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VehicleList.storyboard; sourceTree = "<group>"; };
+		FB67983423CFD32F009E0D87 /* VehicleListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListTableViewController.swift; sourceTree = "<group>"; };
+		FB67983623CFD5CA009E0D87 /* VehicleModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModelController.swift; sourceTree = "<group>"; };
+		FB67983923D1055B009E0D87 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		FB67983B23D10F38009E0D87 /* UserControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserControllerProtocol.swift; sourceTree = "<group>"; };
+		FB67983D23D114D4009E0D87 /* VehicleModelControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModelControllerProtocol.swift; sourceTree = "<group>"; };
+		FB67984323D121E1009E0D87 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		FB67984623D12E52009E0D87 /* AvoidanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidanceController.swift; sourceTree = "<group>"; };
+		FB67984823D13CD2009E0D87 /* AvoidanceControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidanceControllerProtocol.swift; sourceTree = "<group>"; };
+		FB954F5223D60CA500E638BE /* ARSLineProgressCustomization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSLineProgressCustomization.swift; sourceTree = "<group>"; };
+		FB954F5323D60CA600E638BE /* ARSLineProgressTypeAliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSLineProgressTypeAliases.swift; sourceTree = "<group>"; };
+		FB954F5423D60CA600E638BE /* ARSProgressLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSProgressLoader.swift; sourceTree = "<group>"; };
+		FB954F5523D60CA600E638BE /* ARSLineProgressHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSLineProgressHelpers.swift; sourceTree = "<group>"; };
+		FB954F5623D60CA700E638BE /* ARSLineProgressExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSLineProgressExtensions.swift; sourceTree = "<group>"; };
+		FB954F5723D60CA700E638BE /* ARSInfiniteLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSInfiniteLoader.swift; sourceTree = "<group>"; };
+		FB954F5823D60CA700E638BE /* ARSLineProgressProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSLineProgressProtocols.swift; sourceTree = "<group>"; };
+		FB954F5923D60CA800E638BE /* ARSStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSStatus.swift; sourceTree = "<group>"; };
+		FB954F5A23D60CA800E638BE /* ARSLineProgressConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSLineProgressConstants.swift; sourceTree = "<group>"; };
+		FB954F5B23D60CA900E638BE /* ARSLineProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSLineProgress.swift; sourceTree = "<group>"; };
+		FBAA2B7823A8383F00D6E4B7 /* OnboardingLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingLogin.storyboard; sourceTree = "<group>"; };
+		FBAA2B7C23A839D100D6E4B7 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		FBBABF8423A976DA0067B28F /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		FBBABF8623A991F40067B28F /* Onboarding2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2ViewController.swift; sourceTree = "<group>"; };
+		FBD1AFE123C39C5F00377F7C /* SKSignupBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSignupBackground.swift; sourceTree = "<group>"; };
+		FBD1AFE623C3E2F900377F7C /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		FBE19F9123CD41E40046837C /* ux17MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ux17MapViewController.swift; path = "../../AddVehicle/View Controllers/ux17MapViewController.swift"; sourceTree = "<group>"; };
+		FBE19F9923CD6FB10046837C /* HamburgerMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HamburgerMenu.storyboard; sourceTree = "<group>"; };
+		FBE19F9B23CD72200046837C /* ux17SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ux17SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		FBE19F9E23CD78140046837C /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
+		FBE19FA023CD78550046837C /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		FBE19FA323CD7B1E0046837C /* MenuItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemController.swift; sourceTree = "<group>"; };
+		FBE19FA723CD831F0046837C /* Menu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Menu.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D18DAE69230B3C3C00D7C151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBC317DD08B231FEC646732 /* Pods_RVNav.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321DE99623A84A5600521AAB /* Font Files */ = {
+			isa = PBXGroup;
+			children = (
+				321DE98623A83D5300521AAB /* Heebo-Light.ttf */,
+				321DE98823A83D5D00521AAB /* Heebo-Regular.ttf */,
+				321DE98A23A83D6600521AAB /* Heebo-Medium.ttf */,
+				321DE98C23A83D6F00521AAB /* Heebo-Bold.ttf */,
+				321DE98E23A83D7800521AAB /* Heebo-ExtraBold.ttf */,
+				321DE99023A83D8100521AAB /* Heebo-Black.ttf */,
+			);
+			path = "Font Files";
+			sourceTree = "<group>";
+		};
+		321DE99923A84AE000521AAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				321DE99723A84AD800521AAB /* UIColor+Extension.swift */,
+				32F788AF23AAA0B400C234FC /* UserDefaults+Extension.swift */,
+				FB202E1223AD6B2400A1083C /* String+IsValidEmail.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B9BC457793135384B2C9052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11321C96E6A7079557B2F0C7 /* Pods_RVNav.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9326FAB956C45CAD0A34795B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3633CBCE01B89D25C153A07B /* Pods-RVNav.debug.xcconfig */,
+				80D357CCD59793445EA2F617 /* Pods-RVNav.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D18DAE63230B3C3C00D7C151 = {
+			isa = PBXGroup;
+			children = (
+				D18DAE6E230B3C3D00D7C151 /* RVNav */,
+				D18DAE6D230B3C3C00D7C151 /* Products */,
+				9326FAB956C45CAD0A34795B /* Pods */,
+				8B9BC457793135384B2C9052 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D18DAE6D230B3C3C00D7C151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18DAE6C230B3C3C00D7C151 /* RVNav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18DAE6E230B3C3D00D7C151 /* RVNav */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA2B7323A8370100D6E4B7 /* AddVehicle */,
+				FB954F5123D60C8100E638BE /* ARSLineProgress */,
+				321DE99923A84AE000521AAB /* Extensions */,
+				FBE19F9623CD6F200046837C /* Hamburger Menu */,
+				FBE19F9323CD43100046837C /* MapView */,
+				D1BCDD82230E0F6900986A18 /* ModelControllers */,
+				D1BCDD81230E0F5D00986A18 /* Models */,
+				FB67984523D123A4009E0D87 /* NetworkingControllers */,
+				FB67984A23D21921009E0D87 /* Protocols */,
+				D1BCDD84230E0F9500986A18 /* Resources */,
+				FBAA2B7423A8372300D6E4B7 /* Signup+SignIn */,
+				D1BCDD83230E0F8400986A18 /* Storyboards */,
+				D1BCDD80230E0F4C00986A18 /* ViewControllers */,
+			);
+			path = RVNav;
+			sourceTree = "<group>";
+		};
+		D1BCDD80230E0F4C00986A18 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D1BCDD81230E0F5D00986A18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				446F3902230DA7FC00D57DE3 /* User.swift */,
+				D185F9552322FABE00E4C64A /* Avoid.swift */,
+				447831E523146AC5007D50E7 /* Vehicle.swift */,
+				44EAD663231EF5FC00094531 /* RVSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D1BCDD82230E0F6900986A18 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB67984623D12E52009E0D87 /* AvoidanceController.swift */,
+				D11ABC2F2318EA240046F7D3 /* MapBoxDirectionsController.swift */,
+				FB67984323D121E1009E0D87 /* ModelController.swift */,
+				FB67983923D1055B009E0D87 /* UserController.swift */,
+				FB67983623CFD5CA009E0D87 /* VehicleModelController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		D1BCDD83230E0F8400986A18 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D18DAE73230B3C3D00D7C151 /* Main.storyboard */,
+				D18DAE78230B3C3F00D7C151 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D1BCDD84230E0F9500986A18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				321DE99623A84A5600521AAB /* Font Files */,
+				D11ABC2B2318DF6A0046F7D3 /* Assets.xcassets */,
+				D18DAE6F230B3C3D00D7C151 /* AppDelegate.swift */,
+				D122B33F2326EF6F00A4C3DE /* AppConfiguration.swift */,
+				447831EA23146D65007D50E7 /* GoogleService-Info.plist */,
+				447831E923146D65007D50E7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB27EFF723CD139400C7EA9A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3231CA3E23CD28EC008CDBA5 /* AddVehicle.storyboard */,
+				FB67983223CFD215009E0D87 /* VehicleList.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FB27EFF823CD13AB00C7EA9A /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		FB27EFF923CD13C700C7EA9A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3231CA4023CD2BAD008CDBA5 /* AddVehicleViewController.swift */,
+				3231CA4423CD5B1F008CDBA5 /* RVTypePickerViewController.swift */,
+				FB67983423CFD32F009E0D87 /* VehicleListTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FB67984523D123A4009E0D87 /* NetworkingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3243786F23CF84AC00539257 /* FirebaseNetworkController.swift */,
+				D1BCDD7E230DB69B00986A18 /* WebRESTAPINetworkController.swift */,
+			);
+			path = NetworkingControllers;
+			sourceTree = "<group>";
+		};
+		FB67984A23D21921009E0D87 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FB67984823D13CD2009E0D87 /* AvoidanceControllerProtocol.swift */,
+				FB67983B23D10F38009E0D87 /* UserControllerProtocol.swift */,
+				FB67983D23D114D4009E0D87 /* VehicleModelControllerProtocol.swift */,
+				FB67982E23CF93A9009E0D87 /* NetworkControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FB954F5023D60C4400E638BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3243787723D12A5F00539257 /* AddVehicleViewController+TextFieldFlow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB954F5123D60C8100E638BE /* ARSLineProgress */ = {
+			isa = PBXGroup;
+			children = (
+				FB954F5723D60CA700E638BE /* ARSInfiniteLoader.swift */,
+				FB954F5B23D60CA900E638BE /* ARSLineProgress.swift */,
+				FB954F5A23D60CA800E638BE /* ARSLineProgressConstants.swift */,
+				FB954F5223D60CA500E638BE /* ARSLineProgressCustomization.swift */,
+				FB954F5623D60CA700E638BE /* ARSLineProgressExtensions.swift */,
+				FB954F5523D60CA600E638BE /* ARSLineProgressHelpers.swift */,
+				FB954F5823D60CA700E638BE /* ARSLineProgressProtocols.swift */,
+				FB954F5323D60CA600E638BE /* ARSLineProgressTypeAliases.swift */,
+				FB954F5423D60CA600E638BE /* ARSProgressLoader.swift */,
+				FB954F5923D60CA800E638BE /* ARSStatus.swift */,
+			);
+			path = ARSLineProgress;
+			sourceTree = "<group>";
+		};
+		FBAA2B7323A8370100D6E4B7 /* AddVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				FB954F5023D60C4400E638BE /* Extensions */,
+				FB27EFF923CD13C700C7EA9A /* View Controllers */,
+				FB27EFF823CD13AB00C7EA9A /* Custom Controls */,
+				FB27EFF723CD139400C7EA9A /* Storyboards */,
+			);
+			path = AddVehicle;
+			sourceTree = "<group>";
+		};
+		FBAA2B7423A8372300D6E4B7 /* Signup+SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA2B7723A8381100D6E4B7 /* Custom Views */,
+				FBAA2B7623A8378500D6E4B7 /* View Controllers */,
+				FBAA2B7523A8376D00D6E4B7 /* Storyboards */,
+			);
+			path = "Signup+SignIn";
+			sourceTree = "<group>";
+		};
+		FBAA2B7523A8376D00D6E4B7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA2B7823A8383F00D6E4B7 /* OnboardingLogin.storyboard */,
+				FBAA2B7C23A839D100D6E4B7 /* SignIn.storyboard */,
+				321DE9BE23A97BD700521AAB /* LandingPage.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FBAA2B7623A8378500D6E4B7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				321DE99423A8464E00521AAB /* SignInViewController.swift */,
+				FBBABF8423A976DA0067B28F /* OnboardingViewController.swift */,
+				FBBABF8623A991F40067B28F /* Onboarding2ViewController.swift */,
+				321DE9C023A9927400521AAB /* LandingPageViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FBAA2B7723A8381100D6E4B7 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1AFE123C39C5F00377F7C /* SKSignupBackground.swift */,
+				FB202E1023AAAA1800A1083C /* ShiftableViewController.swift */,
+				FBD1AFE623C3E2F900377F7C /* PasswordTextField.swift */,
+				FB27EFF523CCC76A00C7EA9A /* onboardingBackground.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		FBE19F9323CD43100046837C /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				FBE19F9523CD43330046837C /* Storyboards */,
+				FBE19F9423CD43240046837C /* View Controllers */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		FBE19F9423CD43240046837C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBE19F9123CD41E40046837C /* ux17MapViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FBE19F9523CD43330046837C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB27EFFB23CD148600C7EA9A /* ux17MapView.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FBE19F9623CD6F200046837C /* Hamburger Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FBE19F9D23CD77DC0046837C /* Custom Controlls */,
+				FBE19FA523CD7B2A0046837C /* Model Controllers */,
+				FBE19FA223CD78E70046837C /* Models */,
+				FBE19FA623CD82F20046837C /* Resources */,
+				FBE19F9823CD6F900046837C /* Storyboards */,
+				FBE19F9723CD6F820046837C /* View Controllers */,
+			);
+			path = "Hamburger Menu";
+			sourceTree = "<group>";
+		};
+		FBE19F9723CD6F820046837C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBE19F9B23CD72200046837C /* ux17SideMenuTableViewController.swift */,
+				FB67983023CFC35E009E0D87 /* CustomSideMenuNavigationController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FBE19F9823CD6F900046837C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FBE19F9923CD6FB10046837C /* HamburgerMenu.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FBE19F9D23CD77DC0046837C /* Custom Controlls */ = {
+			isa = PBXGroup;
+			children = (
+				FBE19F9E23CD78140046837C /* MenuItemTableViewCell.swift */,
+				FB67982A23CEEE41009E0D87 /* MenuSectionTableViewCell.swift */,
+			);
+			path = "Custom Controlls";
+			sourceTree = "<group>";
+		};
+		FBE19FA223CD78E70046837C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBE19FA023CD78550046837C /* MenuItem.swift */,
+				FB67982C23CF7F34009E0D87 /* MenuDelegateProtocol.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FBE19FA523CD7B2A0046837C /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBE19FA323CD7B1E0046837C /* MenuItemController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		FBE19FA623CD82F20046837C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBE19FA723CD831F0046837C /* Menu.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18DAE6B230B3C3C00D7C151 /* RVNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18DAE7E230B3C3F00D7C151 /* Build configuration list for PBXNativeTarget "RVNav" */;
+			buildPhases = (
+				565F972343E4688B9F29839A /* [CP] Check Pods Manifest.lock */,
+				D18DAE68230B3C3C00D7C151 /* Sources */,
+				D18DAE69230B3C3C00D7C151 /* Frameworks */,
+				D18DAE6A230B3C3C00D7C151 /* Resources */,
+				730BC2605FF70D053DA271EB /* [CP] Embed Pods Frameworks */,
+				66EE6A4D817481F92202114A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVNav;
+			productName = RVNav;
+			productReference = D18DAE6C230B3C3C00D7C151 /* RVNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18DAE64230B3C3C00D7C151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = RVNav;
+				TargetAttributes = {
+					D18DAE6B230B3C3C00D7C151 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D18DAE67230B3C3C00D7C151 /* Build configuration list for PBXProject "RVNav" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D18DAE63230B3C3C00D7C151;
+			productRefGroup = D18DAE6D230B3C3C00D7C151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18DAE6B230B3C3C00D7C151 /* RVNav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D18DAE6A230B3C3C00D7C151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321DE99123A83D8100521AAB /* Heebo-Black.ttf in Resources */,
+				D18DAE7A230B3C3F00D7C151 /* LaunchScreen.storyboard in Resources */,
+				447831EC23146D65007D50E7 /* GoogleService-Info.plist in Resources */,
+				FBAA2B7D23A839D100D6E4B7 /* SignIn.storyboard in Resources */,
+				321DE98F23A83D7800521AAB /* Heebo-ExtraBold.ttf in Resources */,
+				321DE9BF23A97BD700521AAB /* LandingPage.storyboard in Resources */,
+				FB27EFFC23CD148600C7EA9A /* ux17MapView.storyboard in Resources */,
+				FBAA2B7923A8383F00D6E4B7 /* OnboardingLogin.storyboard in Resources */,
+				321DE98723A83D5300521AAB /* Heebo-Light.ttf in Resources */,
+				D11ABC2C2318DF6A0046F7D3 /* Assets.xcassets in Resources */,
+				321DE98B23A83D6600521AAB /* Heebo-Medium.ttf in Resources */,
+				3231CA3F23CD28EC008CDBA5 /* AddVehicle.storyboard in Resources */,
+				321DE98D23A83D6F00521AAB /* Heebo-Bold.ttf in Resources */,
+				D18DAE75230B3C3D00D7C151 /* Main.storyboard in Resources */,
+				321DE98923A83D5D00521AAB /* Heebo-Regular.ttf in Resources */,
+				FBE19FA823CD831F0046837C /* Menu.xcassets in Resources */,
+				FBE19F9A23CD6FB10046837C /* HamburgerMenu.storyboard in Resources */,
+				FB67983323CFD215009E0D87 /* VehicleList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		565F972343E4688B9F29839A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RVNav-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66EE6A4D817481F92202114A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RVNav/Pods-RVNav-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RVNav/Pods-RVNav-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RVNav/Pods-RVNav-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		730BC2605FF70D053DA271EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RVNav/Pods-RVNav-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RVNav/Pods-RVNav-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RVNav/Pods-RVNav-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D18DAE68230B3C3C00D7C151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB954F6423D60CA900E638BE /* ARSLineProgressConstants.swift in Sources */,
+				446F3903230DA7FC00D57DE3 /* User.swift in Sources */,
+				FB67983723CFD5CA009E0D87 /* VehicleModelController.swift in Sources */,
+				3231CA4123CD2BAD008CDBA5 /* AddVehicleViewController.swift in Sources */,
+				FB202E1123AAAA1800A1083C /* ShiftableViewController.swift in Sources */,
+				FB67982D23CF7F34009E0D87 /* MenuDelegateProtocol.swift in Sources */,
+				FB202E1323AD6B2500A1083C /* String+IsValidEmail.swift in Sources */,
+				FBE19F9F23CD78140046837C /* MenuItemTableViewCell.swift in Sources */,
+				FB67982B23CEEE42009E0D87 /* MenuSectionTableViewCell.swift in Sources */,
+				FB67983E23D114D4009E0D87 /* VehicleModelControllerProtocol.swift in Sources */,
+				FB954F6023D60CA900E638BE /* ARSLineProgressExtensions.swift in Sources */,
+				FB67982F23CF93AA009E0D87 /* NetworkControllerProtocol.swift in Sources */,
+				FB954F6123D60CA900E638BE /* ARSInfiniteLoader.swift in Sources */,
+				FB67984723D12E52009E0D87 /* AvoidanceController.swift in Sources */,
+				FB954F5C23D60CA900E638BE /* ARSLineProgressCustomization.swift in Sources */,
+				321DE99823A84AD800521AAB /* UIColor+Extension.swift in Sources */,
+				D18DAE70230B3C3D00D7C151 /* AppDelegate.swift in Sources */,
+				FB67983523CFD32F009E0D87 /* VehicleListTableViewController.swift in Sources */,
+				3243787023CF84AC00539257 /* FirebaseNetworkController.swift in Sources */,
+				FB954F5D23D60CA900E638BE /* ARSLineProgressTypeAliases.swift in Sources */,
+				FB67984923D13CD2009E0D87 /* AvoidanceControllerProtocol.swift in Sources */,
+				D11ABC302318EA240046F7D3 /* MapBoxDirectionsController.swift in Sources */,
+				FB27EFF623CCC76A00C7EA9A /* onboardingBackground.swift in Sources */,
+				FBBABF8523A976DB0067B28F /* OnboardingViewController.swift in Sources */,
+				D185F9562322FABE00E4C64A /* Avoid.swift in Sources */,
+				FB67984423D121E1009E0D87 /* ModelController.swift in Sources */,
+				FBBABF8723A991F40067B28F /* Onboarding2ViewController.swift in Sources */,
+				FB67983A23D1055B009E0D87 /* UserController.swift in Sources */,
+				FB954F5F23D60CA900E638BE /* ARSLineProgressHelpers.swift in Sources */,
+				FB954F6223D60CA900E638BE /* ARSLineProgressProtocols.swift in Sources */,
+				44EAD664231EF5FC00094531 /* RVSettings.swift in Sources */,
+				FBE19FA423CD7B1E0046837C /* MenuItemController.swift in Sources */,
+				FBD1AFE723C3E2F900377F7C /* PasswordTextField.swift in Sources */,
+				3231CA4523CD5B1F008CDBA5 /* RVTypePickerViewController.swift in Sources */,
+				3243787823D12A5F00539257 /* AddVehicleViewController+TextFieldFlow.swift in Sources */,
+				447831E623146AC5007D50E7 /* Vehicle.swift in Sources */,
+				FBD1AFE223C39C6000377F7C /* SKSignupBackground.swift in Sources */,
+				FB954F6323D60CA900E638BE /* ARSStatus.swift in Sources */,
+				32F788B023AAA0B400C234FC /* UserDefaults+Extension.swift in Sources */,
+				FB954F5E23D60CA900E638BE /* ARSProgressLoader.swift in Sources */,
+				FBE19F9223CD41E40046837C /* ux17MapViewController.swift in Sources */,
+				D1BCDD7F230DB69B00986A18 /* WebRESTAPINetworkController.swift in Sources */,
+				FB67983123CFC35F009E0D87 /* CustomSideMenuNavigationController.swift in Sources */,
+				FBE19FA123CD78550046837C /* MenuItem.swift in Sources */,
+				321DE9C123A9927400521AAB /* LandingPageViewController.swift in Sources */,
+				321DE99523A8464E00521AAB /* SignInViewController.swift in Sources */,
+				FB67983C23D10F38009E0D87 /* UserControllerProtocol.swift in Sources */,
+				FB954F6523D60CA900E638BE /* ARSLineProgress.swift in Sources */,
+				D122B3402326EF6F00A4C3DE /* AppConfiguration.swift in Sources */,
+				FBE19F9C23CD72200046837C /* ux17SideMenuTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D18DAE73230B3C3D00D7C151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18DAE74230B3C3D00D7C151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D18DAE78230B3C3F00D7C151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18DAE79230B3C3F00D7C151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D18DAE7C230B3C3F00D7C151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D18DAE7D230B3C3F00D7C151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D18DAE7F230B3C3F00D7C151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3633CBCE01B89D25C153A07B /* Pods-RVNav.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = "$(SRCROOT)/RVNav/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.rvnav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D18DAE80230B3C3F00D7C151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D357CCD59793445EA2F617 /* Pods-RVNav.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = "$(SRCROOT)/RVNav/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.rvnav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D18DAE67230B3C3C00D7C151 /* Build configuration list for PBXProject "RVNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18DAE7C230B3C3F00D7C151 /* Debug */,
+				D18DAE7D230B3C3F00D7C151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18DAE7E230B3C3F00D7C151 /* Build configuration list for PBXNativeTarget "RVNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18DAE7F230B3C3F00D7C151 /* Debug */,
+				D18DAE80230B3C3F00D7C151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D18DAE64230B3C3C00D7C151 /* Project object */;
+}
