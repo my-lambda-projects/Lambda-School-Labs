@@ -1,0 +1,95 @@
+// Find Active Fires Button
+.form-btn {
+  cursor: pointer;
+  width: 10.9rem;
+  height: 5rem;
+  background: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.109);
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: #251400;
+  @include easeOut;
+
+  @media (max-width: $mq-mobile) {
+    background: #ffffff;
+    border-radius: 3px;
+    width: 6rem;
+    height: 4rem;
+  }
+}
+
+.fas {
+  margin-left: -3.2rem;
+  margin-top: 1.2rem;
+  z-index: 100;
+
+  @media (max-width: $mq-mobile) {
+    margin-top: 0.7rem;
+  }
+}
+
+.signup-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 50.1rem;
+  left: 16.1rem;
+  width: 13.6rem;
+  height: 4.8rem;
+  background: #ffffff;
+  border-radius: 3px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.9rem;
+  line-height: 3.9rem;
+  color: #251400;
+  @include easeOut;
+
+  @media (max-device-width: $mq-mobile) {
+    display: block;
+    position: absolute;
+    top: 57.1rem;
+    left: 13.1rem;
+    width: 10.6rem;
+    height: 4rem;
+    background: #ffffff;
+    font-size: 2rem;
+    line-height: 3.9rem;
+  }
+
+  @media (max-device-width: $mq-tablet) {
+    display: block;
+  }
+}
+
+// .default-btn {
+//   margin-top: 1rem;
+//   background-color: $orange;
+//   border-radius: 2px;
+//   cursor: pointer;
+//   color: white;
+//   font-size: 1.5rem;
+//   width: 119.95px;
+//   height: 38px;
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+//   justify-content: center;
+//   align-self: flex-end;
+//   border: none;
+
+//   @include easeOut;
+
+//   &:hover {
+//     background-color: lighten($orange, 10%);
+//     @include easeOut;
+//   }
+
+//   // @media (max-width: $mq-tablet) {
+//   //   width: 50%;
+//   // }
+// }

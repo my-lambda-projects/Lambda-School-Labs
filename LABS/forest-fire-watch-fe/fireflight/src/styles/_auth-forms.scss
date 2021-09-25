@@ -1,0 +1,66 @@
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  .input-containers {
+    @media (max-width: 800px) {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+// Auth Input Icons
+// .fa-user-circle,
+// .fa-key,
+// .fa-lock {
+//   background-color: #355c7d;
+//   border-top-left-radius: 5px;
+//   border-bottom-left-radius: 5px;
+//   border-top-right-radius: 0;
+//   border-bottom-right-radius: 0;
+//   color: #fff;
+//   padding: 14px 7px;
+// }
+
+// Sign In and Sign Up Forms
+.form-input {
+  border: 0.8px solid #737373;
+  box-sizing: border-box;
+  border-radius: 1px;
+  padding: 15px;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 4rem;
+  margin-top: 1rem;
+
+  // &::placeholder {
+  //   color: black;
+  //   opacity: 0.8;
+  // }
+
+  // @include mediaLg {
+  //   width: 75%;
+  // }
+
+  @media (max-width: 800px) {
+    // position: absolute;
+    margin: 0 auto;
+    width: 24rem;
+    height: 3rem;
+    // left: 69px;
+    // top: 184px;
+
+    background: #ffffff;
+    border: 0.8px solid #969696;
+  }
+}
+
+// Login and Signup Error Text
+.name-error-text {
+  max-width: 24rem;
+  border-radius: 5px;
+  color: red;
+  margin-top: 10px;
+  width: 100%;
+  z-index: 10;
+}

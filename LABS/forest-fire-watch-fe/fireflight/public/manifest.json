@@ -1,0 +1,25 @@
+{
+  "short_name": "Wildfire Watch",
+  "name": "Wildfire Watch",
+  "icons": [
+    {
+      "src": "favicon.PNG",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/PNG"
+    },
+    {
+      "src": "favicon.PNG",
+      "type": "image/PNG",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon.PNG",
+      "type": "image/PNG",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
