@@ -1,0 +1,313 @@
+@media (min-width: 801px){
+.landing{
+    /* background: #31353D; */
+    background: #584573;
+    background-image: url('./randologo5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    display: flex;
+    width: 185%;
+    height: 820px;
+    /* padding-left: 42.5%; */
+    justify-content: center;
+    align-items: flex-end;
+}
+
+ .nav-about{
+    /* align-self: flex-end; */
+    /* margin-left: 9.5%; */
+    /* width: 50%; */
+    display: flex;
+    /* margin-right: 5%; */
+    
+    /* flex-direction: column; */
+} 
+
+#nav-login{
+    margin-top: 0%;
+    margin-left: 0%;
+    left: 20px;
+    padding-bottom: 3%;
+    /* padding-left: 35%; */
+}
+
+/* .nav-signup{
+    margin-top: 2.3%;
+    margin-left: -4%;
+} */
+
+#nav-button{
+    color: #352847;
+    background-color: #a894c5;
+    /* font-size: 100%; */
+    font-weight: 800;
+    border-left-color: #352847;
+    border-right-color: #352847;
+    border-bottom-color: #352847;
+    border-top: #352847;
+    border: 1px solid #352847;
+    text-align: center;
+    width: 100%;
+    /* margin-top: 5%; */
+    margin-left: 8%;
+}
+
+#nav-button:hover{
+    background-color: whitesmoke;
+    color: #352847;
+    font-weight: 900;
+    text-align: center;
+}
+
+#about-button{
+    
+    /* align-self: flex-end; */
+    background-color: #352847;
+    border-left-color: #352847;
+    border-right-color: #352847;
+    border-bottom-color: #352847;
+    border-top: #352847;
+    border: 1px solid #352847;
+    text-align: center;
+    width: 120%;
+    height: 50px;
+    font-weight: 900;
+    padding: 0;
+    margin-left: 0%;
+    /* align-self: flex-end; */
+    /* margin-right: 15%; */
+    /* margin-left: 315%; */
+}
+
+#nav-logconf-button{
+    color: #352847;
+    background-color: #a894c5;
+    /* font-size: 100%; */
+    font-weight: 800;
+    border-left-color: #352847;
+    border-right-color: #352847;
+    border-bottom-color: #352847;
+    border-top: #352847;
+    border: 1px solid #352847;
+    text-align: center;
+    width: 100%;
+    /* margin-top: 5%; */
+    /* margin-left: 8%; */
+}
+
+
+#about-button:hover{
+    background-color: whitesmoke;
+    color: #352847;
+    /* font-weight: 900; */
+    /* text-align: center; */
+}
+
+.Alert-msg{
+    color: red;
+}
+
+.Alert-success{
+    background-color: white;
+    color: #775d9b;
+    margin-top: 5%;
+    width: 100%;
+    font-size: 95%;
+    font-weight: 1000;
+    text-align: center;
+    border: 1px solid white;
+    /* padding: 0 5%; */
+}
+
+.mobile{
+    visibility: hidden;
+}
+
+
+.description{
+    color: black;
+}
+
+#Nav-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-right: 6%;
+    margin-left: 4%;
+}
+
+}
+
+@media (max-width:800px){
+
+    .landing{
+        background-image: url('./randologo5.jpg');
+        background-repeat: no-repeat;
+        background-position: top, center;
+        background-size: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        min-width: 100%;
+        text-align: center;
+        max-height: 667px;
+        font-size: 300%;   
+        color: #fff;
+        padding-left: 0%;
+        overflow: hidden;
+        /* margin-bottom: 70%; */
+    }
+    .nav.nav{
+        background: none;
+        
+    }
+    .nav{
+        background: none;
+        margin: 0;
+        padding: 0;
+        height:150px;
+    }
+
+    .nav-link{
+        background: none;
+    }
+
+    .nav-about{
+        /* align-self: center; */
+        /* background-color: aliceblue; */
+        display:flex;
+        /* flex-direction: row; */
+        /* margin: 50%; */
+        /* border: 1px greenyellow; */
+        /* left: 0;
+        right:0; */
+        /* padding-top:50%; */
+        /* border: 1px #352847; */
+        /* font-family: Arial, Helvetica, sans-serif; */
+        align-items: center;
+        justify-content: center;
+        /* align-self: ; */
+    }
+
+    #about-button{
+        /* margin-top: 50%; */
+        align-self: center;
+        background-color: #584573;
+        width: 385px; 
+        height: 75px;
+        align-content: center;
+        margin-left: -25px;
+    }
+    
+    #nav-login{
+        display:flex;
+        flex-direction: row;
+        margin: 50%;
+        left: 20px;
+        /* background-color: bisque; */
+        border: 0 none;
+        padding: 0%;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        height: 500px;
+        width: 375px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    #nav-button{
+        align-self: center;
+        background-color: #584573;
+        border: 1px #352847;
+        /* box-shadow: 0 3px 1px 0 #352847;  */ 
+        height: 75px;
+        width: 375px;
+        align-content: center;
+        margin-left: 0px;
+    }
+
+    /* #nav-button.signUpButton{
+        width:500px;
+    }
+
+    #nav-button.loginButton{
+        width: 500px;
+    } */
+    
+    .modalFooter.modal-footer{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    .description{
+        color: black;
+    }
+
+    .modalHeader{
+        background-color: #584573;
+        color: #fff;
+    }
+
+    #nav-button.modalSignup.btn.btn-secondary{
+        background-color: #584573;
+        color: #fff;
+        width: 100%;
+        height: 50px;
+    }
+    #nav-button.modalConfirm.btn.btn-secondary{
+        background-color: #584573;
+        color: #fff;
+        width: 100%;
+        height: 50px;
+    }
+}
+@media(max-width: 400px){
+    .landing{
+        background-image: url('./randologo5.jpg');
+        background-repeat: no-repeat;
+        background-position: top, center;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        min-width: 100%;
+        text-align: center;
+        min-height: 667px;
+        font-size: 300%;   
+        color: #fff;
+        justify-content: center;
+        /* font-family: 'Gill Sans'; */
+        padding-left: 0%;
+        overflow: hidden;
+        margin-bottom: 70%;
+    }
+    
+    /* #nav-button{
+        width:300px;
+    } */
+
+    .modalFooter.modal-footer{
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    #nav-button.modalSignup.btn.btn-secondary{
+        background-color: #584573;
+        color: #fff;
+        width: 150px;
+        height: 50px;
+    }
+    #nav-button.modalConfirm.btn.btn-secondary{
+        background-color: #584573;
+        color: #fff;
+        width: 150px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,449 @@
+/* @media(min-width: 1142px){ */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background: blue; */
+  /* height: 1000px;   */
+  background: rgb(230, 230, 230);  
+  border-radius: .25rem;  
+  height: 100%; 
+}
+
+.main_contents {
+  width: 100%;
+  height: 100%;
+}
+
+.top-section {
+  /* border: 5px solid maroon; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  height: 15%;
+}
+
+
+
+.classid_container {
+  /* border: 5px solid palegreen; */
+  width: 20%;
+  display: flex;
+  /* border: 5px solid #584573; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  /* width: 50%; */
+  height: 40%;
+  font-size: 2.0rem;
+  margin-bottom: 3%;
+
+}
+
+.header_container {
+  /* border: 5px solid tomato; */
+  width: 40%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex: wrap;
+  /* background: rgba(87, 68, 114, 0.451); */
+  /* border: 5px solid blueviolet; */
+  height: 100%;
+  width: 100%;
+
+  /* margin-left: 3%;   */
+  /* height: 100%;   */
+}
+
+.swal-overlay {
+  background-color: rgba(87, 68, 114, 0.451);
+}
+
+.swal-modal {
+  background-color: white;
+}
+
+.swal-title {
+  font-size: 24px;
+  color: hsl(265, 25%, 36%);
+}
+
+.swal-text {
+  padding: 0px 16px;
+  display: block;
+  margin: 0px 10px;
+  color: hsl(265, 25%, 36%);
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #584573;
+  font-size: 12px;
+  border: 1px solid #584573;
+  /* text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3); */
+  box-shadow: none;
+}
+
+a {
+  height: 50px;
+}
+
+.participated {
+  border: 2px dashed black;
+}
+
+.header_container{
+  width: 25%;
+  height: 150px;
+}
+
+.studentName {
+  font-size: 1.5em;
+  /* font-style: 1; */
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background: #584573;
+  color: white;
+  border: 5px solid #322842;
+  /* line-height: 1; */
+}
+
+.on_deck{
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  font-size: 1.2rem;
+  margin-top: 2%;
+}
+
+#declined {
+  /* TODO: Remove this hack */
+  border: 2px dashed black;
+
+  /* line-height: 0.6; */
+  padding: 10px 19px;
+
+  /* padding-right: 2%; */
+  height: 60px;
+  background-color: #322842;
+  border-color: whitesmoke;
+  border-style: solid;
+  color: whitesmoke;
+
+  transition: all 0.5s ease;
+  margin-left: 1%;
+}
+
+#Rando-top-button {
+  border: 2px dashed black;
+  padding: 10px;
+  height: 60px;
+  margin-right: 1%;
+  background-color: #322842;
+  border-color: whitesmoke;
+  border-style: solid;
+  color: whitesmoke;
+  transition: all 0.5s ease;
+}
+
+#declined:hover {
+  background-color: whitesmoke;
+  color: #584573;
+  transition: all 0.5s ease;
+}
+
+#Rando-top-button:hover {
+  background-color: whitesmoke;
+  color: rgb(87, 68, 114);
+  transition: all 0.5 s ease;
+}
+
+#AllGo-button {
+  border: 2px dashed black;
+  /* line-height: 0.6;   */
+  /* padding: 10px;   */
+  height: 100px;
+  background-color: #322842;
+  border-color: whitesmoke;
+  border-style: solid;
+  color: whitesmoke;
+  transition: all 0.5s ease;
+  margin-bottom: 13%;
+}
+
+#AllGo-button:hover {
+  background-color: whitesmoke;
+  color: #584573;
+  transition: all 0.5 s ease;
+}
+
+.edit_container {
+
+
+  width: 100%;
+}
+
+#edit {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+
+  background-color: #574472;
+
+  border-style: solid;
+  color: whitesmoke;
+  border-radius: 2%;
+  font-size: 1.2rem;
+}
+
+#edit:hover {
+  background-color: whitesmoke;
+  color: #574472;
+  transition: all 0.5 s ease;
+}
+
+.middle_container {
+  display: flex;
+  flex-wrap: wrap;
+  /* TODO: center and width = 100% at mobile. */
+  width: 100%;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.reset {
+  width: 109px;
+  margin: 90px;
+  margin-top: -3.3%;
+  height: 100px;
+  /* background: rgb(140, 140, 194); */
+}
+
+.reset_border {
+  font-size: 18px;
+  text-align: center;
+  border: 2px dashed black;
+  width: 105%;
+}
+
+.allgo-tracker {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* align-items: center; */
+  width: 102%;
+  height: 100px;
+  background-color: #584573;
+  color: white;
+  border-radius: 2%;
+  margin-left: 3px;
+  padding: 5px;
+}
+
+.allgo-tracker-num {
+  font-size: 30px;
+}
+
+.middle {
+  /* TODO: THIS IS WORKING CORRECTLY! - just need the correct image sizes! */
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-top: -50px;
+  /* padding-bottom: 100px; */
+}
+
+#Randomize-button {
+  /* border: 5px solid pink; */
+  /* padding-top: 70px;   */
+  /* padding-bottom: 70px;   */
+  /* background: rgb(230, 230, 230);  
+  color: #332259;   */
+  background: #332259;
+  color: rgb(230, 230, 230);
+  font-size: 380%;
+  width: 109%;
+  height: 300px;
+  transition: all 1s ease-in;
+  /* padding: 10% 0; */
+}
+
+#Randomize-button:hover {
+  background-color: #584573;
+
+  color: white;
+  /* padding: 20% 0; */
+  transition: all 10s ease;
+}
+
+.part_data {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* border: 5px solid brown; */
+}
+
+.part_data_title {
+  /* margin-bottom: 15px; */
+  text-align: center;
+  /* border: 5px solid red;  */
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.line_chart {
+  /* border: 5px solid red;  */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  /* background: blue; */
+  font-size: "23";
+  
+}
+
+.line_chart img {
+  /* max-width: 50%; */
+
+}
+
+
+
+svg text {
+  font-size: 1rem;
+  font-family: 'Acme', sans-serif;
+}
+
+.part_graph {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 300px;
+  padding-left: 38%;
+  padding-top: 4%;
+  font-size: 500%;
+  border: 2px solid #584573;
+  color: white;
+  background: #584573;
+}
+
+
+svg {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.part_data_off {
+
+  display: none;
+}
+
+.part_data_title_off {
+  display: none;
+}
+
+.part_graph_off {
+  display: none;
+}
+
+/* } */
+
+/* @media(max-width: 1290px){
+  #Randomize-button{
+    font-size: 
+  }
+
+} */
+
+/* .swal-overlay{
+  background-color: blue;
+} */
+
+@media(max-width: 420px){
+
+  .top-section {
+    /* border: 5px solid maroon; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 15%;
+  }
+  .classid_container {
+    /* border: 5px solid palegreen; */
+    width: 60%;
+    display: flex;
+    /* border: 5px solid #584573; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    /* width: 50%; */
+    height: 100%;
+    font-size: 2.5rem;
+    
+  
+  }
+  .header_container {
+  
+    
+    /* border: 5px solid tomato; */
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  .studentName {
+    width: 98%;
+  }
+
+  .on_deck{
+    text-align: center;
+    width: 98%;
+    /* border: 5px solid #322842; */
+    /* border-top: 0px; */
+  }
+
+  .edit_container {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 5px solid grey; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 80%;
+  }
+
+  #edit {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  
+    background-color: #574472;
+  
+    border-style: solid;
+    color: whitesmoke;
+    border-radius: 2%;
+    font-size: 1.2rem;
+  }
+
+}

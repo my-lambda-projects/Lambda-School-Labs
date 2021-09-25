@@ -1,0 +1,110 @@
+.set-div{
+    /* margin-bottom: 50%; */
+    margin-left: 0%;
+    width: 100%;
+    height: 852px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    padding-top: 5%;
+    /* border: 5px solid gold; */
+}
+
+#Form {
+    display:flex;
+    flex-direction: column;
+    border: 5px solid white;
+    background: rgb(230, 230, 230);
+    width: 60%;
+    height: 42%;
+}
+
+input.form-control {
+    width: 92%;
+    margin: 0% 4%;
+}
+
+.set-div_title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin: 2%;
+}
+
+.set-div button{
+    background-color: #584573;
+    border-left-color: #352847;
+    border-right-color: #352847;
+    border-bottom-color: #352847;
+    border-top: #584573;
+    transition: all 0.5s ease;
+    width: 10%;
+    margin: 2% 0% 0% 2%;
+    
+}
+
+.set-div button:hover{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: #584573;
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 800px){
+    .App{
+        justify-content: center;
+    }
+    #Form{
+        background-color: #584573;
+        border: none;
+        width: 375px;
+        height: 667px;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .set-div{
+        margin-top: 50px;
+        background-color: #584573;
+        color: #fff; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; 
+        width: 100%; 
+    }
+    .position-relative.form-group{
+        width:100%;
+    }
+    .topTitle{
+        align-content: center;
+    }
+    .set-div button{
+        align-content: center;
+        border-left-color: none;
+        border-right-color: none;
+        border-bottom-color: none;
+            /* border-top: #584573; */
+        transition: all 0.5s ease;
+        background-color: #584573;
+        box-shadow: 0 none; 
+        width: 100%; 
+        height: 75px;
+    }
+    .set-div button:hover{
+        /* background-color: #775d9b; */
+        border: 0 none;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        color: #fff;
+    }
+
+    .set-div button:active{
+        /* background-color: #775d9b; */
+        /* box-shadow: none; */
+        /* margin-bottom: -3px; */
+        /* margin-top: 3px; */
+        /* font-family: Arial, Helvetica, sans-serif; */
+        color: #fff;
+        background-color: none;
+    }  
+}

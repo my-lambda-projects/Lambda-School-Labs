@@ -1,0 +1,362 @@
+
+.SideDiv{
+    /* border: 1px solid black;  */
+    padding-bottom: 40%; 
+     padding-right: 0; 
+     width: 0%; 
+     height: 0px; 
+     margin: 0; 
+
+     background-color: #332259; 
+     border-radius: .25rem; 
+     text-align: left; 
+     padding: 0;
+   }
+ 
+  .side-link{
+    padding-bottom: 20%;
+    color: white;
+    background-color: #584573;
+    text-align: center;
+    transition: all 0.5s ease;
+  } 
+
+   .side-link:hover{
+    color: #332259;
+    background-color: whitesmoke;
+    border-color: #332259;
+    border: 5px;
+    transition: all 0.5s ease;
+  } 
+
+
+   .bar{
+    width: 40px;
+    height: 45px;
+    position: relative;
+    border: 5px solid #332259;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #584573;
+
+    opacity: 1;
+} 
+
+ .bar div{
+  height: 5px;
+  width: 20px;
+  background-color: whitesmoke;
+  position: absolute;
+  transition: all 1s ease;
+  
+}
+
+.bar .first{
+  top: 5px;
+  left: 16%;
+}
+
+.bar .second{
+  top: 14px;
+  left: 16%;
+}
+
+.bar .third{
+  top: 24px;
+  left: 16%;
+}
+
+.bar:hover .first {
+  transform: translateY(16px) rotate(-50deg);
+  transition: all 0.3s ease;
+  color: #445878;
+}
+
+.bar:hover .second{
+  opacity: 0;
+  transition: all 0.2s ease;
+  
+}
+
+.bar:hover .third{
+  transform: translateY(-16px) rotate(50deg);
+  transition: all 0.3s ease;
+  color: #445878;
+} 
+ 
+.bar:hover{
+  border-radius:50%;
+  transition: all 0.3s ease;  
+  background-color: #332259;
+}
+
+.dropbutton{
+  /* margin-left: %; */
+  /* margin-top: 40%; */
+  /* background-color: #BBD4D8; */
+  /* width: 50%; */
+  /* height: 5%; */
+}
+
+#dropmenu{
+  background-color: #332259;
+  border-color: #332259;
+  transition: all 0.3s ease;
+  opacity: 60%;
+}
+
+#dropdownitem:hover{
+  background-color: #584573;
+  /* border-color: #332259; */
+  border: 5px;
+  transition: all 0.3s ease;
+} 
+
+#dropdown-button{
+  background-color: rgb(230, 230, 230);
+  border: none;
+  padding: 0;
+  padding-left: 3px;
+  padding-top: 2px;
+  /* padding-left: 0px;
+  padding-top: 0px; */
+}
+
+.bottomDiv{
+  display: none;
+}
+
+@media only screen 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  {  
+ 
+.SideDiv{
+visibility: hidden;
+ }
+
+.side-link{
+visibility: hidden;
+} 
+
+.side-link:hover{
+visibility: hidden;
+} 
+
+
+ .bar{
+visibility: hidden;
+} 
+
+.bar div{
+visibility: hidden;
+}
+
+.bar .first{
+visibility: hidden;
+}
+
+.bar .second{
+visibility: hidden;
+}
+
+.bar .third{
+visibility: hidden;
+}
+
+.bar:hover .first {
+visibility: hidden;
+}
+
+.bar:hover .second{
+visibility: hidden;
+}
+
+.bar:hover .third{
+visibility: hidden;
+} 
+
+.bar:hover{
+visibility: hidden;
+}
+
+.dropbutton{
+visibility: hidden;
+}
+
+#dropmenu{
+visibility: hidden;
+}
+
+#dropdownitem:hover{
+visibility: hidden;
+} 
+
+#dropdown-button{
+visibility: hidden;
+}
+
+.bottomDiv{
+  /* display: unset; */
+  display: flex;
+  flex: 1;
+  /* background-color: greenyellow; */
+  /* color: #fff; */
+  /* height: 500px; */
+  /* width: 100%; */
+  /* order: 0; */
+  /* margin-top: auto; */
+  /* float: bottom; */
+  align-self: center;
+}
+
+#buttonGroup{
+  /* width: 100%; */
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* top: 100%; */
+  width: 100%;
+  margin-top: -2.5em;
+  background-color: #584573;
+  border: hidden;
+  color: #fff;
+  align-items: center;
+  /* justify-content: flex-end; */
+  /* width: 0px; */
+  /* min-width: 100%; */
+  /* margin-top: 100%; */
+  /* margin-top: -55px;
+  height: 55px; */
+}
+
+#sideBarButtonA{
+  align-items: center;
+  width:25%;
+  background-color: #584573;
+  color: #fff;
+  border: hidden;
+  /* margin-bottom: 50px; */
+}
+
+#sideBarButtonB{
+  align-items: center;
+  width:25%;
+  background-color: #584573;
+  color: #fff;
+  border: hidden;
+  /* margin-bottom: 50px; */
+}
+
+#sideBarButtonC{
+  align-items: center;
+  width:25%;
+  background-color: #584573;
+  color: #fff;
+  border: hidden;
+  /* margin-bottom: 50px; */
+}
+
+#sideBarButtonD{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:25%;
+  background-color: #584573;
+  color: #fff;
+  border: hidden;
+  /* margin-bottom: 50px; */
+}
+
+.nav{
+  background-color: #584573;
+  color: #fff;
+  border: hidden;
+}
+#buttomButton{
+  text-decoration-style: none;
+  background-color: #584573;
+  color: #fff;
+  height: 35px;
+  /* width: 100%; */
+  margin-top: -8px;
+  margin-bottom: -8px;
+  width: 100%;
+  transition: all 0.5s ease;
+  /* margin-right: -90px; */
+}
+
+#buttomButton:hover{
+  
+}
+
+.modal-content{
+  height: 300px;
+  color: #fff;
+}
+.modalFooter.modal-footer{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 15px; */
+  align-self: center;
+  justify-content: space-around;
+  border: hidden;
+  height: 100%;
+  color: #fff;
+}
+
+.modalHeader{
+  background-color: #584573;
+  color: #fff;
+}
+
+#modalSignup{
+  background-color: #584573;
+  color: #fff;
+}
+.nav-link{
+  background-color: #584573;
+  color: #fff;
+  border: hidden;
+}
+
+#nav-button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+}
+
+.btn.btn-secondary{
+  background-color: #584573;
+  color: #fff;
+  border: hidden;
+}
+.btn.btn-secondary:hover{
+  background-color: #775d9b
+}
+#buttonConfirm.btn.btn-secondary{
+  background-color: #584573;
+  color: #fff;
+  border: hidden;
+  border: 1px #352847;
+  box-shadow: 0 3px 1px 0 #352847; 
+  width: 300px; 
+  height: 75px;
+}
+
+#buttonConfirm:active{
+  background: #775d9b;
+  box-shadow: none;
+  margin-bottom: -3px;
+  margin-top: 3px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.logout-link{
+  color: #fff;
+}
+}

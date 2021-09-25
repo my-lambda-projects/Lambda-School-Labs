@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Notes:",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "mongoose": "^5.2.4",
+    "morgan": "^1.9.0",
+    "npm": "^6.3.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-payment": "^0.1.8",
+    "react-scripts": "1.1.4",
+    "stripe": "^6.7.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "10.6.0",
+    "npm": "6.1.0"
+  }
+}

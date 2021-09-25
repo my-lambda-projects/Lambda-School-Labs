@@ -1,0 +1,274 @@
+
+/* .tT_container{
+    background: yellow;
+} */
+
+.caro_container_tt {
+    display: flex;
+    flex-wrap: nowrap;
+    /* TODO: center and width = 100% at mobile. */
+    width: 101%;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 100%; */
+    height: 50%;
+    align-items: center;
+  }
+  
+  .caros_tt
+ {
+    /* TODO: THIS IS WORKING CORRECTLY! - just need the correct image sizes! */
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-bottom: 2%;
+    /* padding-bottom: 100px; */
+  }
+
+  .tT_Name_display{ 
+    width: 25%; 
+    padding-top: .5%; 
+} 
+  
+  #Randomize-button_tt
+ {
+    border: 5px solid green;
+    /* padding-top: 70px;   */
+    /* padding-bottom: 70px;   */
+    /* background: rgb(230, 230, 230);  
+    color: #332259;   */
+    background: #332259;
+    color: rgb(230, 230, 230);
+    font-size: 380%;
+    height: 300px;
+    transition: all 1s ease-in;
+    /* padding: 10% 0; */
+  }
+
+  #Participated-button_tt{  
+    border: 2px dashed black;  
+    /* line-height: 0.6;   */
+    padding: 10px;  
+    height: 60px;  
+    
+    background-color: #322842;  
+    border-color: whitesmoke;  
+    border-style: solid;  
+    color: whitesmoke;  
+    transition: all 0.5s ease;  
+  } 
+
+  #Participated-button_tt:hover{  
+    background-color: whitesmoke;  
+  color: rgb(87, 68, 114);  
+  transition: all 0.5 s ease;  
+  }
+
+  #Declined-button_tt { 
+    /* TODO: Remove this hack */
+    border: 2px dashed black;
+  
+    /* line-height: 0.6; */
+    padding: 10px 19px;
+    
+    /* padding-right: 2%; */
+    height: 60px;  
+    background-color: #322842;  
+    border-color: whitesmoke;  
+    border-style: solid;  
+    color: whitesmoke;  
+  
+    transition: all 0.5s ease; 
+  }
+
+  #Declined-button_tt:hover{  
+    background-color: whitesmoke;  
+    color: #584573;  
+    transition: all 0.5s ease;  
+    }  
+  
+  
+  #Rando-top-button_edit{
+    font-size: 100%;
+  }
+  
+  .reset_tt
+ {
+    width: 109px;
+    height: 100px;
+    /* background: rgb(140, 140, 194); */
+  }
+  
+  .reset_border_tt
+ {
+    font-size: 18px;
+    text-align: center;
+    border: 2px dashed black;
+    width: 105%;
+  }
+  
+  #AllGo-button_tt
+ {
+    border: 2px dashed black;
+    /* line-height: 0.6;   */
+    /* padding: 10px;   */
+    height: 100px;
+    background-color: #322842;
+    border-color: whitesmoke;
+    border-style: solid;
+    color: whitesmoke;
+    transition: all 0.5s ease;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  
+  .allgo-tracker_tt
+ {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 80px;
+    background-color: #584573;
+    color: white;
+    border-radius: 2%;
+    
+    padding: 5px;
+  }
+  
+  .allgo-tracker-num_tt
+ {
+    font-size: 30px;
+  }
+
+  .edit_container_tt{
+    width: 20%;
+    align-self: center;
+    margin-right: 2%;
+  }
+  
+  .classid_container_tt {
+    width: 25%;
+    display: flex;
+    
+  }
+
+  .classid_tt{
+    width: 63%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    background: #322842;
+    color: white;
+    /* border: 1px solid rgb(87, 68, 114); */
+    /* border: 5px solid goldenrod; */
+    height: 35%;
+    /* background: orange; */
+    margin-left: 16%;
+    align-self: center;
+    text-align: center;
+    padding-top:3%;
+    
+    
+
+  }
+
+
+  .tt_header{
+      display: flex;
+      justify-content: center;
+      /* flex: wrap; */
+      /* width: 80%;  */
+      /* border: 5px solid blueviolet; */
+    
+      width: 100%;  
+      /* margin-top: 1%; */
+      /* margin-left: 3%;   */
+      /* height: 100%;   */
+  }
+
+  .tt_header_container{
+      width: 75%;
+      height: 150px;
+      padding-top: 1%;
+      /* margin-top: 1%;s */
+  }
+
+  .studentName{
+    padding-top: 4%;
+  }
+
+  .on_deck_tt{
+    background: #584573;
+    color: white;
+    border: 4px #322842 solid;
+    height: 40px;
+    text-align: center;
+  }
+
+  @media(max-width: 880px){
+      .classid_tt{
+        width:85%;
+      }
+  }
+  @media(max-width: 680px){
+      .classid_container_tt{
+        width: 30%;
+      }
+      .classid_tt{
+        width:100%;
+      }
+  }
+  @media(max-width: 540px){
+      .caros_tt{
+          width: 20%;
+      }
+  }
+  @media(max-width: 445px){
+      .caros_tt{
+          width: 25%;
+      }
+      .classid_tt{
+        font-size: 70%;
+      }
+  }
+  @media(max-width: 380px){
+      #Participated-button_tt{
+        font-size: 80%;
+      }
+      #Declined-button_tt{
+        font-size:80%;
+      }
+  }
+
+  @media(max-width: 320px){
+
+      .classid_tt{
+        height: 35%;
+        font-size: 65%;
+
+      }
+      #Participated-button_tt{
+        font-size: 60%;
+      }
+      #Declined-button_tt{
+        font-size:60%;
+      }
+  }
+
+  @media(max-width: 268px){
+    #Rando-top-button_edit{
+      font-size: 65%;
+    }
+    .caros_tt{
+      font-size: 70%;
+  }
+
+  #Declined-button_tt{
+    padding: 10px 0;
+  }
+    
+  }
+
+

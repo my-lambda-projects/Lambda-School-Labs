@@ -1,0 +1,343 @@
+.Form-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(229, 229, 229);
+}
+
+.Form-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 1%;
+  margin-top: 5%;
+  /* border: 5px solid magenta; */
+  height: 74%;
+}
+
+.Form-container_left {
+  width: 45%;
+  min-width: 480px;
+  height: 100%;
+  border: 5px solid white;
+  /* background: hsl(263, 60%, 70%); */
+  /* background:#775d9b */
+    /* border: 5px solid magenta; */
+
+}
+
+.title_student-list {
+  font-size: 1.6rem;
+  text-align: start;
+  text-align: center;
+}
+
+.Classname-box {
+  /* border: 5px solid gold; */
+  width: 100%;
+  height: 15%;
+}
+
+.Classname-box_content {
+  /* border: 5px solid magenta; */
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0% 10%;
+  height: 100%;
+  
+}
+
+.title_Classname {
+  font-size: 1.6rem;
+  text-align: start;
+  width: 30%;
+}
+
+
+
+.Classname-input {
+  width: 100%;
+}
+
+.Options-box {
+  /* border: 5px solid gold; */
+  width: 100%;
+  height: 30%;
+}
+
+.Options-box_content {
+  /* border: 5px solid magenta; */
+  border-top: 2px solid hsl(265, 40%, 60%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0% 10%;
+  height: 98%;
+  padding: 1% 0%;
+}
+
+.title_Options {
+  font-size: 1.6rem;
+  text-align: start;
+  width: 30%;
+}
+
+
+
+.position-relative.form-check {
+  width: 100%;
+}
+
+#Reset-button {
+  background-color: #322842;
+  border-left-color: #352847;
+  border-right-color: #352847;
+  border-bottom-color: #352847;
+  border-top: #584573;
+  transition: all 0.5s ease;
+  height: 35px;
+  margin: 5px 0px;
+  width: 70%;
+}
+
+#Reset-button:hover {
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  color: #584573;
+  transition: all 0.5s ease;
+}
+
+.Add-box {
+  /* border: 5px solid gold; */
+  width: 100%;
+ 
+  height: 35%;
+}
+
+.Add-box_content {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+  margin: 0% 10%;
+  height: 98%;
+  border-top: 2px solid hsl(265, 40%, 60%);
+  padding: 1% 0%;
+}
+
+.title_Add {
+  font-size: 1.6rem;
+  text-align: start;
+  width: 50%;
+}
+
+
+
+#Add-button {
+  /* margin-left: -13%; */
+  background-color: #322842;
+  border-left-color: #352847;
+  border-right-color: #352847;
+  border-bottom-color: #352847;
+  border-top: #584573;
+  transition: all 0.5s ease;
+}
+
+#Add-button a{
+  color: white;
+  text-decoration: none;
+}
+
+#Add-button:hover {
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  color: #584573;
+  transition: all 0.5s ease;
+}
+
+.CSV-box {
+  /* border: 5px solid gold; */
+  width: 100%;
+ 
+  height: 20%;
+}
+
+.CSV-box_content {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+  margin: 0% 10%;
+  border-top: 2px solid hsl(265, 40%, 60%);
+  padding: 1% 0%;
+  /* border: 5px solid gold; */
+
+
+}
+
+.title_CSV {
+  font-size: 1.6rem;
+  text-align: start;
+  margin-bottom: 12px;
+}
+
+
+
+.List-box {
+  /* border: 5px solid gold; */
+  width: 45%;
+  min-width: 510px;
+
+  background: white;
+}
+
+.List-box_content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0% 0%;
+  height: 87%;
+  /* border: 5px solid magenta; */
+}
+
+.List-display{
+  margin-bottom: 20%;
+}
+
+#student-button{
+  background: #584573;
+  color: white;
+}
+
+#student-button:hover{
+  background-color: rgb(56, 3, 49);
+
+}
+
+#Class-submit-button.btn.btn-secondary {
+  /* margin-left: -18%;
+      margin-top: 4.5%; */
+  display: flex;
+  background-color: #352847;
+  border-left-color: #352847;
+  border-right-color: #352847;
+  border-bottom-color: #352847;
+  border-top: #352847;
+  transition: all 0.5s ease;
+  height: 40px;
+  width: 30%;
+  margin: 0% 35%;
+  /* border: 5px solid magenta; */
+
+  justify-content: center;
+}
+
+#Class-submit-button.btn.btn-secondary:hover {
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  color: #584573;
+  transition: all 0.5s ease;
+}
+
+.dropdown-toggle.btn.btn-secondary {
+  background: hsl(263, 60%, 70%);
+  color: black;
+  border-radius: 0%;
+  margin: 2px;
+}
+
+
+
+@media (max-width: 1022px) {
+  .Form-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 5%;
+    /* border: 5px solid magenta; */
+    height: 100%;
+  }
+  .Form-container_left{
+    width: 45%;
+    height: 50%;
+    min-width: 480px;
+  }
+
+  .Classname-input {
+    width: 70%;
+  }
+  .List-box {
+    /* border: 5px solid blue; */
+
+    width: 45%;
+    min-width: 480px;
+    background: white;
+    height: 50%;
+  }
+  .position-relative.form-check {
+    width: 50%;
+  }
+
+
+}
+
+@media (max-width: 541px) {
+
+  .Form-container_left{
+    width: 45%;
+    height: 50%;
+    min-width: 300px;
+  }
+
+  .Classname-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Classname-box_content {
+    /* border: 5px solid green; */
+
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    width: 80%;
+   
+  }
+
+  .title_Classname {
+    font-size: 1.6rem;
+    width: 100%;
+  }
+  
+  
+  
+  .Classname-input {
+    width: 100%;
+  }
+
+  #Reset-button {
+    margin: 0px;;
+  }
+
+  .List-box {
+    width: 45%;
+    min-width: 300px;
+    /* border: 5px solid blue; */
+    background: white;
+    height: 50%;
+  }
+
+}

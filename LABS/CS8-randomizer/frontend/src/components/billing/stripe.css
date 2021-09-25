@@ -1,0 +1,70 @@
+.Stripe-div{
+    /* margin-left: 45%;
+    margin-top: 20%; */
+
+    margin-left: 0%;
+    width: 100%;
+    height: 852px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    padding-top: 5%;
+    padding: 4% 2% 0;
+}
+
+.Stripe-button{
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.Stripe-option{
+    margin-left: 5%;
+    width: 15%;
+    color: #322842;
+}
+.Stripe-option-label{
+    margin-left: 40%;
+    width: 20%;
+    color: #322842;
+    border: 3px solid #322842;
+    padding: 1%;
+    /* margin-bottom: 20%; */
+}
+
+@media (max-width:1070px){       
+    .Stripe-div{
+        background-color: #584573;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        height: 600px;
+        /* margin-bottom: 55%;      */
+    }
+
+    .Stripe-button{
+        color: #fff;
+        width: 150px;
+        align-self: center;
+        margin-left: 0%;
+    }
+    
+    .Stripe-option{
+        display: none;
+        color: #fff;
+        width: 50px;
+    }
+
+    .Stripe-option-label.form-check-label{
+        color: #fff;
+        border: 0px;
+        width:250px;
+        margin-left: 0%;
+        align-self: center;
+        order: -1;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 0%;
+        margin-top: -25%;
+    }
+}

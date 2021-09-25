@@ -1,0 +1,60 @@
+
+
+.checkout_paymentinfo {
+  border: 2px solid black;
+  padding: 10px 0px;
+  background: white;
+  
+ 
+}
+
+#CardElement {
+  box-shadow: none;  
+}
+
+.checkout_subscribe {
+  margin-top: 10px;
+  margin-left: 2%;
+  
+}
+
+input.subscribe_input{
+margin-right: 10px;
+}
+
+button.checkout_button {
+  display: flex;
+  margin-top: 30px;
+  background-color: #584573;
+  border-left-color: #352847;
+  border-right-color: #352847;
+  border-bottom-color: #352847;
+  border-top: #584573;
+  transition: all 0.5s ease;
+}
+
+div.checkout button.checkout_button.btn.btn-secondary:hover{
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  color: #584573;
+  transition: all 0.5s ease;
+}
+
+@media(max-width: 800px){
+  button.checkout_button {
+    margin-top: 2%;
+    background-color: #584573;
+    border-left-color: none;
+    border-right-color: none;
+    border-bottom-color: none;
+    border-top: none;
+    transition: all 0.5s ease;
+    align-self: center;
+  }
+  div.checkout button.checkout_button.btn.btn-secondary:hover{
+    background-color: #584573;
+    border: none;
+    color: #fff;
+    transition: none;
+  }
+}

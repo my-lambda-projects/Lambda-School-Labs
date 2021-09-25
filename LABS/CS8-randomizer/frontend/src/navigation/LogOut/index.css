@@ -1,0 +1,154 @@
+.dropdown{
+    /* color:blue; */
+    
+}
+
+#logout-button{
+    background-color: #322842;
+    border-left-color: #352847;
+    border-right-color: #352847;
+    border-bottom-color: #352847;
+    border-top: #584573;
+    text-align: center;
+    padding-bottom: 11.5px;
+    padding-top: 11.5px;
+    transition: all 0.5s ease;
+}
+
+#logout-button:hover{
+    background-color: whitesmoke;
+    color: #584573;
+    transition: all 0.5s ease;
+}
+
+#logout-dropdown{
+    background-color: #e9ecef;
+    color:#322842;
+    /* text-align: center; */
+    /* padding-left: 1%; */
+    /* width: 5px; */
+    margin-top: -10px;
+    padding-top: 0px;
+    height: 19px;
+    margin-left: 10%;
+    padding-left: 70%;
+    /* bottom: 57px; */
+    border: none;
+    
+    
+}
+
+#logout-dropdown a{
+    text-decoration-style: none;
+    color: #322842;
+    transition: all 0.3s ease;
+    /* width: 1%; */
+    
+    
+    
+}
+
+#logout-dropdown a:hover{
+    /* background-color: #322842; */
+    color: #e9ecef;
+    transition: all 0.3s ease;
+}
+
+/* #logout-dropdown:hover{
+    background-color: #322842;
+    color: #e9ecef;
+} */
+
+
+.logout-link{
+    /* width: .2%; */
+    padding-left: 26%;   
+    transition: all 0.3s ease;
+}
+.logout-link:hover{
+    /* width: .2%; */
+    background-color: #322842;
+    color: #e9ecef;
+    transition: all 0.3s ease;
+}
+@media (max-width: 1070px){
+    #logout-button{
+        display: none;
+        background-color: #584573;
+        border-left-color: #352847;
+        border-right-color: #352847;
+        border-bottom-color: #352847;
+        border-top: #584573;
+        text-align: center;
+        padding-bottom: 11.5px;
+        padding-top: 11.5px;
+        transition: all 0.5s ease;
+    }
+    
+    #logout-button:hover{
+        background-color: #775d9b;
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+    #logout-button:active{
+        background-color: #775d9b;
+        box-shadow: none;
+        margin-bottom: -3px;
+        margin-top: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+    
+    #logout-dropdown{
+        background-color: #584573;
+        color:#fff;
+        /* text-align: center; */
+        /* padding-left: 1%; */
+        /* width: 5px; */
+        /* margin-top: -10px; */
+        padding-top: 0px;
+        height: 50px;
+        /* width: 10px; */
+        /* margin-left: 10%; */
+        /* padding-left: 70%; */
+        /* bottom: 57px; */
+        /* border: 1px, greenyellow; */
+        
+        
+    }
+    
+    #logout-dropdown a{
+        text-decoration-style: none;
+        color: #fff;
+        transition: all 0.3s ease;
+        /* width: 1%; */
+        background-color: #775d9b;
+        
+        
+    }
+    
+    #logout-dropdown a:hover{
+        /* background-color: #322842; */
+        color: #fff;
+        transition: all 0.3s ease;
+        background-color: #775d9b;
+    }
+    
+    /* #logout-dropdown:hover{
+        background-color: #322842;
+        color: #e9ecef;
+    } */
+    
+    
+    .logout-link{
+        /* width: .2%; */
+        padding-left: 26%;   
+        transition: all 0.3s ease;
+    }
+    .logout-link:hover{
+        /* width: .2%; */
+        background-color: #775d9b;
+        color: #e9ecef;
+        transition: all 0.3s ease;
+    }
+}
