@@ -1,0 +1,52 @@
+.nav-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  position: fixed;
+  z-index: 2;
+}
+
+.nav-container > * {
+  flex: 1 100%; /* We tell all items to be 100% width, via flex-basis */
+}
+
+.breadcrumb-spacing {
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+.topNav-container {
+  display: flex;
+  background-color: #6AEF9C;
+  padding: 15px 15px 15px 15px;
+}
+
+.signout-container {
+  width: 180px;
+  display: flex;
+  margin-top: 15px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+  text-align: center;
+}
+
+.signout-container a {
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+  top: -5px;
+}
+
+.signout {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.credits {
+  margin-right: 16px;
+}

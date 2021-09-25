@@ -1,0 +1,96 @@
+.NavBar {
+  width: 200px;
+}
+
+.side-nav {
+  height: 100%;
+  width: 200px;
+  /* margin-left: 15px; */
+  /* margin-top: 25px; */
+  position: fixed;
+  top: 46px;
+  left: 0px;
+  padding-top: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  text-align: left;
+  background-color: #6DC7E9;
+  overflow: hidden;
+}
+
+/* unvisited link */
+.side-nav a:link {
+  color: #005abb;
+  text-decoration: none;
+}
+
+/* visited link */
+.side-nav a:visited {
+  color: #005abb;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.side-nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* selected link */
+.side-nav a:active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.invoices1 {
+  text-decoration-line: none;
+  font: black;
+}
+
+.invoices2 {
+  display: flex;
+  margin-bottom: 20px;
+  text-decoration-line: none;
+  font-size: 18px;
+  font: black;
+}
+
+.billing {
+  margin-bottom: 20px;
+  text-decoration-line: none;
+  font-size: 18px;
+  font: black;
+}
+
+.create-invoice {
+  margin-bottom: 20px;
+  text-decoration-line: none;
+  font-size: 18px;
+  font: black;
+}
+
+@media (max-width: 768px) {
+  .NavBar {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 130px;
+    margin-top: 46px;
+    width: 100%;
+  }
+  
+  .side-nav {
+      height: 130px;
+      padding-left: 15px;
+      display: flex;
+      flex-direction: column;
+      font-weight: 700;
+      text-align: left;
+      overflow: hidden;
+      width: 100%;
+      align-items: center;
+      z-index: 2;
+  }
+}

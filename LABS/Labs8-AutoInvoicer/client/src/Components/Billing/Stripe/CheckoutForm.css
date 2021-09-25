@@ -1,0 +1,37 @@
+.checkout {
+  text-align: center;
+}
+
+.card-wrapper {
+  width: 500px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.checkout button {
+  background: none;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  width: 200px;
+  height: 75px;
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.card-element-class {
+  height: 36px;
+  position: relative;
+  top: 10px;
+}
+
+/* made changes after UX meeting */

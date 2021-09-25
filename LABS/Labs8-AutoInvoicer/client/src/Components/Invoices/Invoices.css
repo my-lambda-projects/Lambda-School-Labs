@@ -1,0 +1,168 @@
+.container {
+  margin: 56px auto 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.invoices {
+  display: flex;
+  width: 100%;
+  flex-wrap:wrap;
+  overflow: visible;
+  justify-content: flex-start;
+}
+
+.invoice {
+  border: solid 1px #d3d3d3;
+  border-radius: 5px;
+  padding: 3%;
+  Margin: 0.5%;
+  display: flex;
+  flex-direction: column;
+  width: 266px;
+  max-height: 295px;
+  background: #fff;
+}
+
+.invoice h4 {
+  font-family: "Teko", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.invoice p {
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.status-circle-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}
+
+.paid {
+  background: #6AEF9C;
+}
+
+.partially-paid {
+  background: #efdd43;
+}
+
+.unpaid {
+  background: #e62d2d;
+}
+
+.late {
+  font-weight: 700;
+}
+
+.create-new-invoice {
+  border: solid 1px #d3d3d3;
+  border-radius: 5px;
+  padding: 4%;
+  Margin: 0.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 266px;
+  max-height: 295px;
+  background: #fff;
+}
+
+.create-new-invoice p {
+  margin: unset;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.create-new-invoice button {
+  border: none;
+  color: white;
+  background: #007bff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-size: 46px;  
+}
+
+.create-new-invoice button:hover{
+  color: black;
+  background: #6bc3f9;
+}
+
+@media (min-width: 50px) {
+  .container {
+    margin: 178px auto 0;
+    justify-content: center;
+  }
+
+  .invoices {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 400px) {
+
+  .invoice {
+    width: 362px;
+    max-width: 362px;
+    min-width: 150px;
+  }
+
+  .create-new-invoice {
+    max-width: 266px;
+    min-width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin-left: 5%;
+    margin-top: 52px;
+    justify-content: flex-start;
+  }
+
+  .invoices {
+    justify-content: flex-start;
+  }
+
+  .invoice {
+    min-width: 150px;
+    max-width: 266px;
+  }
+
+  .create-new-invoice {
+    min-width: 150px;
+    max-width: 266px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    margin-left: 2%;
+  }
+
+  .invoice {
+    width: 266px;
+  }
+}
+
+@media (min-width: 1345px) {
+  .container {
+    margin-left: 0%;
+  }
+}
