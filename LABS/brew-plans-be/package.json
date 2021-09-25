@@ -1,0 +1,50 @@
+{
+  "name": "brew-plans-be",
+  "version": "1.0.0",
+  "description": "Lambda Labs Backend",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon",
+    "start": "node index.js",
+    "test": "cross-env DB_ENV=testing jest --verbose --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambda-School-Labs/brew-plans-be.git"
+  },
+  "author": "Lambda Labs Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lambda-School-Labs/brew-plans-be/issues"
+  },
+  "homepage": "https://github.com/Lambda-School-Labs/brew-plans-be#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "connect-ensure-login": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "firebase-admin": "^8.6.1",
+    "helmet": "^3.20.0",
+    "json-web-token": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.2",
+    "knex-cleaner": "^1.2.1",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth2": "^0.1.6",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.12.1",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
