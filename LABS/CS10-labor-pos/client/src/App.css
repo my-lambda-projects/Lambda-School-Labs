@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.hero-image {
+  background-color: #130e00;
+  width: auto;
+  height: 100%;
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+label {
+  margin-top: -10px;
+  text-shadow: 0.5px 0.5px 1px black;
+  font-family: "Helvetica, Arial";
+  font-size: 16px;
+}
+legend {
+  width: 0% !important;
+}
+select {
+  text-shadow: 0.5px 0.5px 1px black;
+}
