@@ -1,0 +1,28 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "Landing Page for FireFlight App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labs15-forest-fire/landing_page.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "fire",
+    "flight",
+    "app",
+    "wildfire"
+  ],
+  "author": "Eric Nunn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labs15-forest-fire/landing_page/issues"
+  },
+  "homepage": "https://github.com/labs15-forest-fire/landing_page#readme",
+  "dependencies": {}
+}
