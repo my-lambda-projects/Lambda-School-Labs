@@ -1,0 +1,6 @@
+html, body, #root, #root>div, #BackgroundID {
+  height: 100%;
+}
+#name1, #name2{
+  height: 40px;
+}
