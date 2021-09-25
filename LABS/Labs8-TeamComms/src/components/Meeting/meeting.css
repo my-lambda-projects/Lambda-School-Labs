@@ -1,0 +1,138 @@
+.text-ctn {
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.548);
+  display: flex;
+  flex-flow: column;
+  padding-left: 10px;
+  height: 450px;
+  text-align: left;
+  margin: 25px 30px;
+  border-radius: 15px;
+  color: rgb(233, 227, 227);
+  font-size: 1.05rem;
+  font: bold;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.text-box {
+  margin-top: 20px;
+  height: 300px;
+}
+
+
+.err-msg {
+  color: red;
+  bottom: 0;
+  position: absolute;
+}
+
+.input-ctn {
+  height: 70px;
+  width: 90%;
+  display: flex;
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 80%;
+  margin-right: 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.493);
+  padding-left: 10px;
+  outline: none;
+}
+
+.submit-button {
+  width: 20%;
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: rgba(37, 37, 245, 0.61);
+  outline: none;
+}
+
+.p-tabview-selected {
+  background-color: #25bea0 !important;
+}
+
+.custom .p-scrollpanel-bar {
+  background-color: lightgrey;
+  opacity: 1;
+
+}
+
+.custom .p-scrollpanel-bar-x {
+  display: none;
+}
+
+
+.tabcustom {
+  width: 80%;
+}
+
+.p-tabview-panel {
+  width: 100%;
+}
+
+.p-tabview {
+  width: 80%;
+  margin-top: 20px;
+}
+
+@media(max-width: 768px) {
+
+
+  .p-tabview {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+
+td {
+  overflow-wrap: break-word;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.attendee .p-scrollpanel-wrapper {
+
+  width: 80%;
+  background: #fff;
+
+}
+
+.p-scrollpanel {
+
+  width: 60%;
+  background: #fff;
+
+}
+
+@media (max-width: 768px) {
+  .attendee .p-scrollpanel {
+
+    width: 100%;
+    background: #fff;
+
+  }
+
+  .p-scrollpanel {
+
+    width: 100%;
+    background: #fff;
+
+  }
+
+  .invited {
+    width: 100%;
+  }
+}
+
+.p-listbox .p-listbox-header .p-listbox-filter-container .p-listbox-filter-icon {
+  color: #25bea0 !important;
+}
