@@ -1,0 +1,4 @@
+USA,http://abigaylefranklin.com/smimgs/flagus.png,http://abigaylefranklin.com/smimgs/us.jpg
+Canada,http://abigaylefranklin.com/smimgs/flagca.png,http://abigaylefranklin.com/smimgs/canada.jpeg
+UK,http://abigaylefranklin.com/smimgs/flaggb.png,http://abigaylefranklin.com/smimgs/gb.jpg
+France,http://abigaylefranklin.com/smimgs/flagfr.png,http://abigaylefranklin.com/smimgs/france.jpg

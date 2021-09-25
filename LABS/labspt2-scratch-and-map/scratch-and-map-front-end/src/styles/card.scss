@@ -1,0 +1,12 @@
+.modalStyle {
+    @media screen and (max-width: 800px) {
+      width: 95% !important;
+      padding: 10px
+    }
+
+    img {
+        @media screen and (max-width: 800px) {
+            height: 20vw !important;
+          }
+    }
+  }
