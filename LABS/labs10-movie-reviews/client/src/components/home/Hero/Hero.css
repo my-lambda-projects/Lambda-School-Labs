@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+:root {
+  --main-font-color: rgb(237, 237, 233);
+  --overlay-color: rgba(35, 35, 35, 0.5);
+  --input-background-color: rgba(255, 255, 255, .7);
+  --button-hover-color: rgb(175,222,253);
+  --shadow: gray;
+}
+
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: top left;
+  filter: opacity(1);
+}
+
+.header-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  border-radius: 5px;
+  background-color: var(--overlay-color);
+}
+
+.app-name {
+  font-weight: bold;
+  opacity: 1;
+  color: var(--main-font-color);
+  margin: 0px 25px;
+  text-shadow: 2px 4px 4px var(--shadow);
+}
+
+.app-subtitle {
+  color: var(--main-font-color);
+}
+
+.landing-page-route-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+}
+
+.hero-input {
+  display: flex;
+  width: 40%;
+}
+.landing-label {
+  display:flex;
+  align-self: flex-start;
+  color: white;
+  font-weight: bold;
+}
+
+.landing-input {
+  width: 60% !important;
+  background-color:  var(--input-background-color) !important;
+  border-radius: 30px 0px 0px 30px !important;
+}
+
+.button {
+  width: 150px !important;
+  border: initial;
+  border-radius: 0px 30px 30px 0px !important;
+}
+
+.button:hover {
+  background-color: var(--button-hover-color) !important;
+}
+
+.input-label-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.call-to-action-buttons .button a {
+  color: var(--main-font-color);
+}
+
+
+
+
+
+.hidden {
+  display: none;
+}
+.search-results-query {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin: 50px 30px 0px 0px;
+  height: 50px;
+}
+
+.search-results-header {
+  margin: 10px 0px 0px 0px;
+  color: black;
+  font-size: large;
+  height: auto;
+}
+
+.search-results-length {
+  display:flex;
+  align-items: flex-end;
+  margin: 40px;
+}
+.query {
+  color: var(--button-color);
+  font-style: italic;
+  font-weight: bold;
+  font-size: medium;
+  margin-right: 10px;
+}
+
+.result-length {
+  font-style:italic;
+  font-weight: lighter;
+  margin-left: -10px;
+}
+.search-results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: black;
+  width: 100%;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 35px;
+  padding: 0px 30px;
+}
+
+.poster-img {
+  width: 200px;
+  height: auto;
+  align-self: center;
+}
+
+.result-overview {
+  text-align: left;
+}
+
+.linksMovie {
+  color: black;
+}
+
+@media only screen and (max-width: 576px) {
+  .hero {
+    min-width: 100%;
+    height: 35vh;
+  }
+
+  .app-name {
+    margin: 20px;
+  }
+
+  .app-subtitle {
+    display: block;
+  }
+  .landing-page-route-wrapper {
+    display: none;
+  }
+
+
+  .search-results-container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+  }
+  .search-results-query {
+    font-size: 1rem;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+  }
+
+  .search-results-query .search-label {
+    display:flex;
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  
+  .search-results-length {
+    display:flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+    width: 70%;
+    margin: 20px 0px;
+    justify-content: space-around;
+
+  }
+
+  .search-results-length .query {
+    font-size: .5em;
+    color: var(--button-color);
+    font-style: italic;
+    width: 45%;
+    text-align: right;
+    
+  }
+  .search-result-length .result-length {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: .5rem;
+
+  }
+
+  .result-card {
+    width: 100%;
+  }
+
+  .poster-img {
+    width:50%;
+    border-radius: 5px;
+  }
+
+  .linksMovie {
+    color: black;
+  }
+}

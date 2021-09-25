@@ -1,0 +1,46 @@
+.col-sm-4,
+.col-md-3 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.nopadding > div[class^='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.popular-img {
+  /* min-height: 38vh; */
+}
+
+.popular-title {
+  margin-bottom: 40px;
+  padding-top: 40px;
+  /* color: inherit; */
+}
+
+.movie-title {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  color: white;
+  size: 10px;
+  background-color: rgba(150, 150, 150, 0);
+  /* font-weight: 400; */
+  width: 100%;
+
+  padding-top: 0.2rem;
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+.title-text {
+  background-color: rgba(50, 50, 60, 1);
+  padding: 0;
+  /* font-size: 14px; */
+  font-weight: 500;
+}

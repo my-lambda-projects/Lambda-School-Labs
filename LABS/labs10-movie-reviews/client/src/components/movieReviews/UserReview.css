@@ -1,0 +1,38 @@
+.movie-profile-avatar {
+  border-radius: 50%;
+  height: 70px;
+}
+
+.dv-star-rating-non-editable {
+  font-size: 1.5rem;
+}
+
+.goFlex {
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .goFlex {
+    margin-left: 1rem;
+  }
+  .marginLeft {
+    margin-left: 1rem;
+  }
+}
+
+.spaceU {
+  /* width: 7rem; */
+  /* font-size: 0.8rem; */
+  margin-left: 1rem;
+  float: right;
+}
+
+.card-text {
+  line-height: 1.5rem;
+}
+
+/* @media (max-width: 991px) {
+  .card-text {
+    margin-left: 1rem;
+  }
+} */
