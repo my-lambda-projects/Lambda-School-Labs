@@ -1,0 +1,94 @@
+.aboutUs {
+    width: 100%;
+    height: 100vh;
+    background: #29D6D5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUs header {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+.aboutUs header img {
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.aboutUs__content {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    min-height: 20em;
+    border-radius: 5px;
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.aboutUs__contentTitle {
+    align-self: center;
+    margin: 5px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.aboutUs__contentBlurbs {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.blurb {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.blurb__img img {
+    height: 5em;
+    width: 5em;
+    border-radius: 5em;
+    margin: 0px 5px;
+    box-shadow: -4px -4px rgba(22, 128, 127,0.2);
+}
+.blurb__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 5px;
+}
+.blurb__title {
+    display: flex;
+    flex-direction: row;
+}
+.blurb__name {
+    font-size: 18px;
+    color: #16807F;
+    margin-right: 5px;
+}
+.blurb__link a {
+    margin: 0px 5px;
+}
+.blurb__text {
+    font-size: 14px;
+}
+
+
+
+
+
+.aboutUs button {
+    text-decoration: none;
+    border: none;
+    background: #16807F;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.return {
+    margin: 20px;
+    color: #16807F;
+    text-align: center;
+}

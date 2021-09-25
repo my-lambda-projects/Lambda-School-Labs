@@ -1,0 +1,31 @@
+{
+  "name": "bingo-card-generator-backend",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "json5": "^1.0.1",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.11",
+    "pdfkit": "^0.8.3",
+    "pdfmake": "^0.1.36",
+    "stripe": "^5.8.0",
+    "supertest": "^3.0.0",
+    "svg-to-pdfkit": "^0.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "jest": "^22.4.3"
+  }
+}

@@ -1,0 +1,41 @@
+ <!doctype html>
+ <html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+    <title>PDF View</title>
+  <link rel="stylesheet" type="text/css" src="./pdf/pdf_bingo.css"></script>
+  <script src="./pdf/util.js"></script>
+  <script src="./pdf/BingoCard.js"></script>
+  <script src="./pdf/build/json5v1.0.0.js"></script>
+	<script src="./pdf/build/pdfmake.min.js"></script>
+  <script src="./pdf/build/vfs_fonts.js"></script>
+  <script src="./pdf/build/jscolor.min.js"></script>
+  <script src="./pdf/card/bingoDat.js"></script>
+ </head>
+ <body style ="overflow-y:hidden; margin:0px; padding:4px; background-color:#484848;">
+    <div id="holdDiv" style="height:100%; background-color:#484848;" >
+        <input id="dd00_MAIN" type="button" onMouseDown="dropDown('dd00_MAIN')" value="#0-99" style="width:100px; background-color:white"></input>
+        <div id="dd00_div"style="max-width:150px; position:absolute; left:4px; top:26px; z-index:200; display:none;">
+            <input id="dd00_Bride" type="button" onMouseDown="dropDown('dd00_Bride')"onMouseOver="cssBgColor('dd00_Bride', '#a9aaa5')" onMouseOut="cssBgColor('dd00_Bride', '#5b5b5b')" value="Bride" style="width:100px; background-color:#5b5b5b; color:white;"></input>
+            <input id="dd00_Scare" type="button" onMouseDown="dropDown('dd00_Scare')"onMouseOver="cssBgColor('dd00_Scare', '#a9aaa5')" onMouseOut="cssBgColor('dd00_Scare', '#5b5b5b')" value="Scare" style="width:100px; background-color:#5b5b5b; color:white;"></input>
+            <input id="dd00_#0-65" type="button" onMouseDown="dropDown('dd00_#0-65')"onMouseOver="cssBgColor('dd00_#0-65', '#a9aaa5')" onMouseOut="cssBgColor('dd00_#0-65', '#5b5b5b')" value="#0-65" style="width:100px; background-color:#5b5b5b; color:white;"></input>
+            <input id="dd00_#0-99" type="button" onMouseDown="dropDown('dd00_#0-99')"onMouseOver="cssBgColor('dd00_#0-99', '#a9aaa5')" onMouseOut="cssBgColor('dd00_#0-99', '#5b5b5b')" value="#0-99" style="width:100px; background-color:#5b5b5b; color:white; display:none;"></input>
+            <input id="dd00_#0-300" type="button" onMouseDown="dropDown('dd00_#0-300')"onMouseOver="cssBgColor('dd00_#0-300', '#a9aaa5')" onMouseOut="cssBgColor('dd00_#0-300', '#5b5b5b')" value="#0-300" style="width:100px; background-color:#5b5b5b; color:white;"></input>
+            <input id="dd00_#0-500" type="button" onMouseDown="dropDown('dd00_#0-500')"onMouseOver="cssBgColor('dd00_#0-500', '#a9aaa5')" onMouseOut="cssBgColor('dd00_#0-500', '#5b5b5b')" value="#0-500" style="width:100px; background-color:#5b5b5b; color:white;"></input>
+            <input id="dd00_#0-999" type="button" onMouseDown="dropDown('dd00_#0-999')"onMouseOver="cssBgColor('dd00_#0-999', '#a9aaa5')" onMouseOut="cssBgColor('dd00_#0-999', '#5b5b5b')" value="#0-999" style="width:100px; background-color:#5b5b5b; color:white;"></input>
+        </div>
+        <input type="button" id = "jscolor_btn" class="jscolor {valueElement:'000000', onFineChange:'update(this, false)'}" value="Color" style="width:100px"></button>
+        <input id="List_PDF_btn" type="button" onMouseDown="toggleEdit('List');" value="List" style="display:none;width:100px; background-color:white;"></input>
+        <input id="Cells_PDF_btn" type="button" onMouseDown="toggleEdit('Cells')"  value="Cells" style="width:100px; background-color:white;"></input>
+        <button type="button" onClick="window.parent.postMessage(exportCard(), '*')" style="width:100px; background-color:white">Order</button>
+    <input type="text" id="input_field" size="3" minlength="1" maxlength="3" value="1"></input>
+      <div style="width:100px; height:8px;"></div>
+      <textarea id="List_area" cols="108" rows="32" style="resize:vertical; word-break:break-all; overflow-y:scroll; position:absolute; z-index:100; top:78px; left:20px; opacity:0.75; filter:alpha(opacity=75); display:none;">#0-99</textarea>
+      <textarea id="Cells_area" cols="108" rows="32" style="resize:vertical; word-break:break-all; overflow-y:scroll; position:absolute; z-index:101; top:78px; left:20px; opacity:0.75; filter:alpha(opacity=75); display:none;">#0-99</textarea>
+      <div id="PDFdiv"><object id="PDFobj"></object></div>
+    </div>
+    <script src="./pdf/index.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,30 @@
+<!doctype html>
+ <html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+    <title>PDF</title>
+ <link rel="stylesheet" type="text/css" src="./../../pdf/pdf_bingo.css"></script>
+  <script src="./../../pdf/util.js"></script>
+  <script src="./../../pdf/BingoCard.js"></script>
+  <script src="./../../pdf/build/json5v1.0.0.js"></script>
+	<script src="./../../pdf/build/pdfmake.min.js"></script>
+  <script src="./../../pdf/build/vfs_fonts.js"></script>
+  <script src="./../../pdf/build/jscolor.min.js"></script>
+  <script src="./../../pdf/card/bingoDat.js"></script>
+ </head>
+ <body style ="overflow-y:hidden; margin:0px; padding:4px; background-color:#484848;">
+    <div id="holdDiv" style="height:100%; background-color:#484848;" >
+        <input type="button" id = "jscolor_btn" class="jscolor {valueElement:'000000', onFineChange:'update(this, false)'}" value="Color" style="width:100px"></button>
+    <input type="text" id="input_field" size="3" minlength="1" maxlength="3" value="1"></input>
+        <input type="button" onMouseDown="goPDF('download', dd2, 'bingocards.pdf')" value="Download" style="width:100px; background-color:white"></input>
+       <input type="button" onMouseDown="window.parent.postMessage(exportCard(), '*')" value="^ Design  " style="width:100px; background-color:white"></input>
+      <div style="width:100px; height:8px;"></div>
+      <textarea id="List_area" cols="108" rows="32" style="resize:vertical; word-break:break-all; overflow-y:scroll; position:absolute; z-index:100; top:78px; left:20px; opacity:0.75; filter:alpha(opacity=75); display:none;">#0-99</textarea>
+      <textarea id="Cells_area" cols="108" rows="32" style="resize:vertical; word-break:break-all; overflow-y:scroll; position:absolute; z-index:101; top:78px; left:20px; opacity:0.75; filter:alpha(opacity=75); display:none;">#0-99</textarea>
+      <div id="PDFdiv"><object id="PDFobj"></object></div>
+    </div>
+    <script src="./index2.js"></script>
+</body>
+</html>
+
+

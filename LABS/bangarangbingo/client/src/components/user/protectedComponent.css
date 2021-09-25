@@ -1,0 +1,54 @@
+.protectedComponent {
+    display: flex;
+    flex-direction: row;
+    height: 100%
+}
+.cardCreate {
+    width: 65%;
+}
+.card-preview {
+    text-align: center;
+    font-size: 36px;
+    min-width: 400px;
+}
+
+
+.component {
+    width: 80%;
+}
+
+.reduxForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #c2c2c2;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formInput__item {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+}
+
+.inputField {
+    flex: 1;
+}
+
+.formButton {
+    background-color: #239999;
+    color: white;
+    padding: 10px 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
