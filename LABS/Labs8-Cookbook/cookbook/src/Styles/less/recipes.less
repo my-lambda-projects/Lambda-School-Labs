@@ -1,0 +1,208 @@
+.recipesContainer {
+  display: flex;
+  flex-flow: column;
+
+  .recipesFunctionBar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    @media @tablet {
+      flex-wrap: wrap;
+    }
+
+    @media @phone {
+    }
+
+    .search-and-add-recipe {
+      @media @phone {
+        width: 100%;
+      }
+
+      .recipesAddRecipe {
+        background-color: @CBblue;
+        color: white;
+        height: 30px;
+        font-size: 1.6rem;
+        border-radius: 15px;
+        padding: 2px 15px;
+        border: 2px solid @CBblue;
+        cursor: pointer;
+
+        &:hover {
+          color: @CBorange;
+        }
+
+        @media @tablet {
+          width: 150px;
+          font-size: 1.6rem;
+          top: 15px;
+          flex: 0 1 100%;
+          margin-right: 80%;
+          margin-bottom: 5px;
+        }
+        @media @phone {
+          position: static;
+          height: 30px;
+          align-self: flex-start;
+          width: 150px;
+          margin-right: 60%;
+        }
+      }
+
+      .search-input {
+        position: relative;
+        @media @phone {
+          width: 100%;
+        }
+
+        .recipes-search {
+          position: relative;
+          border: 2px solid @CBblue;
+          height: 30px;
+          width: 600px;
+          border-radius: 50px;
+          padding-left: 31px;
+          padding-right: 11px;
+          padding-top: 4px;
+          padding-bottom: 4px;
+          margin-top: 11px;
+          font-size: 13px;
+          color: #555;
+
+          &:focus {
+            outline: none;
+          }
+
+          @media @desktop {
+            width: 460px;
+          }
+
+          @media @tablet {
+            margin-bottom: 15px;
+            flex: 1 0 40%;
+            width: 648px;
+          }
+
+          @media @phone {
+            width: 100%;
+          }
+        }
+
+        .searchicon {
+          position: absolute;
+          height: 15px;
+          width: 15px;
+          background: transparent;
+          border: 2px solid @CBblue;
+          left: 12px;
+          top: 17px;
+          border-radius: 100%;
+          opacity: 0.8;
+          &:after {
+            content: "";
+            position: absolute;
+            background: @CBblue;
+            height: 7px;
+            width: 2px;
+            bottom: -5px;
+            right: -3px;
+            transform: rotate(-45deg);
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+
+    .recipesFilterContainer {
+      display: flex;
+      flex-flow: row wrap;
+      width: 400px;
+      justify-content: space-around;
+
+      @media @desktop {
+      }
+
+      @media @phone {
+        margin-bottom: 10px;
+        display: flex;
+      }
+
+      @media @tablet {
+        flex: 1 0 40%;
+      }
+    }
+
+    .button-selected {
+      font-family: @secondary-font;
+      font-size: 1.3rem;
+      letter-spacing: 1.1px;
+      border: @CBblue solid 2px;
+      border-radius: 20px;
+      background: @CBblue;
+      color: white;
+      height: 30px;
+      padding: 0 12px;
+      outline: none;
+      margin: 2px;
+      width: 120px;
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+
+    .button-not-selected {
+      .button-selected;
+      color: @CBblue;
+      background: white;
+      cursor: pointer;
+    }
+
+    .button-not-selected:hover {
+      background: @CBgrey;
+      font-weight: bold;
+    }
+  }
+
+  .recipesCards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+    /* Prevents :hover from triggering in the gaps between items */
+    visibility: hidden;
+
+    /* Brings the child items back in, even though the parent is `hidden` */
+    & > * {
+      visibility: visible;
+    }
+
+    /* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+    & > * {
+      transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms;
+    }
+
+    /* Fade out all items when the parent is hovered */
+    &:hover > * {
+      opacity: 0.6;
+      transform: scale(0.95);
+    }
+
+    /* Fade in the currently hovered item */
+    & > *:hover {
+      opacity: 1;
+      transform: scale(1);
+      transition-delay: 0ms, 0ms;
+    }
+
+    @media @phone {
+      justify-content: center;
+      margin-top: 0;
+    }
+
+    @media @tablet {
+      justify-content: space-around;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.list-item {
+  cursor: pointer;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  line-height: 2.2rem;
+
+  .checkbox-container {
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  .item-text {
+    width: 290px;
+    font-size: 1.3rem;
+    @media @desktop {
+      width: 270px;
+    }
+    @media @tablet {
+      width: 580px;
+    }
+    @media @phone {
+      width: 310px;
+    }
+  }
+}
+
+.completed {
+  order: 1;
+  background: @CBorange;
+}
+
+.list-item:not(.completed) {
+  order: 0;
+  background-color: @CBtan;
+}

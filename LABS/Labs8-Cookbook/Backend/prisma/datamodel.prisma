@@ -1,0 +1,60 @@
+## this file defines the schema database for prisma/graphql server
+
+type User {
+  id: ID! @unique
+  auth0Sub: String! @unique
+  firstName: String
+  lastName: String
+  email: String! @unique
+  isSubscribed: Boolean! @default(value: false)
+  recipes: [Recipe!]! @relation(name: "UserRecipe", onDelete: CASCADE)
+  subscriptions: [Subscription!]!
+    @relation(name: "UserSubscription", onDelete: CASCADE)
+}
+
+type Recipe {
+  id: ID! @unique
+  title: String!
+  prepTime: String
+  servings: String
+  image: String!
+  url: String!
+  createdBy: User! @relation(name: "UserRecipe")
+  ingredients: [Ingredient!]!
+    @relation(name: "RecipeIngredient", onDelete: CASCADE)
+  instructions: [Instruction!]!
+    @relation(name: "RecipeInstruction", onDelete: CASCADE)
+  events: [Event!]! @relation(name: "RecipeEvent", onDelete: CASCADE)
+}
+
+type Ingredient {
+  id: ID! @unique
+  name: String!
+  quantity: String!
+  recipe: Recipe! @relation(name: "RecipeIngredient")
+}
+
+type Instruction {
+  id: ID! @unique
+  stepNum: Int!
+  description: String!
+  isCompleted: Boolean! @default(value: false)
+  recipe: Recipe! @relation(name: "RecipeInstruction")
+}
+
+type Event {
+  id: ID! @unique
+  recipe: Recipe! @relation(name: "RecipeEvent")
+  date: String!
+  mealType: String!
+}
+
+type Subscription {
+  id: ID! @unique
+  amount: Int!
+  currency: String!
+  user: User! @relation(name: "UserSubscription")
+  charge: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}

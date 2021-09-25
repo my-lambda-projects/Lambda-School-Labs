@@ -1,0 +1,47 @@
+# This file defines the schema of graphql server
+
+# Import all type definitions from prisma.graphql.
+# Note: Graphql import syntax is comment.
+
+# import * from './generated/prisma.graphql'
+
+# Define Mutation and Query to be used by graphqlAPI.
+
+type Query {
+  user(where: UserWhereUniqueInput!): User!
+  recipe(where: RecipeWhereUniqueInput!): Recipe!
+  recipes(where: RecipeWhereInput): [Recipe]!
+  instructions(where: InstructionWhereInput): [Instruction]!
+  ingredients(where: IngredientWhereInput): [Ingredient]!
+  event: Event!
+  events(where: EventWhereInput): [Event]!
+  currentUser(auth0Sub: String): User
+}
+
+type Mutation {
+  signup: User!
+  updateUser(data: UserUpdateInput!, where: UserWhereUniqueInput!): User
+  createRecipe(
+    title: String!
+    prepTime: String!
+    servings: String!
+    image: String!
+    url: String!
+    mealType: String
+    dates: [String]!
+  ): Recipe!
+  deleteRecipe(where: RecipeWhereUniqueInput!): Recipe
+  createSubscription(token: String!): Subscription!
+  createInstruction(
+    stepNum: Int!
+    description: String!
+    recipe: String!
+  ): Instruction
+  createIngredient(
+    name: String!
+    quantity: String!
+    recipe: String!
+  ): Ingredient
+  createEvent(date: String!, mealType: String!, recipe: String!): Event
+  deleteEvent(where: EventWhereUniqueInput!): Event
+}

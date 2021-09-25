@@ -1,0 +1,218 @@
+.footer-container{
+    width: 100%;
+    background: @CBblue;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 15;
+
+    .footer {
+        width: 100%;
+        max-width: 1600px;
+        color: @CBtan;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        @media (max-width: 790px) {
+            flex-flow: column;
+        }
+
+        .main {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+            margin-top: 10px;
+
+            @media @tablet {
+                margin: 20px 0px 0;
+            }
+
+            .brand {
+                display: flex;
+                width: 100%;
+                max-width: 350px;
+                align-items: center;
+                justify-content: center;
+
+                @media @tablet {
+                    justify-content: space-between;
+                }
+
+                @media @phone {
+                    flex-flow: column;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .logo {
+                    display: none;
+
+                    @media @tablet {
+                        display: flex;
+                        height: 70px;
+                    }
+
+                    @media @phone {
+                        display: flex;
+                        order: -1;
+                        height: 13vw;
+                        max-height: 60px;
+                    }
+                }
+        
+                .title {
+                    font-weight: bold;
+                    font-family: @secondary-font;
+                    order: -1;
+                    font-size: 40px;
+                    letter-spacing: 1.5vw;
+                    margin-right: -1.3vw;
+
+                    @media @tablet {
+                        font-size: 26px;
+                    }
+
+                    @media @phone {
+                        font-size: 22px;
+                        letter-spacing: 4px;
+                        margin-top: 15px;
+                    }
+                }
+
+            }
+
+
+            .links {
+                display: flex;
+                flex-flow: column;
+                width: 100%;
+                max-width: 500px;
+
+                .line1 {
+                    display: flex;
+                    font-size: 20px;
+                    justify-content: space-around;
+                    letter-spacing: 2px;
+
+                    @media @phone {
+                        font-size: 16px;
+                    }
+                }
+                .line1 :hover {
+                    cursor: pointer;
+                }
+
+                .line2 {
+                    margin-top: -25px;
+                    display: flex;
+                    font-size: 20px;
+                    justify-content: space-around;
+                    letter-spacing: 2px;
+
+                    @media @phone {
+                        font-size: 16px;
+                    }
+                }
+                .line2 :hover {
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+        .bigLogo {
+            height: 10vw;
+            max-height: 140px;
+            width: 50%;
+
+            @media @tablet {
+                display: none;
+            }
+        }
+
+        .info {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            margin-bottom: 10px;
+            justify-content: center;
+
+            @media @desktop {
+                margin-left: 0;
+            }
+
+            @media @tablet {
+                margin-left: 40px;
+                align-items: flex-end;
+            }
+
+            @media (max-width: 790px) {
+                width: 90%;
+            }
+
+            @media (max-width: 408px) {
+                width: 85%;
+            }
+
+            .contact-container {
+                width: 100%;
+                font-size: 15px;
+                display: flex;
+                font-weight: bold;
+                letter-spacing: 2px;
+                justify-content: center;
+
+                @media @tablet {
+                    justify-content: flex-start;
+                }
+
+                @media @phone {
+                    font-size: 11px;
+                }
+        
+                .label {
+                    font-weight: normal;
+                    margin-right: 15px;
+                }
+            }
+
+            .team-container {
+                width: 100%;
+                margin: -5px 0 0 -51px;
+                font-size: 15px;
+                display: flex;
+                font-weight: bold;
+                letter-spacing: 2px;
+                justify-content: center;
+
+                @media @tablet {
+                    justify-content: flex-start;
+                    padding-left: 22px;
+                }
+
+                @media @phone {
+                    font-size: 11px;
+                    padding-left: 17px;
+                }
+        
+                .label {
+                    font-weight: normal;
+                    margin-right: 15px;
+                    line-height: 10px;
+                }
+        
+                .names {
+                    line-height: 10px;
+                }
+            }
+        }
+    }
+}
+
+.footer-container :hover{
+    cursor: default;
+}

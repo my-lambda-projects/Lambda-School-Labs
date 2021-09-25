@@ -1,0 +1,272 @@
+.group-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+
+  h1 {
+    margin: 0 0 5px 0;
+    color: @CBblue;
+  }
+
+  button {
+    background: none;
+    border: none;
+    color: @CBred;
+    font-size: 1.8rem;
+    cursor: pointer;
+
+    &:hover {
+      color: @CBblue;
+    }
+  }
+}
+
+.user-info-ul {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+
+  li {
+    .row-title {
+      font-size: 1.8rem;
+      margin-left: 20px;
+    }
+
+    .row-value {
+      font-size: 2rem;
+      padding: 0 0 10px 20px;
+      color: @CBblue;
+      font-weight: bold;
+      border-bottom: 1px solid @CBgrey;
+    }
+
+    .name-input {
+      padding: 0 0 10px 20px;
+      width: 100%;
+      border: none;
+      line-height: 1.2;
+      color: @CBblue;
+      font-size: 2rem;
+      font-family: @primary-font;
+      font-weight: bold;
+      border-bottom: 1px solid @CBred;
+    }
+
+    .email-value {
+      border-bottom: none;
+    }
+  }
+}
+
+.membership {
+  margin-top: 60px;
+
+  .user-membership-ul {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+
+    li {
+      .row-title {
+        font-size: 1.8rem;
+        margin-left: 20px;
+      }
+
+      .row-value {
+        font-size: 2rem;
+        padding: 0 0 10px 20px;
+        color: orange;
+        font-weight: bold;
+        border-bottom: 1px solid @CBgrey;
+      }
+    }
+
+    .message-li {
+      border-bottom: none;
+      margin-left: 20px;
+    }
+  }
+
+  h1 {
+    margin: 0 0 5px 0;
+    color: @CBblue;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+  }
+
+  .membership-cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+
+    @media @phone {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      border: 2px solid @CBgrey;
+      width: 220px;
+      height: 310px;
+      border-radius: 10px;
+      padding: 10px;
+
+      @media @phone {
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        margin: 0;
+        font-weight: bold;
+      }
+
+      .card-ul {
+        list-style: none;
+        padding-left: 20px;
+        li {
+          font-size: 1.4rem;
+          margin-bottom: 10px;
+        }
+      }
+
+      .card-price {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      button {
+        width: 110px;
+        margin: auto;
+        border-radius: 30px;
+        border: none;
+        height: 35px;
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1);
+        }
+      }
+    }
+
+    .non-subscribed-free {
+      background: @CBgrey;
+
+      .card-title {
+        border-bottom: 2px solid white;
+      }
+
+      li::before {
+        content: "•";
+        color: white;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+
+      .card-price {
+        color: white;
+      }
+
+      button {
+        background: white;
+        color: @CBgrey;
+        letter-spacing: 0.5px;
+      }
+    }
+
+    .non-subscribed-premium {
+      background: white;
+      border: 2px solid @CBorange;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+
+      .card-title {
+        border-bottom: 2px solid @CBorange;
+      }
+
+      li::before {
+        content: "•";
+        color: @CBorange;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+
+      .card-price {
+        color: @CBorange;
+      }
+
+      button {
+        background: @CBorange;
+        color: white;
+        letter-spacing: 0.5px;
+      }
+    }
+
+    .subscribed-free {
+      background: white;
+      cursor: pointer;
+
+      .card-title {
+        border-bottom: 2px solid @CBgrey;
+      }
+
+      &:hover {
+        transform: scale(1.03);
+      }
+
+      li::before {
+        content: "•";
+        color: @CBgrey;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+
+      .card-price {
+        color: @CBgrey;
+      }
+
+      button {
+        background: @CBgrey;
+        color: white;
+        letter-spacing: 0.5px;
+      }
+    }
+
+    .subscribed-premium {
+      background: @CBorange;
+      border: 2px solid white;
+
+      .card-title {
+        border-bottom: 2px solid white;
+      }
+
+      li::before {
+        content: "•";
+        color: white;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+
+      .card-price {
+        color: white;
+      }
+
+      button {
+        background: white;
+        color: @CBorange;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+}

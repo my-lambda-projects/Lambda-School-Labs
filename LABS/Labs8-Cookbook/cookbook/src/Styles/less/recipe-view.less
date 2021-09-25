@@ -1,0 +1,435 @@
+.recipe-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  color: @CBblue;
+  @media @phone {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .recipe-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    letter-spacing: 0.2rem;
+    @media @phone {
+      flex-wrap: wrap-reverse;
+      margin-top: 15px;
+    }
+
+    .recipe-title {
+      width: 80%;
+      @media @phone {
+        width: 100%;
+      }
+    }
+
+    .icon-container {
+      margin-right: 10px;
+      cursor: pointer;
+      @media @phone {
+        width: 100%;
+        text-align: right;
+        margin-bottom: 10px;
+        font-size: 2rem;
+      }
+
+      .link {
+        margin-right: 15px;
+        color: @CBblue;
+        @media @phone {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .left-container {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 500px;
+    @media @desktop {
+      width: 400px;
+    }
+    @media @tablet {
+      width: 330px;
+      margin-left: 10px;
+    }
+    @media @phone {
+      width: 320px;
+      margin-left: 0;
+      margin-top: 5px;
+    }
+
+    .left-content {
+      position: relative;
+      font-size: 1.4rem;
+      height: 310px;
+      @media @desktop {
+        height: 270px;
+      }
+      @media @tablet {
+        height: 270px;
+      }
+      @media @phone {
+        height: 280px;
+      }
+
+      .recipe-img {
+        width: 500px;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        margin-top: 10px;
+        @media @desktop {
+          width: 400px;
+          height: 210px;
+        }
+        @media @tablet {
+          width: 330px;
+          height: 190px;
+        }
+        @media @phone {
+          width: 320px;
+          height: 190px;
+        }
+      }
+
+      .info-bar {
+        background-color: @CBblue;
+        color: @CBtan;
+        border: 1px solid @CBtan;
+        border-radius: 20px;
+        position: absolute;
+        top: 205px;
+        left: 75px;
+        width: 350px;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media @desktop {
+          top: 165px;
+          left: 45px;
+          width: 310px;
+        }
+        @media @tablet {
+          top: 165px;
+          left: 15px;
+          width: 300px;
+        }
+        @media @phone {
+          width: 290px;
+          left: 20px;
+          top: 170px;
+        }
+
+        .scheduled-for {
+          border-right: 1px solid @CBtan;
+          padding-right: 25px;
+          padding-left: 10px;
+          height: 74px;
+          width: 175px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+
+          @media @desktop {
+            width: 140px;
+            padding-right: 15px;
+            padding-left: 0;
+            margin-left: 5px;
+          }
+          @media @tablet {
+            width: 130px;
+          }
+          @media @phone {
+            padding-right: 0;
+            margin-left: 0;
+          }
+
+          .text {
+            width: 100%;
+            height: 20px;
+            width: 100%;
+          }
+
+          .event {
+            padding-top: 10px;
+            font-weight: 600;
+
+            .meal {
+              margin-bottom: 8px;
+            }
+          }
+        }
+
+        .recipe-info {
+          width: 130px;
+          margin-right: 20px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          text-align: center;
+          @media @desktop {
+            margin-right: 17px;
+          }
+
+          .cook-time {
+            width: 100%;
+            height: 45px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid @CBtan;
+
+            .title {
+              margin-right: 5px;
+            }
+
+            .time {
+              font-weight: 600;
+            }
+          }
+
+          .servings {
+            width: 100%;
+            height: 45px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .title {
+              margin-right: 5px;
+            }
+
+            .size {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+
+    .ingredients {
+      width: 100%;
+      margin-bottom: 15px;
+      font-weight: 600;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      margin-top: 30px;
+      position: relative;
+      border: 1px solid @CBblue;
+      border-radius: 25px;
+      @media @phone {
+        font-size: 1.4rem;
+      }
+
+      .title {
+        text-align: center;
+        padding: 0 5px;
+        background-color: white;
+        font-size: 2.6rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 35px;
+        position: absolute;
+        top: -30px;
+        @media @phone {
+          font-size: 2.4rem;
+        }
+      }
+
+      .ingredient {
+        margin-bottom: 10px;
+        display: flex;
+
+        .qty {
+          text-align: right;
+          margin-right: 8px;
+          margin-left: 15px;
+          width: 40px;
+        }
+
+        .name {
+          width: 405px;
+          @media @desktop {
+            width: 310px;
+          }
+          @media @tablet {
+            width: 240px;
+          }
+          @media @phone {
+            width: 235px;
+          }
+        }
+      }
+    }
+  }
+
+  .right-container {
+    width: 500px;
+    margin: 25px 20px 20px 20px;
+    font-weight: 600;
+    @media @desktop {
+      width: 400px;
+    }
+    @media @tablet {
+      width: 330px;
+      margin-right: 0px;
+    }
+    @media @phone {
+      width: 320px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 25px 0;
+    }
+
+    .iframe-container {
+      position: relative;
+      overflow: hidden;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      height: 450px;
+    }
+
+    .title {
+      font-size: 2.8rem;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      line-height: 1.8rem;
+      @media @tablet {
+        margin-left: 40px;
+      }
+      @media @phone {
+        font-size: 2.4rem;
+        width: 100%;
+      }
+    }
+
+    .instructions {
+      border-radius: 25px;
+      background-color: @CBblue;
+      color: @CBtan;
+      padding: 20px 0;
+      margin-bottom: 25px;
+      margin-top: 20px;
+
+      @media @desktop {
+        width: 380px;
+      }
+      @media @tablet {
+        width: 310px;
+        margin-left: 10px;
+      }
+      @media @phone {
+        width: 320px;
+        margin-left: 0;
+      }
+
+      .instruction {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 20px;
+        line-height: 2.8rem;
+        padding: 5px;
+
+        @media @phone {
+          font-size: 1.4rem;
+        }
+
+        .description {
+          width: 480px;
+        }
+
+        .checkbox-container {
+          width: 20px;
+          height: 20px;
+          margin: 3px 3px 0 0;
+          @media @desktop {
+            width: 28px;
+          }
+          @media @tablet {
+            width: 35px;
+          }
+      
+          .circle {
+              stroke: @CBgrey;
+          }
+      
+          .check-back-off {
+              stroke: @CBtan;
+              stroke-width: 0px;
+              fill: none;
+              stroke-opacity: 0;
+          }
+      
+          .check-off {
+              fill: @CBblue;
+              fill-opacity: 0;
+          }
+        }
+
+      }
+
+      .instruction-checked {
+        background-color: @CBgrey;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 20px;
+        line-height: 2.8rem;
+        padding: 5px;
+
+        @media @phone {
+          font-size: 1.4rem;
+        }
+
+        .checkbox-container {
+          width: 20px;
+          height: 20px;
+          margin: 3px 3px 0 0;
+          @media @desktop {
+            width: 28px;
+          }
+          @media @tablet {
+            width: 35px;
+          }
+      
+          .circle {
+              stroke: @CBblue;
+          }
+      
+          .check-back-on {
+              stroke: @CBgrey;
+              stroke-width: 5px;
+              fill: none;
+          }
+      
+          .check-on {
+              fill: @CBblue;
+              fill-opacity: 1;
+          }
+        }
+
+        .description {
+          width: 480px;
+        }
+
+      }
+
+      .instruction .not-checked {
+        background-color: @CBblue;
+      }
+    }
+  }
+}

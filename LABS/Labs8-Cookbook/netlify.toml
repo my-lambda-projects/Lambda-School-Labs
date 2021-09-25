@@ -1,0 +1,4 @@
+[build]
+base = "cookbook/"
+publish = "cookbook/build"
+command = "yarn build"

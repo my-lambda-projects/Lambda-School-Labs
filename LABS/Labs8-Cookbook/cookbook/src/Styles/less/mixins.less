@@ -1,0 +1,172 @@
+// Container Styles (prevents content from appearing underneath header when initially loaded)
+
+.container-margin-top {
+    margin: 40px 0 211px ;
+
+    @media @tablet {
+        margin-bottom: 237px;
+    }
+
+    @media (max-width: 790px){
+        margin-bottom: 406px;
+    }
+
+    @media @phone {
+        margin: 35px 0 375px;
+    }
+}
+
+#phoneNav {
+    .basicNavStyle{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        font-size: 40px;
+        font-family: @secondary-font;
+        letter-spacing: 2vw;
+        margin: -1px 0 0 0;
+
+        @media @phone {
+            display: flex;
+        }
+    }
+
+    .create(@primary-color: @CBred, @secondary-color: @CBorange) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+    }
+
+    .recipes(@primary-color: @CBblue, @secondary-color: @CBtan) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+    }
+
+    .calendar(@primary-color: @CBlightBlue, @secondary-color: @CBgrey) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+    }
+
+    .dashboard(@primary-color: @CBorange, @secondary-color: @CBblue) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+        letter-spacing: 2vw;
+        @media (max-width: 480px) {
+            letter-spacing: 0;
+        }
+    }
+
+    .settings(@primary-color: @CBgrey, @secondary-color: @CBred) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+    }
+
+    .basicToggleStyle(@primary-color, @secondary-color) {
+        display: none;
+        width: 100%;
+
+        @media @phone {
+            display: flex;
+            padding: 11px 0 0px 2px;
+            margin: -55px 0 0 -25px;
+            justify-content: center;
+            transform: rotate(270deg);
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: @primary-color;
+            color: @secondary-color;
+            font-family: @secondary-font;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-size: 30px;
+        }
+    }
+}
+
+#normalNav {
+    .basicNavStyle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 25%;
+        font-size: 30px;
+        font-family: @secondary-font;
+        letter-spacing: 20px;
+        margin: -1px 0 0 0;
+
+        @media @giant {
+            letter-spacing: 1vw;
+        }
+
+        @media @desktop {
+            width: 50%;
+        }
+
+        @media @phone {
+            display: none;
+        }
+    }
+
+    .create(@primary-color: @CBred, @secondary-color: @CBorange) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+    }
+
+    .recipes(@primary-color: @CBblue, @secondary-color: @CBtan) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+    }
+
+    .calendar(@primary-color: @CBlightBlue, @secondary-color: @CBgrey) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+    }
+
+    .dashboard(@primary-color: @CBorange, @secondary-color: @CBblue) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+        letter-spacing: 1vw;
+        @media @giant {
+            letter-spacing: .5vw;
+        }
+    }
+
+    .settings(@primary-color: @CBgrey, @secondary-color: @CBred) {
+        .basicNavStyle;
+        color: @primary-color;
+        background-color: @secondary-color;
+    }
+
+    .basicToggleStyle(@primary-color, @secondary-color) {
+        display: none;
+        width: 100%;
+
+        @media @phone {
+            display: flex;
+            padding: 11px 0 0px 2px;
+            margin: -55px 0 0 -25px;
+            justify-content: center;
+            transform: rotate(270deg);
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: @primary-color;
+            color: @secondary-color;
+            font-family: @secondary-font;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-size: 30px;
+        }
+    }
+}

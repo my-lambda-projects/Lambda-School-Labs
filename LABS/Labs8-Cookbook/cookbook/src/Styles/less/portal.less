@@ -1,0 +1,205 @@
+.modal-portal {
+  .portal-container {
+    border: 1.5px solid @CBblue;
+    @media @phone {
+      transform: scale(0.8);
+    }
+    .modal-container {
+      .modal-confirmation {
+        .modal-text-confirmation {
+          display: flex;
+          justify-content: center;
+          color: @CBblue;
+          font-size: 20px;
+          font-family: @primary-font;
+          font-weight: bold;
+        }
+        .modal-button {
+          display: flex;
+          height: 30px;
+          justify-content: space-evenly;
+          width: 100%;
+          flex-flow: wrap;
+          padding: 0 15px 0;
+          font-size: 1.5rem;
+          font-family: @secondary-font;
+          border: @CBblue solid 2px;
+          border-radius: 20px;
+          background: #fffefe;
+          margin: auto;
+          margin-top: 10px;
+          outline: none;
+        }
+        .modal-button:hover {
+          background: @CBgrey;
+          font-weight: bold;
+        }
+      }
+
+      .modal-sub-container {
+        .modal-text {
+          display: flex;
+          justify-content: center;
+          color: @CBblue;
+          font-size: 23px;
+          font-family: @primary-font;
+        }
+
+        .recipe-buttons {
+          display: flex;
+          justify-content: space-evenly;
+          max-width: 350px;
+          flex-flow: wrap;
+          padding: 0 15px 0;
+          cursor: pointer;
+
+          .burger-icon {
+            height: 15px;
+            margin-right: 3px;
+          }
+
+          .button-selected {
+            font-family: @secondary-font;
+            font-size: 1.5rem;
+            letter-spacing: 1.5px;
+            border: @CBblue solid 2px;
+            border-radius: 20px;
+            background: @CBblue;
+            color: white;
+            height: 30px;
+            padding: 0 12px;
+            outline: none;
+            margin-top: 10px;
+            width: 140px;
+            cursor: pointer;
+          }
+
+          .button-not-selected {
+            .button-selected;
+            color: @CBblue;
+            background: white;
+            cursor: pointer;
+          }
+
+          .button-not-selected:hover {
+            background: @CBgrey;
+            font-weight: bold;
+          }
+        }
+
+        .scheduled-for {
+          .scheduled-for-text {
+            font-family: @primary-font;
+            font-size: 2rem;
+          }
+          .chosen-date {
+            outline: none;
+            background: @CBblue;
+            border: 2px @CBblue solid;
+          }
+          .no-date-chose {
+            border: 2px @CBblue solid;
+            outline: none;
+          }
+        }
+
+        .DayPicker {
+          .DayPicker-wrapper {
+            outline: none;
+            .DayPicker-NavBar {
+              margin-top: 10px;
+
+              .DayPicker-NavButton {
+                margin-top: 7px;
+                position: absolute;
+                margin-left: 80px;
+                outline: none;
+              }
+
+              .DayPicker-NavButton--next {
+                border-top: 8px solid @CBblue;
+                border-bottom: 8px solid @CBblue;
+                border-right: 8px solid @CBblue;
+                border-left: 8px solid white;
+                margin-left: 250px;
+                height: 3px;
+              }
+
+              .DayPicker-NavButton--prev {
+                border-top: 8px solid @CBblue;
+                border-bottom: 8px solid @CBblue;
+                border-right: 8px solid white;
+                border-left: 8px solid @CBblue;
+              }
+            }
+            .DayPicker-Months {
+              margin-bottom: -8px;
+              display: flex;
+              width: 100%;
+              flex-wrap: wrap;
+              justify-content: center;
+
+              .DayPicker-Month {
+                border: 2px @CBblue solid;
+                height: 200px;
+                display: table;
+                margin: 0 1em;
+                border-spacing: 0;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+
+                .DayPicker-Caption {
+                  background: @CBblue;
+                  width: 100%;
+                }
+                .DayPicker-Weekdays {
+                }
+                .DayPicker-Body {
+                  display: table-row-group;
+                  .DayPicker-Week {
+                    .DayPicker-Day {
+                      font-size: 12px;
+                      outline: none;
+                    }
+                    .DayPicker-Day--today {
+                      color: @CBblue;
+                      font-weight: bold;
+                    }
+                    .DayPicker-Day--selected {
+                      background-color: @CBblue;
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .modal-button {
+          display: flex;
+          height: 30px;
+          justify-content: space-evenly;
+          width: 88%;
+          flex-flow: wrap;
+          padding: 0 15px 0;
+          font-size: 1.5rem;
+          font-family: @secondary-font;
+          border: @CBblue solid 2px;
+          border-radius: 20px;
+          background: #fffefe;
+          margin: auto;
+          margin-top: 10px;
+          outline: none;
+          cursor: pointer;
+        }
+        .modal-button:hover {
+          background: @CBgrey;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

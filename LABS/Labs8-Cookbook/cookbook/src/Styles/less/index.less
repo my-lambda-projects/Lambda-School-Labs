@@ -1,0 +1,86 @@
+html {
+  font-size: 62.5%;
+  position: relative;
+  min-height: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: @CBblue;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
+  &::-webkit-scrollbar-track {
+    // -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: @CBtan;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+button {
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@font-face {
+  font-family: "burger-b";
+  src: local("burger-b"), url(../../designs/Icons/burger-b.woff) format("woff");
+}
+
+@import "variables.less";
+
+@import "mixins.less";
+
+@import "app.less";
+
+@import "header.less";
+
+@import "nav.less";
+
+@import "current-page.less";
+
+@import "landingPage.less";
+
+@import "footer.less";
+
+@import "home.less";
+
+@import "checkbox.less";
+
+@import "date-picker.less";
+
+@import "create.less";
+
+@import "calendar.less";
+
+@import "grocery-list.less";
+
+@import "grocery-item.less";
+
+@import "recipes.less";
+
+@import "recipe-card.less";
+
+@import "recipe-view.less";
+
+@import "settings.less";
+
+@import "portal.less";
+
+@import "loading.less";
+
+@import "toastify.less";
+
+@import "not-found.less";

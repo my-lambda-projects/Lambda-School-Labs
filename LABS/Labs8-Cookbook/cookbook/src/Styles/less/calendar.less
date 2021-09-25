@@ -1,0 +1,261 @@
+.calendar-page-container {
+  margin-left: 5px;
+
+  .search-filter-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    .search-input {
+      position: relative;
+      margin: 0 10px 10px 10px;
+      flex: 30%;
+
+      @media @phone {
+        flex: 100%;
+        font-size: 1rem;
+        margin: 10px 5px;
+      }
+
+      .recipes-search {
+        position: relative;
+        border: 2px solid @CBblue;
+        height: 30px;
+        width: 400px;
+        border-radius: 50px;
+        padding-left: 31px;
+        padding-right: 11px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 13px;
+        color: #555;
+        width: 100%;
+
+        &:focus {
+          outline: none;
+        }
+
+        @media @phone {
+          height: 30px;
+        }
+      }
+
+      .searchicon {
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        background: transparent;
+        border: 2px solid @CBblue;
+        left: 12px;
+        top: 7px;
+        border-radius: 100%;
+        opacity: 0.8;
+        &:after {
+          content: "";
+          position: absolute;
+          background: @CBblue;
+          height: 7px;
+          width: 2px;
+          bottom: -5px;
+          right: -3px;
+          transform: rotate(-45deg);
+          opacity: 0.8;
+        }
+      }
+    }
+
+    .recipesFilterContainer {
+      flex: 60%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+
+      @media @phone {
+        margin-bottom: 10px;
+      }
+
+      @media @tablet {
+        justify-content: center;
+      }
+
+      @media @desktop {
+        flex: 50%;
+        justify-content: center;
+      }
+
+      .button-selected {
+        font-family: @secondary-font;
+        letter-spacing: 1.5px;
+        border: @CBblue solid 2px;
+        border-radius: 20px;
+        background: @CBblue;
+        color: white;
+        height: 30px;
+        padding: 0 12px;
+        outline: none;
+        cursor: pointer;
+        width: 120px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+
+        @media @phone {
+          font-size: 1rem;
+          height: 25px;
+          width: 110px;
+          margin-right: 10px;
+        }
+      }
+
+      .button-not-selected {
+        .button-selected;
+        color: @CBblue;
+        background: white;
+        cursor: pointer;
+      }
+
+      .button-not-selected:hover {
+        background: @CBgrey;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    @media @phone {
+      padding-right: 5px;
+    }
+
+    .duplicate-btn {
+      background-color: white;
+      color: @CBblue;
+      padding: 5px 8px;
+      border-radius: 15px;
+      border: 2px solid @CBblue;
+      font-family: @secondary-font;
+      cursor: pointer;
+      @media @phone {
+        font-size: 1rem;
+      }
+
+      &:hover {
+        background: @CBgrey;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .calendar-container {
+    color: @CBblue;
+
+    .rbc-calendar {
+      @media @tablet {
+        font-size: 1.4rem;
+      }
+      @media @phone {
+        font-size: 1.2rem;
+      }
+
+      .rbc-toolbar {
+        background-color: @CBblue;
+        color: @CBgrey;
+        font-weight: bold;
+        padding: 5px 0;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+
+        .rbc-btn-group {
+          position: relative;
+
+          button {
+            font-family: @secondary-font;
+            position: absolute;
+            border: 2px solid @CBblue;
+            background-color: white;
+            border-radius: 15px;
+            top: -50px;
+            cursor: pointer;
+            @media @phone {
+              font-size: 1rem;
+              top: -48px;
+            }
+
+            &:hover {
+              background: @CBgrey;
+              font-weight: bold;
+            }
+          }
+
+          button:nth-child(1) {
+            left: 10px;
+            @media @phone {
+              left: 5px;
+            }
+          }
+
+          button:nth-child(2) {
+            left: 75px;
+            @media @phone {
+              left: 68px;
+            }
+          }
+
+          button:nth-child(3) {
+            left: 133px;
+            @media @phone {
+              left: 125px;
+            }
+          }
+        }
+
+        .rbc-toolbar-label {
+          @media @phone {
+            font-size: 1.4rem;
+            padding: 0;
+          }
+        }
+      }
+
+      .rbc-month-view {
+        .rbc-header {
+          background-color: @CBtan;
+        }
+
+        .rbc-month-row {
+          .rbc-row-bg {
+            .rbc-off-range-bg {
+              background-color: @CBgrey;
+            }
+
+            .rbc-today {
+              background-color: @CBtan;
+            }
+          }
+
+          .rbc-row-content {
+            .rbc-row {
+              .rbc-row-segment {
+                .rbc-event {
+                  background-color: @CBblue;
+                  color: @CBtan;
+                }
+              }
+            }
+          }
+        }
+        .rbc-overlay {
+          .rbc-event {
+            background-color: @CBblue;
+            color: @CBtan;
+          }
+        }
+      }
+    }
+  }
+}

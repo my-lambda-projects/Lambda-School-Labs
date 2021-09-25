@@ -1,0 +1,431 @@
+.create-wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  // overflow: hidden;
+
+  .search-and-save {
+    display: flex;
+    width: 100%;
+    padding: 0 30px;
+
+    @media @tablet {
+      flex-flow: column;
+      align-items: flex-end;
+    }
+
+    .is-searching {
+      margin-right: 30px;
+      font-family: @secondary-font;
+      font-size: 1.5rem;
+      letter-spacing: 1.5px;
+      background: @CBred;
+      border: 2px @CBred solid;
+      color: white;
+      height: 30px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 0 20px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      outline: none;
+
+      @media @tablet {
+        margin: 30px 0 0 0;
+      }
+
+      &:hover {
+        transform: scale(1.01);
+      }
+    }
+
+    .not-searching {
+      .is-searching;
+      background: white;
+    }
+    .not-searching:hover {
+      background: @CBorange;
+    }
+
+    ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: @CBred;
+    }
+    ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: @CBred;
+    }
+    :-ms-input-placeholder {
+      /* IE 10+ */
+      color: @CBred;
+    }
+    :-moz-placeholder {
+      /* Firefox 18- */
+      color: @CBred;
+    }
+
+    .save-button {
+      font-family: @secondary-font;
+      font-size: 1.5rem;
+      letter-spacing: 1.5px;
+      border: @CBred solid 2px;
+      border-radius: 20px;
+      background: @CBred;
+      color: white;
+      height: 30px;
+      width: 70px;
+      outline: none;
+
+      @media @tablet {
+        order: -1;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.07);
+      }
+    }
+
+    .save-button-inactive {
+      .save-button;
+      display: none;
+      background: white;
+      color: @CBred;
+    }
+  }
+
+  .tutorial-container {
+    width: 100%;
+    padding: 30px;
+
+    .tutorial {
+      border: 2px dashed @CBred;
+      border-radius: 30px;
+      width: 60%;
+      padding: 30px 30px 0;
+
+      @media @tablet {
+        width: 100%;
+      }
+
+      p {
+        margin: 0 0 30px;
+        font-family: @secondary-font;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+        font-size: 1.6rem;
+
+        @media @phone {
+          font-size: 1.3rem;
+          margin: 0 0 15px;
+        }
+
+        b {
+          color: @CBred;
+        }
+      }
+    }
+  }
+
+  .preview-and-schedule {
+    display: flex;
+    margin-top: 30px;
+    padding: 0 30px;
+    width: 100%;
+    justify-content: space space-around;
+
+    @media @tablet {
+      flex-flow: column;
+    }
+
+    .loading {
+      width: 100%;
+      display: flex;
+    }
+
+    .preview {
+      display: flex;
+      width: 100%;
+      border: solid @CBred 3px;
+      border-radius: 30px;
+      overflow: hidden;
+
+      @media @tablet {
+        margin-top: 50px;
+      }
+
+      @media @phone {
+        flex-flow: column;
+      }
+
+      .image-container {
+        width: 40%;
+        text-align: center;
+        overflow: hidden;
+
+        background-size: cover;
+        background-position: 50% 50%;
+
+        @media @phone {
+          height: calc(250px - 25vw);
+          width: 100%;
+        }
+      }
+
+      .content {
+        width: 60%;
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        flex-flow: column;
+
+        @media @tablet {
+          width: 100%;
+        }
+
+        .title-container {
+          width: 100%;
+
+          .title {
+            font-family: @secondary-font;
+            font-weight: bold;
+            font-size: 2rem;
+            background-size: 1px 1em;
+            box-shadow: inset 0 0rem white, inset 0 -0.25rem @CBred;
+            display: inline;
+            line-height: 25px;
+
+            @media @phone {
+              font-size: 1.7rem;
+            }
+          }
+        }
+
+        .description {
+          margin: 40px 0 0;
+          font-size: 1.5rem;
+          font-family: @secondary-font;
+          line-height: 18px;
+          overflow: hidden;
+
+          @media @tablet {
+            margin: 30px 0 0;
+          }
+
+          @media @phone {
+            margin: 20px 0 0;
+            font-size: 1.3rem;
+          }
+        }
+
+        .divide {
+          width: 100%;
+
+          .line {
+            border-top: solid @CBred 1px;
+            margin: 40px auto 0;
+            width: 15%;
+
+            @media @tablet {
+              margin: 35px auto 0;
+            }
+
+            @media @phone {
+              margin: 30px auto 0;
+            }
+          }
+
+          .site {
+            font-family: @secondary-font;
+            margin-top: 25px;
+
+            @media @phone {
+              margin: 20px 0 0;
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+
+    .schedule {
+      margin-left: 35px;
+      width: 100%;
+      max-width: 363px;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+
+      @media @tablet {
+        max-width: none;
+        margin-left: 0;
+        order: -1;
+      }
+
+      .recipe-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        max-width: 363px;
+        flex-flow: wrap;
+        // padding: 0 15px 0;
+        margin-top: -10px;
+
+        @media @desktop {
+          max-width: 100%;
+        }
+
+        @media @tablet {
+          margin-top: 0;
+        }
+
+        .icon {
+          margin-right: 3px;
+        }
+
+        .burger-icon {
+          height: 15px;
+          color: @CBred;
+          margin-right: 3px;
+        }
+
+        .button-selected {
+          font-family: @secondary-font;
+          font-size: 1.5rem;
+          letter-spacing: 1.5px;
+          border: @CBred solid 2px;
+          border-radius: 20px;
+          background: @CBred;
+          color: white;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          padding: 0 12px;
+          outline: none;
+          margin-top: 10px;
+          margin-right: 10px;
+          cursor: pointer;
+        }
+
+        .button-not-selected {
+          .button-selected;
+          color: @CBred;
+          background: white;
+        }
+        .button-not-selected:hover {
+          background: @CBorange;
+          font-weight: bold;
+        }
+      }
+
+      .create-date-picker {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        outline: none;
+        @primary-color: @CBred;
+
+        // Calendar Styles
+        .scheduled-for {
+          color: @primary-color;
+
+          .chosen-date {
+            border: solid @primary-color 2px;
+            background: @primary-color;
+          }
+
+          .no-date-chosen {
+            .chosen-date;
+            background: white;
+          }
+        }
+
+        .DayPicker {
+          width: 100%;
+          max-width: 300px;
+
+          .DayPicker-NavBar {
+            .DayPicker-NavButton {
+              margin-top: 12px;
+              position: absolute;
+              margin-left: 9%;
+              @media @phone {
+                margin-left: 7%;
+              }
+            }
+
+            .DayPicker-NavButton--next {
+              border-top: 8px solid @CBred;
+              border-bottom: 8px solid @CBred;
+              border-right: 8px solid @CBred;
+              border-left: 8px solid white;
+              margin-left: 85%;
+              height: 5px;
+              @media @phone {
+                margin-left: 87%;
+              }
+            }
+
+            .DayPicker-NavButton--prev {
+              border-top: 8px solid @CBred;
+              border-bottom: 8px solid @CBred;
+              border-right: 8px solid white;
+              border-left: 8px solid @CBred;
+            }
+          }
+
+          .DayPicker-Months {
+            .DayPicker-Month {
+              width: 100%;
+              height: 200px;
+              font-size: 1.3rem;
+              border: 2px @CBred solid;
+              border-bottom-left-radius: 25px;
+              border-bottom-right-radius: 25px;
+              padding: 0 10px 10px;
+              @media @phone {
+                font-size: 1.2rem;
+              }
+
+              .DayPicker-Caption {
+                text-align: center;
+                background-color: @CBred;
+                width: 100%;
+                line-height: 2.2rem;
+                height: 40px;
+                color: white;
+                font-size: 2rem;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                @media @phone {
+                  font-size: 1.8rem;
+                }
+              }
+
+              .DayPicker-Weekdays {
+                font-weight: bold;
+                color: @CBred;
+              }
+
+              .DayPicker-Body {
+                .DayPicker-Week {
+                  .DayPicker-Day {
+                    border-radius: 500px !important;
+                  }
+
+                  .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+                    background-color: @CBred !important;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+        } // end calendar styles
+      }
+    }
+  }
+}

@@ -1,0 +1,403 @@
+.grocery-list-page {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: @CBblue;
+  font-weight: 600;
+
+  @media @tablet {
+    justify-content: center;
+  }
+  @media @phone {
+    padding-top: 0;
+    align-items: flex-start;
+  }
+
+  .gen-list-container {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    @media @desktop {
+      width: 550px;
+    }
+    @media @tablet {
+      margin-left: 0;
+      width: 700px;
+    }
+    @media @phone {
+      width: 400px;
+    }
+
+    .reset-gen-buttons {
+      width: 100%;
+      height: 70px;
+      line-height: 2.4rem;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      @media @desktop {
+        height: 65px;
+      }
+      @media @tablet {
+        margin-bottom: 25px;
+        margin-top: 15px;
+      }
+      @media @phone {
+        margin-left: 0;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 25px;
+      }
+
+      .text {
+        margin-right: 35px;
+        @media @desktop {
+          margin-right: 25px;
+        }
+        @media @tablet {
+          margin-right: 40px;
+        }
+        @media @phone {
+          margin-right: 0;
+          width: 100%;
+          text-align: center;
+          height: 5px;
+          margin-bottom: 25px;
+        }
+      }
+
+      .reset {
+        background-color: @CBblue;
+        color: @CBorange;
+        position: absolute;
+        top: 50px;
+        left: 450px;
+        line-height: 2.4rem;
+        font-size: 1.6rem;
+        border-radius: 15px;
+        padding: 2px 15px;
+        border: 2px solid @CBblue;
+        @media @desktop {
+          left: 330px;
+          line-height: 2rem;
+          font-size: 1.4rem;
+        }
+        @media @tablet {
+          left: 450px;
+          line-height: 2.4rem;
+          font-size: 1.6rem;
+          top: 45px;
+        }
+        @media @phone {
+          position: static;
+          margin-right: 8px;
+          height: 30px;
+        }
+      }
+
+      .generate {
+        background-color: @CBorange;
+        color: @CBblue;
+        position: absolute;
+        top: 50px;
+        left: 535px;
+        line-height: 2.4rem;
+        font-size: 1.6rem;
+        border-radius: 15px;
+        padding: 2px 15px;
+        border: 2px solid @CBblue;
+        @media @desktop {
+          left: 410px;
+          line-height: 2rem;
+          font-size: 1.4rem;
+        }
+        @media @tablet {
+          left: 530px;
+          line-height: 2.4rem;
+          font-size: 1.6rem;
+          top: 45px;
+        }
+        @media @phone {
+          position: static;
+          margin-left: 8px;
+          height: 30px;
+        }
+      }
+    }
+
+    // Calendar Styles
+    .DayPicker {
+      @primary-color: @CBorange;
+      @secondary-color: @CBblue;
+      width: 100%;
+      margin-bottom: 20px;
+      @media @tablet {
+        margin-bottom: 0px;
+      }
+      @media @phone {
+        width: 330px;
+      }
+
+      .DayPicker-NavBar {
+        top: 10px;
+        height: 0px;
+
+        .DayPicker-NavButton {
+          margin-top: 12px;
+          position: absolute;
+          margin-left: 245px;
+          @media @desktop {
+            margin-left: 175px;
+          }
+          @media @tablet {
+            margin-left: 245px;
+          }
+          @media @phone {
+            margin-left: 70px;
+          }
+        }
+
+        .DayPicker-NavButton--next {
+          border-top: 8px solid @CBblue;
+          border-bottom: 8px solid @CBblue;
+          border-right: 8px solid @CBblue;
+          border-left: 8px solid @CBorange;
+          margin-left: 435px;
+          height: 5px;
+          @media @desktop {
+            margin-left: 360px;
+          }
+          @media @tablet {
+            margin-left: 435px;
+          }
+          @media @phone {
+            margin-left: 242px;
+          }
+        }
+
+        .DayPicker-NavButton--prev {
+          border-top: 8px solid @CBblue;
+          border-bottom: 8px solid @CBblue;
+          border-right: 8px solid @CBorange;
+          border-left: 8px solid @CBblue;
+        }
+      }
+
+      .DayPicker-Months {
+        .DayPicker-Month {
+          width: 100%;
+          height: 500px;
+          border-radius: 25px;
+          font-size: 1.8rem;
+          border: 1px solid white;
+          @media @desktop {
+            height: 400px;
+          }
+          @media @tablet {
+            height: 450px;
+            width: 90%;
+          }
+          @media @phone {
+            height: 300px;
+            width: 370px;
+            font-size: 1.4rem;
+          }
+
+          .DayPicker-Caption {
+            text-align: center;
+            border-radius: 25px;
+            background-color: @CBblue;
+            width: 100%;
+            line-height: 2.2rem;
+            height: 40px;
+            color: @CBorange;
+            font-size: 2rem;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            margin-bottom: 15px;
+            @media @phone {
+              font-size: 1.6rem;
+            }
+          }
+
+          .DayPicker-Weekdays {
+            background-color: @CBtan;
+            color: @CBblue;
+
+            .DayPicker-WeekdaysRow {
+              .DayPicker-Weekday {
+                border-top: 1px solid @CBblue;
+                border-bottom: 1px solid @CBblue;
+              }
+            }
+          }
+
+          .DayPicker-Body {
+            .DayPicker-Week {
+              .DayPicker-Day {
+                border-radius: 0 !important;
+              }
+
+              .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+                background-color: @CBorange !important;
+                color: white;
+              }
+
+              .DayPicker-Day--start {
+                border-top-left-radius: 50% !important;
+                border-bottom-left-radius: 50% !important;
+                background-color: @CBblue;
+                color: @CBorange;
+              }
+
+              .DayPicker-Day--end {
+                border-top-right-radius: 50% !important;
+                border-bottom-right-radius: 50% !important;
+                background-color: @CBblue;
+                color: @CBorange;
+              }
+            }
+          }
+        }
+      }
+    }
+    // end calendar styles
+  }
+
+  .list {
+    border: 1px solid @CBblue;
+    border-radius: 25px;
+    background-color: @CBtan;
+    width: 350px;
+    @media @desktop {
+      width: 330px;
+      font-size: 1.4rem;
+    }
+    @media @tablet {
+      width: 630px;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+    @media @phone {
+      width: 350px;
+      font-size: 1.2rem;
+      top: 570px;
+    }
+
+    .list-header {
+      font-size: 1.8rem;
+      padding: 8px;
+      text-align: center;
+      border-top-left-radius: 23px;
+      border-top-right-radius: 23px;
+      background-color: @CBblue;
+      color: @CBorange;
+      margin-bottom: 10px;
+    }
+
+    .meals-header {
+      font-size: 1.8rem;
+      margin-left: 82px;
+      letter-spacing: 0.3rem;
+      font-weight: bold;
+
+      @media @desktop {
+        margin-left: 80px;
+        font-size: 1.7rem;
+        letter-spacing: 0.2rem;
+      }
+      @media @tablet {
+        margin-left: 230px;
+      }
+      @media @phone {
+        margin-left: 95px;
+        font-size: 1.6rem;
+      }
+    }
+
+    .scheduled-meals-container {
+      margin: 10px 12px;
+      margin-bottom: 16px;
+
+      .scheduled-meals {
+        padding: 3px 0;
+
+        .icon {
+          color: @CBgrey;
+          margin-left: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .grocery-header {
+      font-size: 1.8rem;
+      margin-left: 105px;
+      letter-spacing: 0.1rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+
+      @media @desktop {
+        margin-left: 100px;
+        font-size: 1.7rem;
+      }
+      @media @tablet {
+        margin-left: 240px;
+      }
+      @media @phone {
+        margin-left: 115px;
+        font-size: 1.6rem;
+      }
+    }
+
+    .scroll-container {
+      height: 585px;
+      overflow: auto;
+      margin-bottom: 30px;
+
+      &::-webkit-scrollbar {
+        width: 12px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: @CBblue;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+      }
+      &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+      }
+
+      .item-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 11px 0 5px;
+        padding-top: 5px;
+        margin-top: 5px;
+      }
+
+      .item-list > .list-item {
+        transition: all 0.5s linear;
+      }
+
+      .no-list-text {
+        padding: 12px 10px;
+        padding-left: 15px;
+        line-height: 2.2rem;
+
+        .link {
+          color: @CBblue;
+          text-shadow: 2px 1px white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

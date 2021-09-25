@@ -1,0 +1,136 @@
+.cp-phone-nav {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 35px;
+    z-index: 15;
+    @media @tablet {
+        top: 30px;
+    }
+    @media @phone {
+        top: 0;
+    }
+
+    .current-page {
+        line-height: 35px;
+        width: 100%;
+        font-size: 2.6rem;
+        font-weight: 300;
+        vertical-align: middle;
+        @media @tablet {
+            line-height: 30px;
+            font-size: 2rem;
+        }
+        @media @phone {
+            top: 35px;
+            line-height: 35px;
+        }
+
+        .create-cp {
+        width: 100%;
+        height: 100%;
+        color: @CBred;
+        background-color: @CBorange;
+        text-align: center;
+        }
+
+        .calendar-cp {
+        width: 100%;
+        height: 100%;
+        color: @CBtan;
+        background-color: @CBgrey;
+        text-align: center;
+        }
+
+        .dashboard-cp {
+        width: 100%;
+        height: 100%;
+        color: @CBorange;
+        background-color: @CBblue;
+        text-align: center;
+        }
+
+        .settings-cp {
+        width: 100%;
+        height: 100%;
+        color: @CBgrey;
+        background-color: @CBred;
+        text-align: center;
+        }
+
+        .recipes-cp {
+        width: 100%;
+        height: 100%;
+        color: @CBblue;
+        background-color: @CBtan;
+        text-align: center;
+        }
+    }
+
+    .dropdown {
+
+        .nav-icon {
+            height: 35px;
+            width: 50px;
+            position: absolute;
+            top: 0;
+            font-size: 1.6rem;
+            border-radius: 50px;
+            margin-left: -15px;
+            overflow: hidden;
+            display: none;
+            @media @phone {
+                display: block;
+            }
+            
+            .icon {
+                margin-left: 30px;
+                margin-top: 9px;
+            }
+        }
+
+        .phone-nav-hide {
+            display: none;
+            width: 100%;
+            z-index: 16;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            position: absolute;
+            top: 15px;
+
+            .nav-bar {
+                width: 100%;
+                line-height: 35px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                font-size: 2rem;
+            }
+        }
+
+        .phone-nav-show {
+            display: none;
+            width: 100%;
+            z-index: 16;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            position: absolute;
+            top: 15px;
+
+            @media @phone {
+                display: flex;
+            }
+
+            .nav-bar {
+                width: 100%;
+                line-height: 35px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                font-size: 2rem;
+            }
+        }
+    }
+}
