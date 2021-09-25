@@ -1,0 +1,45 @@
+.assignment-form-container {
+  display: flex;
+ justify-content: center;
+}
+
+.button-container {
+  /* display: flex;
+  flex-direction: row; */
+  justify-content: space-around;
+  
+}
+
+#assign-btn {
+  margin-top: -40px;
+}
+
+
+.title {
+  width: 85%;
+  text-align: center;
+}
+
+.hours-container {
+  display: flex;
+  width: 50px;
+  margin-right: 5px;
+  margin-left: -50px;
+}
+
+.fileupload-container {
+  display: flex;
+ margin-left: 200px;
+}
+
+.date-container {
+  margin-left: -150px;
+  margin-top: 30px;
+}
+
+.image-preview {
+  position: absolute;
+  left: 280px;
+  width: 225px;
+  height: 200px;
+}

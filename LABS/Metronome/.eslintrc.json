@@ -1,0 +1,42 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+        "cypress",
+        "chai-friendly"
+    ],
+    "rules": {
+        "consistent-return": "off",
+        "chai-friendly/no-unused-expressions": 2,
+        "eslint linebreak-style": [
+            0,
+            "error",
+            "windows"
+        ],
+        "func-names": "off",
+        "global-require": 0,
+        "linebreak-style": 0,
+        "max-len": "off",
+        "no-restricted-syntax":"off",
+        "no-underscore-dangle": "off",
+        "no-unused-expressions": 0,
+        "object-curly-newline": "off",
+        "prefer-arrow-callback": "off",
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "react/no-unused-state": "off",
+        "spaced-comment": "off"
+    },
+    "env": {
+        "jest": true,
+        "browser": true,
+        "cypress/globals": true
+    },
+    "parser": "babel-eslint"
+}
