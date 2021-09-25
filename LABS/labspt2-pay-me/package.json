@@ -1,0 +1,24 @@
+{
+  "name": "labspt2-pay-me",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Lambda-School-Labs/labspt2-pay-me.git",
+  "author": "Jason Hedrick <jasonleehedrick@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node",
+    "server": "nodemon",
+    "test": "jest --watchAll --verbose"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "postgresql": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "sqlite": "^3.0.2",
+    "supertest": "^3.4.2"
+  }
+}
