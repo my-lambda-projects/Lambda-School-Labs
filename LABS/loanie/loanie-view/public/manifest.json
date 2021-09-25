@@ -1,0 +1,15 @@
+{
+  "short_name": "Loanie App",
+  "name": "Create React App loanie-view",
+  "icons": [
+    {
+      "src": "https://cdn2.iconfinder.com/data/icons/crystalproject/crystal_project_256x256/apps/agt_home.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

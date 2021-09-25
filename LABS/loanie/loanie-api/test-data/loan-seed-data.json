@@ -1,0 +1,66 @@
+[
+	{
+		"clientEmail": "abc@abc.com",
+		"clientId": "000000000000000000000003",
+		"currentStatus": "1",
+		"loanManagerId": "000000000000000000000001",
+		"openLoan" : false,
+		"loanType" : "fha"
+	},
+	{
+		"clientEmail": "abc@abc.com",
+		"clientId": "000000000000000000000004",
+		"currentStatus": "2",
+		"loanManagerId": "000000000000000000000001",
+		"openLoan" : false,
+		"loanType" : "fha"
+	},
+	{
+		"clientEmail": "abc@abc.com",
+		"clientId": "000000000000000000000006",
+		"currentStatus": "3",
+		"loanManagerId": "000000000000000000000005",
+		"openLoan" : false,
+		"loanType" : "fha"
+	},
+	{
+		"clientEmail": "abc@abc.com",
+		"clientId": "000000000000000000000006",
+		"currentStatus": "1",
+		"loanManagerId": "000000000000000000000002",
+		"openLoan" : false,
+		"loanType" : "fha"
+	},
+	{
+		"clientEmail": "abc@abc.com",
+		"clientId": "000000000000000000000003",
+		"currentStatus": "4",
+		"loanManagerId": "000000000000000000000002",
+		"openLoan" : true,
+		"loanType" : "fha"
+	},
+	{
+		"clientEmail": "abc@abc.com",
+		"clientId": "000000000000000000000004",
+		"currentStatus": "4",
+		"loanManagerId": "000000000000000000000002",
+		"openLoan" : true,
+		"loanType" : "fha"
+	},
+	{
+		"clientEmail": "abc@abc.com",
+		"clientId": "000000000000000000000003",
+		"currentStatus": "4",
+		"loanManagerId": "000000000000000000000001",
+		"openLoan" : true,
+		"loanType" : "fha"
+	},
+	{
+		"clientEmail": "abc@abc.com",
+		"clientId": "000000000000000000000006",
+		"currentStatus": "1",
+		"loanManagerId": "000000000000000000000001",
+		"openLoan" : true,
+		"loanType" : "fha"
+	}
+]

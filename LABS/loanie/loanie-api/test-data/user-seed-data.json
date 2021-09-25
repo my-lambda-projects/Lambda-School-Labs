@@ -1,0 +1,56 @@
+[
+	{
+		"_id": "000000000000000000000001",
+		"name": "Dan W",
+	    "userType": "managerUser",
+	    "email": "dan@dan.com",
+	    "mobilePhone": 987396464,
+	    "acceptTexts": true,
+	    "acceptEmails": true
+	},
+	{
+		"_id": "000000000000000000000002",
+		"name": "Ryan H",
+	    "userType": "managerUser",
+	    "email": "ryan@ryan.com",
+	    "mobilePhone": 987396464,
+	    "acceptTexts": true,
+	    "acceptEmails": false
+	},
+	{
+		"_id": "000000000000000000000003",
+		"name": "Rashmi B",
+	    "userType": "standardUser",
+	    "email": "rashmi@lambdaschool.com",
+	    "mobilePhone": 987396464,
+	    "acceptTexts": true,
+	    "acceptEmails": false
+	},
+	{
+		"_id": "000000000000000000000004",
+		"name": "John D",
+	    "userType": "standardUser",
+	    "email": "john@john.com",
+	    "mobilePhone": 987396464,
+	    "acceptTexts": true,
+	    "acceptEmails": false
+	},
+	{
+		"_id": "000000000000000000000005",
+		"name": "Austen A",
+	    "userType": "managerUser",
+	    "email": "austen@austen.com",
+	    "mobilePhone": 987396464,
+	    "acceptTexts": true,
+	    "acceptEmails": false
+	},
+	{
+		"_id": "000000000000000000000006",
+		"name": "Jamie Johnson",
+	    "userType": "standardUser",
+	    "email": "jamie@gmail.com",
+	    "mobilePhone": 987396464,
+	    "acceptTexts": true,
+	    "acceptEmails": false
+	}
+]

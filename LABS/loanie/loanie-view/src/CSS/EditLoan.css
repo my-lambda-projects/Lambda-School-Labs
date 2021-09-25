@@ -1,0 +1,19 @@
+.EditLoan {
+  display: flex;
+  flex-direction: column;
+}
+
+.BreadCrumb {
+  margin-top: 6em;
+  margin-left: 1.2em;
+}
+
+.EditLoan-title-container {
+  margin-top: 1em;
+  margin-left: 1.3em;
+}
+
+.EditLoan-form-container {
+  margin-left:1.3em;
+  margin-top: 1em;
+}

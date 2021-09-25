@@ -1,0 +1,45 @@
+.box-shadow {
+  box-shadow: 0 .25rem .75rem
+  rgba(0, 0, 0, .05);
+}
+
+.BreadCrumb {
+  margin-top: 6em;
+  margin-left: 1.2em;
+}
+
+.ClosedLoans-header {
+  margin-left: 2em;
+}
+.OpenLoans-image-container {
+  text-align: center;
+  margin-top: 5em;
+}
+.OpenLoans-image-container img:hover {
+  opacity: 0.7;
+}
+.OpenLoans-image-item{
+  width:8em;
+  height:8em;
+}
+.OpenLoans-imagelist-item {
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  width:5.6em;
+  height:5.6em;
+}
+.OpenLoans-imagelist-container {
+  text-align: center;
+}
+.OpenLoans-imagelist-container img:hover {
+  opacity: 0.7;
+}
+.OpenLoans-card-container {
+  margin-left: 1.2em;
+}
+.NoClosedLoans-header {
+  margin-left: 1.3em;
+}
+.ClosedLoan-style {
+  margin-left: 1.3em;
+}

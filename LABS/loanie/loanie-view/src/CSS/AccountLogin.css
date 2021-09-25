@@ -1,0 +1,30 @@
+.AccountLogin {
+  background-image: url("https://images.unsplash.com/photo-1455275505851-8e604db9675a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fce33a59b5a12987d31d3b767f4e6e25&auto=format&fit=crop&w=2000&q=80");
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
+  height: 70em;
+  width: 100%;
+}
+.Account-title-containter {
+  margin-top: 10em;
+  text-align: center;
+}
+.Account-text-containter {
+  text-align: center;
+}
+.Account-button-container {
+  text-align: center;
+}
+
+.Account-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width:15%;
+  cursor: pointer;
+  margin-bottom: 40%;
+}

@@ -1,0 +1,16 @@
+
+.ProgressBar-style {
+  text-align: center;
+
+}
+
+.ProgressBar-phase-container {
+  display:flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.ProgressBar-container {
+  width: 68.5em;
+  text-align: center;
+}

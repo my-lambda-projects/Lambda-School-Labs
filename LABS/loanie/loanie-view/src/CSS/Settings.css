@@ -1,0 +1,17 @@
+.Settings {
+  display: flex;
+  flex-direction: column;
+}
+.Settings-title-containter {
+  margin-left: 1.3em;
+}
+.Settings-form-container {
+  margin-left: 1.3em;
+}
+.BreadCrumb {
+  margin-top: 6em;
+  margin-left: 1.2em;
+}
+.invalid-user-input {
+	color: red;
+}

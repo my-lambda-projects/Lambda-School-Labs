@@ -1,0 +1,63 @@
+.MyLoans-link-container {
+  margin-top: 2em;
+  padding-left: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.MyLoans-title-container {
+  margin-left: 1.3em;
+}
+
+.MyLoans-loancard {
+  width: 33.85em;
+  height: 12em;
+  margin-left:0.3em;
+  margin-right: 0.7em;
+  margin-bottom: 0.83em;
+  text-align: left;
+}
+
+.MyLoans-borrower-container {
+  margin-left: 1.3em;
+}
+
+.Myloans-progress-container {
+  margin-left: 9em;
+}
+
+.MyLoans-p1-item {
+  text-align: left;
+}
+.MyLoans-assignment-container {
+  width: 18em;
+  margin-top: 2em;
+  margin-left: 5em;
+  order: 2;
+  text-align: center;
+}
+
+.MyLoans-text-container{
+  margin-top: 2em;
+  margin-left: 1.3em;
+  order: 1;
+  width: 45em;
+}
+.MyLoans-text-item {
+  height: 30em;
+}
+.MyLoans-header-text {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+}
+.BreadCrumb {
+  margin-top: 6em;
+  margin-left: 1.2em;
+}
+.MyLoans-text {
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+.MyLoans-noloans-text {
+  margin-left: 1.3em;
+}
+

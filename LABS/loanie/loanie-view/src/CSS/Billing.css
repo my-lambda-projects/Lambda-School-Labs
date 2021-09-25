@@ -1,0 +1,13 @@
+.Billing {
+  display: flex;
+  flex-direction: column;
+}
+
+.Billing-title-containter {
+  margin-left: 1.3em;
+}
+
+.BreadCrumb {
+  margin-top: 6em;
+  margin-left: 1.2em;
+}

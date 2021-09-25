@@ -1,0 +1,58 @@
+.Loanlist {
+  display: flex;
+  flex-direction: column;
+}
+.LoanList-borrower-container {
+  margin-top: 7em;
+  margin-left: 15em;
+}
+.LoanList-progress-container {
+  flex-direction: row;
+  margin-left: 40em;
+}
+.LoanList-phasecard-item {
+  margin-left: 10em;
+  width: 25em;
+  border: 2px solid black;
+}
+.LoanList-phasecard-container {
+  flex-direction: row;
+}
+.sidenav-container {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav-container a {
+  margin-top: 60%;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.Loanlist-image-container{
+  text-align: center;
+
+}
+.Loanlist-image-container img:hover{
+  opacity: 0.7;
+}
+.Loanlist-image-item{
+  width:10em;
+  height:10em;
+}
+Loanlist-image-item:hover {
+  opacity: 0.7;
+}
+.BreadCrumb {
+  margin-top: 6em;
+  margin-left: 1.2em;
+}
