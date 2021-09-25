@@ -1,0 +1,260 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  background: #eee;
+  color: #111;
+}
+body * {
+  transition: all 0.3s ease-in-out;
+}
+
+.landingContainer {
+  background-color: #fff;
+  // max-width: 1500px !important;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 10px 54px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 54px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 54px -11px rgba(0, 0, 0, 0.75);
+  padding: 0 !important;
+}
+
+/*------------- HEADER -------------------*/
+
+header {
+  background: url('../../assets/SautiBusia_68.jpg');
+  background-size: 100%;
+  height: 95vh;
+  background-position: center;
+  position: relative;
+  display: flex !important;
+  align-items: center;
+}
+
+header div.head {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+header div.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(0, 0, 0.9);
+  opacity: 0.8;
+  width: 50%;
+  min-width: 280px;
+  text-align: center;
+  padding: 3%;
+}
+
+header div.head {
+  color: white;
+}
+
+header div.head h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 0px;
+  margin: 0;
+  color: white;
+}
+
+header div.head p {
+  padding-left: 30px;
+  font-size: 1.8rem;
+}
+
+/*------------- MAIN SECTION -------------------*/
+
+main {
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}
+
+/*------------- SERVICES -------------------*/
+
+div.services {
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+}
+
+.services a {
+  text-align: center;
+  background: #fff;
+  width: 90%;
+  border-radius: 10px;
+  margin: 10px auto 50px auto;
+
+  -webkit-box-shadow: 0px 10px 30px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 30px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 30px -9px rgba(0, 0, 0, 0.75);
+}
+
+.services p.service-icon {
+  font-size: 2.5rem;
+  padding: 10px 30px;
+  margin: 0px 0px 30px 0px;
+  text-align: center;
+  color: black;
+  filter: grayscale(0%);
+  border-bottom: 2px solid rgb(254, 80, 67);
+}
+.services p.service-title {
+  font-size: 3.1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.services p:last-of-type {
+  font-size: 1.2rem;
+  padding: 0px 30px 30px 30px;
+  text-align: left;
+}
+
+@media (max-width: 1310px) and (min-width: 1100px) {
+  header div.head {
+    width: 100%;
+    // padding-top: 190px;
+  }
+  header div.head h1 {
+    font-size: 3.2rem;
+  }
+
+  header div.head p {
+    font-size: 1.6rem;
+  }
+
+  .services p.service-icon {
+    font-size: 2.4rem;
+    padding: 10px 30px;
+    margin: 0px 0px 30px 0px;
+  }
+  .services p.service-title {
+    font-size: 2.1rem;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1099px) and (min-width: 850px) {
+  header {
+    // height: 350px;
+    background-position: bottom;
+  }
+
+  header div.head {
+    width: 100%;
+    // padding-top: 400px;
+  }
+  header div.head h1 {
+    font-size: 2.8rem;
+  }
+
+  header div.head p {
+    font-size: 1.4rem;
+  }
+
+  .services p.service-icon {
+    font-size: 2.4rem;
+    padding: 10px 30px;
+    margin: 0px 0px 30px 0px;
+  }
+  .services p.service-title {
+    font-size: 2.1rem;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 849px) and (min-width: 600px) {
+  header {
+    height: 440px;
+  }
+
+  header div.head {
+    width: 100%;
+    // padding-top: 120px;
+    // grid-template-columns: 1fr;
+  }
+  header div.head h1 {
+    font-size: 2.4rem;
+  }
+
+  header div.head p {
+    font-size: 1.2rem;
+  }
+
+  div.services {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  div.services div {
+    width: 70%;
+  }
+
+  .services p.service-icon {
+    font-size: 2.4rem;
+    padding: 10px 30px;
+    margin: 0px 0px 30px 0px;
+  }
+  .services p.service-title {
+    font-size: 2.1rem;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 0px) {
+  header {
+    background-size: 160%;
+    height: 270px;
+    position: relative;
+  }
+
+  header div.head {
+    width: 100%;
+    // grid-template-columns: 1fr;
+    // padding-top: 260px;
+  }
+  header div.head h1 {
+    font-size: 2rem;
+    border: none;
+  }
+
+  header div.head p {
+    padding-left: 0px;
+    font-size: 1rem;
+  }
+
+  div.services {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  div.services div {
+    width: 80%;
+  }
+
+  .services p.service-icon {
+    font-size: 2.4rem;
+    padding: 10px 30px;
+    margin: 0px 0px 30px 0px;
+  }
+  .services p.service-title {
+    font-size: 2.1rem;
+    padding: 0;
+    margin: 0;
+  }
+}

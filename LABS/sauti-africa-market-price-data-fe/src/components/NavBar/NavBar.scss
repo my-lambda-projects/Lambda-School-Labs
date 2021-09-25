@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:600&display=swap');
+
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  background-color: #1a1e23;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    z-index: 103 !important;
+  }
+
+  .logo {
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    // padding-left: 8.4rem;
+    padding-top: 0.2rem;
+    width: 15.1%;
+
+    @media (max-width: 500px) {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+
+    a {
+      color: rgba(255, 255, 255, 1);
+      text-decoration: none;
+
+      span {
+        color: #e84c3d !important;
+      }
+    }
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    // border: 1px solid red;
+    width: 60%;
+    font-size: 14px;
+
+    @media (max-width: 500px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .links {
+      // border: 1px solid green;
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .facebook:hover {
+        color: #4267B2;
+      }
+
+      .twitter:hover {
+        color: #1DA1F2;
+      }
+
+      a {
+        color: rgba(255, 255, 255, 1);
+        padding: 0.12rem 0;
+      }
+
+      i {
+        color: rgba(255, 255, 255, 1);
+        padding: 0 0 0.6rem 0;
+      }
+    }
+
+    button {
+      color: rgb(232, 76, 61);
+      background-color: rgba(255, 255, 255, 1);
+      height: 2rem;
+      padding-bottom: 1.6rem;
+    }
+  }
+}

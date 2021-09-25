@@ -1,0 +1,72 @@
+.next-steps .fa-link {
+  margin-right: 5px;
+}
+
+/* Fix for use only flexbox in content area */
+.next-steps .row {
+  margin-bottom: 0;
+}
+
+.next-steps .col-md-5 {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .next-steps .col-md-5 {
+    margin-bottom: 0;
+  }
+}
+
+.spinner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.gridSpinner {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.ant-calendar-picker-input.ant-input {
+  display: flex;
+  width: 282%;
+}
+@media (max-width: 1200px) {
+  .ant-calendar-picker-input.ant-input {
+    width: 236%;
+  }
+}
+@media (max-width: 991px) {
+  .ant-calendar-picker-input.ant-input {
+    width: 175%;
+  }
+}
+@media (max-width: 767px) {
+  .ant-calendar-picker-input.ant-input {
+    width: 129.5%;
+  }
+}
+@media (max-width: 579px) {
+  .ant-calendar-picker-input.ant-input {
+    justify-content: space-evenly;
+    width: auto;
+  }
+}
+
+.appContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

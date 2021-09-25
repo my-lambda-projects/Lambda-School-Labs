@@ -1,0 +1,41 @@
+.playground {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.playForm {
+  display: flex;
+  margin-bottom: 0.5rem;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+}
+a.ui.basic {
+  // margin-top: 1rem;
+  // margin-bottom: 0.2rem;
+  padding-top: 0.877rem;
+  padding-bottom: 0.85rem;
+}
+
+small {
+  // border: 1px solid red;
+  padding-bottom: 0.5rem;
+}
+button.ui.button {
+  margin-right: 0;
+  @media (max-width: 500px) {
+    margin-bottom: 0.3rem;
+  }
+}
+button.ui.violet.button {
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.playBtn {
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
