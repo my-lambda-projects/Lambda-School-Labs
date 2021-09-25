@@ -1,0 +1,22 @@
+.CountryBorder {
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+.CountryBorder .ScratchCard__Container {
+  cursor: url(coincursor.png), auto;
+}
+.CountryBorder .ScratchCard__Container:active:hover {
+  cursor: url(coincursor2.png), auto;
+}
+.CountryBorder .CountryBorder__Canvas {
+  width: 100%;
+}
+.CountryBorder .CountryBorder__SliderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem 0;
+}
+.CountryBorder .CountryBorder__SliderContainer .Slider {
+  width: 85%;
+}

@@ -1,0 +1,69 @@
+.Nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px 30px;
+  width: 94%;
+  height: 50px;
+  // background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  color: gray;
+  box-shadow: -3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+
+  .Nav__title {
+    font-size: 1.8em;
+    min-width: 175px;
+    cursor: default;
+  }
+
+  .Nav__Center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+  }
+
+  .Nav__Right {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    margin-right: 5px;
+
+    .Right__settings {
+      margin: 0 20px 0 0;
+    }
+  }
+
+  .MenuItem {
+    cursor: pointer;
+    letter-spacing: 0.1em;
+
+    &:hover {
+      color: orange;
+    }
+  }
+
+  .Center__friends {
+    font-size: 20px;
+    background-color: rgba(0,0,0,0);
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .Right__signout {
+     &:hover {
+       color: orange;
+     }
+  }
+}

@@ -1,0 +1,52 @@
+.ChangeEmail {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 15px;
+  h1 {
+    cursor: pointer;
+    &:hover {
+      color: orange;
+    }
+  }
+  .Settings__ChangeEmail {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 15px;
+
+    div {
+      margin: 10px;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #NewEmail__header {
+      padding-bottom: 5px;
+      font-style: italic;
+    }
+    .ChangeEmail__input {
+      outline: none;
+      padding: 5px 8px;
+      &:hover {
+        border: 1px solid orange;
+      }
+      &:focus {
+        border: 1px solid orange;
+      }
+    }
+    .ChangeEmail__submit {
+      margin: 10px;
+      cursor: pointer;
+      font-size: 13px;
+      padding: 7px 10px;
+      &:hover {
+        font-weight: bold;
+        color: orange;
+        border: 1px solid orange;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.Dashboard {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}

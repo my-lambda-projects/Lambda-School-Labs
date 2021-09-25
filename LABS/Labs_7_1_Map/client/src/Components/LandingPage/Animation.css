@@ -1,0 +1,119 @@
+.airplane_container {
+  height: 100%;
+  width: 100%;
+}
+.airplane_container .airplane_container__svg {
+  animation-iteration-count: infinite;
+  animation-name: inandout;
+  animation-duration: 20s;
+  width: 100%;
+  margin-top: 10%;
+}
+.airplane_container .cloud1 {
+  position: absolute;
+  animation-iteration-count: infinite;
+  animation-name: cloud1;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  opacity: .001;
+}
+.airplane_container .cloud2 {
+  position: absolute;
+  animation-iteration-count: infinite;
+  margin-left: 2%;
+  animation-name: cloud2;
+  animation-duration: 45s;
+  animation-timing-function: linear;
+  opacity: .001;
+  transform: scale(0.7);
+}
+.airplane_container .cloud3 {
+  position: absolute;
+  animation-iteration-count: infinite;
+  margin-left: 21%;
+  animation-name: cloud3;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  opacity: .001;
+  transform: scale(0.6);
+}
+.airplane_container .cloud4 {
+  position: absolute;
+  animation-iteration-count: infinite;
+  margin-left: 16%;
+  animation-duration: 35s;
+  animation-name: cloud4;
+  animation-timing-function: linear;
+  opacity: .001;
+}
+@keyframes inandout {
+  19% {
+    transform: scale(0.95);
+  }
+  32% {
+    transform: scale(0.99);
+  }
+  39% {
+    transform: scale(0.92);
+  }
+  52% {
+    transform: scale(0.95);
+  }
+  60% {
+    transform: scale(0.94);
+  }
+  90% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes cloud1 {
+  20% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    margin-top: 25%;
+    opacity: 0.001;
+  }
+}
+@keyframes cloud2 {
+  10% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    margin-top: 25%;
+    opacity: 0.001;
+  }
+}
+@keyframes cloud3 {
+  10% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    margin-top: 25%;
+    opacity: 0.001;
+  }
+}
+@keyframes cloud4 {
+  18% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    margin-top: 25%;
+    opacity: 0.001;
+  }
+}
