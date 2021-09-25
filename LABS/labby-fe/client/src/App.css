@@ -1,0 +1,48 @@
+.App {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  background: #828384;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/* 
+.carousel img {
+  height: 225px;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+
+.carousel {
+  margin-bottom: 400px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.farm {
+  background: rgb(226, 223, 223);
+  width: 50%;
+  height: 500px;
+  margin: 0 auto 100px;
+  color: black;
+}
+
+.farm button{
+  width: 247px;
+  background-color: #33B2DD;
+  color: white;
+  margin: 25px;
+  border: none;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+} */
+
+.App a:hover {
+  text-decoration: none;
+}
