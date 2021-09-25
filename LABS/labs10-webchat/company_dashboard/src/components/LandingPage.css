@@ -1,0 +1,44 @@
+.navigation-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+
+}
+
+.landing-info {
+    width: 60%;
+    margin: auto;
+    margin-top: 13%;
+}
+
+.netlify-logo {
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.MuiButtonBase-root-78 a {
+    color: white;
+}
+
+.MuiButtonBase-root-78 a:visited {
+    color: white;
+}
+
+.LandingPage-signup-21 a {
+    color: #2d8754;
+}
+
+.LandingPage-signup-21 a:visited {
+    color: #2d8754;
+}
+
+a {
+    text-decoration: none;
+ }
+a:visited {
+    text-decoration: none;
+    color: black;
+ }
+a:hover { text-decoration: none; }

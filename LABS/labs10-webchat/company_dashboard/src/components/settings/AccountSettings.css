@@ -1,0 +1,123 @@
+.account-settings-container {
+  background-color: #EAEAEA;
+  height: 100%;
+  display: flex;
+}
+
+.update-text{
+   color: #77bf44;
+}
+
+.account-settings-container .account-settings {
+    width: 65%;
+    display: flex;
+    margin-left: 22%;
+    margin-bottom: 15%;
+    padding: 2.5%;
+    margin-top: 5%;
+    height: 600px;
+    border: 2px gray solid;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+.account-settings .left-container form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    height: 80%;
+}
+
+.account-settings .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.account-settings .left-container button {
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 10%;
+    height: 8%;
+    align-self: flex-end;
+}
+
+.account-settings .right-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 60%;
+}
+
+.account-settings .right-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.account-settings .image-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+    align-items: center;
+    height: 80px;
+}
+
+.account-settings .image-upload input {
+  display: none;
+}
+
+.account-settings .image-upload button {
+  width: 120px;
+}
+
+.checkout {
+    width: 20%;
+    margin: auto;
+}
+
+@media (max-width: 1320px) {
+  .account-settings {
+      height: 100%;
+      width: 85%;
+    }
+
+  .account-settings .right-container img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .account-settings-container {
+    padding-top: 0;
+    height: 100%;
+    display: block;
+    }
+
+  .account-settings-container .account-settings {
+    margin: auto;
+    margin-top: 10%;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 60%;
+    width: 85%;
+    padding-top: 0;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+    }
+
+  .account-settings .right-container {
+    margin-top: 30%;
+    margin-left: 0;
+    }
+
+    .account-settings .image-upload button {
+      margin-top: 0;
+    }
+  }
