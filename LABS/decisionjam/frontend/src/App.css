@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+/* //links */
+a {
+  text-decoration: none;
+}
+
+body,
+html {
+  background-color: #f6f9fc;
+  font-size: 18px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}

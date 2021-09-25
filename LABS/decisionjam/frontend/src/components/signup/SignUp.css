@@ -1,0 +1,42 @@
+.login-error {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: red;
+}
+
+.signup-title {
+  font-weight: 400;
+  color: #303030;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.signuppage-container {
+  padding-top: 80px;
+}
+.signup-form {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ebebeb;
+}
+
+input[type="text"],
+select {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+.signup-labels {
+  text-align: left;
+  padding-top: 10px;
+}

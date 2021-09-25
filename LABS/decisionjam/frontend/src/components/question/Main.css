@@ -1,0 +1,46 @@
+.main-wrapper {
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #ebebeb;
+}
+
+.luckyyou {
+  font-size: 30px;
+  color: #ffa500;
+}
+
+.enter-text {
+  color: #505050;
+  padding-top: 30px;
+}
+
+.main-input-wrapper {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.main-input {
+  width: 20px;
+  height: 40px;
+}
+
+.main-input[type="text"],
+select {
+  width: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+.mainpage-error-message {
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: red;
+}
