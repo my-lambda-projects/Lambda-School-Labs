@@ -1,0 +1,26 @@
+.cardNumber {
+    padding: 10px;
+}
+
+.billing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;    
+    padding: 50px;
+}
+
+.buybutton {
+    margin-top: 10px;
+    background-color: #039cd8;
+}
+
+.cardInput {
+    padding: 15px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.centered{
+    text-align: center;
+}

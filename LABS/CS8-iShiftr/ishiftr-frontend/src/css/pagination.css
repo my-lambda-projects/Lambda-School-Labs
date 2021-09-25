@@ -1,0 +1,6 @@
+.pagination li {
+    margin-right: 50px;
+    border: 1px solid black;
+    padding: 7px 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.employeesList{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: start;
+}
+
+.addBtn {
+    background-color: #039cd8 !important;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px 50px;
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    margin: 40px;
+    cursor: pointer;
+    border-radius: 5px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row a:hover{
+    text-decoration: none;
+}
+
+
+.center{
+    display: flex;
+    align-content: center;
+}
+
+.center i {
+    margin-right: 5px;
+}

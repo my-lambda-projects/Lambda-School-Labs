@@ -1,0 +1,101 @@
+.topContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-container{
+    display: flex;
+    margin-top: 50px;
+} 
+
+.create-schedule{
+    margin: 35px 50px;
+}
+
+
+.dataPicker {
+    margin-top: 30px;
+} 
+
+.daysForm{
+    margin-top: 30px;
+    text-align: left;
+}
+
+input[type = radio] {
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+input[type = date] {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+input[type = time] {
+    margin: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.checkboxes{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 90px
+}
+
+.btnGen{
+    margin-top: 20px;
+    background-color: #039cd8 !important;
+    border: none !important;
+    padding: 16px !important;
+}
+
+.flexBox{
+    display: flex;
+}
+
+
+/************DatePicker CSS*********************/
+
+.react-datepicker {
+    width: 400px;
+    height: 350px;
+}
+.react-datepicker__header {
+    width: 400px;
+}
+
+.react-datepicker__day{
+    cursor: pointer;
+}
+
+.react-datepicker__day-names{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.react-datepicker__day-name{
+    font-weight: bold;
+}
+
+.react-datepicker__week {
+    margin: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.react-datepicker__month {
+    text-align: center;
+    width: 385px;
+    height: 270px;
+}
+
+
+

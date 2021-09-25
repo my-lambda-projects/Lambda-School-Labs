@@ -1,0 +1,15 @@
+.editShift{
+    display: flex;
+    justify-content: space-between;
+}
+
+.editShift button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    background-color: white;
+    width: 120px;
+    color: black;
+    font-size: 12px;
+}

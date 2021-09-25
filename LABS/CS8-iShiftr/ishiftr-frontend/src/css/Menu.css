@@ -1,0 +1,22 @@
+.menu {
+    padding-right: 10px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    text-decoration-color: black;
+    padding: 0;
+}
+
+.menu ul a{
+    text-decoration: none;
+    margin-bottom: 10px;
+
+}
+.disabled-link {
+    pointer-events: none;
+}
+
+  .fa-2x {
+    font-size: 15px;
+}

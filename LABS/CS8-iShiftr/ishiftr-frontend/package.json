@@ -1,0 +1,31 @@
+{
+  "name": "ishiftr",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "axios": "^0.18.1",
+    "bootstrap": "^4.1.2",
+    "coverflow-react": "^0.1.28",
+    "moment": "^2.22.2",
+    "react": "^16.4.1",
+    "react-big-calendar": "^0.19.2",
+    "react-datepicker": "^1.5.0",
+    "react-dnd": "^2.6.0",
+    "react-dnd-html5-backend": "^2.6.0",
+    "react-dom": "^16.4.1",
+    "react-fontawesome": "^1.6.1",
+    "react-notify-toast": "^0.5.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-stripe-elements": "^2.0.1",
+    "reactstrap": "^6.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp build/index.html build/404.html",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
