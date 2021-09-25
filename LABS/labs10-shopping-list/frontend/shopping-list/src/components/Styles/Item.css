@@ -1,0 +1,85 @@
+.item-container {
+    width: 100%;
+    margin: 2px 0px;
+    padding: 5px;
+}
+
+.item-row{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px){
+    .item-row h2 {
+        font-size: medium;
+    }
+}
+
+.item-row span {
+    width: 90%;
+}
+
+.item-row button {
+    margin: 0px 5px;
+    width: 100%;
+}
+
+
+.item-container form {
+    /*display: flex;*/
+    /*flex-flow: row nowrap;*/
+    /*justify-content: space-between;*/
+}
+
+.item-container button {
+    max-width: fit-content;
+    padding: 5px;
+}
+
+.item-container input {
+    padding: 5px 5px;
+}
+
+.edit-form input {
+    width: 100%;
+}
+
+.item-remove {
+    cursor: pointer;
+}
+
+.item-list-container {
+    z-index: 90;
+}
+
+.delete-hover {
+    display: none;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+
+.item-row:hover > .delete-hover{
+    display: block;
+}
+
+.mobile-hover {
+    display: none;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 30px;
+    width: 10px;
+}
+
+@media only screen and (max-width: 767px){
+    .item-row:hover > .delete-hover {
+        display: none;
+    }
+
+    .item-row:hover > .mobile-hover {
+        display: block;
+    }
+}

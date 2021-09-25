@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A389" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category1" representedClassName="Category1" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="itemID" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Items1" inverseName="categoryID" inverseEntity="Items1" syncable="YES"/>
+    </entity>
+    <entity name="Group1" representedClassName="Group1" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="groupID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="groupId" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Users1" inverseName="userID" inverseEntity="Users1" syncable="YES"/>
+        <relationship name="groupmemberID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupMembers1" inverseName="groupid" inverseEntity="GroupMembers1" syncable="YES"/>
+        <relationship name="itemID" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Items1" inverseName="groupId" inverseEntity="Items1" syncable="YES"/>
+        <relationship name="trip" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip1" inverseName="group" inverseEntity="Trip1" syncable="YES"/>
+    </entity>
+    <entity name="GroupMembers1" representedClassName="GroupMembers1" syncable="YES" codeGenerationType="class">
+        <attribute name="groupID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="moderator" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="monthlyNotification" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="net" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="total" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="weeklyNotification" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="groupid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group1" inverseName="groupmemberID" inverseEntity="Group1" syncable="YES"/>
+        <relationship name="userid" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Users1" inverseName="groupmembersID" inverseEntity="Users1" syncable="YES"/>
+    </entity>
+    <entity name="Items1" representedClassName="Items1" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="measurement" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="categoryID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category1" inverseName="itemID" inverseEntity="Category1" syncable="YES"/>
+        <relationship name="groupId" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group1" inverseName="itemID" inverseEntity="Group1" syncable="YES"/>
+        <relationship name="trip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trip1" inverseName="item" inverseEntity="Trip1" syncable="YES"/>
+        <relationship name="users" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users1" inverseName="item" inverseEntity="Users1" syncable="YES"/>
+    </entity>
+    <entity name="MobileDevices1" representedClassName="MobileDevices1" syncable="YES" codeGenerationType="class">
+        <attribute name="deviceID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="mobileID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users1" inverseName="mobileID" inverseEntity="Users1" syncable="YES"/>
+    </entity>
+    <entity name="Notification1" representedClassName="Notification1" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="notificationID" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Users1" inverseName="notificationID" inverseEntity="Users1" syncable="YES"/>
+    </entity>
+    <entity name="Token1" representedClassName="Token1" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="userId" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users1" inverseName="tokenid" inverseEntity="Users1" syncable="YES"/>
+    </entity>
+    <entity name="Trip1" representedClassName="Trip1" syncable="YES" codeGenerationType="class">
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="purchasedOn" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group1" inverseName="trip" inverseEntity="Group1" syncable="YES"/>
+        <relationship name="item" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Items1" inverseName="trip" inverseEntity="Items1" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users1" inverseName="trip" inverseEntity="Users1" syncable="YES"/>
+    </entity>
+    <entity name="Users1" representedClassName="Users1" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="email" attributeType="String" syncable="YES"/>
+        <attribute name="emailNotification" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subscriptionType" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="textNotification" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="groupmembersID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupMembers1" inverseName="userid" inverseEntity="GroupMembers1" syncable="YES"/>
+        <relationship name="item" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Items1" inverseName="users" inverseEntity="Items1" syncable="YES"/>
+        <relationship name="mobileID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MobileDevices1" inverseName="mobileID" inverseEntity="MobileDevices1" syncable="YES"/>
+        <relationship name="notificationID" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Notification1" inverseName="notificationID" inverseEntity="Notification1" syncable="YES"/>
+        <relationship name="tokenid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Token1" inverseName="userId" inverseEntity="Token1" syncable="YES"/>
+        <relationship name="trip" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip1" inverseName="user" inverseEntity="Trip1" syncable="YES"/>
+        <relationship name="userID" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group1" inverseName="groupId" inverseEntity="Group1" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category1" positionX="-446.33984375" positionY="43.28515625" width="128" height="88"/>
+        <element name="Group1" positionX="-444.234375" positionY="159.3515625" width="128" height="193"/>
+        <element name="GroupMembers1" positionX="146.59375" positionY="160.03125" width="128" height="178"/>
+        <element name="Items1" positionX="-58.5546875" positionY="-75.828125" width="128" height="223"/>
+        <element name="MobileDevices1" positionX="355.87890625" positionY="514.66015625" width="128" height="103"/>
+        <element name="Notification1" positionX="359.87109375" positionY="366.41796875" width="128" height="133"/>
+        <element name="Token1" positionX="356.65234375" positionY="622.2890625" width="128" height="103"/>
+        <element name="Trip1" positionX="-464.6171875" positionY="492.30078125" width="128" height="148"/>
+        <element name="Users1" positionX="-90.98046875" positionY="417.8125" width="128" height="283"/>
+    </elements>
+</model>

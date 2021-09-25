@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+.home-container{
+    width: 100%;
+}
+
+.home-container h1{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.home-container h2{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.home-container h3{
+    font-family: "Montserrat", sans-serif;
+}
+
+.home-container p{
+    font-family: "Roboto" sans-serif;
+}
+
+/* .home-banner{
+    background: url('../../images/banner-shop-girl.jpg') no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-position-y: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+} */
+
+
+
+.home-banner-vid{
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    width: 100vw;
+    margin-top: 55px;
+}
+
+.home-banner-vid img {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.home-banner-overlay {
+    z-index: 2;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-banner-overlay h1{
+    font-size: 8rem;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.home-banner-overlay h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.about p {
+    font-size: 1.25rem;
+}
+
+.home-content{
+    /* border-radius: 20px; */
+    background: white;
+    padding: 60px 60px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+
+.content-tiles{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.tile-img{
+    width: 47%;
+    margin: 20px 0px;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .tile-img img{
+    border-radius: 20px;
+} */
+
+.tile-text{
+    width: 47%;
+    margin: 20px 0px;
+    font-size: 1.25rem;
+}
+
+section {
+    align-items: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button{
+    color: #362023
+}
+
+.about h2, .value h2 {
+    text-align: center;
+    margin: 40px 0px;
+    width: 100%;
+}
+
+.about-tile-grid, .value-tile-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+
+.about-tile, .value-tile {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+}
+
+.about-icon, .value-icon{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-icon i, .value-icon i{
+    margin: 10px;
+}
+
+.about-text, .value-text {
+    padding: 0px 20px;
+}
+
+.about-text h3, .value-text h3{
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.about-text p, .value-text p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.plans {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.plans .card {
+    width: 40%;
+    margin: 0 5%;
+}
+
+.plans .card-header{
+    background: #2A922D;
+    color: white;
+    text-align: center;
+}
+
+.plans .card-title h2{
+    text-align: center;
+}
+
+.plans .card-title p{
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.plans .card-text {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.plans .card-footer {
+    text-align: center;
+}
+
+.plans .card-footer button {
+    background: #2A922D !important;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0px;
+    color: lightgray;
+}
+
+@media only screen and (max-width: 767px){
+
+    .home-banner-overlay h1{
+        font-size: 4rem;
+    }
+
+    .home-banner-overlay h2{
+        font-size: 2rem;
+    }
+
+    .home-content{
+        padding: 10px;
+    }
+
+    .content-tiles{
+        flex-flow: column nowrap;
+    }
+
+    .about-tile-grid, .value-tile-grid{
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+
+    .about-tile, .value-tile {
+        width: 100%;
+    }
+
+    .tile-img{
+        width: 100%;
+    }
+
+    .tile-text{
+        width: 100%;
+    }
+
+    .plans {
+        flex-flow: column nowrap;
+    }
+
+    .plans .card{
+        width: 100%;
+        margin: 20px 0px;
+    }
+}

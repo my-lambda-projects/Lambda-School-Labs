@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+.groups-container {
+    margin-top: 60px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.delete-text {
+    color: red;
+}
+
+.group-card{
+    margin-bottom: 40px;
+    margin-top: 2%;
+    width: 25%;
+}
+
+
+.group-card-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-family: "Montserrat", "sans-serif";
+    background: #2A922D;
+    color: white;
+}
+
+.group-card-footer-button{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px){
+
+    .group-card{
+        margin-top: 60px;
+    }
+}
+
+.group-user-image img {
+    width: 30px;
+    border-radius: 30px;
+    margin: 3%;
+}

@@ -1,0 +1,39 @@
+.item-list-container {
+    padding: 40px;
+}
+
+.item-list {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    /*height: 500px;*/
+    overflow: auto;
+    max-height: 500px;
+}
+
+.item-form{
+    width: 100%;
+}
+
+.item-form form{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.item-form input[name='item']{
+    width: 100%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 767px){
+    .item-list{
+        width: 100%;
+    }
+
+    .item-form{
+        width: 100%;
+    }
+
+}

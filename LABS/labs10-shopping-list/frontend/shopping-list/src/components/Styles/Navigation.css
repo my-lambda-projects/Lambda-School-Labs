@@ -1,0 +1,109 @@
+.navigation-container {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 3;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.nav-links{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-links a{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.nav-user-btn img{
+    max-height: 30px;
+    border-radius: 50px;
+    margin: 0px 10px;
+}
+
+.nav-user-greeting{
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button{
+    margin-left: 10px;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.dropdown-default{
+    width: 400px;
+    padding: 20px ;
+}
+
+@media (max-width: 767px){
+    .nav-mobile {
+        display: block;
+    }
+
+    .navbar-collapse {
+        margin-top: 12px;
+    }
+
+    .navigation-container {
+        height: 60px;
+        width: 100%;
+    }
+
+    .navbar{
+        height: 60px;
+    }
+
+    .dropdown-menu {
+        /*background: #2A922D;*/
+        display: none;
+    }
+
+    .dropdown-default{
+        /*background: #2A922D;*/
+        display: none;
+    }
+
+    .nav-link {
+        /*background: #00cc00;*/
+    }
+
+    .navbar-nav{
+        background: #2A922D;
+    }
+
+    .dropdown-toggle {
+        display: none;
+    }
+
+    .nav-hide {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+    }
+
+    .nav-item:hover {
+        background: #00cc00;
+    }
+}

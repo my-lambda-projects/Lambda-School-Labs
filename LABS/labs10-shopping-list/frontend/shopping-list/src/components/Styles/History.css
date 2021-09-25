@@ -1,0 +1,9 @@
+.history-items {
+    width: 100%;
+    margin: 2px 0 20px 0;
+    padding: 5px;
+}
+
+.history-item {
+    margin-left: 1%;
+}
