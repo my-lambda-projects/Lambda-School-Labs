@@ -1,0 +1,54 @@
+.post-page {
+  &__container {
+    display: flex;
+    flex-direction: column;
+
+    .post-page__post {
+      display: flex;
+
+      @media @tablet {
+        flex-direction: column;
+        margin-left: 2%;
+      }
+
+      .post__left-col {
+        width: 10%;
+
+        @media @tablet {
+          justify-content: start;
+        }
+      }
+
+      .post__right-col {
+        width: 100%;
+        margin-top: 15px;
+
+        @media @tablet {
+          margin-top: 0px;
+        }
+      }
+    }
+    .post-page__comments-header {
+      font-weight: 800;
+    }
+
+    .post-page__comments {
+      margin-top: 15px;
+      margin-left: 10%;
+      &-header {
+        margin-top: 3%;
+        margin-bottom: 1.5%;
+      }
+      .post-page__new-comment-header {
+        font-size: 1.25em;
+        margin: 5% 0 1.5% 0;
+      }
+    }
+    .post-page__edit-btn, .post-page__delete-btn {
+      margin-top: 15px;
+    }
+    .post-page__edit-btn {
+      margin-right: 10px;
+    }
+  }
+}

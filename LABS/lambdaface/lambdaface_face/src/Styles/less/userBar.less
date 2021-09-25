@@ -1,0 +1,100 @@
+.user-bar {
+  &__container {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    font-size: .9em;
+    @media @tablet {
+      font-size: .875em;
+    }
+    @media @600px {
+      flex-wrap: wrap;
+    }
+  }
+  &__info {
+    color: grey;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    @media @600px {
+     justify-content: space-around; 
+    }
+  }
+  &__userInfo {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    > img{
+      margin-right: 10px;
+    }
+    @media @600px {
+     width: 35%; 
+    }
+    @media @phone {
+      width: 50%;
+    }
+  }
+  &__voteInfo {
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+  }
+  &__category {
+    display: flex;
+    .categoryIconStyle {
+      transform: scale(0.75);
+      fill: grey;
+    }
+  }
+  &__category-name {
+    margin-left: 3px;
+  }
+  &__post-details {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    @media @600px {
+     display: none; 
+    }
+  }
+  &__singlepost-info {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: grey;
+    width: 80%;
+    @media @600px {
+      width: 95%;
+    }
+    .user-bar__singlepost-category {
+      display: flex;
+      justify-content: center;
+      width: 35%;
+      > img {
+        margin-right: 2%;
+      }
+      @media @500px {
+        display: none;
+      }
+    }
+  }
+  &__comment-info {
+    display: flex;
+    align-items: center;
+    color: grey;
+    width: 50%;
+  }
+  &__comment-button {
+    margin-left: 38%;
+    @media @600px {
+      margin-left: 20%;
+    }
+    @media @phone {
+      margin-left: 0%;
+    }
+  }
+  &__reply-button {
+    margin-left: 22%;
+  }
+}

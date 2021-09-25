@@ -1,0 +1,24 @@
+.home-page {
+
+  &__top-bar {
+
+  }
+
+  &__bottom {
+    display: flex;
+
+    .home-page__left-nav {
+      @media @tablet {
+        display: none;
+      }
+    }
+  
+    .home-page__main {
+      width: 75%;
+      @media @tablet {
+        width: 100%;
+      }
+    }
+  }
+
+}
