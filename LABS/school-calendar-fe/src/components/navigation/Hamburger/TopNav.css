@@ -1,0 +1,121 @@
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.burger-container{
+  display: flex;
+  position: sticky;
+  justify-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.blue{
+background: blue;
+}
+
+input#menu {
+  display: none;
+}
+
+.icon {
+  background: #FFF;
+  cursor: pointer;
+  display: block;
+  height: 24px;
+  padding: 16px;
+  width: 24px;
+  right: 30px;
+}
+
+label.icon {
+  position: fixed;
+  z-index: 200;
+}
+
+.icon .menu,
+.icon .menu::before,
+.icon .menu::after {
+  background: #28807d;
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+  width: 20px;
+}
+
+.icon:hover .menu,
+.icon:hover .menu::before,
+.icon:hover .menu::after {
+  background: #28807d;
+}
+
+.icon .menu {
+  left: 18px;
+  top: 27px;
+}
+
+.icon .menu::before {
+  top: -6px;
+}
+
+.icon .menu::after {
+  top: 6px;
+}
+
+#menu:checked + .icon .menu {
+  background: transparent;
+}
+
+#menu:checked + .icon .menu::before {
+  transform: rotate(45deg);
+}
+
+#menu:checked + .icon .menu::after {
+  transform: rotate(-45deg);
+}
+
+#menu:checked + .icon .menu::before,
+#menu:checked + .icon .menu::after {
+  top: 0;
+  transition: top ease .3s, transform ease .3s .3s;
+}
+
+nav {
+  background: #FFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  height: 10px;
+  width: 100%;
+  padding-top: 20px;
+  position: fixed;
+  transition: height ease .6s;
+  z-index: 100;
+  
+  overflow: hidden;
+}
+
+/*when menu selected, change the height of nav to 40vh*/
+#menu:checked ~ nav {
+  height: 120px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  cursor: pointer;
+  display: block;
+  line-height: 40px;
+  padding-left: 16px;
+  white-space: nowrap;
+}
+
+/* nav i {
+  color: #9FB1BD;
+  margin-right: 24px;
+  vertical-align: text-bottom;
+} */
+

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checkValidServiceWorker should render correctly 1`] = `<checkValidServiceWorker />`;
+
+exports[`register should render correctly 1`] = `<register />`;
+
+exports[`registerValidSW should render correctly 1`] = `<registerValidSW />`;
+
+exports[`unregister should render correctly 1`] = `<unregister />`;

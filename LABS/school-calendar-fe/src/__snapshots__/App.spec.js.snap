@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Initializing Components should render App correctly 1`] = `
+<Stack
+  minHeight="100vh"
+  pos="relative"
+  w="100%"
+>
+  <Header />
+  <Route
+    path="/authenticate/google"
+  >
+    <Authenticate />
+  </Route>
+  <Route
+    exact={true}
+    path="/"
+  >
+    <Welcome />
+  </Route>
+  <PrivateRoute
+    path="/:id/dashboard"
+  >
+    <Dashboard />
+  </PrivateRoute>
+</Stack>
+`;
+
+exports[`Initializing Components should render initializeAnalytics 1`] = `<initializeAnalytics />`;
+
+exports[`initializeAnalytics should render App correctly 1`] = `
+<Stack
+  minHeight="100vh"
+  pos="relative"
+  w="100%"
+>
+  <Header />
+  <Route
+    path="/authenticate/google"
+  >
+    <Authenticate />
+  </Route>
+  <Route
+    exact={true}
+    path="/"
+  >
+    <Welcome />
+  </Route>
+  <PrivateRoute
+    path="/:id/dashboard"
+  >
+    <Dashboard />
+  </PrivateRoute>
+</Stack>
+`;
+
+exports[`initializeAnalytics should render Welcome correctly 1`] = `
+<Flex
+  align="center"
+  backgroundColor="#ebf1f1"
+  direction="column"
+  h="100%"
+  justify="center"
+  p="2rem"
+>
+  <Grid
+    alignItems="center"
+    gap={2}
+    justifyContent="center"
+    templateColumns="repeat(auto-fit, minmax(349px, 1fr))"
+    width="100%"
+  >
+    <CallToAction />
+    <Graphic />
+  </Grid>
+</Flex>
+`;
+
+exports[`initializeAnalytics should render correctly 1`] = `<initializeAnalytics />`;
+
+exports[`initializeAnalytics should render correctly 2`] = `
+<div
+  className="App"
+>
+  <Route
+    exact={true}
+    path="/"
+  >
+    <Splash />
+  </Route>
+  <Route
+    path="/authenticate/google"
+  >
+    <Authenticate />
+  </Route>
+  <Route
+    path="/home"
+  >
+    <Home />
+  </Route>
+  <Route
+    path="/events"
+  >
+    <Events />
+  </Route>
+</div>
+`;
+
+exports[`initializeAnalytics should render initializeAnalytics 1`] = `<initializeAnalytics />`;

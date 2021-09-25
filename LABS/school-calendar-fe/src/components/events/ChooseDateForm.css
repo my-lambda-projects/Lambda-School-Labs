@@ -1,0 +1,23 @@
+.deleting{
+    background-color: #FC8181;
+    -webkit-transition: background-color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s;
+}
+
+.hide{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 2s; /* For Safari 3.1 to 6.0 */
+    transition: visibility 2s;
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
+}
+
+.show{
+    opacity: 1;
+    display: block;
+    -webkit-transition: visibility 2s; /* For Safari 3.1 to 6.0 */
+    transition: visibility 2s;
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
+}
