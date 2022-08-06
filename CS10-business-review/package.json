@@ -17,7 +17,7 @@
     "less": "^3.8.1",
     "less-watch-compiler": "^1.11.3",
     "moment": "^2.22.2",
-    "mongoose": "^5.0.17",
+    "mongoose": "^5.7.5",
     "nodemon": "^1.18.4",
     "passport": "^0.4.0",
     "passport-google-oauth": "^1.0.0",
