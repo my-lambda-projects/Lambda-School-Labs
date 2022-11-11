@@ -31,7 +31,7 @@
     "mongoose": "^5.1.4",
     "morgan": "^1.9.0",
     "sinon": "^6.0.0",
-    "socket.io": "^2.1.1",
+    "socket.io": "^2.5.0",
     "stripe": "^6.1.1",
     "twilio": "^3.17.2"
   },
