@@ -13,7 +13,7 @@
     "helmet": "^3.12.0",
     "inquirer": "^6.2.0",
     "is-mergeable-object": "^1.1.0",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.0",
     "less": "^3.8.1",
     "less-watch-compiler": "^1.11.3",
     "moment": "^2.22.2",
