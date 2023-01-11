@@ -7,7 +7,7 @@
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.13",
+    "react-scripts": "5.0.1",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
@@ -18,8 +18,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.31.0",
     "eslint-config-airbnb": "^15.1.0",
     "js-yaml": "^3.10.0",
     "prettier-eslint": "^8.1.1"
