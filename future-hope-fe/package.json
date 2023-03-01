@@ -75,7 +75,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^3.8.3",
+    "cypress": "^12.7.0",
     "cypress-react-unit-test": "^2.4.3",
     "react-ga": "^2.6.0"
   }
